@@ -70,7 +70,7 @@ menu:
       pageRef: /game_resources
     - name: Itch.io
       weight: 4
-      url: https://galileo-alighieri.itch.io/murdham
+      url: https://azureorangutan.itch.io/murdham
     - name: Search
       weight: 10
       params:
