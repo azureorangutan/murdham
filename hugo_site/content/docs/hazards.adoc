@@ -16,7 +16,7 @@ They can attempt to cushion the fall by passing an AGI save, in which case the e
 
 Characters can hold their breath for 8 rounds.
 After this period they must pass a STR save at the end of each round or pass out, becoming _incapacitated_ until the end of the stretch.
-If they fail another save to resist suffocation while _incapacitated_ they die.
+They die if they fail another save to resist suffocation while _incapacitated_.
 
 
 == Elemental damage
@@ -63,7 +63,7 @@ Weapons and sharp objects can be coated with a dose of the poison, which is deli
 
 * *Ingestion*.
 The poison must be ingested.
-If mixed with food or drinks, characters can passively detect that something is wrong by passing a WIT save unless the food or drink have a very strong taste and smell.
+If mixed with food or drinks, characters can passively detect that something is wrong by passing a WIT save unless the food or drink have very strong taste and smell.
 
 Poison effects:
 
@@ -89,8 +89,10 @@ The effect ends earlier if they suffer damage or take an _antidote_.
 == Disease
 
 Characters exposed to a disease, including spending time close to someone who is already infected, must pass a STR save or become _sick_.
+
 _Sick_ characters must make a recovery save based on STR at the end of each day.
 They recover after accumulating 3 successes in total, but they temporarily reduce STR, AGI, and WIT by d4 each time they fail as the symptoms of the disease worsen.
+Specific diseases might bring additional negative effects.
 
 * *Influence*.
 A bad flu, which follows no special rules.
@@ -113,15 +115,16 @@ Symptoms include hallucinations and weird buboes, constantly changing shape, col
 Victims who fail a recovery roll additionally suffer 2 corruption.
 
 * *Digworm*.
-A parasite digging into the skin.
+A parasite digging into the victim's skin and sucking their blood.
 Symptoms include fever, weakness, and constant hunger.
-Healing naturally via recovery saves isn't possible (they are still made to save against negative effects), but the parasite can be surgically removed.
+Healing naturally via recovery saves isn't possible, but the parasite can be surgically removed.
+Recovery saves must still be made to determine if the disease causes ability reduction.
 Not contagious.
 
 * *Greater rot*.
 Symptoms are abhorrent and often leave the victim permanently debilitated: rotting flesh, pulsating buboes, vomiting, diarrhoea, cough, and high fever.
 Victims who fail a recover roll reduce their ability scores as usual, but one point of reduction for each ability is permanent rather than temporary.
-There is no cure, only powers or natural recovery can help.
+There is no mundane cure, only natural recovery or magic powers can help.
 
 * *Plague*.
 Symptoms include fever and large buboes.

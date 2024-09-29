@@ -52,7 +52,7 @@ The GM rules that she succeeds automatically, without needing to roll.
 Sybilla doesn't have the skill, so she must make a save.
 
 Later they find themselves in a similar situation, but a torrential rain starts pouring, making the surface slippery.
-The GM rules that it's practically impossible for most people to climb safely.
+The GM rules that it's practically impossible for most people to climb safely, so Sybilla can't even attempt to do it.
 Since Beatrice has the _climbing_ skill, however, the GM allows her to attempt to do it with an AGI save.
 Once she is on top, she rolls out a _rope ladder_ she had in her backpack to let Beatrice up.
 The GM rules that climbing the ladder is trivial, even despite the rain, so Beatrice can just climb up without risks.

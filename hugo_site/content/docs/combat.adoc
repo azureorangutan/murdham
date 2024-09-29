@@ -70,6 +70,8 @@ Armour can't be changed during a fight.
 
 * *Guard* a nearby ally.
 
+* *Hide behind* a nearby ally or a grabbed enemy.
+
 * Perform an *opportunity attack*.
 
 
@@ -101,7 +103,7 @@ Attacking while moving isn't possible.
 
 == Reacting to an attack
 
-Targets of an attack may attempt to dodge or counter as a reaction.
+Targets of an attack may attempt to dodge, counter, or hide behind a nearby character as a reaction.
 The choice must be made before rolling for damage but after the WIT save to hit, if required.
 Targets who are unaware of their attacker can't react.
 
@@ -114,6 +116,11 @@ Both characters roll for damage at the same time.
 Whoever suffers the most damage, after reductions, is hit first.
 In case of a tie both characters are hit at the same time.
 Attacks with multiple targets can only be countered by a single target.
+
+* *Hide behind a nearby character*.
+Choose a nearby character, who must agree with the action.
+This character becomes the new target of the attack.
+They can perform their own reaction.
 
 A character who is nearby the target of an attack can react by guarding them.
 They become the new target of the attack.
@@ -172,18 +179,24 @@ A nearby target must pass a STR save or drop a weapon chosen by the attacker.
 * *Grapple*.
 A nearby target must pass a STR save or be grabbed by the attacker.
 Grabbed characters are _entangled_ for as long as their enemy keeps hold of them.
-Characters who are grabbing another character can move together with them and attack them while keeping hold, but doing anything else automatically frees the grabbed character.
-They can also shove the grabbed character, freeing them but forcing them to move by half a zone and/or pushing them into a hazard in their zone.
+
+** Characters who are grabbing another character can move together with them and attack them while keeping hold, but doing anything else automatically frees the grabbed character.
+
+** They can also shove the grabbed character, freeing them but forcing them to move by half a zone and/or pushing them into a hazard in their zone.
+
+** Finally, they can hide behind the grabbed character as a reaction to an attack.
+The grabbed character has no option but become the new target of the attack.
 
 
 == Sneaking in combat
 
 Characters who launch an ambush are concealed at the start of the fight.
 Hiding later during the fight requires being out of sight for a while or a major distraction.
-The GM should keep the position of concealed characters hidden from the Players, and should control characters that they realistically ignore concealed Player characters.
+The GM should keep the position of concealed characters hidden from the Players, and should control their characters so that they realistically ignore concealed Player characters.
 
 Concealed characters are revealed when they make noise or become visible to the enemy.
 Actions which might reveal a character include: attacking, invoking a power, talking, moving without sneaking, walking right in front of the enemy, etc.
+Concealed characters who want to sneak around during a fight follow the rules detailed in the link:../perception_and_knowledge/#_sneaking[Sneaking] section: they halve their speed, must have the opportunity to move silently and out of sight, and must pass an AGI save to avoid detection.
 
 Characters who are concealed at the start of the fight can take a bonus turn before the others.
 Follow the normal round procedure, but characters who aren't concealed and are unaware of the concealed characters can't take their turn.
@@ -237,7 +250,7 @@ Characters can always react in any sub-phase, no matter what their WIT score is.
 ++++
 {{% details title="Example" closed="true" %}}
 
-Balthasar (WIT 12), Sybilla (WIT 6), and Theobald (WIT 9) are fighting against two bandits (WIT 8) and their leader (WIT 10);
+Balthasar (WIT 12), Sybilla (WIT 6), and Theobald (WIT 9) are fighting against two bandits (WIT 8) and their leader (WIT 10).
 The Players have the initiative.
 
 The GM rolls a d20 to determine the fast action threshold: the result is 9.
@@ -247,10 +260,10 @@ Sybilla and the two bandits can't, because their WIT is lower than 9.
 The fast action sub-phase begins.
 Since the Players have the initiative, they take turn first.
 They choose Theobald to go first: he decides to attack one of the two bandits.
-The bandit chooses to react to the attack by dodging: they can do so even if they can't take turn during the fast action phase because reactions are always allowed.
+The bandit chooses to react to the attack by dodging (note that they can do so even if they can't take their turn during the fast action phase).
 After the attack is resolved, it's the enemies' turn and the bandit leader acts.
 Balthasar could then act, but the Players decide to pass instead.
-The bandits must pass because they have no characters left who can act, and the sub-phase ends.
+The bandits must pass because they have no characters left who can act, and therefore the sub-phase ends.
 
 The slow action sub-phase begins.
 All characters who haven't acted yet can take a turn: Balthasar, Sybilla, and one of the bandits, the one who didn't react to the attack.
@@ -264,7 +277,7 @@ Both factions must pass because they have no characters left, and the action pha
 
 == Optional rule: the chaos of combat
 
-These is an optional rule you can use to represent the chaotic nature of combat and to reduce the amount of time spent to resolve fights if the Players like to strategise and think a lot.
+This is an optional rule you can use to represent the chaotic nature of combat and to reduce the amount of time spent to resolve fights if the Players like to strategise and think a lot.
 If you prefer a more '`relaxed`' and tactical experience, feel free to ignore them.
 
 * The Players aren't allowed to speak to each other unless their character spends a bonus action to say a short sentence.

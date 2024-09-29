@@ -60,13 +60,12 @@ Climbing a sheer, smooth surface is impossible: characters just can't do it.
 == Consequences of failure
 
 A failed save doesn't necessarily means a failure in the action itself: the GM may rule that the action is still successful even on failure.
-However, no matter what's the case, the GM should always define at least one additional negative consequence for a failed save.
+However, no matter the case, the GM should always define at least one additional negative consequence for a failed save.
 These are typical options, but don't feel limited by them:
 
-* The character can't attempt the same action again.
-Other characters can, but don't roll the d20 again: instead compare the same roll result to their own ability score.
-You can think of the result of the roll as as a '`difficulty level`' of the task, which applies to everyone in the same way.
-Make sure the Players have other options to progress through the scenario: a failed save should never completely halt progress!
+* The character who failed can't attempt the action again, but others can.
+
+* No character can't attempt the same action again.
 
 * The character suffers damage or corruption.
 
@@ -118,3 +117,27 @@ The ranking is as follows: Sybilla wins, then Balthasar, then Theobald.
 
 {{% /details %}}
 ++++
+
+
+== Guidelines for saves
+
+Adjudicating saves is one of the most common tasks for the GM.
+Here are a should principles you should keep in mind to create an enjoyable game experience, some repeated from the previous sections:
+
+* A failed save should never completely halt progress through the scenario.
+Make sure the Players always have alternative options.
+Remember that on a failed save the action can still succeed, but with a penalty.
+
+* When multiple characters attempt the exact same task, such as unlocking a door, don't roll a d20 for each of them.
+Instead, roll only during the first attempt and keep track of the result.
+Other characters can pass if their ability score matches or exceeds this number, similarly to what happens during a group save.
+You can think of this number as the '`difficulty level`' of the task, which applies to everyone in the same way.
+The reason for this is that rolling multiple times might make some tasks very easy for groups of characters.
+
+* Give the Players a chance to change their course of action before rolling for a save.
+They might not be able to predict when an action triggers a save, and giving them this option provides more control and freedom of choice.
+
+* Don't ask for a save for trivial or impossible actions, only challenging ones.
+Don't ask for a contest when there is a clear winner.
+
+* Prefer saves over contests.

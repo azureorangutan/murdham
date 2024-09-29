@@ -6,18 +6,6 @@ next: /docs/combat
 ---
 :toc:
 
-== Detection
-
-When two groups encounter each other they must each make a group WIT save.
-If at least one member passes, they notice the other group.
-
-Groups which are being reckless (making noise, talking loudly, carrying a light in the dark, etc.) are automatically detected and can't detect the other group unless they are being reckless as well.
-Groups which are well hidden and silent can't be detected by a WIT save, only by a search, and automatically detect even cautious groups.
-
-If only one group notices the other, it has the opportunity to decide how to approach the encounter: leaving, sneaking, launching an ambush, attempting to parley, etc.
-If both or neither group notices the other, the two sides stumble upon each other and the encounter can't be avoided.
-
-
 == Attitude
 
 The GM can use the following levels to express the attitude that other characters have towards the Player characters:

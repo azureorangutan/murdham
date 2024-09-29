@@ -2,7 +2,7 @@
 title: Assets
 weight: 80
 prev: /docs/character_keywords
-next: /docs/character_creation
+next: /docs/positioning_and_movement
 ---
 :toc:
 
@@ -66,7 +66,7 @@ They pretty much behave like Player characters, but they might refuse to perform
 
 Characters with animal intelligence behave according to their nature.
 If trained, they might be able to obey simple orders and perform specific tasks, such as carrying a rider, pulling carts, following trails, performing tricks, etc.
-Animals will avoid combat and other dangerous situations unless they are predators or have been trained to fight.
+Animals will avoid combat and other dangerous situations unless they are natural predators or have been trained to fight.
 
 In game terms, the Players control their followers as their own character, assuming they are giving them orders, but the GM ultimately decides if and how they do what they are asked.
 Followers will always refuse to do something clearly harmful to themselves.

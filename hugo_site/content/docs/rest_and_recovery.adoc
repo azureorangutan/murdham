@@ -25,7 +25,7 @@ On the fourth watch they are forced to take a day rest.
 
 Characters can spend a week in a settlement to take a full rest.
 It costs 64ʂ to pay for lodging, healing, and entertainment.
-They recover health to the maximum, restore omens to the maximum, remove all conditions (including many injuries which can't be get rid of otherwise), and restore temporarily reduced abilities to their original score.
+They recover health to the maximum, restore omens to the maximum, remove all conditions (including many injuries which can't be get rid of otherwise), and restore temporarily modified abilities to their original score.
 
 
 == Foraging
@@ -36,7 +36,7 @@ _Rations_ gathered in this way are perishable and are discarded if not consumed 
 
 .Foraging
 [[tb_foraging]]
-[options='header, unbreakable', cols="^1,<14"]
+[options='header, unbreakable', cols="^1,<13"]
 |===
 |D8 |Foraging result
 

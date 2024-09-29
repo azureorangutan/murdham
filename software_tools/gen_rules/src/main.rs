@@ -240,7 +240,7 @@ struct Args {
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
 
-    gen_reference(&args.output_dir, "Backgrounds", Background::all())?;
+    gen_reference_without_title(&args.output_dir, "Backgrounds", Background::all())?;
     gen_reference(&args.output_dir, "Skills", Skill::all())?;
     gen_reference(
         &args.output_dir,
