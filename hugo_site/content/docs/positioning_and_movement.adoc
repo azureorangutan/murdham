@@ -1,7 +1,7 @@
 ---
 title: Positioning & Movement
 weight: 100
-prev: /docs/character_creation
+prev: /docs/assets
 next: /docs/perception_and_knowledge
 ---
 :toc:
@@ -63,6 +63,7 @@ These factors halve movement speed:
 * Moving between sectors and regions without following an open path or road (through forests, swamps, mountains, hills, labyrinthic alleys, etc.).
 
 
+
 == Sprinting
 
 Characters can sprint to double their movement speed.
@@ -92,15 +93,6 @@ Attacks made while in water inflict impaired damage.
 * *Leaping*.
 Characters leaping over a significant gap must pass an AGI save to make it to the other side.
 Leaping over very small gaps requires no save.
-
-
-== Sneaking
-
-Characters attempting to move silently and behind cover must pass an AGI save to avoid detection.
-Sneaking in trivial situations, such as in very noisy or dark areas, requires no save.
-
-Sneaking is only done by characters who are intentionally trying not to be noticed by a character they have themselves already spotted, it isn't possible to sneak '`just in case`'.
-Movement speed is halved while sneaking.
 
 
 == Optional rule: grids

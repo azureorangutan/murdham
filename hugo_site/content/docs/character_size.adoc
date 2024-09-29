@@ -11,6 +11,9 @@ next: /docs/mounts_and_vehicles
 Tiny characters count as 1/16 towards zone occupancy, small characters as ¼, large characters as 4, and massive characters as 16.
 Larger characters can trample smaller characters after moving, forcing them to move into a nearby zone or border or suffer d4 damage.
 
+If you are playing with the grid optional rules, large characters occupy 2×2 squares, and massive characters occupy 4×4 squares.
+Small and tiny characters occupy a fraction of a square.
+
 
 == Secondary properties
 

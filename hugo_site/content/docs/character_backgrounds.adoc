@@ -1,0 +1,9 @@
+---
+title: Character Backgrounds
+weight: 15
+prev: /docs/character_creation
+next: /docs/character_advancement
+---
+:toc:
+
+include::gen/ref_backgrounds.adoc[]

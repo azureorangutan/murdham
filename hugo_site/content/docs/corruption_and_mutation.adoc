@@ -10,6 +10,7 @@ next: /docs/omens
 
 Corruption represents spiritual taint and is caused by the use of magic or the proximity of strong otherworldly powers.
 It is initially 0, but can slowly accumulate and it is hard to get rid of.
+It is usually reduced only after suffering <<Soulblight>>, which usually isn't a positive experience!
 
 
 == Soulblight
@@ -34,7 +35,7 @@ He takes 1 point of direct damage and his corruption is reduced to 4.
 
 == Mutations
 
-Characters who suffer critical damage due to soulblight also develop a permanent mutation determined by rolling on the <<tb_mutations>> table.
+Characters who suffer critical damage due to soulblight also develop a permanent mutation determined by rolling on the <<tb_mutations>> table, in addition to the usual effects.
 The GM can pick a mutation instead of rolling, if something fits the current circumstances particularly well.
 
 ++++
@@ -43,7 +44,7 @@ The GM can pick a mutation instead of rolling, if something fits the current cir
 Balthasar has 4 remaining health and suffers 1 corruption again, bringing the total to 5.
 He rolls a 3 on a d12: soulblight!
 His corruption is reduced to 2 but he suffers 3 damage: enough to inflict critical damage!
-Not only he is _incapacitated_, but he must also roll on the <<tb_mutations>> table.
+Not only he is _incapacitated_, but he must also roll on the Mutations table.
 He rolls 11 on a d12 and 20 on a d20: the result is "Uncanny resemblance".
 
 {{% /details %}}

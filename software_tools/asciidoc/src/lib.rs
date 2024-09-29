@@ -213,24 +213,29 @@ impl AsciiDoc for Background {
         }
 
         let skills = if !skills.is_empty() {
-            format!("*Skills*: {}.\n", skills.join(", "))
+            format!("* *Skills*: {}.\n\n", skills.join(", "))
         } else {
             String::new()
         };
 
         let advancements = if !advancements.is_empty() {
-            format!("*Advancements*: {}.\n", advancements.join(", "))
+            format!("* *Advancements*: {}.\n\n", advancements.join(", "))
         } else {
             String::new()
         };
 
+        let assets = format!(
+            "* *Assets*: {}.\n\n",
+            process_keywords(collect_as_map(&self.assets()).asciidoc())
+        );
+
         format!(
-            "* *{}*.\n{}\n{}{}*Assets*: {}.\n",
+            "== {}\n\n{}\n\n{}{}{}",
             capitalise(self.to_string()),
             process_keywords(String::from(self.description())),
             skills,
             advancements,
-            process_keywords(collect_as_map(&self.assets()).asciidoc())
+            assets,
         )
     }
 }

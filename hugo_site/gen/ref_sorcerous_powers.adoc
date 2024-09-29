@@ -28,7 +28,7 @@ Target a character or an item. The target is hit by a force blast, which works a
 
 * *Gift of speech*.
 _Near_, _stretch_.
-Target a creature with animal intelligence or human intelligence. The target becomes able to speak your language.
+Target a creature with animal intelligence or human intelligence. The target gains the ability to speak your language.
 
 * *Illusion*.
 _Near_, _stretch_.
@@ -50,7 +50,7 @@ Target a small zone. The area is filled with red mist flowing from the ground. C
 
 * *Occult consultation*.
 _Near_, _stretch_.
-Target a corpse of a creature who has died no longer than a stretch ago and whose spirit is still lingering in the area. You may ask their spirit one question, but they aren't forced to answer or tell the truth. If you enhance the power range to _connection_, you may query the spirit of a long dead person who is already in the realm of the dead, but in they can only answer by knocking on its entrance. This means they can only answer with a number or a yes-or-no question.
+Target the corpse of a creature who has died no longer than a stretch ago and whose spirit is still lingering in the area. You may ask their spirit one question, but they aren't forced to answer or tell the truth. If you enhance the power range to _connection_, you may query the spirit of a long dead person who is already in the realm of the dead, but in they can only answer by knocking on its entrance. This means they can only answer with a number or a yes-or-no question.
 
 * *Plague vessel*.
 _Near_, _stretch_.

@@ -23,6 +23,28 @@ Searching a region takes 2 watches and only reveals a single concealed element w
 Two characters can split and search a region in a single watch.
 
 
+== Detection
+
+When two groups encounter each other they must each make a group WIT save.
+If at least one member passes, they notice the other group.
+
+Groups which are being reckless (making noise, talking loudly, carrying a light in the dark, etc.) are automatically detected and can't detect the other group unless they are being reckless as well.
+Groups which are well hidden and silent can't be detected by a WIT save, only by a search, and automatically detect even cautious groups.
+
+If only one group notices the other, it has the opportunity to decide how to approach the encounter: leaving, sneaking, launching an ambush, attempting to parley, etc.
+If both or neither group notices the other, the two sides stumble upon each other and the encounter can't be avoided.
+
+
+== Sneaking
+
+Characters who haven't been noticed may attempt to move without being detected, for example to approach an enemy or to move away unnoticed.
+
+They must be able to move silently and without being noticed, for example in the shadows or behind some form of cover, and must pass an AGI save to avoid detection.
+Sneaking in trivial situations, such as in very noisy or dark areas, requires no save.
+
+Movement speed is halved while sneaking.
+
+
 == Knowledge
 
 The GM provides information to the Players based on what their characters should realistically know.

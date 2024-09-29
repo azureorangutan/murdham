@@ -288,7 +288,7 @@ impl Power {
                 IntelligenceCategory::HumanIntelligence,
             ),
             Self::GiftOfSpeech => format!(
-                "Target a {} with {} or {}. The target becomes able to speak your language.",
+                "Target a {} with {} or {}. The target gains the ability to speak your language.",
                 CharacterCategory::Creature,
                 IntelligenceCategory::AnimalIntelligence,
                 IntelligenceCategory::HumanIntelligence,
@@ -312,7 +312,7 @@ impl Power {
                  nearby characters within it."
             ),
             Self::OccultConsultation => format!(
-                "Target a corpse of a {} who has died no longer than a stretch ago and whose \
+                "Target the corpse of a {} who has died no longer than a stretch ago and whose \
                  spirit is still lingering in the area. You may ask their spirit one question, \
                  but they aren't forced to answer or tell the truth. If you enhance the power \
                  range to ~{}~, you may query the spirit of a long dead person who is already in \
