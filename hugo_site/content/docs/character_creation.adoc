@@ -22,6 +22,7 @@ Roll on the <<tb_starting_ability_scores>> to determine an array of three scores
 
 . *Background*.
 Determine your background by rolling on the <<tb_backgrounds>> table.
+Check its description in the link:../backgrounds[Backgrounds] chapter.
 
 ** You start with one or two skills granted by your background.
 
@@ -37,7 +38,7 @@ You also start with 0 mana unless your background is _wizard_, in which case you
 . *Assets*.
 You start with d8 shillings (ʂ), the items and followers granted by your background, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
 
-** You additionally share a single _candle_ and _flint & tinder_ with the other Player characters.
+** You additionally share a single _candle_ and _flint & tinder_ with the other Players.
 
 ** If you start with a _power scroll_ without a specified power, roll for it on the <<tb_sorcerous_powers>> or <<tb_sacred_powers>> tables.
 

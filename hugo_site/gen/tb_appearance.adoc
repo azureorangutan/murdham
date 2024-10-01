@@ -11,8 +11,8 @@ h|D20
 |Quite short, you get mad when someone points it.
 |Very tall, you often bump your head.
 |2
-|Worryingly thin, almost emaciated.
-|Corpulent, your belly shakes when you laugh.
+|Worryingly thin, sickly and emaciated.
+|Corpulent, your belly shakes when you run or laugh.
 |3
 |Ugly, but confident.
 |Good looking, hopelessly vain.
@@ -42,24 +42,24 @@ h|D20
 |Oily skin, punctuated with boils and pustules.
 |12
 |Perfect skin, smooth as silk.
-|Large birthmark, surely proof you are of noble blood.
+|Large birthmark, surely proof of noble ancestry.
 |13
-|Large tattoo, it represents something important to you.
+|Large tattoo, representing something important to you.
 |Numerous piercings, your face looks like a jewellery store.
 |14
 |Bald, either by choice or by necessity.
 |Long and luscious hair, your pride and joy.
 |15
-|Dyed hair, in an unusual colour.
+|Dyed hair, in a flashy colour.
 |Unusual hairstyle, sure to attract attention.
 |16
 |Pox scars, all over your body and face.
 |Blade scar, you lost a fight but were spared.
 |17
-|Claw scar, you have nightmares about it.
+|Claw marks, you have nightmares about it.
 |Burn scar, your home was once put to the torch.
 |18
-|Noose scar, you escaped the gallows.
+|Noose mark, you escaped the gallows.
 |Ritual scars, self inflicted.
 |19
 |Missing finger, memory of a past misadventure.

@@ -15,7 +15,7 @@ h|D20
 |Brave, you are convinced you can't be defeated.
 |3
 |Cautious, you are never at the front when danger lurks.
-|Impulsive, you have barely escaped death more than once.
+|Impulsive, you have come close to death more than once.
 |4
 |Decadent, you can't resist wordly pleasures.
 |Stoic, you refuse any form of luxury.
@@ -24,13 +24,13 @@ h|D20
 |Altruist, you can't help but look after others.
 |6
 |Solitary, you only feel at ease by yourself.
-|Sociable, sometimes you tell too much.
+|Sociable, you definitely speak too much.
 |7
-|Deceitful, you lie almost by reflex.
-|Honest, at least more honest than most.
+|Deceitful, you lie even when unnecessary.
+|Honest, or at least more honest than most.
 |8
-|Lazy, you hate to be disturbed when taking a break.
-|Energetic, you can't stand still and quiet.
+|Lazy, hard work is for losers.
+|Energetic, you can't stay still.
 |9
 |Condescending, everyone is dumber than you.
 |Respectful, you try to avoid conflict when possible.
@@ -42,18 +42,18 @@ h|D20
 |Bossy, you constantly order people around.
 |12
 |Superstitious, you hoard useless trinkets.
-|Sceptical, it's hard to convince you.
+|Sceptical, it's hard to persuade you.
 |13
 |Naive, you are convinced there is good in everyone.
 |Experienced, you have learnt from past misadventures.
 |14
-|Wicked, nothing is wrong as long as it brings you benefit.
+|Wicked, nothing is wrong as long as it benefits you.
 |Righteous, you can't stand to see a wrong go unpunished.
 |15
 |Irreverent, constantly badmouthing the authorities.
-|Pious, you mutter a prayer before tackling challenge.
+|Pious, frequently muttering prayers.
 |16
-|Sarcastic, you are the only one who laughs at your jokes.
+|Sarcastic, you laugh at your own jokes.
 |Stern, nobody remembers seeing you smiling.
 |17
 |Reserved, the less people know about you the better.

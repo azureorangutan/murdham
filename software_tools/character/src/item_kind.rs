@@ -932,7 +932,8 @@ impl ItemKind {
             Self::PowerScroll(_) => {
                 format!(
                     "A scroll recording a sacred or sorcerous power. Trading them is illegal. The \
-                     knowledge of how to create them has been lost."
+                     knowledge of how to create them has been lost. The Church wants to collect \
+                     all sacred scrolls and burn all sorcerous scrolls."
                 )
             }
             Self::Grimoire => format!(
