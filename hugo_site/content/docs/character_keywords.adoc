@@ -1,8 +1,8 @@
 ---
 title: Character Keywords
-weight: 70
-prev: /docs/rest_and_recovery
-next: /docs/assets
+weight: 25
+prev: /docs/abilities_and_saves
+next: /docs/health_and_damage
 ---
 :toc:
 
@@ -16,23 +16,28 @@ Also feel free to make up new keywords if need them in your games!
 * *Character category*.
 The character's basic nature: _creature_, _construct_, _demon_, or _undead_.
 Humans are _creatures_.
+The <<_character_categories>> section describes relevant rules.
 
 * *Intelligence category*.
 The character's level of intelligence: _human_, _animal_, or _mindless_.
-Humans have _human intelligence_.
+The <<_intelligence_categories>> section describes relevant rules.
+
+* *Skills*.
+Learnt abilities which are always beneficial.
+The <<_skills>> section describes relevant rules.
+
+* *Traits*.
+Characteristic which are either innate or acquired in ways other than training and learning.
+The <<_traits>> section describes relevant rules.
+
+* *Conditions*.
+Temporary alterations of the character's state.
+The <<_conditions>> section describes relevant rules.
 
 * *Size category*.
 How large the character is: _tiny_, _small_, _medium-sized_, _large_, _massive_.
 Humans are _medium-sized_.
-
-* *Skills*.
-Learnt abilities which are always beneficial.
-
-* *Traits*.
-Characteristic which are either innate or acquired in ways other than training and learning.
-
-* *Conditions*.
-Temporary alterations of the character's state.
+Check the link:../character_size[Character Size] chapter for rules related to size.
 
 
 == Using keywords
@@ -61,6 +66,22 @@ The GM rules that climbing the ladder is trivial, even despite the rain, so Beat
 ++++
 
 include::gen/ref_character_categories.adoc[]
+
+== Intelligence categories
+
+* *Human intelligence*.
+High level of intelligence.
+Can speak, acquire complex skills, reason, use tools, etc.
+
+* *Animal intelligence*.
+Low level of intelligence.
+Can communicate with members of the same species in a limited way, learn simple skills and tricks, etc.
+Mostly behaves according to instinct.
+
+* *Mindless*.
+No actual intelligence, such as an automaton or a flesh puppet.
+Behaves in a very restricted way, following some sort of '`programming`'.
+Is immune to mind control, fear, and other mental effects.
 
 include::gen/ref_skills.adoc[]
 

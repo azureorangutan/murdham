@@ -11,34 +11,78 @@ next: /docs/character_backgrounds
 Players follow these steps to create a new character.
 Many concepts will become clearer in the next chapters.
 
-. Roll on the <<tb_starting_ability_scores>> to determine an array of three scores and assign them randomly to the three abilities: Strength (STR), Agility (AGI), and Wits (WIT).
-Roll a d3 to assign the highest score: 1) STR; 2) AGI; 3) WIT.
-Roll a d2 to assign the middle score to one of the remaining abilities, skipping over the one which was already assigned.
-Finally assign the lowest score to the last remaining ability.
+. *Abilities*.
+Roll on the <<tb_starting_ability_scores>> to determine an array of three scores and assign them randomly to the three abilities: Strength (STR), Agility (AGI), and Wits (WIT).
 
-. Determine your background by rolling on the <<tb_backgrounds>> table.
+** Roll a d3 to assign the highest score: 1) STR; 2) AGI; 3) WIT.
+
+** Roll a d2 to assign the middle score to one of the remaining abilities, skipping over the one which was already assigned.
+
+** Finally assign the lowest score to the last remaining ability.
+
+. *Background*.
+Determine your background by rolling on the <<tb_backgrounds>> table.
 Read about it in the link:../character_backgrounds[Character Backgrounds] section.
-Reroll if you get the same background as another Player.
 
-. A few backgrounds increase two abilities by 1.
-Adjust their scores if that's the case.
-
-. You start with one or two skills granted by your background.
+** You start with one or two skills granted by your background.
 You can read what they do in the link:../skills[Skills] section.
 
-. You start with health equal to your STR, 0 corruption, and 2 omens.
+** A few backgrounds increase two abilities by 1.
+Adjust their scores if that's the case.
+
+** Reroll if you get the same background as another Player.
+
+. *Secondary properties*.
+You start with health equal to your STR, 0 corruption, and 2 omens.
 You also start with 0 mana unless your background is _wizard_, in which case you start with 1 mana.
 
-. You start with d8 shillings (ʂ), the assets granted by your background, and the items and money you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
-Reroll if you get the same result as another Player on these tables.
-You also share a single _candle_ and _flint & tinder_ with the other Player characters.
-If you start with a _power scroll_ without a specified power, roll for it on the <<tb_sorcerous_powers>> or <<tb_sacred_powers>> tables.
-You can read what your assets and powers do in the link:../assets[Assets] and link:../powers[Powers] section.
+. *Assets*.
+You start with d8 shillings (ʂ), the assets granted by your background, and the items and money you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
+You can read what your assets and powers do in the link:../assets[Assets] chapter.
 
-. Portray your character using words, drawings, or a combination of the two, as you prefer.
+** You additionally share a single _candle_ and _flint & tinder_ with the other Player characters.
+
+** If you start with a _power scroll_ without a specified power, roll for it on the <<tb_sorcerous_powers>> or <<tb_sacred_powers>> tables.
+You can read about powers in the link:../powers[Powers] chapter.
+
+** Reroll if you get the same result as another Player on any table.
+
+. *Description*.
+Portray your character using words, drawings, or a combination of the two, as you prefer.
 You can roll on the <<tb_appearance>>, <<tb_personality>>, and <<tb_reason_to_adventure>> tables if you need inspiration.
 
-. Pick a suitable name, or roll on the <<tb_masculine_names>>, <<tb_feminine_names>>, and <<tb_last_names>> table to generate it randomly.
+. *Name*.
+Pick a suitable name, or roll on the <<tb_masculine_names>>, <<tb_feminine_names>>, and <<tb_last_names>> table to generate it randomly.
+
+++++
+{{% details title="Example" closed="true" %}}
+
+David is creating a new character.
+
+1. He rolls 7 on a d12 for the abilities scores: 11, 7, and 6.
+He rolls a d3 to assign the highest score (11) and gets a 2 (AGI).
+He rolls a d2 to assign the middle score (7) and gets a 2 again (WIT in this case, skipping over AGI).
+His character's starting abilities are therefore: **STR** 6, **AGI** 11, **WIT** 7.
+
+2. He rolls a 3 on a d4 and a 4 on a d8 for the background: _labourer_.
+This grants him the _brawling_ and _wrestling_ skills and no ability increases.
+
+3. He notes down his secondary properties: health is 6 (equal to STR), corruption is 0, omens are 2, and mana is 0.
+
+4. He starts with the following assets:
+
+    * He rolls 1 on a d8 for starting money: 1ʂ.
+
+    * His background provides: _clothes_, a _shovel_, and a _ration_.
+
+    * He rolls 1 on a d2 and 5 on a d12 for his starting weapon: a _boat hook_ plus 4ʂ.
+
+    * He rolls 2 on a d2 and 1 on a d12 for his starting item: one dose of _flash powder_.
+
+5. He finally describes and name his character.
+
+{{% /details %}}
+++++
 
 
 == Company relationships
