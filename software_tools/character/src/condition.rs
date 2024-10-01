@@ -37,8 +37,8 @@ impl Condition {
         match self {
             Self::ArmInjury => format!("You can't use one of your arms."),
             Self::Blind => format!(
-                "You can't see. Enemies are not visible by you (with associated penalties to \
-                 attacks) and you can't notice anything based on sight alone.",
+                "You can't see. You can't notice anything by sight alone, your melee attacks \
+                 require passing a WIT save to hit, and you can't use ranged attacks."
             ),
             Self::Confused => format!(
                 "You are not fully in control of your body and mind. Your attacks inflict \

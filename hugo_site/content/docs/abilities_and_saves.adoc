@@ -1,8 +1,8 @@
 ---
 title: Abilities & Saves
-weight: 20
-prev: /docs/basic_concepts
-next: /docs/character_keywords
+weight: 15
+prev: /docs/character_creation
+next: /docs/backgrounds
 ---
 :toc:
 

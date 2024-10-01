@@ -1,0 +1,15 @@
+---
+title: Traits
+weight: 25
+prev: /docs/skills
+next: /docs/conditions
+---
+:toc:
+
+== Handling traits
+
+Traits characteristics which are either innate or acquired in ways other than training and learning (unlike skills).
+They are permanent, even though the GM might choose to remove a trait from a character for narrative reasons.
+Traits work similar to skills, but they might also have a negative effect.
+
+include::gen/ref_trait_list.adoc[]

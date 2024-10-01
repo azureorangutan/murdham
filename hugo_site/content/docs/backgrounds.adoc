@@ -1,0 +1,9 @@
+---
+title: Backgrounds
+weight: 20
+prev: /docs/abilities_and_saves
+next: /docs/skills
+---
+:toc:
+
+include::gen/ref_backgrounds.adoc[]

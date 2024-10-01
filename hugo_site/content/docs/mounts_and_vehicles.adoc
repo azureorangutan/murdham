@@ -1,7 +1,7 @@
 ---
 title: Mounts & Vehicles
 weight: 170
-prev: /docs/character_size
+prev: /docs/character_categories
 next: /docs/bestiary
 ---
 :toc:

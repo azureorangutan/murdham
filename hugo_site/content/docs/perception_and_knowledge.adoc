@@ -23,7 +23,7 @@ Searching a region takes 2 watches and only reveals a single concealed element w
 Two characters can split and search a region in a single watch.
 
 
-== Detection
+== Detecting others
 
 When two groups encounter each other they must each make a group WIT save.
 If at least one member passes, they notice the other group.

@@ -2,7 +2,7 @@
 title: Character Creation
 weight: 14
 prev: /docs/basic_concepts
-next: /docs/character_backgrounds
+next: /docs/abilities_and_saves
 ---
 :toc:
 
@@ -37,7 +37,7 @@ You start with health equal to your STR, 0 corruption, and 2 omens.
 You also start with 0 mana unless your background is _wizard_, in which case you start with 1 mana.
 
 . *Assets*.
-You start with d8 shillings (ʂ), the assets granted by your background, and the items and money you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
+You start with d8 shillings (ʂ), the items and followers granted by your background, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
 You can read what your assets and powers do in the link:../assets[Assets] chapter.
 
 ** You additionally share a single _candle_ and _flint & tinder_ with the other Player characters.
@@ -47,12 +47,9 @@ You can read about powers in the link:../powers[Powers] chapter.
 
 ** Reroll if you get the same result as another Player on any table.
 
-. *Description*.
-Portray your character using words, drawings, or a combination of the two, as you prefer.
-You can roll on the <<tb_appearance>>, <<tb_personality>>, and <<tb_reason_to_adventure>> tables if you need inspiration.
-
-. *Name*.
-Pick a suitable name, or roll on the <<tb_masculine_names>>, <<tb_feminine_names>>, and <<tb_last_names>> table to generate it randomly.
+. *Name and description*.
+Name and portray your character using words, drawings, or a combination of the two, as you prefer.
+You can roll on the <<tb_masculine_names>>, <<tb_feminine_names>>, <<tb_last_names>>, <<tb_appearance>>, <<tb_personality>>, and <<tb_reason_to_adventure>> tables if you need inspiration.
 
 ++++
 {{% details title="Example" closed="true" %}}

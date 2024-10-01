@@ -92,7 +92,7 @@ params:
     combining the atmosphere of old school British role-playing games with light and streamlined rules.
 
   theme:
-    default: system
+    default: dark
     displayToggle: true
 
   navbar:

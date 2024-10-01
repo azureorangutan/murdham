@@ -18,14 +18,14 @@ _Small creature_, _animal intelligence_. +
 *Bear* (256ʂ) +
 *STR* 16, *AGI* 4, *WIT* 8 +
 _Medium-sized creature_, _animal intelligence_. +
-*Sturdy*. Double carry limit and bulk. +
+*Sturdy*. Doubles carry limit and bulk. +
 *Bite & claws*. D8 damage. +
 
 
 *Boar* (32ʂ) +
 *STR* 8, *AGI* 4, *WIT* 8 +
 _Medium-sized creature_, _animal intelligence_. +
-*Sturdy*. Double carry limit and bulk. +
+*Sturdy*. Doubles carry limit and bulk. +
 *Tusks*. D6 damage. +
 
 
@@ -47,7 +47,7 @@ _Medium-sized creature_, _animal intelligence_. +
 *Elephant* (512ʂ) +
 *STR* 12, *AGI* 4, *WIT* 8 +
 _Large creature_, _animal intelligence_. +
-*Sturdy*. Double carry limit and bulk. +
+*Sturdy*. Doubles carry limit and bulk. +
 *Thick hide*. Armour value 1. +
 *Tusks*. D6 damage. +
 
@@ -64,7 +64,7 @@ _Small creature_, _animal intelligence_. +
 *STR* 12, *AGI* 8, *WIT* 8 +
 _Medium-sized creature_, _animal intelligence_. +
 *Fast*. Moves at double speed. +
-*Sturdy*. Double carry limit and bulk. +
+*Sturdy*. Doubles carry limit and bulk. +
 *Bite & claws*. D8 damage. +
 
 

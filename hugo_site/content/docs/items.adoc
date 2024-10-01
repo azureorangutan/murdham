@@ -1,0 +1,67 @@
+---
+title: Items
+weight: 80
+prev: /docs/rest_and_recovery
+next: /docs/followers_and_services
+---
+:toc:
+
+== Money
+
+Money is measured in shillings (ʂ).
+You should track money down to a quarter shilling.
+
+
+== Encumbrance
+
+Characters can carry up to 8 bulk unencumbered, and up to twice that _encumbered_.
+Size and traits can change these limits.
+_Encumbered_ characters move at half speed and must also pass a STR save each time they pass an AGI save or suffer the effects of failure.
+
+* An item's bulk equals 1, unless otherwise indicated in its description.
+
+* A character's bulk equals how much they can carry unencumbered: 8 for most characters but potentially altered by size and traits.
+
+* Groups of 64ʂ have bulk equal to ½.
+63 or fewer shillings can be carried freely.
+
+
+== Storage
+
+Characters must have a reasonable way to store what they are carrying.
+They can wear whatever makes sense and, if they wear some _clothes_, they are assumed to have enough containers (backpacks, pouches, pockets, scabbards, etc.) to store any amount of reasonably sized items.
+Things with bulk higher than 2 (ladders, chests, other characters, etc.) can't be stored and require dedicated effort to carry.
+
+
+== Durability rolls
+
+You must make a durability roll when an item has been used in a way which might have compromised its integrity.
+There is an 1:4 chance that the affected item was _damaged_.
+You should only make durability rolls when it isn't sure if the object was damaged or destroyed, otherwise just apply the effect directly.
+
+After a fight, make a durability roll for all weapons and armour which were used at least once.
+Other situations which might require a durability roll are using a weapon to try to break down a door, or a fragile item falling to the ground.
+
+_Damaged_ items can still be used but are permanently destroyed on another failed durability roll.
+_Damaged_ weapons and shields are also destroyed if they are used to attack and a 1 is rolled on the damage die.
+_Damaged_ shields and armour are also destroyed by attacks inflicting at least 8 damage before armour reduction (shields are destroyed first).
+
+Many items can be used as improvised weapons.
+They work as a _simple hand weapon_ or a _simple great weapon_, but are handled as if they were already _damaged_.
+
+
+include::gen/ref_item_keywords.adoc[]
+
+include::gen/ref_weapon_keywords.adoc[]
+
+include::gen/ref_weapons.adoc[]
+
+include::gen/ref_armour.adoc[]
+
+include::gen/ref_gear.adoc[]
+
+include::gen/ref_artillery.adoc[]
+
+include::gen/ref_vehicles.adoc[]
+
+include::gen/ref_item_modifiers.adoc[]

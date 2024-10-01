@@ -734,12 +734,19 @@ impl ItemKind {
                  Characters stepping on it suffer d6 damage and are ~{}~.",
                 Condition::Entangled
             ),
-            Self::BeastmanBlood => format!("Ingested corrupting poison."),
-            Self::BlackAdderVenom => format!("Bloodstream damaging poison."),
+            Self::BeastmanBlood => {
+                format!("Ingested corrupting poison (4 corruption at the end of the stretch).")
+            }
+            Self::BlackAdderVenom => format!(
+                "Bloodstream damaging poison (d12 direct damage at the end of the stretch)."
+            ),
             Self::Book => format!("The price is for a blank book."),
             Self::Scroll => format!("The price is for a blank scroll."),
             Self::BrushAndPaints => format!("Enough to paint a ~{}~.", ItemKind::Canvas),
-            Self::ButterflySting => format!("Bloodstream soporific poison."),
+            Self::ButterflySting => format!(
+                "Bloodstream soporific poison (~{}~ until the end of the watch or until damaged).",
+                Condition::Incapacitated
+            ),
             Self::Cage => format!("Can contain a small character."),
             Self::Caltrops => format!(
                 "As a main action, can be spread in a nearby zone, which counts as difficult \
@@ -750,14 +757,19 @@ impl ItemKind {
                  in the wilderness."
             ),
             Self::Candle => format!("Illuminates a zone until the end of the stretch."),
-            Self::CandlestickRoot => format!("Ingested paralysing poison."),
+            Self::CandlestickRoot => format!(
+                "Ingested paralysing poison (~{}~ until the end of the stretch).",
+                Condition::Incapacitated
+            ),
             Self::Canvas => format!("About 1 metre by 1 metre."),
             Self::Cards => format!("WIT contest to win."),
             Self::Censer => format!("Can be used to burn ~{}~.", ItemKind::Incense),
             Self::Chain => format!("2 metre."),
             Self::Chalk => format!("Enough to write a few markings."),
             Self::ChessSet => format!("WIT contest to win."),
-            Self::ChimeraSpit => format!("Bloodstream lethal poison."),
+            Self::ChimeraSpit => {
+                format!("Bloodstream lethal poison (death at the end of the stretch).")
+            }
             Self::ClimbingGear => format!(
                 "Includes pitons, nails, climbing pickaxes, etc. Can be used to scale sheer \
                  surfaces, but it's challenging."
@@ -802,7 +814,10 @@ impl ItemKind {
                  with the ~{}~ skill.",
                 Skill::Divination
             ),
-            Self::DreamSand => format!("Ingested soporific poison."),
+            Self::DreamSand => format!(
+                "Ingested soporific poison (~{}~ until the end of the watch or until damaged).",
+                Condition::Incapacitated
+            ),
             Self::FieldKitchen => format!(
                 "Includes pots, pans, kitchen utensils, etc. Food you gather by foraging is \
                  doubled and doesn't go bad."
@@ -871,12 +886,17 @@ impl ItemKind {
             ),
             Self::QuillAndInk => format!("Enough to write a scroll."),
             Self::Ration => format!("Enough food for a day rest."),
-            Self::ReapersSpice => format!("Ingested damaging poison."),
+            Self::ReapersSpice => {
+                format!("Ingested damaging poison (d12 direct damage at the end of the stretch).")
+            }
             Self::Rope => format!("4 metre."),
             Self::RopeLadder => format!("2 metre. Trivial to climb."),
             Self::Saddle => format!("Required to ride a mount. Includes saddle bags."),
             Self::Scissors => format!("Used to cut precisely."),
-            Self::ScorpionOil => format!("Bloodstream paralysing poison."),
+            Self::ScorpionOil => format!(
+                "Bloodstream paralysing poison (~{}~ until the end of the stretch).",
+                Condition::Incapacitated
+            ),
             Self::ScrollCase => {
                 format!("Can hold 2 scrolls, protecting them from water and damage.")
             }

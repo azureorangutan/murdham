@@ -4,7 +4,7 @@
 A large, brutish, humanoid monster, capable of quick regeneration. Lives in swamps and feasts on rotten meat. +
 *STR* 12, *AGI* 4, *WIT* 4 +
 _Large creature_, _human intelligence_. +
-*Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treat _terrifying_ characters as _frightening_. +
+*Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_. +
 *Regeneration*. Recovers half the amount of lost health each round, at the start of their turn. Fire prevents this. +
 *Assets*: huge club (bulk 8; d6 damage; an extremely large club, impossible to use for a medium-sized character). +
 *Thick skin*. Armour value 1. +
@@ -14,7 +14,7 @@ _Large creature_, _human intelligence_. +
 A gigantic lizard-like winged creature, capable of breathing fire. +
 *STR* 16, *AGI* 4, *WIT* 12 +
 _Large creature_, _animal intelligence_. +
-*Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treat _terrifying_ characters as _frightening_. +
+*Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_. +
 *Landing flyer*. Can fly. Can't attack and can't stay still while flying. +
 *Scales*. Armour value 2. +
 *Bite, talons, & tail*. D8 damage. +

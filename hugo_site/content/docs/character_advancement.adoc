@@ -1,18 +1,23 @@
 ---
 title: Character Advancement
-weight: 16
-prev: /docs/character_backgrounds
-next: /docs/abilities_and_saves
+weight: 85
+prev: /docs/followers_and_services
+next: /docs/positioning_and_movement
 ---
 :toc:
 
-== Improvements when advancing
+== Character improvements
 
 During a campaign, you might be granted an advancement by the GM after you and the other Players achieve significant progress.
 
-At odd advancements (1st, 3rd, 5th, etc.) you permanently increase your abilities by a total of 2 points, but no ability can exceed 15.
-At even advancements (2nd, 4th, 6th, etc.) you gain a new skill of your choice, but you must be able to reasonably explain how you have learnt it (a mentor, past experiences, etc.).
-Characters with the _sorcery_ skill can alternatively increase their mana by 1.
+* At odd advancements (1st, 3rd, 5th, etc.) you permanently increase your abilities by a total of 2 points, but no ability can exceed 15.
+
+* At even advancements (2nd, 4th, 6th, etc.) you gain a new skill of your choice, but you must be able to reasonably explain how you have learnt it (a mentor, past experiences, etc.).
+
+* Characters with the _sorcery_ skill can alternatively increase their mana by 1 instead of picking a standard advancement.
+
+
+== Advancement limit
 
 After 10 advancements you have reached the pinnacle of your potential and don't gain these benefits for free any longer.
 Instead, you must first either forget a skill, reduce your abilities by a total of 2 points, or reduce your mana by 1.

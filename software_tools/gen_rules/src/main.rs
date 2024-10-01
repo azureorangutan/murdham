@@ -241,14 +241,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
 
     gen_reference_without_title(&args.output_dir, "Backgrounds", Background::all())?;
-    gen_reference(&args.output_dir, "Skills", Skill::all())?;
-    gen_reference(
-        &args.output_dir,
-        "Character categories",
-        CharacterCategory::all(),
-    )?;
-    gen_reference(&args.output_dir, "Traits", Trait::all())?;
-    gen_reference(&args.output_dir, "Conditions", Condition::all())?;
+    gen_reference(&args.output_dir, "Skill list", Skill::all())?;
+    gen_reference(&args.output_dir, "Kind", CharacterCategory::all())?;
+    gen_reference(&args.output_dir, "Trait list", Trait::all())?;
+    gen_reference(&args.output_dir, "Condition list", Condition::all())?;
 
     gen_reference(&args.output_dir, "Item keywords", ItemKeyword::all())?;
     gen_reference(&args.output_dir, "Weapon keywords", WeaponKeyword::all())?;
