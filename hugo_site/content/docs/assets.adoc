@@ -1,7 +1,7 @@
 ---
 title: Assets
 weight: 80
-prev: /docs/character_keywords
+prev: /docs/rest_and_recovery
 next: /docs/positioning_and_movement
 ---
 :toc:

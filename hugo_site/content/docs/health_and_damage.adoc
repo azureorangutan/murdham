@@ -1,7 +1,7 @@
 ---
 title: Health & Damage
 weight: 30
-prev: /docs/abilities_and_saves
+prev: /docs/character_keywords
 next: /docs/corruption_and_mutation
 ---
 :toc:
@@ -12,8 +12,7 @@ Characters have maximum health equal to their STR.
 When they suffer damage, they reduce health by an equal amount, at most down to 0.
 
 * Characters who lose at once half or more of their remaining health (minimum 1) suffer critical damage.
-Characters sho suffer critical damage take the _incapacitated_ condition until the end of the stretch.
-Some sources of harm might cause additional effects on critical damage.
+Characters sho suffer critical damage take the _incapacitated_ condition until the end of the stretch, plus additional effects if mentioned by the rules.
 
 * Characters who lose all their remaining health suffer critical damage and additionally take the _dying_ condition.
 
@@ -48,7 +47,7 @@ They roll on the <<tb_injuries>> table and suffer the indicated effect.
 
 .Injuries
 [[tb_injuries]]
-[options='header, unbreakable', cols="^1,<13"]
+[options='header, unbreakable', cols="^2,<14"]
 |===
 |D6 |Injury
 
@@ -126,7 +125,7 @@ He rolls 3 and 7, resulting in only 3 damage.
 
 Armour value reduces incoming damage by a matching amount, even down to 0.
 It is increased by wearing armour and holding shields.
-Direct damage ignores the armour value and is always applied in full.
+'`Direct damage`' ignores armour value.
 
 
 == Death of the Player characters

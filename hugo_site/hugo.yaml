@@ -77,7 +77,7 @@ menu:
         type: search
     - name: Discord
       weight: 20
-      url: https://discord.gg/TcSSPBYD
+      url: https://discord.gg/58Kbfb2YwX
       params:
         icon: discord
     - name: GitHub
@@ -92,7 +92,7 @@ params:
     combining the atmosphere of old school British role-playing games with light and streamlined rules.
 
   theme:
-    default: dark
+    default: system
     displayToggle: true
 
   navbar:
