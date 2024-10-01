@@ -1,23 +1,57 @@
 ---
-title: Character Size
+title: Character Categories
 weight: 160
 prev: /docs/powers
 next: /docs/mounts_and_vehicles
 ---
 :toc:
 
-== Zone occupancy and movement
+== Categories
 
-Tiny characters count as 1/16 towards zone occupancy, small characters as ¼, large characters as 4, and massive characters as 16.
-Larger characters can trample smaller characters after moving, forcing them to move into a nearby zone or border or suffer d4 damage.
+Characters are categorized by kind, intelligence, and size.
+These attributes influence their capabilities.
 
+* *Kind*.
+The character's basic nature: _creature_, _construct_, _demon_, or _undead_.
+
+* *Intelligence*.
+The character's level of intelligence: _human_, _animal_, or _mindless_.
+
+* *Size*.
+How large the character is: _tiny_, _small_, _medium-sized_, _large_, _massive_.
+
+Humans are medium-sized creatures with human intelligence.
+
+
+include::gen/ref_kind.adoc[]
+
+
+== Intelligence
+
+* *Human intelligence*.
+High level of intelligence.
+Can speak, acquire complex skills, reason, use tools, etc.
+
+* *Animal intelligence*.
+Low level of intelligence.
+Can communicate with members of the same species in a limited way, learn simple skills and tricks, etc.
+Mostly behaves according to instinct.
+
+* *Mindless*.
+No actual intelligence, such as an automaton or a flesh puppet.
+Behaves in a very restricted way, following some sort of '`programming`'.
+Is immune to mind control, fear, and other mental effects.
+
+
+== Size
+
+* Tiny characters count as 1/16 towards zone occupancy, small characters as ¼, large characters as 4, and massive characters as 16.
 If you are playing with the grid optional rules, large characters occupy 2×2 squares, and massive characters occupy 4×4 squares.
 Small and tiny characters occupy a fraction of a square.
 
+* Larger characters can trample smaller characters after moving, forcing them to move into a nearby zone or border or suffer d4 damage.
 
-== Secondary properties
-
-For characters who aren't medium-sized, bulk, carry limit, health, damage inflicted by attacks, and armour value change as shown in the <<tb_size_and_properties>> table.
+* For characters who aren't medium-sized, bulk, carry limit, health, damage inflicted by attacks, and armour value change as shown in the <<tb_size_and_properties>> table.
 
 .Size and properties
 [[tb_size_and_properties]]
@@ -31,7 +65,7 @@ For characters who aren't medium-sized, bulk, carry limit, health, damage inflic
 |===
 
 
-== Attacks
+== Size and attacks
 
 Massive characters can perform melee attacks within range 1.
 
@@ -46,7 +80,7 @@ They are free to perform any action without letting the grabbed character go.
 Instead of shoving the character, they can throw them within range 2, inflicting d4 direct damage.
 
 
-== Saves & contests
+== Size and saves
 
 Larger characters automatically win STR saves and contests against smaller characters.
 Size might also come into play in other types of saves.

@@ -24,11 +24,11 @@ Placing it or picking it up is a main action, concealing it takes a stretch. Cha
 
 * *Beastman blood* (16ʂ, bulk ½).
 _Consumable_.
-Ingested corrupting poison.
+Ingested corrupting poison (4 corruption at the end of the stretch).
 
 * *Black adder venom* (16ʂ, bulk ½).
 _Consumable_.
-Bloodstream damaging poison.
+Bloodstream damaging poison (d12 direct damage at the end of the stretch).
 
 * *Book* (16ʂ).
 The price is for a blank book.
@@ -39,7 +39,7 @@ Enough to paint a _canvas_.
 
 * *Butterfly sting* (16ʂ, bulk ½).
 _Consumable_.
-Bloodstream soporific poison.
+Bloodstream soporific poison (_incapacitated_ until the end of the watch or until damaged).
 
 * *Cage* (16ʂ, bulk 2).
 Can contain a small character.
@@ -56,7 +56,7 @@ Illuminates a zone until the end of the stretch.
 
 * *Candlestick root* (16ʂ, bulk ½).
 _Consumable_.
-Ingested paralysing poison.
+Ingested paralysing poison (_incapacitated_ until the end of the stretch).
 
 * *Canvas* (16ʂ, bulk 2).
 About 1 metre by 1 metre.
@@ -79,7 +79,7 @@ WIT contest to win.
 
 * *Chimera spit* (64ʂ, bulk ½).
 _Consumable_.
-Bloodstream lethal poison.
+Bloodstream lethal poison (death at the end of the stretch).
 
 * *Climbing gear* (16ʂ, bulk 2).
 Includes pitons, nails, climbing pickaxes, etc. Can be used to scale sheer surfaces, but it's challenging.
@@ -117,7 +117,7 @@ Include a crystal ball, tarot cards, divination bones, etc. Used in combination 
 
 * *Dream sand* (16ʂ, bulk ½).
 _Consumable_.
-Ingested soporific poison.
+Ingested soporific poison (_incapacitated_ until the end of the watch or until damaged).
 
 * *Field kitchen* (16ʂ, bulk 2).
 Includes pots, pans, kitchen utensils, etc. Food you gather by foraging is doubled and doesn't go bad.
@@ -226,7 +226,7 @@ Enough food for a day rest.
 
 * *Reaper's spice* (16ʂ, bulk ½).
 _Consumable_.
-Ingested damaging poison.
+Ingested damaging poison (d12 direct damage at the end of the stretch).
 
 * *Rope* (4ʂ).
 4 metre.
@@ -242,7 +242,7 @@ Used to cut precisely.
 
 * *Scorpion oil* (16ʂ, bulk ½).
 _Consumable_.
-Bloodstream paralysing poison.
+Bloodstream paralysing poison (_incapacitated_ until the end of the stretch).
 
 * *Scroll* (1ʂ, bulk ½).
 The price is for a blank scroll.

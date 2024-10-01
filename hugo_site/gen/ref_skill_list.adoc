@@ -1,6 +1,6 @@
 // This file was automatically generated.
 
-== Skills
+== Skill list
 
 * *Acrobatics*.
 Pick one while moving on difficult ground: move at full speed, automatically pass saves to avoid falling, balance on extremely difficult terrain. You automatically pass saves to leap normal distances, and can leap almost impossible distances by passing a save. When you fall, you reduce the falling distance by 4 metres if you pass the AGI save, and by 2 metres even if you fail.

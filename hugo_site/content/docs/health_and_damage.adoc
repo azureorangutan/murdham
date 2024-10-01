@@ -1,7 +1,7 @@
 ---
 title: Health & Damage
 weight: 30
-prev: /docs/character_keywords
+prev: /docs/conditions
 next: /docs/corruption_and_mutation
 ---
 :toc:

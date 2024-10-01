@@ -1,6 +1,6 @@
 // This file was automatically generated.
 
-== Character categories
+== Kind
 
 * *Creature*.
 A living creature, such as a human or an animal.

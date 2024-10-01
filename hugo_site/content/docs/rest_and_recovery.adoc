@@ -2,7 +2,7 @@
 title: Rest & Recovery
 weight: 60
 prev: /docs/omens
-next: /docs/assets
+next: /docs/items
 ---
 :toc:
 

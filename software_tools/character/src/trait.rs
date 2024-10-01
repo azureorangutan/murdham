@@ -35,13 +35,13 @@ impl Trait {
             Self::Mutation => format!("Has the listed mutations."),
 
             Self::Addicted => format!(
-                "Addicted to a specific substance. When this character takes a day rest, they \
-                 must consume it or temporarily reduce WIT by 1. After a full rest, they must \
-                 consume 4 units or temporarily reduce WIT by 1 for each missing unit."
+                "Addicted to a specific substance. On a day rest, they must consume it or \
+                 temporarily reduce WIT by 1. On a full rest, they must consume 4 units of it or \
+                 temporarily reduce WIT by 1 for each missing unit."
             ),
 
             Self::Frightening => format!(
-                "Causes fear within range 4. Is immune to ~{}~ characters and treat ~{}~ \
+                "Causes fear within range 4. Is immune to ~{}~ characters and treats ~{}~ \
                  characters as ~{}~.",
                 Trait::Frightening,
                 Trait::Terrifying,
@@ -63,14 +63,14 @@ impl Trait {
             Self::SwoopingFlyer => {
                 format!("Can fly. Can attack but can't stay still while flying.")
             }
-            Self::HoveringFlyer => format!("Can fly. Can attack and can stay still while flying."),
+            Self::HoveringFlyer => format!("Can fly. Can attack and stay still while flying."),
 
             Self::Incorporeal => format!(
                 "Has no STR and AGI score. Can't interact with the material world but is still \
                  bound by its laws. Can walk through thin barriers, such as doors."
             ),
-            Self::Frail => format!("Halve carry limit and bulk."),
-            Self::Sturdy => format!("Double carry limit and bulk."),
+            Self::Frail => format!("Halves carry limit and bulk."),
+            Self::Sturdy => format!("Doubles carry limit and bulk."),
 
             Self::Regeneration => format!(
                 "Recovers half the amount of lost health each round, at the start of their turn. \
