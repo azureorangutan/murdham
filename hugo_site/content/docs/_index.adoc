@@ -12,6 +12,8 @@ A role-playing game of perilous adventures in a fantasy world, combining the atm
 
 Game design and writing by Galileo Alighieri.
 
+The art on the home page is "`Knight, Death, and the Devil`" by Albrecht Dürer (1513).
+
 
 == Inspiration
 

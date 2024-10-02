@@ -26,8 +26,8 @@ The game doesn't use an actual board or tokens.
 All game information is instead written or drawn on paper.
 This includes details about the characters, maps, positioning during combat, etc.
 
-you can enhance your experience with additional components (character sheets, reference sheets, handouts, grids, miniatures, tokens, etc.) or even play online using digital tools.
-all of this is optional and a matter of personal preference.
+You can enhance your experience with additional components (character sheets, reference sheets, handouts, grids, miniatures, tokens, etc.) or even play online using digital tools.
+All of this is optional and a matter of personal preference.
 
 
 == Scenarios
