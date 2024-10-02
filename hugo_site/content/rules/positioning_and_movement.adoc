@@ -1,8 +1,8 @@
 ---
 title: Positioning & Movement
 weight: 100
-prev: /docs/character_advancement
-next: /docs/perception_and_knowledge
+prev: /rules/character_advancement
+next: /rules/perception_and_knowledge
 ---
 :toc:
 

@@ -162,7 +162,7 @@ fn genders(f: &mut File) -> std::io::Result<()> {
 fn goals(f: &mut File) -> std::io::Result<()> {
     writeln!(f, "export const goals = [")?;
     for v in character::reasons_to_adventure().iter() {
-        writeln!(f, "\"{v}\",")?;
+        writeln!(f, "\"{}\",", process_keywords(v.to_string()))?;
     }
     writeln!(f, "];\n")?;
     Ok(())
@@ -171,7 +171,7 @@ fn goals(f: &mut File) -> std::io::Result<()> {
 fn appearances(f: &mut File) -> std::io::Result<()> {
     writeln!(f, "export const appearances = [")?;
     for v in character::appearances().iter() {
-        writeln!(f, "\"{v}\",")?;
+        writeln!(f, "\"{}\",", process_keywords(v.to_string()))?;
     }
     writeln!(f, "];\n")?;
     Ok(())
@@ -180,7 +180,7 @@ fn appearances(f: &mut File) -> std::io::Result<()> {
 fn personalities(f: &mut File) -> std::io::Result<()> {
     writeln!(f, "export const personalities = [")?;
     for v in character::personalities().iter() {
-        writeln!(f, "\"{v}\",")?;
+        writeln!(f, "\"{}\",", process_keywords(v.to_string()))?;
     }
     writeln!(f, "];\n")?;
     Ok(())

@@ -1,15 +1,15 @@
 ---
 title: Conditions
 weight: 26
-prev: /docs/traits
-next: /docs/health_and_damage
+prev: /rules/traits
+next: /rules/health_and_damage
 ---
 :toc:
 
 == Handling conditions
 
 Conditions are temporary alterations of the character's state.
-They are usually negative.
+They are usually disadvantageous, even though there is no hard rule against advantageous conditions.
 Like skills and traits, in addition to the listed effects you should take them into account whenever it makes sense.
 
 include::gen/ref_condition_list.adoc[]

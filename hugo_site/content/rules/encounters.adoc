@@ -1,8 +1,8 @@
 ---
 title: Encounters
 weight: 130
-prev: /docs/hazards
-next: /docs/combat
+prev: /rules/hazards
+next: /rules/combat
 ---
 :toc:
 

@@ -59,9 +59,9 @@ languages:
 
 menu:
   main:
-    - name: Rulebook
+    - name: Rules
       weight: 1
-      pageRef: /docs
+      pageRef: /rules
     - name: Character generator
       weight: 2
       pageRef: /character_generator

@@ -1,8 +1,8 @@
 ---
 title: Health & Damage
 weight: 30
-prev: /docs/conditions
-next: /docs/corruption_and_mutation
+prev: /rules/conditions
+next: /rules/corruption_and_mutation
 ---
 :toc:
 
@@ -11,7 +11,7 @@ next: /docs/corruption_and_mutation
 Characters have maximum health equal to their STR.
 When they suffer damage, they reduce health by an equal amount, at most down to 0.
 
-* Characters who lose at once half or more of their remaining health (minimum 1) suffer critical damage.
+* Characters who lose at once half or more of their remaining health suffer *critical damage*.
 Characters who suffer critical damage take the _incapacitated_ condition until the end of the stretch.
 
 * Characters who lose all their remaining health suffer critical damage and additionally take the _dying_ condition.
@@ -24,9 +24,11 @@ Lost health can be recovered by resting (see link:../rest_and_recovery[Rest & Re
 {{% details title="Example" closed="true" %}}
 
 Theobald has STR 9, therefore his maximum health is 9 as well.
-When at full health, he suffers critical damage if he takes 4 or more damage at once.
+When at full health, he suffers critical damage if he takes 5 or more damage at once.
 If he takes damage and loses health, the amount necessary to trigger critical damage is reduced accordingly.
 For example, once he is reduced to 4 health he would suffer critical damage with just 2 points of damage.
+
+No matter what his current health is, he dies immediately if he suffers 9 or more damage at once.
 
 {{% /details %}}
 ++++
@@ -36,11 +38,10 @@ For example, once he is reduced to 4 health he would suffer critical damage with
 
 _Incapacitated_ characters are unconscious or in terrible pain.
 They are completely unable to act and defenceless.
-They recover at the end of the stretch.
+They recover automatically at the end of the stretch.
 
 _Dying_ characters die at the end of the next round.
-If they recover at least 1 health before then they are stabilised and out of danger but suffer an injury.
-They roll on the <<tb_injuries>> table and suffer the indicated effect.
+If they recover at least 1 health before then, they are stabilised and out of danger but must roll on the <<tb_injuries>> table and suffer the indicated penalty.
 
 .Injuries
 [[tb_injuries]]
@@ -143,7 +144,7 @@ Players whose character dies must immediately create a new one, who joins the co
 If all Player characters are _incapacitated_ at the same time, the GM decides what happens to the company (they might be killed, captured, rescued, robbed, etc.).
 If all Player characters die, the Players lose and must create a brand new company.
 
-Even though a dead Player character is promptly replaced, their death has consequences.
-The other Player characters must pay for their funeral or permanently lose an omen, as described in the link:../omens/#_honour_the_dead[Honour the dead] section.
-The GM may also introduce additional penalties, suitable to the scenario or the campaign.
-For example, he might allow the Players a maximum number of deaths before the scenario or campaign is declared lost for good.
+Even though a dead Player character is promptly replaced, death still has consequences.
+The replacement will be less experienced, and the other Player characters must pay for a funeral or permanently lose an omen, as described in the link:../omens/#_honour_the_dead[Honour the dead] section.
+The GM may introduce additional or alternative penalties which are suitable to the scenario or the campaign.
+For example, they might allow the Players a maximum number of deaths before the scenario or campaign is lost.

@@ -1,8 +1,8 @@
 ---
 title: Corruption & Mutation
 weight: 40
-prev: /docs/health_and_damage
-next: /docs/omens
+prev: /rules/health_and_damage
+next: /rules/omens
 ---
 :toc:
 

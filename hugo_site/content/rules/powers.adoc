@@ -1,8 +1,8 @@
 ---
 title: Powers
 weight: 150
-prev: /docs/combat
-next: /docs/character_categories
+prev: /rules/combat
+next: /rules/character_categories
 ---
 :toc:
 

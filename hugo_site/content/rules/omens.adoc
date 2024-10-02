@@ -1,8 +1,8 @@
 ---
 title: Omens
 weight: 50
-prev: /docs/corruption_and_mutation
-next: /docs/rest_and_recovery
+prev: /rules/corruption_and_mutation
+next: /rules/rest_and_recovery
 ---
 :toc:
 
@@ -21,7 +21,7 @@ GM characters normally don't have any omens, but exceptions can be made for part
 You can even do so when you fail a group save, in which case you reroll the die only for yourself, other characters are unaffected.
 
 * Reroll a contest against the character just above you in the ranking, swapping positions if you win.
-If multiple characters have omens to spend, those at the bottom spend their omens first.
+If multiple characters have omens to spend, resolve from the bottom of the ranking.
 
 * Reroll when you suffer damage, keeping the lowest roll.
 You can't reroll damage you inflict.

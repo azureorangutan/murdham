@@ -1,28 +1,35 @@
 ---
 title: Followers & Services
 weight: 81
-prev: /docs/items
-next: /docs/character_advancement
+prev: /rules/items
+next: /rules/character_advancement
 ---
 :toc:
 
 
 
-== Controlling followers
+== Retainers
 
-Characters with human intelligence act as retainers, joining the party due to common interests or in exchange for payment.
+Followers with human intelligence act as retainers, joining the party due to common interests or in exchange for payment.
 They pretty much behave like Player characters, but they might refuse to perform specific tasks unless they were agreed as part of their responsibilities.
 
-Characters with animal intelligence behave according to their nature.
+
+== Animal followers
+
+Followers with animal intelligence behave according to their nature.
 If trained, they might be able to obey simple orders and perform specific tasks, such as carrying a rider, pulling carts, following trails, performing tricks, etc.
 Animals will avoid combat and other dangerous situations unless they are natural predators or have been trained to fight.
 
-In game terms, the Players control their followers as their own character, assuming they are giving them orders, but the GM ultimately decides if and how they do what they are asked.
+
+== Controlling followers
+
+Players control followers as their own character, assuming they are giving them orders.
+The GM however ultimately decides if and how they do what they are asked.
 Followers will always refuse to do something clearly harmful to themselves.
 In situations where their loyalty is put into question, the character who is leading them must pass a WIT save to keep their allegiance.
 
 
-== Types of follower
+== Followers
 
 * *Animal* (*).
 Check the link:../bestiary[Bestiary] section for profiles and values in shillings.
