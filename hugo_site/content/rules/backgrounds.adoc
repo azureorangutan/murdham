@@ -1,8 +1,8 @@
 ---
 title: Backgrounds
 weight: 20
-prev: /docs/abilities_and_saves
-next: /docs/skills
+prev: /rules/abilities_and_saves
+next: /rules/skills
 ---
 :toc:
 

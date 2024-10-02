@@ -12,12 +12,11 @@ Time is tracked using rounds during combat.
 A round is divided in the following phases:
 
 . *Initiative phase*.
-Randomly determine which faction has the initiative by rolling a die.
-For example, roll a d2 if there are two factions.
 On the first round, the faction which started the fight automatically has the initiative.
+On following rounds, the Players have the initiative.
 
 . *Action phase*.
-The factions alternate taking turns with one character at a time, starting with the faction with the initiative.
+The factions alternate taking turns with one character at a time, starting with the one holding initiative.
 Each character can only take turn once per round.
 A faction can choose to pass instead of taking turn with a character, and if all factions pass consecutively the phase ends.
 A faction who has already taken turn with all its characters can only pass.
@@ -28,8 +27,8 @@ Check if any faction must make a morale check (see <<_morale>>).
 
 == Taking a turn
 
-During their turn characters can _move_ by 2 zones, perform a _bonus action_, and perform a _main action_ or a second _bonus action_, in any order.
-It is possible to split movement before and after taking actions.
+During their turn characters can _move_ by 2 zones, perform a _bonus action_, and perform a _main action_ or another _bonus action_, in any order.
+It is possible to split movement before, after, and between actions.
 
 Alternatively, characters can take their turn outside of the normal order to perform a _reaction_ in response to a specific trigger.
 
@@ -47,11 +46,10 @@ The character must also narrate how they attempt to do so, and it must be someth
 
 * *Interact* with the environment.
 
-* *Pick up* or *put down* something.
-Dropping something is free, but the item might be damaged if fragile.
-
 
 == Bonus actions
+
+* *Pick up* or *put down* something.
 
 * *Equip* or *unequip* an item.
 Swapping two items is two bonus actions.
@@ -79,23 +77,23 @@ Armour can't be changed during a fight.
 
 Attacking an enemy is a main action.
 In normal situations, attacks hit and inflict damage to the target automatically.
-Attacks made in challenging circumstances require passing a WIT save to hit.
+However, attacks made in challenging circumstances require passing a WIT save to hit.
 
 Unarmed attacks inflict d4 impaired damage.
 Armed attacks inflict damage depending on the weapon used.
 The attacker may choose to voluntarily hold back an attack to inflict impaired damage.
-If the attacker targets a nearby _incapacitated_ character, they may choose to deliver a final blow and kill them.
+If the target is nearby and _incapacitated_, the attacker may choose to deliver a final blow and kill them.
 
-* *Melee attacks*.
+*Melee attacks*.
 Target a nearby character.
 Hitting a target who is not visible requires passing a WIT save or the attack misses and inflicts no damage.
 
-* *Ranged attacks*.
+*Ranged attacks*.
 Target a visible character within the indicated range.
 Hitting targets beyond half range or while moving requires passing a WIT save or the attack misses and inflicts no damage.
-Targeting a character beyond half range while moving, or a character who is not visible, is not possible at all.
+Targeting a character beyond half range while moving, or a character who is not visible, isn't possible.
 
-* *Indirect ranged attacks*.
+*Indirect ranged attacks*.
 Can be directed at targets which aren't directly visible and over obstacles, but can only target beyond half range.
 A WIT save to hit is always required.
 Attacking while moving isn't possible.
@@ -107,24 +105,26 @@ Targets of an attack may attempt to dodge, counter, or hide behind a nearby char
 The choice must be made before rolling for damage but after the WIT save to hit, if required.
 Targets who are unaware of their attacker can't react.
 
-* *Dodge*.
+*Dodge*.
 Make an AGI save, and on a pass the attack misses.
 
-* *Counter*.
+*Counter*.
 Perform a suitable attack against the attacker.
 Both characters roll for damage at the same time.
 Whoever suffers the most damage, after reductions, is hit first.
 In case of a tie both characters are hit at the same time.
 Attacks with multiple targets can only be countered by a single target.
 
-* *Hide behind a nearby character*.
+*Hide behind a nearby character*.
 Choose a nearby character, who must agree with the action.
 This character becomes the new target of the attack.
 They can perform their own reaction.
 
+*Guard*.
 A character who is nearby the target of an attack can react by guarding them.
 They become the new target of the attack.
 Since they have spent their reaction to guard, they can't normally counter or dodge.
+Guarding is similar to hiding behind, the main difference is who spends their turn to react: the original target or the new target.
 
 
 == Opportunity attacks
@@ -137,13 +137,13 @@ It isn't normally possible to react to an opportunity attack, since the target i
 
 == Protection from attacks
 
-* *Concealment* partially obscures vision to the target.
+*Concealment* partially obscures vision to the target.
 Damage is impaired.
 
-* *Cover* offers physical protection.
+*Cover* offers physical protection.
 The target's armour value is increased by 1 unless the attack is powerful enough to penetrate the cover.
 
-* *Barriers* completely block attacks.
+*Barriers* completely block attacks.
 If a character peaks behind cover to attack, they can be still countered and the barrier only counts as cover.
 
 
@@ -173,18 +173,18 @@ Non-lethal attacks don't inflict damage but instead force the target to pass a s
 They can be dodged and countered and can be used to counter.
 Since they inflict no damage they are always resolved last in case of a counter.
 
-* *Disarm*.
+*Disarm*.
 A nearby target must pass a STR save or drop a weapon chosen by the attacker.
 
-* *Grapple*.
+*Grapple*.
 A nearby target must pass a STR save or be grabbed by the attacker.
 Grabbed characters are _entangled_ for as long as their enemy keeps hold of them.
 
-** Characters who are grabbing another character can move together with them and attack them while keeping hold, but doing anything else automatically frees the grabbed character.
+* Characters who are grabbing another character can move together with them and attack them while keeping hold, but doing anything else automatically frees the grabbed character.
 
-** They can also shove the grabbed character, freeing them but forcing them to move by half a zone and/or pushing them into a hazard in their zone.
+* They can also shove the grabbed character, freeing them but forcing them to move by half a zone and/or pushing them into a hazard in their zone.
 
-** Finally, they can hide behind the grabbed character as a reaction to an attack.
+* Finally, they can hide behind the grabbed character as a reaction to an attack.
 The grabbed character has no option but become the new target of the attack.
 
 
@@ -227,14 +227,6 @@ Chases over long distances can be resolved with the fleeing character making a g
 If the fleeing characters can move faster or keep the speed for longer, the save is not required.
 If the opposite is true, escaping is impossible.
 
-
-== Weapon degradation
-
-After a fight, make a durability roll for all weapons and armour which were used at least once.
-Other situations which might require a durability roll are using a weapon to try to break down a door, or a fragile item falling to the ground.
-
-Many items can be used as improvised weapons.
-They work as a _simple hand weapon_ or a _simple great weapon_, but are handled as if they were already _damaged_.
 
 
 == Optional rule: fast and slow activations
@@ -286,8 +278,7 @@ Both factions must pass because they have no characters left, and the action pha
 
 == Optional rule: the chaos of combat
 
-This is an optional rule you can use to represent the chaotic nature of combat and to reduce the amount of time spent to resolve fights if the Players like to strategise and think a lot.
-If you prefer a more '`relaxed`' and tactical experience, feel free to ignore them.
+This is an optional rule you can use to represent the chaotic nature of combat and to reduce the amount of time spent to resolve fights if the Players suffer from analysis-paralysis.
 
 * The Players aren't allowed to speak to each other unless their character spends a bonus action to say a short sentence.
 

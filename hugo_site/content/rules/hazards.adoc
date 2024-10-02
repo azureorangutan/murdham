@@ -21,7 +21,7 @@ They die if they fail another save to resist suffocation while _incapacitated_.
 
 == Elemental damage
 
-*Cold and heat* inflicts direct damage.
+*Cold and heat* inflict direct damage.
 Characters in an extremely cold or scorching hot environment suffer d4 impaired cold or heat damage at the end of each stretch.
 
 *Fire* inflicts direct damage, enhanced against targets made of or covered in flammable substances.
@@ -47,7 +47,7 @@ Two such effects can stack together to let characters completely ignore terror a
 Traps are concealed elements and thus can be detected by a careful search or, if they aren't well hidden, passively by passing a WIT check when nearby.
 
 Characters who notice a trap can stop in time before triggering it.
-Characters who voluntarily trigger a detected trap can react to it when it makes sense, typically attempting an AGI save to dodge it, but characters who trigger an undetected trap are automatically hit.
+Characters who voluntarily trigger a detected trap can react to it when it makes sense, typically attempting an AGI save to dodge it, but characters who trigger an undetected trap can't do anything to react.
 
 
 == Poison

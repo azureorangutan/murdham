@@ -6,21 +6,80 @@ next: /rules/character_categories
 ---
 :toc:
 
-== Invoking powers
+== Power scrolls
 
-The _religion_ and _sorcery_ skills grant the ability to invoke sacred and sorcerous powers, respectively.
-The invoker must hold a _power scroll_ recording the power in hand and read it out loud.
+_Power scrolls_ are precious artifacts holding ancient and powerful magic.
+They come in two types: sacred and sorcerous.
 
-Invoking a sacred power takes a full stretch, after which the invoker rolls a d12: the power works if the result exceeds their current corruption, otherwise nothing happens.
-Characters can only make a single attempt at invoking sacred powers per watch.
+Characters with the _religion_ or _sorcery_ skill can invoke powers from sacred and sorcerous _power scrolls_ respectively.
+They must hold the _power scroll_ while reading it out loud, just memorising the incantations isn't enough.
 
-Invoking a sorcerous power only takes 1 action, and the invoker must either spend 1 mana or suffer 2 corruption.
-Sorcerers can increase their mana when they advance, at most up to 6, instead of taking a normal advancement.
-Mana is recovered to the maximum on day rests and full rests.
+Knowledge on how to craft power scrolls has been long forgotten.
+Simply transcribing the incantations on parchment doesn't work.
 
-_Power scrolls_ are more than mundane pieces of parchment recording incantations: they are artifacts holding ancient and powerful magic.
-For this reason, powers must always be read from a scroll to be effective, memorising the incantations isn't enough.
-Likewise, simply writing the incantations on parchment doesn't create a _power scroll_, and the knowledge on how to craft them has been forgotten.
+
+== Invoking sacred powers
+
+Invoking a sacred power takes a full stretch.
+The invoker must roll higher than their current corruption on a d12 for the power to work, otherwise nothing happens.
+Each character can only make a single attempt at invoking a sacred power per watch.
+
+++++
+{{% details title="Example" closed="true" %}}
+
+Norman the Priest has the _religion_ skill and a _power scroll_ recording the _rite of martyrdom_.
+He can attempt to invoke any sacred power once per watch by spending a stretch.
+He currently has 2 corruption, meaning that the power is only effective on a roll of 3 or more on a d12.
+
+{{% /details %}}
+++++
+
+
+== Invoking sorcerous powers
+
+Invoking a sorcerous power only takes a few seconds (a main action in combat).
+The invoker must spend 1 mana to cast the power.
+If they have no mana left, they suffer 2 corruption instead.
+
+Sorcerous powers are cast at most at a level equal to the invoker's current mana (before spending it).
+The maximum level can be increased by 1 either by spending a full stretch to invoke the power (instead of a few seconds), or by suffering 2 corruption.
+
+Powers cast as described have level 0.
+Applying the following generic enhancements, or any specific enhancement in the power description, increases the level by the indicated amount.
+The same enhancement can be applied multiple times.
+
+* Level+1 -- Target a small zone, affecting all valid targets within it or on its borders.
+
+* Level+1 -- Double the number of targets or targeted zones.
+
+* Level+1 -- Improve range by one category.
+
+* Level+1 -- Invoke the power silently, without pronouncing incantations.
+
+* Level+2 -- Improve duration by one category.
+
+++++
+{{% details title="Example" closed="true" %}}
+
+Philippa has the _sorcery_ skill and two _power scrolls_ recording the _eldritch blast_ and _miasma of chaos_ spells.
+She currently has 2 mana, meaning she can cast two spells safely.
+
+She first casts _eldritch blast_ at power level 2 (her current mana).
+She chooses to increase range by a category and to target a small zone instead of an individual character.
+The power takes effect and her mana is reduced to 1.
+
+Later she casts _eldritch blast_ again, this time at level 1.
+She decides to suffer 2 corruption to increase the level to 2 and apply the same enhancements as before.
+Luckily she suffers no soulblight, the power works, and her mana is reduced to 0.
+
+Later she casts _miasma of chaos_.
+Since she has no mana left, she suffers 2 corruption, increasing the total to 4.
+Since her mana is 0, the power is cast at level 0.
+She could choose to increase the level to 1 by suffering more corruption or taking longer to cast, but decides against it.
+Again she suffers no soulblight and the power works as intended.
+
+{{% /details %}}
+++++
 
 
 == Power range
@@ -52,58 +111,50 @@ The power lasts until the end of the watch.
 * *Lingering*.
 The power lasts indefinitely.
 
-The invoker may choose a trigger which can end the power prematurely upon casting it (a word, a gesture, etc.).
-Some powers might also end prematurely based on particular conditions.
+Some powers might end prematurely based on particular conditions.
+Upon casting, the invoker may also choose a trigger which can end the power prematurely (a word, a gesture, etc.).
+
+Ongoing sorcerous powers can additionally be dispelled by casting the exact same power on the same target.
+The base level of a power invoked to dispel another power depends on the duration of the dispelled power: 0 if _stretch_, 2 if _watch_, 4 if _lingering_.
 
 
 == Reacting to powers
 
-A target of an sorcerous power can react by countering the invoker as if it were an attack.
-If the power doesn't inflict damage, it is handled as a non-lethal attack, otherwise it is handled as a normal attack.
+The target of a sorcerous power can react by countering the invoker as if it were an attack.
+Conversely, sorcerous powers can be invoked as a counter to an attack.
+The power is handled as a non-lethal attack if it doesn't inflict damage, otherwise it is handled as a normal attack.
 It isn't possible to dodge a power unless otherwise specified.
-
-Sorcerous powers can also be invoked as a counter to an attack if they can target the attacker.
 
 Sacred powers take a full stretch to invoke, so they can't be used to react or reacted to.
 
 
-== Sorcerous power level
-
-Sorcerous powers are invoked at a certain level, at most equal to the invoker's current mana (before spending it to invoke the power).
-Invokers can increase the maximum level by 1 either by suffering 2 corruption or by spending a whole stretch to invoke the power.
-
-Powers invoked as described by the rules have level 0.
-All powers can be enhanced as listed below, when it makes sense, by increasing their level.
-Many powers can be enhanced in other specific ways, as detailed in their description.
-The same enhancement can be applied multiple times.
-
-* Level+1 -- Target a small zone, affecting all valid targets within it or on its borders.
-
-* Level+1 -- Double the number of targets or targeted zones.
-
-* Level+1 -- Improve range by one category.
-
-* Level+2 -- Improve duration by one category.
-
-* Level+1 -- Invoke the power silently, without pronouncing incantations.
-
-Sacred powers don't have a level and can't be enhanced: they always work the same way.
-
-
-== Dispelling
-
-Ongoing sorcerous powers can be dispelled by casting the exact same power on the same target.
-The base level of a power invoked to dispel another power depends on the duration of the dispelled power: 0 if _stretch_, 2 if _watch_, 4 if _lingering_.
-
-
 == Magic corruption and miscasts
 
-It is possible to invoke a sorcerous power without spending mana or at 1 level higher than allowed by suffering 2 corruption.
-If both conditions hold true, you suffer 4 corruption and only check for soulblight once.
+It is possible to invoke a sorcerous power with no mana left and/or at 1 level higher than normally allowed by suffering 2 corruption.
+If both conditions hold true, the invoker suffers 4 corruption at once and only checks for soulblight once.
 
-Corruption is inflicted before the power takes effect and before targets declare if they react.
-Characters who suffer soulblight apply the normal effects.
-If they are killed or _incapacitated_ the power has no effect, otherwise the power works but they must roll on the <<tb_miscast>> table.
+Corruption is inflicted before the power takes effect.
+The power has no effect if the invoker is killed or _incapacitated_ due to soulblight.
+If they suffer soulblight but are still alive and conscious, the power works but they must roll on the <<tb_miscast>> table.
+
+++++
+{{% details title="Example" closed="true" %}}
+
+Philippa attempts to cast a _eldritch blast_ while having 0 mana and 4 corruption.
+Her corruption increases to 6 and she rolls 3 on a d12, causing soulblight!
+She had 8 health, now reduced to 5, so she is still conscious and her corruption is also reduced to 3.
+
+The power works, but Philippa must roll on the miscast table.
+She rolls a 8, meaning the _eldritch blast_ has an alternative effect.
+The GM rules that the power heals the target instead of damaging them!
+
+Later, Philippa casts _eldritch blast_ again, this time at level 1, therefore suffering 4 corruption at once since her mana is still 0.
+Her total corruption increases to 7 and she rolls a 4 on a d12, meaning she suffers soulblight again!
+This time her health is reduced from 5 to 1, so she suffers critical damage and is _incapacitated_.
+The power has no effect, and she must roll for a mutation as per the normal rules.
+
+{{% /details %}}
+++++
 
 .Miscast
 [[tb_miscast]]
@@ -112,7 +163,7 @@ If they are killed or _incapacitated_ the power has no effect, otherwise the pow
 |D12 |Miscast
 
 |1 |
-The power doesn't work.
+The power actually doesn't work, but there are no other penalties.
 
 |2 |
 A minor eldritch event happens around the invoker: plants wither, blood rains from the sky, the air becomes unnaturally cold, etc.
@@ -123,7 +174,7 @@ Thick magical darkness shrouds all zones within range 1 of the invoker until the
 It's impossible to see through it and light cannot penetrate it in any way.
 
 |4 |
-The _power scroll_ you have used crumbles to dust.
+The _power scroll_ crumbles to dust and is permanently destroyed.
 
 |5 |
 The floor, walls, and air around the invoker twirl and change in chaotic patterns.
@@ -143,20 +194,20 @@ The power has an alternative effect which is disadvantageous for the invoker, ty
 Reroll if this doesn't make sense.
 
 |9 |
-The invoker and all creatures within range 1 are exposed to the '`demon pox`' disease.
+The invoker and all creatures within range 1 are exposed to the '`demon pox`' disease (see link:../hazards/#disease[Disease]).
 
 |10 |
 The invoker suffers a random mutation (roll on the link:../corruption_and_mutation/#tb_mutations[Mutations] table).
 
 |11 |
 A demon enters the world nearby the invoker.
-The demon isn't necessarily hostile to the invoker but its presence is for sure bad news, now or later.
+It isn't necessarily hostile, but its presence will surely spell trouble.
 
 |12 |
-The invoker is possessed by a demonic entity.
+The invoker is possessed by a demon.
 The GM makes a secret d12 roll for them at the start of each day.
-If they roll equal or lower than their corruption, the GM can take control of the character for a whole stretch during the day, making them do the demon's bidding.
-Characters who are possessed a second time succumb to the power of the demon, who takes full control of their body.
+If they roll equal or lower than their corruption, the GM can take control of the character for a whole stretch at any point during the day, making them do the demon's bidding.
+Characters who are possessed a second time succumb to the demon's power, who takes full control of their body.
 
 |===
 

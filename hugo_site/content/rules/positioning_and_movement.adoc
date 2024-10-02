@@ -14,7 +14,8 @@ During play the GM can copy the maps on paper as the Players explore locations, 
 
 == Areas
 
-Maps are divided into areas, which can vary in size and shape to accommodate the features of the location:
+Maps are divided into areas, which can vary in size and shape to accommodate the features of the location.
+There are three types of areas: zones, sectors, and regions.
 
 * *Zones* are used in maps representing buildings, dungeons, and other small sites.
 A zone covers an area of about 4 m by 4 m, such as a small room, a portion of a large room, a corridor, etc.
@@ -29,12 +30,12 @@ A region covers an area of about 10 km by 10 km, such as a whole city, a porti
 == Positioning
 
 Characters can be located in an area or on the border between two areas.
+There is no relevant limit on how many characters can fit inside a sector or a region.
 
 Up to 8 characters can fit inside a zone, and up to 2 characters can fit on the border between two zones.
 These numbers are halved for particularly tiny and cramped zones, and doubled for particularly large and open zones.
+Borders representing a door or similar small passages can typically hold only a single character.
 Characters can't move through or into a zone or zone border which is already full.
-
-There is no relevant limit on how many characters can fit inside a sector, a region, or their borders.
 
 
 == Range
@@ -43,7 +44,7 @@ Ranged attacks, powers, and other effects have a range expressed in number of zo
 To determine if two zones are within range, find the shortest path between them and count how many zones it crosses, excluding the originating one.
 
 Characters on a border are considered to be in either zone for the purpose of range.
-For example, characters in a zone are at range 0 from all characters in the same zone and on all its borders.
+This means that characters in a zone are at range 0 from all characters in the same zone and on all its borders, and characters on a border are at range 0 from other characters on the same border or in either of the two zones it divides.
 
 Characters at range 0 from each other are said to be '`nearby`' and can be targeted by melee attacks and other short range effects.
 

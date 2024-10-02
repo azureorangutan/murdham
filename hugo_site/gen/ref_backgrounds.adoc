@@ -291,7 +291,7 @@ You are a secretive scholar of the esoteric arts: many fear you, and with good r
 
 You have a dark past and many sins to atone for: you are going to save your soul by purging the heretic!
 
-* *Skills*: _battle frenzy_, _fearless_.
+* *Skills*: _battle frenzy_, _bravery_.
 
 * *Assets*: clothes (bloodstained monastic habit), book (Holy Scriptures), crimson weed (bulk ½; consumable).
 
