@@ -8,6 +8,7 @@ layout: hextra-home
   imageClass="hx-block hx-overflow-hidden hx-rounded-3xl"
   imageWidth="600" imageHeight="400"
   imageTitle="Knight, Death, and the Devil"
+  imageLink="https://en.wikipedia.org/wiki/Knight,_Death_and_the_Devil"
 >}}
 
 <div class="hx-mt-6 hx-mb-6">
@@ -67,7 +68,7 @@ layout: hextra-home
     subtitle="Skills are keywords: a character either has them or they don't. They provide significant advantages, such as the ability to succeed in certain actions without rolling or to cast spells."
   >}}
   {{< hextra/feature-card
-    title="Gear without book-keeping"
+    title="Streamlined gear system"
     subtitle="Characters can carry a limited amount of gear, tracked with a slot-based inventory system requiring very little math and book-keeping. Items are described in a few words and all have a clear use within the game."
   >}}
 {{< /hextra/feature-grid >}}

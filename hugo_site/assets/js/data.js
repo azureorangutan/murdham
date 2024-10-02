@@ -455,7 +455,7 @@ description: "Hunched over dusty ancient tomes, you have accumulated vast amount
 abilities: [0, 0, 0],
 skills: {
 "Alchemy": "You can read and write. You can speak and understand Classic, the language of scholars and the Church. You can craft alchemical substances, such as <i>acid vials</i>, <i>alchemist's fires</i>, <i>flash powder</i>, and <i>smoke bombs</i>. This requires raw materials (worth ¼ of the item) and an alchemist's workshop. You can craft a batch of 2 consumables of the same type in a watch.",
-"Erudition": "You can read, write, and perform advanced calculations. You can speak and understand Classic, the language of scholars and the Church. You are familiar with all manners of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy, etc. When your knowledge might come in handy, the GM you might give you additional information.",
+"Erudition": "You can read, write, and perform advanced calculations. You can speak and understand Classic, the language of scholars and the Church. You are familiar with all manners of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy, etc. When your knowledge applies, the GM might give you additional information.",
 },
 mana: 0,
 assets: [

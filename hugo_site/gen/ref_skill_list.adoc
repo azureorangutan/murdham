@@ -72,7 +72,7 @@ If you have _divination tools_, you can spend an omen and a stretch of time to a
 Pick one while driving a cart: automatically pass a save to prevent the cart from toppling, drive in almost impossible situations. When your cart sprints, you can still use your main action to attack, but it must be done after the movement is fully completed.
 
 * *Erudition*.
-You can read, write, and perform advanced calculations. You can speak and understand Classic, the language of scholars and the Church. You are familiar with all manners of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy, etc. When your knowledge might come in handy, the GM you might give you additional information.
+You can read, write, and perform advanced calculations. You can speak and understand Classic, the language of scholars and the Church. You are familiar with all manners of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy, etc. When your knowledge applies, the GM might give you additional information.
 
 * *Fast attack*.
 When you counter an attack or your attack is countered you always hit first unless your opponent also has this skill.

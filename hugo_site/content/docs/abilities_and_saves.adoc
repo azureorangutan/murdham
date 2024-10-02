@@ -21,14 +21,6 @@ Athleticism, dexterity, reflexes, swiftness.
 Awareness, charisma, cunning, willpower.
 
 
-== Ability changes
-
-Abilities can change permanently or temporarily due to various effects.
-Temporarily altered abilities are restored after full rests.
-If any ability is reduced to or below 0, even if only temporarily, the character dies.
-Abilities can never exceed 19, or 15 for humans.
-
-
 == Saves
 
 Characters must make a save when threatened or when they attempt to do something challenging or risky, where the outcome is uncertain and failure has consequences.

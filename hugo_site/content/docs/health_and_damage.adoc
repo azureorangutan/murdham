@@ -12,14 +12,11 @@ Characters have maximum health equal to their STR.
 When they suffer damage, they reduce health by an equal amount, at most down to 0.
 
 * Characters who lose at once half or more of their remaining health (minimum 1) suffer critical damage.
-Characters sho suffer critical damage take the _incapacitated_ condition until the end of the stretch, plus additional effects if mentioned by the rules.
+Characters who suffer critical damage take the _incapacitated_ condition until the end of the stretch.
 
 * Characters who lose all their remaining health suffer critical damage and additionally take the _dying_ condition.
 
 * Characters who suffer at once damage matching or exceeding their STR are killed on the spot.
-
-When STR is reduced, health must also be reduced by an equal amount, but not below 1.
-Health loss due to STR loss doesn't cause critical damage.
 
 Lost health can be recovered by resting (see link:../rest_and_recovery[Rest & Recovery]) or using healing items.
 
@@ -126,6 +123,18 @@ He rolls 3 and 7, resulting in only 3 damage.
 Armour value reduces incoming damage by a matching amount, even down to 0.
 It is increased by wearing armour and holding shields.
 '`Direct damage`' ignores armour value.
+
+
+== Ability changes
+
+Abilities can change permanently or temporarily due to various effects.
+If any ability is reduced to or below 0, even if only temporarily, the character dies.
+Abilities can never exceed 19, or 15 for humans.
+
+When STR is reduced, health must also be reduced by an equal amount, but not below 1.
+Health loss due to STR loss doesn't cause critical damage.
+
+Temporarily altered abilities are restored after a full rest (see link:../rest_and_recovery[Rest & Recovery]).
 
 
 == Death of the Player characters

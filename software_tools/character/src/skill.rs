@@ -148,8 +148,8 @@ impl Skill {
                 "You can read, write, and perform advanced calculations. You can speak and \
                  understand Classic, the language of scholars and the Church. You are familiar \
                  with all manners of academic lore: history, geography, beasts, plants, \
-                 philosophy, mathematics, astronomy, etc. When your knowledge might come in \
-                 handy, the GM you might give you additional information."
+                 philosophy, mathematics, astronomy, etc. When your knowledge applies, the GM \
+                 might give you additional information."
             ),
             Self::Languages => format!(
                 "You can read and write. Each time you enter into contact with a language there \
