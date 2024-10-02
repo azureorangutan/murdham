@@ -9,7 +9,7 @@ next: /rules/hazards
 == Perception
 
 The GM reveals to the Players what they can see, hear, smell, and feel.
-They should lean on the side of providing too much information rather than too little.
+The GM should lean on the side of providing too much information rather than too little: the Players can't play effectively if they don't have enough information.
 The Players should ask questions to clarify any doubts if they don't have a clear picture of the situation in their mind.
 
 
@@ -29,7 +29,7 @@ When two groups encounter each other they must each make a group WIT save.
 If at least one member passes, they notice the other group.
 
 Groups which are being reckless (making noise, talking loudly, carrying a light in the dark, etc.) are automatically detected and can't detect the other group unless they are being reckless as well.
-Groups which are well hidden and silent can't be detected by a WIT save, only by a search, and automatically detect even cautious groups.
+Groups which are well hidden and silent (for example laying in ambush in a thick forest) can't be detected by a WIT save, only by a search, and automatically detect even cautious groups.
 
 If only one group notices the other, it has the opportunity to decide how to approach the encounter: leaving, sneaking, launching an ambush, attempting to parley, etc.
 If both or neither group notices the other, the two sides stumble upon each other and the encounter can't be avoided.
@@ -39,8 +39,8 @@ If both or neither group notices the other, the two sides stumble upon each othe
 
 Characters who haven't been noticed may attempt to move without being detected, for example to approach an enemy or to move away unnoticed.
 
-They must be able to move silently and without being noticed, for example in the shadows or behind some form of cover, and must pass an AGI save to avoid detection.
-Sneaking in trivial situations, such as in very noisy or dark areas, requires no save.
+They must be able to move silently and unseen, for example in the shadows or behind some form of cover, and must pass an AGI save to avoid detection.
+Sneaking in trivial situations, such as in very noisy or dark areas, requires no save, while sneaking on very loud surfaces or in the open is simply impossible.
 
 Movement speed is halved while sneaking.
 
@@ -53,7 +53,7 @@ The Players can ask the GM if their characters know more about a specific topic 
 
 == Languages
 
-Player characters can speak Common, which is typically the main language spoken in the area where they are adventuring.
+Player characters can speak Common, the main language spoken in the Kingdom.
 The ability to speak additional languages is granted by skills.
 
-Characters can't read, write, or perform relatively complex calculations unless they have a skill which grants this ability: education is a privilege for few people!
+Characters can't read, write, or perform anything but very simple calculations unless they have a skill which grants this ability: education is a privilege for few people!

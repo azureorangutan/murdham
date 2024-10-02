@@ -18,9 +18,9 @@ The GM can use the following levels to express the attitude that other character
 They are open to mutually beneficial deals.
 
 * *Friendly* characters are open to help and do favours.
-They will still expect to get something back at some point.
+They will still expect to get something in return at some point.
 
-* *Infatuated* characters will be extremely friendly to the Player characters, often doing favours in exchange for little or nothing.
+* *Infatuated* characters will be extremely friendly towards the Player characters, often doing favours in exchange for little or nothing.
 They still won't do something which will harm them, and if they start feeling they are taken advantage of their attitude might worsen.
 
 
@@ -98,7 +98,7 @@ The value of less tangible assets, such as favours and peculiar services, must b
 
 * Goods in high demand are worth double or quadruple, while those in low demand are worth half or a quarter.
 
-* Illegal goods are sold at one quarter of their value and bought at four times their value, and not everyone will be willing to trade at all.
+* Illegal goods are sold at one quarter of their value and bought at four times their value, and most people will refuse to handle them.
 
 
 == Gathering rumours

@@ -1,8 +1,8 @@
 ---
 title: Abilities & Saves
 weight: 15
-prev: /docs/character_creation
-next: /docs/backgrounds
+prev: /rules/character_creation
+next: /rules/backgrounds
 ---
 :toc:
 

@@ -585,7 +585,7 @@ description: "You have a dark past and many sins to atone for: you are going to 
 abilities: [0, 0, 0],
 skills: {
 "Battle frenzy": "You can become <i>frenzied</i> by spending a main action or freely when you suffer damage. The condition lasts until all enemies have been defeated. You can spend a main action to try to calm yourself by passing a WIT save. While you are frenzied, you recover 1 health for each enemy you kill.",
-"Fearless": "You are immune to fear and treat terror as fear",
+"Bravery": "You are immune to fear and treat terror as fear",
 },
 mana: 0,
 assets: [

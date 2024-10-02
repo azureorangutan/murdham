@@ -37,9 +37,15 @@ Things with bulk higher than 2 (ladders, chests, other characters, etc.) can't b
 You must make a durability roll when an item has been used in a way which might have compromised its integrity, but with some level of uncertainty.
 There is an 1:4 chance that the affected item was _damaged_.
 
+After a fight, make a durability roll for all weapons and armour which were used at least once.
+Other situations which might require a durability roll are using a weapon to try to break down a door, or a fragile item falling to the ground.
+
 _Damaged_ items can still be used but are permanently destroyed on another failed durability roll.
 _Damaged_ weapons and shields are also destroyed if they are used to attack and a 1 is rolled on the damage die.
 _Damaged_ shields and armour are also destroyed by attacks inflicting at least 8 damage before armour reduction (shields are destroyed first).
+
+Many items can be used as improvised weapons.
+They work as a _simple hand weapon_ or a _simple great weapon_, but are handled as if they were already _damaged_.
 
 
 include::gen/ref_item_keywords.adoc[]

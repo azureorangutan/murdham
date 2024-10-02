@@ -35,6 +35,9 @@ You are able to speak endless strings of nonsense, leaving others dumbfounded. Y
 * *Boatmanship*.
 You count as two people when rowing a boat and know how to sail. When you forage, on a _fish_ result you find an additional _ration_, even if you don't have _fishing tools_.
 
+* *Bravery*.
+You are immune to fear and treat terror as fear
+
 * *Brawling*.
 Your unarmed attacks are not impaired and inflict d6 damage. Your armour value is increased by 1 against unarmed attacks.
 
@@ -79,9 +82,6 @@ When you counter an attack or your attack is countered you always hit first unle
 
 * *Fast dodge*.
 Once per round, you can dodge an attack without spending your turn, even if you have already acted. You can't dodge the same attack twice, but you can dodge and counter the same attack, and you can dodge when your attack is countered. You can use this skill to dodge an opportunity attack or while guarding.
-
-* *Fearless*.
-You are immune to fear and treat terror as fear
 
 * *Fire eating*.
 You can consume _alcoholic drink_ and spit it through an open flame, such as a lit _torch_, to make a melee blast attack inflicting d4 fire damage. You reduce incoming fire damage by 1.

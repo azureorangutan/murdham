@@ -345,7 +345,7 @@ impl Background {
             ],
             Self::Zealot => [
                 Advancement::from(Skill::BattleFrenzy),
-                Advancement::from(Skill::Fearless),
+                Advancement::from(Skill::Bravery),
             ],
         }
     }

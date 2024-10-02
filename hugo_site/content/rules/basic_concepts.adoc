@@ -1,8 +1,8 @@
 ---
 title: Basic Concepts
 weight: 10
-prev: /docs/
-next: /docs/character_creation
+prev: /rules/
+next: /rules/character_creation
 ---
 :toc:
 

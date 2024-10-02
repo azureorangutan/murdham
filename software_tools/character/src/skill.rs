@@ -16,6 +16,7 @@ pub enum Skill {
     BattleFrenzy,
     Blathering,
     Boatmanship,
+    Bravery,
     Brawling,
     Burglary,
     Bushcraft,
@@ -31,7 +32,6 @@ pub enum Skill {
     Erudition,
     FastAttack,
     FastDodge,
-    Fearless,
     FireEating,
     Frugality,
     Gossiping,
@@ -423,7 +423,7 @@ impl Skill {
                  crafted.",
                 ItemKind::Toolbox
             ),
-            Self::Fearless => format!("You are immune to fear and treat terror as fear",),
+            Self::Bravery => format!("You are immune to fear and treat terror as fear",),
             Self::PoisonResistance => format!(
                 "You are resistant to alcohol, poisons, and drugs. You ignore the first dose \
                  taken within a stretch. You can resist a second dose with a STR save, and a \
