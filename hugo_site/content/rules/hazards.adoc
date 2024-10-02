@@ -1,8 +1,8 @@
 ---
 title: Hazards
 weight: 120
-prev: /docs/perception_and_knowledge
-next: /docs/encounters
+prev: /rules/perception_and_knowledge
+next: /rules/encounters
 ---
 :toc:
 

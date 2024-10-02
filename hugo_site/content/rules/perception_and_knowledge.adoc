@@ -1,8 +1,8 @@
 ---
 title: Perception & Knowledge
 weight: 110
-prev: /docs/positioning_and_movement
-next: /docs/hazards
+prev: /rules/positioning_and_movement
+next: /rules/hazards
 ---
 :toc:
 

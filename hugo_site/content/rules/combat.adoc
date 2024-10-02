@@ -1,8 +1,8 @@
 ---
 title: Combat
 weight: 140
-prev: /docs/encounters
-next: /docs/powers
+prev: /rules/encounters
+next: /rules/powers
 ---
 :toc:
 
@@ -226,6 +226,15 @@ Short chases can be played out using the combat rules.
 Chases over long distances can be resolved with the fleeing character making a group AGI save: those who pass escape, those who fail are reached by the pursuers.
 If the fleeing characters can move faster or keep the speed for longer, the save is not required.
 If the opposite is true, escaping is impossible.
+
+
+== Weapon degradation
+
+After a fight, make a durability roll for all weapons and armour which were used at least once.
+Other situations which might require a durability roll are using a weapon to try to break down a door, or a fragile item falling to the ground.
+
+Many items can be used as improvised weapons.
+They work as a _simple hand weapon_ or a _simple great weapon_, but are handled as if they were already _damaged_.
 
 
 == Optional rule: fast and slow activations

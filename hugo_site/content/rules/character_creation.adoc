@@ -1,15 +1,16 @@
 ---
 title: Character Creation
 weight: 14
-prev: /docs/basic_concepts
-next: /docs/abilities_and_saves
+prev: /rules/basic_concepts
+next: /rules/abilities_and_saves
 ---
 :toc:
 
-== Creating a character
+== Creating a random character
 
-Players follow these steps to create a new character.
-Many concepts will become clearer in the next chapters.
+In Murdham, characters are created randomly.
+Just like in real life, you have to make the best of the hand you are dealt!
+You can follow the process below step by step or use the online link:../../character_generator[Character Generator].
 
 . *Abilities*.
 Roll on the <<tb_starting_ability_scores>> to determine an array of three scores and assign them randomly to the three abilities: Strength (STR), Agility (AGI), and Wits (WIT).
@@ -31,18 +32,20 @@ Adjust their scores if that's the case.
 
 ** Reroll if you get the same background as another Player.
 
-. *Secondary properties*.
-You start with health equal to your STR, 0 corruption, and 2 omens.
-You also start with 0 mana unless your background is _wizard_, in which case you start with 1 mana.
-
 . *Assets*.
 You start with d8 shillings (ʂ), the items and followers granted by your background, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
 
 ** You additionally share a single _candle_ and _flint & tinder_ with the other Players.
 
-** If you start with a _power scroll_ without a specified power, roll for it on the <<tb_sorcerous_powers>> or <<tb_sacred_powers>> tables.
+** If you are a _priest_ or a _wizard_, you start with a _power scroll_ without a specified power.
+Roll for it on the <<tb_sorcerous_powers>> or <<tb_sacred_powers>> tables.
 
 ** Reroll if you get the same result as another Player on any table.
+
+. *Secondary properties*.
+You start with health equal to your STR, 0 corruption, and 2 omens.
+You also start with 0 mana unless your background is _wizard_, in which case you start with 1 mana.
+Your armour value depends on your starting items.
 
 . *Name and description*.
 Name and portray your character using words, drawings, or a combination of the two, as you prefer.
@@ -61,9 +64,7 @@ His character's starting abilities are therefore: **STR** 6, **AGI** 11, **WIT**
 2. He rolls a 3 on a d4 and a 4 on a d8 for the background: _labourer_.
 This grants him the _brawling_ and _wrestling_ skills and no ability increases.
 
-3. He notes down his secondary properties: health is 6 (equal to STR), corruption is 0, omens are 2, and mana is 0.
-
-4. He starts with the following assets:
+3. He starts with the following assets:
 
     * He rolls 1 on a d8 for starting money: 1ʂ.
 
@@ -72,6 +73,8 @@ This grants him the _brawling_ and _wrestling_ skills and no ability increases.
     * He rolls 1 on a d2 and 5 on a d12 for his starting weapon: a _boat hook_ plus 4ʂ.
 
     * He rolls 2 on a d2 and 1 on a d12 for his starting item: one dose of _flash powder_.
+
+4. He notes down his secondary properties: health is 6 (equal to STR), corruption is 0, omens are 2, mana is 0, and armour value is 0.
 
 5. He finally describes and name his character.
 
@@ -85,6 +88,7 @@ After all characters have been created, describe how they know each other.
 You can roll on the <<tb_relationships>> table if you need inspiration.
 You don't have to do this for every possible pair of characters, but you should make sure that everyone is connected.
 You can for example go around the table and define a connection for each pair of Players sitting next to each other, excluding the last pair.
+
 
 
 == Character creation tables

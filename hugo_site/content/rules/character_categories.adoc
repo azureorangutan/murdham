@@ -1,8 +1,8 @@
 ---
 title: Character Categories
 weight: 160
-prev: /docs/powers
-next: /docs/mounts_and_vehicles
+prev: /rules/powers
+next: /rules/mounts_and_vehicles
 ---
 :toc:
 

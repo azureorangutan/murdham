@@ -1,20 +1,25 @@
 ---
 title: Skills
 weight: 24
-prev: /docs/backgrounds
-next: /docs/traits
+prev: /rules/backgrounds
+next: /rules/traits
 ---
 :toc:
 
 == Handling skills
 
 Skills represent capabilities and expertise learnt by a character.
-There are no degrees or values: a character either has a skill or doesn't.
+There are no degrees or ranks: a character either has a skill or doesn't.
 
-The description of each skill lists the most common ways they can influence the game, but don't feel limited by this.
-You should take skills into account any time it makes sense within the game narrative, providing advantages according to the GM's judgement.
+The description of each skill lists the most common ways they can influence the game, but don't feel limited by this: you should take skills into account any time it makes sense within the game narrative.
 
-One common effect is to allow characters to perform normally risky actions without a save, or to perform actions which would normally be impossible with a save.
+Common advantages provided by skills are:
+
+* Perform normally risky actions without a save, or with added benefits in case of success.
+
+* Perform actions which would normally be impossible with a save.
+
+* Obtain additional information about a topic from the GM.
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -28,7 +33,7 @@ Later they find themselves in a similar situation, but a torrential rain starts 
 The GM rules that it's practically impossible for most people to climb safely, so Sybilla can't even attempt to do it.
 Since Beatrice has the _climbing_ skill, however, the GM allows her to attempt to do it with an AGI save.
 Once she is on top, she rolls out a _rope ladder_ she had in her backpack to let Beatrice up.
-The GM rules that climbing the ladder is trivial, even despite the rain, so Beatrice can just climb up without risks.
+The GM rules that climbing the ladder is trivial, even under the rain, so Beatrice can just climb up without risks.
 
 {{% /details %}}
 ++++
