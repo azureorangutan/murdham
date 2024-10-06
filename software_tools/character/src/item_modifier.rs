@@ -23,7 +23,7 @@ pub enum ItemModifier {
     FragileItem,
     RobustItem,
     MastercraftedWeapon,
-    MastercraftedArmour,
+    MastercraftedArmourOrShield,
     AnimalArmour,
     SturdyAnimalArmour,
     ExpensiveItem,
@@ -44,7 +44,7 @@ impl ItemModifier {
             Self::FragileItem => CostModifier::Divide(4),
             Self::RobustItem => CostModifier::Multiply(4),
             Self::MastercraftedWeapon => CostModifier::Multiply(4),
-            Self::MastercraftedArmour => CostModifier::Multiply(4),
+            Self::MastercraftedArmourOrShield => CostModifier::Multiply(4),
             Self::AnimalArmour => CostModifier::Multiply(1),
             Self::SturdyAnimalArmour => CostModifier::Multiply(4),
             Self::ExpensiveItem => CostModifier::Multiply(4),
@@ -59,7 +59,7 @@ impl ItemModifier {
             Self::MastercraftedWeapon => {
                 format!("The damage die is improved: d4 to d6, d6 to d8, d8 to d10, d10 to d12.",)
             }
-            Self::MastercraftedArmour => format!("Bulk is halved."),
+            Self::MastercraftedArmourOrShield => format!("Bulk is halved."),
 
             Self::AnimalArmour => format!(
                 "Made for dogs or other medium-sized animals without the ~{}~ trait.",

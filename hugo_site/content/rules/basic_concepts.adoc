@@ -44,7 +44,7 @@ There aren't winners or losers: the game's main point is to tell a fun emergent 
 If you are the GM, you are responsible for getting familiar with the rules and preparing a scenario to play before the game starts.
 You can write your own scenarios or use those created by others.
 
-During play you are responsible for running the game, acting as an impartial referee.
+During play you are responsible for running the game, act as an impartial referee.
 You are the Players' eyes and ears, describing the world to them as vividly and completely as possible.
 You also interpret all characters who aren't controlled by the Players, both friends and foes.
 Finally you have the task of judging the outcome of the characters' actions, using these rules as a tool to support your decisions.
@@ -56,7 +56,7 @@ Your main goal is for everyone at the table, including yourself, to have fun tel
 == The Players
 
 If you are a Player, you are responsible for interpreting your character and keeping track of their state.
-You should strive to portray your character as realistically as possible, acting as if you were in their shoes.
+You should strive to portray your character as realistically as possible, act as if you were in their shoes.
 
 Your main task is to describe what your character intends to do after the GM describes the current situation.
 You are free to think outside of the rules and attempt anything which would realistically make sense under the current circumstances: the GM will adjudicate what happens when it isn't covered in this rulebook.

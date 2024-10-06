@@ -10,7 +10,7 @@ Target an item which can be opened and closed, such as a door, a box, or a bottl
 
 * *Bewitch*.
 _Near_, _stretch_.
-Target a creature. The target attitude towards you improves by a step.
+Target a creature. The target attitude towards you improves by a step: hostile to unfriendly, unfriendly to neutral, neutral to friendly, friendly to infatuated (see the Encounters chapter).
 
 ** Level+1 -- Improve the attitude by an additional step
 
@@ -50,11 +50,11 @@ Target a small zone. The area is filled with red mist flowing from the ground. C
 
 * *Occult consultation*.
 _Near_, _stretch_.
-Target the corpse of a creature who has died no longer than a stretch ago and whose spirit is still lingering in the area. You may ask their spirit one question, but they aren't forced to answer or tell the truth. If you enhance the power range to _connection_, you may query the spirit of a long dead person who is already in the realm of the dead, but in they can only answer by knocking on its entrance. This means they can only answer with a number or a yes-or-no question.
+Target the corpse of a creature who has died no longer than a stretch ago and whose spirit is still lingering in the area. You may ask the spirit one question, but they aren't forced to answer truthfully, or at all. If you enhance the power range to _connection_, you may contact the spirit of a long dead person, but they can only answer by knocking on the door to the underworld: their answer can only be a number, yes, or no.
 
 * *Plague vessel*.
 _Near_, _stretch_.
-Target a _sick_ creature. You absorb the disease from the target, who is instantly healed. You carry the disease in your body without suffering its effect. You can attempt to discharge it by touching another creature before the power ends. The target can resist the infection with a STR save, if normally possible. If they resist, the disease stays in your body, and you can attempt to discharge it again later. If the power ends before you discharge the disease, you are infected by it yourself, without chance of a save.
+Target a _sick_ creature. You absorb the disease from the target, who is instantly healed. You carry the disease in your body without suffering its effect. You can attempt to discharge it by touching another creature before the power ends. The target can resist the infection with a STR save. If they resist, the disease stays in your body, and you can attempt to discharge it again later. If the power ends before you discharge the disease, you are infected by it yourself, without chance of a save.
 
 ** Level+1 -- Target another creature, who replaces you as the carrier of the disease.
 
@@ -64,7 +64,7 @@ Target an unlit light source, such as a _candle_, an _oil lamp_, a _torch_, or a
 
 * *Reanimate corpse*.
 _Near_, _stretch_.
-Target the corpse of a medium-sized (or smaller) creature. It is raised as a reanimated corpse under your control.
+Target the corpse of a medium-sized (or smaller) creature. It is raised as a _reanimated corpse_ under your control (see the Bestiary chapter for relevant stats and rules).
 
 ** Level+2 -- Increase the maximum size category of the targeted corpse by one step.
 

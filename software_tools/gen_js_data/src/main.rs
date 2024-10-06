@@ -41,7 +41,7 @@ fn backgrounds(f: &mut File) -> std::io::Result<()> {
                                 PowerKind::Sacred => {
                                     sacred_scrolls += 1;
                                 }
-                                PowerKind::Sorcerous => {
+                                PowerKind::Profane => {
                                     sorcerous_scrolls += 1;
                                 }
                             }

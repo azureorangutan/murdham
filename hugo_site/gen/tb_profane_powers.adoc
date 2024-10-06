@@ -1,7 +1,7 @@
 // This file was automatically generated.
 
 .Profane powers
-[[tb_sorcerous_powers]]
+[[tb_profane_powers]]
 [options='header, unbreakable', cols="^1,^4,^1,^4,^1,^4"]
 |===
 |D12 |Power

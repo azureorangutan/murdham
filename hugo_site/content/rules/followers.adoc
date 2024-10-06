@@ -1,8 +1,8 @@
 ---
-title: Followers & Services
+title: Followers
 weight: 81
 prev: /rules/items
-next: /rules/character_advancement
+next: /rules/services
 ---
 :toc:
 
@@ -28,8 +28,7 @@ The GM however ultimately decides if and how they do what they are asked.
 Followers will always refuse to do something clearly harmful to themselves.
 In situations where their loyalty is put into question, the character who is leading them must pass a WIT save to keep their allegiance.
 
-
-== Followers
+== Cost of followers
 
 * *Animal* (*).
 Check the link:../bestiary[Bestiary] section for profiles and values in shillings.
@@ -49,46 +48,3 @@ Won't fight, carry stuff, or perform menial labour.
 * *Mercenary* (64ʂ).
 Hired for a day to fight.
 Won't carry stuff, perform menial labour, or provide services other than fighting.
-
-
-== Services
-
-* *Bank deposit* (*).
-Deposit money in a bank by paying ¼ of the deposited sum.
-You can withdraw deposited money for free, even from other banks.
-
-* *Courier* (*).
-Delivers a message to a recipient.
-The cost is 1ʂ plus 1ʂ per region of distance.
-The cost might be higher through dangerous areas.
-
-* *Funeral* (512ʂ).
-A funeral for a dead Player character.
-Costs half if the body was recovered.
-
-* *Healing* (16ʂ).
-Recover health equal to half STR.
-
-* *Item storage* (*).
-Safely store items by paying ¼ of their value.
-You can take them back for free.
-
-* *Loan* (*).
-Borrow a sum of money, but you must pay back twice as much.
-Debts left behind by dead Player characters are transferred onto the other Player characters.
-If debts aren't repaid in a timely fashion, new loans might be refused and the character might be harassed by debt collectors.
-
-* *Lodging, day rest* (4ʂ).
-Provides a place to sleep, food, and water during a day rest.
-
-* *Lodging, full rest* (64ʂ).
-Provides a place to sleep, food, and water during a full rest.
-
-* *Repair* (*).
-Repair a damaged item by paying ¼ of its value.
-Items with the _durability_ keyword recover 2 health per watch.
-
-* *Transportation* (*).
-Transportation via stagecoach, boat, or ship a specific destination for a person.
-It costs 4ʂ plus 4ʂ per region of distance.
-The cost might be higher through dangerous areas.

@@ -1,31 +1,24 @@
 ---
-title: Rest & Recovery
+title: Rest
 weight: 60
 prev: /rules/omens
 next: /rules/items
 ---
 :toc:
 
-== Day rests
+== Day rest
 
 Characters can spend a watch to take a day rest.
-When doing so they must eat, drink, and sleep.
-Characters who satisfy all needs recover health and mana to the maximum.
-Those who don't recover no health nor mana and temporarily reduce an ability by 1 for each unsatisfied need: STR if they didn't eat, AGI if they didn't drink, and WIT if they didn't sleep.
+After two watches spent doing something else, they must do so or temporarily reduce all abilities by 1.
+On the fourth watch they are too exhausted to do anything else and are forced to take a day rest.
+
+Characters taking a day rest must must eat, drink, and sleep.
+If they satisfy all needs, they recover health and mana to the maximum.
+If they don't, they recover no health and no mana and temporarily reduce an ability by 1 for each unsatisfied need: STR if they didn't eat, AGI if they didn't drink, and WIT if they didn't sleep.
 
 In a settlement it is possible to pay 4ʂ for lodging, which includes food, drinks, and a bed.
 In the wilderness it is necessary to consume a _ration_ to eat, consume a unit _water_ to drink (unless there is plenty of drinkable water in the area), and have a _camping kit_ to sleep.
 Animals don't need a _camping kit_, and they don't need a _ration_ or a _drink_ while in their natural habitat as they can forage for themselves.
-
-After two watches spent doing something else, characters must take a day rest or temporarily reduce all abilities by 1.
-On the fourth watch they are forced to take a day rest.
-
-
-== Full rests
-
-Characters can spend a week in a settlement to take a full rest.
-It costs 64ʂ to pay for lodging, healing, and entertainment.
-They recover health and mana to the maximum, restore omens to the maximum, remove all conditions (including many injuries which can't be get rid of otherwise), and restore temporarily modified abilities to their original score.
 
 
 == Foraging
@@ -43,12 +36,12 @@ _Rations_ gathered in this way are perishable and are discarded if not consumed 
 |1 |*Fruits and vegetables*.
 You find a _ration_ unless you are in a desolate environment.
 
-|2 |*Dubious mushrooms*.
+|2 |*Dubious fruits and vegetables*.
 You find a _ration_ unless you are in a desolate environment, but you aren't sure if it's edible.
-If consumed there is a 1:4 chance that it makes the person sick: they temporarily reduce all abilities by 1.
+If consumed there is a 1:4 chance that it makes you sick: you temporarily reduce all abilities by 1.
 
 |3-4 |*Fish*.
-You find a _ration_ if you have a _fishing kit_ and there is a body of water in or neighbouring your region.
+You find a _ration_ if you have a _fishing kit_ and there is a nearby body of water in your region.
 
 |5-6 |*Small game*.
 You find a _ration_ if you have a _trapping kit_ and you aren't in a desolate environment.
@@ -60,3 +53,12 @@ Unless you are in a desolate environment, you find 4 _rations_ if you pass a WIT
 You come back empty handed.
 
 |===
+
+
+
+== Full rest
+
+Characters can spend a week in a settlement to take a full rest.
+It costs 64ʂ to pay for lodging, healing, and entertainment.
+They recover health and mana to the maximum, restore omens to the maximum, remove all conditions, and restore temporarily modified abilities to their original score.
+A full rest is the best way to get rid of long-lasting penalties due to injuries (ability reductions and negative conditions).

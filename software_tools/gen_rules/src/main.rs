@@ -259,7 +259,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     gen_reference(&args.output_dir, "Sacred powers", Power::sacred_powers())?;
     gen_reference(
         &args.output_dir,
-        "Sorcerous powers",
+        "Profane powers",
         Power::sorcerous_powers(),
     )?;
 
@@ -287,7 +287,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     )?;
     gen_single_die_table(
         &args.output_dir,
-        "Sorcerous powers",
+        "Profane powers",
         "Power",
         Power::advanced_sorcerous_powers(),
         3,

@@ -15,7 +15,7 @@ _Medium-sized demon_, _human intelligence_. +
 Takes the form of the most attractive creature which the observer can possibly imagine. Wants to corrupt the pure. +
 *STR* 8, *AGI* 8, *WIT* 12 +
 _Medium-sized demon_, _human intelligence_. +
-*Charm*. You can befriend and persuade people without a WIT save in challenging circumstances, and by passing a WIT save in almost impossible circumstances. If you spend a stretch chatting or observing someone, you are able to estimate if they are bribable, and what it might be necessary to convince them. +
+*Charm*. Reduce difficulty when befriending or persuading people. If you spend a stretch chatting or observing someone, you can estimate if they are bribable and how much they might want. +
 *Barbed tongue-whip*. D4 damage, grab. +
 *Powers*. Can invoke _bewitch_ once per watch at level 4. +
 
@@ -24,7 +24,7 @@ _Medium-sized demon_, _human intelligence_. +
 A mess of flesh and bones, shifting in shape and bright colours. Sees mortals as clay to be mould. +
 *STR* 8, *AGI* 12, *WIT* 8 +
 _Medium-sized demon_, _human intelligence_. +
-*Fast dodge*. Once per round, you can dodge an attack without spending your turn, even if you have already acted. You can't dodge the same attack twice, but you can dodge and counter the same attack, and you can dodge when your attack is countered. You can use this skill to dodge an opportunity attack or while guarding. +
+*Fast dodge*. You can dodge for free, without spending your turn, once per round. +
 *Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_. +
 *Claws*. D6 damage. +
 *Eldritch fire*. D6 damage, range 8. +

@@ -82,7 +82,7 @@ _Consumable_.
 Bloodstream lethal poison (death at the end of the stretch).
 
 * *Climbing gear* (16ʂ, bulk 2).
-Includes pitons, nails, climbing pickaxes, etc. Can be used to scale sheer surfaces, but it's challenging.
+Includes pitons, nails, climbing pickaxes, etc. Can be used to scale sheer surfaces, but an AGI save is usually required.
 
 * *Clothes* (16ʂ).
 All you need to cover yourself! Include belts, pouches, bags, and other containers to hold reasonably sized items.
@@ -175,7 +175,7 @@ Used to bind someone's hands.
 
 * *Medicine box* (16ʂ).
 _Consumable_.
-Spend a stretch to let a nearby character recover d8 health, but no more than half their maximum.
+Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health as a main action.
 
 * *Metal file* (4ʂ).
 Can cut through metal, with enough time.
@@ -211,7 +211,7 @@ _Consumable_.
 Smoke it after failing a save in a situation requiring thinking to repeat the save once. Then pass a WIT save or become _addicted_ to it.
 
 * *Power scroll* (64ʂ, bulk ½).
-A scroll recording a sacred or sorcerous power. Trading them is illegal. The knowledge of how to create them has been lost. The Church wants to collect all sacred scrolls and burn all sorcerous scrolls.
+A scroll recording a sacred or profane power. Trading them is illegal. The knowledge of how to create them has been lost. The Church wants to collect all sacred scrolls and burn all profane scrolls.
 
 * *Prosthesis* (16ʂ).
 Replaces a lost limb. If it replaces a lost leg, you can walk without a crutch.

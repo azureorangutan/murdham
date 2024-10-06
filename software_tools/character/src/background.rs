@@ -178,7 +178,7 @@ impl Background {
                  lure of darkness."
             }
             Self::Raconteur => {
-                "You have travelled far and wide across the kingdom, singing songs and acting out \
+                "You have travelled far and wide across the kingdom, singing songs and act out \
                  enthralling stories."
             }
             Self::RatCatcher => {
@@ -227,11 +227,11 @@ impl Background {
                 Advancement::from(Skill::Medicine),
             ],
             Self::Artisan => [
-                Advancement::from(Skill::Crafting),
+                Advancement::from(Skill::Craft),
                 Advancement::from(Skill::PiercingStrike),
             ],
             Self::BarberSurgeon => [
-                Advancement::from(Skill::Healing),
+                Advancement::from(Skill::Heal),
                 Advancement::from(Skill::LethalAttack),
             ],
             Self::Agitator => [
@@ -240,19 +240,19 @@ impl Background {
             ],
             Self::Boatman => [
                 Advancement::from(Skill::Boatmanship),
-                Advancement::from(Skill::Swimming),
+                Advancement::from(Skill::Swim),
             ],
             Self::BonePicker => [
                 Advancement::from(Skill::Frugality),
                 Advancement::from(Abilities::new(0, 1, 1)),
             ],
             Self::CoachDriver => [
-                Advancement::from(Skill::DrivingCarts),
-                Advancement::from(Skill::Riding),
+                Advancement::from(Skill::DriveCarts),
+                Advancement::from(Skill::Ride),
             ],
             Self::Cutpurse => [
-                Advancement::from(Skill::Sneaking),
-                Advancement::from(Skill::Stealing),
+                Advancement::from(Skill::Sneak),
+                Advancement::from(Skill::Steal),
             ],
             Self::Deserter => [
                 Advancement::from(Skill::CleavingStrike),
@@ -260,7 +260,7 @@ impl Background {
             ],
             Self::Duellist => [
                 Advancement::from(Skill::Ambidexterity),
-                Advancement::from(Skill::Disarming),
+                Advancement::from(Skill::Disarm),
             ],
             Self::Entertainer => [
                 Advancement::from(Skill::Contortionism),
@@ -272,15 +272,15 @@ impl Background {
             ],
             Self::Gambler => [
                 Advancement::from(Skill::Luck),
-                Advancement::from(Skill::PlayingGames),
+                Advancement::from(Skill::PlayGames),
             ],
             Self::Hunter => [
                 Advancement::from(Skill::Bushcraft),
-                Advancement::from(Skill::Hunting),
+                Advancement::from(Skill::Hunt),
             ],
             Self::Jester => [
                 Advancement::from(Skill::Acrobatics),
-                Advancement::from(Skill::Blathering),
+                Advancement::from(Skill::Blather),
             ],
             Self::Labourer => [
                 Advancement::from(Skill::Brawling),
@@ -289,26 +289,26 @@ impl Background {
             Self::Wizard => [Advancement::from(Skill::Sorcery), Advancement::Mana],
             Self::Messenger => [
                 Advancement::from(Skill::Languages),
-                Advancement::from(Skill::Running),
+                Advancement::from(Skill::FleetFooted),
             ],
             Self::Peasant => [
                 Advancement::from(Skill::AnimalHandling),
                 Advancement::from(Abilities::new(1, 1, 0)),
             ],
             Self::Pedlar => [
-                Advancement::from(Skill::Bargaining),
-                Advancement::from(Skill::Gossiping),
+                Advancement::from(Skill::Bargain),
+                Advancement::from(Skill::Gossip),
             ],
             Self::PitFighter => [
                 Advancement::from(Skill::FastAttack),
                 Advancement::from(Skill::ShieldMastery),
             ],
             Self::Priest => [
-                Advancement::from(Skill::Meditating),
-                Advancement::from(Skill::Religion),
+                Advancement::from(Skill::Incorruptible),
+                Advancement::from(Skill::Faith),
             ],
             Self::Raconteur => [
-                Advancement::from(Skill::Acting),
+                Advancement::from(Skill::Act),
                 Advancement::from(Skill::Music),
             ],
             Self::RatCatcher => [
@@ -337,7 +337,7 @@ impl Background {
             ],
             Self::TombRobber => [
                 Advancement::from(Skill::Burglary),
-                Advancement::from(Skill::Climbing),
+                Advancement::from(Skill::Climb),
             ],
             Self::WitchHunter => [
                 Advancement::from(Skill::MagicSense),
@@ -537,7 +537,7 @@ impl Background {
                     Power::EldritchBlast,
                 )))),
                 Asset::Item(Item::from(ItemKind::PowerScroll(
-                    PowerContent::PowerOfKind(PowerKind::Sorcerous),
+                    PowerContent::PowerOfKind(PowerKind::Profane),
                 ))),
             ],
             Self::Messenger => vec![

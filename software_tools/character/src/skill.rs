@@ -6,15 +6,15 @@ use super::*;
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, EnumIter)]
 pub enum Skill {
     Acrobatics,
-    Acting,
+    Act,
     Alchemy,
     Ambidexterity,
     AnimalHandling,
     Apothecary,
     Augury,
-    Bargaining,
+    Bargain,
     BattleFrenzy,
-    Blathering,
+    Blather,
     Boatmanship,
     Bravery,
     Brawling,
@@ -22,21 +22,21 @@ pub enum Skill {
     Bushcraft,
     Charm,
     CleavingStrike,
-    Climbing,
+    Climb,
     Contortionism,
-    Crafting,
-    Disarming,
+    Craft,
+    Disarm,
     DiseaseResistance,
     Divination,
-    DrivingCarts,
+    DriveCarts,
     Erudition,
     FastAttack,
     FastDodge,
     FireEating,
     Frugality,
-    Gossiping,
-    Healing,
-    Hunting,
+    Gossip,
+    Heal,
+    Hunt,
     Languages,
     Leadership,
     LethalAttack,
@@ -44,26 +44,26 @@ pub enum Skill {
     MagicSense,
     MagicShield,
     Medicine,
-    Meditating,
+    Incorruptible,
     MonsterSlaying,
     Music,
     PiercingStrike,
-    PlayingGames,
+    PlayGames,
     PoisonResistance,
     QuickDraw,
-    Religion,
-    Riding,
-    Running,
+    Faith,
+    Ride,
+    FleetFooted,
     ShieldMastery,
     SkilledShot,
     SkilledStrike,
     SneakAttack,
-    Sneaking,
+    Sneak,
     Sorcery,
     SteadyAim,
-    Stealing,
+    Steal,
     StrikeToStun,
-    Swimming,
+    Swim,
     Wrestling,
 }
 
@@ -73,34 +73,29 @@ impl Skill {
     pub fn description(&self) -> String {
         match self {
             // Movement
-            Self::Running => format!(
-                "When you sprint, you can move by an additional zone. You can sprint for two \
-                 consecutive stretches without needing to pass an AGI save, and for a third one \
-                 by passing an AGI save. You can freely dodge attacks of opportunity, without \
-                 needing to spend your turn.",
+            Self::FleetFooted => format!(
+                "When you sprint, you can move by an additional zone. You must only make an AGI \
+                 save to sprint every two rounds (at the start of the 3rd, 5th, 7th... rounds). \
+                 You can freely dodge attacks of opportunity without needing to spend your turn.",
             ),
-            Self::Swimming => format!(
-                "Pick one while swimming: move at full speed, automatically pass saves to avoid \
-                 drowning, swim in almost impossible circumstances. Your attacks aren't impaired \
-                 while swimming. You can hold your breath for twice as long."
+            Self::Swim => format!(
+                "Reduce difficulty or sprint while swimming.  Your attacks aren't impaired while \
+                 in water. You can hold your breath for twice as long."
             ),
-            Self::Climbing => format!(
-                "Pick one while climbing: move at full speed, automatically pass saves to avoid \
-                 falling, climb an almost impossible surface."
+            Self::Climb => format!(
+                "Reduce difficulty or sprint while climbing. Your attacks aren't impaired while \
+                 climbing."
             ),
             Self::Acrobatics => format!(
-                "Pick one while moving on difficult ground: move at full speed, automatically \
-                 pass saves to avoid falling, balance on extremely difficult terrain. You \
-                 automatically pass saves to leap normal distances, and can leap almost \
-                 impossible distances by passing a save. When you fall, you reduce the falling \
-                 distance by 4 metres if you pass the AGI save, and by 2 metres even if you fail.",
+                "Reduce difficulty or sprint while balancing. Reduce difficulty while leaping. \
+                 When you fall, you reduce the falling distance by 4 metres, if you pass the AGI \
+                 save, and by 2 metres even if you fail."
             ),
 
-            Self::DrivingCarts => format!(
-                "Pick one while driving a cart: automatically pass a save to prevent the cart \
-                 from toppling, drive in almost impossible situations. When your cart sprints, \
-                 you can still use your main action to attack, but it must be done after the \
-                 movement is fully completed.",
+            Self::DriveCarts => format!(
+                "Reduce difficulty while driving a cart. When your cart makes a full movement in \
+                 combat, you can still use your main action to attack, but only after the \
+                 movement is completed.",
             ),
             Self::Boatmanship => format!(
                 "You count as two people when rowing a boat and know how to sail. When you \
@@ -109,11 +104,10 @@ impl Skill {
                 ItemKind::Ration,
                 ItemKind::FishingTools
             ),
-            Self::Riding => format!(
-                "Pick one while riding: ride without a ~{}~, automatically pass saves to avoid \
-                 falling, ride in almost impossible situations, ride an untamed beast. When your \
-                 mount sprints, you can still use your main action to attack, but it must be done \
-                 after the movement is fully completed.",
+            Self::Ride => format!(
+                "Reduce difficulty while riding a tamed beast, ride without a ~{}~, or ride an \
+                 untamed beast. When your mount makes a full movement in combat, you can still \
+                 use your main action to attack, but only after the movement is completed.",
                 ItemKind::Saddle
             ),
 
@@ -124,37 +118,34 @@ impl Skill {
 
             // Stealth and alertness
             Self::Burglary => format!(
-                "Pick one when opening a lock or forcing something open: do it without tools \
-                 (~{}~ or ~{}~), do it silently, or do it in only one round if you pass the save \
-                 or in a stretch as usual even if you fail. You can react to traps even when you \
-                 are unaware of them.",
+                "Reduce difficulty when opening a lock, do it without tools (~{}~ or ~{}~), do it \
+                 silently, or do it in only a round. You can react to all traps you trigger, even \
+                 if you weren't aware of them.",
                 ItemKind::Crowbar,
                 ItemKind::LockPicks
             ),
-            Self::Sneaking => format!(
-                "Pick one while sneaking: move at full speed, automatically pass saves to avoid \
-                 being discovered, sneak in almost impossible situations. At the start of an \
-                 encounter, if your group was detected but you weren't acting recklessly, make an \
-                 AGI save: on a pass you personally weren't noticed. You could exploit this, for \
-                 example, to sneak undetected or start a fight concealed.",
+            Self::Sneak => format!(
+                "Reduce difficulty or sprint while sneaking. When your group is detected by \
+                 another group, make an AGI save: if you pass you still managed to conceal \
+                 yourself."
             ),
-            Self::Stealing => format!(
-                "Pick one while picking pockets: automatically pass saves to avoid being \
-                 discovered, attempt to steal an item with bulk 1."
+            Self::Steal => format!(
+                "Reduce difficulty while stealing, or attempt to steal an item with bulk 1, or \
+                 attempt to steal an item with bulk 1"
             ),
 
             // Knowledge
             Self::Erudition => format!(
                 "You can read, write, and perform advanced calculations. You can speak and \
-                 understand Classic, the language of scholars and the Church. You are familiar \
-                 with all manners of academic lore: history, geography, beasts, plants, \
-                 philosophy, mathematics, astronomy, etc. When your knowledge applies, the GM \
-                 might give you additional information."
+                 understand Classic, the language of scholars and the Church. You are an expert \
+                 in all manners of academic lore: history, geography, beasts, plants, philosophy, \
+                 mathematics, astronomy, etc. The GM might give you additional information when \
+                 it makes sense."
             ),
             Self::Languages => format!(
-                "You can read and write. Each time you enter into contact with a language there \
-                 is chance you know it: 1:2 for common languages, 1:4 for dead or remote \
-                 languages."
+                "You can read and write. Each time you encounter a new language in your \
+                 adventures there is chance you actually know it: 1:2 for common languages, 1:4 \
+                 for dead or remote languages. Keep track of the languages you can speak."
             ),
             Self::Alchemy => format!(
                 "You can read and write. You can speak and understand Classic, the language of \
@@ -171,7 +162,7 @@ impl Skill {
                 "You can read and write. You can speak and understand Classic, the language of \
                  scholars and the Church. You can diagnose poison and disease by spending a round \
                  examining a victim. After diagnosing, you can instruct someone with the ~{}~ \
-                 skill to create a bespoke ~{}~ or ~{}~ which always works against the specific \
+                 skill to create a bespoke ~{}~ or ~{}~ which always works against that specific \
                  poison or disease.",
                 Skill::Apothecary,
                 ItemKind::Antidote,
@@ -191,12 +182,10 @@ impl Skill {
                 ItemKind::MedicineBox,
                 ItemKind::ApothecaryTools
             ),
-            Self::Healing => format!(
-                "When you use a ~{}~, your patients always recover half their maximum health. You \
-                 can alternatively use a ~{}~ spending only a main action instead of a stretch, \
-                 in which case however you heal the usual amount. When you use ~{}~, you are \
-                 automatically successful without needing to pass a WIT save.",
-                ItemKind::MedicineBox,
+            Self::Heal => format!(
+                "When you use a ~{}~: heal half STR in a stretch, or d8 damage (up to half STR) \
+                 as a main action. When you use ~{}~, you are automatically successful without \
+                 needing to pass a WIT save.",
                 ItemKind::MedicineBox,
                 ItemKind::SurgeryTools,
             ),
@@ -205,44 +194,39 @@ impl Skill {
             Self::AnimalHandling => format!(
                 "You know how to take care of animals: feeding, grooming, taming, training, \
                  recognising signs of discomfort, etc. You can befriend wild animals by offering \
-                 food and passing a WIT save, and domesticated animals by doing either. \
-                 Befriended animals follow you until the end of the watch or you leave the area \
-                 where they live. You can't befriend hostile animals, and you can only be \
-                 accompanied by one befriended animal at a time.",
+                 food ~and~ passing a WIT save, and domesticated animals by offering food ~or~ \
+                 passing a WIT save. Befriended animals follow you until the end of the watch or \
+                 you leave the area where they live. You can't befriend hostile animals, and you \
+                 can only be accompanied by one befriended animal at a time.",
             ),
             Self::Charm => format!(
-                "You can befriend and persuade people without a WIT save in challenging \
-                 circumstances, and by passing a WIT save in almost impossible circumstances. If \
-                 you spend a stretch chatting or observing someone, you are able to estimate if \
-                 they are bribable, and what it might be necessary to convince them.",
+                "Reduce difficulty when befriending or persuading people. If you spend a stretch \
+                 chatting or observing someone, you can estimate if they are bribable and how \
+                 much they might want.",
             ),
-            Self::Blathering => format!(
+            Self::Blather => format!(
                 "You are able to speak endless strings of nonsense, leaving others dumbfounded. \
-                 You can distract and taunt people without a WIT save in challenging \
-                 circumstances, and by passing a WIT save in almost impossible circumstances."
+                 Reduce difficulty when distracting and taunting people."
             ),
-            Self::Gossiping => format!(
-                "When you take a day or full rest in a settlement, you might hear interesting \
-                 rumours. The GM decides what you hear, and it isn't necessarily true. You can \
+            Self::Gossip => format!(
+                "You might hear interesting rumours when taking a day rest or full rest in a \
+                 settlement. The GM decides what you hear, and it isn't necessarily true. You can \
                  easily find contacts, even illegal ones such as fences, by spending a watch \
-                 asking around in a settlement.",
+                 asking around for information.",
             ),
-            Self::Bargaining => format!(
-                "You sell items at full price, rather than half price. Other factors which might \
-                 reduce the value of an item still apply. You are able to estimate the value of \
-                 most items just by examining them.",
+            Self::Bargain => format!(
+                "If the buyer has this skill and the seller doesn't, goods are sold at half \
+                 price. You are able to estimate the value of most items just by examining them.",
             ),
             Self::Leadership => format!(
-                "You can inspire, intimidate, and keep the loyalty of retainers, allies, and \
-                 other underlings without a WIT save in challenging circumstances, and by passing \
-                 a WIT save in almost impossible circumstances. You can spend a main action to \
-                 rally all ~{}~ and ~{}~ allies within range 2. They make a group WIT save and \
-                 those who succeed recover immediately. Each character can be affected by this \
-                 skill only once per stretch.",
+                "Reduce difficulty while inspiring, intimidating, and keeping the loyalty of \
+                 followers. Once per stretch, as a main action, you can rally all ~{}~ and ~{}~ \
+                 allies within range 2. They make a group WIT save and those who succeed recover \
+                 immediately.",
                 Condition::Frightened,
                 Condition::Terrified
             ),
-            Self::Acting => format!(
+            Self::Act => format!(
                 "You are able to convincingly fake emotions and to disguise your voice and \
                  accent. This might give you an advantage in suitable social interactions or can \
                  be used to complement a disguise.",
@@ -273,36 +257,35 @@ impl Skill {
                  area, but can't count them, locate them, or determine their nature.",
             ),
             Self::MagicShield => format!(
-                "You can use an ancient technique to erect a magic shield around you. Activating \
-                 or deactivating it takes a stretch spent in meditation, and it deactivates \
-                 automatically if you are ~{}~ or fall asleep. Sorcerous powers have a 1:2 chance \
-                 of not working on you, no matter if harmful or beneficial. Other targets aren't \
-                 protected by the shield. Sacred powers aren't affected. Sorcerers can enhance \
-                 their powers to ignore the magic shield by increasing their level by 1.",
+                "You can use an ancient esoteric technique to erect a magic shield around you. \
+                 Activating or deactivating it takes a stretch spent in meditation, and it \
+                 deactivates automatically if you are ~{}~ or fall asleep. Profane powers have a \
+                 1:2 chance of not working on you, no matter if harmful or beneficial. Other \
+                 targets aren't protected and sacred powers aren't affected. Sorcerers can spend \
+                 1 enhancement point to ignore the shield.",
                 Condition::Incapacitated,
             ),
-            Self::Religion => format!(
+            Self::Faith => format!(
                 "You can read and write. You can speak and understand Classic, the language of \
-                 scholars and the Church. You can invoke sacred powers. You can't acquire the \
-                 ~{}~ skill.",
-                Skill::Sorcery
+                 scholars and the Church. You can invoke sacred powers."
             ),
-            Self::Meditating => format!("You heal 1 corruption when you take a day rest."),
+            Self::Incorruptible => {
+                format!("You heal 1 corruption on a day rest and all corruption on a full rest.")
+            }
             Self::Sorcery => format!(
                 "You can read and write. You can speak and understand Magick, the language used \
-                 to invoke sorcerous powers. This language is too convoluted to be used to \
-                 communicate, but is essential to use magic. You can invoke sorcerous powers. You \
+                 to invoke profane powers. This language is too convoluted to be used to \
+                 communicate, but is essential to use magic. You can invoke profane powers. You \
                  can increase your maximum mana by 1 instead of taking a normal advancement, up \
-                 to 6 at most. You can't acquire the ~{}~ skill.",
-                Skill::Religion
+                 to 6 at most."
             ),
 
             // Combat
             Self::BattleFrenzy => format!(
-                "You can become ~{}~ by spending a main action or freely when you suffer damage. \
-                 The condition lasts until all enemies have been defeated. You can spend a main \
-                 action to try to calm yourself by passing a WIT save. While you are frenzied, \
-                 you recover 1 health for each enemy you kill.",
+                "You can become ~{}~ by spending a main action, or immediately when you suffer \
+                 damage. The condition lasts until all enemies have been defeated. You can spend \
+                 a main action to try to calm yourself by passing a WIT save. While you are \
+                 frenzied, you recover 1 health for each enemy you kill.",
                 Condition::Frenzied
             ),
             Self::SkilledStrike => format!(
@@ -319,61 +302,56 @@ impl Skill {
             Self::CleavingStrike => format!(
                 "When you inflict critical damage or kill a target with a melee attack, you can \
                  immediately attack another target with the same weapon. You can do this at most \
-                 once per turn, and this rule doesn't apply to attacks made to counter.",
+                 once per turn, and not while countering.",
             ),
             Self::Brawling => format!(
                 "Your unarmed attacks are not impaired and inflict d6 damage. Your armour value \
                  is increased by 1 against unarmed attacks.",
             ),
             Self::Wrestling => format!(
-                "When you perform a grapple attack, your target can't resist with a STR save \
-                 unless they also have this skill. Only characters with this skill can grapple \
-                 you.",
+                "Targets of your grapple attacks can't resist with a STR save unless they also \
+                 have this skill. You can only be grappled by characters with this skill."
             ),
             Self::Ambidexterity => format!(
                 "You can use both hands equally well. Damage is not impaired when you attack with \
                  a weapon in your non-dominant hand. You can attack the same target with two \
                  weapons at once, rolling damage for both but only considering the higher roll.",
             ),
-            Self::Disarming => format!(
-                "When you perform a disarm attack, your target can't resist with a STR save \
-                 unless they also have this skill. Only characters with this skill can disarm you.",
+            Self::Disarm => format!(
+                "Targets of your disarm attacks can't resist with a STR save unless they also \
+                 have this skill. You can only be disarmed by characters with this skill."
             ),
             Self::SneakAttack => format!(
-                "Your attacks against unaware enemies always inflict d12 damage, no matter what \
-                 weapons you use or if you are unarmed. Unarmed attacks still inflict impaired \
-                 damage.",
+                "You always inflict d12 damage when you attack unaware targets, no matter what \
+                 weapons you use or if you are unarmed. Unarmed attacks are still impaired."
             ),
             Self::StrikeToStun => format!(
-                "When you attack an enemy, you may choose to perform a stunning blow. The attack \
-                 inflicts no damage but you must still roll for damage. If you roll equal or \
-                 greater than half the target's remaining health, they are ~{}~ until the end of \
-                 the stretch. If you roll equal or greater than their whole remaining health, \
-                 they are ~{}~ until the end of the watch.",
+                "You may choose to perform a stunning blow when attacking. The attack inflicts no \
+                 damage but you must still roll the damage die. If you roll equal or greater than \
+                 half the target's remaining health, they are ~{}~ until the end of the stretch. \
+                 If you roll equal or greater than their whole remaining health, they are ~{}~ \
+                 until the end of the watch.",
                 Condition::Incapacitated,
                 Condition::Incapacitated
             ),
-            Self::FastDodge => format!(
-                "Once per round, you can dodge an attack without spending your turn, even if you \
-                 have already acted. You can't dodge the same attack twice, but you can dodge and \
-                 counter the same attack, and you can dodge when your attack is countered. You \
-                 can use this skill to dodge an opportunity attack or while guarding.",
-            ),
+            Self::FastDodge => {
+                format!("You can dodge for free, without spending your turn, once per round.")
+            }
             Self::FastAttack => format!(
                 "When you counter an attack or your attack is countered you always hit first \
                  unless your opponent also has this skill.",
             ),
             Self::MonsterSlaying => {
-                format!("You inflict double damage against targets larger than you.")
+                format!("You inflict double damage against targets with larger size than you.")
             }
             Self::LethalAttack => format!(
-                "When you inflict critical damage with an attack, you may choose to instantly \
-                 kill the target."
+                "When you inflict critical damage, you may choose to instantly kill the target \
+                 instead of incapacitating them."
             ),
             Self::PiercingStrike => format!(
-                "If you roll higher than the target's armour value with a melee weapon (not \
-                 unarmed attacks), you inflict full damage. If you roll equal or lower, you still \
-                 inflict no damage.",
+                "If you roll higher than the target's armour value with a melee attack you ignore \
+                 armour and inflict full damage. If you roll equal or lower, you inflict no \
+                 damage as usual.",
             ),
             Self::QuickDraw => {
                 format!(
@@ -384,8 +362,8 @@ impl Skill {
             Self::ShieldMastery => {
                 format!(
                     "When you hold a shield, your armour value is increased by 1 against all \
-                     attacks, not just if you dodge, counter, or are countered. If you are \
-                     unaware of the attack, however, your shield still doesn't protect you."
+                     attacks, not just if you react or are countered. If you are unaware of the \
+                     attack, however, your shield still doesn't protect you."
                 )
             }
 
@@ -399,39 +377,38 @@ impl Skill {
             ),
             Self::Frugality => format!(
                 "You don't reduce abilities when you can't satisfy needs during a day rest. \
-                 However, you still have to satisfy them all in order to heal. You pay half for \
-                 lodging, as your standards are very low and are content with little."
+                 However, you still have to satisfy them all in order to heal and recover mana. \
+                 You pay half for lodging, since you have very low standards."
             ),
             Self::Luck => format!(
-                "Your maximum omens are increased by 1. When you spend an omen, there is a 1:4 \
+                "Your maximum omens are increased by 1. When you use an omen, there is a 1:4 \
                  chance it isn't actually spent. When choosing the target of an indiscriminate \
                  effect, such as a trap or a monster ambush, the GM might prioritise other \
                  characters over you.",
             ),
-            Self::PlayingGames => format!(
+            Self::PlayGames => format!(
                 "You can learn to play games quickly: after you have played a game, you can't be \
                  beaten by others unless they also have this skill. You know how to cheat: your \
                  cheating attempts are always successful unless your opponents are paying close \
                  attention to you. People might still get suspicious if you win too much."
             ),
-            Self::Crafting => format!(
-                "Pick one when repairing an item: do it without a ~{}~, or do it without having \
-                 to pass a save to succeed. You can craft non-consumable items, such as weapons, \
-                 armour, and vehicles. This takes a watch and requires raw materials (worth ¼ of \
-                 the item) and a workshop with all the necessary tools and equipment. Items with \
-                 the ~durability~ keyword require one watch every 2 points of durability to be \
-                 crafted.",
+            Self::Craft => format!(
+                "You can repair items without a ~{}~ or without having to pass a save to succeed \
+                 You can craft non-consumable items, such as weapons, armour, and vehicles. This \
+                 takes a watch and requires raw materials worth ¼ of the item and a workshop with \
+                 all the necessary tools and equipment. Crafting items with the ~durability~ \
+                 keyword takes one watch every 2 points of durability.",
                 ItemKind::Toolbox
             ),
             Self::Bravery => format!("You are immune to fear and treat terror as fear",),
             Self::PoisonResistance => format!(
                 "You are resistant to alcohol, poisons, and drugs. You ignore the first dose \
-                 taken within a stretch. You can resist a second dose with a STR save, and a \
-                 third dose works automatically.",
+                 taken within a stretch: it has no effect. You can resist a second dose with a \
+                 STR save, and a third dose works automatically.",
             ),
             Self::DiseaseResistance => format!(
-                "After you recover from a disease, you become immune to it and can't contract it \
-                 again."
+                "You develop an immunity to all diseases you recover from and can't contract them \
+                 again. Keep track of the diseases you are immune to."
             ),
             Self::Bushcraft => format!(
                 "Pass a WIT save to ignore the movement penalty when travelling between sectors \
@@ -441,11 +418,9 @@ impl Skill {
                 ItemKind::NavigationTools,
                 ItemKind::CampingKit,
             ),
-            Self::Hunting => format!(
-                "You automatically follow trails without a WIT save in normally challenging \
-                 circumstances, and by passing a WIT save in almost impossible situations. When \
-                 you forage, on a ~small game~ result you find an additional ~{}~, even if you \
-                 don't have ~{}~.",
+            Self::Hunt => format!(
+                "Reduce difficulty when following trails. When you forage, on a ~small game~ \
+                 result you find an additional ~{}~, even if you don't have ~{}~.",
                 ItemKind::Ration,
                 ItemKind::TrappingTools,
             ),
