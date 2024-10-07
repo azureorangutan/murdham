@@ -6,7 +6,7 @@ use super::*;
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, EnumIter)]
 pub enum PowerKind {
     Sacred,
-    Sorcerous,
+    Profane,
 }
 
 static_gen_fn_all!(PowerKind);
@@ -65,7 +65,7 @@ pub enum Power {
     RiteOfRestoration,
     RiteOfWarding,
 
-    // Sorcerous
+    // Profane
     EldritchBlast,
 
     ArcaneLock,
@@ -100,20 +100,20 @@ impl Power {
             Self::RiteOfRestoration => PowerKind::Sacred,
             Self::RiteOfWarding => PowerKind::Sacred,
 
-            Self::EldritchBlast => PowerKind::Sorcerous,
+            Self::EldritchBlast => PowerKind::Profane,
 
-            Self::ArcaneLock => PowerKind::Sorcerous,
-            Self::Bewitch => PowerKind::Sorcerous,
-            Self::BurningVengeance => PowerKind::Sorcerous,
-            Self::GiftOfSpeech => PowerKind::Sorcerous,
-            Self::Illusion => PowerKind::Sorcerous,
-            Self::Levitation => PowerKind::Sorcerous,
-            Self::MiasmaOfChaos => PowerKind::Sorcerous,
-            Self::OccultConsultation => PowerKind::Sorcerous,
-            Self::PlagueVessel => PowerKind::Sorcerous,
-            Self::PurifyingFlame => PowerKind::Sorcerous,
-            Self::ReanimateCorpse => PowerKind::Sorcerous,
-            Self::WaterBreathing => PowerKind::Sorcerous,
+            Self::ArcaneLock => PowerKind::Profane,
+            Self::Bewitch => PowerKind::Profane,
+            Self::BurningVengeance => PowerKind::Profane,
+            Self::GiftOfSpeech => PowerKind::Profane,
+            Self::Illusion => PowerKind::Profane,
+            Self::Levitation => PowerKind::Profane,
+            Self::MiasmaOfChaos => PowerKind::Profane,
+            Self::OccultConsultation => PowerKind::Profane,
+            Self::PlagueVessel => PowerKind::Profane,
+            Self::PurifyingFlame => PowerKind::Profane,
+            Self::ReanimateCorpse => PowerKind::Profane,
+            Self::WaterBreathing => PowerKind::Profane,
         }
     }
 
@@ -221,8 +221,8 @@ impl Power {
                 CharacterCategory::Creature
             ),
             Self::RiteOfPreservation => format!(
-                "Target a corpse. It can't be affected by sorcerous powers and it decays about \
-                 1,000 times more slowly than normal.",
+                "Target a corpse. It can't be affected by profane powers and doesn't show signs \
+                 of decay."
             ),
             Self::RiteOfProtection => format!(
                 "Target a character. The target's armour value increases by 1, but only if they \
@@ -230,10 +230,9 @@ impl Power {
                  allowed.",
             ),
             Self::RiteOfPurging => format!(
-                "Target an item which has been tampered with sorcerous magic, a {}, an {}, or a \
-                 character who has suffered mutations. The target must remain within range for \
-                 the whole time required to invoke the power. If successful, the target is \
-                 banished, destroyed, or killed.",
+                "Target a {}, an {}, a character who has suffered mutations, or an item which has \
+                 was tampered with profane magic. The target must remain within range for the \
+                 whole time required to invoke the power. If successful, the target is destroyed.",
                 CharacterCategory::Demon,
                 CharacterCategory::Undead,
             ),
@@ -250,13 +249,13 @@ impl Power {
             ),
             Self::RiteOfWarding => format!(
                 "You erect an anti-magic field covering all zones within range 1 of your current \
-                 position. Within the area, sorcerous powers have no effect and {}s and {} suffer \
+                 position. Within the area, profane powers have no effect and {}s and {} suffer \
                  d4 direct damage per round. The field is fixed and doesn't move with you.",
                 CharacterCategory::Demon,
                 CharacterCategory::Undead,
             ),
 
-            // Sorcerous - Basic
+            // Profane - Basic
             Self::EldritchBlast => format!(
                 "Target a character or an item. The target is hit by a force blast, which works \
                  as a melee attack inflicting d10 damage (impaired against items). If you enhance \
@@ -269,14 +268,16 @@ impl Power {
                 PowerRange::Connection
             ),
 
-            // Sorcerous - Advanced
+            // Profane - Advanced
             Self::ArcaneLock => format!(
                 "Target an item which can be opened and closed, such as a door, a box, or a \
                  bottle. The target can only be opened by a trigger of your choice (a password, a \
                  gesture, contact with a specific item, etc."
             ),
             Self::Bewitch => format!(
-                "Target a {}. The target attitude towards you improves by a step.",
+                "Target a {}. The target attitude towards you improves by a step: hostile to \
+                 unfriendly, unfriendly to neutral, neutral to friendly, friendly to infatuated \
+                 (see the Encounters chapter).",
                 CharacterCategory::Creature
             ),
             Self::BurningVengeance => format!(
@@ -313,11 +314,11 @@ impl Power {
             ),
             Self::OccultConsultation => format!(
                 "Target the corpse of a {} who has died no longer than a stretch ago and whose \
-                 spirit is still lingering in the area. You may ask their spirit one question, \
-                 but they aren't forced to answer or tell the truth. If you enhance the power \
-                 range to ~{}~, you may query the spirit of a long dead person who is already in \
-                 the realm of the dead, but in they can only answer by knocking on its entrance. \
-                 This means they can only answer with a number or a yes-or-no question.",
+                 spirit is still lingering in the area. You may ask the spirit one question, but \
+                 they aren't forced to answer truthfully, or at all. If you enhance the power \
+                 range to ~{}~, you may contact the spirit of a long dead person, but they can \
+                 only answer by knocking on the door to the underworld: their answer can only be \
+                 a number, yes, or no.",
                 CharacterCategory::Creature,
                 PowerRange::Connection
             ),
@@ -325,10 +326,10 @@ impl Power {
                 "Target a ~{}~ {}. You absorb the disease from the target, who is instantly \
                  healed. You carry the disease in your body without suffering its effect. You can \
                  attempt to discharge it by touching another {} before the power ends. The target \
-                 can resist the infection with a STR save, if normally possible. If they resist, \
-                 the disease stays in your body, and you can attempt to discharge it again later. \
-                 If the power ends before you discharge the disease, you are infected by it \
-                 yourself, without chance of a save.",
+                 can resist the infection with a STR save. If they resist, the disease stays in \
+                 your body, and you can attempt to discharge it again later. If the power ends \
+                 before you discharge the disease, you are infected by it yourself, without \
+                 chance of a save.",
                 Condition::Sick,
                 CharacterCategory::Creature,
                 CharacterCategory::Creature,
@@ -348,8 +349,9 @@ impl Power {
             ),
             Self::ReanimateCorpse => {
                 format!(
-                    "Target the corpse of a {} (or smaller) {}. It is raised as a reanimated \
-                     corpse under your control.",
+                    "Target the corpse of a {} (or smaller) {}. It is raised as a ~reanimated \
+                     corpse~ under your control (see the Bestiary chapter for relevant stats and \
+                     rules).",
                     SizeCategory::MediumSized,
                     CharacterCategory::Creature
                 )

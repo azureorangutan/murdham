@@ -9,13 +9,14 @@ next: /rules/character_categories
 == Power scrolls
 
 _Power scrolls_ are precious artifacts holding ancient and powerful magic.
-They come in two types: sacred and sorcerous.
+They come in two types: sacred and profane.
 
-Characters with the _religion_ or _sorcery_ skill can invoke powers from sacred and sorcerous _power scrolls_ respectively.
+Characters with the _religion_ or _sorcery_ skill can invoke powers from sacred and profane _power scrolls_ respectively.
 They must hold the _power scroll_ while reading it out loud, just memorising the incantations isn't enough.
 
 Knowledge on how to craft power scrolls has been long forgotten.
 Simply transcribing the incantations on parchment doesn't work.
+The Church toils to collect and hoard sacred scrolls, and to burn and destroy profane scrolls.
 
 
 == Invoking sacred powers
@@ -35,13 +36,13 @@ He currently has 2 corruption, meaning that the power is only effective on a rol
 ++++
 
 
-== Invoking sorcerous powers
+== Invoking profane powers
 
-Invoking a sorcerous power only takes a few seconds (a main action in combat).
+Invoking a profane power only takes a few seconds (a main action in combat).
 The invoker must spend 1 mana to cast the power.
 If they have no mana left, they suffer 2 corruption instead.
 
-Sorcerous powers are cast at most at a level equal to the invoker's current mana (before spending it).
+Profane powers are cast at most at a level equal to the invoker's current mana (before spending it).
 The maximum level can be increased by 1 either by spending a full stretch to invoke the power (instead of a few seconds), or by suffering 2 corruption.
 
 Powers cast as described have level 0.
@@ -55,6 +56,8 @@ The same enhancement can be applied multiple times.
 * Level+1 -- Improve range by one category.
 
 * Level+1 -- Invoke the power silently, without pronouncing incantations.
+
+* Level+1 -- Ignore the effects of the _magic shield_ skill.
 
 * Level+2 -- Improve duration by one category.
 
@@ -112,16 +115,16 @@ The power lasts until the end of the watch.
 The power lasts indefinitely.
 
 Some powers might end prematurely based on particular conditions.
-Upon casting, the invoker may also choose a trigger which can end the power prematurely (a word, a gesture, etc.).
+Upon casting, the invoker may also choose a trigger which can end the power prematurely (a word, a gesture, an event...).
 
-Ongoing sorcerous powers can additionally be dispelled by casting the exact same power on the same target.
+Ongoing profane powers can additionally be dispelled by casting the exact same power on the same target.
 The base level of a power invoked to dispel another power depends on the duration of the dispelled power: 0 if _stretch_, 2 if _watch_, 4 if _lingering_.
 
 
 == Reacting to powers
 
-The target of a sorcerous power can react by countering the invoker as if it were an attack.
-Conversely, sorcerous powers can be invoked as a counter to an attack.
+The target of a profane power can react by countering the invoker as if it were an attack.
+Conversely, profane powers can be invoked as a counter to an attack.
 The power is handled as a non-lethal attack if it doesn't inflict damage, otherwise it is handled as a normal attack.
 It isn't possible to dodge a power unless otherwise specified.
 
@@ -130,7 +133,7 @@ Sacred powers take a full stretch to invoke, so they can't be used to react or r
 
 == Magic corruption and miscasts
 
-It is possible to invoke a sorcerous power with no mana left and/or at 1 level higher than normally allowed by suffering 2 corruption.
+As previously mentioned, it is possible to invoke a profane power with no mana left and/or at 1 level higher than normally allowed by suffering 2 corruption.
 If both conditions hold true, the invoker suffers 4 corruption at once and only checks for soulblight once.
 
 Corruption is inflicted before the power takes effect.
@@ -142,16 +145,15 @@ If they suffer soulblight but are still alive and conscious, the power works but
 
 Philippa attempts to cast a _eldritch blast_ while having 0 mana and 4 corruption.
 Her corruption increases to 6 and she rolls 3 on a d12, causing soulblight!
-She had 8 health, now reduced to 5, so she is still conscious and her corruption is also reduced to 3.
-
+Her corruption is reduced to 3 and her health is reduced from 8 to 5, so she is still conscious.
 The power works, but Philippa must roll on the miscast table.
 She rolls a 8, meaning the _eldritch blast_ has an alternative effect.
 The GM rules that the power heals the target instead of damaging them!
 
 Later, Philippa casts _eldritch blast_ again, this time at level 1, therefore suffering 4 corruption at once since her mana is still 0.
 Her total corruption increases to 7 and she rolls a 4 on a d12, meaning she suffers soulblight again!
-This time her health is reduced from 5 to 1, so she suffers critical damage and is _incapacitated_.
-The power has no effect, and she must roll for a mutation as per the normal rules.
+This time her health is reduced from 5 to 1, so she suffers critical damage: she is _incapacitated_ and suffers a mutation.
+Since she was _incapacitated_, the power has no effect.
 
 {{% /details %}}
 ++++
@@ -197,7 +199,7 @@ Reroll if this doesn't make sense.
 The invoker and all creatures within range 1 are exposed to the '`demon pox`' disease (see link:../hazards/#disease[Disease]).
 
 |10 |
-The invoker suffers a random mutation (roll on the link:../corruption_and_mutation/#tb_mutations[Mutations] table).
+The invoker suffers a random mutation (roll on the link:../corruption/#tb_mutations[Mutations] table).
 
 |11 |
 A demon enters the world nearby the invoker.

@@ -691,10 +691,8 @@ impl ItemKind {
             Self::HeavyArmour => String::from("Full plate, chain hauberk, etc."),
             Self::Shield => String::from(""),
             Self::Helmet => String::from(
-                "The threshold to suffer critical damage is increased by 1, that is you suffer \
-                 critical damage when you lose half your health plus 1. You still always suffer \
-                 critical damage if you are reduced to 0 health, and direct damage ignores this \
-                 effect.",
+                "Increases the critical damage threshold by 1. Ignored by direct damage and \
+                 damage which can't reach the head.",
             ),
 
             Self::Cart => format!(""),
@@ -772,7 +770,7 @@ impl ItemKind {
             }
             Self::ClimbingGear => format!(
                 "Includes pitons, nails, climbing pickaxes, etc. Can be used to scale sheer \
-                 surfaces, but it's challenging."
+                 surfaces, but an AGI save is usually required."
             ),
             Self::Clothes => format!(
                 "All you need to cover yourself! Include belts, pouches, bags, and other \
@@ -859,8 +857,8 @@ impl ItemKind {
             ),
             Self::ManaclesAndKey => format!("Used to bind someone's hands."),
             Self::MedicineBox => format!(
-                "Spend a stretch to let a nearby character recover d8 health, but no more than \
-                 half their maximum."
+                "Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 \
+                 health as a main action."
             ),
             Self::MetalFile => format!("Can cut through metal, with enough time."),
             Self::Mirror => format!("A simple hand mirror."),
@@ -931,9 +929,9 @@ impl ItemKind {
             Self::Water => format!("Enough for a day rest."),
             Self::PowerScroll(_) => {
                 format!(
-                    "A scroll recording a sacred or sorcerous power. Trading them is illegal. The \
+                    "A scroll recording a sacred or profane power. Trading them is illegal. The \
                      knowledge of how to create them has been lost. The Church wants to collect \
-                     all sacred scrolls and burn all sorcerous scrolls."
+                     all sacred scrolls and burn all profane scrolls."
                 )
             }
             Self::Grimoire => format!(

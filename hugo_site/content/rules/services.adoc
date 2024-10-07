@@ -1,0 +1,55 @@
+---
+title: Services
+weight: 82
+prev: /rules/followers
+next: /rules/advancement
+---
+:toc:
+
+== Banking
+
+* *Bank deposit* (*).
+Deposit money in a bank by paying ¼ of the deposited sum.
+You can withdraw deposited money for free, even from other banks.
+
+* *Item storage* (*).
+Safely store items by paying ¼ of their value.
+You can take them back for free.
+
+* *Loan* (*).
+Borrow a sum of money, but you must pay back twice as much.
+Debts left behind by dead Player characters are transferred onto the other Player characters.
+If debts aren't repaid in a timely fashion, new loans might be refused and the character might be harassed by debt collectors.
+
+
+== Recovery
+
+* *Healing* (16ʂ).
+Recover health equal to half STR.
+
+* *Lodging, day rest* (4ʂ).
+Provides a place to sleep, food, and water during a day rest.
+
+* *Lodging, full rest* (64ʂ).
+Provides a place to sleep, food, and water during a full rest.
+
+* *Repair* (*).
+Repair a damaged item by paying ¼ of its value.
+Items with the _durability_ keyword recover 2 health per watch.
+
+
+== Other services
+
+* *Courier* (*).
+Delivers a message to a recipient.
+The cost is 1ʂ plus 1ʂ per region of distance.
+The cost might be higher through dangerous areas.
+
+* *Funeral* (512ʂ).
+A funeral for a dead Player character.
+Costs half if the body was recovered.
+
+* *Transportation* (*).
+Transportation via stagecoach, boat, or ship a specific destination for a person.
+It costs 4ʂ plus 4ʂ per region of distance.
+The cost might be higher through dangerous areas.

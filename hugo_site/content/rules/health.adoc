@@ -1,8 +1,8 @@
 ---
-title: Health & Damage
+title: Health
 weight: 30
 prev: /rules/conditions
-next: /rules/corruption_and_mutation
+next: /rules/corruption
 ---
 :toc:
 
@@ -13,12 +13,13 @@ When they suffer damage, they reduce health by an equal amount, at most down to 
 
 * Characters who lose at once half or more of their remaining health suffer *critical damage*.
 Characters who suffer critical damage take the _incapacitated_ condition until the end of the stretch.
+Sometimes, there might be additional penalties.
 
 * Characters who lose all their remaining health suffer critical damage and additionally take the _dying_ condition.
 
 * Characters who suffer at once damage matching or exceeding their STR are killed on the spot.
 
-Lost health can be recovered by resting (see link:../rest_and_recovery[Rest & Recovery]) or using healing items.
+Lost health can be recovered by resting (see link:../rest[Rest]) or using healing items.
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -100,9 +101,10 @@ When characters suffer impaired damage, roll twice and keep the lower result.
 Damage which is impaired multiple times is completely ineffective and ignored.
 
 When characters suffer enhanced damage, roll twice and keep the higher result.
-Multiple enhancements at once have no effect.
+Multiple enhancements have no effect.
 
 Factors enhancing and impairing damage at the same time cancel each other out.
+For example, damage which is both impaired and enhanced is rolled normally, damage which is impaired once and enhanced twice is still enhanced, and damage which is impaired twice and enhanced once is impaired only once.
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -125,6 +127,16 @@ Armour value reduces incoming damage by a matching amount, even down to 0.
 It is increased by wearing armour and holding shields.
 '`Direct damage`' ignores armour value.
 
+++++
+{{% details title="Example" closed="true" %}}
+
+Sybilla is wearing _light armour_, granting an armour value of 1.
+She is hit by an axe-wielding bandit and suffers d6 damage.
+She rolls a 2 and subtracts 1, resulting in only 1 point of actual damage.
+
+{{% /details %}}
+++++
+
 
 == Ability changes
 
@@ -135,16 +147,16 @@ Abilities can never exceed 19, or 15 for humans.
 When STR is reduced, health must also be reduced by an equal amount, but not below 1.
 Health loss due to STR loss doesn't cause critical damage.
 
-Temporarily altered abilities are restored after a full rest (see link:../rest_and_recovery[Rest & Recovery]).
+Temporarily altered abilities are restored after a full rest (see link:../rest[Rest]).
 
 
 == Death of the Player characters
 
 Players whose character dies must immediately create a new one, who joins the company as soon as possible under whatever narrative pretext can be devised by the GM.
-If all Player characters are _incapacitated_ at the same time, the GM decides what happens to the company (they might be killed, captured, rescued, robbed, etc.).
-If all Player characters die, the Players lose and must create a brand new company.
+If all Player characters are _incapacitated_ at the same time, the GM decides what happens to the company (they might be killed, captured, rescued, robbed...).
+If all Player characters die, the Players lose the game and must create a brand new company.
 
 Even though a dead Player character is promptly replaced, death still has consequences.
 The replacement will be less experienced, and the other Player characters must pay for a funeral or permanently lose an omen, as described in the link:../omens/#_honour_the_dead[Honour the dead] section.
-The GM may introduce additional or alternative penalties which are suitable to the scenario or the campaign.
+The GM may introduce additional or alternative penalties, as suitable to the scenario or the campaign.
 For example, they might allow the Players a maximum number of deaths before the scenario or campaign is lost.

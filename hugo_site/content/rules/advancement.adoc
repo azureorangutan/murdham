@@ -1,12 +1,12 @@
 ---
-title: Character Advancement
+title: Advancement
 weight: 85
-prev: /rules/followers_and_services
-next: /rules/positioning_and_movement
+prev: /rules/followers
+next: /rules/movement
 ---
 :toc:
 
-== Character improvements
+== Advancement
 
 During a campaign, you might be granted an advancement by the GM after you and the other Players achieve significant progress.
 

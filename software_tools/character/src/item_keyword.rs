@@ -29,10 +29,10 @@ impl ItemKeyword {
                 )
             }
             Self::Shield => String::from(
-                "Increases the armour value by 1 while held but only against attacks you dodge, \
-                 attacks you counter, and attacks used to counter you. If you hold two shields at \
-                 once you still only increase armour value by 1, but against all attacks. Doesn't \
-                 require two hands to use despite its bulk.",
+                "Increases the armour value by 1 while held, but only against attacks you react \
+                 against (counter, dodge, or guard) and attacks used to counter you. If you hold \
+                 two shields at once you still only increase armour value by 1, but against all \
+                 attacks. Doesn't require two hands to use despite its bulk.",
             ),
             Self::Consumable => format!("Discarded after use."),
             Self::Durability(_, _) => {
@@ -57,14 +57,13 @@ impl ItemKeyword {
                      properties. Attacks made with one-handed weapons held in the non-dominant \
                      hand inflict impaired damage. Weapons of bulk 2 or more require both hands \
                      to use and can't be used to attack characters you are grabbing. You don't \
-                     need to track ammunition for ranged weapons, it is assumed you are carrying \
-                     enough and that durability rolls also account for it."
+                     have to track ammunition for ranged weapons."
                 )
             }
             Self::Vehicle(_) => {
                 format!(
                     "Can carry X {} characters and their gear. A character can be replaced by \
-                     items with a total bulk of 16. The bulk of what's on the vehicle doesn't \
+                     items for a total bulk of 16. The bulk of what's on the vehicle doesn't \
                      count towards the encumbrance of characters or operating it.",
                     SizeCategory::MediumSized
                 )

@@ -11,7 +11,7 @@ Gains the _robust_ keyword.
 * *Mastercrafted weapon* (×4).
 The damage die is improved: d4 to d6, d6 to d8, d8 to d10, d10 to d12.
 
-* *Mastercrafted armour* (×4).
+* *Mastercrafted armour or shield* (×4).
 Bulk is halved.
 
 * *Animal armour* (×1).

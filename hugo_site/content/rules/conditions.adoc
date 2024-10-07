@@ -2,7 +2,7 @@
 title: Conditions
 weight: 26
 prev: /rules/traits
-next: /rules/health_and_damage
+next: /rules/health
 ---
 :toc:
 

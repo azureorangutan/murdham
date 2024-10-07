@@ -13,7 +13,7 @@ You know how to incite the people with fervent speeches. You were partly respons
 
 You know how to keep equipment in good order: nothing is more dangerous than a blunt sword or a cracked shield.
 
-* *Skills*: _crafting_, _piercing strike_.
+* *Skills*: _craft_, _piercing strike_.
 
 * *Assets*: clothes (thick leather apron), toolbox (bulk 2).
 
@@ -22,7 +22,7 @@ You know how to keep equipment in good order: nothing is more dangerous than a b
 
 A sharp razor and a steady hand are required for both a clean shave and delicate surgeries.
 
-* *Skills*: _healing_, _lethal attack_.
+* *Skills*: _heal_, _lethal attack_.
 
 * *Assets*: clothes (bloodstained apron), surgery tools (bulk 2).
 
@@ -31,7 +31,7 @@ A sharp razor and a steady hand are required for both a clean shave and delicate
 
 You have ferried passengers and smuggled goods along the many rivers flowing across the Kingdom.
 
-* *Skills*: _boatmanship_, _swimming_.
+* *Skills*: _boatmanship_, _swim_.
 
 * *Assets*: clothes (wet and mouldy), fishing tools (bulk 2).
 
@@ -51,7 +51,7 @@ One person's trash is another person's treasure: you scour the roads, graves, an
 
 You worked for a coaching company, driving staging coaches through the dangerous roads of the Kingdom and protecting them with your trusty blunderbuss.
 
-* *Skills*: _driving carts_, _riding_.
+* *Skills*: _drive carts_, _ride_.
 
 * *Assets*: clothes (coat and wide brimmed hat, for the rain), blunderbuss (bulk 2; d8 damage, range 8, reload).
 
@@ -60,7 +60,7 @@ You worked for a coaching company, driving staging coaches through the dangerous
 
 Some are born with too much: those wealthy nobs aren't going to notice if they are a few shillings short.
 
-* *Skills*: _sneaking_, _stealing_.
+* *Skills*: _sneak_, _steal_.
 
 * *Assets*: clothes (hood covering your face), gold jewel (bulk ½; gold necklace with a noble family emblem, stolen).
 
@@ -78,7 +78,7 @@ You have fought for the Kingdom and seen the horrors of war, the nightmares will
 
 You are a skilled duellist, constantly looking for a worthy opponent to hone your skills.
 
-* *Skills*: _ambidexterity_, _disarming_.
+* *Skills*: _ambidexterity_, _disarm_.
 
 * *Assets*: clothes (a few stitched up cuts), parrying dagger (d4 damage), thrusting sword (d6 damage).
 
@@ -105,7 +105,7 @@ You have spent years mugging unaware victims in shady alleys and dark forest roa
 
 Luck come and goes at the gaming table but it has never abandoned you, not with the help of a few clever tricks.
 
-* *Skills*: _luck_, _playing games_.
+* *Skills*: _luck_, _play games_.
 
 * *Assets*: clothes (large pockets), cards (bulk ½; marked), dice (bulk ½; loaded).
 
@@ -114,7 +114,7 @@ Luck come and goes at the gaming table but it has never abandoned you, not with 
 
 When you hunt in the dark forests of the Kingdom, you sometimes wonder if you really are the hunter or rather the prey.
 
-* *Skills*: _bushcraft_, _hunting_.
+* *Skills*: _bushcraft_, _hunt_.
 
 * *Assets*: clothes (decorated with trophies from your preys), crossbow (bulk 2; d6 damage, range 8).
 
@@ -123,7 +123,7 @@ When you hunt in the dark forests of the Kingdom, you sometimes wonder if you re
 
 You have spent your life making a fool of yourself to entertain the nobles, but you will have the last laugh!
 
-* *Skills*: _acrobatics_, _blathering_.
+* *Skills*: _acrobatics_, _blather_.
 
 * *Assets*: clothes (colourful, with a bell hat), stick with bells (d4 damage; jingles cheerfully when it hits someone), smoke bomb (bulk ½; consumable).
 
@@ -141,7 +141,7 @@ Your bones and muscles have been hardened by years of carrying heavy loads and d
 
 Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner.
 
-* *Skills*: _languages_, _running_.
+* *Skills*: _languages_, _fleet footed_.
 
 * *Assets*: clothes (dusty and sweaty), scroll (bulk ½; sealed letter, no addressee), scroll case.
 
@@ -161,7 +161,7 @@ Your life was simple: growing crops and tending to livestock, trying to put enou
 
 You made a small fortune transporting and trading exotic goods, but you lost everything because of a bad business decision.
 
-* *Skills*: _bargaining_, _gossiping_.
+* *Skills*: _bargain_, _gossip_.
 
 * *Assets*: clothes (excessive amounts of cheap fake jewellery), clothes (expensive, made of silk), darkroot (bulk ½; consumable), perfume (bulk ½; consumable).
 
@@ -188,16 +188,16 @@ You have fought for money in illegal arenas and as a judicial champion for hire.
 
 Yours is the burden to teach and guide people so that they don't succumb to the lure of darkness.
 
-* *Skills*: _meditating_, _religion_.
+* *Skills*: _incorruptible_, _faith_.
 
 * *Assets*: clothes (priestly robes and religious paraphernalia), book (Holy Scriptures), sacred power scroll (bulk ½).
 
 
 == Raconteur
 
-You have travelled far and wide across the kingdom, singing songs and acting out enthralling stories.
+You have travelled far and wide across the kingdom, singing songs and act out enthralling stories.
 
-* *Skills*: _acting_, _music_.
+* *Skills*: _act_, _music_.
 
 * *Assets*: clothes (flamboyant and fashionable), music instrument (fiddle).
 
@@ -262,7 +262,7 @@ You are cursed with the ability to see what others can't, and have witnessed the
 
 Precious treasures are buried in ancient crypts and old tombs: their previous owners aren't going to miss them.
 
-* *Skills*: _burglary_, _climbing_.
+* *Skills*: _burglary_, _climb_.
 
 * *Assets*: clothes (capacious knapsack to store the loot), crowbar, rope.
 
@@ -284,7 +284,7 @@ You are a secretive scholar of the esoteric arts: many fear you, and with good r
 
 * *Advancements*: mana+1.
 
-* *Assets*: clothes (comfortable robes), scroll of '`eldritch blast`' (bulk ½), sorcerous power scroll (bulk ½).
+* *Assets*: clothes (comfortable robes), scroll of '`eldritch blast`' (bulk ½), profane power scroll (bulk ½).
 
 
 == Zealot

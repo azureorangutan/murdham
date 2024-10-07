@@ -1,7 +1,7 @@
 ---
-title: Perception & Knowledge
+title: Perception
 weight: 110
-prev: /rules/positioning_and_movement
+prev: /rules/movement
 next: /rules/hazards
 ---
 :toc:
@@ -15,7 +15,7 @@ The Players should ask questions to clarify any doubts if they don't have a clea
 
 == Concealed elements
 
-Concealed elements (traps, hidden caches, secret passages, hiding characters, etc.) can automatically be detected by spending some time to search the area.
+Concealed elements (traps, hidden caches, secret passages, hiding characters...) can automatically be detected by spending some time to search the area.
 If they aren't perfectly concealed they can also be detected passively, without a search, when nearby by passing a group WIT save.
 
 Searching a zone or a sector takes a stretch or a watch respectively and reveals all concealed elements in it.
@@ -23,37 +23,30 @@ Searching a region takes 2 watches and only reveals a single concealed element w
 Two characters can split and search a region in a single watch.
 
 
-== Detecting others
+== Detecting other characters
 
 When two groups encounter each other they must each make a group WIT save.
 If at least one member passes, they notice the other group.
 
-Groups which are being reckless (making noise, talking loudly, carrying a light in the dark, etc.) are automatically detected and can't detect the other group unless they are being reckless as well.
+Groups which are being reckless (making noise, talking loudly, carrying a light in the dark...) are automatically detected and can't detect the other group unless they are being reckless as well.
 Groups which are well hidden and silent (for example laying in ambush in a thick forest) can't be detected by a WIT save, only by a search, and automatically detect even cautious groups.
 
 If only one group notices the other, it has the opportunity to decide how to approach the encounter: leaving, sneaking, launching an ambush, attempting to parley, etc.
 If both or neither group notices the other, the two sides stumble upon each other and the encounter can't be avoided.
 
 
-== Sneaking
-
-Characters who haven't been noticed may attempt to move without being detected, for example to approach an enemy or to move away unnoticed.
-
-They must be able to move silently and unseen, for example in the shadows or behind some form of cover, and must pass an AGI save to avoid detection.
-Sneaking in trivial situations, such as in very noisy or dark areas, requires no save, while sneaking on very loud surfaces or in the open is simply impossible.
-
-Movement speed is halved while sneaking.
-
-
 == Knowledge
 
 The GM provides information to the Players based on what their characters should realistically know.
-The Players can ask the GM if their characters know more about a specific topic based on their skills and background, and the GM can reveal additional information if deemed appropriate.
+They can take their skills, background, and history into account.
+For example, a character with the _medicine_ skills would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat catcher_ background would surely know a lot about rodents.
+
+The Players should remind the GM if they think their characters might know more about a specific topic, and the GM can reveal additional information if deemed appropriate.
 
 
 == Languages
 
-Player characters can speak Common, the main language spoken in the Kingdom.
-The ability to speak additional languages is granted by skills.
+Player characters can speak Common, the lingua franca of the Kingdom.
+The ability to speak additional languages is granted by skills or the character's history.
 
-Characters can't read, write, or perform anything but very simple calculations unless they have a skill which grants this ability: education is a privilege for few people!
+Characters can't read, write, or perform anything but very simple calculations unless they have a skill which grants this ability: education is a privilege for the few!

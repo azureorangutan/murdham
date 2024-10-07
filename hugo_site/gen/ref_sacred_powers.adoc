@@ -28,7 +28,7 @@ Target two creatures. When one of the two targets suffer damage, half of it is s
 
 * *Rite of preservation*.
 _Near_, _lingering_.
-Target a corpse. It can't be affected by sorcerous powers and it decays about 1,000 times more slowly than normal.
+Target a corpse. It can't be affected by profane powers and doesn't show signs of decay.
 
 * *Rite of protection*.
 _Near_, _watch_.
@@ -36,7 +36,7 @@ Target a character. The target's armour value increases by 1, but only if they d
 
 * *Rite of purging*.
 _Near_.
-Target an item which has been tampered with sorcerous magic, a demon, an undead, or a character who has suffered mutations. The target must remain within range for the whole time required to invoke the power. If successful, the target is banished, destroyed, or killed.
+Target a demon, an undead, a character who has suffered mutations, or an item which has was tampered with profane magic. The target must remain within range for the whole time required to invoke the power. If successful, the target is destroyed.
 
 * *Rite of purification*.
 _Near_.
@@ -48,6 +48,6 @@ Target a creature who is _sick_ or affected by poison. Poison is neutralised, an
 
 * *Rite of warding*.
 _Near_, _watch_.
-You erect an anti-magic field covering all zones within range 1 of your current position. Within the area, sorcerous powers have no effect and demons and undead suffer d4 direct damage per round. The field is fixed and doesn't move with you.
+You erect an anti-magic field covering all zones within range 1 of your current position. Within the area, profane powers have no effect and demons and undead suffer d4 direct damage per round. The field is fixed and doesn't move with you.
 
 

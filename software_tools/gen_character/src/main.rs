@@ -51,7 +51,7 @@ fn random_company(rng: &mut ThreadRng, size: u32) -> Company {
                                 PowerKind::Sacred => {
                                     *power_content = PowerContent::Power(random_sacred_power(rng))
                                 }
-                                PowerKind::Sorcerous => {
+                                PowerKind::Profane => {
                                     *power_content =
                                         PowerContent::Power(random_sorcerous_power(rng))
                                 }

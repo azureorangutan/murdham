@@ -2,7 +2,7 @@
 title: Character Creation
 weight: 14
 prev: /rules/basic_concepts
-next: /rules/abilities_and_saves
+next: /rules/abilities
 ---
 :toc:
 

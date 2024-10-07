@@ -13,25 +13,28 @@ There are no degrees or ranks: a character either has a skill or doesn't.
 
 The description of each skill lists the most common ways they can influence the game, but don't feel limited by this: you should take skills into account any time it makes sense within the game narrative.
 
-Common advantages provided by skills are:
 
-* Perform normally risky actions without a save, or with added benefits in case of success.
+== Reducing difficulty with skills
 
-* Perform actions which would normally be impossible with a save.
+A common advantage provided by skills is to reduce the difficulty of a task:
 
-* Obtain additional information about a topic from the GM.
+* A challenging tasks becomes trivial: you pass without needing a save.
+
+* An impossible task might become challenging (within reason): you may attempt it, but must pass a save.
+
+As usual, the GM is the final arbiter on whether a skill applies to a given situation or not.
 
 ++++
 {{% details title="Example" closed="true" %}}
 
 Sybilla (AGI 10) and Beatrice (AGI 8) want to climb a rocky cliff, which requires passing an AGI save.
-Beatrice, however, has the _climbing_ skill, which means she is very good at climbing.
-The GM rules that she succeeds automatically, without needing to roll.
+Beatrice, however, has the _climb_ skill, which can reduce the difficulty of climbing.
+With this skill she can succeed automatically, without needing to roll.
 Sybilla doesn't have the skill, so she must make a save.
 
 Later they find themselves in a similar situation, but a torrential rain starts pouring, making the surface slippery.
 The GM rules that it's practically impossible for most people to climb safely, so Sybilla can't even attempt to do it.
-Since Beatrice has the _climbing_ skill, however, the GM allows her to attempt to do it with an AGI save.
+Since Beatrice has the _climb_ skill, however, the GM allows her to attempt to do it with an AGI save.
 Once she is on top, she rolls out a _rope ladder_ she had in her backpack to let Beatrice up.
 The GM rules that climbing the ladder is trivial, even under the rain, so Beatrice can just climb up without risks.
 

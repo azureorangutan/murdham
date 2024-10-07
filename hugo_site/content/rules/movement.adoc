@@ -1,8 +1,8 @@
 ---
-title: Positioning & Movement
+title: Movement
 weight: 100
-prev: /rules/character_advancement
-next: /rules/perception_and_knowledge
+prev: /rules/advancement
+next: /rules/perception
 ---
 :toc:
 
@@ -64,44 +64,48 @@ These factors halve movement speed:
 * Moving between sectors and regions without following an open path or road (through forests, swamps, mountains, hills, labyrinthic alleys, etc.).
 
 
+== Special movement
 
-== Sprinting
+* *Sprint*.
+Move 4 zones in a round across open terrain.
+Impossible in cramped places full of obstacles, such as furnished rooms and thick vegetation.
+To sprint for 2 or more consecutive rounds, you must pass an AGI save at the start of each round.
 
-Characters can sprint to double their movement speed.
-They can sprint for a stretch and for an additional stretch if they pass an AGI save, after which they have to catch their breath for a whole stretch before doing anything else.
-It isn't possible to sprint when moving between regions.
+* *Sneak*.
+Move silently and behind cover.
+You remain undetected if you pass an AGI save.
+Trivial in loud and dark places, impossible on very noisy surfaces and in plain view.
 
+* *Balance*.
+When moving on difficult ground (slippery, uneven, narrow...), you must pass an AGI save or trip.
+When you trip, you suffer d4 direct damage and can't move further until the next round.
+Impossible on very difficult ground (for example slippery _and_ narrow).
 
-== Obstacles
+* *Leap*.
+Pass an AGI save to leap across a significant obstacle or gap.
+Trivial for tiny gaps, impossible for very large gaps.
 
-* *Difficult ground*.
-Characters moving from a zone of difficult ground (slippery, uneven, or narrow) must move at half speed or pass an AGI save to avoid tripping.
-Characters moving from a zone of very difficult ground (for example both slippery and narrow) must both move at half speed and pass an AGI save to avoid tripping.
-Characters who trip suffer d4 direct damage and must interrupt their movement for the round.
+* *Climb*.
+Pass an AGI save or fall at the end of each round spent hanging from a surface and at the end of the climb.
+Trivial on easy surfaces (such as ladders), impossible on smooth surfaces (such as walls).
+Attacks made while climbing are impaired, and at least one hand must be used to keep hold of the surface.
 
-* *Climbing*.
-Movement speed is halved while climbing.
-Characters climbing challenging surfaces must pass an AGI save or fall after moving by a zone.
-Climbing using ladders, ropes, or in similar trivial situations requires no save.
-Climbing challenging surfaces keeps both hands occupied, but it is possible to use one hand while climbing trivial surfaces.
+* *Swim*.
+Pass an AGI save or become _incapacitated_ when you enter turbulent waters at the start of each round in which you are in turbulent waters.
+When you are _incapacitated_ in water, you might suffocate (link:../hazards/#_suffocating[Suffocating]).
+Attacks made while in water are impaired.
 
-* *Swimming*.
-Movement speed is halved while swimming.
-Characters swimming in turbulent waters or other hazardous situations must pass an AGI save when entering the water and at the start of each following round or start drowning.
-Drowning characters are too exhausted to keep swimming and apply the effects of suffocation (see link:../hazards#_suffocating[Suffocating]).
-Attacks made while in water inflict impaired damage.
-
-* *Leaping*.
-Characters leaping over a significant gap must pass an AGI save to make it to the other side.
-Leaping over very small gaps requires no save.
+Only one of the special movement options described above is possible at a time.
+For example, you can't sprint while climbing, or sneak while swimming.
 
 
 == Optional rule: grids
 
-You can optionally use a square grid to keep track of positioning instead of zones, with a square representing a distance of 1.5 metres (5 feet).
+You can use a square grid instead of zones to keep track of where the characters are.
+A square represents a distance of 1.5 metres (5 feet).
 Each square can be occupied by a single medium-sized character.
 
 To convert ranges in zones to ranges in squares, multiply by 4.
 For example, a range of 2 zones would correspond to a range of 8 squares.
 
-Anything affecting a whole zone, such as blast attacks, affects a 3 squares by 3 squares area.
+Anything affecting a whole zone, such as blast attacks, affects a 3 squares by 3 squares area instead.

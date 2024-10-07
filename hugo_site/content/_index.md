@@ -40,7 +40,7 @@ layout: hextra-home
     subtitle="The game relies on the Game Master to adjudicate the outcome of the Players' actions, using the rules as a toolbox. The Players must use their ingenuity and take advantage of their skills and gear to overcome the challenges they meet."
   >}}
   {{< hextra/feature-card
-    title="Streamlined and concise"
+    title="Simple and concise"
     subtitle="The rules strive to be as straightforward, intuitive, and brief as possible. No need to study a thick rulebook, memorise monster profiles taking whole pages, or reference the rulebook constantly."
   >}}
   {{< hextra/feature-card
@@ -56,15 +56,15 @@ layout: hextra-home
     subtitle="Combat rules are streamlined yet deep. Turns move quickly and fights are over soon, but every turn is full of nail-biting decisions. An alternating activation system and a reaction mechanic make sure that every Player is always involved."
   >}}
   {{< hextra/feature-card
-    title="Vile sorcery and sacred prayers"
-    subtitle="Two types of magic: sorcerous and sacred. Sorcerers have a pool of mana they can spend to cast spells safely, but can push themselves at the cost of corruption, risking miscasts and mutation. Sacred powers are safe, but can be used scarcely and might fizzle if the caster is corrupted."
+    title="Vile sorcery and holy rites"
+    subtitle="Two types of magic: profane and sacred. Sorcerers have a pool of mana they can spend to cast spells safely, but can push themselves at the cost of corruption, risking miscasts and mutation. Sacred powers are safe, but can be used scarcely and might fail if the caster is corrupted."
   >}}
   {{< hextra/feature-card
     title="Fast action resolution"
     subtitle="Just roll a d20 under an ability score. No modifiers, target numbers, or dice pools. Difficulty just comes in three steps: trivial (no roll, you just do it), challenging (roll to succeed), impossible (you just can’t do it)."
   >}}
   {{< hextra/feature-card
-    title="Streamlined skill system"
+    title="Lightweight skill system"
     subtitle="Skills are keywords: a character either has them or they don't. They provide significant advantages, such as the ability to succeed in certain actions without rolling or to cast spells."
   >}}
   {{< hextra/feature-card

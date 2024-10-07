@@ -8,43 +8,43 @@ next: /rules/powers
 
 == Combat procedure
 
-Time is tracked using rounds during combat.
-A round is divided in the following phases:
-
-. *Initiative phase*.
-On the first round, the faction which started the fight automatically has the initiative.
-On following rounds, the Players have the initiative.
-
-. *Action phase*.
-The factions alternate taking turns with one character at a time, starting with the one holding initiative.
+During combat, time is tracked using rounds.
+The factions involved in the fight alternate taking turns with a character or passing.
 Each character can only take turn once per round.
-A faction can choose to pass instead of taking turn with a character, and if all factions pass consecutively the phase ends.
-A faction who has already taken turn with all its characters can only pass.
+When all factions pass consecutively, the round ends.
+At the end of the round, you must make morale checks if necessary (see <<_morale>>).
 
-. *Morale phase*.
-Check if any faction must make a morale check (see <<_morale>>).
+
+== Initiative
+
+The faction holding the initiative can decide which faction acts first each round.
+Initiative is held by the faction which started the fight, or is assigned randomly if that's unclear.
 
 
 == Taking a turn
 
-During their turn characters can _move_ by 2 zones, perform a _bonus action_, and perform a _main action_ or another _bonus action_, in any order.
+During their turn characters can do the following, in any order:
+
+* Perform a _bonus action_.
+
+* Perform a _main action_ or another _bonus action_.
+
+* _Move_ by a zone.
 It is possible to split movement before, after, and between actions.
 
-Alternatively, characters can take their turn outside of the normal order to perform a _reaction_ in response to a specific trigger.
+Alternatively, characters can take their turn outside of the normal round order to perform a _reaction_ in response to a specific trigger.
+A reaction takes the whole turn and doesn't allow for a movement or a bonus action.
 
 
 == Main actions
 
-* *Sprint* to double movement distance.
+* *Full movement*: move 2 zones, and optionally perform a special movement (see link:../movement/#_special_movement[Special movement]).
 
-* *Attack* an enemy.
+* *Attack* an enemy (see <<_attacking>>).
 
-* *Invoke* a sorcerous power.
+* *Invoke* a profane power (see link:../powers/#_invoking_sorcerous_powers[Invoking profane powers]).
 
-* Attempt to *distract*, *intimidate*, or *taunt* an enemy.
-The character must also narrate how they attempt to do so, and it must be something effective under the current circumstances.
-
-* *Interact* with the environment.
+* Attempt to *distract*, *intimidate*, or *taunt* an enemy (see link:../encounters/#_manipulation[Manipulation]).
 
 
 == Bonus actions
@@ -57,20 +57,23 @@ Armour can't be changed during a fight.
 
 * *Use a consumable item*, such as a _healing draught_, an _antidote_, or a dose of poison.
 
+* *Interact* with the environment (open a door, pull a lever...).
+The GM may rule it takes a main action to perform complex interactions.
+
 * *Say a few words*.
 
 
 == Reactions
 
-* *Counter* an attack.
+* *Counter* an attack (see <<_reacting_to_an_attack>>).
 
-* *Dodge* an attack.
+* *Dodge* an attack (see <<_reacting_to_an_attack>>).
 
-* *Guard* a nearby ally.
+* *Guard* a nearby ally (see <<_reacting_to_an_attack>>).
 
-* *Hide behind* a nearby ally or a grabbed enemy.
+* *Hide behind* a nearby ally or a grabbed enemy (see <<_reacting_to_an_attack>>).
 
-* Perform an *opportunity attack*.
+* Perform an *opportunity attack* (see <<_opportunity_attacks>>).
 
 
 == Attacking
@@ -106,7 +109,7 @@ The choice must be made before rolling for damage but after the WIT save to hit,
 Targets who are unaware of their attacker can't react.
 
 *Dodge*.
-Make an AGI save, and on a pass the attack misses.
+Make an AGI save: on a pass the attack misses.
 
 *Counter*.
 Perform a suitable attack against the attacker.
@@ -124,13 +127,12 @@ They can perform their own reaction.
 A character who is nearby the target of an attack can react by guarding them.
 They become the new target of the attack.
 Since they have spent their reaction to guard, they can't normally counter or dodge.
-Guarding is similar to hiding behind, the main difference is who spends their turn to react: the original target or the new target.
 
 
 == Opportunity attacks
 
-Characters can make an opportunity attack as a reaction against nearby enemies moving out of their position.
-The target's movement is interrupted and the attack is resolved, after which their turn resumes.
+Characters can make an opportunity attack as a reaction against nearby enemies moving away.
+The target's movement is interrupted and the attack is resolved, after which their turn resumes if they are still alive and  conscious.
 
 It isn't normally possible to react to an opportunity attack, since the target is already spending the turn to act, but some skills might give an opportunity to do so.
 
@@ -194,13 +196,11 @@ Characters who launch an ambush are concealed at the start of the fight.
 Hiding later during the fight requires being out of sight for a while or a major distraction.
 The GM should keep the position of concealed characters hidden from the Players, and should control their characters so that they realistically ignore concealed Player characters.
 
+Enemies attacked by a concealed character are taken by surprise and can't react.
+At the start of the fight, concealed characters play a bonus turn during which only they can act.
+
 Concealed characters are revealed when they make noise or become visible to the enemy.
 Actions which might reveal a character include: attacking, invoking a power, talking, moving without sneaking, walking right in front of the enemy, etc.
-Concealed characters who want to sneak around during a fight follow the rules detailed in the link:../perception_and_knowledge/#_sneaking[Sneaking] section: they halve their speed, must have the opportunity to move silently and out of sight, and must pass an AGI save to avoid detection.
-
-Characters who are concealed at the start of the fight can take a bonus turn before the others.
-Follow the normal round procedure, but characters who aren't concealed and are unaware of the concealed characters can't take their turn.
-Characters attacked by concealed enemies are taken by surprise and can't react.
 
 
 == Morale
@@ -228,25 +228,34 @@ If the fleeing characters can move faster or keep the speed for longer, the save
 If the opposite is true, escaping is impossible.
 
 
+== Combat gear degradation
+
+After a fight, make a durability roll for all weapons and armour which were used at least once.
+This represents damage to the equipment and depleting ammunition.
+
+_Damaged_ weapons and shields are destroyed if they are used to attack and a 1 is rolled on the damage die.
+_Damaged_ shields and armour are destroyed by attacks inflicting at least 8 damage before armour reduction (shields are destroyed first).
+
+Many mundane items can be used as improvised weapons.
+They work as a _simple hand weapon_ or a _simple great weapon_, but are handled as if they were already _damaged_.
+
 
 == Optional rule: fast and slow activations
 
 You can use this optional rule if you would like WIT to influence the order in which characters act during the round and you don't mind a little bit of extra complexity.
 
-At the beginning of each round, right after the initiative phase, the GM openly rolls a d20.
-The result is the fast action threshold.
+At the beginning of each round the GM openly rolls a d20.
+The result is the "`fast action threshold`" or FAT.
 You can leave the d20 on the table as a reminder of this value.
 
-The action phase is divided in two sub-phases: fast and slow.
-Each sub-phase follows the normal action phase rules, with the following additions:
+The round is divided in two phases: fast action and slow action.
 
-* During the fast action sub-phase, only characters whose WIT matches or exceeds the fast action threshold can take their turn.
-As an exception, on the first round only, characters who initiated the fight or were prepared for it can always take their turn, no matter what their WIT is.
+* During the fast action phase, only characters whose WIT matches or exceeds the FAT can take their turn.
 
-* During the slow action sub-phase, the characters who haven't taken their turn yet can now do so.
-This includes both characters who couldn't take action during the fast action sub-phase, and those who didn't due to early passing.
+* During the slow action phase, all characters who haven't acted yet (either by choice or because their WIT is lower than the FAT) can take their turn.
 
-Characters can always react in any sub-phase, no matter what their WIT score is.
+Each phase ends when all factions pass consecutively, as per the usual rules.
+Characters can react during any phase, no matter what their WIT score is.
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -255,22 +264,19 @@ Balthasar (WIT 12), Sybilla (WIT 6), and Theobald (WIT 9) are fighting agains
 The Players have the initiative.
 
 The GM rolls a d20 to determine the fast action threshold: the result is 9.
-During the fast action sub-phase, only Balthasar, Theobald, and the bandit leader can act.
+During the fast actions phase, only Balthasar, Theobald, and the bandit leader can act.
 Sybilla and the two bandits can't, because their WIT is lower than 9.
 
-The fast action sub-phase begins.
+The fast actions phase begins.
 Since the Players have the initiative, they take turn first.
-They choose Theobald to go first: he decides to attack one of the two bandits.
-The bandit chooses to react to the attack by dodging (note that they can do so even if they can't take their turn during the fast action phase).
-After the attack is resolved, it's the enemies' turn and the bandit leader acts.
-Balthasar could then act, but the Players decide to pass instead.
-The bandits must pass because they have no characters left who can act, and therefore the sub-phase ends.
+Theobald goes first, followed by the bandit leader.
+Balthasar could act too, but the Players choose to pass instead.
+During his turn, Theobald attacks a bandit, who chooses to dodge: they can do so even though they couldn't normally act during this phase.
 
-The slow action sub-phase begins.
-All characters who haven't acted yet can take a turn: Balthasar, Sybilla, and one of the bandits, the one who didn't react to the attack.
+The slow actions phase begins.
+All characters who haven't acted yet can take a turn now: Balthasar, Sybilla, and one of the bandits, the one who didn't dodge.
 The Players again start because they have the initiative.
 Sybilla goes first, followed by the bandit, and ending with Balthasar.
-Both factions must pass because they have no characters left, and the action phase ends.
 
 {{% /details %}}
 ++++
@@ -278,9 +284,9 @@ Both factions must pass because they have no characters left, and the action pha
 
 == Optional rule: the chaos of combat
 
-This is an optional rule you can use to represent the chaotic nature of combat and to reduce the amount of time spent to resolve fights if the Players suffer from analysis-paralysis.
+This is an optional rule you can use to represent the chaotic nature of combat and to reduce the amount of time spent to resolve fights if the Players suffer from analysis-paralysis and tend to overthink their turn.
 
 * The Players aren't allowed to speak to each other unless their character spends a bonus action to say a short sentence.
 
 * Each Player has 15 seconds to declare what they intend to do on their turn, otherwise they do nothing.
-This doesn't include the time required to actually resolve the actions, take all the time you need for that.
+This doesn't include the time required to actually resolve the actions, take all the time you need to roll dice, assign damage, and so on.

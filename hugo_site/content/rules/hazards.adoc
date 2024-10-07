@@ -1,7 +1,7 @@
 ---
 title: Hazards
 weight: 120
-prev: /rules/perception_and_knowledge
+prev: /rules/perception
 next: /rules/encounters
 ---
 :toc:
@@ -38,6 +38,9 @@ If they pass they are immune to the same source of fear of terror until the end 
 Repeat the WIT save at the start of each stretch, as long as the source of fear persists.
 When multiple characters are affected at once, make a group save.
 
+_Frightened_ characters can't approach the source of their fear.
+_Terrified_ characters must run away, and if they can't they cower in terror and are _incapacitated_ until the source of their fear remains.
+
 Some effects let characters ignore fear and treat terror as fear.
 Two such effects can stack together to let characters completely ignore terror as well.
 
@@ -53,7 +56,7 @@ Characters who voluntarily trigger a detected trap can react to it when it makes
 == Poison
 
 Characters exposed to poison must pass a STR save or suffer its effect.
-If exposed to the same poison a second time during the same stretch, the effect is automatic.
+If exposed to the same poison a second time during the same stretch, or to two doses at once, the effect is automatic.
 
 Poison delivery methods:
 

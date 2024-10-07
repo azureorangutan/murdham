@@ -1,21 +1,21 @@
 ---
 title: Items
 weight: 80
-prev: /rules/rest_and_recovery
-next: /rules/followers_and_services
+prev: /rules/rest
+next: /rules/followers
 ---
 :toc:
 
 == Money
 
 Money is measured in shillings (ʂ).
-You should track money down to a quarter shilling.
+You should track it down to a quarter shilling.
 
 
 == Encumbrance
 
 Characters can carry up to 8 bulk unencumbered, and up to twice that _encumbered_.
-_Encumbered_ characters move at half speed and, each time they make an AGI save, they must also pass an additional STR save or fail.
+_Encumbered_ characters move at half speed and must pass an additional STR save each time they make an AGI save or fail.
 
 * An item's bulk equals 1, unless otherwise indicated in its description.
 
@@ -29,23 +29,29 @@ _Encumbered_ characters move at half speed and, each time they make an AGI save,
 
 Characters must have a reasonable way to store what they are carrying.
 They can wear whatever makes sense and, if they wear some _clothes_, they are assumed to have enough containers (backpacks, pouches, pockets, scabbards, etc.) to store any amount of reasonably sized items.
-Things with bulk higher than 2 (ladders, chests, other characters, etc.) can't be stored and require dedicated effort to carry.
+Things with bulk higher than 2 (ladders, chests, other characters, etc.) can't be stored and require dedicated effort to carry, meaning they usually keep both hands occupied.
 
 
 == Durability rolls
 
-You must make a durability roll when an item has been used in a way which might have compromised its integrity, but with some level of uncertainty.
-There is an 1:4 chance that the affected item was _damaged_.
-
-After a fight, make a durability roll for all weapons and armour which were used at least once.
-Other situations which might require a durability roll are using a weapon to try to break down a door, or a fragile item falling to the ground.
-
+Each time an item is used in a way which might compromise its integrity, there is a 1:4 chance it is _damaged_.
+Only roll if you are unsure if the item was _damaged_: if it's pretty clear it was _damaged_ or destroyed, it just happens.
 _Damaged_ items can still be used but are permanently destroyed on another failed durability roll.
-_Damaged_ weapons and shields are also destroyed if they are used to attack and a 1 is rolled on the damage die.
-_Damaged_ shields and armour are also destroyed by attacks inflicting at least 8 damage before armour reduction (shields are destroyed first).
 
-Many items can be used as improvised weapons.
-They work as a _simple hand weapon_ or a _simple great weapon_, but are handled as if they were already _damaged_.
+++++
+{{% details title="Example" closed="true" %}}
+
+Balthasar uses a sword to try to break down a door.
+After the attempt, the GM rules that this might have ruined the blade, and therefore asks for a durability roll.
+Balthasar rolls a 1 on a d4, meaning that the sword was indeed _damaged_.
+
+Sybilla violently throws a glass jar at the ground.
+The glass just shatters, no durability roll required.
+
+
+{{% /details %}}
+++++
+
 
 
 include::gen/ref_item_keywords.adoc[]
