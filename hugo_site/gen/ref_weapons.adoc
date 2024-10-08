@@ -38,6 +38,10 @@ Two-handed gunpowder weapon: matchlock arquebus, blunderbuss, etc.
 _Weapon (d8 damage, direct damage)_.
 Can only target characters who are unaware of the attack or whom you are currently grabbing.
 
+* *Lance* (16ʂ, bulk 2).
+_Weapon (d8 damage)_.
+Can only be used while riding, and only if the mount moved this round. Can be used with one hand despite its bulk.
+
 * *Mancatcher* (16ʂ, bulk 2).
 _Weapon (d4 damage, grab)_.
 

@@ -215,4 +215,4 @@ Characters who are possessed a second time succumb to the demon's power, who tak
 
 include::gen/ref_sacred_powers.adoc[]
 
-include::gen/ref_sorcerous_powers.adoc[]
+include::gen/ref_profane_powers.adoc[]

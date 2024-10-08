@@ -1,5 +1,14 @@
 // This file was automatically generated.
 
+== Acrobat
+
+You earned your fare performing spectacular and dangerous acrobatic feats.
+
+* *Skills*: _acrobatics_, _contortionist_.
+
+* *Assets*: clothes (comfortable and colourful leotard), rope (made of silk), wooden pole (bulk 2).
+
+
 == Agitator
 
 You know how to incite the people with fervent speeches. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money.
@@ -18,13 +27,31 @@ You know how to keep equipment in good order: nothing is more dangerous than a b
 * *Assets*: clothes (thick leather apron), toolbox (bulk 2).
 
 
+== Assassin
+
+For the right amount of coins, everyone can be taken care of.
+
+* *Skills*: _sneak attack_, _stealth_.
+
+* *Assets*: clothes (dark cloak), hand crossbow (d4 damage, range 8), black adder venom (bulk ½; consumable).
+
+
 == Barber-surgeon
 
 A sharp razor and a steady hand are required for both a clean shave and delicate surgeries.
 
-* *Skills*: _heal_, _lethal attack_.
+* *Skills*: _heal_, _strike to injure_.
 
 * *Assets*: clothes (bloodstained apron), surgery tools (bulk 2).
+
+
+== Beggar
+
+You spent your days sitting in the corner of busy roads, hoping for a few shillings from generous passers-by.
+
+* *Skills*: _disease resistance_, _frugal_.
+
+* *Assets*: clothes (dirty, stinky rags), alcoholic drink (bulk ½; consumable), crutch.
 
 
 == Boatman
@@ -36,15 +63,49 @@ You have ferried passengers and smuggled goods along the many rivers flowing acr
 * *Assets*: clothes (wet and mouldy), fishing tools (bulk 2).
 
 
+== Bodyguard
+
+You worked for the rich and powerful, protecting them from robbers and other scum.
+
+* *Skills*: _protect_, _shield mastery_.
+
+* *Assets*: clothes (enhancing your muscles), shield (bulk 2; shield, d4 damage), medicine box (consumable).
+
+
 == Bone picker
 
 One person's trash is another person's treasure: you scour the roads, graves, and gutters looking for something valuable to sell for a few pennies.
 
-* *Skills*: _frugality_.
-
-* *Advancements*: AGI+1, WIT+1.
+* *Skills*: _frugal_, _quick draw_.
 
 * *Assets*: clothes (mismatched clothes scavenged from the road), femur (d4 damage; fragile), bag of dung, crutch.
+
+
+== Bounty hunter
+
+You used to roam the cities and the countryside, capturing wanted criminals to collect the bounties on their head.
+
+* *Skills*: _disarm_, _strike to stun_.
+
+* *Assets*: clothes (large coat and wide-brimmed hat), manacles & key, net.
+
+
+== Brawler
+
+Your fists are your weapon and your arms can bend iron: nobody is stronger than you!
+
+* *Skills*: _brawling_, _wrestling_.
+
+* *Assets*: clothes (hand wraps to protect your knuckles), alcoholic drink (bulk ½; consumable), chain.
+
+
+== Burglar
+
+Those snotty nobs don't need all that coin, it would be much more useful in your pockets!
+
+* *Skills*: _burglary_, _fleet footed_.
+
+* *Assets*: clothes (comfortable and with generous pockets), lock picks, metal file.
 
 
 == Coach driver
@@ -60,34 +121,25 @@ You worked for a coaching company, driving staging coaches through the dangerous
 
 Some are born with too much: those wealthy nobs aren't going to notice if they are a few shillings short.
 
-* *Skills*: _sneak_, _steal_.
+* *Skills*: _steal_, _stealth_.
 
 * *Assets*: clothes (hood covering your face), gold jewel (bulk ½; gold necklace with a noble family emblem, stolen).
-
-
-== Deserter
-
-You have fought for the Kingdom and seen the horrors of war, the nightmares will never stop.
-
-* *Skills*: _cleaving strike_, _skilled strike_.
-
-* *Assets*: clothes (uniform from your regiment, has seen better days), halberd (bulk 2; d8 damage).
 
 
 == Duellist
 
 You are a skilled duellist, constantly looking for a worthy opponent to hone your skills.
 
-* *Skills*: _ambidexterity_, _disarm_.
+* *Skills*: _ambidextrous_, _fast strike_.
 
 * *Assets*: clothes (a few stitched up cuts), parrying dagger (d4 damage), thrusting sword (d6 damage).
 
 
-== Entertainer
+== Fire eater
 
-You were a performer at a travelling carnival, capable of executing a vast array of exciting tricks.
+You were a performer at a travelling carnival, executing a vast array of exciting tricks.
 
-* *Skills*: _contortionism_, _fire eating_.
+* *Skills*: _contortionist_, _fire eating_.
 
 * *Assets*: clothes (bare chested, lest your shirt catches fire), throwing knives (d4 damage, range 8; you like to juggle with them), alcoholic drink (bulk ½; consumable), torch (consumable).
 
@@ -110,6 +162,24 @@ Luck come and goes at the gaming table but it has never abandoned you, not with 
 * *Assets*: clothes (large pockets), cards (bulk ½; marked), dice (bulk ½; loaded).
 
 
+== Hedge wizard
+
+You were blessed with great power, but never received the education necessary to fully control it.
+
+* *Skills*: _augury_, _sorcery_.
+
+* *Assets*: clothes (covered in bones, charms, and trinkets), lucky charm (bulk ½; rabbit foot), profane power scroll (bulk ½).
+
+
+== Herbalist
+
+You were a village healer, curing ailments with plants and natural remedies.
+
+* *Skills*: _apothecary_, _heal_.
+
+* *Assets*: clothes (many bags to carry herbs), apothecary tools (bulk 2), medicine box (consumable).
+
+
 == Hunter
 
 When you hunt in the dark forests of the Kingdom, you sometimes wonder if you really are the hunter or rather the prey.
@@ -128,13 +198,40 @@ You have spent your life making a fool of yourself to entertain the nobles, but 
 * *Assets*: clothes (colourful, with a bell hat), stick with bells (d4 damage; jingles cheerfully when it hits someone), smoke bomb (bulk ½; consumable).
 
 
+== Knight
+
+With your honour lost and no coin left to your name, you wander on your steed selling your sword for money.
+
+* *Skills*: _ride_, _skilled blow_.
+
+* *Assets*: clothes (colourful livery), light horse (Bartadan, STR 12, AGI 4, WIT 8, _sturdy_, trained for combat, d6 damage. Old and lame: lost the _fast_ trait).
+
+
 == Labourer
 
-Your bones and muscles have been hardened by years of carrying heavy loads and drunkenly taking part to tavern brawls.
+Your bones and muscles have been hardened by years of toiling under sun and rain.
 
-* *Skills*: _brawling_, _wrestling_.
+* *Skills*: _pack rat_, _tough_.
 
 * *Assets*: clothes (drenched in sweat), shovel (bulk 2; d6 damage), ration (bulk ½; consumable; packed lunch).
+
+
+== Lawyer
+
+Laws hold the Kingdom together, loopholes keep your purse full.
+
+* *Skills*: _charm_, _erudition_.
+
+* *Assets*: clothes (courtroom attire), book (code of laws), quill & ink (bulk ½; consumable).
+
+
+== Mercenary
+
+There is no shortage of war, and no lack of opportunities for a sell-sword such as yourself.
+
+* *Skills*: _bargain_, _dodge blows_.
+
+* *Assets*: clothes (sturdy boots), helmet, spear (d6 damage).
 
 
 == Messenger
@@ -146,15 +243,40 @@ Time is of the essence when carrying messages across the Kingdom, and you sure a
 * *Assets*: clothes (dusty and sweaty), scroll (bulk ½; sealed letter, no addressee), scroll case.
 
 
+== Miner
+
+Crawling through dark, cramped tunnels breathing dust was not the life you deserve.
+
+* *Skills*: _climb_, _piercing strike_.
+
+* *Assets*: clothes (sweaty and dusty), pickaxe (bulk 2; d6 damage), cage (bulk 2; containing a canary).
+
+
+== Noble
+
+Your house has fallen and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!
+
+* *Skills*: _leadership_, _poison resistance_.
+
+* *Assets*: clothes (ostentatious fripperies, old and full of holes), mirror, signet ring (bulk ½; proof of your identity).
+
+
+== Outlaw
+
+The hills and woods are teeming with people escaping the law such as yourself.
+
+* *Skills*: _bushcraft_, _skilled shot_.
+
+* *Assets*: clothes (greenish cloak), bow (bulk 2; d6 damage, range 8).
+
+
 == Peasant
 
 Your life was simple: growing crops and tending to livestock, trying to put enough food on the table to survive another winter.
 
-* *Skills*: _animal handling_.
+* *Skills*: _animal handling_, _tough_.
 
-* *Advancements*: STR+1, AGI+1.
-
-* *Assets*: clothes (stinking of manure), chicken (Bertha, dumb and brave), pig (Hans, picky about food).
+* *Assets*: clothes (stinking of manure), chicken (Bertha, STR 4, AGI 8, WIT 8, _fast_, _small_ size, d4 damage. Dumb and brave), pig (Hans, STR 4, AGI 4, WIT 8, d4 damage. Picky about food).
 
 
 == Pedlar
@@ -179,7 +301,7 @@ You are an erudite doctor and a herbalist, knowledgeable about poison, disease, 
 
 You have fought for money in illegal arenas and as a judicial champion for hire.
 
-* *Skills*: _fast attack_, _shield mastery_.
+* *Skills*: _fast strike_, _shield mastery_.
 
 * *Assets*: clothes (torn, dusty, and covered in old blood), shield (bulk 2; shield, d4 damage).
 
@@ -211,17 +333,6 @@ Rats are everywhere and nobody likes them. You offer your services to get rid of
 * *Assets*: clothes (partly made of rat fur), trapping tools (bulk 2), small dog (Brutus, trained to hunt rats, small but vicious).
 
 
-== Ruined noble
-
-Your house has fallen and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!
-
-* *Skills*: _leadership_.
-
-* *Advancements*: STR+1, WIT+1.
-
-* *Assets*: clothes (ostentatious fripperies, old and full of holes), arming sword (d6 damage; family heirloom), signet ring (bulk ½; proof of your identity).
-
-
 == Scholar
 
 Hunched over dusty ancient tomes, you have accumulated vast amounts of knowledge: time to put it into practice!
@@ -244,9 +355,18 @@ Your skill with a bow or a gun has no equals: you can shoot a moving squirrel fr
 
 There is good pay for slaying giant monsters: it's a dangerous job, but you are brave and foolish enough to do it.
 
-* *Skills*: _fast dodge_, _monster slaying_.
+* *Skills*: _dodge blows_, _monster slaying_.
 
 * *Assets*: clothes (thick hardened leather, cut, burnet, scratched, and torn), huge battle axe (bulk 2; d8 damage).
+
+
+== Soldier
+
+You have fought for the Kingdom and seen the horrors of war, the nightmares will never stop.
+
+* *Skills*: _cleave_, _skilled blow_.
+
+* *Assets*: clothes (uniform from your regiment, has seen better days), halberd (bulk 2; d8 damage).
 
 
 == Soothsayer
@@ -258,6 +378,15 @@ You are cursed with the ability to see what others can't, and have witnessed the
 * *Assets*: clothes (hooded robes), divination tools (bulk 2).
 
 
+== Thug
+
+A couple of blows with a heavy club are the quickest way to send the right message.
+
+* *Skills*: _brawling_, _intimidate_.
+
+* *Assets*: clothes (covering your face), alcoholic drink (bulk ½; consumable), crimson weed (bulk ½; consumable).
+
+
 == Tomb robber
 
 Precious treasures are buried in ancient crypts and old tombs: their previous owners aren't going to miss them.
@@ -265,6 +394,15 @@ Precious treasures are buried in ancient crypts and old tombs: their previous ow
 * *Skills*: _burglary_, _climb_.
 
 * *Assets*: clothes (capacious knapsack to store the loot), crowbar, rope.
+
+
+== Townsman
+
+Townsfolk such as yourself are the backbone of the Kingdom: shop owners, traders, local officials...
+
+* *Skills*: _gossip_, _luck_.
+
+* *Assets*: clothes (fashionable but practical), cards (bulk ½), pipe & tobacco (bulk ½; consumable).
 
 
 == Witch hunter
@@ -284,7 +422,7 @@ You are a secretive scholar of the esoteric arts: many fear you, and with good r
 
 * *Advancements*: mana+1.
 
-* *Assets*: clothes (comfortable robes), scroll of '`eldritch blast`' (bulk ½), profane power scroll (bulk ½).
+* *Assets*: clothes (comfortable robes), scroll of eldritch blast (bulk ½), profane power scroll (bulk ½).
 
 
 == Zealot

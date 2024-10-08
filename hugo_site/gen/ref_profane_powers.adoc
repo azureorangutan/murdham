@@ -2,6 +2,12 @@
 
 == Profane powers
 
+* *Animal shape*.
+_Personal_, _stretch_.
+Target a _creature_, who turns into a medium-sized animal of your choice. You must carry the skin, feathers, scales, or shell of the chosen animal, which envelop and merge with the target during the transformation and returns to its previous state when the spell ends. The target keeps WIT and intelligence level, but can't speak. The spell doesn't influence the target's equipment, which simply falls to the ground.
+
+** Level+2 -- Turn into a _small_ or _large_ animal. By applying this enhancement twice, you can turn into a _tiny_ or _massive_ animal.
+
 * *Arcane lock*.
 _Near_, _stretch_.
 Target an item which can be opened and closed, such as a door, a box, or a bottle. The target can only be opened by a trigger of your choice (a password, a gesture, contact with a specific item, etc.
@@ -26,13 +32,41 @@ Target a character or an item. The target is hit by a force blast, which works a
 
 ** Level+1 -- The power inflicts fire, lightning, cold, or heat damage.
 
+* *False death*.
+_Near_, _stretch_.
+Target a _creature_. The target falls like a string-less puppet and appears dead, even upon close examination. However, they are still very much alive: they can perceive their surroundings and must breathe, eat, and drink to survive.
+
+* *Fiery taste*.
+_Near_, _stretch_.
+Target up to 4 _rations_ and/or _alcoholic drinks_. _Rations_ become extremely spicy: those who consume must pass a STR save or succumb to a terrible stomachache and be _incapacitated_ until the end of the stretch. _Alcoholic drinks_ become extremely potent: drinking one counts as drinking two. Characters with the _fire eating_ skill aren't affected.
+
+* *Flawed resurrection*.
+_Near_, _lingering_.
+Target the lifeless heart of a _creature_ who died no longer than a stretch ago. A new body forms around the heart and the target's spirit is called back to inhabit it, effectively resurrecting them. The regeneration process takes a day and the new body is different from the original both in appearance and capabilities. STR and AGI are equal to the average (8 for humans, what's indicated in their profile for other creatures) minus d3. WIT, skills, intelligence, and personality don't change. Once the resurrection is complete, the target immediately suffers 4 corruption.
+
+** Level+2 -- Accelerate the regeneration process: from a day to a watch, then from a watch to a stretch.
+
+** Level+2 -- Target a _creature_ who died longer than a stretch ago: from a stretch to a watch, from a watch to a day.
+
 * *Gift of speech*.
 _Near_, _stretch_.
 Target a creature with animal intelligence or human intelligence. The target gains the ability to speak your language.
 
+* *Golden transmogrification*.
+_Personal_, _stretch_.
+This power can only ever target the invoker and requires the sacrifice of a _gold jewel_. Choose a body part: an arm, a leg, the head, or the torso. The body part is replaced by one which appears to be made of pure gold. It works perfectly, even better than the original one. You can even replace missing body parts. An ability score is permanently increased, even above the usual limits (but never more than 19), depending on the chosen body part: +1 STR for an arm, +1 AGI for a leg, +1 WIT for the head or torso.
+
+* *Hold secret*.
+_Near_, _stretch_.
+Target a _creature_ of _human intelligence_ and name a topic. The target is physically unable to talk about the topic, and if forced to they will compulsively lie.
+
 * *Illusion*.
 _Near_, _stretch_.
 Target a small zone. You can create an illusion within its boundaries. The illusion can affect sight, hearing, and smell, but not touch. While you are within range, you can concentrate on the illusion to change it or animate it. While you aren't concentrating the illusion remains frozen in the state you left it, and only disappears when the power ends.
+
+* *Joyous appearance*.
+_Near_, _stretch_.
+Target a _creature_. The target's appearance becomes perfect and free of any blemish. Signs of disease, affliction, old age, and mutation completely disappear. The appearance might in fact be too perfect, almost uncanny (the skin is too smooth, the cheeks are too rosy...). The change in appearance is real, not an illusion, but any underlying illness or problem isn't cured and still has effect.
 
 * *Levitation*.
 _Near_, _stretch_.
@@ -62,14 +96,38 @@ Target a _sick_ creature. You absorb the disease from the target, who is instant
 _Near_, _stretch_.
 Target an unlit light source, such as a _candle_, an _oil lamp_, a _torch_, or a bonfire. It is instantly lit with a bright white flame. All creatures illuminated by it are immune to poison and disease. If they are already poisoned, the poison isn't neutralised but its effect is suspended while under the light. If they are already _sick_, they aren't healed but don't suffer negative effects if they fail a recovery roll while under the light.
 
+* *Radiant honesty*.
+_Near_, _stretch_.
+Target a _creature_ of _human intelligence_. The target is unable to lie, but also exudes trustworthiness and reduces the difficulty of persuasion attempts.
+
 * *Reanimate corpse*.
 _Near_, _stretch_.
 Target the corpse of a medium-sized (or smaller) creature. It is raised as a _reanimated corpse_ under your control (see the Bestiary chapter for relevant stats and rules).
 
 ** Level+2 -- Increase the maximum size category of the targeted corpse by one step.
 
+* *Silence*.
+_Near_, _stretch_.
+Target a zone. No sound can be produced or heard within it. Among other things, it isn't possible to invoke powers while inside the zone, but spells can still be cast from outside into it.
+
+* *Star sign*.
+_Sight_, _stretch_.
+Target a celestial body (the Sun, the Moon, a planet, a star...) at any range. You can alter its appearance in a subtle way (make it slightly larger, smaller, brighter, darker...). You can keep altering appearance as long as you concentrate, otherwise it remains as you left it until the spell is over. Characters with the _erudition_ skill can tell something is different, even if subtle. It is said that some wizards use this spell to encode messages in the stars.
+
+** Level+2 -- You can alter target's appearance in a rather evident way, so that pretty much everyone can see the difference and not just erudite characters.
+
+* *Summon demon*.
+_Near_, _stretch_.
+Target a zone and invoke the true name of a _demon_. The veil between reality and chaos is torn and the demon steps into this world. The demon isn't under the caster's control and behaves according to its own desire.
+
+** Level+2 -- The demon must fulfil a demand when summoned, after which it's free. It can still refused to obey, in which case it is paralysed as if bound by invisible chains. You can attempt to bargain and change the request.
+
 * *Water breathing*.
 _Near_, _stretch_.
 Target a creature. Gills and fins appear on the target's body and their hands, feet, or paws become palmate. The target can breathe under water and can swim at full speed.
+
+* *Wood shape*.
+_Near_, _stretch_.
+Target a _creature_. The target turns into a tree. They are still able to perceive their surroundings.
 
 

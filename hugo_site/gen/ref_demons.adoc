@@ -4,7 +4,7 @@
 A large horned man brandishing a giant sword, his skin constantly exuding fresh blood. Collects the skulls of slain mortals. +
 *STR* 16, *AGI* 4, *WIT* 8 +
 _Medium-sized demon_, _human intelligence_. +
-*Skilled strike*. You improve the damage die of melee attacks (but not unarmed attacks): d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. In case of blast attacks only one target takes increased damage. +
+*Skilled blow*. You improve the damage die of melee attacks (but not unarmed attacks): d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. In case of blast attacks only one target takes increased damage. +
 *Brawling*. Your unarmed attacks are not impaired and inflict d6 damage. Your armour value is increased by 1 against unarmed attacks. +
 *Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_. +
 *Assets*: demonic greatsword (bulk 2; d8 damage). +
@@ -24,7 +24,7 @@ _Medium-sized demon_, _human intelligence_. +
 A mess of flesh and bones, shifting in shape and bright colours. Sees mortals as clay to be mould. +
 *STR* 8, *AGI* 12, *WIT* 8 +
 _Medium-sized demon_, _human intelligence_. +
-*Fast dodge*. You can dodge for free, without spending your turn, once per round. +
+*Dodge blows*. You can dodge for free, without spending your turn, once per round. +
 *Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_. +
 *Claws*. D6 damage. +
 *Eldritch fire*. D6 damage, range 8. +

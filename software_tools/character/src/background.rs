@@ -24,22 +24,36 @@ impl From<Abilities> for Advancement {
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, EnumIter)]
 pub enum Background {
+    Acrobat,
     Agitator,
     Artisan,
+    Assassin,
     BarberSurgeon,
+    Beggar,
     Boatman,
+    Bodyguard,
     BonePicker,
+    BountyHunter,
+    Brawler,
+    Burglar,
     CoachDriver,
     Cutpurse,
-    Deserter,
     Duellist,
-    Entertainer,
+    FireEater,
     Footpad,
     Gambler,
+    HedgeWizard,
+    Herbalist,
     Hunter,
     Jester,
+    Knight,
     Labourer,
+    Lawyer,
+    Mercenary,
     Messenger,
+    Miner,
+    Noble,
+    Outlaw,
     Peasant,
     Pedlar,
     Physician,
@@ -47,12 +61,14 @@ pub enum Background {
     Priest,
     Raconteur,
     RatCatcher,
-    RuinedNoble,
     Scholar,
     Sharpshooter,
     Slayer,
+    Soldier,
     Soothsayer,
+    Thug,
     TombRobber,
+    Townsman,
     WitchHunter,
     Wizard,
     Zealot,
@@ -63,6 +79,18 @@ static_gen_fn_all!(Background);
 impl Background {
     pub fn gender_specific_name(&self, gender: Gender) -> String {
         match self {
+            Self::Townsman => match gender {
+                Gender::Male => self.to_string(),
+                Gender::Female => String::from("townswoman"),
+            },
+            Self::HedgeWizard => match gender {
+                Gender::Male => self.to_string(),
+                Gender::Female => String::from("hedge witch"),
+            },
+            Self::BountyHunter => match gender {
+                Gender::Male => self.to_string(),
+                Gender::Female => String::from("bounty huntress"),
+            },
             Self::Boatman => match gender {
                 Gender::Male => self.to_string(),
                 Gender::Female => String::from("boatwoman"),
@@ -89,6 +117,56 @@ impl Background {
 
     pub fn description(&self) -> &'static str {
         match self {
+            Self::Lawyer => "Laws hold the Kingdom together, loopholes keep your purse full.",
+            Self::Thug => {
+                "A couple of blows with a heavy club are the quickest way to send the right \
+                 message."
+            }
+            Self::Mercenary => {
+                "There is no shortage of war, and no lack of opportunities for a sell-sword such \
+                 as yourself."
+            }
+            Self::Outlaw => {
+                "The hills and woods are teeming with people escaping the law such as yourself."
+            }
+            Self::Townsman => {
+                "Townsfolk such as yourself are the backbone of the Kingdom: shop owners, traders, \
+                 local officials..."
+            }
+            Self::Bodyguard => {
+                "You worked for the rich and powerful, protecting them from robbers and other scum."
+            }
+            Self::Herbalist => {
+                "You were a village healer, curing ailments with plants and natural remedies."
+            }
+            Self::Acrobat => {
+                "You earned your fare performing spectacular and dangerous acrobatic feats."
+            }
+            Self::Beggar => {
+                "You spent your days sitting in the corner of busy roads, hoping for a few \
+                 shillings from generous passers-by."
+            }
+            Self::Miner => {
+                "Crawling through dark, cramped tunnels breathing dust was not the life you \
+                 deserve."
+            }
+            Self::HedgeWizard => {
+                "You were blessed with great power, but never received the education necessary to \
+                 fully control it."
+            }
+            Self::Knight => {
+                "With your honour lost and no coin left to your name, you wander on your steed \
+                 selling your sword for money."
+            }
+            Self::BountyHunter => {
+                "You used to roam the cities and the countryside, capturing wanted criminals to \
+                 collect the bounties on their head."
+            }
+            Self::Burglar => {
+                "Those snotty nobs don't need all that coin, it would be much more useful in your \
+                 pockets!"
+            }
+            Self::Assassin => "For the right amount of coins, everyone can be taken care of.",
             Self::Physician => {
                 "You are an erudite doctor and a herbalist, knowledgeable about poison, disease, \
                  antidotes, and cures."
@@ -122,7 +200,7 @@ impl Background {
                 "Some are born with too much: those wealthy nobs aren't going to notice if they \
                  are a few shillings short."
             }
-            Self::Deserter => {
+            Self::Soldier => {
                 "You have fought for the Kingdom and seen the horrors of war, the nightmares will \
                  never stop."
             }
@@ -130,9 +208,9 @@ impl Background {
                 "You are a skilled duellist, constantly looking for a worthy opponent to hone your \
                  skills."
             }
-            Self::Entertainer => {
-                "You were a performer at a travelling carnival, capable of executing a vast array \
-                 of exciting tricks."
+            Self::FireEater => {
+                "You were a performer at a travelling carnival, executing a vast array of exciting \
+                 tricks."
             }
             Self::Footpad => {
                 "You have spent years mugging unaware victims in shady alleys and dark forest \
@@ -150,9 +228,12 @@ impl Background {
                 "You have spent your life making a fool of yourself to entertain the nobles, but \
                  you will have the last laugh!"
             }
+            Self::Brawler => {
+                "Your fists are your weapon and your arms can bend iron: nobody is stronger than \
+                 you!"
+            }
             Self::Labourer => {
-                "Your bones and muscles have been hardened by years of carrying heavy loads and \
-                 drunkenly taking part to tavern brawls."
+                "Your bones and muscles have been hardened by years of toiling under sun and rain."
             }
             Self::Wizard => {
                 "You are a secretive scholar of the esoteric arts: many fear you, and with good \
@@ -185,7 +266,7 @@ impl Background {
                 "Rats are everywhere and nobody likes them. You offer your services to get rid of \
                  them, but you swear they are getting bigger and nastier by the day..."
             }
-            Self::RuinedNoble => {
+            Self::Noble => {
                 "Your house has fallen and you must now mingle with the lowly scum, but the day \
                  will come when you can reclaim what's yours by birthright!"
             }
@@ -222,6 +303,66 @@ impl Background {
 
     pub fn advancements(&self) -> [Advancement; 2] {
         match self {
+            Self::Lawyer => [
+                Advancement::from(Skill::Charm),
+                Advancement::from(Skill::Erudition),
+            ],
+            Self::Thug => [
+                Advancement::from(Skill::Brawling),
+                Advancement::from(Skill::Intimidate),
+            ],
+            Self::Mercenary => [
+                Advancement::from(Skill::Bargain),
+                Advancement::from(Skill::DodgeBlows),
+            ],
+            Self::Outlaw => [
+                Advancement::from(Skill::Bushcraft),
+                Advancement::from(Skill::SkilledShot),
+            ],
+            Self::Townsman => [
+                Advancement::from(Skill::Gossip),
+                Advancement::from(Skill::Luck),
+            ],
+            Self::Bodyguard => [
+                Advancement::from(Skill::Protect),
+                Advancement::from(Skill::ShieldMastery),
+            ],
+            Self::Herbalist => [
+                Advancement::from(Skill::Apothecary),
+                Advancement::from(Skill::Heal),
+            ],
+            Self::Acrobat => [
+                Advancement::from(Skill::Acrobatics),
+                Advancement::from(Skill::Contortionist),
+            ],
+            Self::Beggar => [
+                Advancement::from(Skill::DiseaseResistance),
+                Advancement::from(Skill::Frugal),
+            ],
+            Self::Miner => [
+                Advancement::from(Skill::Climb),
+                Advancement::from(Skill::PiercingStrike),
+            ],
+            Self::HedgeWizard => [
+                Advancement::from(Skill::Augury),
+                Advancement::from(Skill::Sorcery),
+            ],
+            Self::Knight => [
+                Advancement::from(Skill::Ride),
+                Advancement::from(Skill::SkilledBlow),
+            ],
+            Self::BountyHunter => [
+                Advancement::from(Skill::Disarm),
+                Advancement::from(Skill::StrikeToStun),
+            ],
+            Self::Burglar => [
+                Advancement::from(Skill::Burglary),
+                Advancement::from(Skill::FleetFooted),
+            ],
+            Self::Assassin => [
+                Advancement::from(Skill::SneakAttack),
+                Advancement::from(Skill::Stealth),
+            ],
             Self::Physician => [
                 Advancement::from(Skill::Apothecary),
                 Advancement::from(Skill::Medicine),
@@ -232,7 +373,7 @@ impl Background {
             ],
             Self::BarberSurgeon => [
                 Advancement::from(Skill::Heal),
-                Advancement::from(Skill::LethalAttack),
+                Advancement::from(Skill::StrikeToInjure),
             ],
             Self::Agitator => [
                 Advancement::from(Skill::Charm),
@@ -243,27 +384,27 @@ impl Background {
                 Advancement::from(Skill::Swim),
             ],
             Self::BonePicker => [
-                Advancement::from(Skill::Frugality),
-                Advancement::from(Abilities::new(0, 1, 1)),
+                Advancement::from(Skill::Frugal),
+                Advancement::from(Skill::QuickDraw),
             ],
             Self::CoachDriver => [
                 Advancement::from(Skill::DriveCarts),
                 Advancement::from(Skill::Ride),
             ],
             Self::Cutpurse => [
-                Advancement::from(Skill::Sneak),
                 Advancement::from(Skill::Steal),
+                Advancement::from(Skill::Stealth),
             ],
-            Self::Deserter => [
-                Advancement::from(Skill::CleavingStrike),
-                Advancement::from(Skill::SkilledStrike),
+            Self::Soldier => [
+                Advancement::from(Skill::Cleave),
+                Advancement::from(Skill::SkilledBlow),
             ],
             Self::Duellist => [
-                Advancement::from(Skill::Ambidexterity),
-                Advancement::from(Skill::Disarm),
+                Advancement::from(Skill::Ambidextrous),
+                Advancement::from(Skill::FastStrike),
             ],
-            Self::Entertainer => [
-                Advancement::from(Skill::Contortionism),
+            Self::FireEater => [
+                Advancement::from(Skill::Contortionist),
                 Advancement::from(Skill::FireEating),
             ],
             Self::Footpad => [
@@ -282,9 +423,13 @@ impl Background {
                 Advancement::from(Skill::Acrobatics),
                 Advancement::from(Skill::Blather),
             ],
-            Self::Labourer => [
+            Self::Brawler => [
                 Advancement::from(Skill::Brawling),
                 Advancement::from(Skill::Wrestling),
+            ],
+            Self::Labourer => [
+                Advancement::from(Skill::PackRat),
+                Advancement::from(Skill::Tough),
             ],
             Self::Wizard => [Advancement::from(Skill::Sorcery), Advancement::Mana],
             Self::Messenger => [
@@ -293,14 +438,14 @@ impl Background {
             ],
             Self::Peasant => [
                 Advancement::from(Skill::AnimalHandling),
-                Advancement::from(Abilities::new(1, 1, 0)),
+                Advancement::from(Skill::Tough),
             ],
             Self::Pedlar => [
                 Advancement::from(Skill::Bargain),
                 Advancement::from(Skill::Gossip),
             ],
             Self::PitFighter => [
-                Advancement::from(Skill::FastAttack),
+                Advancement::from(Skill::FastStrike),
                 Advancement::from(Skill::ShieldMastery),
             ],
             Self::Priest => [
@@ -315,9 +460,9 @@ impl Background {
                 Advancement::from(Skill::DiseaseResistance),
                 Advancement::from(Skill::PoisonResistance),
             ],
-            Self::RuinedNoble => [
+            Self::Noble => [
                 Advancement::from(Skill::Leadership),
-                Advancement::from(Abilities::new(1, 0, 1)),
+                Advancement::from(Skill::PoisonResistance),
             ],
             Self::Scholar => [
                 Advancement::from(Skill::Alchemy),
@@ -328,7 +473,7 @@ impl Background {
                 Advancement::from(Skill::SkilledShot),
             ],
             Self::Slayer => [
-                Advancement::from(Skill::FastDodge),
+                Advancement::from(Skill::DodgeBlows),
                 Advancement::from(Skill::MonsterSlaying),
             ],
             Self::Soothsayer => [
@@ -352,6 +497,133 @@ impl Background {
 
     pub fn assets(&self) -> Vec<Asset> {
         match self {
+            Self::Lawyer => vec![
+                Asset::Item(Item::new(None, ItemKind::Clothes, Some("courtroom attire"))),
+                Asset::Item(Item::new(None, ItemKind::Book, Some("code of laws"))),
+                Asset::Item(Item::from(ItemKind::QuillAndInk)),
+            ],
+            Self::Thug => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("covering your face"),
+                )),
+                Asset::Item(Item::from(ItemKind::AlcoholicDrink)),
+                Asset::Item(Item::from(ItemKind::CrimsonWeed)),
+            ],
+            Self::Mercenary => vec![
+                Asset::Item(Item::new(None, ItemKind::Clothes, Some("sturdy boots"))),
+                Asset::Item(Item::new(Some("spear"), ItemKind::MartialHandWeapon, None)),
+                Asset::Item(Item::from(ItemKind::Helmet)),
+            ],
+            Self::Outlaw => vec![
+                Asset::Item(Item::new(None, ItemKind::Clothes, Some("greenish cloak"))),
+                Asset::Item(Item::new(Some("bow"), ItemKind::MissileGreatWeapon, None)),
+            ],
+            Self::Townsman => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("fashionable but practical"),
+                )),
+                Asset::Item(Item::from(ItemKind::Cards)),
+                Asset::Item(Item::from(ItemKind::PipeAndTobacco)),
+            ],
+            Self::Bodyguard => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("enhancing your muscles"),
+                )),
+                Asset::Item(Item::from(ItemKind::Shield)),
+                Asset::Item(Item::from(ItemKind::MedicineBox)),
+            ],
+            Self::Herbalist => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("many bags to carry herbs"),
+                )),
+                Asset::Item(Item::from(ItemKind::ApothecaryTools)),
+                Asset::Item(Item::from(ItemKind::MedicineBox)),
+            ],
+            Self::Acrobat => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("comfortable and colourful leotard"),
+                )),
+                Asset::Item(Item::new(None, ItemKind::Rope, Some("made of silk"))),
+                Asset::Item(Item::from(ItemKind::WoodenPole)),
+            ],
+            Self::Beggar => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("dirty, stinky rags"),
+                )),
+                Asset::Item(Item::from(ItemKind::Crutch)),
+                Asset::Item(Item::from(ItemKind::AlcoholicDrink)),
+            ],
+            Self::Miner => vec![
+                Asset::Item(Item::new(None, ItemKind::Clothes, Some("sweaty and dusty"))),
+                Asset::Item(Item::new(
+                    Some("pickaxe"),
+                    ItemKind::SimpleGreatWeapon,
+                    None,
+                )),
+                Asset::Item(Item::new(None, ItemKind::Cage, Some("containing a canary"))),
+            ],
+            Self::HedgeWizard => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("covered in bones, charms, and trinkets"),
+                )),
+                Asset::Item(Item::new(None, ItemKind::LuckyCharm, Some("rabbit foot"))),
+                Asset::Item(Item::from(ItemKind::PowerScroll(
+                    PowerContent::PowerOfKind(PowerKind::Profane),
+                ))),
+            ],
+            Self::Knight => vec![
+                Asset::Item(Item::new(None, ItemKind::Clothes, Some("colourful livery"))),
+                Asset::Follower(Follower::new(
+                    String::from("light horse"),
+                    Some(format!(
+                        "Bartadan, STR 12, AGI 4, WIT 8, ~{}~, trained for combat, d6 damage. Old \
+                         and lame: lost the ~{}~ trait",
+                        Trait::Sturdy,
+                        Trait::Fast,
+                    )),
+                )),
+            ],
+            Self::BountyHunter => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("large coat and wide-brimmed hat"),
+                )),
+                Asset::Item(Item::from(ItemKind::Net)),
+                Asset::Item(Item::from(ItemKind::ManaclesAndKey)),
+            ],
+            Self::Burglar => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("comfortable and with generous pockets"),
+                )),
+                Asset::Item(Item::from(ItemKind::LockPicks)),
+                Asset::Item(Item::from(ItemKind::MetalFile)),
+            ],
+            Self::Assassin => vec![
+                Asset::Item(Item::new(None, ItemKind::Clothes, Some("dark cloak"))),
+                Asset::Item(Item::new(
+                    Some("hand crossbow"),
+                    ItemKind::MissileHandWeapon,
+                    None,
+                )),
+                Asset::Item(Item::from(ItemKind::BlackAdderVenom)),
+            ],
             Self::Physician => vec![
                 Asset::Item(Item::new(
                     None,
@@ -432,7 +704,7 @@ impl Background {
                     Some("gold necklace with a noble family emblem, stolen"),
                 )),
             ],
-            Self::Deserter => vec![
+            Self::Soldier => vec![
                 Asset::Item(Item::new(
                     None,
                     ItemKind::Clothes,
@@ -461,7 +733,7 @@ impl Background {
                     None,
                 )),
             ],
-            Self::Entertainer => vec![
+            Self::FireEater => vec![
                 Asset::Item(Item::new(
                     None,
                     ItemKind::Clothes,
@@ -518,6 +790,15 @@ impl Background {
                 )),
                 Asset::Item(Item::from(ItemKind::SmokeBomb)),
             ],
+            Self::Brawler => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("hand wraps to protect your knuckles"),
+                )),
+                Asset::Item(Item::from(ItemKind::AlcoholicDrink)),
+                Asset::Item(Item::from(ItemKind::Chain)),
+            ],
             Self::Labourer => vec![
                 Asset::Item(Item::new(
                     None,
@@ -557,11 +838,17 @@ impl Background {
                 )),
                 Asset::Follower(Follower::new(
                     String::from("chicken"),
-                    Some(String::from("Bertha, dumb and brave")),
+                    Some(format!(
+                        "Bertha, STR 4, AGI 8, WIT 8, ~{}~, ~{}~ size, d4 damage. Dumb and brave",
+                        Trait::Fast,
+                        SizeCategory::Small
+                    )),
                 )),
                 Asset::Follower(Follower::new(
                     String::from("pig"),
-                    Some(String::from("Hans, picky about food")),
+                    Some(String::from(
+                        "Hans, STR 4, AGI 4, WIT 8, d4 damage. Picky about food",
+                    )),
                 )),
             ],
             Self::Pedlar => vec![
@@ -619,17 +906,13 @@ impl Background {
                     )),
                 )),
             ],
-            Self::RuinedNoble => vec![
+            Self::Noble => vec![
                 Asset::Item(Item::new(
                     None,
                     ItemKind::Clothes,
                     Some("ostentatious fripperies, old and full of holes"),
                 )),
-                Asset::Item(Item::new(
-                    Some("arming sword"),
-                    ItemKind::MartialHandWeapon,
-                    Some("family heirloom"),
-                )),
+                Asset::Item(Item::from(ItemKind::Mirror)),
                 Asset::Item(Item::new(
                     None,
                     ItemKind::SignetRing,

@@ -257,11 +257,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     gen_reference(&args.output_dir, "Item modifiers", ItemModifier::all())?;
 
     gen_reference(&args.output_dir, "Sacred powers", Power::sacred_powers())?;
-    gen_reference(
-        &args.output_dir,
-        "Profane powers",
-        Power::sorcerous_powers(),
-    )?;
+    gen_reference(&args.output_dir, "Profane powers", Power::profane_powers())?;
 
     gen_reference_without_title(
         &args.output_dir,
@@ -285,20 +281,13 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         Abilities::starting_arrays(),
         3,
     )?;
-    gen_single_die_table(
+    gen_double_die_table(
         &args.output_dir,
         "Profane powers",
-        "Power",
-        Power::advanced_sorcerous_powers(),
-        3,
+        Power::advanced_profane_powers(),
+        2,
     )?;
-    gen_single_die_table(
-        &args.output_dir,
-        "Sacred powers",
-        "Power",
-        Power::sacred_powers(),
-        3,
-    )?;
+    gen_double_die_table(&args.output_dir, "Sacred powers", Power::sacred_powers(), 2)?;
 
     gen_double_die_table(&args.output_dir, "Backgrounds", Background::all(), 4)?;
     gen_double_die_table(

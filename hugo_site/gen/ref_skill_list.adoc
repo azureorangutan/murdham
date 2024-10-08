@@ -11,7 +11,7 @@ You are able to convincingly fake emotions and to disguise your voice and accent
 * *Alchemy*.
 You can read and write. You can speak and understand Classic, the language of scholars and the Church. You can craft alchemical substances, such as _acid vials_, _alchemist's fires_, _flash powder_, and _smoke bombs_. This requires raw materials (worth ¼ of the item) and an alchemist's workshop. You can craft a batch of 2 consumables of the same type in a watch.
 
-* *Ambidexterity*.
+* *Ambidextrous*.
 You can use both hands equally well. Damage is not impaired when you attack with a weapon in your non-dominant hand. You can attack the same target with two weapons at once, rolling damage for both but only considering the higher roll.
 
 * *Animal handling*.
@@ -50,13 +50,13 @@ Pass a WIT save to ignore the movement penalty when travelling between sectors o
 * *Charm*.
 Reduce difficulty when befriending or persuading people. If you spend a stretch chatting or observing someone, you can estimate if they are bribable and how much they might want.
 
-* *Cleaving strike*.
+* *Cleave*.
 When you inflict critical damage or kill a target with a melee attack, you can immediately attack another target with the same weapon. You can do this at most once per turn, and not while countering.
 
 * *Climb*.
 Reduce difficulty or sprint while climbing. Your attacks aren't impaired while climbing.
 
-* *Contortionism*.
+* *Contortionist*.
 Your joints are extremely flexible and you can bend your body in absurd shapes. You can squeeze through small openings and easily escape bonds.
 
 * *Craft*.
@@ -71,22 +71,28 @@ You develop an immunity to all diseases you recover from and can't contract them
 * *Divination*.
 If you have _divination tools_, you can spend an omen and a stretch of time to ask a question pertaining your current situation. The GM describes a vision giving you a cryptic answer. There is a 1:4 chance that the vision is wrong or misleading, rolled secretly by the GM.
 
+* *Dodge blows*.
+You can dodge for free, without spending your turn, once per round.
+
 * *Drive carts*.
 Reduce difficulty while driving a cart. When your cart makes a full movement in combat, you can still use your main action to attack, but only after the movement is completed.
 
 * *Erudition*.
 You can read, write, and perform advanced calculations. You can speak and understand Classic, the language of scholars and the Church. You are an expert in all manners of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy, etc. The GM might give you additional information when it makes sense.
 
-* *Fast attack*.
-When you counter an attack or your attack is countered you always hit first unless your opponent also has this skill.
+* *Faith*.
+You can read and write. You can speak and understand Classic, the language of scholars and the Church. You can invoke sacred powers.
 
-* *Fast dodge*.
-You can dodge for free, without spending your turn, once per round.
+* *Fast strike*.
+When you counter an attack or your attack is countered you always hit first unless your opponent also has this skill.
 
 * *Fire eating*.
 You can consume _alcoholic drink_ and spit it through an open flame, such as a lit _torch_, to make a melee blast attack inflicting d4 fire damage. You reduce incoming fire damage by 1.
 
-* *Frugality*.
+* *Fleet footed*.
+When you sprint, you can move by an additional zone. You must only make an AGI save to sprint every two rounds (at the start of the 3rd, 5th, 7th... rounds). You can freely dodge attacks of opportunity without needing to spend your turn.
+
+* *Frugal*.
 You don't reduce abilities when you can't satisfy needs during a day rest. However, you still have to satisfy them all in order to heal and recover mana. You pay half for lodging, since you have very low standards.
 
 * *Gossip*.
@@ -98,14 +104,17 @@ When you use a _medicine box_: heal half STR in a stretch, or d8 damage (up to h
 * *Hunt*.
 Reduce difficulty when following trails. When you forage, on a _small game_ result you find an additional _ration_, even if you don't have _trapping tools_.
 
+* *Incorruptible*.
+You heal 1 corruption on a day rest and all corruption on a full rest.
+
+* *Intimidate*.
+Reduce difficulty when intimidating or torturing.
+
 * *Languages*.
 You can read and write. Each time you encounter a new language in your adventures there is chance you actually know it: 1:2 for common languages, 1:4 for dead or remote languages. Keep track of the languages you can speak.
 
 * *Leadership*.
-Reduce difficulty while inspiring, intimidating, and keeping the loyalty of followers. Once per stretch, as a main action, you can rally all _frightened_ and _terrified_ allies within range 2. They make a group WIT save and those who succeed recover immediately.
-
-* *Lethal attack*.
-When you inflict critical damage, you may choose to instantly kill the target instead of incapacitating them.
+Reduce difficulty while inspiring and keeping the loyalty of followers. Once per stretch, as a main action, you can rally all _frightened_ and _terrified_ allies within range 2. They make a group WIT save and those who succeed recover immediately.
 
 * *Luck*.
 Your maximum omens are increased by 1. When you use an omen, there is a 1:4 chance it isn't actually spent. When choosing the target of an indiscriminate effect, such as a trap or a monster ambush, the GM might prioritise other characters over you.
@@ -119,17 +128,17 @@ You can use an ancient esoteric technique to erect a magic shield around you. Ac
 * *Medicine*.
 You can read and write. You can speak and understand Classic, the language of scholars and the Church. You can diagnose poison and disease by spending a round examining a victim. After diagnosing, you can instruct someone with the _apothecary_ skill to create a bespoke _antidote_ or _cure-all_ which always works against that specific poison or disease.
 
-* *Incorruptible*.
-You heal 1 corruption on a day rest and all corruption on a full rest.
-
 * *Monster slaying*.
 You inflict double damage against targets with larger size than you.
 
 * *Music*.
 You know how to sing and play music instruments. During a day rest you can play an inspiring song for your party: all companions have a 1:4 chance of recovering 1 spent omen.
 
+* *Pack rat*.
+Your carry limit are increased by 2: you can carry up to 10 bulk unencumbered, and up to 20 encumbered. This also changes how heavy it is to carry you!
+
 * *Piercing strike*.
-If you roll higher than the target's armour value with a melee attack you ignore armour and inflict full damage. If you roll equal or lower, you inflict no damage as usual.
+If you roll higher than the target's armour value with an attack you ignore armour and inflict full damage. If you roll equal or lower, you inflict no damage as usual. This skill doesn't work in situations where you are required to pass a WIT save to hit.
 
 * *Play games*.
 You can learn to play games quickly: after you have played a game, you can't be beaten by others unless they also have this skill. You know how to cheat: your cheating attempts are always successful unless your opponents are paying close attention to you. People might still get suspicious if you win too much.
@@ -137,32 +146,26 @@ You can learn to play games quickly: after you have played a game, you can't be 
 * *Poison resistance*.
 You are resistant to alcohol, poisons, and drugs. You ignore the first dose taken within a stretch: it has no effect. You can resist a second dose with a STR save, and a third dose works automatically.
 
+* *Protect*.
+You can guard for free, without spending your turn, any number of times.
+
 * *Quick draw*.
 You can equip and unequip any number of items held in hand as a single bonus action.
-
-* *Faith*.
-You can read and write. You can speak and understand Classic, the language of scholars and the Church. You can invoke sacred powers.
 
 * *Ride*.
 Reduce difficulty while riding a tamed beast, ride without a _saddle_, or ride an untamed beast. When your mount makes a full movement in combat, you can still use your main action to attack, but only after the movement is completed.
 
-* *Fleet footed*.
-When you sprint, you can move by an additional zone. You must only make an AGI save to sprint every two rounds (at the start of the 3rd, 5th, 7th... rounds). You can freely dodge attacks of opportunity without needing to spend your turn.
-
 * *Shield mastery*.
 When you hold a shield, your armour value is increased by 1 against all attacks, not just if you react or are countered. If you are unaware of the attack, however, your shield still doesn't protect you.
+
+* *Skilled blow*.
+You improve the damage die of melee attacks (but not unarmed attacks): d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. In case of blast attacks only one target takes increased damage.
 
 * *Skilled shot*.
 You improve the damage die of ranged attacks: d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. In case of blast attacks only one target takes increased damage.
 
-* *Skilled strike*.
-You improve the damage die of melee attacks (but not unarmed attacks): d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. In case of blast attacks only one target takes increased damage.
-
 * *Sneak attack*.
 You always inflict d12 damage when you attack unaware targets, no matter what weapons you use or if you are unarmed. Unarmed attacks are still impaired.
-
-* *Sneak*.
-Reduce difficulty or sprint while sneaking. When your group is detected by another group, make an AGI save: if you pass you still managed to conceal yourself.
 
 * *Sorcery*.
 You can read and write. You can speak and understand Magick, the language used to invoke profane powers. This language is too convoluted to be used to communicate, but is essential to use magic. You can invoke profane powers. You can increase your maximum mana by 1 instead of taking a normal advancement, up to 6 at most.
@@ -171,13 +174,22 @@ You can read and write. You can speak and understand Magick, the language used t
 You double the range of ranged attacks.
 
 * *Steal*.
-Reduce difficulty while stealing, or attempt to steal an item with bulk 1, or attempt to steal an item with bulk 1
+Reduce difficulty while stealing, or attempt to steal an item with bulk 1 instead of ½.
+
+* *Stealth*.
+Reduce difficulty or sprint while sneaking. When your group is detected by another group, make an AGI save: if you pass you still managed to conceal yourself.
+
+* *Strike to injure*.
+When you inflict critical damage, you may choose to injure or kill the target. You choose what injury to apply instead of rolling on the table (it must still make somewhat sense), and you may choose that it is permanent rather than temporary.
 
 * *Strike to stun*.
-You may choose to perform a stunning blow when attacking. The attack inflicts no damage but you must still roll the damage die. If you roll equal or greater than half the target's remaining health, they are _incapacitated_ until the end of the stretch. If you roll equal or greater than their whole remaining health, they are _incapacitated_ until the end of the watch.
+When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock...) you may choose to inflict no damage. You must still roll the damage die and compare the result with their current health. If damage beats or exceeds half the target's health, they are _incapacitated_ until the end of the stretch. if damage beats or exceeds the target's entire health, they are _incapacitated_ until the end of the watch. 
 
 * *Swim*.
 Reduce difficulty or sprint while swimming.  Your attacks aren't impaired while in water. You can hold your breath for twice as long.
+
+* *Tough*.
+Your maximum health, and the threshold for instant death, are increased by 2 (they equal your STR plus 2).
 
 * *Wrestling*.
 Targets of your grapple attacks can't resist with a STR save unless they also have this skill. You can only be grappled by characters with this skill.

@@ -5,45 +5,65 @@
 [options='header, unbreakable', cols="^1h,^3,^3,^3,^3"]
 |===
 h|  4+h|D4
-h|D8
+h|D12
  h|1 h|2 h|3 h|4
 |1
+|Acrobat
 |Agitator
 |Artisan
-|Barber-surgeon
-|Boatman
+|Assassin
 |2
+|Barber-surgeon
+|Beggar
+|Boatman
+|Bodyguard
+|3
 |Bone picker
+|Bounty hunter
+|Brawler
+|Burglar
+|4
 |Coach driver
 |Cutpurse
-|Deserter
-|3
 |Duellist
-|Entertainer
+|Fire eater
+|5
 |Footpad
 |Gambler
-|4
+|Hedge wizard
+|Herbalist
+|6
 |Hunter
 |Jester
+|Knight
 |Labourer
+|7
+|Lawyer
+|Mercenary
 |Messenger
-|5
+|Miner
+|8
+|Noble
+|Outlaw
 |Peasant
 |Pedlar
+|9
 |Physician
 |Pit fighter
-|6
 |Priest
 |Raconteur
+|10
 |Rat catcher
-|Ruined noble
-|7
 |Scholar
 |Sharpshooter
 |Slayer
+|11
+|Soldier
 |Soothsayer
-|8
+|Thug
 |Tomb robber
+|12
+|Townsman
 |Witch hunter
 |Wizard
 |Zealot

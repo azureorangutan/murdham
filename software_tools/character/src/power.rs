@@ -80,6 +80,19 @@ pub enum Power {
     PurifyingFlame,
     ReanimateCorpse,
     WaterBreathing,
+
+    StarSign,
+    FalseDeath,
+    FieryTaste,
+    WoodShape,
+    RadiantHonesty,
+    GoldenTransmogrification,
+    Silence,
+    AnimalShape,
+    JoyousAppearance,
+    SummonDemon,
+    HoldSecret,
+    FlawedResurrection,
 }
 
 static_gen_fn_all!(Power);
@@ -114,6 +127,19 @@ impl Power {
             Self::PurifyingFlame => PowerKind::Profane,
             Self::ReanimateCorpse => PowerKind::Profane,
             Self::WaterBreathing => PowerKind::Profane,
+
+            Self::StarSign => PowerKind::Profane,
+            Self::FalseDeath => PowerKind::Profane,
+            Self::FieryTaste => PowerKind::Profane,
+            Self::WoodShape => PowerKind::Profane,
+            Self::RadiantHonesty => PowerKind::Profane,
+            Self::GoldenTransmogrification => PowerKind::Profane,
+            Self::Silence => PowerKind::Profane,
+            Self::AnimalShape => PowerKind::Profane,
+            Self::JoyousAppearance => PowerKind::Profane,
+            Self::SummonDemon => PowerKind::Profane,
+            Self::HoldSecret => PowerKind::Profane,
+            Self::FlawedResurrection => PowerKind::Profane,
         }
     }
 
@@ -146,6 +172,19 @@ impl Power {
             Self::PurifyingFlame => PowerRange::Near,
             Self::ReanimateCorpse => PowerRange::Near,
             Self::WaterBreathing => PowerRange::Near,
+
+            Self::StarSign => PowerRange::Sight,
+            Self::FalseDeath => PowerRange::Near,
+            Self::FieryTaste => PowerRange::Near,
+            Self::WoodShape => PowerRange::Near,
+            Self::RadiantHonesty => PowerRange::Near,
+            Self::GoldenTransmogrification => PowerRange::Personal,
+            Self::Silence => PowerRange::Near,
+            Self::AnimalShape => PowerRange::Personal,
+            Self::JoyousAppearance => PowerRange::Near,
+            Self::SummonDemon => PowerRange::Near,
+            Self::HoldSecret => PowerRange::Near,
+            Self::FlawedResurrection => PowerRange::Near,
         }
     }
 
@@ -178,6 +217,19 @@ impl Power {
             Self::PurifyingFlame => PowerDuration::Stretch,
             Self::ReanimateCorpse => PowerDuration::Stretch,
             Self::WaterBreathing => PowerDuration::Stretch,
+
+            Self::StarSign => PowerDuration::Stretch,
+            Self::FalseDeath => PowerDuration::Stretch,
+            Self::FieryTaste => PowerDuration::Stretch,
+            Self::WoodShape => PowerDuration::Stretch,
+            Self::RadiantHonesty => PowerDuration::Stretch,
+            Self::GoldenTransmogrification => PowerDuration::Stretch,
+            Self::Silence => PowerDuration::Stretch,
+            Self::AnimalShape => PowerDuration::Stretch,
+            Self::JoyousAppearance => PowerDuration::Stretch,
+            Self::SummonDemon => PowerDuration::Stretch,
+            Self::HoldSecret => PowerDuration::Stretch,
+            Self::FlawedResurrection => PowerDuration::Lingering,
         }
     }
 
@@ -362,6 +414,99 @@ impl Power {
                  speed.",
                 CharacterCategory::Creature
             ),
+
+            Self::StarSign => format!(
+                "Target a celestial body (the Sun, the Moon, a planet, a star...) at any range. \
+                 You can alter its appearance in a subtle way (make it slightly larger, smaller, \
+                 brighter, darker...). You can keep altering appearance as long as you \
+                 concentrate, otherwise it remains as you left it until the spell is over. \
+                 Characters with the ~{}~ skill can tell something is different, even if subtle. \
+                 It is said that some wizards use this spell to encode messages in the stars.",
+                Skill::Erudition
+            ),
+            Self::FalseDeath => format!(
+                "Target a ~{}~. The target falls like a string-less puppet and appears dead, even \
+                 upon close examination. However, they are still very much alive: they can \
+                 perceive their surroundings and must breathe, eat, and drink to survive.",
+                CharacterCategory::Creature,
+            ),
+            Self::FieryTaste => format!(
+                "Target up to 4 ~{}s~ and/or ~{}s~. ~Rations~ become extremely spicy: those who \
+                 consume must pass a STR save or succumb to a terrible stomachache and be ~{}~ \
+                 until the end of the stretch. ~Alcoholic drinks~ become extremely potent: \
+                 drinking one counts as drinking two. Characters with the ~{}~ skill aren't \
+                 affected.",
+                ItemKind::Ration,
+                ItemKind::AlcoholicDrink,
+                Condition::Incapacitated,
+                Skill::FireEating
+            ),
+            Self::WoodShape => format!(
+                "Target a ~{}~. The target turns into a tree. They are still able to perceive \
+                 their surroundings.",
+                CharacterCategory::Creature,
+            ),
+            Self::RadiantHonesty => format!(
+                "Target a ~{}~ of ~{}~. The target is unable to lie, but also exudes \
+                 trustworthiness and reduces the difficulty of persuasion attempts.",
+                CharacterCategory::Creature,
+                IntelligenceCategory::HumanIntelligence
+            ),
+            Self::GoldenTransmogrification => format!(
+                "This power can only ever target the invoker and requires the sacrifice of a \
+                 ~{}~. Choose a body part: an arm, a leg, the head, or the torso. The body part \
+                 is replaced by one which appears to be made of pure gold. It works perfectly, \
+                 even better than the original one. You can even replace missing body parts. An \
+                 ability score is permanently increased, even above the usual limits (but never \
+                 more than 19), depending on the chosen body part: +1 STR for an arm, +1 AGI for \
+                 a leg, +1 WIT for the head or torso.",
+                ItemKind::GoldJewel,
+            ),
+            Self::Silence => format!(
+                "Target a zone. No sound can be produced or heard within it. Among other things, \
+                 it isn't possible to invoke powers while inside the zone, but spells can still \
+                 be cast from outside into it."
+            ),
+            Self::AnimalShape => format!(
+                "Target a ~{}~, who turns into a medium-sized animal of your choice. You must \
+                 carry the skin, feathers, scales, or shell of the chosen animal, which envelop \
+                 and merge with the target during the transformation and returns to its previous \
+                 state when the spell ends. The target keeps WIT and intelligence level, but \
+                 can't speak. The spell doesn't influence the target's equipment, which simply \
+                 falls to the ground.",
+                CharacterCategory::Creature
+            ),
+            Self::JoyousAppearance => format!(
+                "Target a ~{}~. The target's appearance becomes perfect and free of any blemish. \
+                 Signs of disease, affliction, old age, and mutation completely disappear. The \
+                 appearance might in fact be too perfect, almost uncanny (the skin is too smooth, \
+                 the cheeks are too rosy...). The change in appearance is real, not an illusion, \
+                 but any underlying illness or problem isn't cured and still has effect.",
+                CharacterCategory::Creature
+            ),
+            Self::SummonDemon => format!(
+                "Target a zone and invoke the true name of a ~{}~. The veil between reality and \
+                 chaos is torn and the demon steps into this world. The demon isn't under the \
+                 caster's control and behaves according to its own desire.",
+                CharacterCategory::Demon
+            ),
+            Self::HoldSecret => format!(
+                "Target a ~{}~ of ~{}~ and name a topic. The target is physically unable to talk \
+                 about the topic, and if forced to they will compulsively lie.",
+                CharacterCategory::Creature,
+                IntelligenceCategory::HumanIntelligence
+            ),
+            Self::FlawedResurrection => format!(
+                "Target the lifeless heart of a ~{}~ who died no longer than a stretch ago. A new \
+                 body forms around the heart and the target's spirit is called back to inhabit \
+                 it, effectively resurrecting them. The regeneration process takes a day and the \
+                 new body is different from the original both in appearance and capabilities. STR \
+                 and AGI are equal to the average (8 for humans, what's indicated in their \
+                 profile for other creatures) minus d3. WIT, skills, intelligence, and \
+                 personality don't change. Once the resurrection is complete, the target \
+                 immediately suffers 4 corruption.",
+                CharacterCategory::Creature
+            ),
         }
     }
 
@@ -442,6 +587,58 @@ impl Power {
             Self::PurifyingFlame => Vec::new(),
             Self::OccultConsultation => Vec::new(),
             Self::WaterBreathing => Vec::new(),
+
+            Self::StarSign => vec![(
+                2,
+                format!(
+                    "You can alter target's appearance in a rather evident way, so that pretty \
+                     much everyone can see the difference and not just erudite characters."
+                ),
+            )],
+            Self::FalseDeath => Vec::new(),
+            Self::FieryTaste => Vec::new(),
+            Self::WoodShape => Vec::new(),
+            Self::RadiantHonesty => Vec::new(),
+            Self::GoldenTransmogrification => Vec::new(),
+            Self::Silence => Vec::new(),
+            Self::AnimalShape => vec![(
+                2,
+                format!(
+                    "Turn into a ~{}~ or ~{}~ animal. By applying this enhancement twice, you can \
+                     turn into a ~{}~ or ~{}~ animal.",
+                    SizeCategory::Small,
+                    SizeCategory::Large,
+                    SizeCategory::Tiny,
+                    SizeCategory::Massive
+                ),
+            )],
+            Self::JoyousAppearance => Vec::new(),
+            Self::SummonDemon => vec![(
+                2,
+                format!(
+                    "The demon must fulfil a demand when summoned, after which it's free. It can \
+                     still refused to obey, in which case it is paralysed as if bound by \
+                     invisible chains. You can attempt to bargain and change the request."
+                ),
+            )],
+            Self::HoldSecret => Vec::new(),
+            Self::FlawedResurrection => vec![
+                (
+                    2,
+                    format!(
+                        "Accelerate the regeneration process: from a day to a watch, then from a \
+                         watch to a stretch."
+                    ),
+                ),
+                (
+                    2,
+                    format!(
+                        "Target a ~{}~ who died longer than a stretch ago: from a stretch to a \
+                         watch, from a watch to a day.",
+                        CharacterCategory::Creature
+                    ),
+                ),
+            ],
         }
     }
 }
@@ -469,43 +666,67 @@ static_gen_fn!(sacred_powers, gen_sacred_powers, Power, Power, {
     ]
 });
 
-static_gen_fn!(sorcerous_powers, gen_sorcerous_powers, Power, Power, {
+static_gen_fn!(profane_powers, gen_profane_powers, Power, Power, {
     vec![
+        Self::AnimalShape,
         Self::ArcaneLock,
         Self::Bewitch,
         Self::BurningVengeance,
         Self::EldritchBlast,
+        Self::FalseDeath,
+        Self::FieryTaste,
+        Self::FlawedResurrection,
         Self::GiftOfSpeech,
+        Self::GoldenTransmogrification,
+        Self::HoldSecret,
         Self::Illusion,
+        Self::JoyousAppearance,
         Self::Levitation,
         Self::MiasmaOfChaos,
         Self::OccultConsultation,
         Self::PlagueVessel,
         Self::PurifyingFlame,
+        Self::RadiantHonesty,
         Self::ReanimateCorpse,
+        Self::Silence,
+        Self::StarSign,
+        Self::SummonDemon,
         Self::WaterBreathing,
+        Self::WoodShape,
     ]
 });
 
 static_gen_fn!(
-    advanced_sorcerous_powers,
-    gen_advanced_sorcerous_powers,
+    advanced_profane_powers,
+    gen_advanced_profane_powers,
     Power,
     Power,
     {
         vec![
+            Self::AnimalShape,
             Self::ArcaneLock,
             Self::Bewitch,
             Self::BurningVengeance,
+            Self::FalseDeath,
+            Self::FieryTaste,
+            Self::FlawedResurrection,
             Self::GiftOfSpeech,
+            Self::GoldenTransmogrification,
+            Self::HoldSecret,
             Self::Illusion,
+            Self::JoyousAppearance,
             Self::Levitation,
             Self::MiasmaOfChaos,
             Self::OccultConsultation,
             Self::PlagueVessel,
             Self::PurifyingFlame,
+            Self::RadiantHonesty,
             Self::ReanimateCorpse,
+            Self::Silence,
+            Self::StarSign,
+            Self::SummonDemon,
             Self::WaterBreathing,
+            Self::WoodShape,
         ]
     }
 );

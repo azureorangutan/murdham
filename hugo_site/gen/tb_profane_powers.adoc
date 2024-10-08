@@ -2,21 +2,45 @@
 
 .Profane powers
 [[tb_profane_powers]]
-[options='header, unbreakable', cols="^1,^4,^1,^4,^1,^4"]
+[options='header, unbreakable', cols="^1h,^7,^7"]
 |===
-|D12 |Power
-|D12 |Power
-|D12 |Power
-|1 |Arcane lock
-|2 |Bewitch
-|3 |Burning vengeance
-|4 |Gift of speech
-|5 |Illusion
-|6 |Levitation
-|7 |Miasma of chaos
-|8 |Occult consultation
-|9 |Plague vessel
-|10 |Purifying flame
-|11 |Reanimate corpse
-|12 |Water breathing
+h|  2+h|D2
+h|D12
+ h|1 h|2
+|1
+|Animal shape
+|Arcane lock
+|2
+|Bewitch
+|Burning vengeance
+|3
+|False death
+|Fiery taste
+|4
+|Flawed resurrection
+|Gift of speech
+|5
+|Golden transmogrification
+|Hold secret
+|6
+|Illusion
+|Joyous appearance
+|7
+|Levitation
+|Miasma of chaos
+|8
+|Occult consultation
+|Plague vessel
+|9
+|Purifying flame
+|Radiant honesty
+|10
+|Reanimate corpse
+|Silence
+|11
+|Star sign
+|Summon demon
+|12
+|Water breathing
+|Wood shape
 |===
