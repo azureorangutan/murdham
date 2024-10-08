@@ -52,8 +52,7 @@ fn random_company(rng: &mut ThreadRng, size: u32) -> Company {
                                     *power_content = PowerContent::Power(random_sacred_power(rng))
                                 }
                                 PowerKind::Profane => {
-                                    *power_content =
-                                        PowerContent::Power(random_sorcerous_power(rng))
+                                    *power_content = PowerContent::Power(random_profane_power(rng))
                                 }
                             }
                         }
@@ -189,8 +188,8 @@ fn random_sacred_power(rng: &mut ThreadRng) -> Power {
     random_element(rng, Power::sacred_powers())
 }
 
-fn random_sorcerous_power(rng: &mut ThreadRng) -> Power {
-    random_element(rng, Power::advanced_sorcerous_powers())
+fn random_profane_power(rng: &mut ThreadRng) -> Power {
+    random_element(rng, Power::advanced_profane_powers())
 }
 
 fn random_starting_weapon(rng: &mut ThreadRng) -> Item {

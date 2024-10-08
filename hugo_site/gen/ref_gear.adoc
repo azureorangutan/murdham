@@ -173,6 +173,9 @@ Pass a STR save or become _frenzied_ until the end of the stretch. Automatically
 * *Manacles & key* (4ʂ).
 Used to bind someone's hands.
 
+* *Marbles* (4ʂ, bulk ½).
+A bunch of tiny glass beads. AGI contest to win games.
+
 * *Medicine box* (16ʂ).
 _Consumable_.
 Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health as a main action.
@@ -283,5 +286,8 @@ Cold damage is impaired, heat damage is enhanced.
 * *Water* (1ʂ, bulk ½).
 _Consumable_.
 Enough for a day rest.
+
+* *Wooden pole* (4ʂ, bulk 2).
+2 metre long
 
 

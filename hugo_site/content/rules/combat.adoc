@@ -42,7 +42,7 @@ A reaction takes the whole turn and doesn't allow for a movement or a bonus acti
 
 * *Attack* an enemy (see <<_attacking>>).
 
-* *Invoke* a profane power (see link:../powers/#_invoking_sorcerous_powers[Invoking profane powers]).
+* *Invoke* a profane power (see link:../powers/#_invoking_profane_powers[Invoking profane powers]).
 
 * Attempt to *distract*, *intimidate*, or *taunt* an enemy (see link:../encounters/#_manipulation[Manipulation]).
 

@@ -1,5 +1,6 @@
 use character::{utils::capitalise, *};
 use clap::Parser;
+use convert_case::{Case, Casing};
 use regex::Regex;
 use std::{fs::File, io::Write, path::PathBuf};
 
@@ -30,7 +31,7 @@ fn backgrounds(f: &mut File) -> std::io::Result<()> {
         let mut money = 0;
         let mut items = Vec::new();
         let mut followers = Vec::new();
-        let mut sorcerous_scrolls = 0;
+        let mut profane_scrolls = 0;
         let mut sacred_scrolls = 0;
         for asset in background.assets() {
             match asset {
@@ -42,7 +43,7 @@ fn backgrounds(f: &mut File) -> std::io::Result<()> {
                                     sacred_scrolls += 1;
                                 }
                                 PowerKind::Profane => {
-                                    sorcerous_scrolls += 1;
+                                    profane_scrolls += 1;
                                 }
                             }
                         } else {
@@ -61,12 +62,16 @@ fn backgrounds(f: &mut File) -> std::io::Result<()> {
         writeln!(
             f,
             "masculine_name: \"{}\",",
-            capitalise(background.gender_specific_name(Gender::Male))
+            background
+                .gender_specific_name(Gender::Male)
+                .to_case(Case::Title)
         )?;
         writeln!(
             f,
             "feminine_name: \"{}\",",
-            capitalise(background.gender_specific_name(Gender::Female))
+            background
+                .gender_specific_name(Gender::Female)
+                .to_case(Case::Title)
         )?;
         writeln!(f, "description: \"{}\",", background.description())?;
         writeln!(
@@ -94,7 +99,7 @@ fn backgrounds(f: &mut File) -> std::io::Result<()> {
         }
         writeln!(f, "],")?;
         writeln!(f, "sacred_scrolls: {},", sacred_scrolls)?;
-        writeln!(f, "sorcerous_scrolls: {},", sorcerous_scrolls)?;
+        writeln!(f, "profane_scrolls: {},", profane_scrolls)?;
         writeln!(f, "money: {},", money)?;
         writeln!(f, "}},")?;
     }
@@ -140,9 +145,9 @@ fn sacred_scrolls(f: &mut File) -> std::io::Result<()> {
     Ok(())
 }
 
-fn sorcerous_scrolls(f: &mut File) -> std::io::Result<()> {
-    writeln!(f, "export const sorcerous_scrolls = [")?;
-    for v in Power::advanced_sorcerous_powers() {
+fn profane_scrolls(f: &mut File) -> std::io::Result<()> {
+    writeln!(f, "export const profane_scrolls = [")?;
+    for v in Power::advanced_profane_powers() {
         let scroll = Item::from(ItemKind::PowerScroll(PowerContent::Power(*v)));
         writeln!(f, "\"{}\",", process_keywords(scroll.to_string()))?;
     }
@@ -229,7 +234,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     weapons(&mut file)?;
     items(&mut file)?;
     sacred_scrolls(&mut file)?;
-    sorcerous_scrolls(&mut file)?;
+    profane_scrolls(&mut file)?;
     genders(&mut file)?;
     goals(&mut file)?;
     appearances(&mut file)?;

@@ -42,6 +42,7 @@ pub enum ItemKind {
 
     // Special weapons
     Garrotte,
+    Lance,
     Mancatcher,
     AcidVial,
     AlchemistsFire,
@@ -111,6 +112,7 @@ pub enum ItemKind {
     LuckyCharm,
     MadcapMushroom,
     ManaclesAndKey,
+    Marbles,
     MedicineBox,
     MetalFile,
     Mirror,
@@ -144,6 +146,7 @@ pub enum ItemKind {
     TrappingTools,
     WarmClothes,
     Water,
+    WoodenPole,
 
     // Assets not in list
     SimpleHugeWeapon,
@@ -163,7 +166,7 @@ impl std::fmt::Display for ItemKind {
             Self::PipeAndTobacco => write!(f, "pipe & tobacco"),
             Self::PowerScroll(x) => match x {
                 PowerContent::Undefined => write!(f, "power scroll"),
-                PowerContent::Power(x) => write!(f, "scroll of '`{x}`'"),
+                PowerContent::Power(x) => write!(f, "scroll of {x}"),
                 PowerContent::PowerOfKind(x) => write!(f, "{x} power scroll"),
             },
             Self::AlchemistsFire => write!(f, "alchemist's fire"),
@@ -201,6 +204,7 @@ impl ItemKind {
             Self::AlchemistsFire => 16,
             Self::SmokeBomb => 16,
             Self::Garrotte => 16,
+            Self::Lance => 16,
             Self::Mancatcher => 16,
 
             // Artillery
@@ -263,6 +267,7 @@ impl ItemKind {
             Self::LuckyCharm => 16,
             Self::MadcapMushroom => 16,
             Self::ManaclesAndKey => 4,
+            Self::Marbles => 4,
             Self::MedicineBox => 16,
             Self::MetalFile => 4,
             Self::Mirror => 16,
@@ -295,6 +300,7 @@ impl ItemKind {
             Self::Torch => 1,
             Self::WarmClothes => 16,
             Self::Water => 1,
+            Self::WoodenPole => 4,
             Self::PowerScroll(_) => 64,
             Self::Grimoire => 16,
 
@@ -326,6 +332,7 @@ impl ItemKind {
 
             // Special weapons
             Self::Garrotte => 1,
+            Self::Lance => 2,
             Self::Mancatcher => 2,
             Self::AcidVial => 0,
             Self::FlashPowder => 0,
@@ -393,6 +400,7 @@ impl ItemKind {
             Self::LuckyCharm => 0,
             Self::MadcapMushroom => 0,
             Self::ManaclesAndKey => 1,
+            Self::Marbles => 0,
             Self::MedicineBox => 1,
             Self::MetalFile => 1,
             Self::Mirror => 1,
@@ -425,6 +433,7 @@ impl ItemKind {
             Self::Torch => 1,
             Self::WarmClothes => 2,
             Self::Water => 0,
+            Self::WoodenPole => 2,
             Self::PowerScroll(_) => 0,
             Self::Grimoire => 1,
 
@@ -576,6 +585,9 @@ impl ItemKind {
                     vec![WeaponKeyword::DirectDamage],
                 ))]
             }
+            Self::Lance => {
+                vec![ItemKeyword::Weapon(Weapon::new(Some(Die::D8), vec![]))]
+            }
             Self::Mancatcher => {
                 vec![ItemKeyword::Weapon(Weapon::new(
                     Some(Die::D4),
@@ -683,6 +695,10 @@ impl ItemKind {
             Self::Garrotte => String::from(
                 "Can only target characters who are unaware of the attack or whom you are \
                  currently grabbing.",
+            ),
+            Self::Lance => String::from(
+                "Can only be used while riding, and only if the mount moved this round. Can be \
+                 used with one hand despite its bulk.",
             ),
 
             Self::LightArmour => String::from(
@@ -856,6 +872,7 @@ impl ItemKind {
                 Trait::Addicted
             ),
             Self::ManaclesAndKey => format!("Used to bind someone's hands."),
+            Self::Marbles => format!("A bunch of tiny glass beads. AGI contest to win games."),
             Self::MedicineBox => format!(
                 "Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 \
                  health as a main action."
@@ -927,6 +944,7 @@ impl ItemKind {
             ),
             Self::WarmClothes => format!("Cold damage is impaired, heat damage is enhanced."),
             Self::Water => format!("Enough for a day rest."),
+            Self::WoodenPole => format!("2 metre long"),
             Self::PowerScroll(_) => {
                 format!(
                     "A scroll recording a sacred or profane power. Trading them is illegal. The \
@@ -965,6 +983,7 @@ static_gen_fn!(weapons, gen_weapons, ItemKind, ItemKind, {
         ItemKind::Handgun,
         ItemKind::LongGun,
         ItemKind::Garrotte,
+        ItemKind::Lance,
         ItemKind::Mancatcher,
         ItemKind::AcidVial,
         ItemKind::AlchemistsFire,
@@ -1044,6 +1063,7 @@ static_gen_fn!(gear, gen_gear, ItemKind, ItemKind, {
         Self::LuckyCharm,
         Self::MadcapMushroom,
         Self::ManaclesAndKey,
+        Self::Marbles,
         Self::MedicineBox,
         Self::MetalFile,
         Self::Mirror,
@@ -1077,5 +1097,6 @@ static_gen_fn!(gear, gen_gear, ItemKind, ItemKind, {
         Self::TrappingTools,
         Self::WarmClothes,
         Self::Water,
+        Self::WoodenPole,
     ]
 });

@@ -25,20 +25,18 @@ Roll on the <<tb_starting_ability_scores>> to determine an array of three scores
 Determine your background by rolling on the <<tb_backgrounds>> table.
 Check its description in the link:../backgrounds[Backgrounds] chapter.
 
-** You start with one or two skills granted by your background.
-
-** A few backgrounds increase two abilities by 1.
-Adjust their scores if that's the case.
+** You start with two skills granted by your background.
+If you are a _wizard_, you only start with 1 skill but also with 1 mana.
 
 ** Reroll if you get the same background as another Player.
 
 . *Assets*.
 You start with d8 shillings (ʂ), the items and followers granted by your background, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
 
-** You additionally share a single _candle_ and _flint & tinder_ with the other Players.
+** You additionally share a single _medicine box_, a single _candle_, and _flint & tinder_ with the other Players.
 
-** If you are a _priest_ or a _wizard_, you start with a _power scroll_ without a specified power.
-Roll for it on the <<tb_sorcerous_powers>> or <<tb_sacred_powers>> tables.
+** If you are a _priest_, a _wizard_, or a _hedge wizard_, you start with a _power scroll_ without a specified power.
+Roll for it on the <<tb_profane_powers>> or <<tb_sacred_powers>> tables.
 
 ** Reroll if you get the same result as another Player on any table.
 
@@ -61,14 +59,14 @@ He rolls a d3 to assign the highest score (11) and gets a 2 (AGI).
 He rolls a d2 to assign the middle score (7) and gets a 2 again (WIT in this case, skipping over AGI).
 His character's starting abilities are therefore: **STR** 6, **AGI** 11, **WIT** 7.
 
-2. He rolls a 3 on a d4 and a 4 on a d8 for the background: _labourer_.
-This grants him the _brawling_ and _wrestling_ skills and no ability increases.
+2. He rolls a 4 on a d4 and a 10 on a d12 for the background: _soldier_.
+This grants him the _cleave_ and _skilled blow_ skills.
 
 3. He starts with the following assets:
 
     * He rolls 1 on a d8 for starting money: 1ʂ.
 
-    * His background provides: _clothes_, a _shovel_, and a _ration_.
+    * His background provides _clothes_ and a _halberd_.
 
     * He rolls 1 on a d2 and 5 on a d12 for his starting weapon: a _boat hook_ plus 4ʂ.
 
@@ -103,7 +101,7 @@ include::gen/tb_starting_items.adoc[]
 
 include::gen/tb_sacred_powers.adoc[]
 
-include::gen/tb_sorcerous_powers.adoc[]
+include::gen/tb_profane_powers.adoc[]
 
 include::gen/tb_appearance.adoc[]
 

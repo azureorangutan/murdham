@@ -9,7 +9,7 @@ pub fn bloodletter() -> CharacterProfile {
         category: CharacterCategory::Demon,
         size: SizeCategory::MediumSized,
         intelligence: IntelligenceCategory::HumanIntelligence,
-        skills: vec![Skill::SkilledStrike, Skill::Brawling],
+        skills: vec![Skill::SkilledBlow, Skill::Brawling],
         traits: vec![Trait::Frightening],
         assets: vec![Asset::Item(Item::new(
             Some("demonic greatsword"),
@@ -69,7 +69,7 @@ pub fn horror() -> CharacterProfile {
         category: CharacterCategory::Demon,
         size: SizeCategory::MediumSized,
         intelligence: IntelligenceCategory::HumanIntelligence,
-        skills: vec![Skill::FastDodge],
+        skills: vec![Skill::DodgeBlows],
         traits: vec![Trait::Frightening],
         assets: Vec::new(),
         natural_armour: None,

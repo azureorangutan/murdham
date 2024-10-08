@@ -8,7 +8,7 @@ pub enum Skill {
     Acrobatics,
     Act,
     Alchemy,
-    Ambidexterity,
+    Ambidextrous,
     AnimalHandling,
     Apothecary,
     Augury,
@@ -21,49 +21,53 @@ pub enum Skill {
     Burglary,
     Bushcraft,
     Charm,
-    CleavingStrike,
+    Cleave,
     Climb,
-    Contortionism,
+    Contortionist,
     Craft,
     Disarm,
     DiseaseResistance,
     Divination,
+    DodgeBlows,
     DriveCarts,
     Erudition,
-    FastAttack,
-    FastDodge,
+    Faith,
+    FastStrike,
     FireEating,
-    Frugality,
+    FleetFooted,
+    Frugal,
     Gossip,
     Heal,
     Hunt,
+    Incorruptible,
+    Intimidate,
     Languages,
     Leadership,
-    LethalAttack,
     Luck,
     MagicSense,
     MagicShield,
     Medicine,
-    Incorruptible,
     MonsterSlaying,
     Music,
+    PackRat,
     PiercingStrike,
     PlayGames,
     PoisonResistance,
+    Protect,
     QuickDraw,
-    Faith,
     Ride,
-    FleetFooted,
     ShieldMastery,
+    SkilledBlow,
     SkilledShot,
-    SkilledStrike,
     SneakAttack,
-    Sneak,
     Sorcery,
     SteadyAim,
     Steal,
+    Stealth,
+    StrikeToInjure,
     StrikeToStun,
     Swim,
+    Tough,
     Wrestling,
 }
 
@@ -111,7 +115,7 @@ impl Skill {
                 ItemKind::Saddle
             ),
 
-            Self::Contortionism => format!(
+            Self::Contortionist => format!(
                 "Your joints are extremely flexible and you can bend your body in absurd shapes. \
                  You can squeeze through small openings and easily escape bonds.",
             ),
@@ -124,14 +128,14 @@ impl Skill {
                 ItemKind::Crowbar,
                 ItemKind::LockPicks
             ),
-            Self::Sneak => format!(
+            Self::Stealth => format!(
                 "Reduce difficulty or sprint while sneaking. When your group is detected by \
                  another group, make an AGI save: if you pass you still managed to conceal \
                  yourself."
             ),
             Self::Steal => format!(
-                "Reduce difficulty while stealing, or attempt to steal an item with bulk 1, or \
-                 attempt to steal an item with bulk 1"
+                "Reduce difficulty while stealing, or attempt to steal an item with bulk 1 \
+                 instead of ½.",
             ),
 
             // Knowledge
@@ -218,11 +222,11 @@ impl Skill {
                 "If the buyer has this skill and the seller doesn't, goods are sold at half \
                  price. You are able to estimate the value of most items just by examining them.",
             ),
+            Self::Intimidate => format!("Reduce difficulty when intimidating or torturing."),
             Self::Leadership => format!(
-                "Reduce difficulty while inspiring, intimidating, and keeping the loyalty of \
-                 followers. Once per stretch, as a main action, you can rally all ~{}~ and ~{}~ \
-                 allies within range 2. They make a group WIT save and those who succeed recover \
-                 immediately.",
+                "Reduce difficulty while inspiring and keeping the loyalty of followers. Once per \
+                 stretch, as a main action, you can rally all ~{}~ and ~{}~ allies within range \
+                 2. They make a group WIT save and those who succeed recover immediately.",
                 Condition::Frightened,
                 Condition::Terrified
             ),
@@ -269,9 +273,6 @@ impl Skill {
                 "You can read and write. You can speak and understand Classic, the language of \
                  scholars and the Church. You can invoke sacred powers."
             ),
-            Self::Incorruptible => {
-                format!("You heal 1 corruption on a day rest and all corruption on a full rest.")
-            }
             Self::Sorcery => format!(
                 "You can read and write. You can speak and understand Magick, the language used \
                  to invoke profane powers. This language is too convoluted to be used to \
@@ -279,6 +280,15 @@ impl Skill {
                  can increase your maximum mana by 1 instead of taking a normal advancement, up \
                  to 6 at most."
             ),
+            Self::Incorruptible => {
+                format!("You heal 1 corruption on a day rest and all corruption on a full rest.")
+            }
+            Self::Tough => {
+                format!(
+                    "Your maximum health, and the threshold for instant death, are increased by 2 \
+                     (they equal your STR plus 2)."
+                )
+            }
 
             // Combat
             Self::BattleFrenzy => format!(
@@ -288,7 +298,7 @@ impl Skill {
                  frenzied, you recover 1 health for each enemy you kill.",
                 Condition::Frenzied
             ),
-            Self::SkilledStrike => format!(
+            Self::SkilledBlow => format!(
                 "You improve the damage die of melee attacks (but not unarmed attacks): d4 to d6, \
                  d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. In case of blast \
                  attacks only one target takes increased damage.",
@@ -299,7 +309,7 @@ impl Skill {
                  increased damage.",
             ),
             Self::SteadyAim => format!("You double the range of ranged attacks."),
-            Self::CleavingStrike => format!(
+            Self::Cleave => format!(
                 "When you inflict critical damage or kill a target with a melee attack, you can \
                  immediately attack another target with the same weapon. You can do this at most \
                  once per turn, and not while countering.",
@@ -312,7 +322,7 @@ impl Skill {
                 "Targets of your grapple attacks can't resist with a STR save unless they also \
                  have this skill. You can only be grappled by characters with this skill."
             ),
-            Self::Ambidexterity => format!(
+            Self::Ambidextrous => format!(
                 "You can use both hands equally well. Damage is not impaired when you attack with \
                  a weapon in your non-dominant hand. You can attack the same target with two \
                  weapons at once, rolling damage for both but only considering the higher roll.",
@@ -326,32 +336,42 @@ impl Skill {
                  weapons you use or if you are unarmed. Unarmed attacks are still impaired."
             ),
             Self::StrikeToStun => format!(
-                "You may choose to perform a stunning blow when attacking. The attack inflicts no \
-                 damage but you must still roll the damage die. If you roll equal or greater than \
-                 half the target's remaining health, they are ~{}~ until the end of the stretch. \
-                 If you roll equal or greater than their whole remaining health, they are ~{}~ \
-                 until the end of the watch.",
+                "When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock...) \
+                 you may choose to inflict no damage. You must still roll the damage die and \
+                 compare the result with their current health. If damage beats or exceeds half \
+                 the target's health, they are ~{}~ until the end of the stretch. if damage beats \
+                 or exceeds the target's entire health, they are ~{}~ until the end of the watch. ",
                 Condition::Incapacitated,
                 Condition::Incapacitated
             ),
-            Self::FastDodge => {
+            Self::DodgeBlows => {
                 format!("You can dodge for free, without spending your turn, once per round.")
             }
-            Self::FastAttack => format!(
+            Self::Protect => {
+                format!("You can guard for free, without spending your turn, any number of times.")
+            }
+            Self::FastStrike => format!(
                 "When you counter an attack or your attack is countered you always hit first \
                  unless your opponent also has this skill.",
             ),
             Self::MonsterSlaying => {
                 format!("You inflict double damage against targets with larger size than you.")
             }
-            Self::LethalAttack => format!(
-                "When you inflict critical damage, you may choose to instantly kill the target \
-                 instead of incapacitating them."
+            Self::StrikeToInjure => format!(
+                "When you inflict critical damage, you may choose to injure or kill the target. \
+                 You choose what injury to apply instead of rolling on the table (it must still \
+                 make somewhat sense), and you may choose that it is permanent rather than \
+                 temporary."
+            ),
+            Self::PackRat => format!(
+                "Your carry limit are increased by 2: you can carry up to 10 bulk unencumbered, \
+                 and up to 20 encumbered. This also changes how heavy it is to carry you!"
             ),
             Self::PiercingStrike => format!(
-                "If you roll higher than the target's armour value with a melee attack you ignore \
+                "If you roll higher than the target's armour value with an attack you ignore \
                  armour and inflict full damage. If you roll equal or lower, you inflict no \
-                 damage as usual.",
+                 damage as usual. This skill doesn't work in situations where you are required to \
+                 pass a WIT save to hit.",
             ),
             Self::QuickDraw => {
                 format!(
@@ -375,7 +395,7 @@ impl Skill {
                 ItemKind::AlcoholicDrink,
                 ItemKind::Torch
             ),
-            Self::Frugality => format!(
+            Self::Frugal => format!(
                 "You don't reduce abilities when you can't satisfy needs during a day rest. \
                  However, you still have to satisfy them all in order to heal and recover mana. \
                  You pay half for lodging, since you have very low standards."

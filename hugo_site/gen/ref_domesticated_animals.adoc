@@ -94,10 +94,10 @@ _Medium-sized creature_, _animal intelligence_. +
 *Hooves*. D6 damage. +
 
 
-*Pig* (8ʂ) +
+*Pig* (4ʂ) +
 *STR* 4, *AGI* 4, *WIT* 8 +
 _Medium-sized creature_, _animal intelligence_. +
-*Bite*. D6 damage. +
+*Bite*. D4 damage. +
 
 
 *Pigeon* (4ʂ) +

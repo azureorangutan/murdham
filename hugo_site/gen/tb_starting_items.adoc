@@ -18,7 +18,7 @@ h|D12
 |Warm clothes (bulk 2)
 |4
 |Beastman blood (bulk ½; consumable)
-|Black adder venom (bulk ½; consumable)
+|Butterfly sting (bulk ½; consumable)
 |5
 |Corpse mandrake (bulk ½; consumable)
 |Madcap mushroom (bulk ½; consumable)
@@ -33,14 +33,14 @@ h|D12
 |Music instrument (flute)
 |9
 |Grappling hook, 6ʂ
-|Lock picks
+|Signet ring (bulk ½; stolen)
 |10
 |Lucky charm (bulk ½; cornicello)
-|Manacles & key, 6ʂ
+|Marbles (bulk ½), 6ʂ
 |11
-|Medicine box (consumable)
-|Mirror
-|12
-|Net
+|Muzzle, 6ʂ
 |Pipe & tobacco (bulk ½; consumable), 6ʂ
+|12
+|Rope ladder (bulk 2), 6ʂ
+|Saddle (bulk 2)
 |===

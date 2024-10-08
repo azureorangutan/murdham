@@ -63,8 +63,8 @@ function generate_character() {
     for (let i = 0; i < background.assets.length; i++) {
         assets.push(background.assets[i]);
     }
-    for (let i = 0; i < background.sorcerous_scrolls; i++) {
-        assets.push(random_array_element(Data.sorcerous_scrolls));
+    for (let i = 0; i < background.profane_scrolls; i++) {
+        assets.push(random_array_element(Data.profane_scrolls));
     }
     for (let i = 0; i < background.sacred_scrolls; i++) {
         assets.push(random_array_element(Data.sacred_scrolls));

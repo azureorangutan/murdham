@@ -243,7 +243,7 @@ pub fn pig() -> CharacterProfile {
     profile.abilities.agi = 4;
     profile
         .natural_weapons
-        .push(("bite", Weapon::new(Some(Die::D6), Vec::new())));
+        .push(("bite", Weapon::new(Some(Die::D4), Vec::new())));
     calculate_animal_cost(&mut profile);
     profile
 }

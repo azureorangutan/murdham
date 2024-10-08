@@ -62,7 +62,7 @@ pub fn appearances() -> &'static [&'static str] {
         "Bad posture, slouching and hunching.",
         "Perfect posture, straight and proud.",
         "Glabrous, not a single hair grows on your body or face.",
-        "Very hairy, they call you '`the Bear`'.",
+        "Very hairy, they call you the Bear.",
         "Perfect diction, no accent.",
         "Strong accent, people struggle to understand you.",
         "Rough skin, callous and scarred.",

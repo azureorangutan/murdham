@@ -21,8 +21,8 @@ _Encumbered_ characters move at half speed and must pass an additional STR save 
 
 * A character's bulk equals their carry limit: 8 for most characters.
 
-* Groups of 64ʂ have bulk equal to ½.
-63 or fewer shillings can be carried freely.
+* Groups of 16ʂ have bulk equal to ½.
+15 or fewer shillings can be carried freely.
 
 
 == Storage

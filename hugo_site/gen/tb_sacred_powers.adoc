@@ -2,21 +2,27 @@
 
 .Sacred powers
 [[tb_sacred_powers]]
-[options='header, unbreakable', cols="^1,^4,^1,^4,^1,^4"]
+[options='header, unbreakable', cols="^1h,^7,^7"]
 |===
-|D12 |Power
-|D12 |Power
-|D12 |Power
-|1 |Rite of bane
-|2 |Rite of blessing
-|3 |Rite of courage
-|4 |Rite of healing
-|5 |Rite of judgement
-|6 |Rite of martyrdom
-|7 |Rite of preservation
-|8 |Rite of protection
-|9 |Rite of purging
-|10 |Rite of purification
-|11 |Rite of restoration
-|12 |Rite of warding
+h|  2+h|D2
+h|D6
+ h|1 h|2
+|1
+|Rite of bane
+|Rite of blessing
+|2
+|Rite of courage
+|Rite of healing
+|3
+|Rite of judgement
+|Rite of martyrdom
+|4
+|Rite of preservation
+|Rite of protection
+|5
+|Rite of purging
+|Rite of purification
+|6
+|Rite of restoration
+|Rite of warding
 |===

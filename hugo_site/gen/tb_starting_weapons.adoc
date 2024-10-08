@@ -21,7 +21,7 @@ h|D12
 |Bullwhip (d4 damage), 6ʂ
 |5
 |Boat hook (bulk 2; d6 damage), 4ʂ
-|Pickaxe (bulk 2; d6 damage), 4ʂ
+|Scythe (bulk 2; d6 damage), 4ʂ
 |6
 |Pitchfork (bulk 2; d6 damage), 4ʂ
 |Sledgehammer (bulk 2; d6 damage), 4ʂ
