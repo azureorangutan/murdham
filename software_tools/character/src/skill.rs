@@ -244,7 +244,7 @@ impl Skill {
             // Magic
             Self::Augury => format!(
                 "You can spend a stretch to consult the entrails of a dead medium-sized animal to \
-                 gain an omen. Sometimes, the entrails might provide an useful piece of \
+                 gain an omen. Sometimes, the entrails might provide a useful piece of \
                  information, at the GM's discretion.",
             ),
             Self::Divination => format!(

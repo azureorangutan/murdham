@@ -30,12 +30,14 @@ pub enum Background {
     Assassin,
     BarberSurgeon,
     Beggar,
+    Berserker,
     Boatman,
     Bodyguard,
     BonePicker,
     BountyHunter,
     Brawler,
     Burglar,
+    Charlatan,
     CoachDriver,
     Cutpurse,
     Duellist,
@@ -48,8 +50,6 @@ pub enum Background {
     Jester,
     Knight,
     Labourer,
-    Lawyer,
-    Mercenary,
     Messenger,
     Miner,
     Noble,
@@ -117,14 +117,15 @@ impl Background {
 
     pub fn description(&self) -> &'static str {
         match self {
-            Self::Lawyer => "Laws hold the Kingdom together, loopholes keep your purse full.",
+            Self::Charlatan => {
+                "You are a cunning liar, able to convince people of almost anything."
+            }
             Self::Thug => {
                 "A couple of blows with a heavy club are the quickest way to send the right \
                  message."
             }
-            Self::Mercenary => {
-                "There is no shortage of war, and no lack of opportunities for a sell-sword such \
-                 as yourself."
+            Self::Berserker => {
+                "You are a savage, bloodthirsty warrior, barely able to control your bloodlust."
             }
             Self::Outlaw => {
                 "The hills and woods are teeming with people escaping the law such as yourself."
@@ -303,25 +304,25 @@ impl Background {
 
     pub fn advancements(&self) -> [Advancement; 2] {
         match self {
-            Self::Lawyer => [
+            Self::Charlatan => [
+                Advancement::from(Skill::Blather),
                 Advancement::from(Skill::Charm),
-                Advancement::from(Skill::Erudition),
             ],
             Self::Thug => [
                 Advancement::from(Skill::Brawling),
                 Advancement::from(Skill::Intimidate),
             ],
-            Self::Mercenary => [
-                Advancement::from(Skill::Bargain),
-                Advancement::from(Skill::DodgeBlows),
+            Self::Berserker => [
+                Advancement::from(Skill::BattleFrenzy),
+                Advancement::from(Skill::Cleave),
             ],
             Self::Outlaw => [
                 Advancement::from(Skill::Bushcraft),
                 Advancement::from(Skill::SkilledShot),
             ],
             Self::Townsman => [
+                Advancement::from(Skill::Bargain),
                 Advancement::from(Skill::Gossip),
-                Advancement::from(Skill::Luck),
             ],
             Self::Bodyguard => [
                 Advancement::from(Skill::Protect),
@@ -445,8 +446,8 @@ impl Background {
                 Advancement::from(Skill::Gossip),
             ],
             Self::PitFighter => [
+                Advancement::from(Skill::DodgeBlows),
                 Advancement::from(Skill::FastStrike),
-                Advancement::from(Skill::ShieldMastery),
             ],
             Self::Priest => [
                 Advancement::from(Skill::Incorruptible),
@@ -497,10 +498,22 @@ impl Background {
 
     pub fn assets(&self) -> Vec<Asset> {
         match self {
-            Self::Lawyer => vec![
-                Asset::Item(Item::new(None, ItemKind::Clothes, Some("courtroom attire"))),
-                Asset::Item(Item::new(None, ItemKind::Book, Some("code of laws"))),
-                Asset::Item(Item::from(ItemKind::QuillAndInk)),
+            Self::Charlatan => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("fake city watch uniform, won't stand close scrutiny"),
+                )),
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Scroll,
+                    Some("filled with scribbled nonsense"),
+                )),
+                Asset::Item(Item::new(
+                    Some("fake necklace"),
+                    ItemKind::SilverJewel,
+                    None,
+                )),
             ],
             Self::Thug => vec![
                 Asset::Item(Item::new(
@@ -511,10 +524,17 @@ impl Background {
                 Asset::Item(Item::from(ItemKind::AlcoholicDrink)),
                 Asset::Item(Item::from(ItemKind::CrimsonWeed)),
             ],
-            Self::Mercenary => vec![
-                Asset::Item(Item::new(None, ItemKind::Clothes, Some("sturdy boots"))),
-                Asset::Item(Item::new(Some("spear"), ItemKind::MartialHandWeapon, None)),
-                Asset::Item(Item::from(ItemKind::Helmet)),
+            Self::Berserker => vec![
+                Asset::Item(Item::new(
+                    None,
+                    ItemKind::Clothes,
+                    Some("blood-splattered furs decorated with the skulls of your foes"),
+                )),
+                Asset::Item(Item::new(
+                    Some("glaive"),
+                    ItemKind::MartialGreatWeapon,
+                    None,
+                )),
             ],
             Self::Outlaw => vec![
                 Asset::Item(Item::new(None, ItemKind::Clothes, Some("greenish cloak"))),
@@ -526,7 +546,7 @@ impl Background {
                     ItemKind::Clothes,
                     Some("fashionable but practical"),
                 )),
-                Asset::Item(Item::from(ItemKind::Cards)),
+                Asset::Item(Item::from(ItemKind::Candle)),
                 Asset::Item(Item::from(ItemKind::PipeAndTobacco)),
             ],
             Self::Bodyguard => vec![
@@ -871,7 +891,12 @@ impl Background {
                     ItemKind::Clothes,
                     Some("torn, dusty, and covered in old blood"),
                 )),
-                Asset::Item(Item::from(ItemKind::Shield)),
+                Asset::Item(Item::new(Some("Spear"), ItemKind::MartialHandWeapon, None)),
+                Asset::Item(Item::new(
+                    Some("Javelines"),
+                    ItemKind::MissileHandWeapon,
+                    None,
+                )),
             ],
             Self::Priest => vec![
                 Asset::Item(Item::new(

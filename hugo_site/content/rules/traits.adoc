@@ -9,7 +9,6 @@ next: /rules/conditions
 == Handling traits
 
 Traits are characteristics which, unlike skills, are either innate or acquired in ways other than training and learning.
-Unlike skills, they can also be disadvantageous.
 Apart from that, they work in a similar way: their description lists common effect, but you should take them into account any time it makes sense.
 
 include::gen/ref_trait_list.adoc[]
