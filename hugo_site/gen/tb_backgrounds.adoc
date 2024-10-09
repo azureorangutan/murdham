@@ -15,31 +15,31 @@ h|D12
 |2
 |Barber-surgeon
 |Beggar
+|Berserker
 |Boatman
-|Bodyguard
 |3
+|Bodyguard
 |Bone picker
 |Bounty hunter
 |Brawler
-|Burglar
 |4
+|Burglar
+|Charlatan
 |Coach driver
 |Cutpurse
+|5
 |Duellist
 |Fire eater
-|5
 |Footpad
 |Gambler
+|6
 |Hedge wizard
 |Herbalist
-|6
 |Hunter
 |Jester
+|7
 |Knight
 |Labourer
-|7
-|Lawyer
-|Mercenary
 |Messenger
 |Miner
 |8

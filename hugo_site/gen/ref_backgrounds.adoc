@@ -54,6 +54,15 @@ You spent your days sitting in the corner of busy roads, hoping for a few shilli
 * *Assets*: clothes (dirty, stinky rags), alcoholic drink (bulk ½; consumable), crutch.
 
 
+== Berserker
+
+You are a savage, bloodthirsty warrior, barely able to control your bloodlust.
+
+* *Skills*: _battle frenzy_, _cleave_.
+
+* *Assets*: clothes (blood-splattered furs decorated with the skulls of your foes), glaive (bulk 2; d8 damage).
+
+
 == Boatman
 
 You have ferried passengers and smuggled goods along the many rivers flowing across the Kingdom.
@@ -106,6 +115,15 @@ Those snotty nobs don't need all that coin, it would be much more useful in your
 * *Skills*: _burglary_, _fleet footed_.
 
 * *Assets*: clothes (comfortable and with generous pockets), lock picks, metal file.
+
+
+== Charlatan
+
+You are a cunning liar, able to convince people of almost anything.
+
+* *Skills*: _blather_, _charm_.
+
+* *Assets*: clothes (fake city watch uniform, won't stand close scrutiny), scroll (bulk ½; filled with scribbled nonsense), fake necklace (bulk ½).
 
 
 == Coach driver
@@ -216,24 +234,6 @@ Your bones and muscles have been hardened by years of toiling under sun and rain
 * *Assets*: clothes (drenched in sweat), shovel (bulk 2; d6 damage), ration (bulk ½; consumable; packed lunch).
 
 
-== Lawyer
-
-Laws hold the Kingdom together, loopholes keep your purse full.
-
-* *Skills*: _charm_, _erudition_.
-
-* *Assets*: clothes (courtroom attire), book (code of laws), quill & ink (bulk ½; consumable).
-
-
-== Mercenary
-
-There is no shortage of war, and no lack of opportunities for a sell-sword such as yourself.
-
-* *Skills*: _bargain_, _dodge blows_.
-
-* *Assets*: clothes (sturdy boots), helmet, spear (d6 damage).
-
-
 == Messenger
 
 Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner.
@@ -301,9 +301,9 @@ You are an erudite doctor and a herbalist, knowledgeable about poison, disease, 
 
 You have fought for money in illegal arenas and as a judicial champion for hire.
 
-* *Skills*: _fast strike_, _shield mastery_.
+* *Skills*: _dodge blows_, _fast strike_.
 
-* *Assets*: clothes (torn, dusty, and covered in old blood), shield (bulk 2; shield, d4 damage).
+* *Assets*: clothes (torn, dusty, and covered in old blood), Spear (d6 damage), Javelines (d4 damage, range 8).
 
 
 == Priest
@@ -400,9 +400,9 @@ Precious treasures are buried in ancient crypts and old tombs: their previous ow
 
 Townsfolk such as yourself are the backbone of the Kingdom: shop owners, traders, local officials...
 
-* *Skills*: _gossip_, _luck_.
+* *Skills*: _bargain_, _gossip_.
 
-* *Assets*: clothes (fashionable but practical), cards (bulk ½), pipe & tobacco (bulk ½; consumable).
+* *Assets*: clothes (fashionable but practical), candle (bulk ½; consumable), pipe & tobacco (bulk ½; consumable).
 
 
 == Witch hunter

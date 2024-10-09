@@ -21,7 +21,7 @@ You know how to take care of animals: feeding, grooming, taming, training, recog
 You can craft medicinal substances, such as _antidote_, _cure-all_, _darkroot_, _healing draught_, _madcap mushroom_, _medicine box_, and all kinds of poison. This requires suitable ingredients and _apothecary tools_. Creating a single dose takes only a stretch of time, but ingredients are rare. It takes a watch to gather them in the wilderness (if they are locally present), or to find them for sale in a settlement (they are worth ¼ the value of the end product).
 
 * *Augury*.
-You can spend a stretch to consult the entrails of a dead medium-sized animal to gain an omen. Sometimes, the entrails might provide an useful piece of information, at the GM's discretion.
+You can spend a stretch to consult the entrails of a dead medium-sized animal to gain an omen. Sometimes, the entrails might provide a useful piece of information, at the GM's discretion.
 
 * *Bargain*.
 If the buyer has this skill and the seller doesn't, goods are sold at half price. You are able to estimate the value of most items just by examining them.
