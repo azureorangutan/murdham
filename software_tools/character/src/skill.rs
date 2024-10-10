@@ -189,7 +189,8 @@ impl Skill {
             Self::Heal => format!(
                 "When you use a ~{}~: heal half STR in a stretch, or d8 damage (up to half STR) \
                  as a main action. When you use ~{}~, you are automatically successful without \
-                 needing to pass a WIT save.",
+                 needing to pass a WIT save. You can attempt surgeries without tools, but you \
+                 need to pass a WIT save then.",
                 ItemKind::MedicineBox,
                 ItemKind::SurgeryTools,
             ),
@@ -280,15 +281,6 @@ impl Skill {
                  can increase your maximum mana by 1 instead of taking a normal advancement, up \
                  to 6 at most."
             ),
-            Self::Incorruptible => {
-                format!("You heal 1 corruption on a day rest and all corruption on a full rest.")
-            }
-            Self::Tough => {
-                format!(
-                    "Your maximum health, and the threshold for instant death, are increased by 2 \
-                     (they equal your STR plus 2)."
-                )
-            }
 
             // Combat
             Self::BattleFrenzy => format!(
@@ -363,10 +355,6 @@ impl Skill {
                  make somewhat sense), and you may choose that it is permanent rather than \
                  temporary."
             ),
-            Self::PackRat => format!(
-                "Your carry limit are increased by 2: you can carry up to 10 bulk unencumbered, \
-                 and up to 20 encumbered. This also changes how heavy it is to carry you!"
-            ),
             Self::PiercingStrike => format!(
                 "If you roll higher than the target's armour value with an attack you ignore \
                  armour and inflict full damage. If you roll equal or lower, you inflict no \
@@ -406,6 +394,10 @@ impl Skill {
                  effect, such as a trap or a monster ambush, the GM might prioritise other \
                  characters over you.",
             ),
+            Self::PackRat => format!(
+                "Your carry limit are increased by 2: you can carry up to 10 bulk unencumbered, \
+                 and up to 20 encumbered. This also changes how heavy it is to carry you!"
+            ),
             Self::PlayGames => format!(
                 "You can learn to play games quickly: after you have played a game, you can't be \
                  beaten by others unless they also have this skill. You know how to cheat: your \
@@ -444,6 +436,15 @@ impl Skill {
                 ItemKind::Ration,
                 ItemKind::TrappingTools,
             ),
+            Self::Incorruptible => {
+                format!("You heal 1 corruption on a day rest and all corruption on a full rest.")
+            }
+            Self::Tough => {
+                format!(
+                    "Your maximum health, and the threshold for instant death, are increased by 2 \
+                     (they equal your STR plus 2)."
+                )
+            }
         }
     }
 }

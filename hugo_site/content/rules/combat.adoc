@@ -14,11 +14,29 @@ Each character can only take turn once per round.
 When all factions pass consecutively, the round ends.
 At the end of the round, you must make morale checks if necessary (see <<_morale>>).
 
-
-== Initiative
-
-The faction holding the initiative can decide which faction acts first each round.
+The faction holding the initiative can decide which faction acts first at the start of each round.
 Initiative is held by the faction which started the fight, or is assigned randomly if that's unclear.
+
+++++
+{{% details title="Example" closed="true" %}}
+
+Balthasar, Sybilla, and Theobald are fighting against three bandits and their leader.
+The bandits started the fight and have the initiative.
+The round plays out in this sequence:
+
+* The GM decides to take turn with the bandit leader first.
+* The Players decide to take turn with Sybilla.
+* The GM takes turn with a bandit.
+* The Players decide to pass, rather than activating.
+* The GM takes turn with another bandit. Since he didn't pass, play goes back to the players
+* The Players take turn with Balthasar.
+* The GM takes turn with the last bandit.
+* The players take turn with Theobald.
+* The GM must pass because all bandits have taken their turn.
+* The Players must pass as well. Since all factions have passed consecutively, the round ends.
+
+{{% /details %}}
+++++
 
 
 == Taking a turn
@@ -79,13 +97,33 @@ The GM may rule it takes a main action to perform complex interactions.
 == Attacking
 
 Attacking an enemy is a main action.
-In normal situations, attacks hit and inflict damage to the target automatically.
-However, attacks made in challenging circumstances require passing a WIT save to hit.
-
+Attacks automatically hit and inflict damage to the target.
 Unarmed attacks inflict d4 impaired damage.
 Armed attacks inflict damage depending on the weapon used.
+
 The attacker may choose to voluntarily hold back an attack to inflict impaired damage.
-If the target is nearby and _incapacitated_, the attacker may choose to deliver a final blow and kill them.
+
+If the target is nearby and _incapacitated_, the attacker may choose to deliver a death blow and kill them.
+
+++++
+{{% details title="Example" closed="true" %}}
+
+Balthasar attacks a nearby bandit with a sword (d6 damage).
+The bandit directly takes d6 damage.
+He rolls a 4, reducing his health from 8 to 4 and incapacitating him.
+
+Sybilla later attacks the same bandit with a dagger.
+Since he is nearby and _incapacitated_, she slits his throats and immediately killing him.
+
+{{% /details %}}
+++++
+
+
+== Melee and ranged attacks
+
+Unless otherwise indicated, weapons can only make melee attacks.
+Specific weapon keywords let you make ranged or indirect ranged attacks.
+Usually attacks hit automatically, but if made under challenging circumstances it is necessary to pass a WIT save to hit, as described below.
 
 *Melee attacks*.
 Target a nearby character.
@@ -94,12 +132,26 @@ Hitting a target who is not visible requires passing a WIT save or the attack mi
 *Ranged attacks*.
 Target a visible character within the indicated range.
 Hitting targets beyond half range or while moving requires passing a WIT save or the attack misses and inflicts no damage.
-Targeting a character beyond half range while moving, or a character who is not visible, isn't possible.
+Targeting a character beyond half range while moving, or a character who is not visible, is impossible.
 
 *Indirect ranged attacks*.
 Can be directed at targets which aren't directly visible and over obstacles, but can only target beyond half range.
 A WIT save to hit is always required.
-Attacking while moving isn't possible.
+Attacking while moving is impossible.
+
+++++
+{{% details title="Example" closed="true" %}}
+
+A bandit shoots Balthasar with a bow (d6 damage, range 8).
+They are at 5 zones of distance from each other, so the bandit must pass a WIT save to hit.
+He rolls 5 on a d20, a pass, therefore Balthasar takes d6 damage.
+
+Theobald attacks a nearby bandit with his sword (d6 damage) in complete darkness.
+Since he can't see, he must pass a WIT save to hit.
+He rolls a 20 on the d20, a miss, so the bandit takes no damage.
+
+{{% /details %}}
+++++
 
 
 == Reacting to an attack
@@ -116,7 +168,7 @@ Perform a suitable attack against the attacker.
 Both characters roll for damage at the same time.
 Whoever suffers the most damage, after reductions, is hit first.
 In case of a tie both characters are hit at the same time.
-Attacks with multiple targets can only be countered by a single target.
+Attacks with multiple targets (such as blast attacks) can only be countered by a single target.
 
 *Hide behind a nearby character*.
 Choose a nearby character, who must agree with the action.
@@ -128,6 +180,24 @@ A character who is nearby the target of an attack can react by guarding them.
 They become the new target of the attack.
 Since they have spent their reaction to guard, they can't normally counter or dodge.
 
+++++
+{{% details title="Example" closed="true" %}}
+
+Sybilla attacks a bandit with her musket (d8 damage).
+The bandit hasn't acted yet during this turn and decides to dodge.
+He rolls a 2 on a d20, lower than AGI of 8, so the attack misses.
+
+Theobald attacks the bandit leader with his spear (d6 damage).
+The bandit leader decides to counter with his battle axe (d8 damage).
+They both roll for damage: Theobald inflicts 4 damage, the bandit leader inflicts 5 damage.
+Theobald however is holding a _shield_ and wearing _light armour_, so he has an armour value of 2 and suffers only 3 damage.
+Since Theobald suffers less damage, the bandit leader takes 4 damage first.
+This is enough to incapacitate him, so Theobald suffers no damage at all!
+If that weren't the case, he would have taken 3 damage as well.
+
+{{% /details %}}
+++++
+
 
 == Opportunity attacks
 
@@ -138,9 +208,6 @@ It isn't normally possible to react to an opportunity attack, since the target i
 
 
 == Protection from attacks
-
-*Concealment* partially obscures vision to the target.
-Damage is impaired.
 
 *Cover* offers physical protection.
 The target's armour value is increased by 1 unless the attack is powerful enough to penetrate the cover.
@@ -168,6 +235,16 @@ This must be done before the target decides whether to react but after the WIT s
 The target can either accept the proposed effect or resolve the attack as normal.
 It isn't possible to react if the effect is accepted.
 
+++++
+{{% details title="Example" closed="true" %}}
+
+Balthasar attacks a bandit with 3 health left with his sword (d6 damage).
+He doesn't want to kill him, so he proposes an attack stunt: instead ot taking damage, the bandit is disarmed and knocked out for a few minutes.
+Given his low health, the bandit happily accepts the alternative effect.
+
+{{% /details %}}
+++++
+
 
 == Non-lethal attacks
 
@@ -180,14 +257,33 @@ A nearby target must pass a STR save or drop a weapon chosen by the attacker.
 
 *Grapple*.
 A nearby target must pass a STR save or be grabbed by the attacker.
-Grabbed characters are _entangled_ for as long as their enemy keeps hold of them.
+Grabbed characters are _entangled_ (see link:../conditions[Conditions]) for as long as their enemy keeps hold of them.
+_Entangled_ characters can't act and on their turn can only attempt to break free by passing a STR save.
 
-* Characters who are grabbing another character can move together with them and attack them while keeping hold, but doing anything else automatically frees the grabbed character.
+* Characters who are grabbing another character can move together with them and attack them with a one-handed melee weapon or an unarmed attack while keeping hold, but doing anything else automatically frees the grabbed character.
 
 * They can also shove the grabbed character, freeing them but forcing them to move by half a zone and/or pushing them into a hazard in their zone.
 
 * Finally, they can hide behind the grabbed character as a reaction to an attack.
 The grabbed character has no option but become the new target of the attack.
+
+* It is possible to attack or shove a grabbed character on the same turn they are grabbed.
+
+++++
+{{% details title="Example" closed="true" %}}
+
+Theobald attempts to grab a bandit.
+The bandit reacts by countering with his axe, inflicting d6 damage: he rolls a 1, just a scratch!
+Since Theobald is still standing, the bandit must now attempt a STR save to avoid being grabbed, but fails.
+Theobald can immediately attack or shove the bandit, and picks the former option, inflicting d4 damage with his dagger.
+
+On his next turn, Theobald attacks again, inflicting a further d4 damage.
+The bandit can't react since he is _entangled_, but is still alive and conscious.
+On his turn, the bandit can only attempt to break free by passing a STR save.
+He succeeds, however his turn has already been consumed by the attempt to break free.
+
+{{% /details %}}
+++++
 
 
 == Sneaking in combat
@@ -197,7 +293,7 @@ Hiding later during the fight requires being out of sight for a while or a major
 The GM should keep the position of concealed characters hidden from the Players, and should control their characters so that they realistically ignore concealed Player characters.
 
 Enemies attacked by a concealed character are taken by surprise and can't react.
-At the start of the fight, concealed characters play a bonus turn during which only they can act.
+At the start of the fight, concealed characters play a bonus round during which only they can act.
 
 Concealed characters are revealed when they make noise or become visible to the enemy.
 Actions which might reveal a character include: attacking, invoking a power, talking, moving without sneaking, walking right in front of the enemy, etc.
@@ -242,41 +338,52 @@ They work as a _simple hand weapon_ or a _simple great weapon_, but are handled 
 
 == Optional rule: fast and slow activations
 
-You can use this optional rule if you would like WIT to influence the order in which characters act during the round and you don't mind a little bit of extra complexity.
+You can use this optional rule if you would like AGI to influence the order in which characters act during the round and you don't mind a little bit of extra complexity.
 
 At the beginning of each round the GM openly rolls a d20.
-The result is the "`fast action threshold`" or FAT.
+The result is the "`fast action threshold`".
 You can leave the d20 on the table as a reminder of this value.
-
 The round is divided in two phases: fast action and slow action.
 
-* During the fast action phase, only characters whose WIT matches or exceeds the FAT can take their turn.
+* During the fast action phase, only characters whose AGI matches or exceeds the fast action threshold can take their turn.
 
-* During the slow action phase, all characters who haven't acted yet (either by choice or because their WIT is lower than the FAT) can take their turn.
+* During the slow action phase, all characters who haven't acted yet (either because their AGI is too low or due to early passing) can take their turn.
 
 Each phase ends when all factions pass consecutively, as per the usual rules.
-Characters can react during any phase, no matter what their WIT score is.
+Characters can react during any phase, no matter what their AGI score is.
 
 ++++
 {{% details title="Example" closed="true" %}}
 
-Balthasar (WIT 12), Sybilla (WIT 6), and Theobald (WIT 9) are fighting against two bandits (WIT 8) and their leader (WIT 10).
+Wolfgang (AGI 9), Sybilla (AGI 10), and Theobald (AGI 7) are fighting against two bandits (AGI 8) and their leader (AGI 10).
 The Players have the initiative.
 
 The GM rolls a d20 to determine the fast action threshold: the result is 9.
-During the fast actions phase, only Balthasar, Theobald, and the bandit leader can act.
-Sybilla and the two bandits can't, because their WIT is lower than 9.
+During the fast actions phase, only Wolfgang, Sybilla, and the bandit leader can act.
+Theobald and the two bandits can't, because their WIT is lower than 9.
+The round plays out in this sequence:
 
-The fast actions phase begins.
-Since the Players have the initiative, they take turn first.
-Theobald goes first, followed by the bandit leader.
-Balthasar could act too, but the Players choose to pass instead.
-During his turn, Theobald attacks a bandit, who chooses to dodge: they can do so even though they couldn't normally act during this phase.
+* Fast action phase.
 
-The slow actions phase begins.
-All characters who haven't acted yet can take a turn now: Balthasar, Sybilla, and one of the bandits, the one who didn't dodge.
-The Players again start because they have the initiative.
-Sybilla goes first, followed by the bandit, and ending with Balthasar.
+    * Sybilla acts.
+He attacks a bandit, who reacts by dodging and therefore can't act later during the round.
+
+    * The bandit leader acts.
+
+    * The Players could act with Wolfgang, but choose to pass instead.
+
+    * The GM must pass as the remaining bandit can't act during this phase.
+The phase ends since both factions passed consecutively.
+
+* Slow action phase.
+
+    * Theobald acts.
+
+    * The remaining bandit acts.
+
+    * Wolfgang acts (since he didn't act during the previous phase due to early passing).
+
+    * The GM and the Players must both pass, and the round ends.
 
 {{% /details %}}
 ++++

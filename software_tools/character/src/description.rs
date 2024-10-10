@@ -28,7 +28,7 @@ pub fn reasons_to_adventure() -> &'static [&'static str] {
         "you seek redemption from your sins.",
         "you want money, a lot of money.",
         "you were extremely bad at your past occupation.",
-        "you seek vengeance on someone who ruined your life.",
+        "you seek vengeance on someone who ruined your existence.",
         "you want to follow in the footsteps of one of your relatives.",
         "you think you would make a decent adventurer.",
         "you seek the thrill of adventure.",
