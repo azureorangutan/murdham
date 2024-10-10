@@ -110,9 +110,9 @@ Your fists are your weapon and your arms can bend iron: nobody is stronger than 
 
 == Burglar
 
-Those snotty nobs don't need all that coin, it would be much more useful in your pockets!
+There is no lock you can't open and no safe you can't crack.
 
-* *Skills*: _burglary_, _fleet footed_.
+* *Skills*: _burglary_, _pack rat_.
 
 * *Assets*: clothes (comfortable and with generous pockets), lock picks, metal file.
 
@@ -290,7 +290,7 @@ You made a small fortune transporting and trading exotic goods, but you lost eve
 
 == Physician
 
-You are an erudite doctor and a herbalist, knowledgeable about poison, disease, antidotes, and cures.
+You are an erudite doctor, knowledgeable about poison, disease, antidotes, and cures.
 
 * *Skills*: _apothecary_, _medicine_.
 
@@ -303,7 +303,7 @@ You have fought for money in illegal arenas and as a judicial champion for hire.
 
 * *Skills*: _dodge blows_, _fast strike_.
 
-* *Assets*: clothes (torn, dusty, and covered in old blood), Spear (d6 damage), Javelines (d4 damage, range 8).
+* *Assets*: clothes (torn, dusty, and covered in old blood), Spear (d6 damage), javelins (d4 damage, range 8).
 
 
 == Priest

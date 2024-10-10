@@ -163,14 +163,11 @@ impl Background {
                 "You used to roam the cities and the countryside, capturing wanted criminals to \
                  collect the bounties on their head."
             }
-            Self::Burglar => {
-                "Those snotty nobs don't need all that coin, it would be much more useful in your \
-                 pockets!"
-            }
+            Self::Burglar => "There is no lock you can't open and no safe you can't crack.",
             Self::Assassin => "For the right amount of coins, everyone can be taken care of.",
             Self::Physician => {
-                "You are an erudite doctor and a herbalist, knowledgeable about poison, disease, \
-                 antidotes, and cures."
+                "You are an erudite doctor, knowledgeable about poison, disease, antidotes, and \
+                 cures."
             }
             Self::Agitator => {
                 "You know how to incite the people with fervent speeches. You were partly \
@@ -358,7 +355,7 @@ impl Background {
             ],
             Self::Burglar => [
                 Advancement::from(Skill::Burglary),
-                Advancement::from(Skill::FleetFooted),
+                Advancement::from(Skill::PackRat),
             ],
             Self::Assassin => [
                 Advancement::from(Skill::SneakAttack),
@@ -893,7 +890,7 @@ impl Background {
                 )),
                 Asset::Item(Item::new(Some("Spear"), ItemKind::MartialHandWeapon, None)),
                 Asset::Item(Item::new(
-                    Some("Javelines"),
+                    Some("javelins"),
                     ItemKind::MissileHandWeapon,
                     None,
                 )),

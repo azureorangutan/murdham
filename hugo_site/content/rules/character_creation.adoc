@@ -41,7 +41,7 @@ Roll for it on the <<tb_profane_powers>> or <<tb_sacred_powers>> tables.
 ** Reroll if you get the same result as another Player on any table.
 
 . *Secondary properties*.
-You start with health equal to your STR, 0 corruption, and 2 omens.
+You start with health equal to your STR (plus 2 if you have the _tough_ skill), 0 corruption, and 2 omens.
 You also start with 0 mana unless your background is _wizard_, in which case you start with 1 mana.
 Your armour value depends on your starting items.
 

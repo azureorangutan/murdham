@@ -99,7 +99,7 @@ You don't reduce abilities when you can't satisfy needs during a day rest. Howev
 You might hear interesting rumours when taking a day rest or full rest in a settlement. The GM decides what you hear, and it isn't necessarily true. You can easily find contacts, even illegal ones such as fences, by spending a watch asking around for information.
 
 * *Heal*.
-When you use a _medicine box_: heal half STR in a stretch, or d8 damage (up to half STR) as a main action. When you use _surgery tools_, you are automatically successful without needing to pass a WIT save.
+When you use a _medicine box_: heal half STR in a stretch, or d8 damage (up to half STR) as a main action. When you use _surgery tools_, you are automatically successful without needing to pass a WIT save. You can attempt surgeries without tools, but you need to pass a WIT save then.
 
 * *Hunt*.
 Reduce difficulty when following trails. When you forage, on a _small game_ result you find an additional _ration_, even if you don't have _trapping tools_.

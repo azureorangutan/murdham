@@ -82,7 +82,7 @@ feminine_name: "Barber Surgeon",
 description: "A sharp razor and a steady hand are required for both a clean shave and delicate surgeries.",
 abilities: [0, 0, 0],
 skills: {
-"Heal": "When you use a <i>medicine box</i>: heal half STR in a stretch, or d8 damage (up to half STR) as a main action. When you use <i>surgery tools</i>, you are automatically successful without needing to pass a WIT save.",
+"Heal": "When you use a <i>medicine box</i>: heal half STR in a stretch, or d8 damage (up to half STR) as a main action. When you use <i>surgery tools</i>, you are automatically successful without needing to pass a WIT save. You can attempt surgeries without tools, but you need to pass a WIT save then.",
 "Strike to injure": "When you inflict critical damage, you may choose to injure or kill the target. You choose what injury to apply instead of rolling on the table (it must still make somewhat sense), and you may choose that it is permanent rather than temporary.",
 },
 mana: 0,
@@ -229,11 +229,11 @@ money: 0,
 {
 masculine_name: "Burglar",
 feminine_name: "Burglar",
-description: "Those snotty nobs don't need all that coin, it would be much more useful in your pockets!",
+description: "There is no lock you can't open and no safe you can't crack.",
 abilities: [0, 0, 0],
 skills: {
 "Burglary": "Reduce difficulty when opening a lock, do it without tools (<i>crowbar</i> or <i>lock picks</i>), do it silently, or do it in only a round. You can react to all traps you trigger, even if you weren't aware of them.",
-"Fleet footed": "When you sprint, you can move by an additional zone. You must only make an AGI save to sprint every two rounds (at the start of the 3rd, 5th, 7th... rounds). You can freely dodge attacks of opportunity without needing to spend your turn.",
+"Pack rat": "Your carry limit are increased by 2: you can carry up to 10 bulk unencumbered, and up to 20 encumbered. This also changes how heavy it is to carry you!",
 },
 mana: 0,
 assets: [
@@ -402,7 +402,7 @@ description: "You were a village healer, curing ailments with plants and natural
 abilities: [0, 0, 0],
 skills: {
 "Apothecary": "You can craft medicinal substances, such as <i>antidote</i>, <i>cure-all</i>, <i>darkroot</i>, <i>healing draught</i>, <i>madcap mushroom</i>, <i>medicine box</i>, and all kinds of poison. This requires suitable ingredients and <i>apothecary tools</i>. Creating a single dose takes only a stretch of time, but ingredients are rare. It takes a watch to gather them in the wilderness (if they are locally present), or to find them for sale in a settlement (they are worth ¼ the value of the end product).",
-"Heal": "When you use a <i>medicine box</i>: heal half STR in a stretch, or d8 damage (up to half STR) as a main action. When you use <i>surgery tools</i>, you are automatically successful without needing to pass a WIT save.",
+"Heal": "When you use a <i>medicine box</i>: heal half STR in a stretch, or d8 damage (up to half STR) as a main action. When you use <i>surgery tools</i>, you are automatically successful without needing to pass a WIT save. You can attempt surgeries without tools, but you need to pass a WIT save then.",
 },
 mana: 0,
 assets: [
@@ -605,7 +605,7 @@ money: 0,
 {
 masculine_name: "Physician",
 feminine_name: "Physician",
-description: "You are an erudite doctor and a herbalist, knowledgeable about poison, disease, antidotes, and cures.",
+description: "You are an erudite doctor, knowledgeable about poison, disease, antidotes, and cures.",
 abilities: [0, 0, 0],
 skills: {
 "Apothecary": "You can craft medicinal substances, such as <i>antidote</i>, <i>cure-all</i>, <i>darkroot</i>, <i>healing draught</i>, <i>madcap mushroom</i>, <i>medicine box</i>, and all kinds of poison. This requires suitable ingredients and <i>apothecary tools</i>. Creating a single dose takes only a stretch of time, but ingredients are rare. It takes a watch to gather them in the wilderness (if they are locally present), or to find them for sale in a settlement (they are worth ¼ the value of the end product).",
@@ -635,7 +635,7 @@ mana: 0,
 assets: [
 "clothes (torn, dusty, and covered in old blood)",
 "Spear (d6 damage)",
-"Javelines (d4 damage, range 8)",
+"javelins (d4 damage, range 8)",
 ],
 sacred_scrolls: 0,
 profane_scrolls: 0,
@@ -1014,7 +1014,7 @@ export const goals = [
 "you seek redemption from your sins.",
 "you want money, a lot of money.",
 "you were extremely bad at your past occupation.",
-"you seek vengeance on someone who ruined your life.",
+"you seek vengeance on someone who ruined your existence.",
 "you want to follow in the footsteps of one of your relatives.",
 "you think you would make a decent adventurer.",
 "you seek the thrill of adventure.",
