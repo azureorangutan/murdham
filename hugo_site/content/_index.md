@@ -25,9 +25,9 @@ layout: hextra-home
 
   {{< cards >}}
     {{< card link="rules" title="Rules" icon="document-duplicate" >}}
+    {{< card link="blog" title="Blog" icon="newspaper" >}}
     {{< card link="character_generator" title="Character generator" icon="user-group" >}}
     {{< card link="game_resources" title="Resources" icon="cloud-download" >}}
-    {{< card link="https://azureorangutan.itch.io/murdham" title="Itch.io" icon="external-link" >}}
   {{< /cards >}}
 
 {{< /hextra/hero-container >}}
