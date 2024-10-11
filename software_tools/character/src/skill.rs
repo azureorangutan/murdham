@@ -395,8 +395,8 @@ impl Skill {
                  characters over you.",
             ),
             Self::PackRat => format!(
-                "Your carry limit are increased by 2: you can carry up to 10 bulk unencumbered, \
-                 and up to 20 encumbered. This also changes how heavy it is to carry you!"
+                "Your carry limit is increased by 2 (you can carry up to 10 bulk unencumbered, \
+                 and up to 20 bulk encumbered). This also changes your own bulk accordingly!."
             ),
             Self::PlayGames => format!(
                 "You can learn to play games quickly: after you have played a game, you can't be \

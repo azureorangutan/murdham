@@ -39,7 +39,7 @@ If both or neither group notices the other, the two sides stumble upon each othe
 
 The GM provides information to the Players based on what their characters should realistically know.
 They can take their skills, background, and history into account.
-For example, a character with the _medicine_ skills would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat catcher_ background would surely know a lot about rodents.
+For example, a character with the _medicine_ skills would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat catcher_ background would surely know a lot about those pesky rodents.
 
 The Players should remind the GM if they think their characters might know more about a specific topic, and the GM can reveal additional information if deemed appropriate.
 

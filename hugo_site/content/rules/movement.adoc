@@ -86,12 +86,12 @@ Pass an AGI save to leap across a significant obstacle or gap.
 Trivial for tiny gaps, impossible for very large gaps.
 
 * *Climb*.
-Pass an AGI save or fall at the end of each round spent hanging from a surface and at the end of the climb.
+When you end a round hanging from a surface or you reach the top of the climb, you must pass an AGI save or fall.
 Trivial on easy surfaces (such as ladders), impossible on smooth surfaces (such as walls).
 Attacks made while climbing are impaired, and at least one hand must be used to keep hold of the surface.
 
 * *Swim*.
-Pass an AGI save or become _incapacitated_ when you enter turbulent waters at the start of each round in which you are in turbulent waters.
+When you enter turbulent waters or start a round in turbulent waters, you must pass an AGI save or become _incapacitated_.
 When you are _incapacitated_ in water, you might suffocate (link:../hazards/#_suffocating[Suffocating]).
 Attacks made while in water are impaired.
 

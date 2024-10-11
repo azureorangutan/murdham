@@ -45,7 +45,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Exhaustive rules"
-    subtitle="The game provides guidelines on how to handle common situations found in a fantasy adventure game: exploration, travel, social interactions, stealth, combat, magic, vehicle, and more! Ideal for inexperienced Game Masters." >}}
+    subtitle="The game provides guidelines on how to handle common situations found in a fantasy adventure game: exploration, travel, social interactions, stealth, combat, magic, vehicles, and more! Ideal for inexperienced Game Masters." >}}
 
   {{< hextra/feature-card
     title="Deadly adventures"
@@ -57,7 +57,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Vile sorcery and holy rites"
-    subtitle="Two types of magic: profane and sacred. Sorcerers have a pool of mana they can spend to cast spells safely, but can push themselves at the cost of corruption, risking miscasts and mutation. Sacred powers are safe, but can be used scarcely and might fail if the caster is corrupted."
+    subtitle="Two types of magic: profane and sacred. Sorcerers have a pool of mana they can spend to invoke profane powers safely, but can push themselves beyond that at the cost of corruption, risking miscasts and mutation. Sacred powers are safe, but can be used scarcely and might fail if the caster is corrupted."
   >}}
   {{< hextra/feature-card
     title="Fast action resolution"
@@ -65,7 +65,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Lightweight skill system"
-    subtitle="Skills are keywords: a character either has them or they don't. They provide significant advantages, such as the ability to succeed in certain actions without rolling or to cast spells."
+    subtitle="Skills are keywords: a character either has them or they don't. They provide significant advantages, such as the ability to invoke magic powers or to pass certain actions without rolling."
   >}}
   {{< hextra/feature-card
     title="Streamlined gear system"

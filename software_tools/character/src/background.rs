@@ -120,10 +120,7 @@ impl Background {
             Self::Charlatan => {
                 "You are a cunning liar, able to convince people of almost anything."
             }
-            Self::Thug => {
-                "A couple of blows with a heavy club are the quickest way to send the right \
-                 message."
-            }
+            Self::Thug => "A sturdy club is the best messenger, you always say.",
             Self::Berserker => {
                 "You are a savage, bloodthirsty warrior, barely able to control your bloodlust."
             }
@@ -607,7 +604,7 @@ impl Background {
                 Asset::Follower(Follower::new(
                     String::from("light horse"),
                     Some(format!(
-                        "Bartadan, STR 12, AGI 4, WIT 8, ~{}~, trained for combat, d6 damage. Old \
+                        "Bartadan, STR 12, AGI 4, WIT 8, ~{}~, trained for combat, d6 damage. Old \
                          and lame: lost the ~{}~ trait",
                         Trait::Sturdy,
                         Trait::Fast,
@@ -856,7 +853,7 @@ impl Background {
                 Asset::Follower(Follower::new(
                     String::from("chicken"),
                     Some(format!(
-                        "Bertha, STR 4, AGI 8, WIT 8, ~{}~, ~{}~ size, d4 damage. Dumb and brave",
+                        "Bertha, STR 4, AGI 8, WIT 8, ~{}~, ~{}~ size, d4 damage. Dumb and brave",
                         Trait::Fast,
                         SizeCategory::Small
                     )),
@@ -864,7 +861,7 @@ impl Background {
                 Asset::Follower(Follower::new(
                     String::from("pig"),
                     Some(String::from(
-                        "Hans, STR 4, AGI 4, WIT 8, d4 damage. Picky about food",
+                        "Hans, STR 4, AGI 4, WIT 8, d4 damage. Picky about food",
                     )),
                 )),
             ],
@@ -923,8 +920,11 @@ impl Background {
                 Asset::Item(Item::from(ItemKind::TrappingTools)),
                 Asset::Follower(Follower::new(
                     String::from("small dog"),
-                    Some(String::from(
-                        "Brutus, trained to hunt rats, small but vicious",
+                    Some(format!(
+                        "Brutus, STR 4, AGI 8, WIT 8, ~{}~, ~{}~, trained to hunt rats, d6 \
+                         damage. Small but vicious",
+                        SizeCategory::Small,
+                        Trait::Fast,
                     )),
                 )),
             ],
