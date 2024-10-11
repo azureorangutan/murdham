@@ -8,13 +8,6 @@ A role-playing game of perilous adventures in a fantasy world, combining the atm
 
 <!--more-->
 
-== Credits
-
-Game design and writing by Galileo Alighieri.
-
-The art on the home page is "`Knight, Death, and the Devil`" by Albrecht Dürer (1513).
-
-
 == Inspiration
 
 * _Into the Odd_ and _Electric Bastionland_, by Chris McDowall.

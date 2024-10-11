@@ -222,7 +222,7 @@ With your honour lost and no coin left to your name, you wander on your steed se
 
 * *Skills*: _ride_, _skilled blow_.
 
-* *Assets*: clothes (colourful livery), light horse (Bartadan, STR 12, AGI 4, WIT 8, _sturdy_, trained for combat, d6 damage. Old and lame: lost the _fast_ trait).
+* *Assets*: clothes (colourful livery), light horse (Bartadan, STR 12, AGI 4, WIT 8, _sturdy_, trained for combat, d6 damage. Old and lame: lost the _fast_ trait).
 
 
 == Labourer
@@ -276,7 +276,7 @@ Your life was simple: growing crops and tending to livestock, trying to put enou
 
 * *Skills*: _animal handling_, _tough_.
 
-* *Assets*: clothes (stinking of manure), chicken (Bertha, STR 4, AGI 8, WIT 8, _fast_, _small_ size, d4 damage. Dumb and brave), pig (Hans, STR 4, AGI 4, WIT 8, d4 damage. Picky about food).
+* *Assets*: clothes (stinking of manure), chicken (Bertha, STR 4, AGI 8, WIT 8, _fast_, _small_ size, d4 damage. Dumb and brave), pig (Hans, STR 4, AGI 4, WIT 8, d4 damage. Picky about food).
 
 
 == Pedlar
@@ -330,7 +330,7 @@ Rats are everywhere and nobody likes them. You offer your services to get rid of
 
 * *Skills*: _disease resistance_, _poison resistance_.
 
-* *Assets*: clothes (partly made of rat fur), trapping tools (bulk 2), small dog (Brutus, trained to hunt rats, small but vicious).
+* *Assets*: clothes (partly made of rat fur), trapping tools (bulk 2), small dog (Brutus, STR 4, AGI 8, WIT 8, _small_, _fast_, trained to hunt rats, d6 damage. Small but vicious).
 
 
 == Scholar
@@ -380,7 +380,7 @@ You are cursed with the ability to see what others can't, and have witnessed the
 
 == Thug
 
-A couple of blows with a heavy club are the quickest way to send the right message.
+A sturdy club is the best messenger, you always say.
 
 * *Skills*: _brawling_, _intimidate_.
 

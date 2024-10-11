@@ -20,13 +20,21 @@ GM characters normally don't have any omens, but exceptions can be made for part
 Characters can spend omens in the following ways.
 It is possible to spend multiple omens on the same roll.
 
-* Reroll a failed save or lost contest.
-If it's a contest, repeat the contest against the character just above in the ranking, swapping positions on a win.
-If it's a group save, other characters are unaffected by the new roll.
-In a contest, characters towards the bottom of the ranking decide whether to spend an omen first.
+* Reroll a die in the following situations, keeping the result which favours you the most:
 
-* Reroll the amount of damage suffered, keeping the lowest roll, or reroll when checking for soulblight after suffering corruption, keeping the roll you prefer.
-It isn't possible to reroll damage inflicted against others.
+** A save.
+If it's a group save, other characters are unaffected by the new roll.
+
+** A contest.
+Characters towards the bottom of the ranking decide whether to spend an omen first.
+
+** Rolls for damage you suffer. You can't reroll damage you inflict since you aren't technically rolling, but your target is.
+
+** Soulblight checks after suffering corruption.
+
+** Chance roll (x:y chances).
+
+** Rolls on a table.
 
 * Save yourself from death.
 Your health is set to 1, you suffer critical damage, and you lose the _dying_ condition, if you have it.
@@ -40,13 +48,11 @@ He rolls a 10, a failure, but decides to spend an omen to reroll.
 This time he gets a 1: he succeeds!
 
 Balthasar (AGI 10), Sybilla (AGI 10), and Theobald (AGI 6) are racing against each other, and must resolve it as an AGI contest.
-After their rolls, the ranking is: Sybilla, then Balthasar, then Theobald.
-Theobald decides to spend an omen to repeat the contest against Balthasar.
-Theobald wins, so the ranking is now Sybilla, then Theobald, then Balthasar.
-Balthasar could spend an omen as well to retry, but chooses not to.
-Theobald now decides to spend another omen to try to surpass Sybilla as well.
-This time he fails, so the ranking doesn't change.
-Since he has no omens left, the contest is over.
+Balthasar rolls an 8, Sybilla a 19, and Theobald a 2.
+The ranking is: Theobald (6−2 = 4), Balthasar (10 - 8 = 2), Sybilla (10 - 19 = -9).
+Sybilla decides to spend an omen a rolls 7, for a new total of 10 - 7 = 3.
+She is now second after Theobald.
+Balthasar could now choose to spend an omen, followed by Sybilla again.
 
 Sybilla suffers d4 damage.
 She rolls 4 (the maximum), then 2, for a total of 5 damage.

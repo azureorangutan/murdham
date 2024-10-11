@@ -135,7 +135,7 @@ You inflict double damage against targets with larger size than you.
 You know how to sing and play music instruments. During a day rest you can play an inspiring song for your party: all companions have a 1:4 chance of recovering 1 spent omen.
 
 * *Pack rat*.
-Your carry limit are increased by 2: you can carry up to 10 bulk unencumbered, and up to 20 encumbered. This also changes how heavy it is to carry you!
+Your carry limit is increased by 2 (you can carry up to 10 bulk unencumbered, and up to 20 bulk encumbered). This also changes your own bulk accordingly!.
 
 * *Piercing strike*.
 If you roll higher than the target's armour value with an attack you ignore armour and inflict full damage. If you roll equal or lower, you inflict no damage as usual. This skill doesn't work in situations where you are required to pass a WIT save to hit.
