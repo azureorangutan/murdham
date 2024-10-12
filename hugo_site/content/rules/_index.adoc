@@ -8,7 +8,11 @@ A role-playing game of perilous adventures in a fantasy world, combining the atm
 
 <!--more-->
 
-== Inspiration
+== Credits
+
+Designed and written by Galileo Alighieri.
+
+Inspired by:
 
 * _Into the Odd_ and _Electric Bastionland_, by Chris McDowall.
 
