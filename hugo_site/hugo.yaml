@@ -62,9 +62,6 @@ menu:
     - name: Rules
       weight: 1
       pageRef: /rules
-    - name: Blog
-      weight: 2
-      pageRef: /blog
     - name: Character generator
       weight: 3
       pageRef: /character_generator

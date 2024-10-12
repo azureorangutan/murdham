@@ -25,7 +25,6 @@ layout: hextra-home
 
   {{< cards >}}
     {{< card link="rules" title="Rules" icon="document-duplicate" >}}
-    {{< card link="blog" title="Blog" icon="newspaper" >}}
     {{< card link="character_generator" title="Character generator" icon="user-group" >}}
     {{< card link="game_resources" title="Resources" icon="cloud-download" >}}
   {{< /cards >}}
