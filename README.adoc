@@ -3,4 +3,4 @@
 
 A role-playing game of perilous adventures in a fantasy world, combining the atmosphere of old school British role-playing games with light and streamlined rules.
 
-link:https://azureorangutan.github.io/murdham/[Link to the website]
+link:https://murdham.azureorangutan.com[Link to the website]
