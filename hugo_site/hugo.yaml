@@ -133,6 +133,10 @@ params:
     enable: false
     # base: ""
 
+  blog:
+    list:
+      displayTags: true
+
 # services:
 #   googleAnalytics:
 #     ID: G-MEASUREMENT_ID
