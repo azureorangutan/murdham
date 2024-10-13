@@ -4,7 +4,7 @@ layout: hextra-home
 ---
 
 {{< hextra/hero-container
-  image="knight_death_devil.jpg"
+  image="pics/knight_death_devil.jpg"
   imageClass="hx-block hx-overflow-hidden hx-rounded-3xl"
   imageWidth="600" imageHeight="400"
   imageTitle="Knight, Death, and the Devil"
