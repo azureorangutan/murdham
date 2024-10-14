@@ -68,8 +68,11 @@ menu:
     - name: Resources
       weight: 4
       pageRef: /game_resources
-    - name: Itch.io
+    - name: Author's blog
       weight: 5
+      url: https://azureorangutan.com
+    - name: Itch.io
+      weight: 6
       url: https://azureorangutan.itch.io/murdham
     - name: Search
       weight: 10
