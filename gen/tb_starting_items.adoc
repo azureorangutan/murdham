@@ -29,16 +29,16 @@ h|D12
 |Chess set
 |Climbing gear (bulk 2)
 |8
+|Disguise kit (bulk 2)
 |Field kitchen (bulk 2)
-|Music instrument (flute)
 |9
 |Grappling hook, 6ʂ
-|Signet ring (bulk ½; stolen)
-|10
 |Lucky charm (bulk ½; cornicello)
+|10
+|Signet ring (bulk ½; stolen)
 |Marbles (bulk ½), 6ʂ
 |11
-|Muzzle, 6ʂ
+|Music instrument (flute)
 |Pipe & tobacco (bulk ½; consumable), 6ʂ
 |12
 |Rope ladder (bulk 2), 6ʂ

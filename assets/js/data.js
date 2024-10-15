@@ -7,7 +7,7 @@ feminine_name: "Acrobat",
 description: "You earned your fare performing spectacular and dangerous acrobatic feats.",
 abilities: [0, 0, 0],
 skills: {
-"Acrobatics": "Reduce difficulty or sprint while balancing. Reduce difficulty while leaping. When you fall, you reduce the falling distance by 4 metres, if you pass the AGI save, and by 2 metres even if you fail.",
+"Acrobatics": "Reduce difficulty or sprint while balancing. Reduce difficulty while leaping. When you fall, you reduce the falling distance by 4 metres if you pass the AGI save, and by 2 metres even if you fail.",
 "Contortionist": "Your joints are extremely flexible and you can bend your body in absurd shapes. You can squeeze through small openings and easily escape bonds.",
 },
 mana: 0,
@@ -45,8 +45,8 @@ feminine_name: "Artisan",
 description: "You know how to keep equipment in good order: nothing is more dangerous than a blunt sword or a cracked shield.",
 abilities: [0, 0, 0],
 skills: {
-"Craft": "You can repair items without a <i>toolbox</i> or without having to pass a save to succeed You can craft non-consumable items, such as weapons, armour, and vehicles. This takes a watch and requires raw materials worth ¼ of the item and a workshop with all the necessary tools and equipment. Crafting items with the <i>durability</i> keyword takes one watch every 2 points of durability.",
-"Piercing strike": "If you roll higher than the target's armour value with an attack you ignore armour and inflict full damage. If you roll equal or lower, you inflict no damage as usual. This skill doesn't work in situations where you are required to pass a WIT save to hit.",
+"Craft": "You can repair items without a <i>toolbox</i> or without having to pass a save to succeed You can craft non-consumable items, such as weapons, armour, and vehicles. This takes a watch and requires raw materials worth ¼ of the item and a workshop with all the necessary tools and equipment. Crafting items with the <i>health</i> keyword takes one watch every 2 points of health.",
+"Piercing strike": "If you roll higher than the target's armour value with an attack you ignore it and inflict full damage. If you roll equal or lower, you inflict no damage as usual. This skill doesn't work in situations where you are required to pass a WIT save to hit as it requires full precision.",
 },
 mana: 0,
 assets: [
@@ -64,7 +64,7 @@ description: "For the right amount of coins, everyone can be taken care of.",
 abilities: [0, 0, 0],
 skills: {
 "Sneak attack": "You always inflict d12 damage when you attack unaware targets, no matter what weapons you use or if you are unarmed. Unarmed attacks are still impaired.",
-"Stealth": "Reduce difficulty or sprint while sneaking. When your group is detected by another group, make an AGI save: if you pass you still managed to conceal yourself.",
+"Stealth": "Reduce difficulty or sprint while sneaking. When your group is detected by another group, make an AGI save: if you pass you managed to stay hidden.",
 },
 mana: 0,
 assets: [
@@ -82,7 +82,7 @@ feminine_name: "Barber Surgeon",
 description: "A sharp razor and a steady hand are required for both a clean shave and delicate surgeries.",
 abilities: [0, 0, 0],
 skills: {
-"Heal": "When you use a <i>medicine box</i>: heal half STR in a stretch, or d8 damage (up to half STR) as a main action. When you use <i>surgery tools</i>, you are automatically successful without needing to pass a WIT save. You can attempt surgeries without tools, but you need to pass a WIT save then.",
+"Heal": "When you use a <i>medicine box</i>: heal half STR in a stretch, or d8 damage (up to half STR) in a round. You can perform surgeries without <i>surgery tools</i> or without having to pass a save to succeed.",
 "Strike to injure": "When you inflict critical damage, you may choose to injure or kill the target. You choose what injury to apply instead of rolling on the table (it must still make somewhat sense), and you may choose that it is permanent rather than temporary.",
 },
 mana: 0,
@@ -119,7 +119,7 @@ feminine_name: "Berserker",
 description: "You are a savage, bloodthirsty warrior, barely able to control your bloodlust.",
 abilities: [0, 0, 0],
 skills: {
-"Battle frenzy": "You can become <i>frenzied</i> by spending a main action, or immediately when you suffer damage. The condition lasts until all enemies have been defeated. You can spend a main action to try to calm yourself by passing a WIT save. While you are frenzied, you recover 1 health for each enemy you kill.",
+"Battle frenzy": "You can become <i>frenzied</i> by spending a round inciting yourself into a frothing rage, or immediately when you suffer damage. The condition lasts until all enemies have been defeated or you spend a round trying to calm yourself and pass a WIT save. While you are <i>frenzied</i>, you recover 1 health for each enemy you kill.",
 "Cleave": "When you inflict critical damage or kill a target with a melee attack, you can immediately attack another target with the same weapon. You can do this at most once per turn, and not while countering.",
 },
 mana: 0,
@@ -138,7 +138,7 @@ description: "You have ferried passengers and smuggled goods along the many rive
 abilities: [0, 0, 0],
 skills: {
 "Boatmanship": "You count as two people when rowing a boat and know how to sail. When you forage, on a <i>fish</i> result you find an additional <i>ration</i>, even if you don't have <i>fishing tools</i>.",
-"Swim": "Reduce difficulty or sprint while swimming.  Your attacks aren't impaired while in water. You can hold your breath for twice as long.",
+"Swim": "Reduce difficulty or sprint while swimming. Your attacks aren't impaired while in water. You can hold your breath for twice as long.",
 },
 mana: 0,
 assets: [
@@ -156,7 +156,7 @@ description: "You worked for the rich and powerful, protecting them from robbers
 abilities: [0, 0, 0],
 skills: {
 "Protect": "You can guard for free, without spending your turn, any number of times.",
-"Shield mastery": "When you hold a shield, your armour value is increased by 1 against all attacks, not just if you react or are countered. If you are unaware of the attack, however, your shield still doesn't protect you.",
+"Shield mastery": "When you hold a shield, your armour value is increased by 1 against all attacks, not just if you react or are countered.",
 },
 mana: 0,
 assets: [
@@ -195,7 +195,7 @@ description: "You used to roam the cities and the countryside, capturing wanted 
 abilities: [0, 0, 0],
 skills: {
 "Disarm": "Targets of your disarm attacks can't resist with a STR save unless they also have this skill. You can only be disarmed by characters with this skill.",
-"Strike to stun": "When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock...) you may choose to inflict no damage. You must still roll the damage die and compare the result with their current health. If damage beats or exceeds half the target's health, they are <i>incapacitated</i> until the end of the stretch. if damage beats or exceeds the target's entire health, they are <i>incapacitated</i> until the end of the watch. ",
+"Strike to stun": "When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock...) you may choose to inflict no damage. You still roll the damage die and compare the result with the target's current health. If damage reaches or exceeds half the target's health, they are <i>incapacitated</i> until the end of the stretch. if damage reaches or exceeds the target's entire health, they are <i>incapacitated</i> until the end of the watch.",
 },
 mana: 0,
 assets: [
@@ -233,7 +233,7 @@ description: "There is no lock you can't open and no safe you can't crack.",
 abilities: [0, 0, 0],
 skills: {
 "Burglary": "Reduce difficulty when opening a lock, do it without tools (<i>crowbar</i> or <i>lock picks</i>), do it silently, or do it in only a round. You can react to all traps you trigger, even if you weren't aware of them.",
-"Pack rat": "Your carry limit is increased by 2 (you can carry up to 10 bulk unencumbered, and up to 20 bulk encumbered). This also changes your own bulk accordingly!.",
+"Pack rat": "Your carry limit is increased by 2 (you can carry up to 10 bulk unencumbered, and up to 20 bulk encumbered). This also changes your own bulk accordingly!",
 },
 mana: 0,
 assets: [
@@ -289,7 +289,7 @@ description: "Some are born with too much: those wealthy nobs aren't going to no
 abilities: [0, 0, 0],
 skills: {
 "Steal": "Reduce difficulty while stealing, or attempt to steal an item with bulk 1 instead of ½.",
-"Stealth": "Reduce difficulty or sprint while sneaking. When your group is detected by another group, make an AGI save: if you pass you still managed to conceal yourself.",
+"Stealth": "Reduce difficulty or sprint while sneaking. When your group is detected by another group, make an AGI save: if you pass you managed to stay hidden.",
 },
 mana: 0,
 assets: [
@@ -326,7 +326,7 @@ description: "You were a performer at a travelling carnival, executing a vast ar
 abilities: [0, 0, 0],
 skills: {
 "Contortionist": "Your joints are extremely flexible and you can bend your body in absurd shapes. You can squeeze through small openings and easily escape bonds.",
-"Fire eating": "You can consume <i>alcoholic drink</i> and spit it through an open flame, such as a lit <i>torch</i>, to make a melee blast attack inflicting d4 fire damage. You reduce incoming fire damage by 1.",
+"Fire eating": "You can consume an <i>alcoholic drink</i> and spit it through an open flame, such as a lit <i>alcoholic drink</i>, to make a melee blast attack inflicting d4 fire damage. The normal effects of an <i>torch</i> of course don't apply. You reduce incoming fire damage by 1.",
 },
 mana: 0,
 assets: [
@@ -346,7 +346,7 @@ description: "You have spent years mugging unaware victims in shady alleys and d
 abilities: [0, 0, 0],
 skills: {
 "Sneak attack": "You always inflict d12 damage when you attack unaware targets, no matter what weapons you use or if you are unarmed. Unarmed attacks are still impaired.",
-"Strike to stun": "When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock...) you may choose to inflict no damage. You must still roll the damage die and compare the result with their current health. If damage beats or exceeds half the target's health, they are <i>incapacitated</i> until the end of the stretch. if damage beats or exceeds the target's entire health, they are <i>incapacitated</i> until the end of the watch. ",
+"Strike to stun": "When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock...) you may choose to inflict no damage. You still roll the damage die and compare the result with the target's current health. If damage reaches or exceeds half the target's health, they are <i>incapacitated</i> until the end of the stretch. if damage reaches or exceeds the target's entire health, they are <i>incapacitated</i> until the end of the watch.",
 },
 mana: 0,
 assets: [
@@ -384,7 +384,7 @@ description: "You were blessed with great power, but never received the educatio
 abilities: [0, 0, 0],
 skills: {
 "Augury": "You can spend a stretch to consult the entrails of a dead medium-sized animal to gain an omen. Sometimes, the entrails might provide a useful piece of information, at the GM's discretion.",
-"Sorcery": "You can read and write. You can speak and understand Magick, the language used to invoke profane powers. This language is too convoluted to be used to communicate, but is essential to use magic. You can invoke profane powers. You can increase your maximum mana by 1 instead of taking a normal advancement, up to 6 at most.",
+"Sorcery": "You can read and write. You can speak and understand Magick. You can invoke profane powers. You can increase your maximum mana by 1 instead of taking a normal advancement, up to 6 at most.",
 },
 mana: 0,
 assets: [
@@ -401,8 +401,8 @@ feminine_name: "Herbalist",
 description: "You were a village healer, curing ailments with plants and natural remedies.",
 abilities: [0, 0, 0],
 skills: {
-"Apothecary": "You can craft medicinal substances, such as <i>antidote</i>, <i>cure-all</i>, <i>darkroot</i>, <i>healing draught</i>, <i>madcap mushroom</i>, <i>medicine box</i>, and all kinds of poison. This requires suitable ingredients and <i>apothecary tools</i>. Creating a single dose takes only a stretch of time, but ingredients are rare. It takes a watch to gather them in the wilderness (if they are locally present), or to find them for sale in a settlement (they are worth ¼ the value of the end product).",
-"Heal": "When you use a <i>medicine box</i>: heal half STR in a stretch, or d8 damage (up to half STR) as a main action. When you use <i>surgery tools</i>, you are automatically successful without needing to pass a WIT save. You can attempt surgeries without tools, but you need to pass a WIT save then.",
+"Apothecary": "You can craft medicinal substances, such as <i>antidote</i>, <i>cure-all</i>, <i>healing draught</i>, <i>medicine box</i>, and all kinds of drugs and poisons. This requires suitable ingredients and <i>apothecary tools</i>. Creating a dose takes only a stretch of time, but ingredients are rare. It takes a watch to gather them in the wilderness (if they are locally present), or to find them for sale in a settlement (they are worth ¼ the value of the end product).",
+"Heal": "When you use a <i>medicine box</i>: heal half STR in a stretch, or d8 damage (up to half STR) in a round. You can perform surgeries without <i>surgery tools</i> or without having to pass a save to succeed.",
 },
 mana: 0,
 assets: [
@@ -420,7 +420,7 @@ feminine_name: "Huntress",
 description: "When you hunt in the dark forests of the Kingdom, you sometimes wonder if you really are the hunter or rather the prey.",
 abilities: [0, 0, 0],
 skills: {
-"Bushcraft": "Pass a WIT save to ignore the movement penalty when travelling between sectors or regions without following a path. If you have <i>navigation tools</i>, you pass automatically. You can sleep in the wilderness without a <i>camping kit</i>. When you forage, you roll twice on the foraging table and apply both results.",
+"Bushcraft": "Pass a WIT save to ignore the movement penalty when travelling between sectors or regions without following a path. If you have <i>navigation tools</i>, you pass automatically. You can sleep in the wilderness without a <i>camping kit</i>. When you forage, you roll twice on the foraging table and apply both results. Reduce difficulty to find drinkable water in the wilderness.",
 "Hunt": "Reduce difficulty when following trails. When you forage, on a <i>small game</i> result you find an additional <i>ration</i>, even if you don't have <i>trapping tools</i>.",
 },
 mana: 0,
@@ -438,7 +438,7 @@ feminine_name: "Jester",
 description: "You have spent your life making a fool of yourself to entertain the nobles, but you will have the last laugh!",
 abilities: [0, 0, 0],
 skills: {
-"Acrobatics": "Reduce difficulty or sprint while balancing. Reduce difficulty while leaping. When you fall, you reduce the falling distance by 4 metres, if you pass the AGI save, and by 2 metres even if you fail.",
+"Acrobatics": "Reduce difficulty or sprint while balancing. Reduce difficulty while leaping. When you fall, you reduce the falling distance by 4 metres if you pass the AGI save, and by 2 metres even if you fail.",
 "Blather": "You are able to speak endless strings of nonsense, leaving others dumbfounded. Reduce difficulty when distracting and taunting people.",
 },
 mana: 0,
@@ -475,8 +475,8 @@ feminine_name: "Labourer",
 description: "Your bones and muscles have been hardened by years of toiling under sun and rain.",
 abilities: [0, 0, 0],
 skills: {
-"Pack rat": "Your carry limit is increased by 2 (you can carry up to 10 bulk unencumbered, and up to 20 bulk encumbered). This also changes your own bulk accordingly!.",
-"Tough": "Your maximum health, and the threshold for instant death, are increased by 2 (they equal your STR plus 2).",
+"Pack rat": "Your carry limit is increased by 2 (you can carry up to 10 bulk unencumbered, and up to 20 bulk encumbered). This also changes your own bulk accordingly!",
+"Tough": "Your maximum health, as well as the threshold for instant death, are increased by 2 (they equal your STR plus 2).",
 },
 mana: 0,
 assets: [
@@ -494,7 +494,7 @@ feminine_name: "Messenger",
 description: "Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner.",
 abilities: [0, 0, 0],
 skills: {
-"Languages": "You can read and write. Each time you encounter a new language in your adventures there is chance you actually know it: 1:2 for common languages, 1:4 for dead or remote languages. Keep track of the languages you can speak.",
+"Languages": "You can read and write. Each time you encounter a new language in your adventures there is chance you actually know it: 1:2 for common languages, 1:4 for dead or remote languages. Keep track of the languages you can and can't speak. After a full rest, you can learn a language you don't know and have previously encountered.",
 "Fleet footed": "When you sprint, you can move by an additional zone. You must only make an AGI save to sprint every two rounds (at the start of the 3rd, 5th, 7th... rounds). You can freely dodge attacks of opportunity without needing to spend your turn.",
 },
 mana: 0,
@@ -514,7 +514,7 @@ description: "Crawling through dark, cramped tunnels breathing dust was not the 
 abilities: [0, 0, 0],
 skills: {
 "Climb": "Reduce difficulty or sprint while climbing. Your attacks aren't impaired while climbing.",
-"Piercing strike": "If you roll higher than the target's armour value with an attack you ignore armour and inflict full damage. If you roll equal or lower, you inflict no damage as usual. This skill doesn't work in situations where you are required to pass a WIT save to hit.",
+"Piercing strike": "If you roll higher than the target's armour value with an attack you ignore it and inflict full damage. If you roll equal or lower, you inflict no damage as usual. This skill doesn't work in situations where you are required to pass a WIT save to hit as it requires full precision.",
 },
 mana: 0,
 assets: [
@@ -551,7 +551,7 @@ feminine_name: "Outlaw",
 description: "The hills and woods are teeming with people escaping the law such as yourself.",
 abilities: [0, 0, 0],
 skills: {
-"Bushcraft": "Pass a WIT save to ignore the movement penalty when travelling between sectors or regions without following a path. If you have <i>navigation tools</i>, you pass automatically. You can sleep in the wilderness without a <i>camping kit</i>. When you forage, you roll twice on the foraging table and apply both results.",
+"Bushcraft": "Pass a WIT save to ignore the movement penalty when travelling between sectors or regions without following a path. If you have <i>navigation tools</i>, you pass automatically. You can sleep in the wilderness without a <i>camping kit</i>. When you forage, you roll twice on the foraging table and apply both results. Reduce difficulty to find drinkable water in the wilderness.",
 "Skilled shot": "You improve the damage die of ranged attacks: d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. In case of blast attacks only one target takes increased damage.",
 },
 mana: 0,
@@ -570,7 +570,7 @@ description: "Your life was simple: growing crops and tending to livestock, tryi
 abilities: [0, 0, 0],
 skills: {
 "Animal handling": "You know how to take care of animals: feeding, grooming, taming, training, recognising signs of discomfort, etc. You can befriend wild animals by offering food <i>and</i> passing a WIT save, and domesticated animals by offering food <i>or</i> passing a WIT save. Befriended animals follow you until the end of the watch or you leave the area where they live. You can't befriend hostile animals, and you can only be accompanied by one befriended animal at a time.",
-"Tough": "Your maximum health, and the threshold for instant death, are increased by 2 (they equal your STR plus 2).",
+"Tough": "Your maximum health, as well as the threshold for instant death, are increased by 2 (they equal your STR plus 2).",
 },
 mana: 0,
 assets: [
@@ -608,8 +608,8 @@ feminine_name: "Physician",
 description: "You are an erudite doctor, knowledgeable about poison, disease, antidotes, and cures.",
 abilities: [0, 0, 0],
 skills: {
-"Apothecary": "You can craft medicinal substances, such as <i>antidote</i>, <i>cure-all</i>, <i>darkroot</i>, <i>healing draught</i>, <i>madcap mushroom</i>, <i>medicine box</i>, and all kinds of poison. This requires suitable ingredients and <i>apothecary tools</i>. Creating a single dose takes only a stretch of time, but ingredients are rare. It takes a watch to gather them in the wilderness (if they are locally present), or to find them for sale in a settlement (they are worth ¼ the value of the end product).",
-"Medicine": "You can read and write. You can speak and understand Classic, the language of scholars and the Church. You can diagnose poison and disease by spending a round examining a victim. After diagnosing, you can instruct someone with the <i>apothecary</i> skill to create a bespoke <i>antidote</i> or <i>cure-all</i> which always works against that specific poison or disease.",
+"Apothecary": "You can craft medicinal substances, such as <i>antidote</i>, <i>cure-all</i>, <i>healing draught</i>, <i>medicine box</i>, and all kinds of drugs and poisons. This requires suitable ingredients and <i>apothecary tools</i>. Creating a dose takes only a stretch of time, but ingredients are rare. It takes a watch to gather them in the wilderness (if they are locally present), or to find them for sale in a settlement (they are worth ¼ the value of the end product).",
+"Medicine": "You can read and write. You can speak and understand Classic. You can diagnose poison and disease by spending a round examining a victim. After diagnosing, you can instruct someone with the <i>apothecary</i> skill to create a bespoke <i>antidote</i> or <i>cure-all</i> which always works against that specific poison or disease.",
 },
 mana: 0,
 assets: [
@@ -648,7 +648,7 @@ description: "Yours is the burden to teach and guide people so that they don't s
 abilities: [0, 0, 0],
 skills: {
 "Incorruptible": "You heal 1 corruption on a day rest and all corruption on a full rest.",
-"Faith": "You can read and write. You can speak and understand Classic, the language of scholars and the Church. You can invoke sacred powers.",
+"Faith": "You can read and write. You can speak and understand Classic. You can invoke sacred powers.",
 },
 mana: 0,
 assets: [
@@ -665,7 +665,7 @@ feminine_name: "Raconteur",
 description: "You have travelled far and wide across the kingdom, singing songs and act out enthralling stories.",
 abilities: [0, 0, 0],
 skills: {
-"Act": "You are able to convincingly fake emotions and to disguise your voice and accent. This might give you an advantage in suitable social interactions or can be used to complement a disguise.",
+"Act": "You are able to convincingly fake emotions and to disguise your voice and accent. This might give you an advantage in suitable social interactions and can be used to better disguise yourself, changing your voice, accent, and mannerism.",
 "Music": "You know how to sing and play music instruments. During a day rest you can play an inspiring song for your party: all companions have a 1:4 chance of recovering 1 spent omen.",
 },
 mana: 0,
@@ -702,8 +702,8 @@ feminine_name: "Scholar",
 description: "Hunched over dusty ancient tomes, you have accumulated vast amounts of knowledge: time to put it into practice!",
 abilities: [0, 0, 0],
 skills: {
-"Alchemy": "You can read and write. You can speak and understand Classic, the language of scholars and the Church. You can craft alchemical substances, such as <i>acid vials</i>, <i>alchemist's fires</i>, <i>flash powder</i>, and <i>smoke bombs</i>. This requires raw materials (worth ¼ of the item) and an alchemist's workshop. You can craft a batch of 2 consumables of the same type in a watch.",
-"Erudition": "You can read, write, and perform advanced calculations. You can speak and understand Classic, the language of scholars and the Church. You are an expert in all manners of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy, etc. The GM might give you additional information when it makes sense.",
+"Alchemy": "You can read and write. You can speak and understand Classic. You can craft alchemical substances, such as <i>acid vials</i>, <i>alchemist's fires</i>, <i>flash powder</i>, and <i>smoke bombs</i>. This requires raw materials (worth ¼ of the item) and an alchemist's workshop. You can craft a batch of 2 doses of the same substance in a watch.",
+"Erudition": "You can read, write, and perform advanced calculations. You can speak and understand Classic. You are an expert in all fields of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy... The GM might give you further insight when such topics are involved.",
 },
 mana: 0,
 assets: [
@@ -741,7 +741,7 @@ description: "There is good pay for slaying giant monsters: it's a dangerous job
 abilities: [0, 0, 0],
 skills: {
 "Dodge blows": "You can dodge for free, without spending your turn, once per round.",
-"Monster slaying": "You inflict double damage against targets with larger size than you.",
+"Monster slaying": "You inflict double damage against targets of larger size than yourself.",
 },
 mana: 0,
 assets: [
@@ -871,7 +871,7 @@ feminine_name: "Witch",
 description: "You are a secretive scholar of the esoteric arts: many fear you, and with good reason.",
 abilities: [0, 0, 0],
 skills: {
-"Sorcery": "You can read and write. You can speak and understand Magick, the language used to invoke profane powers. This language is too convoluted to be used to communicate, but is essential to use magic. You can invoke profane powers. You can increase your maximum mana by 1 instead of taking a normal advancement, up to 6 at most.",
+"Sorcery": "You can read and write. You can speak and understand Magick. You can invoke profane powers. You can increase your maximum mana by 1 instead of taking a normal advancement, up to 6 at most.",
 },
 mana: 1,
 assets: [
@@ -888,7 +888,7 @@ feminine_name: "Zealot",
 description: "You have a dark past and many sins to atone for: you are going to save your soul by purging the heretic!",
 abilities: [0, 0, 0],
 skills: {
-"Battle frenzy": "You can become <i>frenzied</i> by spending a main action, or immediately when you suffer damage. The condition lasts until all enemies have been defeated. You can spend a main action to try to calm yourself by passing a WIT save. While you are frenzied, you recover 1 health for each enemy you kill.",
+"Battle frenzy": "You can become <i>frenzied</i> by spending a round inciting yourself into a frothing rage, or immediately when you suffer damage. The condition lasts until all enemies have been defeated or you spend a round trying to calm yourself and pass a WIT save. While you are <i>frenzied</i>, you recover 1 health for each enemy you kill.",
 "Bravery": "You are immune to fear and treat terror as fear",
 },
 mana: 0,
@@ -945,13 +945,13 @@ export const items = [
 ["oil lamp (bulk ½; consumable)", 6],
 ["chess set", 0],
 ["climbing gear (bulk 2)", 0],
+["disguise kit (bulk 2)", 0],
 ["field kitchen (bulk 2)", 0],
-["music instrument (flute)", 0],
 ["grappling hook", 6],
-["signet ring (bulk ½; stolen)", 0],
 ["lucky charm (bulk ½; cornicello)", 0],
+["signet ring (bulk ½; stolen)", 0],
 ["marbles (bulk ½)", 6],
-["muzzle", 6],
+["music instrument (flute)", 0],
 ["pipe & tobacco (bulk ½; consumable)", 6],
 ["rope ladder (bulk 2)", 6],
 ["saddle (bulk 2)", 0],

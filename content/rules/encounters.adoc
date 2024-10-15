@@ -24,7 +24,6 @@ They will still expect to get something in return at some point.
 They still won't do something which will harm them, and if they start feeling they are taken advantage of their attitude might worsen.
 
 
-
 == Diplomacy
 
 Characters who try to use diplomacy on others must pass a WIT save to determine if they are charismatic enough to succeed.
@@ -68,13 +67,24 @@ Torturing an imprisoned character takes a stretch of time and inflicts d6 direct
 The target, if still alive and conscious, must pass a WIT save or give up and talk.
 
 
-== Playing games
+== Languages
 
-A game is resolved as an ability contest, usually WIT or AGI.
-Luck-based games are resolved with a d20 roll, with the winner being whoever rolls lowest.
+* _Common_ is the lingua franca of the Kingdom.
+Pretty much everyone in the land can speak it, with more or less atrocious accent.
 
-Cheating requires declaring how the attempt is made and passing a WIT save to avoid detection.
-The GM should roll the contest d20 secretly for GM characters to avoid giving away if they are cheating: if they play honestly it is their contest roll, if they are cheating it is their WIT save to avoid detection.
+* _Classic_ is the language of scholars and the Church.
+Erudites from the Kingdom and other countries can speak it and use it communicate.
+Sacred power scrolls are written in Classic.
+
+* _Magick_ is the language of sorcery.
+It is too cryptic and esoteric to be used to communicate effectively.
+Profane power scrolls are written using this language.
+
+* Different regions, countries, and people speak a variety of languages.
+Which ones matter depend on the campaign setting.
+
+All Player characters can speak Common plus other languages if granted by their skills.
+Characters can't read, write, or perform anything but very simple calculations unless they have a skill which grants this ability: education is a privilege for the few!
 
 
 == Stealing
@@ -108,3 +118,12 @@ You can assume that most GM characters willing to buy most common gear and goods
 
 Player characters can spend a watch in a settlement to talk with the locals and hear interesting rumours.
 The GM decides what they hear, and it might not necessarily be true.
+
+
+== Playing games
+
+A game is resolved as an ability contest, usually WIT or AGI.
+Luck-based games are resolved with a d20 roll, with the winner being whoever rolls lowest.
+
+Cheating requires declaring how the attempt is made and passing a WIT save to avoid detection.
+The GM should roll the contest d20 secretly for GM characters to avoid giving away if they are cheating: if they play honestly it is their contest roll, if they are cheating it is their WIT save to avoid detection.

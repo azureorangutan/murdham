@@ -6,11 +6,14 @@ next: /rules/hazards
 ---
 :toc:
 
-== Perception
+== Perception and knowledge
 
-The GM reveals to the Players what they can see, hear, smell, and feel.
-The GM should lean on the side of providing too much information rather than too little: the Players can't play effectively if they don't have enough information.
-The Players should ask questions to clarify any doubts if they don't have a clear picture of the situation in their mind.
+The GM has the task of revealing to the Players what they can see, hear, smell, feel, and know.
+They can take the Player characters' skills, background, and history to evaluate what they might know or notice.
+For example, a character with the _medicine_ skills would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat catcher_ background would surely know a lot about those pesky rodents.
+
+The Players should ask clarifying questions if the situation isn't clear to them, and point out if they think their character has a skill or property which might help to know more about something.
+This helps the GM run the game in the best possible way!
 
 
 == Concealed elements
@@ -35,18 +38,7 @@ If only one group notices the other, it has the opportunity to decide how to app
 If both or neither group notices the other, the two sides stumble upon each other and the encounter can't be avoided.
 
 
-== Knowledge
+== Sneaking
 
-The GM provides information to the Players based on what their characters should realistically know.
-They can take their skills, background, and history into account.
-For example, a character with the _medicine_ skills would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat catcher_ background would surely know a lot about those pesky rodents.
-
-The Players should remind the GM if they think their characters might know more about a specific topic, and the GM can reveal additional information if deemed appropriate.
-
-
-== Languages
-
-Player characters can speak Common, the lingua franca of the Kingdom.
-The ability to speak additional languages is granted by skills or the character's history.
-
-Characters can't read, write, or perform anything but very simple calculations unless they have a skill which grants this ability: education is a privilege for the few!
+Characters who haven't been detected can attempt to move around while staying hidden by sneaking, following the rules described in the link:../movement[Movement] chapter.
+It must still be realistically possible to sneak: there must be cover or darkness to hide, and the possibility to move without significant noise.

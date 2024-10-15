@@ -23,9 +23,16 @@ Animals don't need a _camping kit_, and they don't need a _ration_ or a _drink_ 
 
 == Foraging
 
-Characters can spend a watch looking for food in the wilderness.
-They roll on the <<tb_foraging>> table to see if they find something edible.
+Characters might find themselves in the tricky situation where they run out of food or water in the wilderness.
+In this case, foraging is necessary to find the resources to rest and survive.
+
+Foraging for food in the wilderness takes a watch.
+Characters who do so roll on the <<tb_foraging>> table to see if they find something edible.
 _Rations_ gathered in this way are perishable and are discarded if not consumed before the next day rest.
+
+In many environments, water is plenty and you don't need to track the need for it.
+If the characters find themselves in an area where water is scarce, they need to spend a watch and pass a WIT save to find a source of drinkable water.
+In places completely devoid of water, such as a desert, finding water is impossible.
 
 .Foraging
 [[tb_foraging]]

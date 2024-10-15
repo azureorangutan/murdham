@@ -36,7 +36,7 @@ _Medium-sized demon_, _human intelligence_. +
 A skull-faced man with horribly bloated skin, covered in pustules and boils. Creates new diseases and experiments on humans. +
 *STR* 8, *AGI* 4, *WIT* 8 +
 _Medium-sized demon_, _human intelligence_. +
-*Apothecary*. You can craft medicinal substances, such as _antidote_, _cure-all_, _darkroot_, _healing draught_, _madcap mushroom_, _medicine box_, and all kinds of poison. This requires suitable ingredients and _apothecary tools_. Creating a single dose takes only a stretch of time, but ingredients are rare. It takes a watch to gather them in the wilderness (if they are locally present), or to find them for sale in a settlement (they are worth ¼ the value of the end product). +
+*Apothecary*. You can craft medicinal substances, such as _antidote_, _cure-all_, _healing draught_, _medicine box_, and all kinds of drugs and poisons. This requires suitable ingredients and _apothecary tools_. Creating a dose takes only a stretch of time, but ingredients are rare. It takes a watch to gather them in the wilderness (if they are locally present), or to find them for sale in a settlement (they are worth ¼ the value of the end product). +
 *Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_. +
 *Assets*: clothes (filthy hooded cloak), rusty dagger (d4 damage). +
 *Bloated flesh*. Armour value 1. +
