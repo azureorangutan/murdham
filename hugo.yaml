@@ -68,7 +68,7 @@ menu:
     - name: Resources
       weight: 4
       pageRef: /game_resources
-    - name: Author's blog
+    - name: Blog
       weight: 5
       url: https://azureorangutan.com
     - name: Itch.io
