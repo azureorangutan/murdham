@@ -35,10 +35,13 @@ Provides a place to sleep, food, and water during a full rest.
 
 * *Repair* (*).
 Repair a damaged item by paying ¼ of its value.
-Items with the _durability_ keyword recover 2 health per watch.
+Items with the _health_ keyword recover 2 health per watch.
 
 
 == Other services
+
+* *Workshop* (4ʂ).
+Price to rent a workshop for a day, for example to make use of the _alchemy_ or _craft_ skill.
 
 * *Courier* (*).
 Delivers a message to a recipient.

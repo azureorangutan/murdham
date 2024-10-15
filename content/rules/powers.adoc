@@ -38,28 +38,26 @@ He currently has 2 corruption, meaning that the power is only effective on a rol
 
 == Invoking profane powers
 
-Invoking a profane power only takes a few seconds (a main action in combat).
+Invoking a profane power only takes a round.
 The invoker must spend 1 mana to cast the power.
 If they have no mana left, they suffer 2 corruption instead.
 
-Profane powers are cast at most at a level equal to the invoker's current mana (before spending it).
-The maximum level can be increased by 1 either by spending a full stretch to invoke the power (instead of a few seconds), or by suffering 2 corruption.
+When casting a profane power, invokers can spend a number of enhancement points (EPs) equal to their current mana (before reducing it).
+They can get an additional EP either by spending a full stretch to invoke the power (instead of a round), or by suffering 2 corruption.
 
-Powers cast as described have level 0.
-Applying the following generic enhancements, or any specific enhancement in the power description, increases the level by the indicated amount.
-The same enhancement can be applied multiple times.
+EPs can be spent to buy the following generic enhancements, or any specific enhancement specified in the power's description:
 
-* Level+1 -- Target a small zone, affecting all valid targets within it or on its borders.
+* 1 EP -- Target a small zone, affecting all valid targets within it or on its borders.
 
-* Level+1 -- Double the number of targets or targeted zones.
+* 1 EP -- Double the number of targets or targeted zones.
 
-* Level+1 -- Improve range by one category.
+* 1 EP -- Improve range by one category.
 
-* Level+1 -- Invoke the power silently, without pronouncing incantations.
+* 1 EP -- Invoke the power silently, without pronouncing incantations.
 
-* Level+1 -- Ignore the effects of the _magic shield_ skill.
+* 1 EP -- Ignore the effects of the _magic shield_ skill.
 
-* Level+2 -- Improve duration by one category.
+* 2 EP -- Improve duration by one category.
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -67,18 +65,17 @@ The same enhancement can be applied multiple times.
 Philippa has the _sorcery_ skill and two _power scrolls_ recording the _eldritch blast_ and _miasma of chaos_ spells.
 She currently has 2 mana, meaning she can cast two spells safely.
 
-She first casts _eldritch blast_ at power level 2 (her current mana).
+She first casts _eldritch blast_ with 2 EPs (her current mana).
 She chooses to increase range by a category and to target a small zone instead of an individual character.
 The power takes effect and her mana is reduced to 1.
 
-Later she casts _eldritch blast_ again, this time at level 1.
-She decides to suffer 2 corruption to increase the level to 2 and apply the same enhancements as before.
+Later she casts _eldritch blast_ again, this with only 1 EP.
+She decides to suffer 2 corruption to get a second EP and apply the same enhancements as before.
 Luckily she suffers no soulblight, the power works, and her mana is reduced to 0.
 
 Later she casts _miasma of chaos_.
-Since she has no mana left, she suffers 2 corruption, increasing the total to 4.
-Since her mana is 0, the power is cast at level 0.
-She could choose to increase the level to 1 by suffering more corruption or taking longer to cast, but decides against it.
+Since she has no mana left, she suffers 2 corruption, increasing her total to 4, and has no EP available.
+She could choose to get 1 EP by suffering more corruption or taking longer to cast as she did before, but decides against it.
 Again she suffers no soulblight and the power works as intended.
 
 {{% /details %}}
@@ -118,7 +115,8 @@ Some powers might end prematurely based on particular conditions.
 Upon casting, the invoker may also choose a trigger which can end the power prematurely (a word, a gesture, an event...).
 
 Ongoing profane powers can additionally be dispelled by casting the exact same power on the same target.
-The base level of a power invoked to dispel another power depends on the duration of the dispelled power: 0 if _stretch_, 2 if _watch_, 4 if _lingering_.
+By default it's only possible to dispel a power with _stretch_ duration in this way.
+By spending 2 EP or 4 EP it is possible to dispel a _watch_ or _lingering_ power respectively.
 
 
 == Reacting to powers
@@ -133,7 +131,7 @@ Sacred powers take a full stretch to invoke, so they can't be used to react or r
 
 == Magic corruption and miscasts
 
-As previously mentioned, it is possible to invoke a profane power with no mana left and/or at 1 level higher than normally allowed by suffering 2 corruption.
+As previously mentioned, it is possible to invoke a profane power with no mana left and/or with an additional EP by suffering 2 corruption.
 If both conditions hold true, the invoker suffers 4 corruption at once and only checks for soulblight once.
 
 Corruption is inflicted before the power takes effect.
@@ -150,7 +148,7 @@ The power works, but Philippa must roll on the miscast table.
 She rolls a 8, meaning the _eldritch blast_ has an alternative effect.
 The GM rules that the power heals the target instead of damaging them!
 
-Later, Philippa casts _eldritch blast_ again, this time at level 1, therefore suffering 4 corruption at once since her mana is still 0.
+Later, Philippa casts _eldritch blast_ again but this time with 1 EP, therefore suffering 4 corruption at once since her mana is still 0.
 Her total corruption increases to 7 and she rolls a 4 on a d12, meaning she suffers soulblight again!
 This time her health is reduced from 5 to 1, so she suffers critical damage: she is _incapacitated_ and suffers a mutation.
 Since she was _incapacitated_, the power has no effect.

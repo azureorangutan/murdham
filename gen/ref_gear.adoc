@@ -112,6 +112,9 @@ Pass a STR save or be _confused_ until the end of the watch, as you are overwhel
 * *Dice* (4ʂ, bulk ½).
 Luck-based game.
 
+* *Disguise kit* (16ʂ, bulk 2).
+Includes makeup, wigs, fake beards, hats, eyepatches, clothing, etc. All you need to hide your appearance! You normally can't look like another specific person, and your voice and mannerism might give your disguise away. Close examination will immediately reveal a disguise.
+
 * *Divination tools* (16ʂ, bulk 2).
 Include a crystal ball, tarot cards, divination bones, etc. Used in combination with the _divination_ skill.
 
@@ -178,7 +181,7 @@ A bunch of tiny glass beads. AGI contest to win games.
 
 * *Medicine box* (16ʂ).
 _Consumable_.
-Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health as a main action.
+Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.
 
 * *Metal file* (4ʂ).
 Can cut through metal, with enough time.
@@ -271,7 +274,7 @@ Throw it at range 2. All zones within range 1 of the targeted one are covered in
 Include hacksaws, scalpels, knifes, stitches, etc. Performing a surgery takes a stretch and requires passing a WIT save. On a failure the patient suffers d8 direct damage.
 
 * *Toolbox* (16ʂ, bulk 2).
-Includes hammer, saws, nails, etc. Spend a watch and pass a WIT save to repair a damaged item, but on a fail it is destroyed. If the item has the _durability_ keyword, repair or inflict 2 damage instead on a pass or fail.
+Includes hammer, saws, nails, etc. Spend a watch and pass a WIT save to repair a damaged item, but on a fail it is destroyed. If the item has the _health_ keyword, repair or inflict 2 damage instead on a pass or fail.
 
 * *Torch* (1ʂ).
 _Consumable_.

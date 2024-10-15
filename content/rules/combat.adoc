@@ -64,6 +64,8 @@ A reaction takes the whole turn and doesn't allow for a movement or a bonus acti
 
 * Attempt to *distract*, *intimidate*, or *taunt* an enemy (see link:../encounters/#_manipulation[Manipulation]).
 
+* Any actions taking a round counts as main action in combat, for example using a _medicine box_.
+
 
 == Bonus actions
 
