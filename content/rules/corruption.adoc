@@ -9,7 +9,7 @@ next: /rules/omens
 == Corruption
 
 Corruption represents spiritual taint and is caused by the use of magic or the proximity of strong otherworldly powers.
-It is initially 0, but can slowly accumulate and it is hard to get rid of.
+It is initially 0, but can slowly accumulate, and it is hard to get rid of.
 It is usually reduced only after suffering soulblight, which isn't a positive experience!
 
 
@@ -26,7 +26,7 @@ Balthasar starts with 0 corruption and suffers 2 corruption.
 He rolls 5 on a d12, meaning that nothing else happens.
 
 He later suffers 3 corruption, bringing the total to 5.
-This time he rolls a 1 on a d12, meaning he suffer soulblight.
+This time, he rolls a 1 on a d12, meaning he suffers soulblight.
 He takes 1 point of direct damage and his corruption is reduced to 4.
 
 {{% /details %}}
@@ -43,7 +43,7 @@ The GM can pick a mutation instead of rolling if something fits the current circ
 
 Balthasar has 4 remaining health and suffers 1 corruption, bringing the total from 4 to 5.
 He rolls a 3 on a d12: soulblight!
-His corruption is reduced to 2 but he suffers 3 damage: enough to inflict critical damage!
+His corruption is reduced to 2, but he suffers 3 damage: enough to inflict critical damage!
 Not only he is _incapacitated_, but he must also roll on the Mutations table.
 He rolls 9 on a d12 and 10 on a d20: the result is "Bestial Legs".
 He must roll a d6 and gets a 4, meaning his legs turn into bird legs!

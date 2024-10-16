@@ -36,7 +36,7 @@ Things with bulk higher than 2 (ladders, chests, other characters, etc.) can't b
 
 Each time an item is used in a way which might compromise its integrity, there is a 1:4 chance it is _damaged_.
 Only roll if you are unsure if the item was _damaged_: if it's pretty clear it was _damaged_ or destroyed, it just happens.
-_Damaged_ items can still be used but are permanently destroyed on another failed durability roll.
+_Damaged_ items can still be used, but are permanently destroyed on another failed durability roll.
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -69,3 +69,4 @@ include::gen/ref_artillery.adoc[]
 include::gen/ref_vehicles.adoc[]
 
 include::gen/ref_item_modifiers.adoc[]
+

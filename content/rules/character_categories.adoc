@@ -64,7 +64,7 @@ Instead of shoving the character, they can throw them within range 2, inflicting
 
 * Larger characters automatically win STR saves and contests against smaller characters.
 Size might also come into play in other types of saves.
-For example, it might trivial for a smaller character to sneak behind a larger one, and the opposite might be impossible.
+For example, it might be trivial for a smaller character to sneak behind a larger one, and the opposite might be impossible.
 
 .Size and properties
 [[tb_size_and_properties]]

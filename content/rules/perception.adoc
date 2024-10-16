@@ -10,7 +10,7 @@ next: /rules/hazards
 
 The GM has the task of revealing to the Players what they can see, hear, smell, feel, and know.
 They can take the Player characters' skills, background, and history to evaluate what they might know or notice.
-For example, a character with the _medicine_ skills would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat catcher_ background would surely know a lot about those pesky rodents.
+For example, a character with the _medicine_ skills would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat-catcher_ background would surely know a lot about those pesky rodents.
 
 The Players should ask clarifying questions if the situation isn't clear to them, and point out if they think their character has a skill or property which might help to know more about something.
 This helps the GM run the game in the best possible way!
@@ -28,7 +28,7 @@ Two characters can split and search a region in a single watch.
 
 == Detecting other characters
 
-When two groups encounter each other they must each make a group WIT save.
+When two groups encounter each other, they must each make a group WIT save.
 If at least one member passes, they notice the other group.
 
 Groups which are being reckless (making noise, talking loudly, carrying a light in the dark...) are automatically detected and can't detect the other group unless they are being reckless as well.

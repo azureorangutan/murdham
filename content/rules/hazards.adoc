@@ -8,7 +8,7 @@ next: /rules/encounters
 
 == Falling
 
-Characters who fall by 2 metres or more suffer d4 direct damage for each full 2 metres they have traversed.
+Characters who fall by 2 metres or more suffer d4 direct damage for each full 2 metres they have traversed.
 They can attempt to cushion the fall by passing an AGI save, in which case the effective falling distance is reduced by 2 metres.
 
 
@@ -22,7 +22,7 @@ They die if they fail another save to resist suffocation while _incapacitated_.
 == Elemental damage
 
 *Cold and heat* inflict direct damage.
-Characters in an extremely cold or scorching hot environment suffer d4 impaired cold or heat damage at the end of each stretch.
+Characters in a freezing or scorching hot environment suffer d4 impaired cold or heat damage at the end of each stretch.
 
 *Fire* inflicts direct damage, enhanced against targets made of or covered in flammable substances.
 Characters who enter or start their round in a zone which is currently on fire suffer d6 fire damage.
@@ -34,12 +34,12 @@ Lightning attacks directed at wet zones behave as blast attacks.
 == Fear & terror
 
 Characters exposed to frightening or terrifying creatures and events must pass a WIT save or become _frightened_ or _terrified_ respectively until the end of the stretch.
-If they pass they are immune to the same source of fear of terror until the end of the stretch.
+If they pass, they are immune to the same source of fear of terror until the end of the stretch.
 Repeat the WIT save at the start of each stretch, as long as the source of fear persists.
 When multiple characters are affected at once, make a group save.
 
 _Frightened_ characters can't approach the source of their fear.
-_Terrified_ characters must run away, and if they can't they cower in terror and are _incapacitated_ until the source of their fear remains.
+_Terrified_ characters must run away, and if they can't, they cower in terror and are _incapacitated_ until the source of their fear remains.
 
 Some effects let characters ignore fear and treat terror as fear.
 Two such effects can stack together to let characters completely ignore terror as well.
@@ -104,7 +104,7 @@ Symptoms include fever, coughing, sneezing, sore throat, and digestive issues.
 * *Black gangrene*.
 Symptoms include high fever and blackening of the feet.
 If a victim fails a recovery roll for the second time, their feet start decomposing.
-They must surgically amputated within a day or the victim dies.
+They must be surgically amputated within a day, or the victim dies.
 
 * *Bloodburn*.
 Symptoms include strong headache, blurry visions, and the insatiable need to spill blood.
@@ -114,7 +114,7 @@ After failing a recovery save, victims are _frenzied_ for the whole duration of 
 Actually very similar to a normal influence and follows no special rules, but people are irrationally terrified by it and will avoid those infected like the plague.
 
 * *Demon pox*.
-Symptoms include hallucinations and weird buboes, constantly changing shape, colour and position.
+Symptoms include hallucinations and weird buboes, constantly changing shape, colour, and position.
 Victims who fail a recovery roll additionally suffer 2 corruption.
 
 * *Digworm*.

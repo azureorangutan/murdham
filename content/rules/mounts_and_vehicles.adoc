@@ -13,7 +13,7 @@ Riders must make an AGI save when the mount sprints, does something requiring an
 If they fail, they fall from the mount and suffer d4 direct damage.
 
 The main rider and the mount take turn together in combat, moving using the mount's speed but taking separate actions.
-Additional riders take individual turns during which they can take actions but can't move.
+Additional riders take individual turns, during which they can take actions but can't move.
 Riders can't act if the mount sprinted this round, and the mount can't sprint if some riders have already acted.
 Mounting or dismounting counts as a main action for both the rider and the mount.
 

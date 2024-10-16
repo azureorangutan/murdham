@@ -19,7 +19,7 @@ Roll on the <<tb_starting_ability_scores>> to determine an array of three scores
 
 ** Roll a d2 to assign the middle score to one of the remaining abilities, skipping over the one which was already assigned.
 
-** Finally assign the lowest score to the last remaining ability.
+** Finally, assign the lowest score to the last remaining ability.
 
 . *Background*.
 Determine your background by rolling on the <<tb_backgrounds>> table.
@@ -28,7 +28,7 @@ Check its description in the link:../backgrounds[Backgrounds] chapter.
 ** You start with two skills granted by your background.
 If you are a _wizard_, you only start with 1 skill but also with 1 mana.
 
-** Reroll if you get the same background as another Player.
+** Re-roll if you get the same background as another Player.
 
 . *Assets*.
 You start with d8 shillings (ʂ), the items and followers granted by your background, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
@@ -38,7 +38,7 @@ You start with d8 shillings (ʂ), the items and followers granted by your backgr
 ** If you are a _priest_, a _wizard_, or a _hedge wizard_, you start with a _power scroll_ without a specified power.
 Roll for it on the <<tb_profane_powers>> or <<tb_sacred_powers>> tables.
 
-** Reroll if you get the same result as another Player on any table.
+** Re-roll if you get the same result as another Player on any table.
 
 . *Secondary properties*.
 You start with health equal to your STR (plus 2 if you have the _tough_ skill), 0 corruption, and 2 omens.
@@ -56,7 +56,7 @@ David is creating a new character.
 
 1. He rolls 7 on a d12 for the abilities scores: 11, 7, and 6.
 He rolls a d3 to assign the highest score (11) and gets a 2 (AGI).
-He rolls a d2 to assign the middle score (7) and gets a 2 again (WIT in this case, skipping over AGI).
+Furthermore, he rolls a d2 to assign the middle score (7) and gets a 2 again (WIT in this case, skipping over AGI).
 His character's starting abilities are therefore: **STR** 6, **AGI** 11, **WIT** 7.
 
 2. He rolls a 4 on a d4 and a 10 on a d12 for the background: _soldier_.
@@ -85,7 +85,7 @@ This grants him the _cleave_ and _skilled blow_ skills.
 After all characters have been created, describe how they know each other.
 You can roll on the <<tb_relationships>> table if you need inspiration.
 You don't have to do this for every possible pair of characters, but you should make sure that everyone is connected.
-You can for example go around the table and define a connection for each pair of Players sitting next to each other, excluding the last pair.
+For example, you can go around the table and define a connection for each pair of Players sitting next to each other, excluding the last pair.
 
 
 

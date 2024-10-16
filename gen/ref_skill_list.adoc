@@ -3,13 +3,13 @@
 == Skill list
 
 * *Acrobatics*.
-Reduce difficulty or sprint while balancing. Reduce difficulty while leaping. When you fall, you reduce the falling distance by 4 metres if you pass the AGI save, and by 2 metres even if you fail.
+Reduce difficulty when balancing or leaping, or combine balancing or leaping with sprinting, sneaking... When you fall, you reduce the falling distance by 4 metres if you pass the AGI save, and by 2 metres even if you fail.
 
 * *Act*.
 You are able to convincingly fake emotions and to disguise your voice and accent. This might give you an advantage in suitable social interactions and can be used to better disguise yourself, changing your voice, accent, and mannerism.
 
 * *Alchemy*.
-You can read and write. You can speak and understand Classic. You can craft alchemical substances, such as _acid vials_, _alchemist's fires_, _flash powder_, and _smoke bombs_. This requires raw materials (worth ¼ of the item) and an alchemist's workshop. You can craft a batch of 2 doses of the same substance in a watch.
+You can read and write. You can speak and understand Classic. You can craft alchemical substances, such as _acid vials_, _alchemist's fire_, _flash powder_, and _smoke bombs_. This requires raw materials (worth ¼ of the item) and an alchemist's workshop. You can craft a batch of 2 doses of the same substance in a watch.
 
 * *Ambidextrous*.
 You can use both hands equally well. Damage is not impaired when you attack with a weapon in your non-dominant hand. You can attack the same target with two weapons at once, rolling damage for both but only considering the higher roll.
@@ -54,7 +54,7 @@ Reduce difficulty when befriending or persuading people. If you spend a stretch 
 When you inflict critical damage or kill a target with a melee attack, you can immediately attack another target with the same weapon. You can do this at most once per turn, and not while countering.
 
 * *Climb*.
-Reduce difficulty or sprint while climbing. Your attacks aren't impaired while climbing.
+Reduce difficulty when climbing, or combine climbing with sprinting, sneaking... Your attacks aren't impaired while climbing.
 
 * *Contortionist*.
 Your joints are extremely flexible and you can bend your body in absurd shapes. You can squeeze through small openings and easily escape bonds.
@@ -75,7 +75,7 @@ If you have _divination tools_, you can spend an omen and a stretch of time to a
 You can dodge for free, without spending your turn, once per round.
 
 * *Drive carts*.
-Reduce difficulty while driving a cart. When your cart makes a full movement in combat, you can still use your main action to attack, but only after the movement is completed.
+Reduce difficulty when driving a cart. When your cart makes a full movement in combat, you can still use your main action to attack, but only after the movement is completed.
 
 * *Erudition*.
 You can read, write, and perform advanced calculations. You can speak and understand Classic. You are an expert in all fields of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy... The GM might give you further insight when such topics are involved.
@@ -111,7 +111,7 @@ You heal 1 corruption on a day rest and all corruption on a full rest.
 Reduce difficulty when intimidating or torturing.
 
 * *Languages*.
-You can read and write. Each time you encounter a new language in your adventures there is chance you actually know it: 1:2 for common languages, 1:4 for dead or remote languages. Keep track of the languages you can and can't speak. After a full rest, you can learn a language you don't know and have previously encountered.
+You can read and write. Each time you encounter a new language in your adventures there is chance you actually know it (1:2 for common languages, 1:4 for dead or remote languages). Keep track of the languages you can and can't speak. When you take a full rest, you can learn a language you don't know and have previously encountered.
 
 * *Leadership*.
 Reduce difficulty while inspiring and keeping the loyalty of followers. Once per stretch, as a main action, you can rally all _frightened_ and _terrified_ allies within range 2. They make a group WIT save and those who succeed recover immediately.
@@ -153,7 +153,7 @@ You can guard for free, without spending your turn, any number of times.
 You can equip and unequip any number of items held in hand as a single bonus action.
 
 * *Ride*.
-Reduce difficulty while riding a tamed beast, ride without a _saddle_, or ride an untamed beast. When your mount makes a full movement in combat, you can still use your main action to attack, but only after the movement is completed.
+Reduce difficulty when riding a tamed beast, ride without a _saddle_, or ride an untamed beast. When your mount makes a full movement in combat, you can still use your main action to attack, but only after the movement is completed.
 
 * *Shield mastery*.
 When you hold a shield, your armour value is increased by 1 against all attacks, not just if you react or are countered.
@@ -174,10 +174,10 @@ You can read and write. You can speak and understand Magick. You can invoke prof
 You double the range of ranged attacks.
 
 * *Steal*.
-Reduce difficulty while stealing, or attempt to steal an item with bulk 1 instead of ½.
+You can steal items of bulk ½ without a save, or items of bulk 1 with a save.
 
 * *Stealth*.
-Reduce difficulty or sprint while sneaking. When your group is detected by another group, make an AGI save: if you pass you managed to stay hidden.
+Reduce difficulty when sneaking, or sneak while sprinting, climbing... When your group is detected by another group, make an AGI save: if you pass you managed to stay hidden.
 
 * *Strike to injure*.
 When you inflict critical damage, you may choose to injure or kill the target. You choose what injury to apply instead of rolling on the table (it must still make somewhat sense), and you may choose that it is permanent rather than temporary.
@@ -186,7 +186,7 @@ When you inflict critical damage, you may choose to injure or kill the target. Y
 When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock...) you may choose to inflict no damage. You still roll the damage die and compare the result with the target's current health. If damage reaches or exceeds half the target's health, they are _incapacitated_ until the end of the stretch. if damage reaches or exceeds the target's entire health, they are _incapacitated_ until the end of the watch.
 
 * *Swim*.
-Reduce difficulty or sprint while swimming. Your attacks aren't impaired while in water. You can hold your breath for twice as long.
+Reduce difficulty when swimming, or combine swimming with sprinting, sneaking... Your attacks aren't impaired while in water. You can hold your breath for twice as long.
 
 * *Tough*.
 Your maximum health, as well as the threshold for instant death, are increased by 2 (they equal your STR plus 2).
