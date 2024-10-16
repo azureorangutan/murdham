@@ -19,7 +19,7 @@ During a campaign, you might be granted an advancement by the GM after you and t
 
 == Advancement limit
 
-After 10 advancements you have reached the pinnacle of your potential and don't improve normally any longer.
+After 10 advancements, you have reached the pinnacle of your potential and don't improve normally any longer.
 Instead, you must first either forget a skill, reduce your abilities by a total of 2 points, or reduce your mana by 1.
 You can then pick a new advancement as usual.
 
@@ -35,7 +35,7 @@ This method is well suited for episodic campaigns made of a sequence of distinct
 
 * *Milestones*.
 Grant a new advancement upon completing a significant task or reaching a milestone in the campaign.
-This method is well suited for sandbox campaigns where the separation between scenarios is not clear cut.
+This method is well suited for sandbox campaigns where the separation between scenarios is not clear-cut.
 
 * *Experience for money*.
 The Player characters earn experience points by spending money, at a rate of one experience point per shilling, and advance after gathering specific amounts of experience points.

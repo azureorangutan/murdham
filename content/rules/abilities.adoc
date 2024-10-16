@@ -29,7 +29,7 @@ They pass if they roll equal or less than the most relevant ability score on a d
 ++++
 {{% details title="Example" closed="true" %}}
 
-Balthasar (AGI 7), Sybilla (AGI 10), and Theobald (AGI 6) want to climb a rocky cliff.
+Balthasar (AGI 7), Sybilla (AGI 10), and Theobald (AGI 6) want to climb a rocky cliff.
 The GM adjudicates that this is a risky and challenging activity requiring an AGI save: whoever fails will fall and suffer d4 damage.
 
 Theobald thinks it's too risky for him, and declares he would rather not attempt the climb.
@@ -42,14 +42,14 @@ Sybilla rolls a 13 on a d20: she isn't so lucky and falls, suffering damage and 
 
 == Group saves
 
-Sometimes multiple characters must save against the same threat at once.
+Sometimes, multiple characters must save against the same threat at once.
 In this situation, the GM can ask to make a group save to speed up the game.
 Roll the d20 only once and compare the result with each individual's ability score to see who passes and who fails.
 
 ++++
 {{% details title="Example" closed="true" %}}
 
-Balthasar (WIT 12), Sybilla (WIT 6), and Theobald (WIT 9) encounter a terrifying creature.
+Balthasar (WIT 12), Sybilla (WIT 6), and Theobald (WIT 9) encounter a terrifying creature.
 The GM asks them to pass a group WIT save to avoid being overwhelmed by fear.
 
 One of the Players rolls a d20 and gets a 9: Balthasar and Theobald pass, but Sybilla fails and suffers the effects of fear.
@@ -63,17 +63,17 @@ One of the Players rolls a d20 and gets a 9: Balthasar and Theobald pass, but Sy
 Characters who are directly competing against each other must make a contest to determine the winner.
 All competing characters roll a d20 and subtract the result from the most relevant ability score.
 They are then ranked from highest to lowest total.
-Ties are broken by repeating the contest among the tied characters.
+Ties are broken by repeating the contest among the tying characters.
 
 ++++
 {{% details title="Example" closed="true" %}}
 
-Balthasar (STR 5), Sybilla (STR 8), and Theobald (STR 9) decide to engage in a friendly rock-throwing contest.
+Balthasar (STR 5), Sybilla (STR 8), and Theobald (STR 9) decide to engage in a friendly rock-throwing contest.
 The GM decides that the winner will be decided with a STR contest.
 
-Balthasar rolls a 6 on a d20, for a total of 5−6 = −1.
-Sybilla rolls a 5, for a total of 8−5 = 3.
-Theobald rolls a 20, for a total of 9−20 = −11.
+Balthasar rolls a 6 on a d20, for a total of 5−6 = −1.
+Sybilla rolls a 5, for a total of 8−5 = 3.
+Theobald rolls a 20, for a total of 9−20 = −11.
 The ranking is as follows: Sybilla first, then Balthasar, then Theobald.
 
 {{% /details %}}
@@ -158,7 +158,7 @@ However, depending on the situation, the GM might just rule that it takes longer
 
 When a Player wants to attempt a risky action, the GM should declare if a save or contest is required, on what ability, and risking what penalties.
 The Player should then be given the option to change their mind and do something different.
-Due to the flexibility of the rules, it might not always be clear to a Player if an action would require a save in the GM's mind, so it's good to give an opportunity to change approach!
+Due to the flexibility of the rules, it might not always be clear to a Player if an action would require a save in the GM's mind, so it's good to give an opportunity to change their approach!
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -175,3 +175,4 @@ Balthasar decides that it's not worth taking the risk, and decides to keep walki
 
 {{% /details %}}
 ++++
+

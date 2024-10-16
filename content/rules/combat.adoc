@@ -10,7 +10,7 @@ next: /rules/powers
 
 During combat, time is tracked using rounds.
 The factions involved in the fight alternate taking turns with a character or passing.
-Each character can only take turn once per round.
+Each character can only take a turn once per round.
 When all factions pass consecutively, the round ends.
 At the end of the round, you must make morale checks if necessary (see <<_morale>>).
 
@@ -28,7 +28,7 @@ The round plays out in this sequence:
 * The Players decide to take turn with Sybilla.
 * The GM takes turn with a bandit.
 * The Players decide to pass, rather than activating.
-* The GM takes turn with another bandit. Since he didn't pass, play goes back to the players
+* The GM takes turn with another bandit. Since he didn't pass, play goes back to the players.
 * The Players take turn with Balthasar.
 * The GM takes turn with the last bandit.
 * The players take turn with Theobald.
@@ -41,7 +41,7 @@ The round plays out in this sequence:
 
 == Taking a turn
 
-During their turn characters can do the following, in any order:
+During their turn, characters can do the following, in any order:
 
 * Perform a _bonus action_.
 
@@ -50,7 +50,7 @@ During their turn characters can do the following, in any order:
 * _Move_ by a zone.
 It is possible to split movement before, after, and between actions.
 
-Alternatively, characters can take their turn outside of the normal round order to perform a _reaction_ in response to a specific trigger.
+Alternatively, characters can take their turn outside the normal round sequence to perform a _reaction_ in response to a specific trigger.
 A reaction takes the whole turn and doesn't allow for a movement or a bonus action.
 
 
@@ -105,7 +105,7 @@ Armed attacks inflict damage depending on the weapon used.
 
 The attacker may choose to voluntarily hold back an attack to inflict impaired damage.
 
-If the target is nearby and _incapacitated_, the attacker may choose to deliver a death blow and kill them.
+If the target is nearby and _incapacitated_, the attacker may decide to deliver a death blow and kill them.
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -129,11 +129,11 @@ Usually attacks hit automatically, but if made under challenging circumstances i
 
 *Melee attacks*.
 Target a nearby character.
-Hitting a target who is not visible requires passing a WIT save or the attack misses and inflicts no damage.
+Hitting a target who is not visible requires passing a WIT save, or the attack misses and inflicts no damage.
 
 *Ranged attacks*.
 Target a visible character within the indicated range.
-Hitting targets beyond half range or while moving requires passing a WIT save or the attack misses and inflicts no damage.
+Hitting targets beyond half range or while moving requires passing a WIT save, or the attack misses and inflicts no damage.
 Targeting a character beyond half range while moving, or a character who is not visible, is impossible.
 
 *Indirect ranged attacks*.
@@ -154,7 +154,6 @@ He rolls a 20 on the d20, a miss, so the bandit takes no damage.
 
 {{% /details %}}
 ++++
-
 
 == Reacting to an attack
 
@@ -190,7 +189,7 @@ The bandit hasn't acted yet during this turn and decides to dodge.
 He rolls a 2 on a d20, lower than AGI of 8, so the attack misses.
 
 Theobald attacks the bandit leader with his spear (d6 damage).
-The bandit leader decides to counter with his battle axe (d8 damage).
+The bandit leader decides to counter with his battleaxe (d8 damage).
 They both roll for damage: Theobald inflicts 4 damage, the bandit leader inflicts 5 damage.
 Theobald however is holding a _shield_ and wearing _light armour_, so he has an armour value of 2 and suffers only 3 damage.
 Since Theobald suffers less damage, the bandit leader takes 4 damage first.
@@ -233,7 +232,7 @@ You can assign a number to each neighbouring zone and roll a die to determine wh
 == Attack stunts
 
 The attacker can propose an alternative effect to the target instead of inflicting damage (cutting a limb, forcing a surrender, etc.).
-This must be done before the target decides whether to react but after the WIT save to hit, and the alternative effect must make sense and be approved by the GM.
+This must be done before the target decides whether to react, but after the WIT save to hit, and the alternative effect must make sense and be approved by the GM.
 The target can either accept the proposed effect or resolve the attack as normal.
 It isn't possible to react if the effect is accepted.
 
@@ -241,7 +240,7 @@ It isn't possible to react if the effect is accepted.
 {{% details title="Example" closed="true" %}}
 
 Balthasar attacks a bandit with 3 health left with his sword (d6 damage).
-He doesn't want to kill him, so he proposes an attack stunt: instead ot taking damage, the bandit is disarmed and knocked out for a few minutes.
+He doesn't want to kill him, so he proposes an attack stunt: instead of taking damage, the bandit is disarmed and knocked out for a few minutes.
 Given his low health, the bandit happily accepts the alternative effect.
 
 {{% /details %}}
@@ -295,7 +294,7 @@ Hiding later during the fight requires being out of sight for a while or a major
 The GM should keep the position of concealed characters hidden from the Players, and should control their characters so that they realistically ignore concealed Player characters.
 
 Enemies attacked by a concealed character are taken by surprise and can't react.
-At the start of the fight, concealed characters play a bonus round during which only they can act.
+At the start of the fight, concealed characters play a bonus round, during which only they can act.
 
 Concealed characters are revealed when they make noise or become visible to the enemy.
 Actions which might reveal a character include: attacking, invoking a power, talking, moving without sneaking, walking right in front of the enemy, etc.
@@ -304,7 +303,7 @@ Actions which might reveal a character include: attacking, invoking a power, tal
 == Morale
 
 Groups must make a morale check after being reduced to half or less their original number during a fight.
-Characters fighting alone must do so after taking damage reducing their health to half or less the maximum.
+Characters fighting alone must do so after taking damage, reducing their health to half or less the maximum.
 Morale checks are made at the end of the round, during the morale phase.
 
 Make a group WIT save: those who fail must surrender or retreat, but those who pass aren't subject to morale for the remainder of the stretch.
@@ -315,7 +314,7 @@ Characters who are immune to fear are also immune to morale.
 
 Characters can spend their turn to surrender, throwing their weapons away, putting their hands up, etc.
 Their turn is wasted, but they might be spared by the enemy.
-Surrendering characters who are harmed by the enemy can resume fighting normally even if they previously failed a morale check.
+Surrendering characters who are harmed by the enemy can resume fighting normally, even if they previously failed a morale check.
 
 
 == Chases
@@ -331,7 +330,7 @@ If the opposite is true, escaping is impossible.
 After a fight, make a durability roll for all weapons and armour which were used at least once.
 This represents damage to the equipment and depleting ammunition.
 
-_Damaged_ weapons and shields are destroyed if they are used to attack and a 1 is rolled on the damage die.
+_Damaged_ weapons and shields are destroyed if used to attack and a 1 is rolled on the damage die.
 _Damaged_ shields and armour are destroyed by attacks inflicting at least 8 damage before armour reduction (shields are destroyed first).
 
 Many mundane items can be used as improvised weapons.
@@ -340,9 +339,9 @@ They work as a _simple hand weapon_ or a _simple great weapon_, but are handled 
 
 == Optional rule: fast and slow activations
 
-You can use this optional rule if you would like AGI to influence the order in which characters act during the round and you don't mind a little bit of extra complexity.
+You can use this optional rule if you would like AGI to influence the order in which characters act during the round, and you don't mind a bit of extra complexity.
 
-At the beginning of each round the GM openly rolls a d20.
+At the beginning of each round, the GM openly rolls a d20.
 The result is the "`fast action threshold`".
 You can leave the d20 on the table as a reminder of this value.
 The round is divided in two phases: fast action and slow action.
@@ -357,7 +356,7 @@ Characters can react during any phase, no matter what their AGI score is.
 ++++
 {{% details title="Example" closed="true" %}}
 
-Wolfgang (AGI 9), Sybilla (AGI 10), and Theobald (AGI 7) are fighting against two bandits (AGI 8) and their leader (AGI 10).
+Wolfgang (AGI 9), Sybilla (AGI 10), and Theobald (AGI 7) are fighting against two bandits (AGI 8) and their leader (AGI 10).
 The Players have the initiative.
 
 The GM rolls a d20 to determine the fast action threshold: the result is 9.
@@ -374,7 +373,7 @@ He attacks a bandit, who reacts by dodging and therefore can't act later during 
 
     * The Players could act with Wolfgang, but choose to pass instead.
 
-    * The GM must pass as the remaining bandit can't act during this phase.
+    * The GM must pass, as the remaining bandit can't act during this phase.
 The phase ends since both factions passed consecutively.
 
 * Slow action phase.

@@ -21,7 +21,7 @@ They are open to mutually beneficial deals.
 They will still expect to get something in return at some point.
 
 * *Infatuated* characters will be extremely friendly towards the Player characters, often doing favours in exchange for little or nothing.
-They still won't do something which will harm them, and if they start feeling they are taken advantage of their attitude might worsen.
+They still won't do something which will harm them, and if they start feeling they are taken advantage of, their attitude might worsen.
 
 
 == Diplomacy
@@ -31,7 +31,7 @@ The following are typical diplomacy attempts:
 
 * *Befriend*.
 Perform a friendly activity (do a favour, give a present, buy some drinks, etc.) and pass a WIT save to improve a character's attitude towards you.
-In case a big favour is made the save is not required.
+In case a big favour is made, the save is not required.
 
 * *Inspire*.
 Appeal to someone's emotions or provide them with incentives (payments, favours, etc.) and pass a WIT save to convince them to do something.
@@ -39,7 +39,7 @@ If the inspiration attempt is particularly effective or the incentives are very 
 
 * *Persuade*.
 Provide convincing arguments and pass a WIT save to persuade a character of something they aren't inclined to believe, no matter if the truth or a lie.
-If the arguments are particularly solid and supported by evidence the save is not required.
+If the arguments are particularly solid and supported by evidence, the save is not required.
 
 
 == Manipulation
@@ -50,17 +50,17 @@ The following are typical manipulation attempts:
 * *Distract*.
 Perform a distracting activity (play music, start a conversation, make noise, etc.) to distract a character from something else.
 The target can figure out they are being distracted with a WIT save unless the attempt is particularly effective.
-Distracting someone in combat is a main action, and if successful the target loses their next turn.
+Distracting someone in combat is a main action, and if successful, the target loses their next turn.
 
 * *Intimidate*.
 Use threats and leverage to force a character to do or say something.
 The target can attempt to resist by passing a WIT save unless it is quite evident that you are capable and willing to act on your threats and that they would have no chance to oppose you.
-Intimidating someone in combat is a main action, and if successful the target is _frightened_ by you.
+Intimidating someone in combat is a main action, and if successful, the target is _frightened_ by you.
 
 * *Taunt*.
 Use insults and provocations and pass a WIT save to manipulate a character into act aggressively and impulsively.
-The target can attempt to resist by passing a WIT save unless your taunts are really pulling the right strings.
-Taunting someone in combat is a main action, and if successful the target can only spend their next turn trying to harm you.
+The target can attempt to resist by passing a WIT save, unless your taunts are really pulling the right strings.
+Taunting someone in combat is a main action, and if successful, the target can only spend their next turn trying to harm you.
 
 * *Torture*.
 Torturing an imprisoned character takes a stretch of time and inflicts d6 direct damage.
@@ -73,7 +73,7 @@ The target, if still alive and conscious, must pass a WIT save or give up and ta
 Pretty much everyone in the land can speak it, with more or less atrocious accent.
 
 * _Classic_ is the language of scholars and the Church.
-Erudites from the Kingdom and other countries can speak it and use it communicate.
+Erudites from the Kingdom and other countries can speak it and use it to communicate.
 Sacred power scrolls are written in Classic.
 
 * _Magick_ is the language of sorcery.
@@ -96,7 +96,7 @@ Approaching the target without being noticed might require an additional AGI sav
 
 == Trading
 
-Goods can be purchased in exchange of something of at least equal value.
+Goods can be purchased in exchange for something of at least equal value.
 The value of items is indicated on their profile.
 The value of less tangible assets, such as favours and peculiar services, must be adjudicated by the GM.
 

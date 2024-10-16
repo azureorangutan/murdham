@@ -41,7 +41,7 @@ Items with the _health_ keyword recover 2 health per watch.
 == Other services
 
 * *Workshop* (4ʂ).
-Price to rent a workshop for a day, for example to make use of the _alchemy_ or _craft_ skill.
+Price to rent a workshop for a day, for example, to make use of the _alchemy_ or _craft_ skill.
 
 * *Courier* (*).
 Delivers a message to a recipient.
@@ -53,6 +53,7 @@ A funeral for a dead Player character.
 Costs half if the body was recovered.
 
 * *Transportation* (*).
-Transportation via stagecoach, boat, or ship a specific destination for a person.
+Transportation via stagecoach, boat, or ship, to a specific destination for a person.
 It costs 4ʂ plus 4ʂ per region of distance.
 The cost might be higher through dangerous areas.
+

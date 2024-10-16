@@ -12,13 +12,13 @@ Characters can spend a watch to take a day rest.
 After two watches spent doing something else, they must do so or temporarily reduce all abilities by 1.
 On the fourth watch they are too exhausted to do anything else and are forced to take a day rest.
 
-Characters taking a day rest must must eat, drink, and sleep.
+Characters taking a day rest must eat, drink, and sleep.
 If they satisfy all needs, they recover health and mana to the maximum.
 If they don't, they recover no health and no mana and temporarily reduce an ability by 1 for each unsatisfied need: STR if they didn't eat, AGI if they didn't drink, and WIT if they didn't sleep.
 
 In a settlement it is possible to pay 4ʂ for lodging, which includes food, drinks, and a bed.
-In the wilderness it is necessary to consume a _ration_ to eat, consume a unit _water_ to drink (unless there is plenty of drinkable water in the area), and have a _camping kit_ to sleep.
-Animals don't need a _camping kit_, and they don't need a _ration_ or a _drink_ while in their natural habitat as they can forage for themselves.
+In the wilderness it is necessary to consume a _ration_ to eat, consume a unit of _water_ to drink (unless there is plenty of drinkable water in the area), and have a _camping kit_ to sleep.
+Animals don't need a _camping kit_, and they don't need a _ration_ or a _drink_ while in their natural habitat, as they can forage for themselves.
 
 
 == Foraging
@@ -30,7 +30,7 @@ Foraging for food in the wilderness takes a watch.
 Characters who do so roll on the <<tb_foraging>> table to see if they find something edible.
 _Rations_ gathered in this way are perishable and are discarded if not consumed before the next day rest.
 
-In many environments, water is plenty and you don't need to track the need for it.
+In many environments, water is plenty, and you don't need to track the need for it.
 If the characters find themselves in an area where water is scarce, they need to spend a watch and pass a WIT save to find a source of drinkable water.
 In places completely devoid of water, such as a desert, finding water is impossible.
 
@@ -51,13 +51,13 @@ If consumed there is a 1:4 chance that it makes you sick: you temporarily reduce
 You find a _ration_ if you have a _fishing kit_ and there is a nearby body of water in your region.
 
 |5-6 |*Small game*.
-You find a _ration_ if you have a _trapping kit_ and you aren't in a desolate environment.
+You find a _ration_ if you have a _trapping kit_, and you aren't in a desolate environment.
 
 |7 |*Big game*.
 Unless you are in a desolate environment, you find 4 _rations_ if you pass a WIT save to track a prey and then roll 4 or more damage with a ranged attack to kill it.
 
 |8 |*Nothing*.
-You come back empty handed.
+You come back empty-handed.
 
 |===
 

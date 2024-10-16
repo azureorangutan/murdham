@@ -24,10 +24,10 @@ Lost health can be recovered by resting (see link:../rest[Rest]) or using healin
 ++++
 {{% details title="Example" closed="true" %}}
 
-Theobald has STR 9, therefore his maximum health is 9 as well.
+Theobald has STR 9, therefore his maximum health is 9 as well.
 When at full health, he suffers critical damage if he takes 5 or more damage at once.
 If he takes damage and loses health, the amount necessary to trigger critical damage is reduced accordingly.
-For example, once he is reduced to 4 health he would suffer critical damage with just 2 points of damage.
+For example, once he is reduced to 4 health, he would suffer critical damage with just 2 points of damage.
 
 No matter what his current health is, he dies immediately if he suffers 9 or more damage at once.
 
@@ -42,7 +42,7 @@ They are completely unable to act and defenceless.
 They recover automatically at the end of the stretch.
 
 _Dying_ characters die at the end of the next round.
-If they recover at least 1 health before then, they are stabilised and out of danger but must roll on the <<tb_injuries>> table and suffer the indicated penalty.
+If they recover at least 1 health before then, they are stabilized and out of danger, but must roll on the <<tb_injuries>> table and suffer the indicated penalty.
 
 .Injuries
 [[tb_injuries]]
@@ -66,8 +66,8 @@ You suffer from the _hobbled_ condition until you take a full rest (see link:../
 
 |5 |*Injured arm*.
 You suffer from the _arm injury_ condition until you take a full rest (see link:../conditions[Conditions]).
-Roll a d2 to determine which arm is affected: 1) your secondary arm, 2) your primary arm.
-If you get this injury a second time, the other arm is affected.
+Roll a d2 to determine which arm is affected: 1) your secondary arm, 2) your primary arm.
+If you get this injury a second time, the other arm is impacted.
 If you get it a third time, nothing happens.
 
 |6 |*Blinded eye*.
@@ -81,7 +81,7 @@ If you get it a third time, nothing happens.
 == Rolling for damage
 
 Damage is usually rolled on a d4, d6, d8, d10, or d12.
-If you roll the maximum possible number, you must reroll the same die and add the new result to the previous roll minus 1.
+If you roll the maximum possible number, you must re-roll the same die and add the new result to the previous roll minus 1.
 Keep doing this as long as you keep rolling the maximum.
 
 ++++
@@ -89,7 +89,7 @@ Keep doing this as long as you keep rolling the maximum.
 
 Balthasar takes d6 damage and rolls a 6, the maximum: he must roll the d6 again and add 5 (6−1).
 He rolls another 6: he must roll the d6 a third time and add 10 (5+5) to it.
-Finally he rolls 3, for a grand total of 13 damage: enough to kill most people!
+Finally, he rolls 3, for a grand total of 13 damage: enough to kill most people!
 
 {{% /details %}}
 ++++
@@ -111,8 +111,8 @@ For example, damage which is both impaired and enhanced is rolled normally, dama
 
 Sybilla suffers d6 enhanced damage, therefore she must roll a d6 twice.
 She rolls a 4 and a 6.
-She must re-roll the second die and add 5: she rolls a 3 for a total of 5+3 = 8 damage.
-The results of the two rolls are 4 and 8: since 8 is greater roll, she suffers 8 damage.
+She must re-roll the second die and add 5: she rolls a 3 for a total of 5+3 = 8 damage.
+The results of the two rolls are 4 and 8: since 8 is the greater roll, she suffers 8 damage.
 
 Balthasar suffers d8 impaired damage, therefore he must roll a d8 twice.
 He rolls 3 and 7, resulting in only 3 damage.
@@ -154,9 +154,10 @@ Temporarily altered abilities are restored after a full rest (see link:../rest[R
 
 Players whose character dies must immediately create a new one, who joins the company as soon as possible under whatever narrative pretext can be devised by the GM.
 If all Player characters are _incapacitated_ at the same time, the GM decides what happens to the company (they might be killed, captured, rescued, robbed...).
-If all Player characters die, the Players lose the game and must create a brand new company.
+If all Player characters die, the Players lose the game and must create a brand-new company.
 
 Even though a dead Player character is promptly replaced, death still has consequences.
 The replacement will be less experienced, and the other Player characters must pay for a funeral or permanently lose an omen, as described in the link:../omens/#_honour_the_dead[Honour the dead] section.
 The GM may introduce additional or alternative penalties, as suitable to the scenario or the campaign.
 For example, they might allow the Players a maximum number of deaths before the scenario or campaign is lost.
+

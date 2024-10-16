@@ -8,6 +8,12 @@ A role-playing game of perilous adventures in a fantasy world, combining the atm
 
 <!--more-->
 
+== Reading this Book
+
+This book is intended both as a guide to teach the game and as a reference during play.
+You should read it carefully to understand the basics, but don't have to memorize down to the gritty details.
+
+
 == Credits
 
 Designed and written by Galileo Alighieri.
