@@ -68,26 +68,31 @@ menu:
     - name: Resources
       weight: 4
       pageRef: /game_resources
-    - name: Blog
-      weight: 5
-      url: https://azureorangutan.com
-    - name: Itch.io
-      weight: 6
-      url: https://azureorangutan.itch.io/murdham
     - name: Search
       weight: 10
       params:
         type: search
-    - name: Discord
+    - name: Blog
       weight: 20
+      url: https://www.azureorangutan.com
+      params:
+        icon: newspaper
+    - name: Discord
+      weight: 25
       url: https://discord.gg/58Kbfb2YwX
       params:
         icon: discord
     - name: GitHub
-      weight: 21
+      weight: 30
       url: https://github.com/azureorangutan/murdham
       params:
         icon: github
+    - name: Itch.io
+      weight: 35
+      url: https://azureorangutan.itch.io/murdham
+      params:
+        icon: itch
+
 
 params:
   description: >
