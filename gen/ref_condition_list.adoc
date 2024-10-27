@@ -12,10 +12,10 @@ You can't see. You can't notice anything by sight alone, your melee attacks requ
 You are not fully in control of your body and mind. Your attacks inflict impaired damage and your abilities are temporarily reduced by 2. When you recover from this condition, your abilities are increased back by 2. If you become _confused_ again while you already are, you become _incapacitated_ instead.
 
 * *Deaf*.
-You can't hear. You can't notice anything based on sound alone and you might have trouble communicating with others or noticing ambushes.
+You can't hear. You can't notice anything based on sound alone, and you might have trouble communicating with others or noticing ambushes.
 
 * *Dying*.
-You die at the end of the next round. If you recover at least 1 health before then you are stabilised but suffer an injury.
+You die at the end of the next round. If you recover at least 1 health before then you are stabilized but suffer an injury.
 
 * *Encumbered*.
 You move at half speed and automatically fail AGI saves. You recover as soon as the total bulk you are carrying doesn't exceed your STR.
@@ -27,13 +27,13 @@ You are unable to act. You can only spend your turn to try to break free by pass
 You are unable to see from one of your eyes. You halve the range of ranged attacks and powers and activities requiring perfect sight or depth perception, such as leaping, might be more challenging.
 
 * *Frenzied*.
-You can only spend your turn to attack, or if that's not possible to move as close as possible to the closest enemy in preparation for a future attack. You can't retreat or stop fighting. You are immune to fear, treat terror as fear, and you aren't _incapacitated_ when you suffer critical damage.
+You can only spend your turn to attack, or if that's not possible to move as close as possible to the closest enemy in preparation for a future attack. You can't retreat or stop fighting. Furthermore, you are immune to fear, treat terror as fear, and you aren't _incapacitated_ when you suffer critical damage.
 
 * *Frightened*.
-You are scared by something. You can't approach the source of your fear.
+Something scares you. You can't approach the source of your fear.
 
 * *Hobbled*.
-Your movement speed is halved and you must use a stick or crutch to stand.
+Your movement speed is halved, and you must use a stick or crutch to stand.
 
 * *Incapacitated*.
 You are unconscious or in terrible pain. You are completely unable to act and defenceless.
@@ -51,6 +51,6 @@ You can't speak or emit sounds. Among other things, this renders you unable to i
 You are temporarily unable to act: you might be dazed, thrown on the ground, etc. You can't act for a round. In combat, this means you lose your next turn, either on the current round or on the next one (if you have already acted this round).
 
 * *Terrified*.
-You are terrified by something. You must run away from the source of your terror, or if that's not possible you cower down and are considered _incapacitated_.
+Something terrifies you. You must run away from the source of your terror, or if that's not possible you cower down and are considered _incapacitated_.
 
 

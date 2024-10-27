@@ -60,7 +60,7 @@ h|D20
 |Burn scar, your home was once put to the torch.
 |18
 |Noose mark, you escaped the gallows.
-|Ritual scars, self inflicted.
+|Ritual scars, self-inflicted.
 |19
 |Missing finger, memory of a past misadventure.
 |Missing toe, you walk with a slight limp.

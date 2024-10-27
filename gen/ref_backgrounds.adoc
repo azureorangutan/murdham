@@ -67,7 +67,7 @@ You are a savage, bloodthirsty warrior, barely able to control your bloodlust.
 
 You have ferried passengers and smuggled goods along the many rivers flowing across the Kingdom.
 
-* *Skills*: _boatmanship_, _swim_.
+* *Skills*: _river lore_, _swim_.
 
 * *Assets*: clothes (wet and mouldy), fishing tools (bulk 2).
 
@@ -83,7 +83,7 @@ You worked for the rich and powerful, protecting them from robbers and other scu
 
 == Bone picker
 
-One person's trash is another person's treasure: you scour the roads, graves, and gutters looking for something valuable to sell for a few pennies.
+One person's rubbish is another person's treasure: you scour the roads, graves, and gutters looking for something valuable to sell for a few pennies.
 
 * *Skills*: _frugal_, _quick draw_.
 
@@ -123,7 +123,7 @@ You are a cunning liar, able to convince people of almost anything.
 
 * *Skills*: _blather_, _charm_.
 
-* *Assets*: clothes (fake city watch uniform, won't stand close scrutiny), scroll (bulk ½; filled with scribbled nonsense), fake necklace (bulk ½).
+* *Assets*: clothes (fake city watch uniform, won't stand scrutiny), scroll (bulk ½; filled with scribbled nonsense), fake necklace (bulk ½).
 
 
 == Coach driver
@@ -173,9 +173,9 @@ You have spent years mugging unaware victims in shady alleys and dark forest roa
 
 == Gambler
 
-Luck come and goes at the gaming table but it has never abandoned you, not with the help of a few clever tricks.
+Luck come and goes at the gaming table, but it has never abandoned you, not with the help of a few clever tricks.
 
-* *Skills*: _luck_, _play games_.
+* *Skills*: _lucky_, _play games_.
 
 * *Assets*: clothes (large pockets), cards (bulk ½; marked), dice (bulk ½; loaded).
 
@@ -218,7 +218,7 @@ You have spent your life making a fool of yourself to entertain the nobles, but 
 
 == Knight
 
-With your honour lost and no coin left to your name, you wander on your steed selling your sword for money.
+With your honour lost, and no coin left to your name, you wander on your steed, selling your sword for money.
 
 * *Skills*: _ride_, _skilled blow_.
 
@@ -254,7 +254,7 @@ Crawling through dark, cramped tunnels breathing dust was not the life you deser
 
 == Noble
 
-Your house has fallen and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!
+Your house has fallen, and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!
 
 * *Skills*: _leadership_, _poison resistance_.
 
@@ -263,7 +263,7 @@ Your house has fallen and you must now mingle with the lowly scum, but the day w
 
 == Outlaw
 
-The hills and woods are teeming with people escaping the law such as yourself.
+The hills and woods are teeming with people escaping the law, such as yourself.
 
 * *Skills*: _bushcraft_, _skilled shot_.
 
@@ -319,7 +319,7 @@ Yours is the burden to teach and guide people so that they don't succumb to the 
 
 You have travelled far and wide across the kingdom, singing songs and act out enthralling stories.
 
-* *Skills*: _act_, _music_.
+* *Skills*: _acting_, _music_.
 
 * *Assets*: clothes (flamboyant and fashionable), music instrument (fiddle).
 
@@ -357,7 +357,7 @@ There is good pay for slaying giant monsters: it's a dangerous job, but you are 
 
 * *Skills*: _dodge blows_, _monster slaying_.
 
-* *Assets*: clothes (thick hardened leather, cut, burnet, scratched, and torn), huge battle axe (bulk 2; d8 damage).
+* *Assets*: clothes (thick hardened leather, cut, burnet, scratched, and torn), huge battleaxe (bulk 2; d8 damage).
 
 
 == Soldier
@@ -393,7 +393,7 @@ Precious treasures are buried in ancient crypts and old tombs: their previous ow
 
 * *Skills*: _burglary_, _climb_.
 
-* *Assets*: clothes (capacious knapsack to store the loot), crowbar, rope.
+* *Assets*: clothes (capacious rucksack to store the loot), crowbar, rope.
 
 
 == Townsman

@@ -14,15 +14,24 @@ There are no degrees or ranks: a character either has a skill or doesn't.
 The description of each skill lists the most common ways in which it can influence the game, but don't feel limited by this: you should take skills into account any time it makes sense within the game narrative.
 
 
-== Reducing difficulty with skills
+== Proficiency
 
-A common advantage granted by skills is to reduce the difficulty of a task:
+A common advantage granted by skills is proficiency in performing certain actions.
+This means you can reduce the difficulty of actions:
 
 * A challenging task becomes trivial: you pass without needing a save.
 
 * An impossible task might become challenging (within reason): you may attempt it, but must pass a save.
 
 As usual, the GM is the final arbiter on whether a skill applies to a given situation or not.
+Examples of impossible actions which might become possible when proficient are:
+
+* Performing the action without tools (assuming you are improvising with what you can find in the vicinity).
+
+* Attempt to perform the action more quickly than usual (in a round instead of a stretch).
+If you fail, the action isn't successful, and you waste the original amount of time.
+
+* Perform actions which are intrinsically almost impossible (scaling sheer surfaces, leaping very large distances...).
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -41,5 +50,36 @@ The GM rules that climbing the ladder is trivial, even under the rain, so Beatri
 {{% /details %}}
 ++++
 
-include::gen/ref_skill_list.adoc[]
 
+== Knowledge
+
+Skills and backgrounds may grant knowledge in relevant fields.
+The GM may provide players with the right skill or background with additional information.
+For example, a character with the _medicine_ skills would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat-catcher_ background would surely know a lot about those pesky rodents.
+
+
+== Languages
+
+All Player characters can speak Common plus other languages if granted by their skills.
+
+* _Common_ is the lingua franca of the Kingdom.
+Pretty much everyone in the land can speak it.
+
+* _Classic_ is the language of scholars and the Church.
+Erudites from the Kingdom and other countries can speak it and use it to communicate.
+Sacred power scrolls are written in Classic.
+
+* _Magick_ is the language of sorcery.
+It is too cryptic and esoteric to be used to actually communicate.
+Profane power scrolls are written using this language.
+
+* Different regions, countries, and people speak a variety of languages.
+Which ones matter depend on the campaign setting.
+
+
+== Literacy
+
+Characters can't read, write, or perform anything but very simple calculations unless they have a skill which grants them literacy: education is a privilege for the few!
+
+
+include::gen/ref_skill_list.adoc[]

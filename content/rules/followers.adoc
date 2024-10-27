@@ -21,6 +21,22 @@ If trained, they might be able to obey simple orders and perform specific tasks,
 Animals will avoid combat and other dangerous situations unless they are natural predators or have been trained to fight.
 
 
+== Training animals
+
+Animals can be trained to become followers.
+It is possible to tame a single captive animal during a full rest.
+Training a domesticated animal (horses, dogs...) requires passing a WIT save: on a fail the animal wasn't trained successfully, and the trainer must roll on the link:../health#injuries[Injuries] table at the end of the rest.
+Training a wild animal (wolves, lions...) is impossible unless the trainer is proficient.
+
+
+== Befriending animals
+
+It is possible to befriend a domesticated animal by offering some food and passing a WIT save.
+A befriended animal follows the character for a watch or until they move too far from their territory.
+It is possible to be accompanied by a single befriended animal at a time.
+Befriending a wild animal is impossible unless the character is proficient.
+
+
 == Controlling followers
 
 Players control followers as their own character, assuming they are giving them orders.

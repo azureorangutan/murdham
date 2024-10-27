@@ -2,7 +2,7 @@
 title: Movement
 weight: 100
 prev: /rules/advancement
-next: /rules/perception
+next: /rules/hazards
 ---
 :toc:
 
@@ -67,9 +67,9 @@ These factors halve movement speed:
 == Special movement
 
 * *Sprint*.
-Move 4 zones in a round across open terrain.
-Impossible in cramped places full of obstacles, such as furnished rooms and thick vegetation.
-To sprint for 2 or more consecutive rounds, you must pass an AGI save at the start of each round.
+Move at double speed (usually 4 zones in a round) across open terrain.
+If the terrain presents obstacles (a furnished room, thick vegetation...) passing an AGI save is required to avoid tripping and suffering d4 direct damage.
+You can't sprint for more than a stretch consecutively.
 
 * *Sneak*.
 Move silently and behind cover.
@@ -97,6 +97,7 @@ Attacks made while in water are impaired.
 
 Only one of the special movement options described above is possible at a time.
 For example, you can't sprint while climbing, or sneak while swimming.
+Characters who are proficient in one form of movement can combine it with another one, but this makes the task challenging.
 
 
 == Optional rule: grids

@@ -12,11 +12,11 @@ Two-handed sharp or heavy tools: big stick, boat hook, hoe, large club, linstock
 
 * *Martial hand weapon* (16ʂ).
 _Weapon (d6 damage)_.
-One-handed military grade melee weapons: arming sword, battle axe, flail, mace, morningstar, spear, thrusting sword, warhammer, etc.
+One-handed military grade melee weapons: arming sword, battleaxe, flail, mace, morningstar, spear, thrusting sword, warhammer, etc.
 
 * *Martial great weapon* (32ʂ, bulk 2).
 _Weapon (d8 damage)_.
-Two-handed military grade melee weapons: glaive, halberd, heavy battle axe, heavy flail, lucerne hammer, pike, voulge, zweihänder, etc.
+Two-handed military grade melee weapons: glaive, halberd, heavy battleaxe, heavy flail, lucerne hammer, pike, voulge, zweihänder, etc.
 
 * *Missile hand weapon* (16ʂ).
 _Weapon (d4 damage, range 8)_.

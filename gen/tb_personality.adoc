@@ -56,7 +56,7 @@ h|D20
 |Sarcastic, you laugh at your own jokes.
 |Stern, nobody remembers seeing you smiling.
 |17
-|Reserved, the less people know about you the better.
+|Reserved, the less people know about you, the better.
 |Braggart, always talking loudly about your exploits.
 |18
 |Tactful, sometimes almost too subtle.

@@ -53,6 +53,13 @@ The glass just shatters, no durability roll required.
 ++++
 
 
+== Crafting
+
+Some skills grant the ability to craft certain items.
+Crafting an item takes a whole watch and requires a suitable workshop or tools, as indicated in the skill description.
+Raw materials cost ¼ the value of the item.
+Consumable items can be crafted in batches of 2.
+
 
 include::gen/ref_item_keywords.adoc[]
 

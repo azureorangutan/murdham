@@ -18,7 +18,7 @@ Behaves as an already _damaged_ item: it is destroyed on a failed durability rol
 Only has a 1:8 chance of failing durability rolls.
 
 * *Shield*.
-Increases the armour value by 1 while held, but only against attacks you react against (counter, dodge, or guard) and attacks used to counter you. If you hold two shields at once you still only increase armour value by 1, but against all attacks.
+Increases the armour value by 1 while held, but only against attacks you react against (counter, dodge, or guard) and attacks used to counter you. If you hold two shields at once, you still only increase armour value by 1, but against all attacks.
 
 * *Vehicle X*.
 Can carry X medium-sized characters and their gear. A character can be replaced by items for a total bulk of 16. The bulk of what's on the vehicle doesn't count towards the encumbrance of characters or operating it.
