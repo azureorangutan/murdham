@@ -45,8 +45,7 @@ feminine_name: "Artisan",
 description: "You know how to keep equipment in good order: nothing is more dangerous than a blunt sword or a cracked shield.",
 abilities: [0, 0, 0],
 skills: {
-"Craft": "Proficient at repairing items.
-                 Knowledgeable about smithing, carpentry, tannery, and other forms of crafting. You can craft non-consumable items, such as weapons, armours, and vehicles.",
+"Craft": "Proficient at repairing items. Knowledgeable about smithing, carpentry, tannery, and other forms of crafting. You can craft non-consumable items, such as weapons, armours, and vehicles.",
 "Piercing strike": "If you roll damage higher than your target's armour value, you completely ignore armour and inflict the full amount of damage. This skill doesn't work in situations where you are required to pass a WIT save to hit as it requires full precision.",
 },
 mana: 0,
@@ -252,8 +251,7 @@ feminine_name: "Charlatan",
 description: "You are a cunning liar, able to convince people of almost anything.",
 abilities: [0, 0, 0],
 skills: {
-"Blather": "Proficient at distracting and taunting.
-                 You are able to speak endless strings of nonsense, leaving people dumbfounded. If you spend a stretch chatting with someone, you understand what might make them angry.",
+"Blather": "Proficient at distracting and taunting. You are able to speak endless strings of nonsense, leaving people dumbfounded. If you spend a stretch chatting with someone, you understand what might make them angry.",
 "Charm": "Proficient at befriending and persuading. If you spend a stretch chatting with someone, you understand what it might take to befriend or persuade them, if they are bribable, and such information.",
 },
 mana: 0,
@@ -423,8 +421,7 @@ description: "When you hunt in the dark forests of the Kingdom, you sometimes wo
 abilities: [0, 0, 0],
 skills: {
 "Bushcraft": "Proficient at finding drinking water in the wilderness. Knowledgeable about orientation in the wilderness, common plants, and survival. If you pass a WIT save, you can ignore the movement penalty when travelling between sectors or regions without following a path. If you have <i>navigation tools</i>, you pass automatically. You can sleep in the wilderness without a <i>camping kit</i>. When you forage, you roll twice on the foraging table and apply both results.",
-"Hunt": "Proficient at following trails.
-                 Knowledgeable about local fauna, how to hunt them... When you forage, on a <i>fish</i> or <i>small game</i> result you gain an additional <i>ration</i>, even if you don't have the appropriate tools",
+"Hunt": "Proficient at following trails. Knowledgeable about local fauna, how to hunt them... When you forage, on a <i>fish</i> or <i>small game</i> result you gain an additional <i>ration</i>, even if you don't have the appropriate tools",
 },
 mana: 0,
 assets: [
@@ -442,8 +439,7 @@ description: "You have spent your life making a fool of yourself to entertain th
 abilities: [0, 0, 0],
 skills: {
 "Acrobatics": "Proficient at balancing and leaping. Your attacks aren't impaired while balancing and leaping. You can perform a number of acrobatic performance acts, such as trampoline, trapeze, aerial silk...",
-"Blather": "Proficient at distracting and taunting.
-                 You are able to speak endless strings of nonsense, leaving people dumbfounded. If you spend a stretch chatting with someone, you understand what might make them angry.",
+"Blather": "Proficient at distracting and taunting. You are able to speak endless strings of nonsense, leaving people dumbfounded. If you spend a stretch chatting with someone, you understand what might make them angry.",
 },
 mana: 0,
 assets: [
@@ -593,8 +589,7 @@ description: "You made a small fortune transporting and trading exotic goods, bu
 abilities: [0, 0, 0],
 skills: {
 "Bargain": "If you have this skill, you purchase items at half price unless the seller also has this skill. You are able to accurately estimate the value of most items by taking a look at them.",
-"Gossip": "Whenever you take a day rest or full rest in a settlement, you hear interesting rumours. The GM decides what you hear, and it isn't necessarily true.
-                 You can easily find contacts in settlements, both legal and illegal ones, by spending a watch asking for information.",
+"Gossip": "Whenever you take a day rest or full rest in a settlement, you hear interesting rumours. The GM decides what you hear, and it isn't necessarily true. You can easily find contacts in settlements, both legal and illegal ones, by spending a watch asking for information.",
 },
 mana: 0,
 assets: [
@@ -614,8 +609,7 @@ description: "You are an erudite doctor, knowledgeable about poison, disease, an
 abilities: [0, 0, 0],
 skills: {
 "Apothecary": "Knowledgeable about herbs, medicinal ingredients, and other related matters. You can craft medicinal substances, such as <i>antidote</i>, <i>cure-all</i>, <i>healing draught</i>, <i>medicine box</i>, and all kinds of drugs and poisons, using <i>apothecary tools</i>.",
-"Medicine": "You are literate. You can speak Classic. Knowledgeable about human anatomy and physiology, illnesses, and ailments.
-                 You can diagnose poison and disease by spending a round examining a patient. After diagnosing, you can instruct someone with the <i>apothecary</i> skill to create a bespoke <i>antidote</i> or <i>cure-all</i> which is guaranteed to work.",
+"Medicine": "You are literate. You can speak Classic. Knowledgeable about human anatomy and physiology, illnesses, and ailments. You can diagnose poison and disease by spending a round examining a patient. After diagnosing, you can instruct someone with the <i>apothecary</i> skill to create a bespoke <i>antidote</i> or <i>cure-all</i> which is guaranteed to work.",
 },
 mana: 0,
 assets: [
@@ -839,8 +833,7 @@ description: "Townsfolk such as yourself are the backbone of the Kingdom: shop o
 abilities: [0, 0, 0],
 skills: {
 "Bargain": "If you have this skill, you purchase items at half price unless the seller also has this skill. You are able to accurately estimate the value of most items by taking a look at them.",
-"Gossip": "Whenever you take a day rest or full rest in a settlement, you hear interesting rumours. The GM decides what you hear, and it isn't necessarily true.
-                 You can easily find contacts in settlements, both legal and illegal ones, by spending a watch asking for information.",
+"Gossip": "Whenever you take a day rest or full rest in a settlement, you hear interesting rumours. The GM decides what you hear, and it isn't necessarily true. You can easily find contacts in settlements, both legal and illegal ones, by spending a watch asking for information.",
 },
 mana: 0,
 assets: [
