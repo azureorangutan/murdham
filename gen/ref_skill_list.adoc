@@ -30,8 +30,7 @@ If you have this skill, you purchase items at half price unless the seller also 
 You can become _frenzied_ by spending a round inciting yourself into a frothing rage, or immediately when you suffer damage. The condition lasts until all enemies have been defeated or you spend a round trying to calm yourself and pass a WIT save. While _frenzied_, you recover 1 health for each enemy you kill.
 
 * *Blather*.
-Proficient at distracting and taunting.
-                 You are able to speak endless strings of nonsense, leaving people dumbfounded. If you spend a stretch chatting with someone, you understand what might make them angry.
+Proficient at distracting and taunting. You are able to speak endless strings of nonsense, leaving people dumbfounded. If you spend a stretch chatting with someone, you understand what might make them angry.
 
 * *Bravery*.
 You are immune to fear and treat terror as fear
@@ -58,8 +57,7 @@ Proficient at climbing. Your attacks aren't impaired while climbing. You reduce 
 Your joints are extremely flexible and you can bend your body in absurd shapes. You can squeeze through small openings and easily escape bonds.
 
 * *Craft*.
-Proficient at repairing items.
-                 Knowledgeable about smithing, carpentry, tannery, and other forms of crafting. You can craft non-consumable items, such as weapons, armours, and vehicles.
+Proficient at repairing items. Knowledgeable about smithing, carpentry, tannery, and other forms of crafting. You can craft non-consumable items, such as weapons, armours, and vehicles.
 
 * *Disarm*.
 Targets of your disarm attacks can't resist with a STR save unless they also have this skill. You can only be disarmed by characters with this skill.
@@ -95,15 +93,13 @@ Proficient at sprinting. You can renounce your proficiency advantage to sprint b
 You can get by with very little. You don't reduce abilities when you can't satisfy needs during a day rest (but you still need to satisfy them in order to heal and recover mana). You pay half for lodging.
 
 * *Gossip*.
-Whenever you take a day rest or full rest in a settlement, you hear interesting rumours. The GM decides what you hear, and it isn't necessarily true.
-                 You can easily find contacts in settlements, both legal and illegal ones, by spending a watch asking for information.
+Whenever you take a day rest or full rest in a settlement, you hear interesting rumours. The GM decides what you hear, and it isn't necessarily true. You can easily find contacts in settlements, both legal and illegal ones, by spending a watch asking for information.
 
 * *Heal*.
 Proficient at performing surgeries. Knowledgeable about all kinds of wounds and injuries and ways to treat them. When you use a _medicine box_: heal half STR in a stretch, or d8 damage (up to half STR) in a round.
 
 * *Hunt*.
-Proficient at following trails.
-                 Knowledgeable about local fauna, how to hunt them... When you forage, on a _fish_ or _small game_ result you gain an additional _ration_, even if you don't have the appropriate tools
+Proficient at following trails. Knowledgeable about local fauna, how to hunt them... When you forage, on a _fish_ or _small game_ result you gain an additional _ration_, even if you don't have the appropriate tools
 
 * *Incorruptible*.
 You heal 1 corruption on a day rest, and all corruption on a full rest.
@@ -127,8 +123,7 @@ You can spend a stretch in meditation to sense the presence of magic phenomena (
 You can use an ancient esoteric technique to erect a magic shield around you. Activating or deactivating it takes a stretch spent in meditation, and it deactivates automatically if you are _incapacitated_ or fall asleep. Profane powers have a 1:2 chance of not working on you, no matter if harmful or beneficial. Sorcerers can spend 1 enhancement point to ignore the shield.
 
 * *Medicine*.
-You are literate. You can speak Classic. Knowledgeable about human anatomy and physiology, illnesses, and ailments.
-                 You can diagnose poison and disease by spending a round examining a patient. After diagnosing, you can instruct someone with the _apothecary_ skill to create a bespoke _antidote_ or _cure-all_ which is guaranteed to work.
+You are literate. You can speak Classic. Knowledgeable about human anatomy and physiology, illnesses, and ailments. You can diagnose poison and disease by spending a round examining a patient. After diagnosing, you can instruct someone with the _apothecary_ skill to create a bespoke _antidote_ or _cure-all_ which is guaranteed to work.
 
 * *Monster slaying*.
 You inflict double damage against targets of larger size category.
