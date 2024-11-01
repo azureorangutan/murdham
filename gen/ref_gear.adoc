@@ -17,7 +17,7 @@ Stops the effects of poison. 1:4 chance it doesn't work.
 Includes mortar, pestle, scales, glassware, etc. Used in combination with the _apothecary_ skill.
 
 * *Bag of dung* (1ʂ).
-Stinky and disgusting
+Stinky and disgusting.
 
 * *Bear trap* (16ʂ, bulk 2).
 Placing it or picking it up is a main action, concealing it takes a stretch. Characters stepping on it suffer d6 damage and are _entangled_.
@@ -99,7 +99,7 @@ Pass a STR save or temporarily increase all abilities by 2. Automatically fail i
 Spend a stretch and pass a STR save to open a door, chest, etc. Noisy. Can be used as a _simple hand weapon_.
 
 * *Crutch* (4ʂ).
-_hobbled_ characters can use it to walk.
+_Hobbled_ characters can use it to walk.
 
 * *Cure-all* (16ʂ, bulk ½).
 _Consumable_.
@@ -107,7 +107,7 @@ Take it before a recovery roll to pass. 1:4 chance it doesn't work.
 
 * *Darkroot* (16ʂ, bulk ½).
 _Consumable_.
-Pass a STR save or be _confused_ until the end of the watch, as you are overwhelmed by pleasant hallucinations. Automatically fail if you take 2 within a stretch. After the effect wears off, pass a WIT save or become _addicted_.
+Pass a STR save or be _confused_ until the end of the watch, as pleasant hallucinations overwhelm you. Automatically fail if you take 2 within a stretch. After the effect wears off, pass a WIT save or become _addicted_.
 
 * *Dice* (4ʂ, bulk ½).
 Luck-based game.
@@ -129,7 +129,7 @@ Includes pots, pans, kitchen utensils, etc. Food you gather by foraging is doubl
 Obtain a _ration_ on a _fish_ result while foraging.
 
 * *Flint & tinder* (4ʂ, bulk ½).
-Can be used to start a fire
+Can be used to start a fire.
 
 * *Gemstone* (1024ʂ, bulk ½).
 Extremely shiny and valuable.
@@ -149,7 +149,7 @@ Recover health equal to half STR.
 
 * *Incense* (4ʂ, bulk ½).
 _Consumable_.
-Burns for a stretch. _demons_ are disturbed by it: they must pass a STR save to enter a zone where incense is burning.
+Burns for a stretch. _Demons_ are disturbed by it: they must pass a STR save to enter a zone where incense is burning.
 
 * *Ladder* (4ʂ, bulk 4).
 Climbing it is trivial.
@@ -167,7 +167,7 @@ Spend a stretch and pass a WIT save to open a lock.
 See distant details.
 
 * *Lucky charm* (16ʂ, bulk ½).
-When you spend an omen, there is 1:4 chance it isn't actually spent. If combined with the _luck_ skill, You have in total a 1:2 chance of not losing the omen.
+When you spend an omen, there is 1:4 chance it isn't actually spent. If combined with the _lucky_ skill, You have in total a 1:2 chance of not losing the omen.
 
 * *Madcap mushroom* (16ʂ, bulk ½).
 _Consumable_.
@@ -210,7 +210,7 @@ A nice painting.
 
 * *Perfume* (16ʂ, bulk ½).
 _Consumable_.
-An exquisite perfume
+An exquisite perfume.
 
 * *Pipe & tobacco* (4ʂ, bulk ½).
 _Consumable_.
@@ -241,7 +241,7 @@ Ingested damaging poison (d12 direct damage at the end of the stretch).
 2 metre. Trivial to climb.
 
 * *Saddle* (16ʂ, bulk 2).
-Required to ride a mount. Includes saddle bags.
+Required to ride a mount. Includes saddlebags.
 
 * *Scissors* (4ʂ).
 Used to cut precisely.
@@ -268,7 +268,7 @@ Shiny and valuable.
 
 * *Smoke bomb* (16ʂ, bulk ½).
 _Consumable_.
-Throw it at range 2. All zones within range 1 of the targeted one are covered in thick smoke, blocking visibility until the end of the stretch
+Throw it at range 2. All zones within range 1 of the targeted one are covered in thick smoke, blocking visibility until the end of the stretch.
 
 * *Surgery tools* (16ʂ, bulk 2).
 Include hacksaws, scalpels, knifes, stitches, etc. Performing a surgery takes a stretch and requires passing a WIT save. On a failure the patient suffers d8 direct damage.

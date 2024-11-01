@@ -14,6 +14,6 @@ Must be rowed. Moves by 1 area per time unit per rowing character, maximum 4.
 
 * *Sailing boat* (1024ʂ, bulk 64).
 _Health 16/4_, _vehicle 8_.
-Must be operated by a character with the _boatmanship_ skill or rowed. Moves between 1 and 6 areas per time unit with the wind, or by half area per time unit per rowing character if rowed, maximum 4.
+Must be operated by a character with the _river lore_ skill or rowed. Moves between 1 and 6 areas per time unit with the wind, or by half an area per time unit per rowing character if rowed, maximum 4.
 
 

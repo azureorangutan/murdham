@@ -44,7 +44,7 @@ Target a creature. The target heals 1 corruption.
 
 * *Rite of restoration*.
 _Near_.
-Target a creature who is _sick_ or affected by poison. Poison is neutralised, and _sick_ targets gain a success towards recovering.
+Target a creature who is _sick_ or affected by poison. Poison is neutralized, and _sick_ targets gain a success towards recovering.
 
 * *Rite of warding*.
 _Near_, _watch_.

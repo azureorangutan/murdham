@@ -10,7 +10,7 @@ Target a _creature_, who turns into a medium-sized animal of your choice. You mu
 
 * *Arcane lock*.
 _Near_, _stretch_.
-Target an item which can be opened and closed, such as a door, a box, or a bottle. The target can only be opened by a trigger of your choice (a password, a gesture, contact with a specific item, etc.
+Target an item which can be opened and closed, such as a door, a box, or a bottle. The target can only be opened by a trigger of your choice (a password, a gesture, contact with a specific item...).
 
 ** 1 EP -- The target emits a loud sound if someone attempts to open it without using the proper method.
 
@@ -24,11 +24,11 @@ Target a creature. The target attitude towards you improves by a step: hostile t
 
 * *Burning vengeance*.
 _Near_, _stretch_.
-Target a creature with human intelligence. Name a person they know and remind how they have been wronged by them, no matter if by a small or a big matter. The target becomes obsessed with an irrational desire to take revenge by killing the named person and they will fully devote themselves to this end.
+Target a creature with human intelligence. Name a person they know and remind how they have been wronged by them, no matter if by a small or a big matter. The target becomes obsessed with an irrational desire to take revenge by killing the named person, and they will fully devote themselves to this end.
 
 * *Eldritch blast*.
 _Near_.
-Target a character or an item. The target is hit by a force blast, which works as a melee attack inflicting d10 damage (impaired against items). If you enhance the power to _sight_ range, it works as a ranged attack instead. All skills and rules concerning attacks apply, and the attack can be dodged or countered as usual. If you enhance the power to _connection_ range, the blast is conjured on top of the target and your skills don't apply any longer, but the target can still dodge.
+Target a character or an item. The target is hit by a force blast, which works as a melee attack, inflicting d10 damage (impaired against items). If you enhance the power to _sight_ range, it works as a ranged attack instead. All skills and rules concerning attacks apply, and the attack can be dodged or countered as usual. If you enhance the power to _connection_ range, the blast is conjured on top of the target and your skills don't apply any longer, but the target can still dodge.
 
 ** 1 EP -- The power inflicts fire, lightning, cold, or heat damage.
 
@@ -58,11 +58,11 @@ This power can only ever target the invoker and requires the sacrifice of a _gol
 
 * *Hold secret*.
 _Near_, _stretch_.
-Target a _creature_ of _human intelligence_ and name a topic. The target is physically unable to talk about the topic, and if forced to they will compulsively lie.
+Target a _creature_ of _human intelligence_ and name a topic. The target is physically unable to talk about the topic, and if forced to, they will compulsively lie.
 
 * *Illusion*.
 _Near_, _stretch_.
-Target a small zone. You can create an illusion within its boundaries. The illusion can affect sight, hearing, and smell, but not touch. While you are within range, you can concentrate on the illusion to change it or animate it. While you aren't concentrating the illusion remains frozen in the state you left it, and only disappears when the power ends.
+Target a small zone. You can create an illusion within its boundaries. The illusion can affect sight, hearing, and smell, but not touch. While you are within range, you can concentrate on the illusion to change it or animate it. While you aren't concentrating, the illusion remains frozen in the state you left it, and only disappears when the power ends.
 
 * *Joyous appearance*.
 _Near_, _stretch_.
@@ -76,7 +76,7 @@ Target a creature. The target temporarily gains the _landing flyer_ trait.
 
 * *Miasma of chaos*.
 _Near_, _stretch_.
-Target a small zone. The area is filled with red mist flowing from the ground. Characters entering or starting their turn in the affected area suffer 1 corruption. The mist blocks visibility through it, but it still possible to see nearby characters within it.
+Target a small zone. The area is filled with red mist flowing from the ground. Characters entering or starting their turn in the affected area suffer 1 corruption. The mist blocks visibility.
 
 ** 1 EP -- Double the amount of corruption.
 
@@ -94,7 +94,7 @@ Target a _sick_ creature. You absorb the disease from the target, who is instant
 
 * *Purifying flame*.
 _Near_, _stretch_.
-Target an unlit light source, such as a _candle_, an _oil lamp_, a _torch_, or a bonfire. It is instantly lit with a bright white flame. All creatures illuminated by it are immune to poison and disease. If they are already poisoned, the poison isn't neutralised but its effect is suspended while under the light. If they are already _sick_, they aren't healed but don't suffer negative effects if they fail a recovery roll while under the light.
+Target an unlit light source, such as a _candle_, an _oil lamp_, a _torch_, or a bonfire. It is instantly lit with a bright white flame. All creatures illuminated by it are immune to poison and disease. If they are already poisoned, the poison isn't neutralized but its effect is suspended while under the light. If they are already _sick_, they aren't healed but don't suffer negative effects if they fail a recovery roll while under the light.
 
 * *Radiant honesty*.
 _Near_, _stretch_.
@@ -112,7 +112,7 @@ Target a zone. No sound can be produced or heard within it. Among other things, 
 
 * *Star sign*.
 _Sight_, _stretch_.
-Target a celestial body (the Sun, the Moon, a planet, a star...) at any range. You can alter its appearance in a subtle way (make it slightly larger, smaller, brighter, darker...). You can keep altering appearance as long as you concentrate, otherwise it remains as you left it until the spell is over. Characters with the _erudition_ skill can tell something is different, even if subtle. It is said that some wizards use this spell to encode messages in the stars.
+Target a celestial body (the Sun, the Moon, a planet, a star...) at any range. You can subtly alter its appearance (make it slightly larger, smaller, brighter, darker...). You can keep altering appearance as long as you concentrate, otherwise it remains as you left it until the spell is over. Characters with the _erudition_ skill can tell something is different, even if subtle. It is said that some wizards use this spell to encode messages in the stars.
 
 ** 2 EP -- You can alter target's appearance in a rather evident way, so that pretty much everyone can see the difference and not just erudite characters.
 
@@ -120,11 +120,11 @@ Target a celestial body (the Sun, the Moon, a planet, a star...) at any range. Y
 _Near_, _stretch_.
 Target a zone and invoke the true name of a _demon_. The veil between reality and chaos is torn and the demon steps into this world. The demon isn't under the caster's control and behaves according to its own desire.
 
-** 2 EP -- The demon must fulfil a demand when summoned, after which it's free. It can still refused to obey, in which case it is paralysed as if bound by invisible chains. You can attempt to bargain and change the request.
+** 2 EP -- The demon must fulfil a demand when summoned, after which it's free. It can still refuse to obey, in which case it is paralysed as if bound by invisible chains. You can attempt to bargain and change the request.
 
 * *Water breathing*.
 _Near_, _stretch_.
-Target a creature. Gills and fins appear on the target's body and their hands, feet, or paws become palmate. The target can breathe under water and can swim at full speed.
+Target a creature. Gills and fins appear on the target's body and their hands, feet, or paws become palmate. The target can breathe underwater and can swim at full speed.
 
 * *Wood shape*.
 _Near_, _stretch_.

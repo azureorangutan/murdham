@@ -19,6 +19,7 @@ Mounting or dismounting counts as a main action for both the rider and the mount
 
 Riders and mounts are targeted separately by attacks.
 Note that if the mount attempts to dodge an attack this triggers an AGI save, requiring all riders to pass an AGI save as well or fall from the saddle.
+Attacks made while riding are impaired.
 
 
 == Carts
@@ -35,6 +36,7 @@ Jumping on or off a moving cart requires passing an AGI save to avoid falling an
 
 Carts, those pulling it, the driver, and passengers are targeted separately by attacks.
 Characters pulling a cart can't dodge.
+Attacks made while riding a cart are impaired.
 
 
 == Boats
@@ -52,3 +54,4 @@ The crew and the passengers can't act if the boat has sprinted this round, and t
 Jumping on or off a moving boat requires passing an AGI save to avoid falling into the water.
 
 Boats, the crew, and the passengers are targeted separately by attacks.
+Attacks made while on a boat are impaired.

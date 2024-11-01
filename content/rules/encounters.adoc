@@ -6,6 +6,18 @@ next: /rules/combat
 ---
 :toc:
 
+
+== Detecting other characters
+
+When two groups encounter each other, they must each make a group WIT save.
+If at least one member passes, they notice the other group.
+
+Groups which are being reckless (making noise, talking loudly, carrying a light in the dark...) are automatically detected and can't detect the other group unless they are being reckless as well.
+Groups which are well hidden and silent (for example laying in ambush in a thick forest) can't be detected by a WIT save, only by a search, and automatically detect even cautious groups.
+
+If only one group notices the other, it has the opportunity to decide how to approach the encounter: leaving, sneaking, launching an ambush, attempting to parley, etc.
+If both or neither group notices the other, the two sides stumble upon each other and the encounter can't be avoided.
+
 == Attitude
 
 The GM can use the following levels to express the attitude that other characters have towards the Player characters:
@@ -65,27 +77,6 @@ Taunting someone in combat is a main action, and if successful, the target can o
 * *Torture*.
 Torturing an imprisoned character takes a stretch of time and inflicts d6 direct damage.
 The target, if still alive and conscious, must pass a WIT save or give up and talk.
-
-
-== Languages
-
-* _Common_ is the lingua franca of the Kingdom.
-Pretty much everyone in the land can speak it, with more or less atrocious accent.
-
-* _Classic_ is the language of scholars and the Church.
-Erudites from the Kingdom and other countries can speak it and use it to communicate.
-Sacred power scrolls are written in Classic.
-
-* _Magick_ is the language of sorcery.
-It is too cryptic and esoteric to be used to communicate effectively.
-Profane power scrolls are written using this language.
-
-* Different regions, countries, and people speak a variety of languages.
-Which ones matter depend on the campaign setting.
-
-All Player characters can speak Common plus other languages if granted by their skills.
-Characters can't read, write, or perform anything but very simple calculations unless they have a skill which grants this ability: education is a privilege for the few!
-
 
 == Stealing
 

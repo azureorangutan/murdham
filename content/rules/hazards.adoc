@@ -2,9 +2,26 @@
 title: Hazards
 weight: 120
 prev: /rules/perception
-next: /rules/encounters
+next: /rules/movement
 ---
 :toc:
+
+== Perception
+
+The GM has the task of revealing to the Players what they can see, hear, smell, feel, and know.
+The Players should ask clarifying questions if the situation isn't clear to them, and point out if they think their character has a skill or property which might help to know more about something.
+This helps the GM run the game in the best possible way!
+
+
+== Concealed elements
+
+Concealed elements (traps, hidden caches, secret passages, hiding characters...) can automatically be detected by spending some time to search the area.
+If they aren't perfectly concealed they can also be detected passively, without a search, when nearby by passing a group WIT save.
+
+Searching a zone or a sector takes a stretch or a watch respectively and reveals all concealed elements in it.
+Searching a region takes 2 watches and only reveals a single concealed element within it.
+Two characters can split and search a region in a single watch.
+
 
 == Falling
 
