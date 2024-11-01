@@ -11,5 +11,5 @@ next: /rules/conditions
 Traits are characteristics which, unlike skills, are either innate or acquired in ways other than training and learning.
 Apart from that, they work similarly: their description lists common effect, but you should take them into account any time it makes sense.
 
-include::gen/ref_trait_list.adoc[]
+include::gen/ref_traits.adoc[]
 

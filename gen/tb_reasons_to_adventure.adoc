@@ -1,7 +1,5 @@
-// This file was automatically generated.
-
-.Reason to adventure
-[[tb_reason_to_adventure]]
+.Reasons to adventure
+[[tb_reasons_to_adventure]]
 [options='header, unbreakable', cols="^1h,^7,^7"]
 |===
 h|  2+h|D2

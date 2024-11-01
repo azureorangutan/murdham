@@ -1,5 +1,3 @@
-// This file was automatically generated.
-
 == Gear
 
 * *Alcoholic drink* (4ʂ, bulk ½).
@@ -291,6 +289,5 @@ _Consumable_.
 Enough for a day rest.
 
 * *Wooden pole* (4ʂ, bulk 2).
-2 metre long
-
+2 metre long.
 

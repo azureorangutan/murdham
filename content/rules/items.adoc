@@ -61,9 +61,68 @@ Raw materials cost ¼ the value of the item.
 Consumable items can be crafted in batches of 2.
 
 
-include::gen/ref_item_keywords.adoc[]
+== Item keywords
 
-include::gen/ref_weapon_keywords.adoc[]
+* *Armour X*.
+Increases armour value by X while worn. Characters can only wear one suit of armour. Equipping or unequipping armour takes a stretch. Armour is fitted to a specific character, and only those of similar size are able to wear it. When in doubt, there is a 1:8 chance it is possible.
+
+* *Consumable*.
+Discarded after use.
+
+* *Health X/Y*.
+This item has health equal to X and armour value equal to Y, and suffers damage like characters instead of using durability rolls. On critical damage, it is _damaged_ and can't be used until it recovers at least 1 health. Items can't heal like characters, but can be repaired. Sources of damage which can't realistically damage the items are completely ineffective (such as a sword against a metal door).
+
+* *Fragile*.
+Behaves as an already _damaged_ item: it is destroyed on a failed durability roll, weapons are destroyed on a roll of 1, shields and armour are destroyed upon taking 8 or more damage.
+
+* *Robust*.
+Only has a 1:8 chance of failing durability rolls.
+
+* *Shield*.
+Increases the armour value by 1 while held, but only against attacks you react against (counter, dodge, or guard) and attacks used to counter you. If you hold two shields at once, you still only increase armour value by 1, but against all attacks.
+
+* *Vehicle X*.
+Can carry X medium-sized characters and their gear. A character can be replaced by items for a total bulk of 16. The bulk of what's on the vehicle doesn't count towards the encumbrance of characters or operating it.
+
+* *Weapon*.
+Can be used to perform an attack while held, with the indicated damage and properties. Attacks made with one-handed weapons held in the non-dominant hand inflict impaired damage. Weapons of bulk 2 or more require both hands to attack and can't be used to attack characters you are grabbing. You don't have to track ammunition for ranged weapons.
+
+
+== Weapon keywords
+
+* *Blast*.
+Targets all characters in a small zone and on its borders.
+
+* *Direct damage*.
+Inflicts full damage, ignoring the target's armour value.
+
+* *Fire damage*.
+Inflicts fire damage (it is direct damage).
+
+* *Grab*.
+Targets must pass a STR save to avoid being grabbed.
+
+* *Holy damage*.
+Only effective against _demons_ and _undead_.
+
+* *Indirect range X*.
+Can be used to attack up to range X. Can attack over obstacles, but can't attack within half range.
+
+* *Poison*.
+The target is exposed to poison of the specified type if they suffer at least 1 damage.
+
+* *Range X*.
+Can be used to attack up to range X.
+
+* *Reload*.
+This weapon can only be used only once per combat, since it takes a relative long time to reload it. In the few situations where it matters, a character can spend 10 rounds (1 minute) to reload the weapon.
+
+* *Usage limit*.
+Can only be used with the specified frequency.
+
+* *Stun*.
+Targets are _stunned_.
+
 
 include::gen/ref_weapons.adoc[]
 
@@ -75,5 +134,29 @@ include::gen/ref_artillery.adoc[]
 
 include::gen/ref_vehicles.adoc[]
 
-include::gen/ref_item_modifiers.adoc[]
 
+== Item modifiers
+
+* *Fragile item* (÷4).
+Gains the _fragile_ keyword.
+
+* *Robust item* (×4).
+Gains the _robust_ keyword.
+
+* *Mastercrafted weapon* (×4).
+The damage die is improved: d4 to d6, d6 to d8, d8 to d10, d10 to d12.
+
+* *Mastercrafted armour or shield* (×4).
+Bulk is halved.
+
+* *Animal armour* (×1).
+Made for dogs or other medium-sized animals without the _sturdy_ trait.
+
+* *Sturdy animal armour* (×4).
+Bulk is doubled. Made for horses or other medium-sized animals with the _sturdy_ trait.
+
+* *Expensive item* (×4).
+A particularly valuable version of another item. Good wine is an expensive _alcoholic drink_, a decorated sword is an expensive _martial hand weapon_, fancy outfits are expensive _clothes_, etc.
+
+* *Luxury item* (×16).
+An extremely valuable version of another item. Fine spirit is a luxury _alcoholic drink_, a gem-encrusted sword is a luxury _martial hand weapon_, aristocratic outfits are luxury _clothes_, etc.

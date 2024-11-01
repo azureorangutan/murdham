@@ -1,128 +1,104 @@
-// This file was automatically generated.
+== Wild animals
 
-*Alligator* (128ʂ) +
+* *Alligator* (128ʂ) +
 *STR* 12, *AGI* 4, *WIT* 8 +
-_Medium-sized creature_, _animal intelligence_. +
-*Thick scales*. Armour value 1. +
-*Bite*. D8 damage. +
+_Medium creature_, animal intelligence. +
+*Thick scales*. Armor value 1. +
+*Bite*. d8.
 
-
-*Bat* (8ʂ) +
+* *Bat* (8ʂ) +
 *STR* 2, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Swooping flyer*. Can fly. Can attack but can't stay still while flying. +
-*Bite*. D4 damage. +
+_Small creature_, animal intelligence. +
+*Traits*: _fast_, _swooping flyer_. +
+*Bite*. d4.
 
-
-*Bear* (256ʂ) +
+* *Bear* (256ʂ) +
 *STR* 16, *AGI* 4, *WIT* 8 +
-_Medium-sized creature_, _animal intelligence_. +
-*Sturdy*. Doubles carry limit and bulk. +
-*Bite & claws*. D8 damage. +
+_Medium creature_, animal intelligence. +
+*Traits*: _sturdy_. +
+*Bite & claws*. d8.
 
-
-*Boar* (32ʂ) +
+* *Boar* (32ʂ) +
 *STR* 8, *AGI* 4, *WIT* 8 +
-_Medium-sized creature_, _animal intelligence_. +
-*Sturdy*. Doubles carry limit and bulk. +
-*Tusks*. D6 damage. +
+_Medium creature_, animal intelligence. +
+*Traits*: _sturdy_. +
+*Tusks*. d6.
 
-
-*Deer* (64ʂ) +
+* *Deer* (64ʂ) +
 *STR* 8, *AGI* 8, *WIT* 8 +
-_Medium-sized creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Antlers*. D6 damage. +
+_Medium creature_, animal intelligence. +
+*Traits*: _fast_. +
+*Antlers*. d6.
 
-
-*Eagle* (128ʂ) +
+* *Eagle* (128ʂ) +
 *STR* 4, *AGI* 12, *WIT* 8 +
-_Medium-sized creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Swooping flyer*. Can fly. Can attack but can't stay still while flying. +
-*Beak & talons*. D6 damage. +
+_Medium creature_, animal intelligence. +
+*Traits*: _fast_, _swooping flyer_. +
+*Beak & talons*. d6.
 
-
-*Elephant* (512ʂ) +
+* *Elephant* (512ʂ) +
 *STR* 12, *AGI* 4, *WIT* 8 +
-_Large creature_, _animal intelligence_. +
-*Sturdy*. Doubles carry limit and bulk. +
-*Thick hide*. Armour value 1. +
-*Tusks*. D6 damage. +
+_Large creature_, animal intelligence. +
+*Traits*: _sturdy_. +
+*Thick hide*. Armor value 1. +
+*Tusks*. d6.
 
-
-*Hawk* (32ʂ) +
+* *Hawk* (32ʂ) +
 *STR* 4, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Swooping flyer*. Can fly. Can attack but can't stay still while flying. +
-*Beak & talons*. D6 damage. +
+_Small creature_, animal intelligence. +
+*Traits*: _fast_, _swooping flyer_. +
+*Beak & talons*. d6.
 
-
-*Lion* (512ʂ) +
+* *Lion* (512ʂ) +
 *STR* 12, *AGI* 8, *WIT* 8 +
-_Medium-sized creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Sturdy*. Doubles carry limit and bulk. +
-*Bite & claws*. D8 damage. +
+_Medium creature_, animal intelligence. +
+*Traits*: _fast_, _sturdy_. +
+*Bite & claws*. d8.
 
-
-*Lynx* (64ʂ) +
+* *Lynx* (64ʂ) +
 *STR* 4, *AGI* 12, *WIT* 8 +
-_Medium-sized creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Bite & claws*. D6 damage. +
+_Medium creature_, animal intelligence. +
+*Traits*: _fast_. +
+*Bite & claws*. d6.
 
-
-*Mouse* (4ʂ) +
+* *Mouse* (4ʂ) +
 *STR* 2, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Bite*. D4 damage. +
+_Small creature_, animal intelligence. +
+*Traits*: _fast_. +
+*Bite*. d4.
 
-
-*Owl* (32ʂ) +
+* *Owl* (32ʂ) +
 *STR* 4, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Swooping flyer*. Can fly. Can attack but can't stay still while flying. +
-*Beak & talons*. D6 damage. +
+_Small creature_, animal intelligence. +
+*Traits*: _fast_, _swooping flyer_. +
+*Beak & talons*. d6.
 
-
-*Rat* (8ʂ) +
+* *Rat* (8ʂ) +
 *STR* 4, *AGI* 8, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Bite*. D6 damage. +
+_Small creature_, animal intelligence. +
+*Traits*: _fast_. +
+*Bite*. d6.
 
-
-*Raven* (32ʂ) +
+* *Raven* (32ʂ) +
 *STR* 4, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Swooping flyer*. Can fly. Can attack but can't stay still while flying. +
-*Beak & talons*. D6 damage. +
+_Small creature_, animal intelligence. +
+*Traits*: _fast_, _swooping flyer_. +
+*Beak & talons*. d6.
 
-
-*Tiger* (512ʂ) +
+* *Tiger* (512ʂ) +
 *STR* 12, *AGI* 12, *WIT* 8 +
-_Medium-sized creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Bite & claws*. D8 damage. +
+_Medium creature_, animal intelligence. +
+*Traits*: _fast_. +
+*Bite & claws*. d8.
 
-
-*Viper* (2ʂ) +
+* *Viper* (2ʂ) +
 *STR* 2, *AGI* 8, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
-*Bite*. D4 damage, damaging poison. +
+_Small creature_, animal intelligence. +
+*Bite*. d4, poison (damaging).
 
-
-*Wolf* (64ʂ) +
+* *Wolf* (64ʂ) +
 *STR* 8, *AGI* 8, *WIT* 8 +
-_Medium-sized creature_, _animal intelligence_. +
-*Fast*. Moves at double speed. +
-*Bite & claws*. D6 damage. +
-
-
+_Medium creature_, animal intelligence. +
+*Traits*: _fast_. +
+*Bite & claws*. d6.
 

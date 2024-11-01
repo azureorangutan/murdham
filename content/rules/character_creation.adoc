@@ -47,7 +47,7 @@ Your armour value depends on your starting items.
 
 . *Name and description*.
 Name and portray your character using words, drawings, or a combination of the two, as you prefer.
-You can roll on the <<tb_masculine_names>>, <<tb_feminine_names>>, <<tb_last_names>>, <<tb_appearance>>, <<tb_personality>>, and <<tb_reason_to_adventure>> tables if you need inspiration.
+You can roll on the <<tb_masculine_first_names>>, <<tb_feminine_first_names>>, <<tb_last_names>>, <<tb_appearance>>, <<tb_personality>>, and <<tb_reasons_to_adventure>> tables if you need inspiration.
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -88,10 +88,28 @@ You don't have to do this for every possible pair of characters, but you should 
 For example, you can go around the table and define a connection for each pair of Players sitting next to each other, excluding the last pair.
 
 
-
 == Character creation tables
 
-include::gen/tb_starting_ability_scores.adoc[]
+.Starting ability scores
+[[tb_starting_ability_scores]]
+[options='header, unbreakable', cols="^1,^4,^1,^4,^1,^4"]
+|===
+|D12 |Scores
+|D12 |Scores
+|D12 |Scores
+|1 |8, 8, 8
+|2 |9, 8, 7
+|3 |9, 9, 6
+|4 |10, 7, 7
+|5 |10, 8, 6
+|6 |10, 9, 5
+|7 |11, 7, 6
+|8 |11, 8, 5
+|9 |12, 6, 6
+|10 |12, 7, 5
+|11 |13, 6, 5
+|12 |14, 5, 5
+|===
 
 include::gen/tb_backgrounds.adoc[]
 
@@ -107,11 +125,11 @@ include::gen/tb_appearance.adoc[]
 
 include::gen/tb_personality.adoc[]
 
-include::gen/tb_reason_to_adventure.adoc[]
+include::gen/tb_reasons_to_adventure.adoc[]
 
-include::gen/tb_masculine_names.adoc[]
+include::gen/tb_masculine_first_names.adoc[]
 
-include::gen/tb_feminine_names.adoc[]
+include::gen/tb_feminine_first_names.adoc[]
 
 include::gen/tb_last_names.adoc[]
 

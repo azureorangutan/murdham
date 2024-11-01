@@ -1,0 +1,568 @@
+- male_name: acrobat
+  female_name: acrobat
+  skills:
+  - acrobatics
+  - contortionist
+  items:
+  - name: clothes
+    descr: comfortable and colourful leotard
+  - name: rope
+    descr: made of silk
+  - name: wooden pole
+  descr: You earned your fare performing spectacular and dangerous acrobatic feats.
+- male_name: agitator
+  female_name: agitator
+  skills:
+  - charm
+  - quick draw
+  items:
+  - name: clothes
+    descr: working class attire
+  - name: alchemist's fire
+  - name: scroll
+    descr: "pamphlet denouncing the Emperor, or at least they told you so: you can't read after all"
+  descr: 'You know how to incite the people with fervent speeches. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money.'
+- male_name: artisan
+  female_name: artisan
+  skills:
+  - craft
+  - piercing strike
+  items:
+  - name: clothes
+    descr: thick leather apron
+  - name: toolbox
+  descr: 'You know how to keep equipment in good order: nothing is more dangerous than a blunt sword or a cracked shield.'
+- male_name: assassin
+  female_name: assassin
+  skills:
+  - sneak attack
+  - stealth
+  items:
+  - name: clothes
+    descr: dark cloak
+  - name: missile hand weapon
+    descr: hand crossbow
+  - name: black adder venom
+    descr: ''
+  descr: For the right amount of coins, everyone can be taken care of.
+- male_name: barber-surgeon
+  female_name: barber-surgeon
+  skills:
+  - heal
+  - strike to injure
+  items:
+  - name: clothes
+    descr: bloodstained apron
+  - name: surgery tools
+    descr: ''
+  descr: A sharp razor and a steady hand are required for both a clean shave and delicate surgeries.
+- male_name: beggar
+  female_name: beggar
+  skills:
+  - disease resistance
+  - frugal
+  items:
+  - name: clothes
+    descr: dirty, stinky rags
+  - name: crutch
+  - name: alcoholic drink
+  descr: You spent your days sitting in the corner of busy roads, hoping for a few shillings from generous passers-by.
+- male_name: berserker
+  female_name: berserker
+  skills:
+  - battle frenzy
+  - cleave
+  items:
+  - name: clothes
+    descr: blood-splattered furs decorated with the skulls of your foes
+  - name: martial great weapon
+    descr: glaive
+  descr: You are a savage, bloodthirsty warrior, barely able to control your bloodlust.
+- male_name: boatman
+  female_name: boatwoman
+  skills:
+  - river lore
+  - swim
+  items:
+  - name: clothes
+    descr: wet and mouldy
+  - name: fishing tools
+  descr: You have ferried passengers and smuggled goods along the many rivers flowing across the Kingdom.
+- male_name: bodyguard
+  female_name: bodyguard
+  skills:
+  - protect
+  - shield mastery
+  items:
+  - name: clothes
+    descr: enhancing your muscles
+  - name: shield
+  - name: medicine box
+  descr: You worked for the rich and powerful, protecting them from robbers and other scum.
+- male_name: bone picker
+  female_name: bone picker
+  skills:
+  - frugal
+  - quick draw
+  items:
+  - name: clothes
+    descr: mismatched clothes scavenged from the road
+  - name: simple hand weapon
+    descr: femurfragile
+  - name: bag of dung
+  - name: crutch
+  descr: "one person's rubbish is another person's treasure: you scour the roads, graves, and gutters looking for something valuable to sell for a few pennies."
+- male_name: bounty hunter
+  female_name: bounty huntress
+  skills:
+  - disarm
+  - strike to stun
+  items:
+  - name: clothes
+    descr: large coat and wide-brimmed hat
+  - name: net
+  - name: manacles & key
+  descr: You used to roam the cities and the countryside, capturing wanted criminals to collect the bounties on their head.
+- male_name: brawler
+  female_name: brawler
+  skills:
+  - brawling
+  - wrestling
+  items:
+  - name: clothes
+    descr: hand wraps to protect your knuckles
+  - name: alcoholic drink
+  - name: chain
+  descr: "Your fists are your weapon and your arms can bend iron: nobody is stronger than you!"
+- male_name: burglar
+  female_name: burglar
+  skills:
+  - burglary
+  - pack rat
+  items:
+  - name: clothes
+    descr: comfortable and with generous pockets
+  - name: lock picks
+  - name: metal file
+  descr: There is no lock you can't open and no safe you can't crack.
+- male_name: charlatan
+  female_name: charlatan
+  skills:
+  - blather
+  - charm
+  items:
+  - name: clothes
+    descr: fake city watch uniform, won't stand scrutiny
+  - name: scroll
+    descr: filled with scribbled nonsense
+  - name: silver jewel
+    descr: fake necklace
+  descr: You are a cunning liar, able to convince people of almost anything.
+- male_name: coach driver
+  female_name: coach driver
+  skills:
+  - drive carts
+  - ride
+  items:
+  - name: clothes
+    descr: coat and wide brimmed hat, for the rain
+  - name: long gun
+    descr: blunderbuss
+  descr: You worked for a coaching company, driving stage coaches through the dangerous roads of the Kingdom and protecting them with your trusty blunderbuss.
+- male_name: cutpurse
+  female_name: cutpurse
+  skills:
+  - steal
+  - stealth
+  items:
+  - name: clothes
+    descr: hood covering your face
+  - name: gold jewel
+    descr: gold necklace with a noble family emblem, stolen
+  descr: "Some are born with too much: those wealthy nobles aren't going to notice if they are a few shillings short."
+- male_name: duellist
+  female_name: duellist
+  skills:
+  - ambidextrous
+  - fast strike
+  items:
+  - name: clothes
+    descr: a few stitched up cuts
+  - name: martial hand weapon
+    descr: thrusting sword
+  - name: simple hand weapon
+    descr: parrying dagger
+  descr: You are a skilled duellist, constantly looking for a worthy opponent to hone your skills.
+- male_name: fire eater
+  female_name: fire eater
+  skills:
+  - contortionist
+  - fire eating
+  items:
+  - name: clothes
+    descr: bare chested, lest your shirt catches fire
+  - name: missile hand weapon
+    descr: throwing knivesyou like to juggle with them
+  - name: alcoholic drink
+  - name: torch
+  descr: You were a performer at a travelling carnival, executing a vast array of exciting tricks.
+- male_name: footpad
+  female_name: footpad
+  skills:
+  - sneak attack
+  - strike to stun
+  items:
+  - name: clothes
+    descr: scarf to cover your face
+  - name: simple hand weapon
+    descr: cudgelideal to knock people out
+  - name: garrotte
+  descr: You have spent years mugging unaware victims in shady alleys and dark forest roads, occasionally killing for money.
+- male_name: gambler
+  female_name: gambler
+  skills:
+  - lucky
+  - play games
+  items:
+  - name: clothes
+    descr: large pockets
+  - name: cards
+    descr: marked
+  - name: dice
+    descr: loaded
+  descr: Luck come and goes at the gaming table, but it has never abandoned you, not with the help of a few clever tricks.
+- male_name: hedge wizard
+  female_name: hedge witch
+  skills:
+  - augury
+  - sorcery
+  items:
+  - name: clothes
+    descr: covered in bones, charms, and trinkets
+  - name: lucky charm
+    descr: rabbit foot
+  - name: power scroll
+    descr: profane
+  descr: You were blessed with great power, but never received the education necessary to fully control it.
+- male_name: herbalist
+  female_name: herbalist
+  skills:
+  - apothecary
+  - heal
+  items:
+  - name: clothes
+    descr: many bags to carry herbs
+  - name: apothecary tools
+  - name: medicine box
+  descr: You were a village healer, curing ailments with plants and natural remedies.
+- male_name: hunter
+  female_name: huntress
+  skills:
+  - bushcraft
+  - hunt
+  items:
+  - name: clothes
+    descr: decorated with trophies from your preys
+  - name: missile great weapon
+    descr: crossbow
+  descr: When you hunt in the dark forests of the Kingdom, you sometimes wonder if you really are the hunter or rather the prey.
+- male_name: jester
+  female_name: jester
+  skills:
+  - acrobatics
+  - blather
+  items:
+  - name: clothes
+    descr: colourful, with a bell hat
+  - name: simple hand weapon
+    descr: stick with bellsjingles cheerfully when it hits someone
+  - name: smoke bomb
+  descr: You have spent your life making a fool of yourself to entertain the nobles, but you will have the last laugh!
+- male_name: knight
+  female_name: knight
+  skills:
+  - ride
+  - skilled blow
+  items:
+  - name: clothes
+    descr: colourful livery
+  followers:
+  - name: light horse
+    descr: "Bartadan, trained for combat, old and lame: permanent _hobbled_ condition"
+  descr: With your honour lost, and no coin left to your name, you wander on your steed, selling your sword for money.
+- male_name: labourer
+  female_name: labourer
+  skills:
+  - pack rat
+  - tough
+  items:
+  - name: clothes
+    descr: drenched in sweat
+  - name: simple great weapon
+    descr: shovel
+  - name: ration
+    descr: packed lunch
+  descr: Your bones and muscles have been hardened by years of toiling under sun and rain.
+- male_name: messenger
+  female_name: messenger
+  skills:
+  - languages
+  - fleet footed
+  items:
+  - name: clothes
+    descr: dusty and sweaty
+  - name: scroll
+    descr: sealed letter, no addressee
+  - name: scroll case
+  descr: Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner.
+- male_name: miner
+  female_name: miner
+  skills:
+  - climb
+  - piercing strike
+  items:
+  - name: clothes
+    descr: sweaty and dusty
+  - name: simple great weapon
+    descr: pickaxe
+  - name: cage
+    descr: containing a canary
+  descr: Crawling through dark, cramped tunnels breathing dust was not the life you deserve.
+- male_name: noble
+  female_name: noble
+  skills:
+  - leadership
+  - poison resistance
+  items:
+  - name: clothes
+    descr: ostentatious fripperies, old and full of holes
+  - name: mirror
+  - name: signet ring
+    descr: proof of your identity
+  descr: Your house has fallen, and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!
+- male_name: outlaw
+  female_name: outlaw
+  skills:
+  - bushcraft
+  - skilled shot
+  items:
+  - name: clothes
+    descr: greenish cloak
+  - name: missile great weapon
+    descr: bow
+  descr: The hills and woods are teeming with people escaping the law, such as yourself.
+- male_name: peasant
+  female_name: peasant
+  skills:
+  - animal handling
+  - tough
+  items:
+  - name: clothes
+    descr: stinking of manure
+  followers:
+  - name: chicken
+    descr: Bertha, dumb and brave
+  - name: pig
+    descr: Hans, picky about food
+  descr: 'Your life was simple: growing crops and tending to livestock, trying to put enough food on the table to survive another winter.'
+- male_name: pedlar
+  female_name: pedlar
+  skills:
+  - bargain
+  - gossip
+  items:
+  - name: clothes
+    descr: excessive amounts of cheap fake jewellery
+  - name: darkroot
+  - name: perfume
+  - name: clothes
+    descr: expensive, made of silk
+  descr: You made a small fortune transporting and trading exotic goods, but you lost everything because of a bad business decision.
+- male_name: physician
+  female_name: physician
+  skills:
+  - apothecary
+  - medicine
+  items:
+  - name: clothes
+    descr: spotless black coat
+  - name: antidote
+  - name: cure-all
+  - name: dream sand
+  descr: You are an erudite doctor, knowledgeable about poison, disease, antidotes, and cures.
+- male_name: pit fighter
+  female_name: pit fighter
+  skills:
+  - dodge blows
+  - fast strike
+  items:
+  - name: clothes
+    descr: torn, dusty, and covered in old blood
+  - name: martial hand weapon
+    descr: Spear
+  - name: missile hand weapon
+    descr: javelins
+  descr: You have fought for money in illegal arenas and as a judicial champion for hire.
+- male_name: priest
+  female_name: priestess
+  skills:
+  - incorruptible
+  - faith
+  items:
+  - name: clothes
+    descr: priestly robes and religious paraphernalia
+  - name: power scroll
+    descr: sacred
+  - name: book
+    descr: Holy Scriptures
+  descr: Yours is the burden to teach and guide people so that they don't succumb to the lure of darkness.
+- male_name: raconteur
+  female_name: raconteur
+  skills:
+  - acting
+  - music
+  items:
+  - name: clothes
+    descr: flamboyant and fashionable
+  - name: music instrument
+    descr: fiddle
+  descr: You have travelled far and wide across the kingdom, singing songs and act out enthralling stories.
+- male_name: rat catcher
+  female_name: rat catcher
+  skills:
+  - disease resistance
+  - poison resistance
+  items:
+  - name: clothes
+    descr: partly made of rat fur
+  - name: trapping tools
+  followers:
+  - name: small dog
+    descr: Brutus, trained to hunt rats, small but vicious
+  descr: Rats are everywhere and nobody likes them. You offer your services to get rid of them, but you swear they are getting bigger and nastier by the day...
+- male_name: scholar
+  female_name: scholar
+  skills:
+  - alchemy
+  - erudition
+  items:
+  - name: clothes
+    descr: night gown and comfortable shoes
+  - name: quill & ink
+  - name: book
+    descr: blank, you can't wait to fill it with your learnings
+  - name: looking glass
+  descr: 'Hunched over dusty ancient tomes, you have accumulated vast amounts of knowledge: time to put it into practice!'
+- male_name: sharpshooter
+  female_name: sharpshooter
+  skills:
+  - steady aim
+  - skilled shot
+  items:
+  - name: clothes
+    descr: wide brimmed hat to shade your eyes
+  - name: long gun
+    descr: arquebus
+  descr: 'Your skill with a bow or a gun has no equals: you can shoot a moving squirrel from half a mile away.'
+- male_name: slayer
+  female_name: slayer
+  skills:
+  - dodge blows
+  - monster slaying
+  items:
+  - name: clothes
+    descr: thick hardened leather, cut, burnet, scratched, and torn
+  - name: martial great weapon
+    descr: huge battleaxe
+  descr: 'There is good pay for slaying giant monsters: it''s a dangerous job, but you are brave and foolish enough to do it.'
+- male_name: soldier
+  female_name: soldier
+  skills:
+  - cleave
+  - skilled blow
+  items:
+  - name: clothes
+    descr: uniform from your regiment, has seen better days
+  - name: martial great weapon
+    descr: halberd
+  descr: You have fought for the Kingdom and seen the horrors of war, the nightmares will never stop.
+- male_name: soothsayer
+  female_name: soothsayer
+  skills:
+  - augury
+  - divination
+  items:
+  - name: clothes
+    descr: hooded robes
+  - name: divination tools
+  descr: You are cursed with the ability to see what others can't, and have witnessed the end of the world.
+- male_name: thug
+  female_name: thug
+  skills:
+  - brawling
+  - intimidate
+  items:
+  - name: clothes
+    descr: covering your face
+  - name: alcoholic drink
+  - name: crimson weed
+  descr: A sturdy club is the best messenger, you always say.
+- male_name: tomb robber
+  female_name: tomb robber
+  skills:
+  - burglary
+  - climb
+  items:
+  - name: clothes
+    descr: capacious rucksack to store the loot
+  - name: crowbar
+  - name: rope
+  descr: 'Precious treasures are buried in ancient crypts and old tombs: their previous owners aren''t going to miss them.'
+- male_name: townsman
+  female_name: townswoman
+  skills:
+  - bargain
+  - gossip
+  items:
+  - name: clothes
+    descr: fashionable but practical
+  - name: candle
+  - name: pipe & tobacco
+  descr: 'Townsfolk such as yourself are the backbone of the Kingdom: shop owners, traders, local officials...'
+- male_name: witch hunter
+  female_name: witch huntress
+  skills:
+  - magic sense
+  - magic shield
+  items:
+  - name: clothes
+    descr: wide brimmed hat, pitch black clothes
+  - name: alchemist's fire
+  - name: blessed water
+  - name: blessed water
+  descr: 'Warlocks, witches, and sorcerers are a threat to mankind: they are destined to meet their end in the flames of a pyre.'
+- male_name: wizard
+  female_name: witch
+  skills:
+  - sorcery
+  items:
+  - name: clothes
+    descr: comfortable robes
+  - name: power scroll
+    descr: profane
+  - name: power scroll
+    descr: profane
+  descr: 'You are a secretive scholar of the esoteric arts: many fear you, and with good reason.'
+- male_name: zealot
+  female_name: zealot
+  skills:
+  - battle frenzy
+  - bravery
+  items:
+  - name: clothes
+    descr: bloodstained monastic habit
+  - name: crimson weed
+    descr: ''
+  - name: book
+    descr: Holy Scriptures
+  descr: 'You have a dark past and many sins to atone for: you are going to save your soul by purging the heretic!'

@@ -1,6 +1,4 @@
-// This file was automatically generated.
-
-.Backgrounds
+.backgrounds
 [[tb_backgrounds]]
 [options='header, unbreakable', cols="^1h,^3,^3,^3,^3"]
 |===

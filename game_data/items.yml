@@ -1,0 +1,729 @@
+armour:
+- name: helmet
+  value: 16
+  bulk: 1
+  properties: []
+  descr: Increases the critical damage threshold by 1. Ignored by direct damage and damage which can't reach the head.
+- name: shield
+  value: 64
+  bulk: 2
+  properties:
+  - Shield
+  - !Weapon
+    damage: D4
+    properties: []
+  descr: ''
+- name: light armour
+  value: 256
+  bulk: 2
+  properties:
+  - !Armour 1
+  descr: Banded mail, chain mail, gambeson, hardened leather, thick furs, etc.
+- name: heavy armour
+  value: 1024
+  bulk: 4
+  properties:
+  - !Armour 2
+  descr: Full plate, chain hauberk, etc.
+artillery:
+- name: ballista
+  value: 256
+  bulk: 32
+  properties:
+  - !Weapon
+    damage: D8
+    properties:
+    - !Range 16
+    - Blast
+    - Reload
+  - !Health
+    - 12
+    - 4
+  descr: ''
+- name: catapult
+  value: 256
+  bulk: 32
+  properties:
+  - !Weapon
+    damage: D8
+    properties:
+    - !IndirectRange 32
+    - Blast
+    - Reload
+  - !Health
+    - 12
+    - 4
+  descr: ''
+- name: cannon
+  value: 1024
+  bulk: 32
+  properties:
+  - !Weapon
+    damage: D10
+    properties:
+    - !Range 16
+    - Blast
+    - Reload
+  - !Health
+    - 12
+    - 4
+  descr: ''
+- name: mortar
+  value: 1024
+  bulk: 32
+  properties:
+  - !Weapon
+    damage: D10
+    properties:
+    - !IndirectRange 32
+    - Blast
+    - Reload
+  - !Health
+    - 12
+    - 4
+  descr: ''
+gear:
+- name: alcoholic drink
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Recover 1 health, but not if you are _dying_. Pass a STR save or become _confused_ until the end of the stretch. Automatically fail if you drink 2 within a stretch.
+- name: animal skin
+  value: 4
+  bulk: 1
+  properties: []
+  descr: Skin of a small animal. Multiply cost by 4 and bulk by 2 for each size above small.
+- name: antidote
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Stops the effects of poison. 1:4 chance it doesn't work.
+- name: apothecary tools
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Includes mortar, pestle, scales, glassware, etc. Used in combination with the _apothecary_ skill.
+- name: bag of dung
+  value: 1
+  bulk: 1
+  properties: []
+  descr: Stinky and disgusting.
+- name: bear trap
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Placing it or picking it up is a main action, concealing it takes a stretch. Characters stepping on it suffer d6 damage and are _entangled_.
+- name: beastman blood
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Ingested corrupting poison (4 corruption at the end of the stretch).
+- name: black adder venom
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Bloodstream damaging poison (d12 direct damage at the end of the stretch).
+- name: book
+  value: 16
+  bulk: 1
+  properties: []
+  descr: The price is for a blank book.
+- name: brush & paints
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Enough to paint a _canvas_.
+- name: butterfly sting
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Bloodstream soporific poison (_incapacitated_ until the end of the watch or until damaged).
+- name: cage
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Can contain a small character.
+- name: caltrops
+  value: 16
+  bulk: 1
+  properties: []
+  descr: As a main action, can be spread in a nearby zone, which counts as difficult ground. Picking them up takes a stretch.
+- name: camping kit
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Includes a bedroll, blankets, and tent space for one person. Necessary to sleep in the wilderness.
+- name: candle
+  value: 1
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Illuminates a zone until the end of the stretch.
+- name: candlestick root
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Ingested paralysing poison (_incapacitated_ until the end of the stretch).
+- name: canvas
+  value: 16
+  bulk: 2
+  properties: []
+  descr: About 1 metre by 1 metre.
+- name: cards
+  value: 4
+  bulk: 0
+  properties: []
+  descr: WIT contest to win.
+- name: censer
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Can be used to burn _incense_.
+- name: chain
+  value: 4
+  bulk: 1
+  properties: []
+  descr: 2 metre.
+- name: chalk
+  value: 1
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Enough to write a few markings.
+- name: chess set
+  value: 16
+  bulk: 1
+  properties: []
+  descr: WIT contest to win.
+- name: chimera spit
+  value: 64
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Bloodstream lethal poison (death at the end of the stretch).
+- name: climbing gear
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Includes pitons, nails, climbing pickaxes, etc. Can be used to scale sheer surfaces, but an AGI save is usually required.
+- name: clothes
+  value: 16
+  bulk: 1
+  properties: []
+  descr: All you need to cover yourself! Include belts, pouches, bags, and other containers to hold reasonably sized items.
+- name: corpse mandrake
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: 'Pass a STR save or become numb to pain until the end of the watch: you can''t be _incapacitated_ by critical damage. Automatically fail if you take 2 within a stretch. After the effect wears off, suffer d4 direct damage, and pass a WIT save or become _addicted_.'
+- name: crimson weed
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Pass a STR save or temporarily increase all abilities by 2. Automatically fail if you take 2 within a stretch. At the end of the watch, temporarily reduce all abilities by 4, and pass a WIT save or become _addicted_.
+- name: crowbar
+  value: 16
+  bulk: 1
+  properties: []
+  descr: Spend a stretch and pass a STR save to open a door, chest, etc. Noisy. Can be used as a _simple hand weapon_.
+- name: crutch
+  value: 4
+  bulk: 1
+  properties: []
+  descr: _Hobbled_ characters can use it to walk.
+- name: cure-all
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Take it before a recovery roll to pass. 1:4 chance it doesn't work.
+- name: darkroot
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Pass a STR save or be _confused_ until the end of the watch, as pleasant hallucinations overwhelm you. Automatically fail if you take 2 within a stretch. After the effect wears off, pass a WIT save or become _addicted_.
+- name: dice
+  value: 4
+  bulk: 0
+  properties: []
+  descr: Luck-based game.
+- name: disguise kit
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Includes makeup, wigs, fake beards, hats, eyepatches, clothing, etc. All you need to hide your appearance! You normally can't look like another specific person, and your voice and mannerism might give your disguise away. Close examination will immediately reveal a disguise.
+- name: divination tools
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Include a crystal ball, tarot cards, divination bones, etc. Used in combination with the _divination_ skill.
+- name: dream sand
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Ingested soporific poison (_incapacitated_ until the end of the watch or until damaged).
+- name: field kitchen
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Includes pots, pans, kitchen utensils, etc. Food you gather by foraging is doubled and doesn't go bad.
+- name: fishing tools
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Obtain a _ration_ on a _fish_ result while foraging.
+- name: flint & tinder
+  value: 4
+  bulk: 0
+  properties: []
+  descr: Can be used to start a fire.
+- name: gemstone
+  value: 1024
+  bulk: 0
+  properties: []
+  descr: Extremely shiny and valuable.
+- name: gold jewel
+  value: 64
+  bulk: 0
+  properties: []
+  descr: Very shiny and valuable.
+- name: grappling hook
+  value: 4
+  bulk: 1
+  properties: []
+  descr: Use it to throw ropes and such.
+- name: grimoire
+  value: 16
+  bulk: 1
+  properties: []
+  descr: Can hold up to 4 _power scrolls_, removing the need to swamp them out to invoke their power.
+- name: healing draught
+  value: 64
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Recover health equal to half STR.
+- name: incense
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  descr: 'Burns for a stretch. _Demons_ are disturbed by it: they must pass a STR save to enter a zone where incense is burning.'
+- name: ladder
+  value: 4
+  bulk: 4
+  properties: []
+  descr: Climbing it is trivial.
+- name: lantern
+  value: 4
+  bulk: 1
+  properties: []
+  descr: Holds a _candle_ or an _oil lamp_, protecting it from wind and water. Can screen the light.
+- name: lockbox & key
+  value: 4
+  bulk: 1
+  properties: []
+  descr: Can contain a total bulk of 1.
+- name: lock picks
+  value: 16
+  bulk: 1
+  properties: []
+  descr: Spend a stretch and pass a WIT save to open a lock.
+- name: looking glass
+  value: 16
+  bulk: 1
+  properties: []
+  descr: See distant details.
+- name: lucky charm
+  value: 16
+  bulk: 0
+  properties: []
+  descr: When you spend an omen, there is 1:4 chance it isn't actually spent. If combined with the _lucky_ skill, You have in total a 1:2 chance of not losing the omen.
+- name: madcap mushroom
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Pass a STR save or become _frenzied_ until the end of the stretch. Automatically fail if you take 2 within a stretch. After the effect wears off, pass a WIT save or become _addicted_.
+- name: manacles & key
+  value: 4
+  bulk: 1
+  properties: []
+  descr: Used to bind someone's hands.
+- name: marbles
+  value: 4
+  bulk: 0
+  properties: []
+  descr: A bunch of tiny glass beads. AGI contest to win games.
+- name: medicine box
+  value: 16
+  bulk: 1
+  properties:
+  - Consumable
+  descr: 'Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.'
+- name: metal file
+  value: 4
+  bulk: 1
+  properties: []
+  descr: Can cut through metal, with enough time.
+- name: mirror
+  value: 16
+  bulk: 1
+  properties: []
+  descr: A simple hand mirror.
+- name: music instrument
+  value: 16
+  bulk: 1
+  properties: []
+  descr: Drums, fiddle, flute, Lyre, Lute, etc.
+- name: muzzle
+  value: 4
+  bulk: 1
+  properties: []
+  descr: To muzzle a dog or similarly sized animal.
+- name: navigation tools
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Include maps, compass, etc. Pass a WIT save to ignore the movement penalty when travelling between sectors or regions without following a path.
+- name: net
+  value: 16
+  bulk: 1
+  properties: []
+  descr: 'Throw it on an enemy: they are _entangled_.'
+- name: oil lamp
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Illuminates the zones within range 1 until the end of the stretch.
+- name: painting
+  value: 64
+  bulk: 2
+  properties: []
+  descr: A nice painting.
+- name: perfume
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: An exquisite perfume.
+- name: pipe & tobacco
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Smoke it after failing a save in a situation requiring thinking to repeat the save once. Then pass a WIT save or become _addicted_ to it.
+- name: power scroll
+  value: 64
+  bulk: 0
+  properties: []
+  descr: A scroll recording a sacred or profane power. Trading them is illegal. The knowledge of how to create them has been lost. The Church wants to collect all sacred scrolls and burn all profane scrolls.
+- name: prosthesis
+  value: 16
+  bulk: 1
+  properties: []
+  descr: Replaces a lost limb. If it replaces a lost leg, you can walk without a crutch.
+- name: quill & ink
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Enough to write a scroll.
+- name: ration
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Enough food for a day rest.
+- name: reaper's spice
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Ingested damaging poison (d12 direct damage at the end of the stretch).
+- name: rope
+  value: 4
+  bulk: 1
+  properties: []
+  descr: 4 metre.
+- name: rope ladder
+  value: 4
+  bulk: 2
+  properties: []
+  descr: 2 metre. Trivial to climb.
+- name: saddle
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Required to ride a mount. Includes saddlebags.
+- name: scissors
+  value: 4
+  bulk: 1
+  properties: []
+  descr: Used to cut precisely.
+- name: scorpion oil
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Bloodstream paralysing poison (_incapacitated_ until the end of the stretch).
+- name: scroll
+  value: 1
+  bulk: 0
+  properties: []
+  descr: The price is for a blank scroll.
+- name: scroll case
+  value: 4
+  bulk: 1
+  properties: []
+  descr: Can hold 2 scrolls, protecting them from water and damage.
+- name: sealing wax
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Used to seal letters in combination with a _signet ring_.
+- name: signet ring
+  value: 16
+  bulk: 0
+  properties: []
+  descr: Proof of identity, used to stamp _sealing wax_.
+- name: silver jewel
+  value: 4
+  bulk: 0
+  properties: []
+  descr: Shiny and valuable.
+- name: smoke bomb
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Throw it at range 2. All zones within range 1 of the targeted one are covered in thick smoke, blocking visibility until the end of the stretch.
+- name: surgery tools
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Include hacksaws, scalpels, knifes, stitches, etc. Performing a surgery takes a stretch and requires passing a WIT save. On a failure the patient suffers d8 direct damage.
+- name: toolbox
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Includes hammer, saws, nails, etc. Spend a watch and pass a WIT save to repair a damaged item, but on a fail it is destroyed. If the item has the _health_ keyword, repair or inflict 2 damage instead on a pass or fail.
+- name: torch
+  value: 1
+  bulk: 1
+  properties:
+  - Consumable
+  descr: Illuminates the zones within range 1 until the end of the stretch. Can be used to attack, inflicting d4 fire damage, but follows the improvised weapon rules.
+- name: trapping tools
+  value: 26
+  bulk: 2
+  properties: []
+  descr: Obtain a _ration_ on a _small game_ result while foraging.
+- name: warm clothes
+  value: 16
+  bulk: 2
+  properties: []
+  descr: Cold damage is impaired, heat damage is enhanced.
+- name: water
+  value: 1
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Enough for a day rest.
+- name: wooden pole
+  value: 4
+  bulk: 2
+  properties: []
+  descr: 2 metre long.
+vehicles:
+- name: cart
+  value: 256
+  bulk: 32
+  properties:
+  - !Health
+    - 12
+    - 4
+  - !Vehicle 4
+  descr: ''
+- name: coach
+  value: 1024
+  bulk: 64
+  properties:
+  - !Health
+    - 16
+    - 4
+  - !Vehicle 8
+  descr: ''
+- name: rowing boat
+  value: 256
+  bulk: 32
+  properties:
+  - !Health
+    - 12
+    - 4
+  - !Vehicle 4
+  descr: Must be rowed. Moves by 1 area per time unit per rowing character, maximum 4.
+- name: sailing boat
+  value: 1024
+  bulk: 64
+  properties:
+  - !Health
+    - 16
+    - 4
+  - !Vehicle 8
+  descr: Must be operated by a character with the _river lore_ skill or rowed. Moves between 1 and 6 areas per time unit with the wind, or by half an area per time unit per rowing character if rowed, maximum 4.
+weapons:
+- name: simple hand weapon
+  value: 4
+  bulk: 1
+  properties:
+  - !Weapon
+    damage: D4
+    properties: []
+  descr: 'Short blades, blunt objects, and one-handed sharp or heavy tools: bullwhip, cleaver, club, cudgel, dagger, knife, knuckledusters, hammer, hatchet, long knife, parrying dagger, scalpel, sickle, sturdy stick, etc.'
+- name: simple great weapon
+  value: 8
+  bulk: 2
+  properties:
+  - !Weapon
+    damage: D6
+    properties: []
+  descr: 'Two-handed sharp or heavy tools: big stick, boat hook, hoe, large club, linstock, pickaxe, pitchfork, quarterstaff, scythe, sledgehammer, shovel, spade, staff, woodcutting axe, etc.'
+- name: martial hand weapon
+  value: 16
+  bulk: 1
+  properties:
+  - !Weapon
+    damage: D6
+    properties: []
+  descr: 'One-handed military grade melee weapons: arming sword, battleaxe, flail, mace, morningstar, spear, thrusting sword, warhammer, etc.'
+- name: martial great weapon
+  value: 32
+  bulk: 2
+  properties:
+  - !Weapon
+    damage: D8
+    properties: []
+  descr: 'Two-handed military grade melee weapons: glaive, halberd, heavy battleaxe, heavy flail, lucerne hammer, pike, voulge, zweihänder, etc.'
+- name: missile hand weapon
+  value: 16
+  bulk: 1
+  properties:
+  - !Weapon
+    damage: D4
+    properties:
+    - !Range 8
+  descr: 'One-handed primitive ranged or throwing weapons: blowgun, darts, hand crossbow, harpoons, javelins, sling, throwing knives, throwing stars, etc.'
+- name: missile great weapon
+  value: 32
+  bulk: 2
+  properties:
+  - !Weapon
+    damage: D6
+    properties:
+    - !Range 8
+  descr: 'Two-handed primitive ranged weapons: bow, crossbow, etc.'
+- name: handgun
+  value: 32
+  bulk: 1
+  properties:
+  - !Weapon
+    damage: D6
+    properties:
+    - !Range 8
+    - Reload
+  descr: 'One-handed gunpowder weapon: matchlock pistol, dragon, etc.'
+- name: long gun
+  value: 64
+  bulk: 2
+  properties:
+  - !Weapon
+    damage: D8
+    properties:
+    - !Range 8
+    - Reload
+  descr: 'Two-handed gunpowder weapon: matchlock arquebus, blunderbuss, etc.'
+- name: garrotte
+  value: 16
+  bulk: 1
+  properties:
+  - !Weapon
+    damage: D8
+    properties:
+    - DirectDamage
+  descr: Can only target characters who are unaware of the attack or whom you are currently grabbing.
+- name: lance
+  value: 16
+  bulk: 2
+  properties:
+  - !Weapon
+    damage: D8
+    properties: []
+  descr: Can only be used while riding, and only if the mount moved this round. Can be used with one hand despite its bulk.
+- name: mancatcher
+  value: 16
+  bulk: 2
+  properties:
+  - !Weapon
+    damage: D4
+    properties:
+    - Grab
+  descr: ''
+- name: acid vial
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  - !Weapon
+    damage: D8
+    properties:
+    - !Range 2
+  descr: ''
+- name: alchemist's fire
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  - !Weapon
+    damage: D6
+    properties:
+    - !Range 2
+    - Blast
+    - FireDamage
+  descr: ''
+- name: blessed water
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  - !Weapon
+    damage: D10
+    properties:
+    - !Range 2
+    - HolyDamage
+  descr: ''
+- name: flash powder
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  - !Weapon
+    damage: null
+    properties:
+    - !Range 2
+    - Blast
+    - Stun
+  descr: ''
