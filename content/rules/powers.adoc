@@ -193,10 +193,10 @@ The power has an alternative effect which is disadvantageous for the invoker, ty
 Re-roll if this doesn't make sense.
 
 |9 |
-The invoker and all creatures within range 1 are exposed to the '`demon pox`' disease (see link:../hazards/#disease[Disease]).
+The invoker and all characters within range 1 are exposed to the '`demon pox`' disease (see link:../hazards/#disease[Disease]).
 
 |10 |
-The invoker suffers a random mutation (roll on the link:../corruption/#tb_mutations[Mutations] table).
+The invoker develops a random mutation (roll on the link:../corruption/#tb_mutations[Mutations] table).
 
 |11 |
 A demon enters the world nearby the invoker.

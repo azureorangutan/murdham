@@ -37,15 +37,15 @@ function random_age() {
 function generate_character() {
     let [str, agi, wit] = random_abilities();
     let background = random_array_element(Data.backgrounds);
-    let [weapon, money1] = random_array_element(Data.weapons);
-    let [item, money2] = random_array_element(Data.items);
+    let [weapon, money1] = random_array_element(Data.starting_weapons);
+    let [item, money2] = random_array_element(Data.starting_items);
     let money3 = random_money();
 
     let age = random_age();
     let gender = random_array_element(Data.genders);
-    let goal = random_array_element(Data.goals);
-    let appearance = random_array_element(Data.appearances);
-    let personality = random_array_element(Data.personalities)
+    let reasons_to_adventure = random_array_element(Data.reasons_to_adventure);
+    let appearance = random_array_element(Data.appearance);
+    let personality = random_array_element(Data.personality)
 
     let first_name = undefined;
     let background_name = undefined;
@@ -59,49 +59,59 @@ function generate_character() {
     }
     let last_name = random_array_element(Data.last_names);
 
-    let assets = [weapon, item];
-    for (let i = 0; i < background.assets.length; i++) {
-        assets.push(background.assets[i]);
+    let items = [weapon, item];
+    for (let i = 0; i < background.items.length; i++) {
+        items.push(background.items[i]);
     }
     for (let i = 0; i < background.profane_scrolls; i++) {
-        assets.push(random_array_element(Data.profane_scrolls));
+        while (true) {
+            let new_scroll = "power scroll (" + random_array_element(Data.profane_powers) + ")";
+            if (!items.includes(new_scroll)) {
+                items.push(new_scroll);
+                break;
+            }
+        }
     }
     for (let i = 0; i < background.sacred_scrolls; i++) {
-        assets.push(random_array_element(Data.sacred_scrolls));
+        while (true) {
+            let new_scroll = "power scroll (" + random_array_element(Data.sacred_powers) + ")";
+            if (!items.includes(new_scroll)) {
+                items.push(new_scroll);
+                break;
+            }
+        }
     }
 
-    let assets_map = {};
-    for (asset of assets) {
-        if (asset in assets_map) {
-            assets_map[asset]++;
+    let items_map = {};
+    for (item of items) {
+        if (item in items_map) {
+            items_map[item]++;
         }
         else {
-            assets_map[asset] = 1;
+            items_map[item] = 1;
         }
     }
 
-
-    let assets_str = "";
-    for (const [asset, count] of Object.entries(assets_map)) {
+    let items_str = "";
+    for (const [item, count] of Object.entries(items_map)) {
         if (count > 1) {
-            assets_str += count + "× ";
+            items_str += count + "× ";
         }
-        assets_str += asset + ", ";
+        items_str += item + ", ";
     }
-
 
     let money = money1 + money2 + money3 + background.money;
 
     document.getElementById("name").innerHTML = first_name + " " + last_name + " the " + background_name;
     document.getElementById("description").innerHTML =
-        gender +", " + age + " years old. " +
+        gender + ", " + age + " years old. " +
         background.description +
-        " You have abandoned your previous life because " + goal +
+        " You have abandoned your previous life because " + reasons_to_adventure +
         " " + appearance +
         " " + personality;
-    document.getElementById("str").innerHTML = str + background.abilities[0];
-    document.getElementById("agi").innerHTML = agi + background.abilities[1];
-    document.getElementById("wit").innerHTML = wit + background.abilities[2];
+    document.getElementById("str").innerHTML = str
+    document.getElementById("agi").innerHTML = agi
+    document.getElementById("wit").innerHTML = wit
     document.getElementById("mana").innerHTML = background.mana;
     if (background.mana == 0) {
         document.getElementById("mana-display").style.display = 'none';
@@ -110,13 +120,15 @@ function generate_character() {
         document.getElementById("mana-display").style.display = 'inline';
     }
 
-    let skill_content = "";
-    for (let [skill_name, skill_descr] of Object.entries(background.skills)) {
-        skill_content += `<div><strong>${skill_name}:</strong> ${skill_descr}</div>\n`
+    document.getElementById("skills").innerHTML = background.skills.join(", ");
+    document.getElementById("items").innerHTML = items_str + money + "ʂ";
+    if (background.followers.length > 0) {
+        document.getElementById("followers_container").style.display = "block"
+        document.getElementById("followers").innerHTML = background.followers.join(", ");
     }
-
-    document.getElementById("skills").innerHTML = skill_content;
-    document.getElementById("assets").innerHTML = assets_str + money + "ʂ";
+    else {
+        document.getElementById("followers_container").style.display = "none"
+    }
 }
 
 document.getElementById("chargen_button").onclick = generate_character;

@@ -1,8 +1,8 @@
 ---
 title: Hazards
 weight: 120
-prev: /rules/perception
-next: /rules/movement
+prev: /rules/movement
+next: /rules/encounters
 ---
 :toc:
 

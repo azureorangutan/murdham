@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  software-tools-checks:
+    name: Test software tools
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+      - name: Format
+        run: |
+          cargo fmt
+          if [[ -n $(git status --porcelain) ]]; then
+            exit 1
+          fi
+      - name: Build
+        run: cargo build
+      - name: Test
+        run: cargo test
+      - name: Build Release
+        run: cargo build --release
+      - name: Test Release
+        run: cargo test --release

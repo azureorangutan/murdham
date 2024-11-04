@@ -1,5 +1,3 @@
-// This file was automatically generated.
-
 .Personality
 [[tb_personality]]
 [options='header, unbreakable', cols="^1h,^7,^7"]

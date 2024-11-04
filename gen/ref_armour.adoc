@@ -1,12 +1,10 @@
-// This file was automatically generated.
-
 == Armour
 
 * *Helmet* (16ʂ).
 Increases the critical damage threshold by 1. Ignored by direct damage and damage which can't reach the head.
 
 * *Shield* (64ʂ, bulk 2).
-_Shield_, _weapon (d4 damage)_.
+_Shield_, _weapon (d4)_
 
 * *Light armour* (256ʂ, bulk 2).
 _Armour 1_.
@@ -15,5 +13,4 @@ Banded mail, chain mail, gambeson, hardened leather, thick furs, etc.
 * *Heavy armour* (1024ʂ, bulk 4).
 _Armour 2_.
 Full plate, chain hauberk, etc.
-
 

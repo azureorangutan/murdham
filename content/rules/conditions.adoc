@@ -12,5 +12,5 @@ Conditions are temporary alterations of the character's state.
 They are usually disadvantageous, even though there is no hard rule against advantageous conditions.
 Like skills and traits, in addition to the listed effects, you should take them into account whenever it makes sense.
 
-include::gen/ref_condition_list.adoc[]
+include::gen/ref_conditions.adoc[]
 

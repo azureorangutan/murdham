@@ -1,0 +1,1055 @@
+demons:
+- name: Agruwalsongor the Bloodletter
+  cost: null
+  descr: A large horned man brandishing a giant sword, his skin constantly exuding fresh blood. Collects the skulls of slain mortals.
+  kind: Demon
+  size: Medium
+  intelligence: HumanIntelligence
+  str: 16
+  agi: 4
+  wit: 8
+  mana: 0
+  skills:
+  - skilled blow
+  - brawling
+  traits:
+  - frightening
+  special_traits:
+    frenzy: Constantly _frenzied_, wants to kill all creatures with no exception.
+  natural_armour: null
+  natural_weapons: []
+  items:
+  - name: martial great weapon
+    descr: demonic greatsword
+  money: 0
+- name: Vlashmandarka the Corrupter
+  cost: null
+  descr: Takes the form of the most attractive creature which the observer can possibly imagine. Wants to corrupt the pure.
+  kind: Demon
+  size: Medium
+  intelligence: HumanIntelligence
+  str: 8
+  agi: 8
+  wit: 12
+  mana: 0
+  skills:
+  - charm
+  traits: []
+  special_traits:
+    powers: Can invoke _bewitch_ once per watch with 4 enhancement points.
+  natural_armour: null
+  natural_weapons:
+  - - barbed tongue-whip
+    - damage: D4
+      properties:
+      - Grab
+  items: []
+  money: 0
+- name: Pancratius Pinkflame the Horror
+  cost: null
+  descr: A mess of flesh and bones, shifting in shape and bright colours. Sees mortals as clay to be mould.
+  kind: Demon
+  size: Medium
+  intelligence: HumanIntelligence
+  str: 8
+  agi: 12
+  wit: 8
+  mana: 0
+  skills:
+  - dodge blows
+  traits:
+  - frightening
+  special_traits:
+    corrupting touch: Anyone touched by it suffers 2 corruption. This includes targets of melee attacks, unless they successfully dodge.
+    split: When it suffers critical damage, it splits into two copies of itself, each with health equal to the remaining amount and STR to match.
+  natural_armour: null
+  natural_weapons:
+  - - claws
+    - damage: D6
+      properties: []
+  - - eldritch fire
+    - damage: D6
+      properties:
+      - !Range 8
+  items: []
+  money: 0
+- name: Kreftelgor the Plague Brewer
+  cost: null
+  descr: A skull-faced man with horribly bloated skin, covered in pustules and boils. Creates new diseases and experiments on humans.
+  kind: Demon
+  size: Medium
+  intelligence: HumanIntelligence
+  str: 8
+  agi: 4
+  wit: 8
+  mana: 0
+  skills:
+  - apothecary
+  traits:
+  - frightening
+  special_traits:
+    disease vials: Carries d4 vials holding various diseases. They can be thrown at range 2 or be used to coat weapons or taint items and surfaces.
+  natural_armour:
+  - bloated flesh
+  - 1
+  natural_weapons: []
+  items:
+  - name: clothes
+    descr: filthy hooded cloak
+  - name: simple hand weapon
+    descr: rusty dagger
+  money: 0
+domesticated animals:
+- name: camel
+  cost: 128
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 12
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - sturdy
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - kick
+    - damage: D4
+      properties: []
+  items: []
+  money: 0
+- name: cat
+  cost: 16
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 12
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite & claws
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: cattle
+  cost: 128
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 16
+  agi: 4
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - sturdy
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - hooves & horns
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: chicken
+  cost: 4
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - beak
+    - damage: D4
+      properties: []
+  items: []
+  money: 0
+- name: small dog
+  cost: 8
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: medium dog
+  cost: 32
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: large dog
+  cost: 64
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 8
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: donkey
+  cost: 32
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 8
+  agi: 4
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - sturdy
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - hooves
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: duck
+  cost: 8
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - swooping flyer
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - beak
+    - damage: D4
+      properties: []
+  items: []
+  money: 0
+- name: goat
+  cost: 4
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 4
+  wit: 8
+  mana: 0
+  skills: []
+  traits: []
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - horns
+    - damage: D4
+      properties: []
+  items: []
+  money: 0
+- name: light horse
+  cost: 256
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 12
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - sturdy
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - hooves
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: heavy horse
+  cost: 512
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 16
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - sturdy
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - hooves
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: mule
+  cost: 64
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 12
+  agi: 4
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - sturdy
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - hooves
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: pig
+  cost: 4
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 4
+  wit: 8
+  mana: 0
+  skills: []
+  traits: []
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite
+    - damage: D4
+      properties: []
+  items: []
+  money: 0
+- name: pigeon
+  cost: 4
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 2
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - swooping flyer
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - beak
+    - damage: D4
+      properties: []
+  items: []
+  money: 0
+- name: pony horse
+  cost: 128
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 8
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - sturdy
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - hooves
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: rabbit
+  cost: 4
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite
+    - damage: D4
+      properties: []
+  items: []
+  money: 0
+- name: sheep
+  cost: 4
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 4
+  wit: 8
+  mana: 0
+  skills: []
+  traits: []
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - hooves
+    - damage: D4
+      properties: []
+  items: []
+  money: 0
+folks:
+- name: human
+  cost: null
+  descr: The average inhabitant of the Kingdom.
+  kind: Creature
+  size: Medium
+  intelligence: HumanIntelligence
+  str: 8
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits: []
+  special_traits: {}
+  natural_armour: null
+  natural_weapons: []
+  items: []
+  money: 0
+- name: elf
+  cost: null
+  descr: Dexterous and wise, they look like tall, beautiful, flawless humans. They are known for their pride and arrogance, which in turn makes them subject of dislike from the other kins.
+  kind: Creature
+  size: Medium
+  intelligence: HumanIntelligence
+  str: 8
+  agi: 10
+  wit: 10
+  mana: 0
+  skills: []
+  traits: []
+  special_traits: {}
+  natural_armour: null
+  natural_weapons: []
+  items: []
+  money: 0
+- name: dwarf
+  cost: null
+  descr: Short and stocky, clumsy but strong. They live reclusively in underground cities and are known for their craftsmanship.
+  kind: Creature
+  size: Medium
+  intelligence: HumanIntelligence
+  str: 10
+  agi: 6
+  wit: 8
+  mana: 0
+  skills: []
+  traits: []
+  special_traits: {}
+  natural_armour: null
+  natural_weapons: []
+  items: []
+  money: 0
+- name: halfling
+  cost: null
+  descr: Small and frail, but extremely nimble. Halfling communities are small and live simply, trying to keep distance from the chaotic outside world.
+  kind: Creature
+  size: Medium
+  intelligence: HumanIntelligence
+  str: 6
+  agi: 10
+  wit: 8
+  mana: 0
+  skills: []
+  traits: []
+  special_traits: {}
+  natural_armour: null
+  natural_weapons: []
+  items: []
+  money: 0
+- name: ogre
+  cost: null
+  descr: Giant mountains of muscle. Not the brightest nor the most agile, but their brawn serves them well in many occasions.
+  kind: Creature
+  size: Medium
+  intelligence: HumanIntelligence
+  str: 12
+  agi: 6
+  wit: 6
+  mana: 0
+  skills: []
+  traits: []
+  special_traits: {}
+  natural_armour: null
+  natural_weapons: []
+  items: []
+  money: 0
+monsters:
+- name: troll
+  cost: null
+  descr: A large, brutish, humanoid monster, capable of quick regeneration. Lives in swamps and feasts on rotten meat.
+  kind: Creature
+  size: Large
+  intelligence: HumanIntelligence
+  str: 12
+  agi: 4
+  wit: 4
+  mana: 0
+  skills: []
+  traits:
+  - frightening
+  - regeneration
+  special_traits: {}
+  natural_armour:
+  - thick skin
+  - 1
+  natural_weapons: []
+  items:
+  - name: simple great weapon
+    descr: _Huge_. An extremely large club, impossible to use for a medium-sized character
+  money: 0
+- name: wyrm
+  cost: null
+  descr: A gigantic lizard-like winged creature, capable of breathing fire.
+  kind: Creature
+  size: Large
+  intelligence: AnimalIntelligence
+  str: 16
+  agi: 4
+  wit: 12
+  mana: 0
+  skills: []
+  traits:
+  - frightening
+  - landing flyer
+  special_traits: {}
+  natural_armour:
+  - scales
+  - 2
+  natural_weapons:
+  - - bite, talons, & tail
+    - damage: D8
+      properties: []
+  - - fire breath
+    - damage: D6
+      properties:
+      - !Range 2
+      - Blast
+      - FireDamage
+      - !UsageLimit once per stretch
+  items: []
+  money: 0
+reanimated corpses:
+- name: bone raven
+  cost: null
+  descr: a dead raven, empty-eyed, bones carrying rotting flesh.
+  kind: Undead
+  size: Small
+  intelligence: Mindless
+  str: 4
+  agi: 6
+  wit: 2
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - swooping flyer
+  - frightening
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - beak & talons
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: shambling corpse
+  cost: null
+  descr: a corpse reanimated by dark magic, left to rot.
+  kind: Undead
+  size: Medium
+  intelligence: Mindless
+  str: 8
+  agi: 4
+  wit: 2
+  mana: 0
+  skills: []
+  traits:
+  - frightening
+  special_traits: {}
+  natural_armour: null
+  natural_weapons: []
+  items: []
+  money: 0
+- name: skeletal warrior
+  cost: null
+  descr: an ancient body awakened to serve as an immortal warrior.
+  kind: Undead
+  size: Medium
+  intelligence: Mindless
+  str: 8
+  agi: 4
+  wit: 2
+  mana: 0
+  skills: []
+  traits:
+  - frightening
+  special_traits: {}
+  natural_armour: null
+  natural_weapons: []
+  items:
+  - name: martial hand weapon
+    descr: ''
+  - name: shield
+    descr: ''
+  money: 0
+wild animals:
+- name: alligator
+  cost: 128
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 12
+  agi: 4
+  wit: 8
+  mana: 0
+  skills: []
+  traits: []
+  special_traits: {}
+  natural_armour:
+  - thick scales
+  - 1
+  natural_weapons:
+  - - bite
+    - damage: D8
+      properties: []
+  items: []
+  money: 0
+- name: bat
+  cost: 8
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 2
+  agi: 12
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - swooping flyer
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite
+    - damage: D4
+      properties: []
+  items: []
+  money: 0
+- name: bear
+  cost: 256
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 16
+  agi: 4
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - sturdy
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite & claws
+    - damage: D8
+      properties: []
+  items: []
+  money: 0
+- name: boar
+  cost: 32
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 8
+  agi: 4
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - sturdy
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - tusks
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: deer
+  cost: 64
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 8
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - antlers
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: eagle
+  cost: 128
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 12
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - swooping flyer
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - beak & talons
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: elephant
+  cost: 512
+  descr: ''
+  kind: Creature
+  size: Large
+  intelligence: AnimalIntelligence
+  str: 12
+  agi: 4
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - sturdy
+  special_traits: {}
+  natural_armour:
+  - thick hide
+  - 1
+  natural_weapons:
+  - - tusks
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: hawk
+  cost: 32
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 12
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - swooping flyer
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - beak & talons
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: lion
+  cost: 512
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 12
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - sturdy
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite & claws
+    - damage: D8
+      properties: []
+  items: []
+  money: 0
+- name: lynx
+  cost: 64
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 12
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite & claws
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: mouse
+  cost: 4
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 2
+  agi: 12
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite
+    - damage: D4
+      properties: []
+  items: []
+  money: 0
+- name: owl
+  cost: 32
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 12
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - swooping flyer
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - beak & talons
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: rat
+  cost: 8
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: raven
+  cost: 32
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 4
+  agi: 12
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  - swooping flyer
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - beak & talons
+    - damage: D6
+      properties: []
+  items: []
+  money: 0
+- name: tiger
+  cost: 512
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 12
+  agi: 12
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite & claws
+    - damage: D8
+      properties: []
+  items: []
+  money: 0
+- name: viper
+  cost: 2
+  descr: ''
+  kind: Creature
+  size: Small
+  intelligence: AnimalIntelligence
+  str: 2
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits: []
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite
+    - damage: D4
+      properties:
+      - !Poison damaging
+  items: []
+  money: 0
+- name: wolf
+  cost: 64
+  descr: ''
+  kind: Creature
+  size: Medium
+  intelligence: AnimalIntelligence
+  str: 8
+  agi: 8
+  wit: 8
+  mana: 0
+  skills: []
+  traits:
+  - fast
+  special_traits: {}
+  natural_armour: null
+  natural_weapons:
+  - - bite & claws
+    - damage: D6
+      properties: []
+  items: []
+  money: 0

@@ -1,46 +1,40 @@
-// This file was automatically generated.
+== Demons
 
-*Agruwalsongor the Bloodletter* +
+* *Agruwalsongor the Bloodletter* +
 A large horned man brandishing a giant sword, his skin constantly exuding fresh blood. Collects the skulls of slain mortals. +
 *STR* 16, *AGI* 4, *WIT* 8 +
-_Medium-sized demon_, _human intelligence_. +
-*Skilled blow*. You improve the damage die of melee attacks (excluding unarmed attacks): d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. In case of blast attacks, only one target takes increased damage. +
-*Brawling*. Your unarmed attacks are not impaired and inflict d6 damage. You have an innate armour value of 1 against unarmed attacks. +
-*Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_. +
-*Assets*: demonic greatsword (bulk 2; d8 damage). +
+_Medium demon_, human intelligence. +
+*Skills*: _skilled blow_, _brawling_. +
+*Traits*: _frightening_. +
 *Frenzy*. Constantly _frenzied_, wants to kill all creatures with no exception. +
+*Items*: martial great weapon (demonic greatsword).
 
-
-*Vlashmandarka the Corrupter* +
+* *Vlashmandarka the Corrupter* +
 Takes the form of the most attractive creature which the observer can possibly imagine. Wants to corrupt the pure. +
 *STR* 8, *AGI* 8, *WIT* 12 +
-_Medium-sized demon_, _human intelligence_. +
-*Charm*. Proficient at befriending and persuading. If you spend a stretch chatting with someone, you understand what it might take to befriend or persuade them, if they are bribable, and such information. +
-*Barbed tongue-whip*. D4 damage, grab. +
-*Powers*. Can invoke _bewitch_ once per watch at level 4. +
+_Medium demon_, human intelligence. +
+*Skills*: _charm_. +
+*Powers*. Can invoke _bewitch_ once per watch with 4 enhancement points. +
+*Barbed tongue-whip*. d4, grab.
 
-
-*Pancratius Pinkflame the Horror* +
+* *Pancratius Pinkflame the Horror* +
 A mess of flesh and bones, shifting in shape and bright colours. Sees mortals as clay to be mould. +
 *STR* 8, *AGI* 12, *WIT* 8 +
-_Medium-sized demon_, _human intelligence_. +
-*Dodge blows*. You can dodge without spending your turn once per round. +
-*Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_. +
-*Claws*. D6 damage. +
-*Eldritch fire*. D6 damage, range 8. +
+_Medium demon_, human intelligence. +
+*Skills*: _dodge blows_. +
+*Traits*: _frightening_. +
 *Corrupting touch*. Anyone touched by it suffers 2 corruption. This includes targets of melee attacks, unless they successfully dodge. +
 *Split*. When it suffers critical damage, it splits into two copies of itself, each with health equal to the remaining amount and STR to match. +
+*Claws*. d6. +
+*Eldritch fire*. d6, range 8.
 
-
-*Kreftelgor the Plague Brewer* +
+* *Kreftelgor the Plague Brewer* +
 A skull-faced man with horribly bloated skin, covered in pustules and boils. Creates new diseases and experiments on humans. +
 *STR* 8, *AGI* 4, *WIT* 8 +
-_Medium-sized demon_, _human intelligence_. +
-*Apothecary*. Knowledgeable about herbs, medicinal ingredients, and other related matters. You can craft medicinal substances, such as _antidote_, _cure-all_, _healing draught_, _medicine box_, and all kinds of drugs and poisons, using _apothecary tools_. +
-*Frightening*. Causes fear within range 4. Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_. +
-*Assets*: clothes (filthy hooded cloak), rusty dagger (d4 damage). +
-*Bloated flesh*. Armour value 1. +
+_Medium demon_, human intelligence. +
+*Skills*: _apothecary_. +
+*Traits*: _frightening_. +
 *Disease vials*. Carries d4 vials holding various diseases. They can be thrown at range 2 or be used to coat weapons or taint items and surfaces. +
-
-
+*Bloated flesh*. Armor value 1. +
+*Items*: clothes (filthy hooded cloak), simple hand weapon (rusty dagger).
 

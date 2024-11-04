@@ -1,5 +1,3 @@
-// This file was automatically generated.
-
 .Sacred powers
 [[tb_sacred_powers]]
 [options='header, unbreakable', cols="^1h,^7,^7"]

@@ -1,5 +1,3 @@
-// This file was automatically generated.
-
 .Starting items
 [[tb_starting_items]]
 [options='header, unbreakable', cols="^1h,^7,^7"]
@@ -8,39 +6,39 @@ h|  2+h|D2
 h|D12
  h|1 h|2
 |1
-|Acid vial (bulk ½; consumable, d8 damage, range 2), 6ʂ
-|Flash powder (bulk ½; consumable, range 2, blast, stun)
+|Acid vial, 6ʂ
+|Flash powder
 |2
-|Bear trap (bulk 2)
+|Bear trap
 |Caltrops
 |3
 |Helmet
-|Warm clothes (bulk 2)
+|Warm clothes
 |4
-|Beastman blood (bulk ½; consumable)
-|Butterfly sting (bulk ½; consumable)
+|Beastman blood
+|Butterfly sting
 |5
-|Corpse mandrake (bulk ½; consumable)
-|Madcap mushroom (bulk ½; consumable)
+|Corpse mandrake
+|Madcap mushroom
 |6
 |Lantern (empty), 6ʂ
-|Oil lamp (bulk ½; consumable), 6ʂ
+|Oil lamp, 6ʂ
 |7
 |Chess set
-|Climbing gear (bulk 2)
+|Climbing gear
 |8
-|Disguise kit (bulk 2)
-|Field kitchen (bulk 2)
+|Disguise kit
+|Field kitchen
 |9
 |Grappling hook, 6ʂ
-|Lucky charm (bulk ½; cornicello)
+|Lucky charm
 |10
-|Signet ring (bulk ½; stolen)
-|Marbles (bulk ½), 6ʂ
+|Signet ring
+|Marbles, 6ʂ
 |11
-|Music instrument (flute)
-|Pipe & tobacco (bulk ½; consumable), 6ʂ
+|Music instrument
+|Pipe & tobacco, 6ʂ
 |12
-|Rope ladder (bulk 2), 6ʂ
-|Saddle (bulk 2)
+|Rope ladder, 6ʂ
+|Saddle
 |===

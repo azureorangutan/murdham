@@ -82,4 +82,4 @@ Which ones matter depend on the campaign setting.
 Characters can't read, write, or perform anything but very simple calculations unless they have a skill which grants them literacy: education is a privilege for the few!
 
 
-include::gen/ref_skill_list.adoc[]
+include::gen/ref_skills.adoc[]

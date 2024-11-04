@@ -1,0 +1,39 @@
+addicted: >
+  Addicted to a specific substance.
+  On a day rest, they must consume it or temporarily reduce WIT by 1.
+  On a full rest, they must consume 4 units of it or temporarily reduce WIT by 1 for each missing unit.
+fast: >
+  Moves at double speed.
+frail: >
+  Halves carry limit and bulk.
+frightening: >
+  Causes fear within range 4.
+  Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_.
+hovering flyer: >
+  Can fly.
+  Can attack and stay still while flying.
+immobile: >
+  Can't move.
+incorporeal: >
+  Has no STR and AGI score.
+  Can't interact with the material world but is still bound by its laws.
+  Can walk through thin barriers, such as doors.
+landing flyer: >
+  Can fly.
+  Can't attack and can't stay still while flying.
+mutation: >
+  Has the mutations listed after the trait.
+  See the Corruption chapter for more information.
+regeneration: >
+  Recovers half the amount of lost health each round, at the start of their turn.
+  Fire prevents this.
+slow: >
+  Moves at half speed.
+sturdy: >
+  Doubles carry limit and bulk.
+swooping flyer: >
+  Can fly.
+  Can attack but can't stay still while flying.
+terrifying: >
+  Causes terror within range 4.
+  Is immune to _frightening_ and _terrifying_ characters.
