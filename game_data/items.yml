@@ -366,6 +366,14 @@ gear:
   bulk: 0
   properties: []
   descr: A bunch of tiny glass beads. AGI contest to win games.
+- name: medicinal herbs
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: >
+    If you have the _apothecary_ skill, consume to craft a _medicine box_, _antidote_, or _cure-all_ in a single round using _apothecary tools_ by passing a WIT save.
+    On a fail, the _medicinal herbs_ are wasted.
 - name: medicine box
   value: 16
   bulk: 1
@@ -520,7 +528,7 @@ gear:
   value: 16
   bulk: 2
   properties: []
-  descr: Includes hammer, saws, nails, etc. Spend a watch and pass a WIT save to repair a damaged item, but on a fail it is destroyed. If the item has the _health_ keyword, repair or inflict 2 damage instead on a pass or fail.
+  descr: Includes hammer, saws, nails, etc. Spend a watch and pass a WIT save to repair a damaged item, but on a fail it is destroyed. If the item has the _health_ property, repair or inflict 2 damage instead on a pass or fail.
 - name: torch
   value: 1
   bulk: 1

@@ -914,6 +914,7 @@ export const backgrounds = [
     feminine_name: "Witch",
     description: "You are a secretive scholar of the esoteric arts: many fear you, and with good reason.",
     skills: [
+      "magic shield",
       "sorcery",
     ],
     mana: 0,

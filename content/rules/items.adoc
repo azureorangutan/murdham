@@ -15,7 +15,7 @@ You should track it down to a quarter shilling.
 == Encumbrance
 
 Characters can carry up to 8 bulk unencumbered, and up to twice that _encumbered_.
-_Encumbered_ characters move at half speed and must pass an additional STR save each time they make an AGI save or fail.
+_Encumbered_ characters move at half speed and must pass an additional STR save each time they make an AGI save.
 
 * An item's bulk equals 1, unless otherwise indicated in its description.
 
@@ -55,13 +55,18 @@ The glass just shatters, no durability roll required.
 
 == Crafting
 
-Some skills grant the ability to craft certain items.
-Crafting an item takes a whole watch and requires a suitable workshop or tools, as indicated in the skill description.
+Everyone can craft crude, improvised items in a watch by using appropriate tools, consuming appropriate raw materials, and passing a STR or WIT save.
+Such items always have a considerable flaw or disadvantage, as decided by the GM, typically the _fragile_ keyword.
+Examples include: a club with sharp nails, a spear with a tip made of a beast's fang, a crude shelter to rest in the wilderness...
+
+A few skills grant the ability to craft high-quality items of certain types.
+Crafting an item takes a watch and requires a suitable workshop or tools, as indicated in the skill description.
 Raw materials cost ¼ the value of the item.
+No save is required unless trying to create a _master-crafted_ or _robust_ version of the item.
 Consumable items can be crafted in batches of 2.
 
 
-== Item keywords
+== Item properties
 
 * *Armour X*.
 Increases armour value by X while worn. Characters can only wear one suit of armour. Equipping or unequipping armour takes a stretch. Armour is fitted to a specific character, and only those of similar size are able to wear it. When in doubt, there is a 1:8 chance it is possible.
@@ -88,7 +93,7 @@ Can carry X medium-sized characters and their gear. A character can be replaced 
 Can be used to perform an attack while held, with the indicated damage and properties. Attacks made with one-handed weapons held in the non-dominant hand inflict impaired damage. Weapons of bulk 2 or more require both hands to attack and can't be used to attack characters you are grabbing. You don't have to track ammunition for ranged weapons.
 
 
-== Weapon keywords
+== Attack properties
 
 * *Blast*.
 Targets all characters in a small zone and on its borders.
@@ -138,15 +143,15 @@ include::gen/ref_vehicles.adoc[]
 == Item modifiers
 
 * *Fragile item* (÷4).
-Gains the _fragile_ keyword.
+Gains the _fragile_ property.
 
 * *Robust item* (×4).
-Gains the _robust_ keyword.
+Gains the _robust_ property.
 
-* *Mastercrafted weapon* (×4).
+* *Master-crafted weapon* (×4).
 The damage die is improved: d4 to d6, d6 to d8, d8 to d10, d10 to d12.
 
-* *Mastercrafted armour or shield* (×4).
+* *Master-crafted armour or shield* (×4).
 Bulk is halved.
 
 * *Animal armour* (×1).

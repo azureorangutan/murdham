@@ -11,7 +11,7 @@ next: /rules/character_categories
 _Power scrolls_ are precious artefacts holding ancient and powerful magic.
 They come in two types: sacred and profane.
 
-Characters with the _religion_ or _sorcery_ skill can invoke powers from sacred and profane _power scrolls,_ respectively.
+Characters with the _faith_ or _sorcery_ skill can invoke powers from sacred and profane _power scrolls,_ respectively.
 They must hold the _power scroll_ while reading it out loud, just memorizing the incantations isn't enough.
 
 Knowledge on how to craft power scrolls has been long forgotten.
@@ -28,7 +28,7 @@ Each character can only make a single attempt at invoking a sacred power per wat
 ++++
 {{% details title="Example" closed="true" %}}
 
-Norman the Priest has the _religion_ skill and a _power scroll_ recording the _rite of martyrdom_.
+Norman the Priest has the _faith_ skill and a _power scroll_ recording the _rite of martyrdom_.
 He can attempt to invoke any sacred power once per watch by spending a stretch.
 He currently has 2 corruption, meaning that the power is only effective on a roll of 3 or more on a d12.
 

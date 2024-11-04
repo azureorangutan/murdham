@@ -12,7 +12,7 @@ deaf: >
   You can't hear.
   You can't notice anything based on sound alone, and you might have trouble communicating with others or noticing ambushes.
 dying: >
-  You die at the end of the next round unless you recover 1 health before then.
+  You die at the end of the next round, unless you recover 1 health before then.
   If you do, you are stabilized but suffer an injury.
 encumbered: >
   You move at half speed and automatically fail AGI saves.

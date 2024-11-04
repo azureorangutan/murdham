@@ -6,12 +6,6 @@ next: /rules/encounters
 ---
 :toc:
 
-== Perception
-
-The GM has the task of revealing to the Players what they can see, hear, smell, feel, and know.
-The Players should ask clarifying questions if the situation isn't clear to them, and point out if they think their character has a skill or property which might help to know more about something.
-This helps the GM run the game in the best possible way!
-
 
 == Concealed elements
 
@@ -23,6 +17,14 @@ Searching a region takes 2 watches and only reveals a single concealed element w
 Two characters can split and search a region in a single watch.
 
 
+== Traps
+
+Traps are concealed elements and thus can be detected by a careful search or, if they aren't well hidden, passively by passing a WIT check when nearby.
+
+Characters who notice a trap can stop in time before triggering it.
+Characters who voluntarily trigger a detected trap can react to it when it makes sense, typically attempting an AGI save to dodge it, but characters who trigger an undetected trap can't do anything to react.
+
+
 == Falling
 
 Characters who fall by 2 metres or more suffer d4 direct damage for each full 2 metres they have traversed.
@@ -31,7 +33,7 @@ They can attempt to cushion the fall by passing an AGI save, in which case the e
 
 == Suffocating
 
-Characters can hold their breath for 8 rounds.
+Characters can hold their breath for 4 rounds.
 After this period they must pass a STR save at the end of each round or pass out, becoming _incapacitated_ until the end of the stretch.
 They die if they fail another save to resist suffocation while _incapacitated_.
 
@@ -62,14 +64,6 @@ Some effects let characters ignore fear and treat terror as fear.
 Two such effects can stack together to let characters completely ignore terror as well.
 
 
-== Traps
-
-Traps are concealed elements and thus can be detected by a careful search or, if they aren't well hidden, passively by passing a WIT check when nearby.
-
-Characters who notice a trap can stop in time before triggering it.
-Characters who voluntarily trigger a detected trap can react to it when it makes sense, typically attempting an AGI save to dodge it, but characters who trigger an undetected trap can't do anything to react.
-
-
 == Poison
 
 Characters exposed to poison must pass a STR save or suffer its effect.
@@ -79,7 +73,8 @@ Poison delivery methods:
 
 * *Bloodstream*.
 The poison must enter the victim's blood.
-Weapons and sharp objects can be coated with a dose of the poison, which is delivered on the first attack inflicting at least 1 damage.
+Weapons and sharp objects can be coated with one or two doses of the poison, which are delivered on the first attack inflicting at least 1 damage.
+Coating a weapon with poison takes a round.
 
 * *Ingestion*.
 The poison must be ingested.
@@ -127,7 +122,7 @@ They must be surgically amputated within a day, or the victim dies.
 Symptoms include strong headache, blurry visions, and the insatiable need to spill blood.
 After failing a recovery save, victims are _frenzied_ for the whole duration of the next day, and will attack anybody indiscriminately.
 
-* *Bloody flux*.
+* *Bloody flu*.
 Actually very similar to a normal influence and follows no special rules, but people are irrationally terrified by it and will avoid those infected like the plague.
 
 * *Demon pox*.

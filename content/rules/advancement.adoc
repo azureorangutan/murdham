@@ -14,14 +14,14 @@ During a campaign, you might be granted an advancement by the GM after you and t
 
 * At even advancements (2nd, 4th, 6th, etc.) you gain a new skill of your choice, but you must be able to reasonably explain how you have learnt it (a mentor, past experiences, etc.).
 
-* Characters with the _sorcery_ skill can alternatively increase their mana by 1 instead of picking a standard advancement.
+* Characters with the _sorcery_ skill can increase their mana by 1 instead of taking the standard advancement.
 
 
 == Advancement limit
 
 After 10 advancements, you have reached the pinnacle of your potential and don't improve normally any longer.
 Instead, you must first either forget a skill, reduce your abilities by a total of 2 points, or reduce your mana by 1.
-You can then pick a new advancement as usual.
+You can then advance as usual.
 
 
 == Granting advancements

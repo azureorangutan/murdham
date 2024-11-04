@@ -9,18 +9,18 @@ acting: >
 alchemy: >
   You are literate.
   You can speak Classic.
-  Knowledgeable about alchemical concepts, basic reactions, raw materials...
   You can craft alchemical substances, such as _acid vials_, _alchemist's fire_, _flash powder_, and _smoke bombs_, in a suitably equipped workshop.
+  Knowledgeable about alchemical concepts, basic reactions, raw materials...
 ambidextrous: >
   You can use both hands equally well.
   Damage is not impaired when you attack with a weapon in your non-dominant hand.
   You can attack the same target with two weapons at once, rolling damage for both but only considering the higher roll.
 animal handling: >
-  Proficient at taming, training, and interacting with animals.
+  Proficient at taming, training, befriending, and in general interacting with animals.
   Knowledgeable about animal care: feeding, grooming, training, taming, understanding needs...
 apothecary: >
-  Knowledgeable about herbs, medicinal ingredients, and other related matters.
-  You can craft medicinal substances, such as _antidotes_, _cure-alls_, _healing draughts_, _medicine boxex_, and all kinds of drugs and poisons, using _apothecary tools_.
+  You can craft medicinal substances, such as _antidotes_, _cure-alls_, _healing draughts_, _medicine boxes_, and all kinds of drugs and poisons, using _apothecary tools_.
+  Knowledgeable about medicinal ingredients, herbalism...
 augury: >
   You can spend a stretch to consult the entrails of a dead medium-sized animal to gain an omen.
   Sometimes, the entrails might additionally provide additional information, at the GM's discretion.
@@ -44,15 +44,14 @@ burglary: >
   Proficient at picking and forcing locks.
   You can react to all traps you trigger, even if you weren't aware of them.
 bushcraft: >
-  Proficient at finding drinking water in the wilderness.
-  Knowledgeable about orientation in the wilderness, common plants, and survival.
-  If you pass a WIT save, you can ignore the movement penalty when travelling between sectors or regions without following a path.
-  If you have _navigation tools_, you pass automatically.
-  You can sleep in the wilderness without a _camping kit_.
+  Proficient at finding drinking water and shelter in the wilderness.
+  You can efficiently lead the way through the wilderness, ignoring the movement penalty when travelling without following a path if you pass a WIT save.
+  If you have _navigation tools_ as well, you pass automatically.
   When you forage, you roll twice on the foraging table and apply both results.
+  Knowledgeable about orientation in the wilderness, common plants, and survival.
 charm: >
   Proficient at befriending and persuading.
-  If you spend a stretch chatting with someone, you understand what it might take to befriend or persuade them, if they are bribable, and such information.
+  If you spend a stretch chatting with someone, you understand what it might take to befriend or persuade them, if they are bribable, and so on.
 cleave: >
   When you inflict critical damage or kill a target with a melee attack, you can immediately attack another target with the same weapon.
   You can do this at most once per turn.
@@ -94,6 +93,7 @@ faith: >
   You are literate.
   You can speak Classic.
   You can invoke sacred powers.
+  Knowledgeable about religion, theology, sacred texts...
 fast strike: >
   When you counter an attack or your attack is countered, you always hit first unless your opponent also has this skill.
 fire eating: >
@@ -106,11 +106,12 @@ fleet footed: >
   You can freely dodge attacks of opportunity without needing to spend your turn.
 frugal: >
   You can get by with very little.
-  You don't reduce abilities when you can't satisfy needs during a day rest (but you still need to satisfy them in order to heal and recover mana). You pay half for lodging.
+  On a day rest, you recover health and mana even if you don't satisfy all daily needs.
+  You pay half for lodging.
 gossip: >
+  Proficient at gathering information and finding contacts in settlements, for example for trading specific goods.
   Whenever you take a day rest or full rest in a settlement, you hear interesting rumours.
   The GM decides what you hear, and it isn't necessarily true.
-  You can easily find contacts in settlements, both legal and illegal ones, by spending a watch asking for information.
 heal: >
   Proficient at performing surgeries.
   Knowledgeable about all kinds of wounds and injuries and ways to treat them.
@@ -118,7 +119,7 @@ heal: >
 hunt: >
   Proficient at following trails.
   Knowledgeable about local fauna, how to hunt them...
-  When you forage, on a _fish_ or _small game_ result you gain an additional _ration_, even if you don't have the appropriate tools
+  When you forage, on a _small game_ result you gain an additional _ration_, even if you don't have _trapping tools_.
 incorruptible: >
   You heal 1 corruption on a day rest, and all corruption on a full rest.
 intimidate: >
@@ -126,9 +127,9 @@ intimidate: >
   If you spend a stretch talking with or observing someone, you understand what might frighten them.
 languages: >
   You are literate.
-  You can speak several languages: each time you encounter a new language in your adventures there is a chance you can speak it (1:2 for common languages, 1:4 for dead or remote languages).
-  Keep track of what languages you can and can''t speak.
-  On a full rest, you can learn a language you have previously encountered.
+  You can speak a number of additional languages equal to half your WIT.
+  You don't have to choose immediately what language you can speak: when you encounter a new one in your adventures, you can choose if you can speak it.
+  Keep track of what languages you can speak.
 leadership: >
   Proficient at inspiring and keeping the loyalty of followers.
   Once per stretch, you can spend a round to rally all _frightened_ and _terrified_ allies within range 2.
@@ -159,10 +160,10 @@ music: >
   During a day rest you can play an inspiring song for the company: all companions have a 1:4 chance of recovering a spent omen.
 pack rat: >
   Your carry limit is increased by 2 (you can carry up to 10 bulk unencumbered, and up to 20 bulk encumbered).
-  This also changes your own bulk accordingly!
+  Your own bulk doesn't change.
 piercing strike: >
   If you roll damage higher than your target's armour value, you completely ignore armour and inflict the full amount of damage.
-  This skill doesn't work in situations where you are required to pass a WIT save to hit as it requires full precision.
+  This skill doesn't work in situations where you are required to pass a WIT save to hit, as it requires full precision.
 play games: >
   Proficient at playing games.
   Your cheating attempts are always successful unless your opponents are paying close attention to you.
@@ -183,7 +184,9 @@ ride: >
 river lore: >
   Proficient at driving boats, rafts, and other waterborne vehicles.
   You count as two people when rowing a boat and you can handle a sailing boat.
-  Your attacks aren't impaired when on such a vehicle. Knowledgeable about river travel.
+  Your attacks aren't impaired when on such a vehicle.
+  When you forage, on a _fish_ result you gain an additional _ration_, even if you don't have _fishing tools_.
+  Knowledgeable about river travel.
 shield mastery: >
   When you hold a shield, your armour value is increased by 1 against all attacks, not just if you react or are countered.
 skilled blow: >
@@ -202,6 +205,7 @@ sorcery: >
   You can speak Magick.
   You can invoke profane powers.
   When you advance, you can increase your maximum mana by 1 instead of learning a new skill or improving your abilities, up to 6 at most.
+  Knowledgeable about magic, demonology, esoteric lore...
 steady aim: >
   You double the range of ranged attacks.
 steal: >
@@ -223,7 +227,7 @@ strike to stun: >
 swim: >
   Proficient at swimming.
   Your attacks aren't impaired while swimming.
-  You can hold your breath for twice as long (16 rounds).
+  You can hold your breath for twice as long (normally 8 rounds instead of 4).
 tough: >
   Your maximum health, as well as the threshold for instant death, are increased by 2 (they equal your STR plus 2).
 wrestling: >

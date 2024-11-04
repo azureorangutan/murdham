@@ -544,6 +544,7 @@
 - male_name: wizard
   female_name: witch
   skills:
+  - magic shield
   - sorcery
   items:
   - name: clothes

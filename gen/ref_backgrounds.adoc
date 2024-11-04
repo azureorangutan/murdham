@@ -422,7 +422,7 @@ Warlocks, witches, and sorcerers are a threat to mankind: they are destined to m
 
 You are a secretive scholar of the esoteric arts: many fear you, and with good reason.
 
-*Skills*: _sorcery_.
+*Skills*: _magic shield_, _sorcery_.
 
 *Items*: clothes (comfortable robes), 2× power scroll (profane).
 

@@ -9,7 +9,7 @@ Proficient at acting, storytelling, and disguising yourself. You can convincingl
 
 
 * *Alchemy*.
-You are literate. You can speak Classic. Knowledgeable about alchemical concepts, basic reactions, raw materials... You can craft alchemical substances, such as _acid vials_, _alchemist's fire_, _flash powder_, and _smoke bombs_, in a suitably equipped workshop.
+You are literate. You can speak Classic. You can craft alchemical substances, such as _acid vials_, _alchemist's fire_, _flash powder_, and _smoke bombs_, in a suitably equipped workshop. Knowledgeable about alchemical concepts, basic reactions, raw materials...
 
 
 * *Ambidextrous*.
@@ -17,11 +17,11 @@ You can use both hands equally well. Damage is not impaired when you attack with
 
 
 * *Animal handling*.
-Proficient at taming, training, and interacting with animals. Knowledgeable about animal care: feeding, grooming, training, taming, understanding needs...
+Proficient at taming, training, befriending, and in general interacting with animals. Knowledgeable about animal care: feeding, grooming, training, taming, understanding needs...
 
 
 * *Apothecary*.
-Knowledgeable about herbs, medicinal ingredients, and other related matters. You can craft medicinal substances, such as _antidotes_, _cure-alls_, _healing draughts_, _medicine boxex_, and all kinds of drugs and poisons, using _apothecary tools_.
+You can craft medicinal substances, such as _antidotes_, _cure-alls_, _healing draughts_, _medicine boxes_, and all kinds of drugs and poisons, using _apothecary tools_. Knowledgeable about medicinal ingredients, herbalism...
 
 
 * *Augury*.
@@ -53,11 +53,11 @@ Proficient at picking and forcing locks. You can react to all traps you trigger,
 
 
 * *Bushcraft*.
-Proficient at finding drinking water in the wilderness. Knowledgeable about orientation in the wilderness, common plants, and survival. If you pass a WIT save, you can ignore the movement penalty when travelling between sectors or regions without following a path. If you have _navigation tools_, you pass automatically. You can sleep in the wilderness without a _camping kit_. When you forage, you roll twice on the foraging table and apply both results.
+Proficient at finding drinking water and shelter in the wilderness. You can efficiently lead the way through the wilderness, ignoring the movement penalty when travelling without following a path if you pass a WIT save. If you have _navigation tools_ as well, you pass automatically. When you forage, you roll twice on the foraging table and apply both results. Knowledgeable about orientation in the wilderness, common plants, and survival.
 
 
 * *Charm*.
-Proficient at befriending and persuading. If you spend a stretch chatting with someone, you understand what it might take to befriend or persuade them, if they are bribable, and such information.
+Proficient at befriending and persuading. If you spend a stretch chatting with someone, you understand what it might take to befriend or persuade them, if they are bribable, and so on.
 
 
 * *Cleave*.
@@ -101,7 +101,7 @@ You are literate. You can speak Classic. Knowledgeable in all fields of academic
 
 
 * *Faith*.
-You are literate. You can speak Classic. You can invoke sacred powers.
+You are literate. You can speak Classic. You can invoke sacred powers. Knowledgeable about religion, theology, sacred texts...
 
 
 * *Fast strike*.
@@ -117,11 +117,11 @@ Proficient at sprinting. You can renounce your proficiency advantage to sprint b
 
 
 * *Frugal*.
-You can get by with very little. You don't reduce abilities when you can't satisfy needs during a day rest (but you still need to satisfy them in order to heal and recover mana). You pay half for lodging.
+You can get by with very little. On a day rest, you recover health and mana even if you don't satisfy all daily needs. You pay half for lodging.
 
 
 * *Gossip*.
-Whenever you take a day rest or full rest in a settlement, you hear interesting rumours. The GM decides what you hear, and it isn't necessarily true. You can easily find contacts in settlements, both legal and illegal ones, by spending a watch asking for information.
+Proficient at gathering information and finding contacts in settlements, for example for trading specific goods. Whenever you take a day rest or full rest in a settlement, you hear interesting rumours. The GM decides what you hear, and it isn't necessarily true.
 
 
 * *Heal*.
@@ -129,7 +129,7 @@ Proficient at performing surgeries. Knowledgeable about all kinds of wounds and 
 
 
 * *Hunt*.
-Proficient at following trails. Knowledgeable about local fauna, how to hunt them... When you forage, on a _fish_ or _small game_ result you gain an additional _ration_, even if you don't have the appropriate tools
+Proficient at following trails. Knowledgeable about local fauna, how to hunt them... When you forage, on a _small game_ result you gain an additional _ration_, even if you don't have _trapping tools_.
 
 
 * *Incorruptible*.
@@ -141,7 +141,7 @@ Proficient at intimidating and torturing. If you spend a stretch talking with or
 
 
 * *Languages*.
-You are literate. You can speak several languages: each time you encounter a new language in your adventures there is a chance you can speak it (1:2 for common languages, 1:4 for dead or remote languages). Keep track of what languages you can and can''t speak. On a full rest, you can learn a language you have previously encountered.
+You are literate. You can speak a number of additional languages equal to half your WIT. You don't have to choose immediately what language you can speak: when you encounter a new one in your adventures, you can choose if you can speak it. Keep track of what languages you can speak.
 
 
 * *Leadership*.
@@ -173,11 +173,11 @@ Proficient at singing and playing music. Knowledgeable about music theory, instr
 
 
 * *Pack rat*.
-Your carry limit is increased by 2 (you can carry up to 10 bulk unencumbered, and up to 20 bulk encumbered). This also changes your own bulk accordingly!
+Your carry limit is increased by 2 (you can carry up to 10 bulk unencumbered, and up to 20 bulk encumbered). Your own bulk doesn't change.
 
 
 * *Piercing strike*.
-If you roll damage higher than your target's armour value, you completely ignore armour and inflict the full amount of damage. This skill doesn't work in situations where you are required to pass a WIT save to hit as it requires full precision.
+If you roll damage higher than your target's armour value, you completely ignore armour and inflict the full amount of damage. This skill doesn't work in situations where you are required to pass a WIT save to hit, as it requires full precision.
 
 
 * *Play games*.
@@ -201,7 +201,7 @@ Proficient at riding animals. Your attacks aren't impaired while riding. You can
 
 
 * *River lore*.
-Proficient at driving boats, rafts, and other waterborne vehicles. You count as two people when rowing a boat and you can handle a sailing boat. Your attacks aren't impaired when on such a vehicle. Knowledgeable about river travel.
+Proficient at driving boats, rafts, and other waterborne vehicles. You count as two people when rowing a boat and you can handle a sailing boat. Your attacks aren't impaired when on such a vehicle. When you forage, on a _fish_ result you gain an additional _ration_, even if you don't have _fishing tools_. Knowledgeable about river travel.
 
 
 * *Shield mastery*.
@@ -221,7 +221,7 @@ You always inflict d12 damage when you attack unaware targets. Unarmed attacks a
 
 
 * *Sorcery*.
-You are literate. You can speak Magick. You can invoke profane powers. When you advance, you can increase your maximum mana by 1 instead of learning a new skill or improving your abilities, up to 6 at most.
+You are literate. You can speak Magick. You can invoke profane powers. When you advance, you can increase your maximum mana by 1 instead of learning a new skill or improving your abilities, up to 6 at most. Knowledgeable about magic, demonology, esoteric lore...
 
 
 * *Steady aim*.
@@ -245,7 +245,7 @@ When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock...)
 
 
 * *Swim*.
-Proficient at swimming. Your attacks aren't impaired while swimming. You can hold your breath for twice as long (16 rounds).
+Proficient at swimming. Your attacks aren't impaired while swimming. You can hold your breath for twice as long (normally 8 rounds instead of 4).
 
 
 * *Tough*.

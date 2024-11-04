@@ -177,6 +177,11 @@ Used to bind someone's hands.
 * *Marbles* (4ʂ, bulk ½).
 A bunch of tiny glass beads. AGI contest to win games.
 
+* *Medicinal herbs* (16ʂ, bulk ½).
+_Consumable_.
+If you have the _apothecary_ skill, consume to craft a _medicine box_, _antidote_, or _cure-all_ in a single round using _apothecary tools_ by passing a WIT save. On a fail, the _medicinal herbs_ are wasted.
+
+
 * *Medicine box* (16ʂ).
 _Consumable_.
 Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.
@@ -272,7 +277,7 @@ Throw it at range 2. All zones within range 1 of the targeted one are covered in
 Include hacksaws, scalpels, knifes, stitches, etc. Performing a surgery takes a stretch and requires passing a WIT save. On a failure the patient suffers d8 direct damage.
 
 * *Toolbox* (16ʂ, bulk 2).
-Includes hammer, saws, nails, etc. Spend a watch and pass a WIT save to repair a damaged item, but on a fail it is destroyed. If the item has the _health_ keyword, repair or inflict 2 damage instead on a pass or fail.
+Includes hammer, saws, nails, etc. Spend a watch and pass a WIT save to repair a damaged item, but on a fail it is destroyed. If the item has the _health_ property, repair or inflict 2 damage instead on a pass or fail.
 
 * *Torch* (1ʂ).
 _Consumable_.

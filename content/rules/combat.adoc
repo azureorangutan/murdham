@@ -123,9 +123,8 @@ Since he is nearby and _incapacitated_, she slits his throats and immediately ki
 
 == Melee and ranged attacks
 
-Unless otherwise indicated, weapons can only make melee attacks.
-Specific weapon keywords let you make ranged or indirect ranged attacks.
-Usually attacks hit automatically, but if made under challenging circumstances it is necessary to pass a WIT save to hit, as described below.
+Weapons can only make melee attacks unless they have the _range_ or _indirect range_ property.
+Attacks hit automatically, but if made under challenging circumstances (as described below), it is necessary to pass a WIT save to hit.
 
 *Melee attacks*.
 Target a nearby character.
