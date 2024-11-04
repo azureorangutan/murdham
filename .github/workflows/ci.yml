@@ -17,16 +17,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.1
       - name: Format
+        working-directory: content_gen
         run: |
           cargo fmt
           if [[ -n $(git status --porcelain) ]]; then
             exit 1
           fi
       - name: Build
+        working-directory: content_gen
         run: cargo build
       - name: Test
+        working-directory: content_gen
         run: cargo test
       - name: Build Release
+        working-directory: content_gen
         run: cargo build --release
       - name: Test Release
+        working-directory: content_gen
         run: cargo test --release
+      - name: Run
+        working-directory: content_gen
+        run: cargo run
+      - name: Check if generated files are up to date
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            exit 1
+          fi
