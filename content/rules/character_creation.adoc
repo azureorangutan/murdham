@@ -26,7 +26,6 @@ Determine your background by rolling on the <<tb_backgrounds>> table.
 Check its description in the link:../backgrounds[Backgrounds] chapter.
 
 ** You start with two skills granted by your background.
-If you are a _wizard_, you only start with 1 skill but also with 1 mana.
 
 ** Re-roll if you get the same background as another Player.
 
@@ -41,8 +40,7 @@ Roll for it on the <<tb_profane_powers>> or <<tb_sacred_powers>> tables.
 ** Re-roll if you get the same result as another Player on any table.
 
 . *Secondary properties*.
-You start with health equal to your STR (plus 2 if you have the _tough_ skill), 0 corruption, and 2 omens.
-You also start with 0 mana unless your background is _wizard_, in which case you start with 1 mana.
+You start with health equal to your STR (plus 2 if you have the _tough_ skill), 0 corruption, 0 mana, and 2 omens.
 Your armour value depends on your starting items.
 
 . *Name and description*.

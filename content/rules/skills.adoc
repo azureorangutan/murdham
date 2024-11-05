@@ -16,7 +16,7 @@ The description of each skill lists the most common ways in which it can influen
 
 == Proficiency
 
-A common advantage granted by skills is proficiency in performing certain actions.
+A common advantage granted by skills is proficiency when attempting certain actions.
 This means you can reduce the difficulty of actions:
 
 * A challenging task becomes trivial: you pass without needing a save.
@@ -55,7 +55,7 @@ The GM rules that climbing the ladder is trivial, even under the rain, so Beatri
 
 Skills and backgrounds may grant knowledge in relevant fields.
 The GM may provide players with the right skill or background with additional information.
-For example, a character with the _medicine_ skills would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat-catcher_ background would surely know a lot about those pesky rodents.
+For example, a character with the _medicine_ skill would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat-catcher_ background would surely know a lot about those pesky rodents.
 
 
 == Languages

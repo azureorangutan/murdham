@@ -54,7 +54,7 @@ Characters at range 0 from each other are said to be '`nearby`' and can be targe
 Characters can move by two areas per time unit: two zones in a round, two sectors in a stretch, or two regions in a watch.
 Moving to or from the border between two areas counts as moving by half an area.
 
-Movement speed can be reduced down to half zone per time unit, and if further halved movement isn't possible at all.
+Movement speed can be reduced down to half area per time unit, and if further halved movement isn't possible at all.
 These factors halve movement speed:
 
 * The _encumbered_ and _hobbled_ conditions.
@@ -69,7 +69,6 @@ These factors halve movement speed:
 * *Sprint*.
 Move at double speed (usually 4 zones in a round) across open terrain.
 If the terrain presents obstacles (a furnished room, thick vegetation...) passing an AGI save is required to avoid tripping and suffering d4 direct damage.
-You can't sprint for more than a stretch consecutively.
 
 * *Sneak*.
 Move silently and behind cover.
@@ -86,24 +85,26 @@ Pass an AGI save to leap across a significant obstacle or gap.
 Trivial for tiny gaps, impossible for very large gaps.
 
 * *Climb*.
-When you end a round hanging from a surface, or you reach the top of the climb, you must pass an AGI save or fall.
+When climbing a challenging surface you must pass an AGI save or fall.
+You must make the save when you start climbing and at the start of each round.
 Trivial on easy surfaces (such as ladders), impossible on smooth surfaces (such as walls).
 Attacks made while climbing are impaired, and at least one hand must be used to keep hold of the surface.
 
 * *Swim*.
-When you enter turbulent waters or start a round in turbulent waters, you must pass an AGI save or become _incapacitated_.
-When you are _incapacitated_ in water, you might suffocate (link:../hazards/#_suffocating[Suffocating]).
+When swimming in turbulent waters or while carrying a total bulk greater than 2, you must pass an AGI save or become _incapacitated_.
+You must make the save when you enter the waters, and at the start of each round.
+If you are _incapacitated_ while in deep waters, you might suffocate (link:../hazards/#_suffocating[Suffocating]).
 Attacks made while in water are impaired.
 
-Only one of the special movement options described above is possible at a time.
+You can't make special movements for more than a stretch consecutively.
+It isn't possible to combine special movements unless the character is proficient in one of them.
 For example, you can't sprint while climbing, or sneak while swimming.
-Characters who are proficient in one form of movement can combine it with another one, but this makes the task challenging.
 
 
 == Optional rule: grids
 
 You can use a square grid instead of zones to keep track of where the characters are.
-A square represents a distance of 1.5 metres (ca. 5 ft feet).
+A square represents a distance of 2 metres (about 6.5 feet).
 Each square can be occupied by a single medium-sized character.
 
 To convert ranges in zones to ranges in squares, multiply by 4.

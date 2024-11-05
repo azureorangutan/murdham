@@ -23,10 +23,24 @@ Animals will avoid combat and other dangerous situations unless they are natural
 
 == Training animals
 
-Animals can be trained to become followers.
-It is possible to tame a single captive animal during a full rest.
-Training a domesticated animal (horses, dogs...) requires passing a WIT save: on a fail the animal wasn't trained successfully, and the trainer must roll on the link:../health#injuries[Injuries] table at the end of the rest.
-Training a wild animal (wolves, lions...) is impossible unless the trainer is proficient.
+Once per full rest, it is possible to train a domesticated animal in one of the following ways.
+The trainer must pass a WIT save, otherwise the training is not successful and the trainer is hurt and suffers an injury after the rest.
+
+* *Fight*.
+The animal will take active part to fights and can obey fight-related commands.
+Untrained animals might still fight based on their instincts, however they won't follow orders unless trained.
+
+* *Hunt*.
+When foraging, gain an additional _ration_.
+
+* *Track*.
+Can automatically follow tracks, for example when hunting.
+
+* *Tricks*.
+Can perform tricks, such as jumping through hoops, balancing items on the nose...
+
+Proficient characters can train domesticated animals without a save, and can attempt to train wild animals with a save.
+Before being trained to do anything else, wild animals must be tamed, which counts as an additional training session.
 
 
 == Befriending animals
@@ -44,14 +58,12 @@ The GM however ultimately decides if and how they do what they are asked.
 Followers will always refuse to do something clearly harmful to themselves.
 In situations where their loyalty is put into question, the character who is leading them must pass a WIT save to keep their allegiance.
 
+
 == Cost of followers
 
 * *Animal* (*).
 Check the link:../bestiary[Bestiary] section for profiles and values in shillings.
-Wild animals cost double if trained to obey and follow commands.
-Docile animals cost double if trained to fight.
-Animals trained for hunting cost double and grant an additional _ration_ while foraging.
-Animals trained to perform tricks (jumping through hoops, balancing stuff on the nose, etc.) cost double.
+For each type of training it has received, double the cost.
 
 * *Labourer* (16ʂ).
 Hired for a day to carry stuff and perform menial labour.

@@ -18,9 +18,9 @@ GM characters normally don't have any omens, but exceptions can be made for part
 == Spending omens
 
 Characters can spend omens in the following ways.
-It is possible to spend multiple omens on the same roll.
 
-* Re-roll a die in the following situations, keeping the result which favours you the most:
+* Re-roll a die in the following situations, keeping the result which favours you the most.
+It is possible to spend multiple omens on the same roll.
 
 ** A save.
 If it's a group save, other characters are unaffected by the new roll.
@@ -28,7 +28,8 @@ If it's a group save, other characters are unaffected by the new roll.
 ** A contest.
 Characters towards the bottom of the ranking decide whether to spend an omen first.
 
-** Rolls for damage you suffer. You can't re-roll damage you inflict since you aren't technically rolling, but your target is.
+** Rolls for damage you suffer.
+You can't re-roll damage you inflict.
 
 ** Soulblight checks after suffering corruption.
 

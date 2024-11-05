@@ -88,21 +88,21 @@ Approaching the target without being noticed might require an additional AGI sav
 == Trading
 
 Goods can be purchased in exchange for something of at least equal value.
-The value of items is indicated on their profile.
-The value of less tangible assets, such as favours and peculiar services, must be adjudicated by the GM.
+While in a settlement, characters can spend a watch to buy and sell any number of items.
 
-* If the buyer has the _bargain_ skill and the seller doesn't, goods are sold at half price.
-You can assume that most GM characters willing to buy most common gear and goods do have this skill!
+* Second hand items in good conditions, such as most gear owned or looted by the Player characters, are worth half their value.
+Damaged items are worth ¼ their value.
 
-* Professional merchants want to make a profit and will only buy at half value.
+* Characters with the _bargain_ skill buy at half price, unless the seller also has the skill.
+Most GM characters willing to trade goods have this skill.
+Finding someone willing to pay full price for a specific item in a settlement takes a watch and requires passing a WIT save.
 
-* Second hand items, such as most gear owned or looted by the Player characters, are worth half.
+* Most people won't trade clearly illegal or stolen goods.
+Those willing to do so will sell at double price and buy at half price.
+Finding such people in a settlement takes a watch and requires passing a WIT save.
 
-* Damaged items are worth nothing.
-
-* Goods in high demand are worth double or quadruple, while those in low demand are worth half or a quarter.
-
-* Illegal goods are sold at one quarter of their value and bought at four times their value, and most people will refuse to handle them.
+* Items in great demand are worth double, items in great supply are worth half.
+The GM decides what goods are available for trade and their availability.
 
 
 == Gathering rumours

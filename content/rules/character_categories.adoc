@@ -65,10 +65,10 @@ If you are playing with a grid, large characters occupy 2×2 squares, massive ch
 * Larger characters can trample smaller characters while moving, forcing them to move into a nearby zone or border or suffer d4 damage.
 
 * All characters can make melee sweep attacks.
-The attack gains the _blast_ keyword, but only affects smaller targets and inflicts half damage.
+The attack gains the _blast_ property, but only affects smaller targets and inflicts half damage.
 
 * Blast attacks can be directed at a single large or massive character.
-The attack loses the benefit of the _blast_ keyword but inflicts double damage.
+The attack loses the benefit of the _blast_ property but inflicts double damage.
 
 * Larger characters can grab smaller character with only one hand or another appendage.
 They are free to perform any action without letting the grabbed character go.

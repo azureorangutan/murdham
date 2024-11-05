@@ -91,10 +91,29 @@ struct AssetWithDescr {
     descr: String,
 }
 
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
+enum PowerRange {
+    Personal,
+    Near,
+    Sight,
+    Connection,
+}
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
+enum PowerDuration {
+    Instant,
+    Stretch,
+    Watch,
+    Lingering,
+}
+
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 struct Power {
     name: String,
     descr: String,
+    range: PowerRange,
+    duration: PowerDuration,
+    #[serde(default)]
     enhancements: Vec<(i8, String)>,
 }
 
@@ -255,10 +274,27 @@ impl ToAsciiDoc for AssetWithDescr {
     }
 }
 
+impl ToAsciiDoc for PowerDuration {
+    fn to_asciidoc(&self) -> String {
+        format!("{:?}", self).to_case(Case::Lower)
+    }
+}
+
+impl ToAsciiDoc for PowerRange {
+    fn to_asciidoc(&self) -> String {
+        format!("{:?}", self).to_case(Case::Lower)
+    }
+}
+
 impl ToAsciiDoc for Power {
     fn to_asciidoc(&self) -> String {
         let mut comps = Vec::new();
-        comps.push(format!("*{}*", capitalise(self.name.clone())));
+        comps.push(format!("*{}*.", capitalise(self.name.clone())));
+        comps.push(format!(
+            "_{}_, _{}_.",
+            capitalise(self.range.to_asciidoc()),
+            self.duration.to_asciidoc()
+        ));
         comps.push(self.descr.clone());
         for enhancement in self.enhancements.iter() {
             comps.push(format!("* {} EP -- {}", enhancement.0, enhancement.1));

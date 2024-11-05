@@ -35,7 +35,7 @@ Provides a place to sleep, food, and water during a full rest.
 
 * *Repair* (*).
 Repair a damaged item by paying ¼ of its value.
-Items with the _health_ keyword recover 2 health per watch.
+Items with the _health_ property recover 2 health per watch spent repairing them.
 
 
 == Other services
