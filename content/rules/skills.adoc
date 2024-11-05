@@ -1,7 +1,7 @@
 ---
 title: Skills
 weight: 24
-prev: /rules/backgrounds
+prev: /rules/careers
 next: /rules/traits
 ---
 :toc:
@@ -53,9 +53,9 @@ The GM rules that climbing the ladder is trivial, even under the rain, so Beatri
 
 == Knowledge
 
-Skills and backgrounds may grant knowledge in relevant fields.
-The GM may provide players with the right skill or background with additional information.
-For example, a character with the _medicine_ skill would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat-catcher_ background would surely know a lot about those pesky rodents.
+Skills and careers may grant knowledge in relevant fields.
+The GM may provide players with the right skill or career with additional information.
+For example, a character with the _medicine_ skill would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat-catcher_ career would surely know a lot about those pesky rodents.
 
 
 == Languages

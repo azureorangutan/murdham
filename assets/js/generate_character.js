@@ -36,7 +36,7 @@ function random_age() {
 
 function generate_character() {
     let [str, agi, wit] = random_abilities();
-    let background = random_array_element(Data.backgrounds);
+    let career = random_array_element(Data.careers);
     let [weapon, money1] = random_array_element(Data.starting_weapons);
     let [item, money2] = random_array_element(Data.starting_items);
     let money3 = random_money();
@@ -48,22 +48,22 @@ function generate_character() {
     let personality = random_array_element(Data.personality)
 
     let first_name = undefined;
-    let background_name = undefined;
+    let career_name = undefined;
     if (gender == "Male") {
         first_name = random_array_element(Data.masculine_first_names);
-        background_name = background.masculine_name;
+        career_name = career.masculine_name;
     }
     else {
         first_name = random_array_element(Data.feminine_first_names);
-        background_name = background.feminine_name;
+        career_name = career.feminine_name;
     }
     let last_name = random_array_element(Data.last_names);
 
     let items = [weapon, item];
-    for (let i = 0; i < background.items.length; i++) {
-        items.push(background.items[i]);
+    for (let i = 0; i < career.items.length; i++) {
+        items.push(career.items[i]);
     }
-    for (let i = 0; i < background.profane_scrolls; i++) {
+    for (let i = 0; i < career.profane_scrolls; i++) {
         while (true) {
             let new_scroll = "power scroll (" + random_array_element(Data.profane_powers) + ")";
             if (!items.includes(new_scroll)) {
@@ -72,7 +72,7 @@ function generate_character() {
             }
         }
     }
-    for (let i = 0; i < background.sacred_scrolls; i++) {
+    for (let i = 0; i < career.sacred_scrolls; i++) {
         while (true) {
             let new_scroll = "power scroll (" + random_array_element(Data.sacred_powers) + ")";
             if (!items.includes(new_scroll)) {
@@ -100,31 +100,31 @@ function generate_character() {
         items_str += item + ", ";
     }
 
-    let money = money1 + money2 + money3 + background.money;
+    let money = money1 + money2 + money3 + career.money;
 
-    document.getElementById("name").innerHTML = first_name + " " + last_name + " the " + background_name;
+    document.getElementById("name").innerHTML = first_name + " " + last_name + " the " + career_name;
     document.getElementById("description").innerHTML =
         gender + ", " + age + " years old. " +
-        background.description +
+        career.description +
         " You have abandoned your previous life because " + reasons_to_adventure +
         " " + appearance +
         " " + personality;
     document.getElementById("str").innerHTML = str
     document.getElementById("agi").innerHTML = agi
     document.getElementById("wit").innerHTML = wit
-    document.getElementById("mana").innerHTML = background.mana;
-    if (background.mana == 0) {
+    document.getElementById("mana").innerHTML = career.mana;
+    if (career.mana == 0) {
         document.getElementById("mana-display").style.display = 'none';
     }
     else {
         document.getElementById("mana-display").style.display = 'inline';
     }
 
-    document.getElementById("skills").innerHTML = background.skills.join(", ");
+    document.getElementById("skills").innerHTML = career.skills.join(", ");
     document.getElementById("items").innerHTML = items_str + money + "ʂ";
-    if (background.followers.length > 0) {
+    if (career.followers.length > 0) {
         document.getElementById("followers_container").style.display = "block"
-        document.getElementById("followers").innerHTML = background.followers.join(", ");
+        document.getElementById("followers").innerHTML = career.followers.join(", ");
     }
     else {
         document.getElementById("followers_container").style.display = "none"

@@ -1,19 +1,17 @@
-== Monsters
-
-* *Troll* +
+*Troll* +
 A large, brutish, humanoid monster, capable of quick regeneration. Lives in swamps and feasts on rotten meat. +
 *STR* 12, *AGI* 4, *WIT* 4 +
-_Large creature_, human intelligence. +
-*Traits*: _frightening_, _regeneration_. +
-*Thick skin*. Armor value 1. +
-*Items*: simple great weapon (_Huge_. An extremely large club, impossible to use for a medium-sized character).
+_Large creature_, _human intelligence_. +
+*Items*: simple great weapon (_Huge_. An extremely large club, impossible to use for a medium-sized character). +
+*Natural armour*: thick skin (1). +
+*Traits*: _frightening_, _regeneration_.
 
-* *Wyrm* +
+*Wyrm* +
 A gigantic lizard-like winged creature, capable of breathing fire. +
 *STR* 16, *AGI* 4, *WIT* 12 +
-_Large creature_, animal intelligence. +
-*Traits*: _frightening_, _landing flyer_. +
-*Scales*. Armor value 2. +
-*Bite, talons, & tail*. d8. +
-*Fire breath*. d6, range 2, blast, fire damage, usage limit (once per stretch).
+_Large creature_, _animal intelligence_. +
+*Natural armour*: scales (2). +
+*Natural weapon*: bite, talons, & tail (d8). +
+*Natural weapon*: fire breath (d6, range 2, blast, fire damage, usage limit: once per stretch). +
+*Traits*: _frightening_, _landing flyer_.
 

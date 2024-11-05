@@ -4,6 +4,10 @@
 You can't use one of your arms.
 
 
+* *Bleeding*.
+You suffer d4 direct damage at the end of each stretch. You recover as soon as your wounds are stitched up treated using _surgical tools_. You also recover if you roll 4 or more damage at once and survive.
+
+
 * *Blind*.
 You can't see. You can't notice anything by sight alone, your melee attacks require passing a WIT save to hit, and you can't use ranged attacks.
 

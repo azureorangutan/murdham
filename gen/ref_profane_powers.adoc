@@ -1,20 +1,20 @@
 == Profane powers
 
 * *Animal shape*.
-_Near_, _stretch_.
+_Personal_, _stretch_.
 Target a _creature_, who turns into a medium-sized animal of your choice. You must carry the skin, feathers, scales, or shell of the chosen animal, which envelop and merge with the target during the transformation and returns to its previous state when the spell ends. The target keeps WIT and intelligence level, but can't speak. The spell doesn't influence the target's equipment, which simply falls to the ground.
-* 2 EP -- Turn into a _small_ or _large_ animal. By applying this enhancement twice, you can turn into a _tiny_ or _massive_ animal.
+** 2 EP -- Turn into a _small_ or _large_ animal. By applying this enhancement twice, you can turn into a _tiny_ or _massive_ animal.
 
 * *Arcane lock*.
 _Near_, _stretch_.
 Target an item which can be opened and closed, such as a door, a box, or a bottle. The target can only be opened by a trigger of your choice (a password, a gesture, contact with a specific item...).
-* 1 EP -- The target emits a loud sound if someone attempts to open it without using the proper method.
+** 1 EP -- The target emits a loud sound if someone attempts to open it without using the proper method.
 
 * *Bewitch*.
 _Near_, _stretch_.
 Target a creature. The target attitude towards you improves by a step: hostile to unfriendly, unfriendly to neutral, neutral to friendly, friendly to infatuated (see the Encounters chapter).
-* 1 EP -- Improve the attitude by an additional step
-* 1 EP -- Target another creature, who replaces you as the one towards whom attitude is improved.
+** 1 EP -- Improve the attitude by an additional step
+** 1 EP -- Target another creature, who replaces you as the one towards whom attitude is improved.
 
 * *Burning vengeance*.
 _Near_, _stretch_.
@@ -23,7 +23,8 @@ Target a creature with human intelligence. Name a person they know and remind ho
 * *Eldritch blast*.
 _Near_, _instant_.
 Target a character or an item. The target is hit by a force blast, which works as a melee attack, inflicting d10 damage (impaired against items). If you enhance the power to _sight_ range, it works as a ranged attack instead. All skills and rules concerning attacks apply, and the attack can be dodged or countered as usual. If you enhance the power to _connection_ range, the blast is conjured on top of the target and your skills don't apply any longer, but the target can still dodge.
-* 1 EP -- The power inflicts fire, lightning, cold, or heat damage.
+** 1 EP -- The power inflicts fire, lightning, cold, or heat damage.
+** 1 EP -- The attack gains the _blast_ property.
 
 * *False death*.
 _Near_, _stretch_.
@@ -36,8 +37,8 @@ Target up to 4 _rations_ and/or _alcoholic drinks_. _Rations_ become extremely s
 * *Flawed resurrection*.
 _Near_, _instant_.
 Target the lifeless heart of a _creature_ who died no longer than a stretch ago. A new body forms around the heart and the target's spirit is called back to inhabit it, effectively resurrecting them. The regeneration process takes a day and the new body is different from the original both in appearance and capabilities. STR and AGI are equal to the average (8 for humans, what's indicated in their profile for other creatures) minus d3. WIT, skills, intelligence, and personality don't change. Once the resurrection is complete, the target immediately suffers 4 corruption.
-* 2 EP -- Accelerate the regeneration process: from a day to a watch, then from a watch to a stretch.
-* 2 EP -- Target a _creature_ who died longer than a stretch ago: from a stretch to a watch, from a watch to a day.
+** 2 EP -- Accelerate the regeneration process: from a day to a watch, then from a watch to a stretch.
+** 2 EP -- Target a _creature_ who died longer than a stretch ago: from a stretch to a watch, from a watch to a day.
 
 * *Gift of speech*.
 _Near_, _stretch_.
@@ -56,15 +57,15 @@ _Near_, _stretch_.
 Target a _creature_. The target's appearance becomes perfect and free of any blemish. Signs of disease, affliction, old age, and mutation completely disappear. The appearance might in fact be too perfect, almost uncanny (the skin is too smooth, the cheeks are too rosy...). The change in appearance is real, not an illusion, but any underlying illness or problem isn't cured and still has effect.
 
 * *Levitation*.
-_Near_, _stretch_.
+_Personal_, _stretch_.
 Target a creature. The target temporarily gains the _landing flyer_ trait.
-* 1 EP -- Improve flying by a category: _landing flyer_ to _swooping flyer_, _swooping flyer_ to _hovering flyer_.
+** 1 EP -- Improve flying by a category: _landing flyer_ to _swooping flyer_, _swooping flyer_ to _hovering flyer_.
 
 * *Miasma of chaos*.
 _Near_, _stretch_.
 Target a small zone. The area is filled with red mist flowing from the ground. Characters entering or starting their turn in the affected area suffer 1 corruption. The mist blocks visibility.
-* 1 EP -- Double the amount of corruption.
-* 1 EP -- The mist covers all zones within range 1 of the targeted one. Enhance again to double the range.
+** 1 EP -- Double the amount of corruption.
+** 1 EP -- The mist covers all zones within range 1 of the targeted one. Enhance again to double the range.
 
 * *Occult consultation*.
 _Near_, _stretch_.
@@ -73,7 +74,7 @@ Target the corpse of a creature who has died no longer than a stretch ago and wh
 * *Plague vessel*.
 _Near_, _stretch_.
 Target a _sick_ creature. You absorb the disease from the target, who is instantly healed. You carry the disease in your body without suffering its effect. You can attempt to discharge it by touching another creature before the power ends. The target can resist the infection with a STR save. If they resist, the disease stays in your body, and you can attempt to discharge it again later. If the power ends before you discharge the disease, you are infected by it yourself, without chance of a save.
-* 1 EP -- Target another creature, who replaces you as the carrier of the disease.
+** 1 EP -- Target another creature, who replaces you as the carrier of the disease.
 
 * *Purifying flame*.
 _Near_, _stretch_.
@@ -86,7 +87,7 @@ Target a _creature_ of _human intelligence_. The target is unable to lie, but al
 * *Reanimate corpse*.
 _Near_, _stretch_.
 Target the corpse of a medium-sized (or smaller) creature. It is raised as a _reanimated corpse_ under your control (see the Bestiary chapter for relevant stats and rules).
-* 2 EP -- Increase the maximum size category of the targeted corpse by one step.
+** 2 EP -- Increase the maximum size category of the targeted corpse by one step.
 
 * *Silence*.
 _Near_, _stretch_.
@@ -95,15 +96,15 @@ Target a zone. No sound can be produced or heard within it. Among other things, 
 * *Star sign*.
 _Sight_, _stretch_.
 Target a celestial body (the Sun, the Moon, a planet, a star...) at any range. You can subtly alter its appearance (make it slightly larger, smaller, brighter, darker...). You can keep altering appearance as long as you concentrate, otherwise it remains as you left it until the spell is over. Characters with the _erudition_ skill can tell something is different, even if subtle. It is said that some wizards use this spell to encode messages in the stars.
-* 2 EP -- You can alter target's appearance in a rather evident way, so that pretty much everyone can see the difference and not just erudite characters.
+** 2 EP -- You can alter target's appearance in a rather evident way, so that pretty much everyone can see the difference and not just erudite characters.
 
 * *Summon demon*.
 _Near_, _stretch_.
 Target a zone and invoke the true name of a _demon_. The veil between reality and chaos is torn and the demon steps into this world. The demon isn't under the caster's control and behaves according to its own desire.
-* 2 EP -- The demon must fulfil a demand when summoned, after which it's free. It can still refuse to obey, in which case it is paralysed as if bound by invisible chains. You can attempt to bargain and change the request.
+** 2 EP -- The demon must fulfil a demand when summoned, after which it's free. It can still refuse to obey, in which case it is paralysed as if bound by invisible chains. You can attempt to bargain and change the request.
 
 * *Water breathing*.
-_Near_, _stretch_.
+_Personal_, _stretch_.
 Target a creature. Gills and fins appear on the target's body and their hands, feet, or paws become palmate. The target can breathe underwater and can swim at full speed.
 
 * *Wood shape*.

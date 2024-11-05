@@ -1,7 +1,7 @@
 profane powers:
 - name: animal shape
   descr: Target a _creature_, who turns into a medium-sized animal of your choice. You must carry the skin, feathers, scales, or shell of the chosen animal, which envelop and merge with the target during the transformation and returns to its previous state when the spell ends. The target keeps WIT and intelligence level, but can't speak. The spell doesn't influence the target's equipment, which simply falls to the ground.
-  range: Near
+  range: Personal
   duration: Stretch
   enhancements:
   - - 2
@@ -33,6 +33,8 @@ profane powers:
   enhancements:
   - - 1
     - The power inflicts fire, lightning, cold, or heat damage.
+  - - 1
+    - The attack gains the _blast_ property.
 - name: false death
   descr: 'Target a _creature_. The target falls like a string-less puppet and appears dead, even upon close examination. However, they are still very much alive: they can perceive their surroundings and must breathe, eat, and drink to survive.'
   range: Near
@@ -68,7 +70,7 @@ profane powers:
   duration: Stretch
 - name: levitation
   descr: Target a creature. The target temporarily gains the _landing flyer_ trait.
-  range: Near
+  range: Personal
   duration: Stretch
   enhancements:
   - - 1
@@ -128,7 +130,7 @@ profane powers:
     - The demon must fulfil a demand when summoned, after which it's free. It can still refuse to obey, in which case it is paralysed as if bound by invisible chains. You can attempt to bargain and change the request.
 - name: water breathing
   descr: Target a creature. Gills and fins appear on the target's body and their hands, feet, or paws become palmate. The target can breathe underwater and can swim at full speed.
-  range: Near
+  range: Personal
   duration: Stretch
 - name: wood shape
   descr: Target a _creature_. The target turns into a tree. They are still able to perceive their surroundings.

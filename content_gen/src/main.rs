@@ -118,7 +118,7 @@ struct Power {
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
-struct Background {
+struct Career {
     male_name: String,
     female_name: String,
     skills: Vec<String>,
@@ -157,10 +157,29 @@ enum CharacterIntelligence {
     Mindless,
 }
 
+#[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
+struct Trait {
+    name: String,
+    #[serde(default)]
+    descr: String,
+}
+
+impl ToAsciiDoc for Trait {
+    fn to_asciidoc(&self) -> String {
+        if self.descr.is_empty() {
+            format!("_{}_", self.name)
+        } else {
+            format!("_{} ({})_", self.name, self.descr)
+        }
+    }
+}
+
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 struct Character {
     name: String,
+    #[serde(default)]
     cost: Option<i32>,
+    #[serde(default)]
     descr: String,
     kind: CharacterKind,
     size: CharacterSize,
@@ -168,13 +187,21 @@ struct Character {
     str: i8,
     agi: i8,
     wit: i8,
+    #[serde(default)]
     mana: i8,
+    #[serde(default)]
     skills: Vec<String>,
-    traits: Vec<String>,
+    #[serde(default)]
+    traits: Vec<Trait>,
+    #[serde(default)]
     special_traits: BTreeMap<String, String>,
+    #[serde(default)]
     natural_armour: Option<(String, i8)>,
+    #[serde(default)]
     natural_weapons: Vec<(String, Weapon)>,
+    #[serde(default)]
     items: Vec<AssetWithDescr>,
+    #[serde(default)]
     money: i32,
 }
 
@@ -200,7 +227,7 @@ impl ToAsciiDoc for AttackProperty {
             Self::Range(x) => format!("range {x}"),
             Self::IndirectRange(x) => format!("range {x}"),
             Self::Poison(x) => format!("poison ({x})"),
-            Self::UsageLimit(x) => format!("usage limit ({x})"),
+            Self::UsageLimit(x) => format!("usage limit: {x}"),
             _ => format!("{:?}", self).to_case(Case::Lower),
         }
     }
@@ -297,20 +324,20 @@ impl ToAsciiDoc for Power {
         ));
         comps.push(self.descr.clone());
         for enhancement in self.enhancements.iter() {
-            comps.push(format!("* {} EP -- {}", enhancement.0, enhancement.1));
+            comps.push(format!("** {} EP -- {}", enhancement.0, enhancement.1));
         }
         comps.join("\n")
     }
 }
 
-impl ToAsciiDoc for Background {
+impl ToAsciiDoc for Career {
     fn to_asciidoc(&self) -> String {
         let mut comps = Vec::new();
 
-        comps.push(format!("{}\n", self.descr));
+        comps.push(format!("{}", self.descr));
 
         comps.push(format!(
-            "*Skills*: {}.\n",
+            "*Skills*: {}.",
             self.skills
                 .iter()
                 .map(|x| format!("_{x}_"))
@@ -326,7 +353,7 @@ impl ToAsciiDoc for Background {
 
         let item_map = count_map(&self.items);
         comps.push(format!(
-            "*Items*: {}{}.\n",
+            "*Items*: {}{}.",
             item_map
                 .iter()
                 .map(|(x, c)| {
@@ -343,7 +370,7 @@ impl ToAsciiDoc for Background {
 
         if !self.followers.is_empty() {
             comps.push(format!(
-                "*Followers*: {}.\n",
+                "*Followers*: {}.",
                 self.followers
                     .iter()
                     .map(|x| x.to_asciidoc())
@@ -352,7 +379,7 @@ impl ToAsciiDoc for Background {
             ));
         }
 
-        comps.join("\n")
+        comps.join(" +\n")
     }
 }
 
@@ -402,11 +429,40 @@ impl ToAsciiDoc for Character {
         ));
 
         comps.push(format!(
-            "_{} {}_, {}.",
+            "_{} {}_, _{}_.",
             capitalise(self.size.to_asciidoc()),
             self.kind.to_asciidoc(),
             self.intelligence.to_asciidoc()
         ));
+
+        let money_str = if self.money > 0 {
+            format!(", {}ʂ", self.money)
+        } else {
+            String::new()
+        };
+        if !self.items.is_empty() {
+            comps.push(format!(
+                "*Items*: {}{}.",
+                self.items
+                    .iter()
+                    .map(|x| x.to_asciidoc())
+                    .collect::<Vec<String>>()
+                    .join(", "),
+                money_str
+            ));
+        }
+
+        if let Some((n, av)) = self.natural_armour.clone() {
+            comps.push(format!("*Natural armour*: {n} ({av})."))
+        }
+
+        for (nat_weapon, stats) in self.natural_weapons.iter() {
+            comps.push(format!(
+                "*Natural weapon*: {} ({}).",
+                nat_weapon,
+                stats.to_asciidoc()
+            ))
+        }
 
         if !self.skills.is_empty() {
             comps.push(format!(
@@ -424,43 +480,14 @@ impl ToAsciiDoc for Character {
                 "*Traits*: {}.",
                 self.traits
                     .iter()
-                    .map(|x| format!("_{x}_"))
+                    .map(|x| { x.to_asciidoc() })
                     .collect::<Vec<String>>()
                     .join(", ")
             ));
         }
 
         for (n, d) in self.special_traits.iter() {
-            comps.push(format!("*{}*. {}", capitalise(n.to_string()), d));
-        }
-
-        if let Some((n, av)) = self.natural_armour.clone() {
-            comps.push(format!("*{}*. Armor value {av}.", capitalise(n)))
-        }
-
-        for (nat_weapon, stats) in self.natural_weapons.iter() {
-            comps.push(format!(
-                "*{}*. {}.",
-                capitalise(nat_weapon.clone()),
-                stats.to_asciidoc()
-            ))
-        }
-
-        let money_str = if self.money > 0 {
-            format!(", {}ʂ", self.money)
-        } else {
-            String::new()
-        };
-        if !self.items.is_empty() {
-            comps.push(format!(
-                "*Items*: {}{}.",
-                self.items
-                    .iter()
-                    .map(|x| x.to_asciidoc())
-                    .collect::<Vec<String>>()
-                    .join(", "),
-                money_str
-            ));
+            comps.push(format!("*{}*: {}", capitalise(n.to_string()), d));
         }
 
         comps.join(" +\n")
@@ -529,34 +556,32 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
         for (category, characters) in characters {
             let filename = format!("ref_{}.adoc", category.to_case(Case::Snake));
             let mut f = File::create(base_path.join(filename))?;
-            let header = capitalise(category);
-            writeln!(f, "== {header}\n")?;
             for character in characters {
-                writeln!(f, "* {}\n", character.to_asciidoc())?;
+                writeln!(f, "{}\n", character.to_asciidoc())?;
             }
         }
     }
 
     {
-        let backgrounds: Vec<Background> =
-            serde_yaml::from_reader(File::open("../game_data/backgrounds.yml")?)?;
+        let careers: Vec<Career> =
+            serde_yaml::from_reader(File::open("../game_data/careers.yml")?)?;
 
-        let background_names = backgrounds
+        let career_names = careers
             .iter()
             .map(|x| x.male_name.clone())
             .collect::<Vec<String>>();
 
-        let mut f = File::create(base_path.join("ref_backgrounds.adoc"))?;
-        for bg in backgrounds {
+        let mut f = File::create(base_path.join("ref_careers.adoc"))?;
+        for career in careers {
             writeln!(
                 f,
                 "== {}\n\n{}\n",
-                capitalise(bg.male_name.clone()),
-                bg.to_asciidoc()
+                capitalise(career.male_name.clone()),
+                career.to_asciidoc()
             )?;
         }
 
-        gen_double_die_table(&base_path, "backgrounds", &background_names, 4)?;
+        gen_double_die_table(&base_path, "careers", &career_names, 4)?;
     }
 
     {
@@ -655,21 +680,21 @@ pub fn generate_javascript() -> Result<(), Box<dyn Error>> {
     let mut f = File::create(output_dir.join("data.js"))?;
 
     {
-        let backgrounds: Vec<Background> =
-            serde_yaml::from_reader(File::open("../game_data/backgrounds.yml")?)?;
+        let careers: Vec<Career> =
+            serde_yaml::from_reader(File::open("../game_data/careers.yml")?)?;
 
-        writeln!(f, "export const backgrounds = [")?;
-        for background in backgrounds {
-            let mana = background.mana;
-            let skills = background.skills;
-            let money = background.money;
+        writeln!(f, "export const careers = [")?;
+        for career in careers {
+            let mana = career.mana;
+            let skills = career.skills;
+            let money = career.money;
 
             let mut items = Vec::new();
             let mut followers = Vec::new();
             let mut profane_scrolls = 0;
             let mut sacred_scrolls = 0;
 
-            for item in background.items {
+            for item in career.items {
                 if item.name == "power scroll" {
                     if item.descr == "profane" {
                         profane_scrolls += 1;
@@ -683,7 +708,7 @@ pub fn generate_javascript() -> Result<(), Box<dyn Error>> {
                 }
             }
 
-            for follower in background.followers {
+            for follower in career.followers {
                 followers.push(follower.to_asciidoc())
             }
 
@@ -691,17 +716,17 @@ pub fn generate_javascript() -> Result<(), Box<dyn Error>> {
             writeln!(
                 f,
                 "    masculine_name: \"{}\",",
-                background.male_name.to_case(Case::Title)
+                career.male_name.to_case(Case::Title)
             )?;
             writeln!(
                 f,
                 "    feminine_name: \"{}\",",
-                background.female_name.to_case(Case::Title)
+                career.female_name.to_case(Case::Title)
             )?;
             writeln!(
                 f,
                 "    description: \"{}\",",
-                process_keywords_for_js(background.descr)
+                process_keywords_for_js(career.descr)
             )?;
 
             writeln!(f, "    skills: [")?;
@@ -856,20 +881,20 @@ mod tests {
     }
 
     #[test]
-    fn backgrounds() {
-        let backgrounds: Vec<Background> =
-            serde_yaml::from_reader(File::open("../game_data/backgrounds.yml").unwrap()).unwrap();
+    fn careers() {
+        let careers: Vec<Career> =
+            serde_yaml::from_reader(File::open("../game_data/careers.yml").unwrap()).unwrap();
         let skills = all_skills();
         let items = all_items();
         let characters = all_characters();
-        for background in backgrounds {
-            for skill in background.skills {
+        for career in careers {
+            for skill in career.skills {
                 assert!(skills.contains(&skill), "Invalid skill {}", skill);
             }
-            for item in background.items {
+            for item in career.items {
                 assert!(items.contains(&item.name), "Invalid item {}", item.name);
             }
-            for follower in background.followers {
+            for follower in career.followers {
                 assert!(
                     characters.contains(&follower.name),
                     "Invalid follower {}",
@@ -892,7 +917,7 @@ mod tests {
                     assert!(skills.contains(&skill), "Invalid skill {}", skill);
                 }
                 for t in character.traits {
-                    assert!(traits.contains(&t), "Invalid trait {}", t);
+                    assert!(traits.contains(&t.name), "Invalid trait {}", t.name);
                 }
                 for item in character.items {
                     assert!(items.contains(&item.name), "Invalid item {}", item.name);
@@ -909,8 +934,14 @@ mod tests {
 
     #[test]
     fn starting_assets() {
-        let _items: BTreeMap<String, Vec<(AssetWithDescr, i32)>> =
+        let starting_items: BTreeMap<String, Vec<(AssetWithDescr, i32)>> =
             serde_yaml::from_reader(File::open("../game_data/starting_assets.yml").unwrap())
                 .unwrap();
+        let items = all_items();
+        for (_, starting_items) in starting_items {
+            for (item, _) in starting_items {
+                assert!(items.contains(&item.name), "Invalid item {}", item.name);
+            }
+        }
     }
 }

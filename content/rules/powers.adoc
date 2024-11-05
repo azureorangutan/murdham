@@ -47,9 +47,7 @@ They can get an additional EP either by spending a full stretch to invoke the po
 
 EPs can be spent to buy the following generic enhancements, or any specific enhancement specified in the power's description:
 
-* 1 EP -- Target a small zone, affecting all valid targets within it or on its borders.
-
-* 1 EP -- Double the number of targets or targeted zones.
+* 1 EP -- Double the number of targets.
 
 * 1 EP -- Improve range by one category.
 

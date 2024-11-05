@@ -21,16 +21,16 @@ Roll on the <<tb_starting_ability_scores>> to determine an array of three scores
 
 ** Finally, assign the lowest score to the last remaining ability.
 
-. *Background*.
-Determine your background by rolling on the <<tb_backgrounds>> table.
-Check its description in the link:../backgrounds[Backgrounds] chapter.
+. *Career*.
+Determine your past career by rolling on the <<tb_careers>> table.
+Check its description in the link:../careers[Careers] chapter.
 
-** You start with two skills granted by your background.
+** You start with two skills granted by your career.
 
-** Re-roll if you get the same background as another Player.
+** Re-roll if you get the same career as another Player.
 
 . *Assets*.
-You start with d8 shillings (ʂ), the items and followers granted by your background, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
+You start with d8 shillings (ʂ), the items and followers granted by your career, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
 
 ** You additionally share a single _medicine box_, a single _candle_, and _flint & tinder_ with the other Players.
 
@@ -57,14 +57,14 @@ He rolls a d3 to assign the highest score (11) and gets a 2 (AGI).
 Furthermore, he rolls a d2 to assign the middle score (7) and gets a 2 again (WIT in this case, skipping over AGI).
 His character's starting abilities are therefore: **STR** 6, **AGI** 11, **WIT** 7.
 
-2. He rolls a 4 on a d4 and a 10 on a d12 for the background: _soldier_.
+2. He rolls a 4 on a d4 and a 10 on a d12 for the career: _soldier_.
 This grants him the _cleave_ and _skilled blow_ skills.
 
 3. He starts with the following assets:
 
     * He rolls 1 on a d8 for starting money: 1ʂ.
 
-    * His background provides _clothes_ and a _halberd_.
+    * His career provides _clothes_ and a _halberd_.
 
     * He rolls 1 on a d2 and 5 on a d12 for his starting weapon: a _boat hook_ plus 4ʂ.
 
@@ -109,7 +109,7 @@ For example, you can go around the table and define a connection for each pair o
 |12 |14, 5, 5
 |===
 
-include::gen/tb_backgrounds.adoc[]
+include::gen/tb_careers.adoc[]
 
 include::gen/tb_starting_weapons.adoc[]
 

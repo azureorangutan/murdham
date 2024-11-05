@@ -1,0 +1,11 @@
+== Clothing
+
+* *Clothes* (16ʂ).
+All you need to cover yourself! Include belts, pouches, bags, and other containers to hold reasonably sized items.
+
+* *Warm clothes* (16ʂ, bulk 2).
+Cold damage is impaired, heat damage is enhanced.
+
+* *Disguise kit* (16ʂ, bulk 2).
+Includes makeup, wigs, fake beards, hats, eyepatches, clothing, etc. All you need to hide your appearance! You normally can't look like another specific person, and your voice and mannerism might give your disguise away. Close examination will immediately reveal a disguise.
+

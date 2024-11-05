@@ -1,0 +1,162 @@
+== Miscellanea
+
+* *Animal skin* (4ʂ).
+Skin of a small animal. Multiply cost by 4 and bulk by 2 for each size above small.
+
+* *Bear trap* (16ʂ, bulk 2).
+Placing it or picking it up is a main action, concealing it takes a stretch. Characters stepping on it suffer d6 damage and are _entangled_.
+
+* *Book* (16ʂ).
+The price is for a blank book.
+
+* *Brush & paints* (16ʂ, bulk ½).
+_Consumable_.
+Enough to paint a _canvas_.
+
+* *Cage* (16ʂ, bulk 2).
+Can contain a small character.
+
+* *Caltrops* (16ʂ).
+As a main action, can be spread in a nearby zone, which counts as difficult ground. Picking them up takes a stretch.
+
+* *Canvas* (16ʂ, bulk 2).
+About 1 metre by 1 metre.
+
+* *Cards* (4ʂ, bulk ½).
+WIT contest to win.
+
+* *Censer* (16ʂ, bulk 2).
+Can be used to burn _incense_.
+
+* *Chain* (4ʂ).
+2 metre.
+
+* *Chalk* (1ʂ, bulk ½).
+_Consumable_.
+Enough to write a few markings.
+
+* *Chess set* (16ʂ).
+WIT contest to win.
+
+* *Climbing gear* (16ʂ, bulk 2).
+Includes pitons, nails, climbing pickaxes, etc. Can be used to scale sheer surfaces, but an AGI save is usually required.
+
+* *Crowbar* (16ʂ).
+Spend a stretch and pass a STR save to open a door, chest, etc. Noisy. Can be used as a _simple hand weapon_.
+
+* *Crutch* (4ʂ).
+_Hobbled_ characters can use it to walk.
+
+* *Dice* (4ʂ, bulk ½).
+Luck-based game.
+
+* *Divination tools* (16ʂ, bulk 2).
+Include a crystal ball, tarot cards, divination bones, etc. Used in combination with the _divination_ skill.
+
+* *Grappling hook* (4ʂ).
+Use it to throw ropes and such.
+
+* *Grimoire* (16ʂ).
+Can hold up to 4 _power scrolls_, removing the need to swamp them out to invoke their power.
+
+* *Incense* (4ʂ, bulk ½).
+_Consumable_.
+Burns for a stretch. _Demons_ are disturbed by it: they must pass a STR save to enter a zone where incense is burning.
+
+* *Junk* (1ʂ).
+Skull, bag of dirt or dung, dirty pillow...
+
+* *Ladder* (4ʂ, bulk 4).
+Climbing it is trivial.
+
+* *Lockbox & key* (4ʂ).
+Can contain a total bulk of 1.
+
+* *Lock picks* (16ʂ).
+Spend a stretch and pass a WIT save to open a lock.
+
+* *Looking glass* (16ʂ).
+See distant details.
+
+* *Lucky charm* (16ʂ, bulk ½).
+When you spend an omen, there is 1:4 chance it isn't actually spent. If combined with the _lucky_ skill, You have in total a 1:2 chance of not losing the omen.
+
+* *Manacles & key* (4ʂ).
+Used to bind someone's hands.
+
+* *Marbles* (4ʂ, bulk ½).
+A bunch of tiny glass beads. AGI contest to win games.
+
+* *Metal file* (4ʂ).
+Can cut through metal, with enough time.
+
+* *Mirror* (16ʂ).
+A simple hand mirror.
+
+* *Music instrument* (16ʂ).
+Drums, fiddle, flute, Lyre, Lute, etc.
+
+* *Muzzle* (4ʂ).
+To muzzle a dog or similarly sized animal.
+
+* *Net* (16ʂ).
+Throw it on an enemy: they are _entangled_.
+
+* *Painting* (64ʂ, bulk 2).
+A nice painting.
+
+* *Perfume* (16ʂ, bulk ½).
+_Consumable_.
+An exquisite perfume.
+
+* *Pipe & tobacco* (4ʂ, bulk ½).
+_Consumable_.
+Smoke it after failing a save in a situation requiring thinking to repeat the save once. Then pass a WIT save or become _addicted_ to it.
+
+* *Power scroll* (64ʂ, bulk ½).
+A scroll recording a sacred or profane power. The knowledge of how to create them has been lost.
+
+
+* *Prosthesis* (16ʂ).
+Replaces a lost limb. Works as a _crutch_ if it replaces a lost leg.
+
+
+* *Quill & ink* (4ʂ, bulk ½).
+_Consumable_.
+Enough to write a scroll.
+
+* *Rope* (4ʂ).
+4 metre.
+
+* *Rope ladder* (4ʂ, bulk 2).
+2 metre. Trivial to climb.
+
+* *Saddle* (16ʂ, bulk 2).
+Required to ride a mount. Includes saddlebags.
+
+* *Scissors* (4ʂ).
+Used to cut precisely.
+
+* *Scroll* (1ʂ, bulk ½).
+The price is for a blank scroll.
+
+* *Scroll case* (4ʂ).
+Can hold 2 scrolls, protecting them from water and damage.
+
+* *Sealing wax* (4ʂ, bulk ½).
+_Consumable_.
+Used to seal letters in combination with a _signet ring_.
+
+* *Signet ring* (16ʂ, bulk ½).
+Proof of identity, used to stamp _sealing wax_.
+
+* *Smoke bomb* (16ʂ, bulk ½).
+_Consumable_.
+Throw it at range 2. All zones within range 1 of the targeted one are covered in thick smoke, blocking visibility until the end of the stretch.
+
+* *Toolbox* (16ʂ, bulk 2).
+Includes hammer, saws, nails, etc. Spend a watch and pass a WIT save to repair a damaged item, but on a fail it is destroyed. If the item has the _health_ property, repair or inflict 2 damage instead on a pass or fail.
+
+* *Wooden pole* (4ʂ, bulk 2).
+2 metre long.
+

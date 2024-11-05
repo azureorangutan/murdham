@@ -1,22 +1,20 @@
-== Reanimated corpses
-
-* *Bone raven* +
+*Bone raven* +
 a dead raven, empty-eyed, bones carrying rotting flesh. +
 *STR* 4, *AGI* 6, *WIT* 2 +
-_Small undead_, mindless. +
-*Traits*: _fast_, _swooping flyer_, _frightening_. +
-*Beak & talons*. d6.
+_Small undead_, _mindless_. +
+*Natural weapon*: beak & talons (d6). +
+*Traits*: _fast_, _swooping flyer_, _frightening_.
 
-* *Shambling corpse* +
+*Shambling corpse* +
 a corpse reanimated by dark magic, left to rot. +
 *STR* 8, *AGI* 4, *WIT* 2 +
-_Medium undead_, mindless. +
+_Medium undead_, _mindless_. +
 *Traits*: _frightening_.
 
-* *Skeletal warrior* +
+*Skeletal warrior* +
 an ancient body awakened to serve as an immortal warrior. +
 *STR* 8, *AGI* 4, *WIT* 2 +
-_Medium undead_, mindless. +
-*Traits*: _frightening_. +
-*Items*: martial hand weapon, shield.
+_Medium undead_, _mindless_. +
+*Items*: martial hand weapon, shield. +
+*Traits*: _frightening_.
 
