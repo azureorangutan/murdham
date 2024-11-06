@@ -10,6 +10,7 @@ starting items:
 - - name: helmet
   - 0
 - - name: warm clothes
+    descr: comfortable fur cloak
   - 0
 - - name: beastman blood
   - 0
@@ -35,12 +36,15 @@ starting items:
 - - name: grappling hook
   - 6
 - - name: lucky charm
+    descr: cornicello
   - 0
 - - name: signet ring
+    descr: stolen from a dead noble
   - 0
 - - name: marbles
   - 6
 - - name: music instrument
+    descr: flute
   - 0
 - - name: pipe & tobacco
   - 6
@@ -101,7 +105,7 @@ starting weapons:
     descr: warhammer
   - 0
 - - name: martial great weapon
-    descr: 'rusty zweihänder, _fragile_'
+    descr: "rusty zweihänder, _fragile_"
   - 0
 - - name: mancatcher
   - 0
@@ -115,8 +119,8 @@ starting weapons:
     descr: sling
   - 0
 - - name: missile great weapon
-    descr: 'makeshift bow, _fragile_'
+    descr: "makeshift bow, _fragile_"
   - 0
 - - name: handgun
-    descr: 'old pistol, _fragile_'
+    descr: "old pistol, _fragile_"
   - 0

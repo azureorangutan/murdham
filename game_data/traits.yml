@@ -1,49 +1,46 @@
 addicted: >
-  Addicted to a specific substance.
+  The character is addicted to a specific substance.
   On a day rest, they must consume it or temporarily reduce WIT by 1.
   On a full rest, they must consume 4 units of it or temporarily reduce WIT by 1 for each missing unit.
 corrupting: >
-  Anyone touched by it suffers the indicated amount of corruption.
+  Anyone touched by this character suffers the indicated amount of corruption.
   This includes targets of melee attacks, unless they successfully dodge.
 fast: >
-  Moves at double speed.
+  The character moves at double speed.
 frail: >
-  Halves carry limit and bulk.
+  The character halves carry limit and bulk.
 frightening: >
-  Causes fear within range 4.
-  Is immune to _frightening_ characters and treats _terrifying_ characters as _frightening_.
+  The character causes fear within range 4.
+  They are immune to _frightening_ characters and treats _terrifying_ characters as _frightening_.
 hovering flyer: >
-  Can fly.
-  Can attack and stay still while flying.
-immobile: >
-  Can't move.
-incorporeal: >
-  Has no STR and AGI score.
-  Can't interact with the material world but is still bound by its laws.
-  Can walk through thin barriers, such as doors.
+  The character can fly, and can attack and stay still while flying.
+# immobile: >
+#   The character can't move.
+# incorporeal: >
+#   The character has no STR and AGI score.
+#   They can't interact with the material world but is still bound by its laws.
+#   Thy can walk through thin barriers, such as doors.
 landing flyer: >
-  Can fly.
-  Can't attack and can't stay still while flying.
+  The character can fly, but can't attack and can't stay still while flying.
 mutation: >
-  Has the mutations listed after the trait.
+  The character has the mutations listed after the trait.
   See the Corruption chapter for more information.
 permanent condition: >
-  Permanently applies the effects of the listed condition.
+  The character permanently applies the effects of the listed conditions.
 power: >
-  Can invoke the listed power once per watch, with the listed amount of EP.
+  The character can invoke the listed power once per watch, with the listed amount of EP.
   The power always works and doesn't inflict corruption.
 regeneration: >
-  Recovers half the amount of lost health each round, at the start of their turn.
-  Fire prevents this.
+  The character recovers half the amount of lost health each round, at the start of their turn.
+  Fire damage stops regeneration for a watch.
 slow: >
-  Moves at half speed.
+  The character moves at half speed.
 split: >
-  When it suffers critical damage, it splits into two copies of itself, each with health equal to the remaining amount and STR to match.
+  When they suffers critical damage, the character splits into two copies of themselves, each with health equal to the remaining amount and STR to match.
 sturdy: >
-  Doubles carry limit and bulk.
+  The character doubles carry limit and bulk.
 swooping flyer: >
-  Can fly.
-  Can attack but can't stay still while flying.
+  The character can fly, and can attack while flying, but can't stay still while flying.
 terrifying: >
-  Causes terror within range 4.
-  Is immune to _frightening_ and _terrifying_ characters.
+  The character causes terror within range 4.
+  They are immune to _frightening_ and _terrifying_ characters.

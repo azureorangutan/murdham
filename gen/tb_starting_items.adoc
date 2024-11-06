@@ -13,7 +13,7 @@ h|D12
 |Caltrops
 |3
 |Helmet
-|Warm clothes
+|Warm clothes (comfortable fur cloak)
 |4
 |Beastman blood
 |Butterfly sting
@@ -31,12 +31,12 @@ h|D12
 |Field kitchen
 |9
 |Grappling hook, 6ʂ
-|Lucky charm
+|Lucky charm (cornicello)
 |10
-|Signet ring
+|Signet ring (stolen from a dead noble)
 |Marbles, 6ʂ
 |11
-|Music instrument
+|Music instrument (flute)
 |Pipe & tobacco, 6ʂ
 |12
 |Rope ladder, 6ʂ

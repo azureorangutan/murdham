@@ -88,7 +88,7 @@ You suffer from the _silenced_ condition until you take a full rest (see link:..
 If you get this injury a second time, nothing happens.
 
 |11 |*Infected wound*.
-You contract a disease chosen by the GM (see link::../hazards[Hazards]).
+You contract a disease chosen by the GM (see link:../hazards#_disease[Disease]).
 You don't get the opportunity to resist with a STR save.
 If you get this injury a second time, you might contract a different disease.
 
@@ -172,7 +172,7 @@ Health loss due to STR loss doesn't cause critical damage.
 Temporarily altered abilities are restored after a full rest (see link:../rest[Rest]).
 
 
-== Death of the Player characters
+== Death of Player characters
 
 Players whose character dies must immediately create a new one, who joins the company as soon as possible under whatever narrative pretext can be devised by the GM.
 If all Player characters are _incapacitated_ at the same time, the GM decides what happens to the company (they might be killed, captured, rescued, robbed...).

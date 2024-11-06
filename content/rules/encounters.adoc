@@ -18,6 +18,7 @@ Groups which are well hidden and silent (for example laying in ambush in a thick
 If only one group notices the other, it has the opportunity to decide how to approach the encounter: leaving, sneaking, launching an ambush, attempting to parley, etc.
 If both or neither group notices the other, the two sides stumble upon each other and the encounter can't be avoided.
 
+
 == Attitude
 
 The GM can use the following levels to express the attitude that other characters have towards the Player characters:

@@ -273,6 +273,7 @@
   items:
   - name: clothes
     descr: colourful livery
+  - name: saddle
   followers:
   - name: light horse
     descr: "Bartadan, trained for combat, old and lame: permanent _hobbled_ condition"

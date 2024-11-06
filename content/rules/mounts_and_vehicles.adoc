@@ -2,7 +2,7 @@
 title: Mounts & Vehicles
 weight: 170
 prev: /rules/character_categories
-next: /rules/bestiary
+next: /rules/tips_for_the_gm
 ---
 :toc:
 

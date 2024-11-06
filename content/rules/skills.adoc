@@ -37,7 +37,7 @@ If you fail, the action isn't successful, and you waste the original amount of t
 {{% details title="Example" closed="true" %}}
 
 Sybilla (AGI 10) and Beatrice (AGI 8) want to climb a rocky cliff, which requires passing an AGI save.
-Beatrice, however, has the _climb_ skill, which can reduce the difficulty of climbing.
+Beatrice, however, has the _climb_ skill, which grants proficiency at climbing.
 With this skill, she can succeed automatically, without needing to roll.
 Sybilla doesn't have the skill, so she must make a save.
 

@@ -61,9 +61,12 @@ Examples include: a club with sharp nails, a spear with a tip made of a beast's 
 
 A few skills grant the ability to craft high-quality items of certain types.
 Crafting an item takes a watch and requires a suitable workshop or tools, as indicated in the skill description.
-Raw materials cost ¼ the value of the item.
 No save is required unless trying to create a _master-crafted_ or _robust_ version of the item.
 Consumable items can be crafted in batches of 2.
+
+Raw materials cost ¼ the value of the item.
+If the GM allows, they might sometimes be found in the area.
+This might require some time to search.
 
 
 == Item properties
@@ -133,6 +136,8 @@ include::gen/ref_weapons.adoc[]
 
 include::gen/ref_armour.adoc[]
 
+include::gen/ref_combat_gear.adoc[]
+
 include::gen/ref_artillery.adoc[]
 
 include::gen/ref_vehicles.adoc[]
@@ -147,7 +152,13 @@ include::gen/ref_drugs.adoc[]
 
 include::gen/ref_light_sources.adoc[]
 
+include::gen/ref_academic_gear.adoc[]
+
+include::gen/ref_exploration_gear.adoc[]
+
 include::gen/ref_survival_gear.adoc[]
+
+include::gen/ref_games.adoc[]
 
 include::gen/ref_valuables.adoc[]
 

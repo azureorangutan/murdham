@@ -307,19 +307,109 @@ valuables:
   bulk: 0
   descr: Extremely shiny and valuable.
 
+combat gear:
+- name: bear trap
+  value: 16
+  bulk: 2
+  descr: Placing it or picking it up is a main action, concealing it takes a stretch. Characters stepping on it suffer d6 damage and are _entangled_.
+- name: caltrops
+  value: 16
+  bulk: 1
+  descr: As a main action, can be spread in a nearby zone, which counts as difficult ground. Picking them up takes a stretch.
+- name: net
+  value: 16
+  bulk: 1
+  descr: 'Throw it on an enemy: they are _entangled_.'
+- name: smoke bomb
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Throw it at range 2. All zones within range 1 of the targeted one are covered in thick smoke, blocking visibility until the end of the stretch.
+
+exploration gear:
+- name: chain
+  value: 4
+  bulk: 1
+  descr: 2 metre.
+- name: rope
+  value: 4
+  bulk: 1
+  descr: 4 metre.
+- name: rope ladder
+  value: 4
+  bulk: 2
+  descr: 2 metre. Trivial to climb.
+- name: grappling hook
+  value: 4
+  bulk: 1
+  descr: Use it to throw ropes and such.
+- name: climbing gear
+  value: 16
+  bulk: 2
+  descr: Includes pitons, nails, climbing pickaxes, etc. Can be used to scale sheer surfaces, but an AGI save is usually required.
+- name: crowbar
+  value: 16
+  bulk: 1
+  descr: Spend a stretch and pass a STR save to open a door, chest, etc. Noisy. Can be used as a _simple hand weapon_.
+- name: lock picks
+  value: 16
+  bulk: 1
+  descr: Spend a stretch and pass a WIT save to open a lock.
+
+games:
+- name: cards
+  value: 4
+  bulk: 0
+  descr: WIT contest to win.
+- name: chess set
+  value: 16
+  bulk: 1
+  descr: WIT contest to win.
+- name: dice
+  value: 4
+  bulk: 0
+  descr: Luck-based game.
+- name: marbles
+  value: 4
+  bulk: 0
+  descr: A bunch of tiny glass beads. AGI contest to win games.
+
+academic gear:
+- name: scroll
+  value: 1
+  bulk: 0
+  descr: The price is for a blank scroll.
+- name: power scroll
+  value: 64
+  bulk: 0
+  descr: >
+    A scroll recording a sacred or profane power.
+    The knowledge of how to create them has been lost.
+- name: book
+  value: 16
+  bulk: 1
+  descr: The price is for a blank book.
+- name: grimoire
+  value: 16
+  bulk: 1
+  descr: Can hold up to 4 _power scrolls_, removing the need to swamp them out to invoke their power.
+- name: scroll case
+  value: 4
+  bulk: 1
+  descr: Can hold 2 scrolls, protecting them from water and damage.
+- name: quill & ink
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Enough to write a scroll.
+
 miscellanea:
 - name: animal skin
   value: 4
   bulk: 1
   descr: Skin of a small animal. Multiply cost by 4 and bulk by 2 for each size above small.
-- name: bear trap
-  value: 16
-  bulk: 2
-  descr: Placing it or picking it up is a main action, concealing it takes a stretch. Characters stepping on it suffer d6 damage and are _entangled_.
-- name: book
-  value: 16
-  bulk: 1
-  descr: The price is for a blank book.
 - name: brush & paints
   value: 16
   bulk: 0
@@ -330,64 +420,28 @@ miscellanea:
   value: 16
   bulk: 2
   descr: Can contain a small character.
-- name: caltrops
-  value: 16
-  bulk: 1
-  descr: As a main action, can be spread in a nearby zone, which counts as difficult ground. Picking them up takes a stretch.
 - name: canvas
   value: 16
   bulk: 2
   descr: About 1 metre by 1 metre.
-- name: cards
-  value: 4
-  bulk: 0
-  descr: WIT contest to win.
 - name: censer
   value: 16
   bulk: 2
   descr: Can be used to burn _incense_.
-- name: chain
-  value: 4
-  bulk: 1
-  descr: 2 metre.
 - name: chalk
   value: 1
   bulk: 0
   properties:
   - Consumable
   descr: Enough to write a few markings.
-- name: chess set
-  value: 16
-  bulk: 1
-  descr: WIT contest to win.
-- name: climbing gear
-  value: 16
-  bulk: 2
-  descr: Includes pitons, nails, climbing pickaxes, etc. Can be used to scale sheer surfaces, but an AGI save is usually required.
-- name: crowbar
-  value: 16
-  bulk: 1
-  descr: Spend a stretch and pass a STR save to open a door, chest, etc. Noisy. Can be used as a _simple hand weapon_.
 - name: crutch
   value: 4
   bulk: 1
   descr: _Hobbled_ characters can use it to walk.
-- name: dice
-  value: 4
-  bulk: 0
-  descr: Luck-based game.
 - name: divination tools
   value: 16
   bulk: 2
   descr: Include a crystal ball, tarot cards, divination bones, etc. Used in combination with the _divination_ skill.
-- name: grappling hook
-  value: 4
-  bulk: 1
-  descr: Use it to throw ropes and such.
-- name: grimoire
-  value: 16
-  bulk: 1
-  descr: Can hold up to 4 _power scrolls_, removing the need to swamp them out to invoke their power.
 - name: incense
   value: 4
   bulk: 0
@@ -406,10 +460,6 @@ miscellanea:
   value: 4
   bulk: 1
   descr: Can contain a total bulk of 1.
-- name: lock picks
-  value: 16
-  bulk: 1
-  descr: Spend a stretch and pass a WIT save to open a lock.
 - name: looking glass
   value: 16
   bulk: 1
@@ -422,10 +472,6 @@ miscellanea:
   value: 4
   bulk: 1
   descr: Used to bind someone's hands.
-- name: marbles
-  value: 4
-  bulk: 0
-  descr: A bunch of tiny glass beads. AGI contest to win games.
 - name: metal file
   value: 4
   bulk: 1
@@ -442,10 +488,6 @@ miscellanea:
   value: 4
   bulk: 1
   descr: To muzzle a dog or similarly sized animal.
-- name: net
-  value: 16
-  bulk: 1
-  descr: 'Throw it on an enemy: they are _entangled_.'
 - name: painting
   value: 64
   bulk: 2
@@ -462,32 +504,12 @@ miscellanea:
   properties:
   - Consumable
   descr: Smoke it after failing a save in a situation requiring thinking to repeat the save once. Then pass a WIT save or become _addicted_ to it.
-- name: power scroll
-  value: 64
-  bulk: 0
-  descr: >
-    A scroll recording a sacred or profane power.
-    The knowledge of how to create them has been lost.
 - name: prosthesis
   value: 16
   bulk: 1
   descr: >
     Replaces a lost limb.
     Works as a _crutch_ if it replaces a lost leg.
-- name: quill & ink
-  value: 4
-  bulk: 0
-  properties:
-  - Consumable
-  descr: Enough to write a scroll.
-- name: rope
-  value: 4
-  bulk: 1
-  descr: 4 metre.
-- name: rope ladder
-  value: 4
-  bulk: 2
-  descr: 2 metre. Trivial to climb.
 - name: saddle
   value: 16
   bulk: 2
@@ -496,14 +518,6 @@ miscellanea:
   value: 4
   bulk: 1
   descr: Used to cut precisely.
-- name: scroll
-  value: 1
-  bulk: 0
-  descr: The price is for a blank scroll.
-- name: scroll case
-  value: 4
-  bulk: 1
-  descr: Can hold 2 scrolls, protecting them from water and damage.
 - name: sealing wax
   value: 4
   bulk: 0
@@ -514,12 +528,6 @@ miscellanea:
   value: 16
   bulk: 0
   descr: Proof of identity, used to stamp _sealing wax_.
-- name: smoke bomb
-  value: 16
-  bulk: 0
-  properties:
-  - Consumable
-  descr: Throw it at range 2. All zones within range 1 of the targeted one are covered in thick smoke, blocking visibility until the end of the stretch.
 - name: toolbox
   value: 16
   bulk: 2
