@@ -20,14 +20,6 @@ You can use both hands equally well. Damage is not impaired when you attack with
 Proficient at taming, training, befriending, and in general interacting with animals. Knowledgeable about animal care: feeding, grooming, training, taming, understanding needs...
 
 
-* *Apothecary*.
-You can craft medicinal substances, such as _antidotes_, _cure-alls_, _healing draughts_, _medicine boxes_, and all kinds of drugs and poisons, using _apothecary tools_. Knowledgeable about medicinal ingredients, herbalism...
-
-
-* *Augury*.
-You can spend a stretch to consult the entrails of a dead medium-sized animal to gain an omen. Sometimes, the entrails might additionally provide additional information, at the GM's discretion.
-
-
 * *Bargain*.
 If you have this skill, you purchase items at half price unless the seller also has this skill. You are able to accurately estimate the value of most items by taking a look at them.
 
@@ -72,8 +64,20 @@ Proficient at climbing. > Your attacks aren't impaired while climbing. > You red
 Your joints are extremely flexible and you can bend your body in absurd shapes. You can squeeze through small openings and easily escape bonds.
 
 
-* *Craft*.
-Proficient at repairing items. Knowledgeable about smithing, carpentry, tannery, and other forms of crafting. You can craft non-consumable items, such as weapons, armours, and vehicles.
+* *Craft medicine*.
+You can craft medicinal substances, such as _antidotes_, _cure-alls_, _healing draughts_, _medicine boxes_, and all kinds of drugs, using _apothecary tools_. Knowledgeable about medicinal ingredients, herbalism...
+
+
+* *Craft poison*.
+You can craft all kinds of poisons using _apothecary tools_. Knowledgeable about different types of poisons, their effect, how to neutralise them...
+
+
+* *Crafting*.
+You can craft a number of different non-consumable items equal to half your WIT, and you are proficient at repairing them. You don't have to choose immediately what you can craft: as long as you still have free '`slots`', you can decide on the moment. Keep track of what items you can craft. Knowledgeable about smithing, carpentry, tannery, and other forms of crafting.
+
+
+* *Dark vision*.
+You can see better than most under dim lighting, and you are used to rely on senses other than sight (hearing, smell, touch). This is no supernatural power: you still can't see anything in total darkness! You can see one zone further in areas illuminated by a light source such as a candle or a torch. Your melee attacks always hit even if you can't see the target, as long as you can hear them or detect them otherwise. In general, the GM might let you ignore penalties related to darkness or dim lighting when deemed appropriate.
 
 
 * *Disarm*.
@@ -133,7 +137,7 @@ Proficient at following trails. Knowledgeable about local fauna, how to hunt the
 
 
 * *Incorruptible*.
-You heal 1 corruption on a day rest, and all corruption on a full rest.
+You suffer half the normal amount of corruption. However, you can't voluntarily suffer corruption, for example to invoke profane powers.
 
 
 * *Intimidate*.
@@ -164,6 +168,10 @@ You can use an ancient esoteric technique to erect a magic shield around you. Ac
 You are literate. You can speak Classic. Knowledgeable about human anatomy and physiology, illnesses, and ailments. You can diagnose poison and disease by spending a round examining a patient. After diagnosing, you can instruct someone with the _apothecary_ skill to create a bespoke _antidote_ or _cure-all_ which is guaranteed to work.
 
 
+* *Meditation*.
+You heal 1 corruption on a day rest, and all corruption on a full rest.
+
+
 * *Monster slaying*.
 You inflict double damage against targets of larger size category.
 
@@ -186,6 +194,10 @@ Proficient at playing games. Your cheating attempts are always successful unless
 
 * *Poison resistance*.
 You are resistant to alcohol, poisons, and drugs. You may ignore the first dose taken within a stretch. You can resist a second dose with a STR save, and a third dose works automatically.
+
+
+* *Political lore*.
+You are literate. You can speak Classic. Knowledgeable in laws, politics, structures of power...
 
 
 * *Protect*.

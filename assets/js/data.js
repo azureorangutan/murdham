@@ -1,11 +1,11 @@
-export const backgrounds = [
+export const careers = [
   {
     masculine_name: "Acrobat",
     feminine_name: "Acrobat",
-    description: "You earned your fare performing spectacular and dangerous acrobatic feats.",
+    description: "You used to earn your fare by performing spectacular and dangerous acrobatic feats.",
     skills: [
       "acrobatics",
-      "contortionist",
+      "climb",
     ],
     mana: 0,
     items: [
@@ -24,8 +24,8 @@ export const backgrounds = [
     feminine_name: "Agitator",
     description: "You know how to incite the people with fervent speeches. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money.",
     skills: [
-      "charm",
-      "quick draw",
+      "fleet footed",
+      "leadership",
     ],
     mana: 0,
     items: [
@@ -40,11 +40,32 @@ export const backgrounds = [
     money: 0,
   },
   {
+    masculine_name: "Apothecary",
+    feminine_name: "Apothecary",
+    description: "You are a master at mixing miraculous ointments and potent poisons.",
+    skills: [
+      "craft medicine",
+      "craft poison",
+    ],
+    mana: 0,
+    items: [
+      "clothes (spotless white apron and bags to carry ingredients)",
+      "apothecary tools",
+      "medicinal herbs",
+      "dream sand",
+    ],
+    followers: [
+    ],
+    sacred_scrolls: 0,
+    profane_scrolls: 0,
+    money: 0,
+  },
+  {
     masculine_name: "Artisan",
     feminine_name: "Artisan",
     description: "You know how to keep equipment in good order: nothing is more dangerous than a blunt sword or a cracked shield.",
     skills: [
-      "craft",
+      "crafting",
       "piercing strike",
     ],
     mana: 0,
@@ -61,7 +82,7 @@ export const backgrounds = [
   {
     masculine_name: "Assassin",
     feminine_name: "Assassin",
-    description: "For the right amount of coins, everyone can be taken care of.",
+    description: "For the right amount of coins, you can get rid of anyone.",
     skills: [
       "sneak attack",
       "stealth",
@@ -89,7 +110,7 @@ export const backgrounds = [
     mana: 0,
     items: [
       "clothes (bloodstained apron)",
-      "surgery tools",
+      "surgical tools",
     ],
     followers: [
     ],
@@ -178,16 +199,16 @@ export const backgrounds = [
   {
     masculine_name: "Bone Picker",
     feminine_name: "Bone Picker",
-    description: "one person's rubbish is another person's treasure: you scour the roads, graves, and gutters looking for something valuable to sell for a few pennies.",
+    description: "One person's rubbish is another person's treasure: you scour the roads, graves, and gutters looking for something valuable to sell for a few pennies.",
     skills: [
       "frugal",
       "quick draw",
     ],
     mana: 0,
     items: [
-      "clothes (mismatched clothes scavenged from the road)",
-      "simple hand weapon (femurfragile)",
-      "bag of dung",
+      "clothes (mismatched clothes scavenged from various dumpsites)",
+      "simple hand weapon (femur, <i>fragile</i>)",
+      "junk (bag of dung)",
       "crutch",
     ],
     followers: [
@@ -279,10 +300,10 @@ export const backgrounds = [
   {
     masculine_name: "Coach Driver",
     feminine_name: "Coach Driver",
-    description: "You worked for a coaching company, driving stage coaches through the dangerous roads of the Kingdom and protecting them with your trusty blunderbuss.",
+    description: "You worked for a coaching company, driving stagecoaches through the dangerous roads of the Kingdom and protecting them with your trusty blunderbuss.",
     skills: [
       "drive carts",
-      "ride",
+      "steady aim",
     ],
     mana: 0,
     items: [
@@ -337,7 +358,7 @@ export const backgrounds = [
   {
     masculine_name: "Fire Eater",
     feminine_name: "Fire Eater",
-    description: "You were a performer at a travelling carnival, executing a vast array of exciting tricks.",
+    description: "You were a performer at a travelling carnival, executing a vast array of exciting tricks with fire.",
     skills: [
       "contortionist",
       "fire eating",
@@ -345,7 +366,7 @@ export const backgrounds = [
     mana: 0,
     items: [
       "clothes (bare chested, lest your shirt catches fire)",
-      "missile hand weapon (throwing knivesyou like to juggle with them)",
+      "missile hand weapon (throwing knives, you like to juggle with them)",
       "alcoholic drink",
       "torch",
     ],
@@ -358,7 +379,7 @@ export const backgrounds = [
   {
     masculine_name: "Footpad",
     feminine_name: "Footpad",
-    description: "You have spent years mugging unaware victims in shady alleys and dark forest roads, occasionally killing for money.",
+    description: "You have spent years mugging unaware victims in shady alleys and dark forest roads, and occasionally killing for money.",
     skills: [
       "sneak attack",
       "strike to stun",
@@ -366,7 +387,7 @@ export const backgrounds = [
     mana: 0,
     items: [
       "clothes (scarf to cover your face)",
-      "simple hand weapon (cudgelideal to knock people out)",
+      "simple hand weapon (cudgel, ideal to knock people out)",
       "garrotte",
     ],
     followers: [
@@ -388,45 +409,6 @@ export const backgrounds = [
       "clothes (large pockets)",
       "cards (marked)",
       "dice (loaded)",
-    ],
-    followers: [
-    ],
-    sacred_scrolls: 0,
-    profane_scrolls: 0,
-    money: 0,
-  },
-  {
-    masculine_name: "Hedge Wizard",
-    feminine_name: "Hedge Witch",
-    description: "You were blessed with great power, but never received the education necessary to fully control it.",
-    skills: [
-      "augury",
-      "sorcery",
-    ],
-    mana: 0,
-    items: [
-      "clothes (covered in bones, charms, and trinkets)",
-      "lucky charm (rabbit foot)",
-    ],
-    followers: [
-    ],
-    sacred_scrolls: 0,
-    profane_scrolls: 1,
-    money: 0,
-  },
-  {
-    masculine_name: "Herbalist",
-    feminine_name: "Herbalist",
-    description: "You were a village healer, curing ailments with plants and natural remedies.",
-    skills: [
-      "apothecary",
-      "heal",
-    ],
-    mana: 0,
-    items: [
-      "clothes (many bags to carry herbs)",
-      "apothecary tools",
-      "medicine box",
     ],
     followers: [
     ],
@@ -464,7 +446,7 @@ export const backgrounds = [
     mana: 0,
     items: [
       "clothes (colourful, with a bell hat)",
-      "simple hand weapon (stick with bellsjingles cheerfully when it hits someone)",
+      "simple hand weapon (stick with bells, jingles cheerfully when it strikes)",
       "smoke bomb",
     ],
     followers: [
@@ -513,12 +495,32 @@ export const backgrounds = [
     money: 0,
   },
   {
+    masculine_name: "Lawyer",
+    feminine_name: "Lawyer",
+    description: "Nobody is above the law, but you can help those with enough money wiggle through its many loopholes.",
+    skills: [
+      "gossip",
+      "political lore",
+    ],
+    mana: 0,
+    items: [
+      "clothes (court attire)",
+      "book (Laws of the Kingdom)",
+      "ration (cooked capon, payment received from a customer)",
+    ],
+    followers: [
+    ],
+    sacred_scrolls: 0,
+    profane_scrolls: 0,
+    money: 0,
+  },
+  {
     masculine_name: "Messenger",
     feminine_name: "Messenger",
     description: "Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner.",
     skills: [
-      "languages",
       "fleet footed",
+      "ride",
     ],
     mana: 0,
     items: [
@@ -535,9 +537,9 @@ export const backgrounds = [
   {
     masculine_name: "Miner",
     feminine_name: "Miner",
-    description: "Crawling through dark, cramped tunnels breathing dust was not the life you deserve.",
+    description: "Crawling through dark, cramped tunnels, breaking rocks and breathing dust, wasn't the life you deserve.",
     skills: [
-      "climb",
+      "dark vision",
       "piercing strike",
     ],
     mana: 0,
@@ -617,7 +619,7 @@ export const backgrounds = [
     description: "You made a small fortune transporting and trading exotic goods, but you lost everything because of a bad business decision.",
     skills: [
       "bargain",
-      "gossip",
+      "languages",
     ],
     mana: 0,
     items: [
@@ -635,17 +637,16 @@ export const backgrounds = [
   {
     masculine_name: "Physician",
     feminine_name: "Physician",
-    description: "You are an erudite doctor, knowledgeable about poison, disease, antidotes, and cures.",
+    description: "You are an erudite doctor, knowledgeable about poison, disease, surgery, and healing.",
     skills: [
-      "apothecary",
+      "heal",
       "medicine",
     ],
     mana: 0,
     items: [
       "clothes (spotless black coat)",
-      "antidote",
       "cure-all",
-      "dream sand",
+      "medicine box",
     ],
     followers: [
     ],
@@ -678,8 +679,8 @@ export const backgrounds = [
     feminine_name: "Priestess",
     description: "Yours is the burden to teach and guide people so that they don't succumb to the lure of darkness.",
     skills: [
-      "incorruptible",
       "faith",
+      "incorruptible",
     ],
     mana: 0,
     items: [
@@ -695,7 +696,7 @@ export const backgrounds = [
   {
     masculine_name: "Raconteur",
     feminine_name: "Raconteur",
-    description: "You have travelled far and wide across the kingdom, singing songs and act out enthralling stories.",
+    description: "You have travelled far and wide across the kingdom, singing songs and acting out enthralling stories.",
     skills: [
       "acting",
       "music",
@@ -714,7 +715,7 @@ export const backgrounds = [
   {
     masculine_name: "Rat Catcher",
     feminine_name: "Rat Catcher",
-    description: "Rats are everywhere and nobody likes them. You offer your services to get rid of them, but you swear they are getting bigger and nastier by the day...",
+    description: "Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting bigger and nastier by the day...",
     skills: [
       "disease resistance",
       "poison resistance",
@@ -814,8 +815,8 @@ export const backgrounds = [
     feminine_name: "Soothsayer",
     description: "You are cursed with the ability to see what others can't, and have witnessed the end of the world.",
     skills: [
-      "augury",
       "divination",
+      "lucky",
     ],
     mana: 0,
     items: [
@@ -831,7 +832,7 @@ export const backgrounds = [
   {
     masculine_name: "Thug",
     feminine_name: "Thug",
-    description: "A sturdy club is the best messenger, you always say.",
+    description: "A sturdy club is the best way to send a strong message, as you like to say.",
     skills: [
       "brawling",
       "intimidate",
@@ -914,7 +915,7 @@ export const backgrounds = [
     feminine_name: "Witch",
     description: "You are a secretive scholar of the esoteric arts: many fear you, and with good reason.",
     skills: [
-      "magic shield",
+      "meditation",
       "sorcery",
     ],
     mana: 0,

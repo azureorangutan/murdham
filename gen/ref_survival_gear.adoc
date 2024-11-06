@@ -1,0 +1,29 @@
+== Survival gear
+
+* *Ration* (4ʂ, bulk ½).
+_Consumable_.
+Enough food for a day rest.
+
+* *Water* (1ʂ, bulk ½).
+_Consumable_.
+Enough for a day rest.
+
+* *Alcoholic drink* (4ʂ, bulk ½).
+_Consumable_.
+Recover 1 health, but not if you are _dying_. Pass a STR save or become _confused_ until the end of the stretch. Automatically fail if you drink 2 within a stretch.
+
+* *Camping kit* (16ʂ, bulk 2).
+Includes a bedroll, blankets, and tent space for one person. Necessary to sleep in the wilderness.
+
+* *Field kitchen* (16ʂ, bulk 2).
+Includes pots, pans, kitchen utensils, etc. Food you gather by foraging is doubled and doesn't go bad.
+
+* *Fishing tools* (16ʂ, bulk 2).
+Obtain a _ration_ on a _fish_ result while foraging.
+
+* *Trapping tools* (26ʂ, bulk 2).
+Obtain a _ration_ on a _small game_ result while foraging.
+
+* *Navigation tools* (16ʂ, bulk 2).
+Include maps, compass, etc. Pass a WIT save to ignore the movement penalty when travelling between sectors or regions without following a path.
+

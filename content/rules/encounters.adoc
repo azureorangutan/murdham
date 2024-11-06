@@ -46,7 +46,7 @@ Perform a friendly activity (do a favour, give a present, buy some drinks, etc.)
 In case a big favour is made, the save is not required.
 
 * *Inspire*.
-Appeal to someone's emotions or provide them with incentives (payments, favours, etc.) and pass a WIT save to convince them to do something.
+Appeal to someone's emotions and pass a WIT save to convince them to do something.
 If the inspiration attempt is particularly effective or the incentives are very generous, the save is not required.
 
 * *Persuade*.
@@ -77,6 +77,13 @@ Taunting someone in combat is a main action, and if successful, the target can o
 * *Torture*.
 Torturing an imprisoned character takes a stretch of time and inflicts d6 direct damage.
 The target, if still alive and conscious, must pass a WIT save or give up and talk.
+
+
+== Performing
+
+It is possible to attempt to befriend, inspire, distract, and sometimes taunt people using performative arts, such as acting, playing music, performing acrobatic tricks...
+Doing so typically requires a suitable skill.
+
 
 == Stealing
 

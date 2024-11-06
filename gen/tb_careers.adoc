@@ -1,5 +1,5 @@
-.backgrounds
-[[tb_backgrounds]]
+.careers
+[[tb_careers]]
 [options='header, unbreakable', cols="^1h,^3,^3,^3,^3"]
 |===
 h|  4+h|D4
@@ -8,36 +8,36 @@ h|D12
 |1
 |Acrobat
 |Agitator
+|Apothecary
 |Artisan
-|Assassin
 |2
+|Assassin
 |Barber-surgeon
 |Beggar
 |Berserker
-|Boatman
 |3
+|Boatman
 |Bodyguard
 |Bone picker
 |Bounty hunter
-|Brawler
 |4
+|Brawler
 |Burglar
 |Charlatan
 |Coach driver
-|Cutpurse
 |5
+|Cutpurse
 |Duellist
 |Fire eater
 |Footpad
-|Gambler
 |6
-|Hedge wizard
-|Herbalist
+|Gambler
 |Hunter
 |Jester
-|7
 |Knight
+|7
 |Labourer
+|Lawyer
 |Messenger
 |Miner
 |8

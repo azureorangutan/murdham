@@ -4,6 +4,10 @@
 Addicted to a specific substance. On a day rest, they must consume it or temporarily reduce WIT by 1. On a full rest, they must consume 4 units of it or temporarily reduce WIT by 1 for each missing unit.
 
 
+* *Corrupting*.
+Anyone touched by it suffers the indicated amount of corruption. This includes targets of melee attacks, unless they successfully dodge.
+
+
 * *Fast*.
 Moves at double speed.
 
@@ -36,12 +40,24 @@ Can fly. Can't attack and can't stay still while flying.
 Has the mutations listed after the trait. See the Corruption chapter for more information.
 
 
+* *Permanent condition*.
+Permanently applies the effects of the listed condition.
+
+
+* *Power*.
+Can invoke the listed power once per watch, with the listed amount of EP. The power always works and doesn't inflict corruption.
+
+
 * *Regeneration*.
 Recovers half the amount of lost health each round, at the start of their turn. Fire prevents this.
 
 
 * *Slow*.
 Moves at half speed.
+
+
+* *Split*.
+When it suffers critical damage, it splits into two copies of itself, each with health equal to the remaining amount and STR to match.
 
 
 * *Sturdy*.

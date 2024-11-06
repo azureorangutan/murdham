@@ -1,0 +1,11 @@
+== Valuables
+
+* *Silver jewel* (4ʂ, bulk ½).
+Shiny and valuable.
+
+* *Gold jewel* (64ʂ, bulk ½).
+Very shiny and valuable.
+
+* *Gemstone* (1024ʂ, bulk ½).
+Extremely shiny and valuable.
+

@@ -1,9 +1,9 @@
 ---
-title: Backgrounds
+title: Careers
 weight: 20
 prev: /rules/abilities
 next: /rules/skills
 ---
 :toc:
 
-include::gen/ref_backgrounds.adoc[]
+include::gen/ref_careers.adoc[]

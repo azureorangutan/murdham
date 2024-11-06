@@ -21,9 +21,17 @@ If trained, they might be able to obey simple orders and perform specific tasks,
 Animals will avoid combat and other dangerous situations unless they are natural predators or have been trained to fight.
 
 
+== Controlling followers
+
+Players control followers as their own character, assuming they are giving them orders.
+The GM however ultimately decides if and how they do what they are asked.
+Followers will always refuse to do something clearly harmful to themselves.
+In situations where their loyalty is put into question, the character who is leading them must pass a WIT save to keep their allegiance.
+
+
 == Training animals
 
-Once per full rest, it is possible to train a domesticated animal in one of the following ways.
+Characters can train a domesticated animal as a full rest activity.
 The trainer must pass a WIT save, otherwise the training is not successful and the trainer is hurt and suffers an injury after the rest.
 
 * *Fight*.
@@ -46,20 +54,13 @@ Before being trained to do anything else, wild animals must be tamed, which coun
 == Befriending animals
 
 It is possible to befriend a domesticated animal by offering some food and passing a WIT save.
+On a fail, the animal might run away or turn hostile.
 A befriended animal follows the character for a watch or until they move too far from their territory.
 It is possible to be accompanied by a single befriended animal at a time.
 Befriending a wild animal is impossible unless the character is proficient.
 
 
-== Controlling followers
-
-Players control followers as their own character, assuming they are giving them orders.
-The GM however ultimately decides if and how they do what they are asked.
-Followers will always refuse to do something clearly harmful to themselves.
-In situations where their loyalty is put into question, the character who is leading them must pass a WIT save to keep their allegiance.
-
-
-== Cost of followers
+== Follower list
 
 * *Animal* (*).
 Check the link:../bestiary[Bestiary] section for profiles and values in shillings.

@@ -1,40 +1,34 @@
-== Demons
-
-* *Agruwalsongor the Bloodletter* +
+*The Bloodletter* +
 A large horned man brandishing a giant sword, his skin constantly exuding fresh blood. Collects the skulls of slain mortals. +
 *STR* 16, *AGI* 4, *WIT* 8 +
-_Medium demon_, human intelligence. +
+_Medium demon_, _human intelligence_. +
+*Items*: martial great weapon (demonic greatsword). +
 *Skills*: _skilled blow_, _brawling_. +
-*Traits*: _frightening_. +
-*Frenzy*. Constantly _frenzied_, wants to kill all creatures with no exception. +
-*Items*: martial great weapon (demonic greatsword).
+*Traits*: _frightening_, _permanent condition (frenzied)_.
 
-* *Vlashmandarka the Corrupter* +
+*The Corrupter* +
 Takes the form of the most attractive creature which the observer can possibly imagine. Wants to corrupt the pure. +
 *STR* 8, *AGI* 8, *WIT* 12 +
-_Medium demon_, human intelligence. +
+_Medium demon_, _human intelligence_. +
+*Natural weapon*: barbed tongue-whip (d4, grab). +
 *Skills*: _charm_. +
-*Powers*. Can invoke _bewitch_ once per watch with 4 enhancement points. +
-*Barbed tongue-whip*. d4, grab.
+*Traits*: _power (bewitch -- 4 EP)_.
 
-* *Pancratius Pinkflame the Horror* +
+*The Horror* +
 A mess of flesh and bones, shifting in shape and bright colours. Sees mortals as clay to be mould. +
 *STR* 8, *AGI* 12, *WIT* 8 +
-_Medium demon_, human intelligence. +
+_Medium demon_, _human intelligence_. +
+*Natural weapon*: claws (d6). +
+*Natural weapon*: eldritch fire (d6, range 8). +
 *Skills*: _dodge blows_. +
-*Traits*: _frightening_. +
-*Corrupting touch*. Anyone touched by it suffers 2 corruption. This includes targets of melee attacks, unless they successfully dodge. +
-*Split*. When it suffers critical damage, it splits into two copies of itself, each with health equal to the remaining amount and STR to match. +
-*Claws*. d6. +
-*Eldritch fire*. d6, range 8.
+*Traits*: _corrupting (2)_, _frightening_, _split_.
 
-* *Kreftelgor the Plague Brewer* +
+*The Plague Brewer* +
 A skull-faced man with horribly bloated skin, covered in pustules and boils. Creates new diseases and experiments on humans. +
 *STR* 8, *AGI* 4, *WIT* 8 +
-_Medium demon_, human intelligence. +
-*Skills*: _apothecary_. +
-*Traits*: _frightening_. +
-*Disease vials*. Carries d4 vials holding various diseases. They can be thrown at range 2 or be used to coat weapons or taint items and surfaces. +
-*Bloated flesh*. Armor value 1. +
-*Items*: clothes (filthy hooded cloak), simple hand weapon (rusty dagger).
+_Medium demon_, _human intelligence_. +
+*Items*: clothes (filthy hooded cloak), simple hand weapon (rusty dagger), disease vial (black gangrene), disease vial (greater rot). +
+*Natural armour*: bloated flesh (1). +
+*Skills*: _craft medicine_, _craft poison_. +
+*Traits*: _frightening_.
 

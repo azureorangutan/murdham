@@ -2,7 +2,7 @@
 title: Abilities
 weight: 15
 prev: /rules/character_creation
-next: /rules/backgrounds
+next: /rules/careers
 ---
 :toc:
 

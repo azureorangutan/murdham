@@ -1,0 +1,18 @@
+== Drugs
+
+* *Corpse mandrake* (16ʂ, bulk ½).
+_Consumable_.
+Pass a STR save or become numb to pain until the end of the watch: you can't be _incapacitated_ by critical damage. Automatically fail if you take 2 within a stretch. After the effect wears off, suffer d4 direct damage, and pass a WIT save or become _addicted_.
+
+* *Crimson weed* (16ʂ, bulk ½).
+_Consumable_.
+Pass a STR save or temporarily increase all abilities by 2. Automatically fail if you take 2 within a stretch. At the end of the watch, temporarily reduce all abilities by 4, and pass a WIT save or become _addicted_.
+
+* *Darkroot* (16ʂ, bulk ½).
+_Consumable_.
+Pass a STR save or be _confused_ until the end of the watch, as pleasant hallucinations overwhelm you. Automatically fail if you take 2 within a stretch. After the effect wears off, pass a WIT save or become _addicted_.
+
+* *Madcap mushroom* (16ʂ, bulk ½).
+_Consumable_.
+Pass a STR save or become _frenzied_ until the end of the stretch. Automatically fail if you take 2 within a stretch. After the effect wears off, pass a WIT save or become _addicted_.
+

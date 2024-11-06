@@ -12,7 +12,7 @@ Kins besides humans form their own communities and are a rare sight within the K
 
 The profiles show the average ability scores, which can vary just like for human characters.
 The minimum score is the given one minus 3 (minimum 1), and the maximum score is the given one plus 7 (maximum 19).
-No skills or assets are shown, as those depend on the character's background and occupation.
+No skills or assets are shown, as those depend on the character's career and occupation.
 
 include::gen/ref_folks.adoc[]
 

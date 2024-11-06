@@ -69,3 +69,15 @@ Characters can spend a week in a settlement to take a full rest.
 It costs 64ʂ to pay for lodging, healing, and entertainment.
 They recover health and mana to the maximum, restore omens to the maximum, remove all conditions, and restore temporarily modified abilities to their original score.
 A full rest is the best way to get rid of long-lasting penalties due to injuries (ability reductions and negative conditions).
+
+
+== Rest activities
+
+While taking a full rest, a character can perform a single rest activity.
+Possible rest activities are:
+
+* Any action taking a watch to resolve (trading in a settlement, crafting an item, gathering rumours...).
+
+* Training animals (see the link:../followers[Followers] chapter).
+
+Activities taking less than a watch can be performed freely during a full rest, within reason.
