@@ -1,7 +1,7 @@
 ---
 title: Bestiary
-weight: 200
-prev: /rules/tips_for_the_gm
+weight: 180
+prev: /rules/mounts_and_vehicles
 ---
 :toc:
 
