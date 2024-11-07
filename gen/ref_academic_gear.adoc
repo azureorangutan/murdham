@@ -1,0 +1,22 @@
+== Academic gear
+
+* *Scroll* (1ʂ, bulk ½).
+The price is for a blank scroll.
+
+* *Power scroll* (64ʂ, bulk ½).
+A scroll recording a sacred or profane power. The knowledge of how to create them has been lost.
+
+
+* *Book* (16ʂ).
+The price is for a blank book.
+
+* *Grimoire* (16ʂ).
+Can hold up to 4 _power scrolls_, removing the need to swamp them out to invoke their power.
+
+* *Scroll case* (4ʂ).
+Can hold 2 scrolls, protecting them from water and damage.
+
+* *Quill & ink* (4ʂ, bulk ½).
+_Consumable_.
+Enough to write a scroll.
+

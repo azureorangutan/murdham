@@ -140,7 +140,7 @@ You have spent your life making a fool of yourself to entertain the nobles, but 
 
 With your honour lost, and no coin left to your name, you wander on your steed, selling your sword for money. +
 *Skills*: _ride_, _skilled blow_. +
-*Items*: clothes (colourful livery). +
+*Items*: clothes (colourful livery), saddle. +
 *Followers*: light horse (Bartadan, trained for combat, old and lame: permanent _hobbled_ condition).
 
 == Labourer

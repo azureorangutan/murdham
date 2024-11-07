@@ -33,7 +33,7 @@ bravery: >
   You are immune to fear and treat terror as fear.
 brawling: >
   Your unarmed attacks are not impaired and inflict d6 damage.
-  You have an innate armour value of 1 against unarmed attacks.
+  You have an innate armour value of 1 against unarmed attacks, however you lose this advantage if you wear armour.
 burglary: >
   Proficient at picking and forcing locks.
   You can react to all traps you trigger, even if you weren't aware of them.

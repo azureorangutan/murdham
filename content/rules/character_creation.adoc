@@ -72,7 +72,7 @@ This grants him the _cleave_ and _skilled blow_ skills.
 
 4. He notes down his secondary properties: health is 6 (equal to STR), corruption is 0, omens are 2, mana is 0, and armour value is 0.
 
-5. He finally describes and name his character.
+5. He finally describes and names his character.
 
 {{% /details %}}
 ++++

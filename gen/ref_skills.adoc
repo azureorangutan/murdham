@@ -37,7 +37,7 @@ You are immune to fear and treat terror as fear.
 
 
 * *Brawling*.
-Your unarmed attacks are not impaired and inflict d6 damage. You have an innate armour value of 1 against unarmed attacks.
+Your unarmed attacks are not impaired and inflict d6 damage. You have an innate armour value of 1 against unarmed attacks, however you lose this advantage if you wear armour.
 
 
 * *Burglary*.
