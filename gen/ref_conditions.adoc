@@ -12,10 +12,6 @@ You suffer d4 direct damage at the end of each stretch. You recover as soon as y
 You can't see. You can't notice anything by sight alone, your melee attacks require passing a WIT save to hit, and you can't use ranged attacks.
 
 
-* *Confused*.
-You are not fully in control of your body and mind. Your attacks inflict impaired damage and your abilities are temporarily reduced by 2. When you recover from this condition, your abilities are increased back by 2. If you become _confused_ again while you already are, you become _incapacitated_ instead.
-
-
 * *Deaf*.
 You can't hear. You can't notice anything based on sound alone, and you might have trouble communicating with others or noticing ambushes.
 
@@ -42,6 +38,10 @@ You can't retreat or stop fighting, and you can only spend your turn to attack, 
 
 * *Frightened*.
 Something scares you. You can't approach the source of your fear.
+
+
+* *Groggy*.
+You are dazed, weak, or unsteady from intoxication or sleep. Your attacks inflict impaired damage and your abilities are temporarily reduced by 2. When you recover from this condition, your abilities are increased back by 2. If you become _groggy_ again while you already are, you become _incapacitated_ instead.
 
 
 * *Hobbled*.

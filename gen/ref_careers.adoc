@@ -6,14 +6,14 @@ You used to earn your fare by performing spectacular and dangerous acrobatic fea
 
 == Agitator
 
-You know how to incite the people with fervent speeches. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money. +
+You know how to incite the people with fervent speeches, and how to quickly run away from city guard patrols. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money. +
 *Skills*: _fleet footed_, _leadership_. +
 *Items*: alchemist's fire, clothes (working class attire), scroll (pamphlet denouncing the Emperor, or at least they told you so: you can't read after all).
 
 == Apothecary
 
 You are a master at mixing miraculous ointments and potent poisons. +
-*Skills*: _craft medicine_, _craft poison_. +
+*Skills*: _apothecary_, _poisons_. +
 *Items*: apothecary tools, clothes (spotless white apron and bags to carry ingredients), dream sand, medicinal herbs.
 
 == Artisan
@@ -24,7 +24,7 @@ You know how to keep equipment in good order: nothing is more dangerous than a b
 
 == Assassin
 
-For the right amount of coins, you can get rid of anyone. +
+For the right amount of coins, you can discreetly get rid of anyone. +
 *Skills*: _sneak attack_, _stealth_. +
 *Items*: black adder venom, clothes (dark cloak), missile hand weapon (hand crossbow).
 
@@ -34,17 +34,24 @@ A sharp razor and a steady hand are required for both a clean shave and delicate
 *Skills*: _heal_, _strike to injure_. +
 *Items*: clothes (bloodstained apron), surgical tools.
 
+== Beast tamer
+
+There is no beast you can't break and train to obedience. +
+*Skills*: _animal handling_, _dodge blows_. +
+*Items*: clothes (numerous claw marks), simple hand weapon (bullwhip). +
+*Followers*: wolf (Lucius, bites anyone else approaching too close).
+
 == Beggar
 
-You spent your days sitting in the corner of busy roads, hoping for a few shillings from generous passers-by. +
+You used to spend your days sitting in the corner of busy roads, hoping to receive a few shillings from generous passers-by. +
 *Skills*: _disease resistance_, _frugal_. +
-*Items*: alcoholic drink, clothes (dirty, stinky rags), crutch.
+*Items*: alcoholic drink, clothes (dirty, stinky rags), crutch (sometime it pays to pretend you are lame).
 
 == Berserker
 
 You are a savage, bloodthirsty warrior, barely able to control your bloodlust. +
 *Skills*: _battle frenzy_, _cleave_. +
-*Items*: clothes (blood-splattered furs decorated with the skulls of your foes), martial great weapon (glaive).
+*Items*: clothes (blood-splattered hides and furs decorated with the skulls of your foes), martial great weapon (glaive).
 
 == Boatman
 
@@ -56,23 +63,23 @@ You have ferried passengers and smuggled goods along the many rivers flowing acr
 
 You worked for the rich and powerful, protecting them from robbers and other scum. +
 *Skills*: _protect_, _shield mastery_. +
-*Items*: clothes (enhancing your muscles), medicine box, shield.
+*Items*: clothes (marked with the insignia of your last employer), shield.
 
 == Bone picker
 
 One person's rubbish is another person's treasure: you scour the roads, graves, and gutters looking for something valuable to sell for a few pennies. +
 *Skills*: _frugal_, _quick draw_. +
-*Items*: clothes (mismatched clothes scavenged from various dumpsites), crutch, junk (bag of dung), simple hand weapon (femur, _fragile_).
+*Items*: clothes (mismatched, scavenged from various dumpsites), crutch, junk (bag of dung), simple hand weapon (femur, _fragile_).
 
 == Bounty hunter
 
-You used to roam the cities and the countryside, capturing wanted criminals to collect the bounties on their head. +
+You used to roam the cities and the countryside, capturing wanted criminals and fugitive outlaws to collect the bounty on their head. +
 *Skills*: _disarm_, _strike to stun_. +
 *Items*: clothes (large coat and wide-brimmed hat), manacles & key, net.
 
 == Brawler
 
-Your fists are your weapon and your arms can bend iron: nobody is stronger than you! +
+Your fists are deadly weapons: nobody is stronger than you! +
 *Skills*: _brawling_, _wrestling_. +
 *Items*: alcoholic drink, chain, clothes (hand wraps to protect your knuckles).
 
@@ -80,11 +87,11 @@ Your fists are your weapon and your arms can bend iron: nobody is stronger than 
 
 There is no lock you can't open and no safe you can't crack. +
 *Skills*: _burglary_, _pack rat_. +
-*Items*: clothes (comfortable and with generous pockets), lock picks, metal file.
+*Items*: clothes (comfortable and with generous pockets), lock picks.
 
 == Charlatan
 
-You are a cunning liar, able to convince people of almost anything. +
+You are a cunning liar, fooling people to steal their money. +
 *Skills*: _blather_, _charm_. +
 *Items*: clothes (fake city watch uniform, won't stand scrutiny), scroll (filled with scribbled nonsense), silver jewel (fake necklace).
 
@@ -110,7 +117,7 @@ You are a skilled duellist, constantly looking for a worthy opponent to hone you
 
 You were a performer at a travelling carnival, executing a vast array of exciting tricks with fire. +
 *Skills*: _contortionist_, _fire eating_. +
-*Items*: alcoholic drink, clothes (bare chested, lest your shirt catches fire), missile hand weapon (throwing knives, you like to juggle with them), torch.
+*Items*: 2× alcoholic drink, clothes (bare chested, lest your shirt catches fire), flint & tinder, torch.
 
 == Footpad
 
@@ -122,7 +129,7 @@ You have spent years mugging unaware victims in shady alleys and dark forest roa
 
 Luck come and goes at the gaming table, but it has never abandoned you, not with the help of a few clever tricks. +
 *Skills*: _lucky_, _play games_. +
-*Items*: cards (marked), clothes (large pockets), dice (loaded).
+*Items*: cards (marked), clothes (large, comfortable sleeves), dice (loaded).
 
 == Hunter
 
@@ -134,11 +141,11 @@ When you hunt in the dark forests of the Kingdom, you sometimes wonder if you re
 
 You have spent your life making a fool of yourself to entertain the nobles, but you will have the last laugh! +
 *Skills*: _acrobatics_, _blather_. +
-*Items*: clothes (colourful, with a bell hat), simple hand weapon (stick with bells, jingles cheerfully when it strikes), smoke bomb.
+*Items*: clothes (colourful, with a bell hat), dark lotus, simple hand weapon (stick with bells, jingles cheerfully when it strikes).
 
 == Knight
 
-With your honour lost, and no coin left to your name, you wander on your steed, selling your sword for money. +
+With your honour lost and no coin left to your name, you wander on your steed, selling your sword for money. +
 *Skills*: _ride_, _skilled blow_. +
 *Items*: clothes (colourful livery), saddle. +
 *Followers*: light horse (Bartadan, trained for combat, old and lame: permanent _hobbled_ condition).
@@ -152,8 +159,8 @@ Your bones and muscles have been hardened by years of toiling under sun and rain
 == Lawyer
 
 Nobody is above the law, but you can help those with enough money wiggle through its many loopholes. +
-*Skills*: _gossip_, _political lore_. +
-*Items*: book (Laws of the Kingdom), clothes (court attire), ration (cooked capon, payment received from a customer).
+*Skills*: _charm_, _political lore_. +
+*Items*: book (Laws of the Kingdom), clothes (court attire), 2× ration (cooked capon, payment received from a customer).
 
 == Messenger
 
@@ -182,7 +189,7 @@ The hills and woods are teeming with people escaping the law, such as yourself. 
 == Peasant
 
 Your life was simple: growing crops and tending to livestock, trying to put enough food on the table to survive another winter. +
-*Skills*: _animal handling_, _tough_. +
+*Skills*: _farming_, _gossip_. +
 *Items*: clothes (stinking of manure). +
 *Followers*: chicken (Bertha, dumb and brave), pig (Hans, picky about food).
 
@@ -201,7 +208,7 @@ You are an erudite doctor, knowledgeable about poison, disease, surgery, and hea
 == Pit fighter
 
 You have fought for money in illegal arenas and as a judicial champion for hire. +
-*Skills*: _dodge blows_, _fast strike_. +
+*Skills*: _fast strike_, _wrestling_. +
 *Items*: clothes (torn, dusty, and covered in old blood), martial hand weapon (Spear), missile hand weapon (javelins).
 
 == Priest
@@ -218,7 +225,7 @@ You have travelled far and wide across the kingdom, singing songs and acting out
 
 == Rat catcher
 
-Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting bigger and nastier by the day... +
+Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting larger and nastier by the day. +
 *Skills*: _disease resistance_, _poison resistance_. +
 *Items*: clothes (partly made of rat fur), trapping tools. +
 *Followers*: small dog (Brutus, trained to hunt rats, small but vicious).
@@ -264,12 +271,6 @@ A sturdy club is the best way to send a strong message, as you like to say. +
 Precious treasures are buried in ancient crypts and old tombs: their previous owners aren't going to miss them. +
 *Skills*: _burglary_, _climb_. +
 *Items*: clothes (capacious rucksack to store the loot), crowbar, rope.
-
-== Townsman
-
-Townsfolk such as yourself are the backbone of the Kingdom: shop owners, traders, local officials... +
-*Skills*: _bargain_, _gossip_. +
-*Items*: candle, clothes (fashionable but practical), pipe & tobacco.
 
 == Witch hunter
 

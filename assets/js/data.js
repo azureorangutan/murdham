@@ -22,7 +22,7 @@ export const careers = [
   {
     masculine_name: "Agitator",
     feminine_name: "Agitator",
-    description: "You know how to incite the people with fervent speeches. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money.",
+    description: "You know how to incite the people with fervent speeches, and how to quickly run away from city guard patrols. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money.",
     skills: [
       "fleet footed",
       "leadership",
@@ -44,8 +44,8 @@ export const careers = [
     feminine_name: "Apothecary",
     description: "You are a master at mixing miraculous ointments and potent poisons.",
     skills: [
-      "craft medicine",
-      "craft poison",
+      "apothecary",
+      "poisons",
     ],
     mana: 0,
     items: [
@@ -82,7 +82,7 @@ export const careers = [
   {
     masculine_name: "Assassin",
     feminine_name: "Assassin",
-    description: "For the right amount of coins, you can get rid of anyone.",
+    description: "For the right amount of coins, you can discreetly get rid of anyone.",
     skills: [
       "sneak attack",
       "stealth",
@@ -119,9 +119,29 @@ export const careers = [
     money: 0,
   },
   {
+    masculine_name: "Beast Tamer",
+    feminine_name: "Beast Tamer",
+    description: "There is no beast you can't break and train to obedience.",
+    skills: [
+      "animal handling",
+      "dodge blows",
+    ],
+    mana: 0,
+    items: [
+      "clothes (numerous claw marks)",
+      "simple hand weapon (bullwhip)",
+    ],
+    followers: [
+      "wolf (Lucius, bites anyone else approaching too close)",
+    ],
+    sacred_scrolls: 0,
+    profane_scrolls: 0,
+    money: 0,
+  },
+  {
     masculine_name: "Beggar",
     feminine_name: "Beggar",
-    description: "You spent your days sitting in the corner of busy roads, hoping for a few shillings from generous passers-by.",
+    description: "You used to spend your days sitting in the corner of busy roads, hoping to receive a few shillings from generous passers-by.",
     skills: [
       "disease resistance",
       "frugal",
@@ -129,7 +149,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (dirty, stinky rags)",
-      "crutch",
+      "crutch (sometime it pays to pretend you are lame)",
       "alcoholic drink",
     ],
     followers: [
@@ -148,7 +168,7 @@ export const careers = [
     ],
     mana: 0,
     items: [
-      "clothes (blood-splattered furs decorated with the skulls of your foes)",
+      "clothes (blood-splattered hides and furs decorated with the skulls of your foes)",
       "martial great weapon (glaive)",
     ],
     followers: [
@@ -186,9 +206,8 @@ export const careers = [
     ],
     mana: 0,
     items: [
-      "clothes (enhancing your muscles)",
+      "clothes (marked with the insignia of your last employer)",
       "shield",
-      "medicine box",
     ],
     followers: [
     ],
@@ -206,7 +225,7 @@ export const careers = [
     ],
     mana: 0,
     items: [
-      "clothes (mismatched clothes scavenged from various dumpsites)",
+      "clothes (mismatched, scavenged from various dumpsites)",
       "simple hand weapon (femur, <i>fragile</i>)",
       "junk (bag of dung)",
       "crutch",
@@ -220,7 +239,7 @@ export const careers = [
   {
     masculine_name: "Bounty Hunter",
     feminine_name: "Bounty Huntress",
-    description: "You used to roam the cities and the countryside, capturing wanted criminals to collect the bounties on their head.",
+    description: "You used to roam the cities and the countryside, capturing wanted criminals and fugitive outlaws to collect the bounty on their head.",
     skills: [
       "disarm",
       "strike to stun",
@@ -240,7 +259,7 @@ export const careers = [
   {
     masculine_name: "Brawler",
     feminine_name: "Brawler",
-    description: "Your fists are your weapon and your arms can bend iron: nobody is stronger than you!",
+    description: "Your fists are deadly weapons: nobody is stronger than you!",
     skills: [
       "brawling",
       "wrestling",
@@ -269,7 +288,6 @@ export const careers = [
     items: [
       "clothes (comfortable and with generous pockets)",
       "lock picks",
-      "metal file",
     ],
     followers: [
     ],
@@ -280,7 +298,7 @@ export const careers = [
   {
     masculine_name: "Charlatan",
     feminine_name: "Charlatan",
-    description: "You are a cunning liar, able to convince people of almost anything.",
+    description: "You are a cunning liar, fooling people to steal their money.",
     skills: [
       "blather",
       "charm",
@@ -366,9 +384,10 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (bare chested, lest your shirt catches fire)",
-      "missile hand weapon (throwing knives, you like to juggle with them)",
+      "alcoholic drink",
       "alcoholic drink",
       "torch",
+      "flint & tinder",
     ],
     followers: [
     ],
@@ -406,7 +425,7 @@ export const careers = [
     ],
     mana: 0,
     items: [
-      "clothes (large pockets)",
+      "clothes (large, comfortable sleeves)",
       "cards (marked)",
       "dice (loaded)",
     ],
@@ -447,7 +466,7 @@ export const careers = [
     items: [
       "clothes (colourful, with a bell hat)",
       "simple hand weapon (stick with bells, jingles cheerfully when it strikes)",
-      "smoke bomb",
+      "dark lotus",
     ],
     followers: [
     ],
@@ -458,7 +477,7 @@ export const careers = [
   {
     masculine_name: "Knight",
     feminine_name: "Knight",
-    description: "With your honour lost, and no coin left to your name, you wander on your steed, selling your sword for money.",
+    description: "With your honour lost and no coin left to your name, you wander on your steed, selling your sword for money.",
     skills: [
       "ride",
       "skilled blow",
@@ -500,13 +519,14 @@ export const careers = [
     feminine_name: "Lawyer",
     description: "Nobody is above the law, but you can help those with enough money wiggle through its many loopholes.",
     skills: [
-      "gossip",
+      "charm",
       "political lore",
     ],
     mana: 0,
     items: [
       "clothes (court attire)",
       "book (Laws of the Kingdom)",
+      "ration (cooked capon, payment received from a customer)",
       "ration (cooked capon, payment received from a customer)",
     ],
     followers: [
@@ -599,8 +619,8 @@ export const careers = [
     feminine_name: "Peasant",
     description: "Your life was simple: growing crops and tending to livestock, trying to put enough food on the table to survive another winter.",
     skills: [
-      "animal handling",
-      "tough",
+      "farming",
+      "gossip",
     ],
     mana: 0,
     items: [
@@ -660,8 +680,8 @@ export const careers = [
     feminine_name: "Pit Fighter",
     description: "You have fought for money in illegal arenas and as a judicial champion for hire.",
     skills: [
-      "dodge blows",
       "fast strike",
+      "wrestling",
     ],
     mana: 0,
     items: [
@@ -716,7 +736,7 @@ export const careers = [
   {
     masculine_name: "Rat Catcher",
     feminine_name: "Rat Catcher",
-    description: "Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting bigger and nastier by the day...",
+    description: "Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting larger and nastier by the day.",
     skills: [
       "disease resistance",
       "poison resistance",
@@ -871,26 +891,6 @@ export const careers = [
     money: 0,
   },
   {
-    masculine_name: "Townsman",
-    feminine_name: "Townswoman",
-    description: "Townsfolk such as yourself are the backbone of the Kingdom: shop owners, traders, local officials...",
-    skills: [
-      "bargain",
-      "gossip",
-    ],
-    mana: 0,
-    items: [
-      "clothes (fashionable but practical)",
-      "candle",
-      "pipe & tobacco",
-    ],
-    followers: [
-    ],
-    sacred_scrolls: 0,
-    profane_scrolls: 0,
-    money: 0,
-  },
-  {
     masculine_name: "Witch Hunter",
     feminine_name: "Witch Huntress",
     description: "Warlocks, witches, and sorcerers are a threat to mankind: they are destined to meet their end in the flames of a pyre.",
@@ -954,6 +954,7 @@ export const careers = [
 export const starting_items = [
   ["acid vial", 6],
   ["flash powder", 0],
+  ["smoke bomb", 0],
   ["bear trap", 0],
   ["caltrops", 0],
   ["helmet", 0],
@@ -962,7 +963,7 @@ export const starting_items = [
   ["butterfly sting", 0],
   ["corpse mandrake", 0],
   ["madcap mushroom", 0],
-  ["lantern (empty)", 6],
+  ["lantern (containing a candle)", 6],
   ["oil lamp", 6],
   ["chess set", 0],
   ["climbing gear", 0],
@@ -970,12 +971,11 @@ export const starting_items = [
   ["field kitchen", 0],
   ["grappling hook", 6],
   ["lucky charm (cornicello)", 0],
-  ["signet ring (stolen from a dead noble)", 0],
-  ["marbles", 6],
+  ["signet ring (stolen)", 0],
   ["music instrument (flute)", 0],
+  ["navigation tools", 0],
   ["pipe & tobacco", 6],
   ["rope ladder", 6],
-  ["saddle", 0],
 ];
 
 export const starting_weapons = [
@@ -986,7 +986,7 @@ export const starting_weapons = [
   ["simple hand weapon (hatchet)", 6],
   ["simple hand weapon (knife)", 6],
   ["simple hand weapon (sickle)", 6],
-  ["simple hand weapon (bullwhip)", 6],
+  ["simple hand weapon (knuckledusters)", 6],
   ["simple great weapon (boat hook)", 4],
   ["simple great weapon (scythe)", 4],
   ["simple great weapon (pitchfork)", 4],

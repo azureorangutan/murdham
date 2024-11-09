@@ -16,22 +16,23 @@ The description of each skill lists the most common ways in which it can influen
 
 == Proficiency
 
-A common advantage granted by skills is proficiency when attempting certain actions.
-This means you can reduce the difficulty of actions:
+A common advantage granted by skills is proficiency at certain tasks.
+This means you can reduce the difficulty of relevant actions.
 
 * A challenging task becomes trivial: you pass without needing a save.
 
 * An impossible task might become challenging (within reason): you may attempt it, but must pass a save.
 
-As usual, the GM is the final arbiter on whether a skill applies to a given situation or not.
 Examples of impossible actions which might become possible when proficient are:
 
 * Performing the action without tools (assuming you are improvising with what you can find in the vicinity).
 
-* Attempt to perform the action more quickly than usual (in a round instead of a stretch).
+* Attempting to perform the action more quickly than usual (in a round instead of a stretch).
 If you fail, the action isn't successful, and you waste the original amount of time.
 
-* Perform actions which are intrinsically almost impossible (scaling sheer surfaces, leaping very large distances...).
+* Performing actions which are intrinsically almost impossible (scaling sheer surfaces, stealing large items...).
+
+As usual, the GM is the final arbiter on whether a skill proficiency applies to a given situation or not, and you should feel free to apply this bonus even if not explicitly listed in the skill description.
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -79,7 +80,7 @@ Which ones matter depend on the campaign setting.
 
 == Literacy
 
-Characters can't read, write, or perform anything but very simple calculations unless they have a skill which grants them literacy: education is a privilege for the few!
+Characters can't read, write, or perform anything but very simple calculations (with the aid of their fingers) unless they have a skill which grants them literacy: education is a privilege for the few!
 
 
 include::gen/ref_skills.adoc[]

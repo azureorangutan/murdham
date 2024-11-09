@@ -13,55 +13,55 @@ h|D12
 |2
 |Assassin
 |Barber-surgeon
+|Beast tamer
 |Beggar
-|Berserker
 |3
+|Berserker
 |Boatman
 |Bodyguard
 |Bone picker
-|Bounty hunter
 |4
+|Bounty hunter
 |Brawler
 |Burglar
 |Charlatan
-|Coach driver
 |5
+|Coach driver
 |Cutpurse
 |Duellist
 |Fire eater
-|Footpad
 |6
+|Footpad
 |Gambler
 |Hunter
 |Jester
-|Knight
 |7
+|Knight
 |Labourer
 |Lawyer
 |Messenger
-|Miner
 |8
+|Miner
 |Noble
 |Outlaw
 |Peasant
-|Pedlar
 |9
+|Pedlar
 |Physician
 |Pit fighter
 |Priest
-|Raconteur
 |10
+|Raconteur
 |Rat catcher
 |Scholar
 |Sharpshooter
-|Slayer
 |11
+|Slayer
 |Soldier
 |Soothsayer
 |Thug
-|Tomb robber
 |12
-|Townsman
+|Tomb robber
 |Witch hunter
 |Wizard
 |Zealot

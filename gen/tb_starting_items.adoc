@@ -9,36 +9,36 @@ h|D12
 |Acid vial, 6ʂ
 |Flash powder
 |2
+|Smoke bomb
 |Bear trap
-|Caltrops
 |3
+|Caltrops
 |Helmet
-|Warm clothes (comfortable fur cloak)
 |4
+|Warm clothes (comfortable fur cloak)
 |Beastman blood
-|Butterfly sting
 |5
+|Butterfly sting
 |Corpse mandrake
-|Madcap mushroom
 |6
-|Lantern (empty), 6ʂ
-|Oil lamp, 6ʂ
+|Madcap mushroom
+|Lantern (containing a candle), 6ʂ
 |7
+|Oil lamp, 6ʂ
 |Chess set
-|Climbing gear
 |8
+|Climbing gear
 |Disguise kit
-|Field kitchen
 |9
+|Field kitchen
 |Grappling hook, 6ʂ
-|Lucky charm (cornicello)
 |10
-|Signet ring (stolen from a dead noble)
-|Marbles, 6ʂ
+|Lucky charm (cornicello)
+|Signet ring (stolen)
 |11
 |Music instrument (flute)
-|Pipe & tobacco, 6ʂ
+|Navigation tools
 |12
+|Pipe & tobacco, 6ʂ
 |Rope ladder, 6ʂ
-|Saddle
 |===

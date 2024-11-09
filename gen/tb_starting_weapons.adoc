@@ -16,7 +16,7 @@ h|D12
 |Simple hand weapon (knife), 6ʂ
 |4
 |Simple hand weapon (sickle), 6ʂ
-|Simple hand weapon (bullwhip), 6ʂ
+|Simple hand weapon (knuckledusters), 6ʂ
 |5
 |Simple great weapon (boat hook), 4ʂ
 |Simple great weapon (scythe), 4ʂ

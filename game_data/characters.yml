@@ -66,8 +66,8 @@ demons:
   agi: 4
   wit: 8
   skills:
-  - craft medicine
-  - craft poison
+  - apothecary
+  - poisons
   traits:
   - name: frightening
   natural_armour:

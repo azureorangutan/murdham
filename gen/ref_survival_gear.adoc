@@ -10,7 +10,7 @@ Enough for a day rest.
 
 * *Alcoholic drink* (4ʂ, bulk ½).
 _Consumable_.
-Recover 1 health, but not if you are _dying_. Pass a STR save or become _confused_ until the end of the stretch. Automatically fail if you drink 2 within a stretch.
+Recover 1 health, but not if you are _dying_. Pass a STR save or become _groggy_ until the end of the stretch. Automatically fail if you drink 2 within a stretch.
 
 * *Camping kit* (16ʂ, bulk 2).
 Includes a bedroll, blankets, and tent space for one person. Necessary to sleep in the wilderness.
@@ -25,5 +25,5 @@ Obtain a _ration_ on a _fish_ result while foraging.
 Obtain a _ration_ on a _small game_ result while foraging.
 
 * *Navigation tools* (16ʂ, bulk 2).
-Include maps, compass, etc. Pass a WIT save to ignore the movement penalty when travelling between sectors or regions without following a path.
+Include maps, compass, etc. You can use them to efficiently navigate the wilderness: you only halve your movement speed instead of reducing it to ¼.
 
