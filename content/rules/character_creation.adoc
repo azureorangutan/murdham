@@ -8,9 +8,9 @@ next: /rules/abilities
 
 == Creating a random character
 
-In Murdham, characters are created randomly.
-Just like in real life, you have to make the best of the hand you are dealt!
+By default, characters are created randomly.
 You can follow the process below step by step or use the online link:../../character_generator[Character Generator].
+If you wish to change some parts of your rolled character (abilities, career...) discuss with the GM.
 
 . *Abilities*.
 Roll on the <<tb_starting_ability_scores>> to determine an array of three scores and assign them randomly to the three abilities: Strength (STR), Agility (AGI), and Wits (WIT).
@@ -24,20 +24,15 @@ Roll on the <<tb_starting_ability_scores>> to determine an array of three scores
 . *Career*.
 Determine your past career by rolling on the <<tb_careers>> table.
 Check its description in the link:../careers[Careers] chapter.
+Re-roll if you get the same career as another Player.
 
-** You start with two skills granted by your career.
-
-** Re-roll if you get the same career as another Player.
+. *Skills*. You start with two skills granted by your career.
+Check their description in the link:../skills[Skills] chapter.
 
 . *Assets*.
 You start with d8 shillings (ʂ), the items and followers granted by your career, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
-
-** You additionally share a single _medicine box_, a single _candle_, and _flint & tinder_ with the other Players.
-
-** If you are a _priest_, a _wizard_, or a _hedge wizard_, you start with a _power scroll_ without a specified power.
-Roll for it on the <<tb_profane_powers>> or <<tb_sacred_powers>> tables.
-
-** Re-roll if you get the same result as another Player on any table.
+If you start with one or more sacred or profane _power scrolls_, roll on the <<tb_sacred_powers>> or <<tb_profane_powers>> tables respectively to determine what power they contain.
+Re-roll if you get the same result as another Player on any table.
 
 . *Secondary properties*.
 You start with health equal to your STR (plus 2 if you have the _tough_ skill), 0 corruption, 0 mana, and 2 omens.
@@ -58,9 +53,10 @@ Furthermore, he rolls a d2 to assign the middle score (7) and gets a 2 again (WI
 His character's starting abilities are therefore: **STR** 6, **AGI** 11, **WIT** 7.
 
 2. He rolls a 4 on a d4 and a 10 on a d12 for the career: _soldier_.
-This grants him the _cleave_ and _skilled blow_ skills.
 
-3. He starts with the following assets:
+3. His career grants him the _cleave_ and _skilled blow_ skills.
+
+4. He starts with the following assets:
 
     * He rolls 1 on a d8 for starting money: 1ʂ.
 
@@ -70,9 +66,9 @@ This grants him the _cleave_ and _skilled blow_ skills.
 
     * He rolls 2 on a d2 and 1 on a d12 for his starting item: one dose of _flash powder_.
 
-4. He notes down his secondary properties: health is 6 (equal to STR), corruption is 0, omens are 2, mana is 0, and armour value is 0.
+5. He notes down his secondary properties: health is 6 (equal to STR), corruption is 0, omens are 2, mana is 0, and armour value is 0.
 
-5. He finally describes and names his character.
+6. He finally describes and names his character.
 
 {{% /details %}}
 ++++

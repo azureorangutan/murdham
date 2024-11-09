@@ -21,12 +21,12 @@
   - name: alchemist's fire
   - name: scroll
     descr: "pamphlet denouncing the Emperor, or at least they told you so: you can't read after all"
-  descr: "You know how to incite the people with fervent speeches. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money."
+  descr: "You know how to incite the people with fervent speeches, and how to quickly run away from city guard patrols. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money."
 - male_name: apothecary
   female_name: apothecary
   skills:
-  - craft medicine
-  - craft poison
+  - apothecary
+  - poisons
   items:
   - name: clothes
     descr: spotless white apron and bags to carry ingredients
@@ -55,7 +55,7 @@
   - name: missile hand weapon
     descr: hand crossbow
   - name: black adder venom
-  descr: "For the right amount of coins, you can get rid of anyone."
+  descr: "For the right amount of coins, you can discreetly get rid of anyone."
 - male_name: barber-surgeon
   female_name: barber-surgeon
   skills:
@@ -66,6 +66,20 @@
     descr: bloodstained apron
   - name: surgical tools
   descr: "A sharp razor and a steady hand are required for both a clean shave and delicate surgeries."
+- male_name: beast tamer
+  female_name: beast tamer
+  skills:
+  - animal handling
+  - dodge blows
+  items:
+  - name: clothes
+    descr: numerous claw marks
+  - name: simple hand weapon
+    descr: bullwhip
+  followers:
+  - name: wolf
+    descr: Lucius, bites anyone else approaching too close
+  descr: "There is no beast you can't break and train to obedience."
 - male_name: beggar
   female_name: beggar
   skills:
@@ -75,8 +89,9 @@
   - name: clothes
     descr: dirty, stinky rags
   - name: crutch
+    descr: sometime it pays to pretend you are lame
   - name: alcoholic drink
-  descr: "You spent your days sitting in the corner of busy roads, hoping for a few shillings from generous passers-by."
+  descr: "You used to spend your days sitting in the corner of busy roads, hoping to receive a few shillings from generous passers-by."
 - male_name: berserker
   female_name: berserker
   skills:
@@ -84,7 +99,7 @@
   - cleave
   items:
   - name: clothes
-    descr: blood-splattered furs decorated with the skulls of your foes
+    descr: blood-splattered hides and furs decorated with the skulls of your foes
   - name: martial great weapon
     descr: glaive
   descr: "You are a savage, bloodthirsty warrior, barely able to control your bloodlust."
@@ -105,9 +120,8 @@
   - shield mastery
   items:
   - name: clothes
-    descr: enhancing your muscles
+    descr: marked with the insignia of your last employer
   - name: shield
-  - name: medicine box
   descr: "You worked for the rich and powerful, protecting them from robbers and other scum."
 - male_name: bone picker
   female_name: bone picker
@@ -116,7 +130,7 @@
   - quick draw
   items:
   - name: clothes
-    descr: mismatched clothes scavenged from various dumpsites
+    descr: mismatched, scavenged from various dumpsites
   - name: simple hand weapon
     descr: femur, _fragile_
   - name: junk
@@ -133,7 +147,7 @@
     descr: large coat and wide-brimmed hat
   - name: net
   - name: manacles & key
-  descr: "You used to roam the cities and the countryside, capturing wanted criminals to collect the bounties on their head."
+  descr: "You used to roam the cities and the countryside, capturing wanted criminals and fugitive outlaws to collect the bounty on their head."
 - male_name: brawler
   female_name: brawler
   skills:
@@ -144,7 +158,7 @@
     descr: hand wraps to protect your knuckles
   - name: alcoholic drink
   - name: chain
-  descr: "Your fists are your weapon and your arms can bend iron: nobody is stronger than you!"
+  descr: "Your fists are deadly weapons: nobody is stronger than you!"
 - male_name: burglar
   female_name: burglar
   skills:
@@ -154,7 +168,6 @@
   - name: clothes
     descr: comfortable and with generous pockets
   - name: lock picks
-  - name: metal file
   descr: "There is no lock you can't open and no safe you can't crack."
 - male_name: charlatan
   female_name: charlatan
@@ -168,7 +181,7 @@
     descr: filled with scribbled nonsense
   - name: silver jewel
     descr: fake necklace
-  descr: "You are a cunning liar, able to convince people of almost anything."
+  descr: "You are a cunning liar, fooling people to steal their money."
 - male_name: coach driver
   female_name: coach driver
   skills:
@@ -212,10 +225,10 @@
   items:
   - name: clothes
     descr: bare chested, lest your shirt catches fire
-  - name: missile hand weapon
-    descr: throwing knives, you like to juggle with them
+  - name: alcoholic drink
   - name: alcoholic drink
   - name: torch
+  - name: flint & tinder
   descr: "You were a performer at a travelling carnival, executing a vast array of exciting tricks with fire."
 - male_name: footpad
   female_name: footpad
@@ -236,7 +249,7 @@
   - play games
   items:
   - name: clothes
-    descr: large pockets
+    descr: large, comfortable sleeves
   - name: cards
     descr: marked
   - name: dice
@@ -263,7 +276,7 @@
     descr: colourful, with a bell hat
   - name: simple hand weapon
     descr: stick with bells, jingles cheerfully when it strikes
-  - name: smoke bomb
+  - name: dark lotus
   descr: "You have spent your life making a fool of yourself to entertain the nobles, but you will have the last laugh!"
 - male_name: knight
   female_name: knight
@@ -277,7 +290,7 @@
   followers:
   - name: light horse
     descr: "Bartadan, trained for combat, old and lame: permanent _hobbled_ condition"
-  descr: "With your honour lost, and no coin left to your name, you wander on your steed, selling your sword for money."
+  descr: "With your honour lost and no coin left to your name, you wander on your steed, selling your sword for money."
 - male_name: labourer
   female_name: labourer
   skills:
@@ -294,13 +307,15 @@
 - male_name: lawyer
   female_name: lawyer
   skills:
-  - gossip
+  - charm
   - political lore
   items:
   - name: clothes
     descr: court attire
   - name: book
     descr: Laws of the Kingdom
+  - name: ration
+    descr: cooked capon, payment received from a customer
   - name: ration
     descr: cooked capon, payment received from a customer
   descr: "Nobody is above the law, but you can help those with enough money wiggle through its many loopholes."
@@ -355,8 +370,8 @@
 - male_name: peasant
   female_name: peasant
   skills:
-  - animal handling
-  - tough
+  - farming
+  - gossip
   items:
   - name: clothes
     descr: stinking of manure
@@ -393,8 +408,8 @@
 - male_name: pit fighter
   female_name: pit fighter
   skills:
-  - dodge blows
   - fast strike
+  - wrestling
   items:
   - name: clothes
     descr: torn, dusty, and covered in old blood
@@ -439,7 +454,7 @@
   followers:
   - name: small dog
     descr: Brutus, trained to hunt rats, small but vicious
-  descr: "Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting bigger and nastier by the day..."
+  descr: "Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting larger and nastier by the day."
 - male_name: scholar
   female_name: scholar
   skills:
@@ -518,17 +533,6 @@
   - name: crowbar
   - name: rope
   descr: "Precious treasures are buried in ancient crypts and old tombs: their previous owners aren't going to miss them."
-- male_name: townsman
-  female_name: townswoman
-  skills:
-  - bargain
-  - gossip
-  items:
-  - name: clothes
-    descr: fashionable but practical
-  - name: candle
-  - name: pipe & tobacco
-  descr: "Townsfolk such as yourself are the backbone of the Kingdom: shop owners, traders, local officials..."
 - male_name: witch hunter
   female_name: witch huntress
   skills:

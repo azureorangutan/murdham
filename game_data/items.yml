@@ -144,7 +144,7 @@ survival gear:
   bulk: 0
   properties:
   - Consumable
-  descr: Recover 1 health, but not if you are _dying_. Pass a STR save or become _confused_ until the end of the stretch. Automatically fail if you drink 2 within a stretch.
+  descr: Recover 1 health, but not if you are _dying_. Pass a STR save or become _groggy_ until the end of the stretch. Automatically fail if you drink 2 within a stretch.
 - name: camping kit
   value: 16
   bulk: 2
@@ -164,7 +164,7 @@ survival gear:
 - name: navigation tools
   value: 16
   bulk: 2
-  descr: Include maps, compass, etc. Pass a WIT save to ignore the movement penalty when travelling between sectors or regions without following a path.
+  descr: "Include maps, compass, etc. You can use them to efficiently navigate the wilderness: you only halve your movement speed instead of reducing it to ¼."
 
 healing:
 - name: medicine box
@@ -260,6 +260,12 @@ poison:
   properties:
   - Consumable
   descr: Bloodstream lethal poison (death at the end of the stretch).
+- name: dark lotus
+  value: 64
+  bulk: 0
+  properties:
+  - Consumable
+  descr: Ingested lethal poison (death at the end of the stretch).
 - name: disease vial
   value: 64
   bulk: 0
@@ -285,7 +291,7 @@ drugs:
   bulk: 0
   properties:
   - Consumable
-  descr: Pass a STR save or be _confused_ until the end of the watch, as pleasant hallucinations overwhelm you. Automatically fail if you take 2 within a stretch. After the effect wears off, pass a WIT save or become _addicted_.
+  descr: Pass a STR save or be _groggy_ until the end of the watch, as pleasant hallucinations overwhelm you. Automatically fail if you take 2 within a stretch. After the effect wears off, pass a WIT save or become _addicted_.
 - name: madcap mushroom
   value: 16
   bulk: 0
@@ -401,9 +407,7 @@ academic gear:
 - name: quill & ink
   value: 4
   bulk: 0
-  properties:
-  - Consumable
-  descr: Enough to write a scroll.
+  descr: Used to write on scrolls and books.
 
 miscellanea:
 - name: animal skin

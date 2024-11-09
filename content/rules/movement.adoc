@@ -54,15 +54,6 @@ Characters at range 0 from each other are said to be '`nearby`' and can be targe
 Characters can move by two areas per time unit: two zones in a round, two sectors in a stretch, or two regions in a watch.
 Moving to or from the border between two areas counts as moving by half an area.
 
-Movement speed can be reduced down to half area per time unit, and if further halved movement isn't possible at all.
-These factors halve movement speed:
-
-* The _encumbered_ and _hobbled_ conditions.
-
-* Moving between sectors and regions in harsh weather (heavy rain, snow, scorching heat, etc.).
-
-* Moving between sectors and regions without following an open path or road (through forests, swamps, mountains, hills, labyrinthic alleys, etc.).
-
 
 == Special movement
 
@@ -99,6 +90,18 @@ Attacks made while in water are impaired.
 You can't make special movements for more than a stretch consecutively.
 It isn't possible to combine special movements unless the character is proficient in one of them.
 For example, you can't sprint while climbing, or sneak while swimming.
+
+
+== Navigating the wilderness
+
+Moving across sectors or regions without following a clear path (a road, a river...) bears the risk of getting lost and wasting time finding your way again.
+To represent this in a simple way, movement speed is reduced to ¼ in such a situation, meaning that the typical movement speed is half a sector or region per stretch or watch.
+
+
+== Weather
+
+Movement speed is halved when travelling across sectors and regions under bad weather (torrential rain, scorching heat...).
+It is also impossible to take a day rest in the wilderness, unless proper shelter is found in the vicinity by spending a watch and passing a WIT save.
 
 
 == Optional rule: grids

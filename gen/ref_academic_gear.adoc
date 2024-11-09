@@ -17,6 +17,5 @@ Can hold up to 4 _power scrolls_, removing the need to swamp them out to invoke 
 Can hold 2 scrolls, protecting them from water and damage.
 
 * *Quill & ink* (4ʂ, bulk ½).
-_Consumable_.
-Enough to write a scroll.
+Used to write on scrolls and books.
 

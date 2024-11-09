@@ -5,11 +5,11 @@ Proficient at balancing and leaping. Your attacks aren't impaired while balancin
 
 
 * *Acting*.
-Proficient at acting, storytelling, and disguising yourself. You can convincingly fake emotions, disguise your voice, imitate accents, and change your mannerism. This ability might provide you a proficiency advantage in situation where you can take advantage of it.
+Proficient at acting, storytelling, and disguising yourself. You can convincingly fake emotions, disguise your voice, imitate accents, and change your mannerism. This ability might provide you a proficiency advantage in situation where you can make use of it.
 
 
 * *Alchemy*.
-You are literate. You can speak Classic. You can craft alchemical substances, such as _acid vials_, _alchemist's fire_, _flash powder_, and _smoke bombs_, in a suitably equipped workshop. Knowledgeable about alchemical concepts, basic reactions, raw materials...
+You are literate. You can speak Classic. You can craft alchemical substances, such as _acid vials_, _alchemist's fire_, _flash powder_, and _smoke bombs_, in a suitably equipped workshop. Knowledgeable about alchemical concepts, tools, raw ingredients...
 
 
 * *Ambidextrous*.
@@ -17,7 +17,11 @@ You can use both hands equally well. Damage is not impaired when you attack with
 
 
 * *Animal handling*.
-Proficient at taming, training, befriending, and in general interacting with animals. Knowledgeable about animal care: feeding, grooming, training, taming, understanding needs...
+Proficient at taming, training, befriending, and in general interacting with animals. In combination with the _medicine_ skill, you can diagnose poison and disease afflicting animals. Knowledgeable about animal care: feeding, grooming, training, taming, understanding needs...
+
+
+* *Apothecary*.
+You can craft medicinal substances, such as _antidotes_, _cure-alls_, _healing draughts_, _medicine boxes_, and all kinds of drugs, using _apothecary tools_. Knowledgeable about medicinal ingredients, herbalism...
 
 
 * *Bargain*.
@@ -41,11 +45,11 @@ Your unarmed attacks are not impaired and inflict d6 damage. You have an innate 
 
 
 * *Burglary*.
-Proficient at picking and forcing locks. You can react to all traps you trigger, even if you weren't aware of them.
+Proficient at opening locks using _lockpicks_ and _crowbars_. You have fast reflexes and can react to all traps you trigger, even if you weren't aware of them. Knowledgeable about typical security measures, safes, hiding spots for valuables...
 
 
 * *Bushcraft*.
-Proficient at finding drinking water and shelter in the wilderness. You can efficiently lead the way through the wilderness, ignoring the movement penalty when travelling without following a path if you pass a WIT save. If you have _navigation tools_ as well, you pass automatically. When you forage, you roll twice on the foraging table and apply both results. Knowledgeable about orientation in the wilderness, common plants, and survival.
+Proficient at finding drinking water and shelter in the wilderness. You can efficiently navigate the wilderness: you only halve your movement speed instead of reducing it to ¼, and you move at full speed if you also have _navigation tools_. When you forage, you roll twice on the foraging table and apply both results. Knowledgeable about orientation in the wilderness, common plants, survival...
 
 
 * *Charm*.
@@ -57,39 +61,31 @@ When you inflict critical damage or kill a target with a melee attack, you can i
 
 
 * *Climb*.
-Proficient at climbing. > Your attacks aren't impaired while climbing. > You reduce falling distances by 2 metres to determine how much damage you suffer.
+Proficient at climbing. Your attacks aren't impaired while climbing. You reduce falling distances by 2 metres to determine how much damage you suffer.
 
 
 * *Contortionist*.
 Your joints are extremely flexible and you can bend your body in absurd shapes. You can squeeze through small openings and easily escape bonds.
 
 
-* *Craft medicine*.
-You can craft medicinal substances, such as _antidotes_, _cure-alls_, _healing draughts_, _medicine boxes_, and all kinds of drugs, using _apothecary tools_. Knowledgeable about medicinal ingredients, herbalism...
-
-
-* *Craft poison*.
-You can craft all kinds of poisons using _apothecary tools_. Knowledgeable about different types of poisons, their effect, how to neutralise them...
-
-
 * *Crafting*.
-You can craft a number of different non-consumable items equal to half your WIT, and you are proficient at repairing them. You don't have to choose immediately what you can craft: as long as you still have free '`slots`', you can decide on the moment. Keep track of what items you can craft. Knowledgeable about smithing, carpentry, tannery, and other forms of crafting.
+You can craft a number of different non-consumable items equal to half your WIT, and you are proficient at repairing them. You don't have to choose immediately what you can craft: as long as you still have free '`slots`', you can decide on the moment. Knowledgeable about tools, processes, and raw materials relating to what you can craft.
 
 
 * *Dark vision*.
-You can see better than most under dim lighting, and you are used to rely on senses other than sight (hearing, smell, touch). This is no supernatural power: you still can't see anything in total darkness! You can see one zone further in areas illuminated by a light source such as a candle or a torch. Your melee attacks always hit even if you can't see the target, as long as you can hear them or detect them otherwise. In general, the GM might let you ignore penalties related to darkness or dim lighting when deemed appropriate.
+You can see better than most under dim lighting, and you are used to rely on senses other than sight (hearing, smell, touch). You can see one zone further in areas illuminated by a light source such as a candle or a torch. Your melee attacks always hit even if you can't see the target, as long as you can hear them or detect them otherwise. In general, the GM might let you ignore penalties related to darkness or dim lighting when deemed appropriate. This is no supernatural power: you still can't see in total darkness!
 
 
 * *Disarm*.
-Targets of your disarm attacks can't resist with a STR save unless they also have this skill. You can only be disarmed by characters with this skill.
+Targets of your disarm attacks can't resist with a STR save unless they also have this skill. You can only be disarmed by characters with this skill. This skill doesn't apply to characters of different size category.
 
 
 * *Disease resistance*.
-After encountering a new disease, you develop an immunity to it. The first time you must still make a STR save to check if you get sick, and if you do you follow the normal rules, but afterwards you are completely immune. Keep track of the diseases you are immune to.
+After encountering a new disease, you develop an immunity to it. The first time you must still make a STR save to check if you get sick, but afterwards, no matter the result, you are completely immune.
 
 
 * *Divination*.
-If you have _divination tools_, you can spend an omen and a stretch of time to ask a question pertaining your current situation. The GM describes a vision giving you a cryptic answer. There is a 1:4 chance that the vision is wrong or misleading, rolled secretly by the GM. Knowledgeable about astrology and fortune telling.
+If you have _divination tools_, you can spend an omen and a stretch of time to ask a question pertaining your current situation. The GM describes a vision giving you a cryptic answer. There is a 1:4 chance that the vision is wrong or misleading, rolled secretly by the GM. Knowledgeable about astrology, fortune telling, tarots...
 
 
 * *Dodge blows*.
@@ -101,11 +97,15 @@ Proficient at driving carts, coaches, chariots, sledges, and other land vehicles
 
 
 * *Erudition*.
-You are literate. You can speak Classic. Knowledgeable in all fields of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy...
+You are literate. You can speak Classic. Knowledgeable in all fields of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy... This skill might grant you a proficiency advantage even in social interactions where your knowledge applies.
 
 
 * *Faith*.
 You are literate. You can speak Classic. You can invoke sacred powers. Knowledgeable about religion, theology, sacred texts...
+
+
+* *Farming*.
+Proficient at befriending domesticated (not wild) animals. When you forage, you find an additional _ration_ on a _(dubious) fruits and vegetables_ result. You are able to recognise signs of discomfort and identify common ailments in domesticated animals. Knowledgeable about agriculture, animal husbandry...
 
 
 * *Fast strike*.
@@ -113,19 +113,19 @@ When you counter an attack or your attack is countered, you always hit first unl
 
 
 * *Fire eating*.
-You can consume an _alcoholic drink_ and spit it through an open flame, such as a lit _torch_, to make a melee blast attack inflicting d4 fire damage. The normal effects of the _alcoholic drink_ of course don't apply in this case. You reduce incoming fire damage by 1.
+You are able to perform wondrous tricks using burning sticks, such as extinguishing them with your tongue, juggling them, and even spitting fire. You can spit an _alcoholic drink_ through an open flame, such as a lit _torch_, to make a melee blast attack inflicting d4 fire damage. You reduce incoming fire damage by 1.
 
 
 * *Fleet footed*.
-Proficient at sprinting. You can renounce your proficiency advantage to sprint by an additional zone. You can freely dodge attacks of opportunity without needing to spend your turn.
+Proficient at sprinting. You can sprint by an additional zone. You can freely dodge attacks of opportunity while moving, without needing to spend your turn.
 
 
 * *Frugal*.
-You can get by with very little. On a day rest, you recover health and mana even if you don't satisfy all daily needs. You pay half for lodging.
+You can get by with very little. On a day rest, you recover health and mana even if you don't satisfy all daily needs, but your abilities are still reduced if you don't. You pay only ¼ for lodging as you don't need any particular comforts or luxuries.
 
 
 * *Gossip*.
-Proficient at gathering information and finding contacts in settlements, for example for trading specific goods. Whenever you take a day rest or full rest in a settlement, you hear interesting rumours. The GM decides what you hear, and it isn't necessarily true.
+Proficient at gathering information and finding contacts in settlements, for example for trading specific or illegal goods. Whenever you take a day rest or full rest in a settlement, you hear interesting rumours. The GM decides what you hear, and it isn't necessarily true.
 
 
 * *Heal*.
@@ -133,19 +133,19 @@ Proficient at performing surgeries. Knowledgeable about all kinds of wounds and 
 
 
 * *Hunt*.
-Proficient at following trails. Knowledgeable about local fauna, how to hunt them... When you forage, on a _small game_ result you gain an additional _ration_, even if you don't have _trapping tools_.
+Proficient at following trails. When you forage, on a _small game_ result you gain an additional _ration_, even if you don't have _trapping tools_. Knowledgeable about local fauna, hunting methods, identifying beasts from their tracks...
 
 
 * *Incorruptible*.
-You suffer half the normal amount of corruption. However, you can't voluntarily suffer corruption, for example to invoke profane powers.
+You halve the amount of corruption you suffer. This skill doesn't apply to corruption you suffer by invoking profane powers: in that case you take the full amount.
 
 
 * *Intimidate*.
-Proficient at intimidating and torturing. If you spend a stretch talking with or observing someone, you understand what might frighten them.
+Proficient at intimidating and torturing. If you spend a stretch talking with or observing someone, you understand what might frighten or break them.
 
 
 * *Languages*.
-You are literate. You can speak a number of additional languages equal to half your WIT. You don't have to choose immediately what language you can speak: when you encounter a new one in your adventures, you can choose if you can speak it. Keep track of what languages you can speak.
+You are literate. You can speak a number of additional languages equal to half your WIT. You don't have to choose immediately what languages you can speak: you can choose when you first encounter a new language in your adventures.
 
 
 * *Leadership*.
@@ -165,19 +165,19 @@ You can use an ancient esoteric technique to erect a magic shield around you. Ac
 
 
 * *Medicine*.
-You are literate. You can speak Classic. Knowledgeable about human anatomy and physiology, illnesses, and ailments. You can diagnose poison and disease by spending a round examining a patient. After diagnosing, you can instruct someone with the _apothecary_ skill to create a bespoke _antidote_ or _cure-all_ which is guaranteed to work.
+You are literate. You can speak Classic. You can diagnose poison and disease by spending a round examining a patient. After diagnosing, you can instruct someone with the _apothecary_ skill to create a bespoke _antidote_ or _cure-all_ which is guaranteed to work. Knowledgeable about human anatomy and physiology, illnesses, and ailments.
 
 
 * *Meditation*.
-You heal 1 corruption on a day rest, and all corruption on a full rest.
+You heal 1 corruption on a day rest if you satisfy all needs. You heal all corruption on a full rest.
 
 
 * *Monster slaying*.
-You inflict double damage against targets of larger size category.
+You inflict double damage against targets of larger size category. This can effectively offset the damage penalty you would normally suffer from.
 
 
 * *Music*.
-Proficient at singing and playing music. Knowledgeable about music theory, instruments, famous musicians... During a day rest you can play an inspiring song for the company: all companions have a 1:4 chance of recovering a spent omen.
+Proficient at singing and playing music. During a day rest you can play an inspiring song for the company: all companions have a 1:4 chance of recovering a spent omen. Knowledgeable about music theory, instruments, famous musicians...
 
 
 * *Pack rat*.
@@ -193,11 +193,15 @@ Proficient at playing games. Your cheating attempts are always successful unless
 
 
 * *Poison resistance*.
-You are resistant to alcohol, poisons, and drugs. You may ignore the first dose taken within a stretch. You can resist a second dose with a STR save, and a third dose works automatically.
+You are resistant to alcohol, poisons, and drugs. You may choose to ignore the first dose taken within a stretch. As per the usual rules, you can resist a second dose with a STR save, and a third dose works automatically.
+
+
+* *Poisons*.
+You can craft all kinds of poisons using _apothecary tools_. You are able to identify the presence of most types of poisons in food and drinks. Knowledgeable about different types of poisons, their effect, how to neutralise them...
 
 
 * *Political lore*.
-You are literate. You can speak Classic. Knowledgeable in laws, politics, structures of power...
+You are literate. You can speak Classic. Knowledgeable in laws, politics, structures of power... This skill might grant you a proficiency advantage even in social interactions where your knowledge applies.
 
 
 * *Protect*.
@@ -209,7 +213,7 @@ You can equip and unequip any number of items held in hand as a single bonus act
 
 
 * *Ride*.
-Proficient at riding animals. Your attacks aren't impaired while riding. You can attack after your mount makes a full movement. Knowledgeable about taking care of mounts, controlling them...
+Proficient at riding animals. Your attacks aren't impaired while riding. You can attack after your mount makes a full movement. Knowledgeable about taking care of mounts, soothing them, controlling them...
 
 
 * *River lore*.
@@ -229,7 +233,7 @@ You improve the damage die of ranged attacks: d4 to d6, d6 to d8, d8 to d10, d10
 
 
 * *Sneak attack*.
-You always inflict d12 damage when you attack unaware targets. Unarmed attacks are still impaired.
+You always inflict d12 damage when you attack unaware targets, no matter what weapon you are using, and even if you are making an unarmed attack (but unarmed attacks are still impaired).
 
 
 * *Sorcery*.
@@ -237,7 +241,7 @@ You are literate. You can speak Magick. You can invoke profane powers. When you 
 
 
 * *Steady aim*.
-You double the range of ranged attacks.
+You double the effective range of ranged attacks and you can shoot while moving with no penalties.
 
 
 * *Steal*.
@@ -253,7 +257,7 @@ When you inflict critical damage, you may choose to injure or kill the target. Y
 
 
 * *Strike to stun*.
-When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock...) you may choose to inflict no lethal damage. You still roll the damage die and compare the result with the target's current health. If damage matches or exceeds half the target's remaining health, they are _incapacitated_ until the end of the stretch. If damage matches or exceeds the target's remaining health, they are _incapacitated_ until the end of the watch.
+When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock...) you may attempt to knock out your target instead of inflicting lethal damage. Roll the damage die as usual: you inflict no damage, instead you compare the result with the target's current health. The target is _incapacitated_ until the end of the stretch if the rolled damage matches or exceeds half their current health. If the damage matches or exceeds their total current health, they are _incapacitated_ until the end of the watch instead.
 
 
 * *Swim*.
@@ -261,10 +265,10 @@ Proficient at swimming. Your attacks aren't impaired while swimming. You can hol
 
 
 * *Tough*.
-Your maximum health, as well as the threshold for instant death, are increased by 2 (they equal your STR plus 2).
+Your maximum health, as well as the threshold for instant death, are increased by 2 (they are equal to your STR plus 2).
 
 
 * *Wrestling*.
-Targets of your grapple attacks can't resist with a STR save unless they also have this skill. You can only be grappled by characters with this skill.
+Targets of your grapple attacks can't resist with a STR save unless they also have this skill. You can only be grappled by characters with this skill. This skill doesn't apply to characters of different size category.
 
 

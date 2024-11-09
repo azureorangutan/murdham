@@ -29,6 +29,6 @@ A skull-faced man with horribly bloated skin, covered in pustules and boils. Cre
 _Medium demon_, _human intelligence_. +
 *Items*: clothes (filthy hooded cloak), simple hand weapon (rusty dagger), disease vial (black gangrene), disease vial (greater rot). +
 *Natural armour*: bloated flesh (1). +
-*Skills*: _craft medicine_, _craft poison_. +
+*Skills*: _apothecary_, _poisons_. +
 *Traits*: _frightening_.
 

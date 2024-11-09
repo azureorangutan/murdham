@@ -92,25 +92,29 @@ Stealing an item with bulk ½ from a nearby character requires passing an AGI sa
 Stealing larger items is normally impossible.
 Approaching the target without being noticed might require an additional AGI save to sneak without being detected.
 
+Proficient characters can steal an item with bulk ½ automatically, and an item with bulk 1 (or two with bulk ½) by passing an AGI save.
+
 
 == Trading
 
 Goods can be purchased in exchange for something of at least equal value.
-While in a settlement, characters can spend a watch to buy and sell any number of items.
-
-* Second hand items in good conditions, such as most gear owned or looted by the Player characters, are worth half their value.
-Damaged items are worth ¼ their value.
 
 * Characters with the _bargain_ skill buy at half price, unless the seller also has the skill.
-Most GM characters willing to trade goods have this skill.
-Finding someone willing to pay full price for a specific item in a settlement takes a watch and requires passing a WIT save.
-
-* Most people won't trade clearly illegal or stolen goods.
-Those willing to do so will sell at double price and buy at half price.
-Finding such people in a settlement takes a watch and requires passing a WIT save.
+Professional merchants typically have this skill and further reduce price by half, because they aim to make a profit by reselling the item.
+This means that they will buy at ¼ the value, or at half the value from someone with the _bargain_ skill.
 
 * Items in great demand are worth double, items in great supply are worth half.
 The GM decides what goods are available for trade and their availability.
+
+* Damaged items are worth ¼ their value.
+
+While in a settlement, characters can spend a watch to buy and sell any number of items in the local market.
+You can assume they interact with professional merchants with the _bargain_ skill.
+Looking for a good buyer who's willing to pay full price for a specific item takes a full watch and requires passing a WIT save.
+
+Most people won't trade clearly illegal or stolen goods.
+Those willing to do so will sell at double price and buy at half price.
+Finding such people in a settlement takes a watch and requires passing a WIT save.
 
 
 == Gathering rumours

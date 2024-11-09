@@ -3,6 +3,8 @@ starting items:
   - 6
 - - name: flash powder
   - 0
+- - name: smoke bomb
+  - 0
 - - name: bear trap
   - 0
 - - name: caltrops
@@ -21,7 +23,7 @@ starting items:
 - - name: madcap mushroom
   - 0
 - - name: lantern
-    descr: empty
+    descr: containing a candle
   - 6
 - - name: oil lamp
   - 6
@@ -39,19 +41,17 @@ starting items:
     descr: cornicello
   - 0
 - - name: signet ring
-    descr: stolen from a dead noble
+    descr: stolen
   - 0
-- - name: marbles
-  - 6
 - - name: music instrument
     descr: flute
+  - 0
+- - name: navigation tools
   - 0
 - - name: pipe & tobacco
   - 6
 - - name: rope ladder
   - 6
-- - name: saddle
-  - 0
 starting weapons:
 - - name: simple hand weapon
     descr: cleaver
@@ -75,7 +75,7 @@ starting weapons:
     descr: sickle
   - 6
 - - name: simple hand weapon
-    descr: bullwhip
+    descr: knuckledusters
   - 6
 - - name: simple great weapon
     descr: boat hook
