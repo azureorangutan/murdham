@@ -144,7 +144,9 @@ survival gear:
   bulk: 0
   properties:
   - Consumable
-  descr: Recover 1 health, but not if you are _dying_. Pass a STR save or become _groggy_ until the end of the stretch. Automatically fail if you drink 2 within a stretch.
+  descr: >
+    Recover 1 health unless you are _dying_.
+    Pass a STR save or become _groggy_ until the end of the stretch.
 - name: camping kit
   value: 16
   bulk: 2
@@ -279,25 +281,33 @@ drugs:
   bulk: 0
   properties:
   - Consumable
-  descr: 'Pass a STR save or become numb to pain until the end of the watch: you can''t be _incapacitated_ by critical damage. Automatically fail if you take 2 within a stretch. After the effect wears off, suffer d4 direct damage, and pass a WIT save or become _addicted_.'
+  descr: >
+    You are numb to pain until the end of the watch: you can't be _incapacitated_ by critical damage.
+    You must pass a WIT save or become _addicted_.
 - name: crimson weed
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Pass a STR save or temporarily increase all abilities by 2. Automatically fail if you take 2 within a stretch. At the end of the watch, temporarily reduce all abilities by 4, and pass a WIT save or become _addicted_.
+  descr: >
+    You temporarily increase all abilities by 2, then, at the end of the watch, you temporarily reduce all abilities by 4.
+    You must pass a WIT save or become _addicted_.
 - name: darkroot
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Pass a STR save or be _groggy_ until the end of the watch, as pleasant hallucinations overwhelm you. Automatically fail if you take 2 within a stretch. After the effect wears off, pass a WIT save or become _addicted_.
+  descr: >
+    You recover health equal to half your STR unless you are _dying_, but become _groggy_ until the end of the watch.
+    You must pass a WIT save or become _addicted_.
 - name: madcap mushroom
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Pass a STR save or become _frenzied_ until the end of the stretch. Automatically fail if you take 2 within a stretch. After the effect wears off, pass a WIT save or become _addicted_.
+  descr: >
+    You become _frenzied_ until the end of the stretch.
+    You must pass a WIT save or become _addicted_.
 
 valuables:
 - name: silver jewel
@@ -389,9 +399,7 @@ academic gear:
 - name: power scroll
   value: 64
   bulk: 0
-  descr: >
-    A scroll recording a sacred or profane power.
-    The knowledge of how to create them has been lost.
+  descr: A scroll recording a sacred or profane power. The knowledge of how to create them has been lost.
 - name: book
   value: 16
   bulk: 1
@@ -400,10 +408,6 @@ academic gear:
   value: 16
   bulk: 1
   descr: Can hold up to 4 _power scrolls_, removing the need to swamp them out to invoke their power.
-- name: scroll case
-  value: 4
-  bulk: 1
-  descr: Can hold 2 scrolls, protecting them from water and damage.
 - name: quill & ink
   value: 4
   bulk: 0
@@ -414,30 +418,10 @@ miscellanea:
   value: 4
   bulk: 1
   descr: Skin of a small animal. Multiply cost by 4 and bulk by 2 for each size above small.
-- name: brush & paints
-  value: 16
-  bulk: 0
-  properties:
-  - Consumable
-  descr: Enough to paint a _canvas_.
 - name: cage
   value: 16
   bulk: 2
   descr: Can contain a small character.
-- name: canvas
-  value: 16
-  bulk: 2
-  descr: About 1 metre by 1 metre.
-- name: censer
-  value: 16
-  bulk: 2
-  descr: Can be used to burn _incense_.
-- name: chalk
-  value: 1
-  bulk: 0
-  properties:
-  - Consumable
-  descr: Enough to write a few markings.
 - name: crutch
   value: 4
   bulk: 1
@@ -446,16 +430,10 @@ miscellanea:
   value: 16
   bulk: 2
   descr: Include a crystal ball, tarot cards, divination bones, etc. Used in combination with the _divination_ skill.
-- name: incense
-  value: 4
-  bulk: 0
-  properties:
-  - Consumable
-  descr: 'Burns for a stretch. _Demons_ are disturbed by it: they must pass a STR save to enter a zone where incense is burning.'
 - name: junk
   value: 1
   bulk: 1
-  descr: skull, bag of dirt or dung, dirty pillow...
+  descr: skull, bag of dirt or dung, dirty pillow, chalk...
 - name: ladder
   value: 4
   bulk: 4
@@ -476,10 +454,6 @@ miscellanea:
   value: 4
   bulk: 1
   descr: Used to bind someone's hands.
-- name: metal file
-  value: 4
-  bulk: 1
-  descr: Can cut through metal, with enough time.
 - name: mirror
   value: 16
   bulk: 1
@@ -487,15 +461,7 @@ miscellanea:
 - name: music instrument
   value: 16
   bulk: 1
-  descr: Drums, fiddle, flute, Lyre, Lute, etc.
-- name: muzzle
-  value: 4
-  bulk: 1
-  descr: To muzzle a dog or similarly sized animal.
-- name: painting
-  value: 64
-  bulk: 2
-  descr: A nice painting.
+  descr: Drums, fiddle, flute, lyre, lute, etc.
 - name: perfume
   value: 16
   bulk: 0
@@ -518,10 +484,6 @@ miscellanea:
   value: 16
   bulk: 2
   descr: Required to ride a mount. Includes saddlebags.
-- name: scissors
-  value: 4
-  bulk: 1
-  descr: Used to cut precisely.
 - name: sealing wax
   value: 4
   bulk: 0

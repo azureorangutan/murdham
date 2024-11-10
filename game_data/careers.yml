@@ -323,13 +323,13 @@
   female_name: messenger
   skills:
   - fleet footed
-  - ride
+  - languages
   items:
   - name: clothes
     descr: dusty and sweaty
   - name: scroll
     descr: sealed letter, no addressee
-  - name: scroll case
+  - name: lockbox & key
   descr: "Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner."
 - male_name: miner
   female_name: miner
@@ -347,12 +347,13 @@
 - male_name: noble
   female_name: noble
   skills:
-  - leadership
+  - consume alcohol
   - poison resistance
   items:
   - name: clothes
     descr: ostentatious fripperies, old and full of holes
-  - name: mirror
+  - name: alcoholic drink
+    descr: good wine, expensive
   - name: signet ring
     descr: proof of your identity
   descr: "Your house has fallen, and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!"

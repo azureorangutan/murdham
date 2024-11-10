@@ -67,12 +67,12 @@ All Player characters can speak Common plus other languages if granted by their 
 Pretty much everyone in the land can speak it.
 
 * _Classic_ is the language of scholars and the Church.
-Erudites from the Kingdom and other countries can speak it and use it to communicate.
 Sacred power scrolls are written in Classic.
+Erudites from the Kingdom and other countries can speak it and use it to communicate.
 
 * _Magick_ is the language of sorcery.
-It is too cryptic and esoteric to be used to actually communicate.
 Profane power scrolls are written using this language.
+It is rumoured to be the language spoken by foul demons.
 
 * Different regions, countries, and people speak a variety of languages.
 Which ones matter depend on the campaign setting.

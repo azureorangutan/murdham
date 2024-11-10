@@ -165,8 +165,8 @@ Nobody is above the law, but you can help those with enough money wiggle through
 == Messenger
 
 Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner. +
-*Skills*: _fleet footed_, _ride_. +
-*Items*: clothes (dusty and sweaty), scroll (sealed letter, no addressee), scroll case.
+*Skills*: _fleet footed_, _languages_. +
+*Items*: clothes (dusty and sweaty), lockbox & key, scroll (sealed letter, no addressee).
 
 == Miner
 
@@ -177,8 +177,8 @@ Crawling through dark, cramped tunnels, breaking rocks and breathing dust, wasn'
 == Noble
 
 Your house has fallen, and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright! +
-*Skills*: _leadership_, _poison resistance_. +
-*Items*: clothes (ostentatious fripperies, old and full of holes), mirror, signet ring (proof of your identity).
+*Skills*: _consume alcohol_, _poison resistance_. +
+*Items*: alcoholic drink (good wine, expensive), clothes (ostentatious fripperies, old and full of holes), signet ring (proof of your identity).
 
 == Outlaw
 
