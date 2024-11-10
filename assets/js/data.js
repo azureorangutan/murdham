@@ -541,13 +541,13 @@ export const careers = [
     description: "Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner.",
     skills: [
       "fleet footed",
-      "ride",
+      "languages",
     ],
     mana: 0,
     items: [
       "clothes (dusty and sweaty)",
       "scroll (sealed letter, no addressee)",
-      "scroll case",
+      "lockbox & key",
     ],
     followers: [
     ],
@@ -580,13 +580,13 @@ export const careers = [
     feminine_name: "Noble",
     description: "Your house has fallen, and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!",
     skills: [
-      "leadership",
+      "consume alcohol",
       "poison resistance",
     ],
     mana: 0,
     items: [
       "clothes (ostentatious fripperies, old and full of holes)",
-      "mirror",
+      "alcoholic drink (good wine, expensive)",
       "signet ring (proof of your identity)",
     ],
     followers: [

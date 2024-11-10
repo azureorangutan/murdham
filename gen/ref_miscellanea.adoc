@@ -3,22 +3,8 @@
 * *Animal skin* (4ʂ).
 Skin of a small animal. Multiply cost by 4 and bulk by 2 for each size above small.
 
-* *Brush & paints* (16ʂ, bulk ½).
-_Consumable_.
-Enough to paint a _canvas_.
-
 * *Cage* (16ʂ, bulk 2).
 Can contain a small character.
-
-* *Canvas* (16ʂ, bulk 2).
-About 1 metre by 1 metre.
-
-* *Censer* (16ʂ, bulk 2).
-Can be used to burn _incense_.
-
-* *Chalk* (1ʂ, bulk ½).
-_Consumable_.
-Enough to write a few markings.
 
 * *Crutch* (4ʂ).
 _Hobbled_ characters can use it to walk.
@@ -26,12 +12,8 @@ _Hobbled_ characters can use it to walk.
 * *Divination tools* (16ʂ, bulk 2).
 Include a crystal ball, tarot cards, divination bones, etc. Used in combination with the _divination_ skill.
 
-* *Incense* (4ʂ, bulk ½).
-_Consumable_.
-Burns for a stretch. _Demons_ are disturbed by it: they must pass a STR save to enter a zone where incense is burning.
-
 * *Junk* (1ʂ).
-Skull, bag of dirt or dung, dirty pillow...
+Skull, bag of dirt or dung, dirty pillow, chalk...
 
 * *Ladder* (4ʂ, bulk 4).
 Climbing it is trivial.
@@ -48,20 +30,11 @@ When you spend an omen, there is 1:4 chance it isn't actually spent. If combined
 * *Manacles & key* (4ʂ).
 Used to bind someone's hands.
 
-* *Metal file* (4ʂ).
-Can cut through metal, with enough time.
-
 * *Mirror* (16ʂ).
 A simple hand mirror.
 
 * *Music instrument* (16ʂ).
-Drums, fiddle, flute, Lyre, Lute, etc.
-
-* *Muzzle* (4ʂ).
-To muzzle a dog or similarly sized animal.
-
-* *Painting* (64ʂ, bulk 2).
-A nice painting.
+Drums, fiddle, flute, lyre, lute, etc.
 
 * *Perfume* (16ʂ, bulk ½).
 _Consumable_.
@@ -77,9 +50,6 @@ Replaces a lost limb. Works as a _crutch_ if it replaces a lost leg.
 
 * *Saddle* (16ʂ, bulk 2).
 Required to ride a mount. Includes saddlebags.
-
-* *Scissors* (4ʂ).
-Used to cut precisely.
 
 * *Sealing wax* (4ʂ, bulk ½).
 _Consumable_.

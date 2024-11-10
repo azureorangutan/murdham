@@ -67,20 +67,21 @@ Two such effects can stack together to let characters completely ignore terror a
 == Poison
 
 Characters exposed to poison must pass a STR save or suffer its effect.
-If exposed to the same poison a second time during the same stretch, or to two doses at once, the effect is automatic.
+Every type of poison has a delivery method and an effect.
 
-Poison delivery methods:
+*Delivery methods*:
 
 * *Bloodstream*.
 The poison must enter the victim's blood.
-Weapons and sharp objects can be coated with one or two doses of the poison, which are delivered on the first attack inflicting at least 1 damage.
-Coating a weapon with poison takes a round.
+You can coat a sharp weapon or item with the poison in a round.
+The dose is delivered on the first attack inflicting at least 1 damage, after reduction.
 
 * *Ingestion*.
 The poison must be ingested.
-If mixed with food or drinks, characters can passively detect that something is wrong by passing a WIT save unless the food or drink have very strong taste and smell.
+If mixed with food or drinks, characters can detect that something is wrong before consuming it by passing a WIT save.
+However, if the food or drink have a very strong taste, it might be impossible to detect the poison.
 
-Poison effects:
+*Effects*:
 
 * *Damaging*.
 Victims must take an _antidote_ by the end of the stretch or suffer d12 direct damage.

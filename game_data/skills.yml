@@ -57,6 +57,9 @@ climb: >
   Proficient at climbing.
   Your attacks aren't impaired while climbing.
   You reduce falling distances by 2 metres to determine how much damage you suffer.
+consume alcohol: >
+  You are used to drink large amount of ale, wine, and spirits, and can drink most other people under the table.
+  When you consume an _alcoholic drink_, you don't risk becoming _groggy_.
 contortionist: >
   Your joints are extremely flexible and you can bend your body in absurd shapes.
   You can squeeze through small openings and easily escape bonds.
@@ -183,13 +186,12 @@ play games: >
   Your cheating attempts are always successful unless your opponents are paying close attention to you.
   People might still get suspicious if you win too much.
 poison resistance: >
-  You are resistant to alcohol, poisons, and drugs.
-  You may choose to ignore the first dose taken within a stretch.
-  As per the usual rules, you can resist a second dose with a STR save, and a third dose works automatically.
+  You have grown resistant to toxins through repeated exposition.
+  You automatically resist the first dose of poison you take within a stretch.
 poisons: >
+  Proficient at identifying poison in food and drinks.
   You can craft all kinds of poisons using _apothecary tools_.
-  You are able to identify the presence of most types of poisons in food and drinks.
-  Knowledgeable about different types of poisons, their effect, how to neutralise them...
+  Knowledgeable about different types of poisons, their effect and symptoms...
 political lore: >
   You are literate.
   You can speak Classic.

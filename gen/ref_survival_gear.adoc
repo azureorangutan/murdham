@@ -10,7 +10,8 @@ Enough for a day rest.
 
 * *Alcoholic drink* (4ʂ, bulk ½).
 _Consumable_.
-Recover 1 health, but not if you are _dying_. Pass a STR save or become _groggy_ until the end of the stretch. Automatically fail if you drink 2 within a stretch.
+Recover 1 health unless you are _dying_. Pass a STR save or become _groggy_ until the end of the stretch.
+
 
 * *Camping kit* (16ʂ, bulk 2).
 Includes a bedroll, blankets, and tent space for one person. Necessary to sleep in the wilderness.
