@@ -1,15 +1,19 @@
 == Combat gear
 
 * *Bear trap* (16ʂ, bulk 2).
-Placing it or picking it up is a main action, concealing it takes a stretch. Characters stepping on it suffer d6 damage and are _entangled_.
+Placing it or picking it up takes a round, concealing it takes a stretch. Characters stepping on it suffer d6 damage and are _entangled_.
+
 
 * *Caltrops* (16ʂ).
-As a main action, can be spread in a nearby zone, which counts as difficult ground. Picking them up takes a stretch.
+Can be spread in a nearby zone in a round, which then counts as difficult ground. Picking them up takes a stretch.
+
 
 * *Net* (16ʂ).
-Throw it on an enemy: they are _entangled_.
+Target a nearby enemy: they are _entangled_.
+
 
 * *Smoke bomb* (16ʂ, bulk ½).
 _Consumable_.
-Throw it at range 2. All zones within range 1 of the targeted one are covered in thick smoke, blocking visibility until the end of the stretch.
+Throw it at range 2. All zones within range 1 are covered in thick smoke, blocking visibility until the end of the stretch.
+
 

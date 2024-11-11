@@ -2,27 +2,32 @@
 
 * *Medicine box* (16ʂ).
 _Consumable_.
-Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.
+Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.'
+
 
 * *Healing draught* (64ʂ, bulk ½).
 _Consumable_.
 Recover health equal to half STR.
 
+
 * *Antidote* (16ʂ, bulk ½).
 _Consumable_.
 Stops the effects of poison. 1:4 chance it doesn't work.
 
-* *Cure-all* (16ʂ, bulk ½).
+
+* *Cure* (16ʂ, bulk ½).
 _Consumable_.
 Take it before a recovery roll to pass. 1:4 chance it doesn't work.
 
+
 * *Medicinal herbs* (16ʂ, bulk ½).
 _Consumable_.
-If you have the _apothecary_ skill, consume to craft a _medicine box_, _antidote_, or _cure-all_ in a single round using _apothecary tools_ by passing a WIT save. On a fail, the _medicinal herbs_ are wasted.
+If you have the _apothecary_ skill, consume to craft a _medicine box_, _antidote_, or _cure_ in a single round using _apothecary tools_ by passing a WIT save. On a fail, the _medicinal herbs_ are wasted.
 
 
 * *Apothecary tools* (16ʂ, bulk 2).
 Includes mortar, pestle, scales, glassware, etc. Used in combination with the _craft medicine_ and _craft poison_ skills.
+
 
 * *Surgical tools* (16ʂ, bulk 2).
 Include hacksaws, scalpels, knifes, stitches, etc. Performing a surgery or stitching up a _bleeding_ character takes a stretch and requires passing a WIT save. On a failure the patient suffers d8 direct damage.

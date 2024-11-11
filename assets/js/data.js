@@ -132,7 +132,7 @@ export const careers = [
       "simple hand weapon (bullwhip)",
     ],
     followers: [
-      "wolf (Lucius, bites anyone else approaching too close)",
+      "wolf (Lucius, tamed, bites anyone else approaching too close)",
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
@@ -287,7 +287,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (comfortable and with generous pockets)",
-      "lock picks",
+      "lockpicks",
     ],
     followers: [
     ],
@@ -488,7 +488,7 @@ export const careers = [
       "saddle",
     ],
     followers: [
-      "light horse (Bartadan, trained for combat, old and lame: permanent <i>hobbled</i> condition)",
+      "light horse (Bartadan, trained as a mount and for combat, old and lame: permanent <i>hobbled</i> condition)",
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
@@ -520,7 +520,7 @@ export const careers = [
     description: "Nobody is above the law, but you can help those with enough money wiggle through its many loopholes.",
     skills: [
       "charm",
-      "political lore",
+      "politics",
     ],
     mana: 0,
     items: [
@@ -596,25 +596,6 @@ export const careers = [
     money: 0,
   },
   {
-    masculine_name: "Outlaw",
-    feminine_name: "Outlaw",
-    description: "The hills and woods are teeming with people escaping the law, such as yourself.",
-    skills: [
-      "bushcraft",
-      "skilled shot",
-    ],
-    mana: 0,
-    items: [
-      "clothes (greenish cloak)",
-      "missile great weapon (bow)",
-    ],
-    followers: [
-    ],
-    sacred_scrolls: 0,
-    profane_scrolls: 0,
-    money: 0,
-  },
-  {
     masculine_name: "Peasant",
     feminine_name: "Peasant",
     description: "Your life was simple: growing crops and tending to livestock, trying to put enough food on the table to survive another winter.",
@@ -666,7 +647,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (spotless black coat)",
-      "cure-all",
+      "cure",
       "medicine box",
     ],
     followers: [
@@ -747,7 +728,7 @@ export const careers = [
       "trapping tools",
     ],
     followers: [
-      "small dog (Brutus, trained to hunt rats, small but vicious)",
+      "small dog (Brutus, trained to hunt, especially rats, small but vicious)",
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
@@ -817,8 +798,8 @@ export const careers = [
     feminine_name: "Soldier",
     description: "You have fought for the Kingdom and seen the horrors of war, the nightmares will never stop.",
     skills: [
-      "cleave",
       "skilled blow",
+      "skilled shot",
     ],
     mana: 0,
     items: [
@@ -930,6 +911,25 @@ export const careers = [
     money: 0,
   },
   {
+    masculine_name: "Woodsman",
+    feminine_name: "Woodswoman",
+    description: "You used to live in the forest, felling trees for timber.",
+    skills: [
+      "bushcraft",
+      "tough",
+    ],
+    mana: 0,
+    items: [
+      "clothes (greenish cloak)",
+      "simple great weapon (woodcutting axe)",
+    ],
+    followers: [
+    ],
+    sacred_scrolls: 0,
+    profane_scrolls: 0,
+    money: 0,
+  },
+  {
     masculine_name: "Zealot",
     feminine_name: "Zealot",
     description: "You have a dark past and many sins to atone for: you are going to save your soul by purging the heretic!",
@@ -957,7 +957,7 @@ export const starting_items = [
   ["smoke bomb", 0],
   ["bear trap", 0],
   ["caltrops", 0],
-  ["helmet", 0],
+  ["alchemist's fire", 0],
   ["warm clothes (comfortable fur cloak)", 0],
   ["beastman blood", 0],
   ["butterfly sting", 0],

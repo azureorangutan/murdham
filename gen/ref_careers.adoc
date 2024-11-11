@@ -39,7 +39,7 @@ A sharp razor and a steady hand are required for both a clean shave and delicate
 There is no beast you can't break and train to obedience. +
 *Skills*: _animal handling_, _dodge blows_. +
 *Items*: clothes (numerous claw marks), simple hand weapon (bullwhip). +
-*Followers*: wolf (Lucius, bites anyone else approaching too close).
+*Followers*: wolf (Lucius, tamed, bites anyone else approaching too close).
 
 == Beggar
 
@@ -87,7 +87,7 @@ Your fists are deadly weapons: nobody is stronger than you! +
 
 There is no lock you can't open and no safe you can't crack. +
 *Skills*: _burglary_, _pack rat_. +
-*Items*: clothes (comfortable and with generous pockets), lock picks.
+*Items*: clothes (comfortable and with generous pockets), lockpicks.
 
 == Charlatan
 
@@ -148,7 +148,7 @@ You have spent your life making a fool of yourself to entertain the nobles, but 
 With your honour lost and no coin left to your name, you wander on your steed, selling your sword for money. +
 *Skills*: _ride_, _skilled blow_. +
 *Items*: clothes (colourful livery), saddle. +
-*Followers*: light horse (Bartadan, trained for combat, old and lame: permanent _hobbled_ condition).
+*Followers*: light horse (Bartadan, trained as a mount and for combat, old and lame: permanent _hobbled_ condition).
 
 == Labourer
 
@@ -159,7 +159,7 @@ Your bones and muscles have been hardened by years of toiling under sun and rain
 == Lawyer
 
 Nobody is above the law, but you can help those with enough money wiggle through its many loopholes. +
-*Skills*: _charm_, _political lore_. +
+*Skills*: _charm_, _politics_. +
 *Items*: book (Laws of the Kingdom), clothes (court attire), 2× ration (cooked capon, payment received from a customer).
 
 == Messenger
@@ -180,12 +180,6 @@ Your house has fallen, and you must now mingle with the lowly scum, but the day 
 *Skills*: _consume alcohol_, _poison resistance_. +
 *Items*: alcoholic drink (good wine, expensive), clothes (ostentatious fripperies, old and full of holes), signet ring (proof of your identity).
 
-== Outlaw
-
-The hills and woods are teeming with people escaping the law, such as yourself. +
-*Skills*: _bushcraft_, _skilled shot_. +
-*Items*: clothes (greenish cloak), missile great weapon (bow).
-
 == Peasant
 
 Your life was simple: growing crops and tending to livestock, trying to put enough food on the table to survive another winter. +
@@ -203,7 +197,7 @@ You made a small fortune transporting and trading exotic goods, but you lost eve
 
 You are an erudite doctor, knowledgeable about poison, disease, surgery, and healing. +
 *Skills*: _heal_, _medicine_. +
-*Items*: clothes (spotless black coat), cure-all, medicine box.
+*Items*: clothes (spotless black coat), cure, medicine box.
 
 == Pit fighter
 
@@ -228,7 +222,7 @@ You have travelled far and wide across the kingdom, singing songs and acting out
 Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting larger and nastier by the day. +
 *Skills*: _disease resistance_, _poison resistance_. +
 *Items*: clothes (partly made of rat fur), trapping tools. +
-*Followers*: small dog (Brutus, trained to hunt rats, small but vicious).
+*Followers*: small dog (Brutus, trained to hunt, especially rats, small but vicious).
 
 == Scholar
 
@@ -251,7 +245,7 @@ There is good pay for slaying giant monsters: it's a dangerous job, but you are 
 == Soldier
 
 You have fought for the Kingdom and seen the horrors of war, the nightmares will never stop. +
-*Skills*: _cleave_, _skilled blow_. +
+*Skills*: _skilled blow_, _skilled shot_. +
 *Items*: clothes (uniform from your regiment, has seen better days), martial great weapon (halberd).
 
 == Soothsayer
@@ -283,6 +277,12 @@ Warlocks, witches, and sorcerers are a threat to mankind: they are destined to m
 You are a secretive scholar of the esoteric arts: many fear you, and with good reason. +
 *Skills*: _meditation_, _sorcery_. +
 *Items*: clothes (comfortable robes), 2× power scroll (profane).
+
+== Woodsman
+
+You used to live in the forest, felling trees for timber. +
+*Skills*: _bushcraft_, _tough_. +
+*Items*: clothes (greenish cloak), simple great weapon (woodcutting axe).
 
 == Zealot
 

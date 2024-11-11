@@ -1,25 +1,24 @@
 ---
-title: Character Creation
-weight: 14
-prev: /rules/basic_concepts
-next: /rules/abilities
+title: Player Characters
+weight: 30
+prev: /rules/core_rules
+next: /rules/careers
 ---
 :toc:
 
-== Creating a random character
+== Creating a Player character
 
-By default, characters are created randomly.
+Player characters are created randomly, but feel free to discuss with the GM if you wish to change some details.
 You can follow the process below step by step or use the online link:../../character_generator[Character Generator].
-If you wish to change some parts of your rolled character (abilities, career...) discuss with the GM.
 
 . *Abilities*.
-Roll on the <<tb_starting_ability_scores>> to determine an array of three scores and assign them randomly to the three abilities: Strength (STR), Agility (AGI), and Wits (WIT).
+Roll on the <<tb_starting_ability_scores>> to determine an array of three scores and assign them randomly to the three abilities.
 
-** Roll a d3 to assign the highest score: 1) STR; 2) AGI; 3) WIT.
+.. Roll a d3 to assign the highest score: 1) STR; 2) AGI; 3) WIT.
 
-** Roll a d2 to assign the middle score to one of the remaining abilities, skipping over the one which was already assigned.
+.. Roll a d2 to assign the middle score to one of the remaining abilities, skipping over the one which was already assigned.
 
-** Finally, assign the lowest score to the last remaining ability.
+.. Finally, assign the lowest score to the last remaining ability.
 
 . *Career*.
 Determine your past career by rolling on the <<tb_careers>> table.
@@ -27,10 +26,10 @@ Check its description in the link:../careers[Careers] chapter.
 Re-roll if you get the same career as another Player.
 
 . *Skills*. You start with two skills granted by your career.
-Check their description in the link:../skills[Skills] chapter.
+Check their description in the link:../skills_traits_and_conditions[Skills, Traits, & Conditions] chapter.
 
 . *Assets*.
-You start with d8 shillings (ʂ), the items and followers granted by your career, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
+You start with d8ʂ, the items and followers granted by your career, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
 If you start with one or more sacred or profane _power scrolls_, roll on the <<tb_sacred_powers>> or <<tb_profane_powers>> tables respectively to determine what power they contain.
 Re-roll if you get the same result as another Player on any table.
 
@@ -41,6 +40,10 @@ Your armour value depends on your starting items.
 . *Name and description*.
 Name and portray your character using words, drawings, or a combination of the two, as you prefer.
 You can roll on the <<tb_masculine_first_names>>, <<tb_feminine_first_names>>, <<tb_last_names>>, <<tb_appearance>>, <<tb_personality>>, and <<tb_reasons_to_adventure>> tables if you need inspiration.
+
+After all Player characters have been created, describe how they know each other.
+Go around the table and define a relationship for each pair of Players sitting next to each other, excluding the last pair.
+You can roll on the <<tb_relationships>> table for inspiration.
 
 ++++
 {{% details title="Example" closed="true" %}}
@@ -74,12 +77,18 @@ His character's starting abilities are therefore: **STR** 6, **AGI** 11, **WIT**
 ++++
 
 
-== Company relationships
+== Character advancement
 
-After all characters have been created, describe how they know each other.
-You can roll on the <<tb_relationships>> table if you need inspiration.
-You don't have to do this for every possible pair of characters, but you should make sure that everyone is connected.
-For example, you can go around the table and define a connection for each pair of Players sitting next to each other, excluding the last pair.
+During a campaign, the GM may grant the Player characters an advancement when they achieve significant progress, for example at the end of a scenario or when certain milestones or objectives are reached.
+
+* At odd advancements (1st, 3rd, 5th, 7th, 9th, etc.), characters permanently increase their abilities by a total of 2 points.
+Remember that no ability can exceed 15 for humans, or 19 in general.
+
+* At even advancements (2nd, 4th, 6th, 8th, 10th, etc.), characters gain a new skill of their choice.
+They must be able to reasonably explain how they have learnt it (a mentor, past experiences, etc.).
+
+* Characters with the _sorcery_ skill can increase their mana by 1 instead of taking the standard advancement.
+Mana can't exceed 6.
 
 
 == Character creation tables

@@ -1,20 +1,17 @@
 *Bone raven* +
-a dead raven, empty-eyed, bones carrying rotting flesh. +
-*STR* 4, *AGI* 6, *WIT* 2 +
-_Small undead_, _mindless_. +
+A dead raven, empty-eyed, bones carrying rotting flesh. +
+*STR* 4, *AGI* 6, *WIT* 2, *Size* small +
 *Natural weapon*: beak & talons (d6). +
-*Traits*: _fast_, _swooping flyer_, _frightening_.
+*Traits*: _fast_, _frightening_, _immunity (corruption, disease, poison)_, _mindless_, _flyer (swooping)_, _undead_.
 
 *Shambling corpse* +
-a corpse reanimated by dark magic, left to rot. +
+A corpse reanimated by dark magic, left to rot. +
 *STR* 8, *AGI* 4, *WIT* 2 +
-_Medium undead_, _mindless_. +
-*Traits*: _frightening_.
+*Traits*: _frightening_, _immunity (corruption, disease, poison)_, _mindless_, _undead_.
 
 *Skeletal warrior* +
-an ancient body awakened to serve as an immortal warrior. +
+An ancient body awakened to serve as an immortal warrior. +
 *STR* 8, *AGI* 4, *WIT* 2 +
-_Medium undead_, _mindless_. +
-*Items*: martial hand weapon, shield. +
-*Traits*: _frightening_.
+*Items*: martial hand weapon (d6), shield. +
+*Traits*: _frightening_, _immunity (corruption, disease, poison)_, _mindless_, _undead_.
 

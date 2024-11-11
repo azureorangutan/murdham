@@ -78,7 +78,7 @@
     descr: bullwhip
   followers:
   - name: wolf
-    descr: Lucius, bites anyone else approaching too close
+    descr: Lucius, tamed, bites anyone else approaching too close
   descr: "There is no beast you can't break and train to obedience."
 - male_name: beggar
   female_name: beggar
@@ -167,7 +167,7 @@
   items:
   - name: clothes
     descr: comfortable and with generous pockets
-  - name: lock picks
+  - name: lockpicks
   descr: "There is no lock you can't open and no safe you can't crack."
 - male_name: charlatan
   female_name: charlatan
@@ -289,7 +289,7 @@
   - name: saddle
   followers:
   - name: light horse
-    descr: "Bartadan, trained for combat, old and lame: permanent _hobbled_ condition"
+    descr: "Bartadan, trained as a mount and for combat, old and lame: permanent _hobbled_ condition"
   descr: "With your honour lost and no coin left to your name, you wander on your steed, selling your sword for money."
 - male_name: labourer
   female_name: labourer
@@ -308,7 +308,7 @@
   female_name: lawyer
   skills:
   - charm
-  - political lore
+  - politics
   items:
   - name: clothes
     descr: court attire
@@ -357,17 +357,6 @@
   - name: signet ring
     descr: proof of your identity
   descr: "Your house has fallen, and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!"
-- male_name: outlaw
-  female_name: outlaw
-  skills:
-  - bushcraft
-  - skilled shot
-  items:
-  - name: clothes
-    descr: greenish cloak
-  - name: missile great weapon
-    descr: bow
-  descr: "The hills and woods are teeming with people escaping the law, such as yourself."
 - male_name: peasant
   female_name: peasant
   skills:
@@ -403,7 +392,7 @@
   items:
   - name: clothes
     descr: spotless black coat
-  - name: cure-all
+  - name: cure
   - name: medicine box
   descr: "You are an erudite doctor, knowledgeable about poison, disease, surgery, and healing."
 - male_name: pit fighter
@@ -454,7 +443,7 @@
   - name: trapping tools
   followers:
   - name: small dog
-    descr: Brutus, trained to hunt rats, small but vicious
+    descr: Brutus, trained to hunt, especially rats, small but vicious
   descr: "Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting larger and nastier by the day."
 - male_name: scholar
   female_name: scholar
@@ -494,8 +483,8 @@
 - male_name: soldier
   female_name: soldier
   skills:
-  - cleave
   - skilled blow
+  - skilled shot
   items:
   - name: clothes
     descr: uniform from your regiment, has seen better days
@@ -559,6 +548,17 @@
   - name: power scroll
     descr: profane
   descr: "You are a secretive scholar of the esoteric arts: many fear you, and with good reason."
+- male_name: woodsman
+  female_name: woodswoman
+  skills:
+  - bushcraft
+  - tough
+  items:
+  - name: clothes
+    descr: greenish cloak
+  - name: simple great weapon
+    descr: woodcutting axe
+  descr: "You used to live in the forest, felling trees for timber."
 - male_name: zealot
   female_name: zealot
   skills:

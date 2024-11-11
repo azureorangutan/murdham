@@ -1,6 +1,6 @@
 ---
 title: Murdham Rules
-next: /rules/basic_concepts
+next: /rules/introduction
 ---
 :toc:
 

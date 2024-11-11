@@ -1,25 +1,23 @@
 profane powers:
 - name: animal shape
-  descr: Target a _creature_, who turns into a medium-sized animal of your choice. You must carry the skin, feathers, scales, or shell of the chosen animal, which envelop and merge with the target during the transformation and returns to its previous state when the spell ends. The target keeps WIT and intelligence level, but can't speak. The spell doesn't influence the target's equipment, which simply falls to the ground.
+  descr: Target a creature, who turns into a medium-sized animal of your choice. You must carry the skin, feathers, scales, or shell of the chosen animal, which envelop and merge with the target during the transformation and return to its previous state when the spell ends. The target keeps WIT and intelligence level, but can't speak. The spell doesn't influence the target's equipment, which simply falls to the ground.
   range: Personal
   duration: Stretch
   enhancements:
   - - 2
     - Turn into a _small_ or _large_ animal. By applying this enhancement twice, you can turn into a _tiny_ or _massive_ animal.
 - name: arcane lock
-  descr: Target an item which can be opened and closed, such as a door, a box, or a bottle. The target can only be opened by a trigger of your choice (a password, a gesture, contact with a specific item...).
+  descr: Target an item which can be opened and closed, such as a door, a box, or a bottle. The target can only be opened by a trigger of your choice (a password, a gesture, contact with a specific item, etc.).
   range: Near
   duration: Stretch
   enhancements:
   - - 1
     - The target emits a loud sound if someone attempts to open it without using the proper method.
 - name: bewitch
-  descr: 'Target a creature. The target attitude towards you improves by a step: hostile to unfriendly, unfriendly to neutral, neutral to friendly, friendly to infatuated (see the Encounters chapter).'
+  descr: 'Target a creature. The target becomes infatuated with you: they will behave in a friendly and open way.'
   range: Near
   duration: Stretch
   enhancements:
-  - - 1
-    - Improve the attitude by an additional step
   - - 1
     - Target another creature, who replaces you as the one towards whom attitude is improved.
 - name: burning vengeance
@@ -36,7 +34,7 @@ profane powers:
   - - 1
     - The attack gains the _blast_ property.
 - name: false death
-  descr: 'Target a _creature_. The target falls like a string-less puppet and appears dead, even upon close examination. However, they are still very much alive: they can perceive their surroundings and must breathe, eat, and drink to survive.'
+  descr: 'Target a creature. The target falls like a string-less puppet and appears dead, even upon close examination. However, they are still very much alive: they can perceive their surroundings and must breathe, eat, and drink to survive.'
   range: Near
   duration: Stretch
 - name: fiery taste
@@ -44,20 +42,20 @@ profane powers:
   range: Near
   duration: Stretch
 - name: flawed resurrection
-  descr: Target the lifeless heart of a _creature_ who died no longer than a stretch ago. A new body forms around the heart and the target's spirit is called back to inhabit it, effectively resurrecting them. The regeneration process takes a day and the new body is different from the original both in appearance and capabilities. STR and AGI are equal to the average (8 for humans, what's indicated in their profile for other creatures) minus d3. WIT, skills, intelligence, and personality don't change. Once the resurrection is complete, the target immediately suffers 4 corruption.
+  descr: Target the lifeless heart of a creature who died no longer than a stretch ago. A new body forms around the heart and the target's spirit is called back to inhabit it, effectively resurrecting them. The regeneration process takes a day and the new body is different from the original both in appearance and capabilities. STR and AGI are equal to the average (8 for humans, what's indicated in their profile for other creatures) minus d3. WIT, skills, intelligence, and personality don't change. Once the resurrection is complete, the target immediately suffers 4 corruption.
   range: Near
   duration: Instant
   enhancements:
   - - 2
     - 'Accelerate the regeneration process: from a day to a watch, then from a watch to a stretch.'
   - - 2
-    - 'Target a _creature_ who died longer than a stretch ago: from a stretch to a watch, from a watch to a day.'
+    - 'Target a creature who died longer than a stretch ago: from a stretch to a watch, from a watch to a day.'
 - name: gift of speech
-  descr: Target a creature with animal intelligence or human intelligence. The target gains the ability to speak your language.
+  descr: Target a creature, who gains the ability to speak your language.
   range: Near
   duration: Stretch
 - name: hold secret
-  descr: Target a _creature_ of _human intelligence_ and name a topic. The target is physically unable to talk about the topic, and if forced to, they will compulsively lie.
+  descr: Target a creature of human intelligence and name a topic. The target is physically unable to talk about the topic, and will compulsively lie if forced to.
   range: Near
   duration: Stretch
 - name: illusion
@@ -65,16 +63,16 @@ profane powers:
   range: Near
   duration: Stretch
 - name: joyous appearance
-  descr: Target a _creature_. The target's appearance becomes perfect and free of any blemish. Signs of disease, affliction, old age, and mutation completely disappear. The appearance might in fact be too perfect, almost uncanny (the skin is too smooth, the cheeks are too rosy...). The change in appearance is real, not an illusion, but any underlying illness or problem isn't cured and still has effect.
+  descr: Target a creature. The target's appearance becomes perfect and free of any blemish. Signs of disease, affliction, old age, and mutation completely disappear. The appearance might in fact be too perfect, almost uncanny (the skin is too smooth, the cheeks are too rosy, etc.). The change in appearance is real, not an illusion, but any underlying illness or problem isn't cured and still has effect.
   range: Near
   duration: Stretch
 - name: levitation
-  descr: Target a creature. The target temporarily gains the _landing flyer_ trait.
+  descr: Target a creature. The target temporarily gains the _flyer (landing)_ trait.
   range: Personal
   duration: Stretch
   enhancements:
   - - 1
-    - 'Improve flying by a category: _landing flyer_ to _swooping flyer_, _swooping flyer_ to _hovering flyer_.'
+    - 'Improve flying by a category: landing to swooping, swooping to hovering.'
 - name: miasma of chaos
   descr: Target a small zone. The area is filled with red mist flowing from the ground. Characters entering or starting their turn in the affected area suffer 1 corruption. The mist blocks visibility.
   range: Near
@@ -100,7 +98,7 @@ profane powers:
   range: Near
   duration: Stretch
 - name: radiant honesty
-  descr: Target a _creature_ of _human intelligence_. The target is unable to lie, but also exudes trustworthiness and reduces the difficulty of persuasion attempts.
+  descr: Target a creature of human intelligence. The target is unable to lie, but also exudes trustworthiness and automatically succeed at reasonable persuasion attempts.
   range: Near
   duration: Stretch
 - name: reanimate corpse
@@ -115,7 +113,7 @@ profane powers:
   range: Near
   duration: Stretch
 - name: star sign
-  descr: Target a celestial body (the Sun, the Moon, a planet, a star...) at any range. You can subtly alter its appearance (make it slightly larger, smaller, brighter, darker...). You can keep altering appearance as long as you concentrate, otherwise it remains as you left it until the spell is over. Characters with the _erudition_ skill can tell something is different, even if subtle. It is said that some wizards use this spell to encode messages in the stars.
+  descr: Target a celestial body (the Sun, the Moon, a planet, a star, etc.) at any range. You can subtly alter its appearance (make it slightly larger, smaller, brighter, darker, etc.). You can keep altering appearance as long as you concentrate, otherwise it remains as you left it until the spell is over. Characters with the _erudition_ skill can tell something is different, even if subtle. It is said that some wizards use this spell to encode messages in the stars.
   range: Sight
   duration: Stretch
   enhancements:
@@ -133,7 +131,7 @@ profane powers:
   range: Personal
   duration: Stretch
 - name: wood shape
-  descr: Target a _creature_. The target turns into a tree. They are still able to perceive their surroundings.
+  descr: Target a creature. The target turns into a tree. They are still able to perceive their surroundings.
   range: Near
   duration: Stretch
 sacred powers:
