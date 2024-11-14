@@ -1,15 +1,27 @@
-== Trait list
+== Traits
 
 * *Addicted*.
-The character is addicted to a specific substance. On a day rest, they must consume it or temporarily reduce WIT by 1. On a full rest, they must consume 4 units of it or temporarily reduce WIT by 1 for each missing unit.
+The character is addicted to a specific substance. On a daily rest, they must consume it or temporarily reduce WIT by 1. On a full rest, they must consume 4 units of it or temporarily reduce WIT by 1 for each missing unit after the rest.
+
+
+* *Beast*.
+The character has animal-level intelligence and mostly behaves according to instinct.
 
 
 * *Corrupting*.
 Anyone touched by this character suffers the indicated amount of corruption. This includes targets of melee attacks, unless they successfully dodge.
 
 
+* *Demon*.
+The character is a dark being of pure chaos manifested in the material world. It isn't _incapacitated_ by critical damage, but is vanquished if reduced to 0 health. It's spirit isn't destroyed, but returns to where it came from.
+
+
 * *Fast*.
 The character moves at double speed.
+
+
+* *Flyer*.
+The character can fly. There are three categories of flyers: landers can't attack and stay still while flying; swoopers can attack but can't stay still; hoverers can attack and stay still.
 
 
 * *Frail*.
@@ -20,12 +32,12 @@ The character halves carry limit and bulk.
 The character causes fear within range 4. They are immune to _frightening_ characters and treats _terrifying_ characters as _frightening_.
 
 
-* *Hovering flyer*.
-The character can fly, and can attack and stay still while flying.
+* *Immunity*.
+The character is completely immune to the listed hazards (such as poison, disease, fire, corruption, etc.).
 
 
-* *Landing flyer*.
-The character can fly, but can't attack and can't stay still while flying.
+* *Mindless*.
+The character has no actual intelligence, such as an automaton or a flesh puppet. Behaves in a very restricted way, following some sort of '`programming`'. Is immune to mind control, fear, terror, and other mental effects.
 
 
 * *Mutation*.
@@ -49,18 +61,18 @@ The character moves at half speed.
 
 
 * *Split*.
-When they suffers critical damage, the character splits into two copies of themselves, each with health equal to the remaining amount and STR to match.
+After suffering critical damage, the character splits into two copies, each one with health equal to the remaining amount and STR to match.
 
 
 * *Sturdy*.
 The character doubles carry limit and bulk.
 
 
-* *Swooping flyer*.
-The character can fly, and can attack while flying, but can't stay still while flying.
-
-
 * *Terrifying*.
 The character causes terror within range 4. They are immune to _frightening_ and _terrifying_ characters.
+
+
+* *Undead*.
+The character is neither alive nor dead. It doesn't need to eat, drink, sleep, breathe, or rest. It isn't _incapacitated_ by critical damage, but is destroyed if reduced to 0 health.
 
 

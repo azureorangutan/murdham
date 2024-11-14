@@ -1,33 +1,35 @@
 demons:
 - name: The Bloodletter
   descr: A large horned man brandishing a giant sword, his skin constantly exuding fresh blood. Collects the skulls of slain mortals.
-  kind: Demon
   size: Medium
-  intelligence: HumanIntelligence
   str: 16
-  agi: 4
+  agi: 8
   wit: 8
   skills:
   - skilled blow
   - brawling
   traits:
+  - name: demon
   - name: frightening
+  - name: immunity
+    descr: corruption, disease, poison
   - name: permanent condition
     descr: frenzied
   items:
   - name: martial great weapon
-    descr: demonic greatsword
+    descr: master-crafted, demonic greatsword
 - name: The Corrupter
   descr: Takes the form of the most attractive creature which the observer can possibly imagine. Wants to corrupt the pure.
-  kind: Demon
   size: Medium
-  intelligence: HumanIntelligence
   str: 8
   agi: 8
-  wit: 12
+  wit: 16
   skills:
   - charm
   traits:
+  - name: demon
+  - name: immunity
+    descr: corruption, disease, poison
   - name: power
     descr: bewitch -- 4 EP
   natural_weapons:
@@ -37,18 +39,19 @@ demons:
       - Grab
 - name: The Horror
   descr: A mess of flesh and bones, shifting in shape and bright colours. Sees mortals as clay to be mould.
-  kind: Demon
   size: Medium
-  intelligence: HumanIntelligence
   str: 8
-  agi: 12
+  agi: 16
   wit: 8
   skills:
   - dodge blows
   traits:
   - name: corrupting
     descr: 2
+  - name: demon
   - name: frightening
+  - name: immunity
+    descr: corruption, disease, poison
   - name: split
   natural_weapons:
   - - claws
@@ -59,20 +62,21 @@ demons:
       - !Range 8
 - name: The Plague Brewer
   descr: A skull-faced man with horribly bloated skin, covered in pustules and boils. Creates new diseases and experiments on humans.
-  kind: Demon
   size: Medium
-  intelligence: HumanIntelligence
-  str: 8
+  str: 12
   agi: 4
-  wit: 8
+  wit: 12
   skills:
   - apothecary
   - poisons
   traits:
+  - name: demon
   - name: frightening
+  - name: immunity
+    descr: corruption, disease, poison
   natural_armour:
   - bloated flesh
-  - 1
+  - 2
   items:
   - name: clothes
     descr: filthy hooded cloak
@@ -85,13 +89,12 @@ demons:
 domesticated animals:
 - name: camel
   cost: 128
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 12
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   - name: sturdy
   natural_weapons:
@@ -99,118 +102,110 @@ domesticated animals:
     - damage: D4
 - name: cat
   cost: 16
-  kind: Creature
   size: Small
-  intelligence: AnimalIntelligence
   str: 4
   agi: 12
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - bite & claws
     - damage: D6
 - name: cattle
   cost: 128
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 16
   agi: 4
   wit: 8
   traits:
+  - name: beast
   - name: sturdy
   natural_weapons:
   - - hooves & horns
     - damage: D6
 - name: chicken
   cost: 4
-  kind: Creature
   size: Small
-  intelligence: AnimalIntelligence
   str: 4
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - beak
     - damage: D4
 - name: small dog
   cost: 8
-  kind: Creature
   size: Small
-  intelligence: AnimalIntelligence
   str: 4
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - bite
     - damage: D6
 - name: medium dog
   cost: 32
-  kind: Creature
-  size: Medium
-  intelligence: AnimalIntelligence
-  str: 4
+  size: Small
+  str: 8
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - bite
     - damage: D6
 - name: large dog
   cost: 64
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 8
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - bite
     - damage: D6
 - name: donkey
   cost: 32
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 8
   agi: 4
   wit: 8
   traits:
+  - name: beast
   - name: sturdy
   natural_weapons:
   - - hooves
     - damage: D6
 - name: duck
   cost: 8
-  kind: Creature
   size: Small
-  intelligence: AnimalIntelligence
   str: 4
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
-  - name: swooping flyer
+  - name: flyer
+    descr: swooping
   natural_weapons:
   - - beak
     - damage: D4
 - name: light horse
   cost: 256
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 12
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   - name: sturdy
   natural_weapons:
@@ -218,13 +213,12 @@ domesticated animals:
     - damage: D6
 - name: heavy horse
   cost: 512
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 16
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   - name: sturdy
   natural_weapons:
@@ -232,22 +226,19 @@ domesticated animals:
     - damage: D6
 - name: mule
   cost: 64
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 12
   agi: 4
   wit: 8
   traits:
+  - name: beast
   - name: sturdy
   natural_weapons:
   - - hooves
     - damage: D6
 - name: pig
   cost: 4
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 4
   agi: 4
   wit: 8
@@ -256,27 +247,26 @@ domesticated animals:
     - damage: D4
 - name: pigeon
   cost: 4
-  kind: Creature
-  size: Small
-  intelligence: AnimalIntelligence
-  str: 2
+  size: Tiny
+  str: 4
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
-  - name: swooping flyer
+  - name: flyer
+    descr: swooping
   natural_weapons:
   - - beak
     - damage: D4
 - name: pony horse
   cost: 128
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 8
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   - name: sturdy
   natural_weapons:
@@ -284,22 +274,19 @@ domesticated animals:
     - damage: D6
 - name: rabbit
   cost: 4
-  kind: Creature
   size: Small
-  intelligence: AnimalIntelligence
   str: 4
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - bite
     - damage: D4
 - name: sheep
   cost: 4
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 4
   agi: 4
   wit: 8
@@ -307,52 +294,42 @@ domesticated animals:
   - - hooves
     - damage: D4
 folks:
-- name: human
-  descr: The average inhabitant of the Kingdom.
-  kind: Creature
-  size: Medium
-  intelligence: HumanIntelligence
-  str: 8
-  agi: 8
-  wit: 8
 - name: elf
-  descr: Dexterous and wise, they look like tall, beautiful, flawless humans. They are known for their pride and arrogance, which in turn makes them subject of dislike from the other kins.
-  kind: Creature
+  descr: >
+    Dexterous and wise, they look like tall, beautiful, flawless humans.
+    They are known for their pride and arrogance, which in turn makes them subject of dislike from the other kins.
   size: Medium
-  intelligence: HumanIntelligence
   str: 8
   agi: 10
   wit: 10
 - name: dwarf
-  descr: Short and stocky, clumsy but strong. They live reclusively in underground cities and are known for their craftsmanship.
-  kind: Creature
+  descr: >
+    Short and stocky, clumsy but strong.
+    They live reclusively in underground cities and are known for their craftsmanship and love for good ale.
   size: Medium
-  intelligence: HumanIntelligence
   str: 10
   agi: 6
   wit: 8
 - name: halfling
-  descr: Small and frail, but extremely nimble. Halfling communities are small and live simply, trying to keep distance from the chaotic outside world.
-  kind: Creature
+  descr: >
+    Small and frail, but extremely nimble.
+    Halfling communities are small and live a simple life, trying to keep distance from the chaotic outside world.
   size: Medium
-  intelligence: HumanIntelligence
   str: 6
   agi: 10
   wit: 8
 - name: ogre
-  descr: Giant mountains of muscle. Not the brightest nor the most agile, but their brawn serves them well in many occasions.
-  kind: Creature
+  descr: >
+    Giant mountains of muscle.
+    Not the brightest nor the most agile, but their brawn serves them well in many occasions.
   size: Medium
-  intelligence: HumanIntelligence
   str: 12
   agi: 6
   wit: 6
 monsters:
 - name: troll
   descr: A large, brutish, humanoid monster, capable of quick regeneration. Lives in swamps and feasts on rotten meat.
-  kind: Creature
   size: Large
-  intelligence: HumanIntelligence
   str: 12
   agi: 4
   wit: 4
@@ -364,18 +341,18 @@ monsters:
   - 1
   items:
   - name: simple great weapon
-    descr: _Huge_. An extremely large club, impossible to use for a medium-sized character
+    descr: d6, an extremely large club, impossible to wield for a medium-sized character
 - name: wyrm
   descr: A gigantic lizard-like winged creature, capable of breathing fire.
-  kind: Creature
   size: Large
-  intelligence: AnimalIntelligence
   str: 16
   agi: 4
-  wit: 12
+  wit: 8
   traits:
+  - name: beast
   - name: frightening
-  - name: landing flyer
+  - name: flyer
+    descr: landing
   natural_armour:
   - scales
   - 2
@@ -391,49 +368,55 @@ monsters:
       - !UsageLimit once per stretch
 reanimated corpses:
 - name: bone raven
-  descr: a dead raven, empty-eyed, bones carrying rotting flesh.
-  kind: Undead
+  descr: A dead raven, empty-eyed, bones carrying rotting flesh.
   size: Small
-  intelligence: Mindless
   str: 4
   agi: 6
   wit: 2
   traits:
   - name: fast
-  - name: swooping flyer
   - name: frightening
+  - name: immunity
+    descr: corruption, disease, poison
+  - name: mindless
+  - name: flyer
+    descr: swooping
+  - name: undead
   natural_weapons:
   - - beak & talons
     - damage: D6
 - name: shambling corpse
-  descr: a corpse reanimated by dark magic, left to rot.
-  kind: Undead
+  descr: A corpse reanimated by dark magic, left to rot.
   size: Medium
-  intelligence: Mindless
   str: 8
   agi: 4
   wit: 2
   traits:
   - name: frightening
+  - name: immunity
+    descr: corruption, disease, poison
+  - name: mindless
+  - name: undead
 - name: skeletal warrior
-  descr: an ancient body awakened to serve as an immortal warrior.
-  kind: Undead
+  descr: An ancient body awakened to serve as an immortal warrior.
   size: Medium
-  intelligence: Mindless
   str: 8
   agi: 4
   wit: 2
   traits:
   - name: frightening
+  - name: immunity
+    descr: corruption, disease, poison
+  - name: mindless
+  - name: undead
   items:
   - name: martial hand weapon
+    descr: d6
   - name: shield
 wild animals:
 - name: alligator
   cost: 128
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 12
   agi: 4
   wit: 8
@@ -445,80 +428,76 @@ wild animals:
     - damage: D8
 - name: bat
   cost: 8
-  kind: Creature
-  size: Small
-  intelligence: AnimalIntelligence
-  str: 2
+  size: Tiny
+  str: 4
   agi: 12
   wit: 8
   traits:
+  - name: beast
   - name: fast
-  - name: swooping flyer
+  - name: flyer
+    descr: swooping
   natural_weapons:
   - - bite
     - damage: D4
 - name: bear
   cost: 256
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 16
   agi: 4
   wit: 8
   traits:
+  - name: beast
   - name: sturdy
   natural_weapons:
   - - bite & claws
     - damage: D8
 - name: boar
   cost: 32
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 8
   agi: 4
   wit: 8
   traits:
+  - name: beast
   - name: sturdy
   natural_weapons:
   - - tusks
     - damage: D6
 - name: deer
   cost: 64
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 8
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - antlers
     - damage: D6
 - name: eagle
   cost: 128
-  kind: Creature
-  size: Medium
-  intelligence: AnimalIntelligence
-  str: 4
+  size: Small
+  str: 8
   agi: 12
   wit: 8
   traits:
+  - name: beast
   - name: fast
-  - name: swooping flyer
+  - name: flyer
+    descr: swooping
   natural_weapons:
   - - beak & talons
     - damage: D6
 - name: elephant
   cost: 512
-  kind: Creature
   size: Large
-  intelligence: AnimalIntelligence
   str: 12
   agi: 4
   wit: 8
   traits:
+  - name: beast
   - name: sturdy
   natural_armour:
   - thick hide
@@ -528,27 +507,26 @@ wild animals:
     - damage: D6
 - name: hawk
   cost: 32
-  kind: Creature
   size: Small
-  intelligence: AnimalIntelligence
   str: 4
   agi: 12
   wit: 8
   traits:
+  - name: beast
   - name: fast
-  - name: swooping flyer
+  - name: flyer
+    descr: swooping
   natural_weapons:
   - - beak & talons
     - damage: D6
 - name: lion
   cost: 512
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 12
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   - name: sturdy
   natural_weapons:
@@ -556,90 +534,84 @@ wild animals:
     - damage: D8
 - name: lynx
   cost: 64
-  kind: Creature
-  size: Medium
-  intelligence: AnimalIntelligence
-  str: 4
+  size: Small
+  str: 8
   agi: 12
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - bite & claws
     - damage: D6
 - name: mouse
   cost: 4
-  kind: Creature
-  size: Small
-  intelligence: AnimalIntelligence
-  str: 2
+  size: Tiny
+  str: 4
   agi: 12
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - bite
     - damage: D4
 - name: owl
   cost: 32
-  kind: Creature
   size: Small
-  intelligence: AnimalIntelligence
   str: 4
   agi: 12
   wit: 8
   traits:
+  - name: beast
   - name: fast
-  - name: swooping flyer
+  - name: flyer
+    descr: swooping
   natural_weapons:
   - - beak & talons
     - damage: D6
 - name: rat
   cost: 8
-  kind: Creature
   size: Small
-  intelligence: AnimalIntelligence
   str: 4
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - bite
     - damage: D6
 - name: raven
   cost: 32
-  kind: Creature
   size: Small
-  intelligence: AnimalIntelligence
   str: 4
   agi: 12
   wit: 8
   traits:
+  - name: beast
   - name: fast
-  - name: swooping flyer
+  - name: flyer
+    descr: swooping
   natural_weapons:
   - - beak & talons
     - damage: D6
 - name: tiger
   cost: 512
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 12
   agi: 12
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - bite & claws
     - damage: D8
 - name: viper
   cost: 2
-  kind: Creature
-  size: Small
-  intelligence: AnimalIntelligence
-  str: 2
+  size: Tiny
+  str: 4
   agi: 8
   wit: 8
   natural_weapons:
@@ -649,13 +621,12 @@ wild animals:
       - !Poison damaging
 - name: wolf
   cost: 64
-  kind: Creature
   size: Medium
-  intelligence: AnimalIntelligence
   str: 8
   agi: 8
   wit: 8
   traits:
+  - name: beast
   - name: fast
   natural_weapons:
   - - bite & claws

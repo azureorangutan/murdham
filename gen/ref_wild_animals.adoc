@@ -1,102 +1,85 @@
 *Alligator* (128ʂ) +
 *STR* 12, *AGI* 4, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural armour*: thick scales (1). +
 *Natural weapon*: bite (d8).
 
 *Bat* (8ʂ) +
-*STR* 2, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 12, *WIT* 8, *Size* tiny +
 *Natural weapon*: bite (d4). +
-*Traits*: _fast_, _swooping flyer_.
+*Traits*: _beast_, _fast_, _flyer (swooping)_.
 
 *Bear* (256ʂ) +
 *STR* 16, *AGI* 4, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: bite & claws (d8). +
-*Traits*: _sturdy_.
+*Traits*: _beast_, _sturdy_.
 
 *Boar* (32ʂ) +
 *STR* 8, *AGI* 4, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: tusks (d6). +
-*Traits*: _sturdy_.
+*Traits*: _beast_, _sturdy_.
 
 *Deer* (64ʂ) +
 *STR* 8, *AGI* 8, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: antlers (d6). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Eagle* (128ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
+*STR* 8, *AGI* 12, *WIT* 8, *Size* small +
 *Natural weapon*: beak & talons (d6). +
-*Traits*: _fast_, _swooping flyer_.
+*Traits*: _beast_, _fast_, _flyer (swooping)_.
 
 *Elephant* (512ʂ) +
-*STR* 12, *AGI* 4, *WIT* 8 +
-_Large creature_, _animal intelligence_. +
+*STR* 12, *AGI* 4, *WIT* 8, *Size* large +
 *Natural armour*: thick hide (1). +
 *Natural weapon*: tusks (d6). +
-*Traits*: _sturdy_.
+*Traits*: _beast_, _sturdy_.
 
 *Hawk* (32ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 12, *WIT* 8, *Size* small +
 *Natural weapon*: beak & talons (d6). +
-*Traits*: _fast_, _swooping flyer_.
+*Traits*: _beast_, _fast_, _flyer (swooping)_.
 
 *Lion* (512ʂ) +
 *STR* 12, *AGI* 8, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: bite & claws (d8). +
-*Traits*: _fast_, _sturdy_.
+*Traits*: _beast_, _fast_, _sturdy_.
 
 *Lynx* (64ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
+*STR* 8, *AGI* 12, *WIT* 8, *Size* small +
 *Natural weapon*: bite & claws (d6). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Mouse* (4ʂ) +
-*STR* 2, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 12, *WIT* 8, *Size* tiny +
 *Natural weapon*: bite (d4). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Owl* (32ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 12, *WIT* 8, *Size* small +
 *Natural weapon*: beak & talons (d6). +
-*Traits*: _fast_, _swooping flyer_.
+*Traits*: _beast_, _fast_, _flyer (swooping)_.
 
 *Rat* (8ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 8, *WIT* 8, *Size* small +
 *Natural weapon*: bite (d6). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Raven* (32ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 12, *WIT* 8, *Size* small +
 *Natural weapon*: beak & talons (d6). +
-*Traits*: _fast_, _swooping flyer_.
+*Traits*: _beast_, _fast_, _flyer (swooping)_.
 
 *Tiger* (512ʂ) +
 *STR* 12, *AGI* 12, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: bite & claws (d8). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Viper* (2ʂ) +
-*STR* 2, *AGI* 8, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 8, *WIT* 8, *Size* tiny +
 *Natural weapon*: bite (d4, poison (damaging)).
 
 *Wolf* (64ʂ) +
 *STR* 8, *AGI* 8, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: bite & claws (d6). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 

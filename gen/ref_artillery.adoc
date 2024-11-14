@@ -1,14 +1,14 @@
 == Artillery
 
 * *Ballista* (256ʂ, bulk 32).
-_Weapon (d8, range 16, blast, reload)_, _health 12/4_
+_Weapon (d8, range 16, blast, reload)_, _health 8/2_
 
 * *Catapult* (256ʂ, bulk 32).
-_Weapon (d8, range 32, blast, reload)_, _health 12/4_
+_Weapon (d8, range 16--32, blast, reload)_, _health 8/2_
 
 * *Cannon* (1024ʂ, bulk 32).
-_Weapon (d10, range 16, blast, reload)_, _health 12/4_
+_Weapon (d10, range 16, blast, reload)_, _health 8/2_
 
 * *Mortar* (1024ʂ, bulk 32).
-_Weapon (d10, range 32, blast, reload)_, _health 12/4_
+_Weapon (d10, range 16--32, blast, reload)_, _health 8/2_
 

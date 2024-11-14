@@ -1,100 +1,83 @@
 *Camel* (128ʂ) +
 *STR* 12, *AGI* 8, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: kick (d4). +
-*Traits*: _fast_, _sturdy_.
+*Traits*: _beast_, _fast_, _sturdy_.
 
 *Cat* (16ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 12, *WIT* 8, *Size* small +
 *Natural weapon*: bite & claws (d6). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Cattle* (128ʂ) +
 *STR* 16, *AGI* 4, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: hooves & horns (d6). +
-*Traits*: _sturdy_.
+*Traits*: _beast_, _sturdy_.
 
 *Chicken* (4ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 8, *WIT* 8, *Size* small +
 *Natural weapon*: beak (d4). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Small dog* (8ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 8, *WIT* 8, *Size* small +
 *Natural weapon*: bite (d6). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Medium dog* (32ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
+*STR* 8, *AGI* 8, *WIT* 8, *Size* small +
 *Natural weapon*: bite (d6). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Large dog* (64ʂ) +
 *STR* 8, *AGI* 8, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: bite (d6). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Donkey* (32ʂ) +
 *STR* 8, *AGI* 4, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: hooves (d6). +
-*Traits*: _sturdy_.
+*Traits*: _beast_, _sturdy_.
 
 *Duck* (8ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 8, *WIT* 8, *Size* small +
 *Natural weapon*: beak (d4). +
-*Traits*: _fast_, _swooping flyer_.
+*Traits*: _beast_, _fast_, _flyer (swooping)_.
 
 *Light horse* (256ʂ) +
 *STR* 12, *AGI* 8, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: hooves (d6). +
-*Traits*: _fast_, _sturdy_.
+*Traits*: _beast_, _fast_, _sturdy_.
 
 *Heavy horse* (512ʂ) +
 *STR* 16, *AGI* 8, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: hooves (d6). +
-*Traits*: _fast_, _sturdy_.
+*Traits*: _beast_, _fast_, _sturdy_.
 
 *Mule* (64ʂ) +
 *STR* 12, *AGI* 4, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: hooves (d6). +
-*Traits*: _sturdy_.
+*Traits*: _beast_, _sturdy_.
 
 *Pig* (4ʂ) +
 *STR* 4, *AGI* 4, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: bite (d4).
 
 *Pigeon* (4ʂ) +
-*STR* 2, *AGI* 8, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 8, *WIT* 8, *Size* tiny +
 *Natural weapon*: beak (d4). +
-*Traits*: _fast_, _swooping flyer_.
+*Traits*: _beast_, _fast_, _flyer (swooping)_.
 
 *Pony horse* (128ʂ) +
 *STR* 8, *AGI* 8, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: hooves (d6). +
-*Traits*: _fast_, _sturdy_.
+*Traits*: _beast_, _fast_, _sturdy_.
 
 *Rabbit* (4ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8 +
-_Small creature_, _animal intelligence_. +
+*STR* 4, *AGI* 8, *WIT* 8, *Size* small +
 *Natural weapon*: bite (d4). +
-*Traits*: _fast_.
+*Traits*: _beast_, _fast_.
 
 *Sheep* (4ʂ) +
 *STR* 4, *AGI* 4, *WIT* 8 +
-_Medium creature_, _animal intelligence_. +
 *Natural weapon*: hooves (d4).
 

@@ -43,26 +43,26 @@ h|D12
 |8
 |Miner
 |Noble
-|Outlaw
 |Peasant
-|9
 |Pedlar
+|9
 |Physician
 |Pit fighter
 |Priest
-|10
 |Raconteur
+|10
 |Rat catcher
 |Scholar
 |Sharpshooter
-|11
 |Slayer
+|11
 |Soldier
 |Soothsayer
 |Thug
-|12
 |Tomb robber
+|12
 |Witch hunter
 |Wizard
+|Woodsman
 |Zealot
 |===

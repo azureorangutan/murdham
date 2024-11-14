@@ -1,8 +1,4 @@
 armour:
-- name: helmet
-  value: 16
-  bulk: 1
-  descr: Increases the critical damage threshold by 1. Ignored by direct damage and damage which can't reach the head.
 - name: shield
   value: 64
   bulk: 2
@@ -15,7 +11,8 @@ armour:
   bulk: 2
   properties:
   - !Armour 1
-  descr: Banded mail, chain mail, gambeson, hardened leather, thick furs, etc.
+  descr: >
+    Banded mail, chain mail, gambeson, hardened leather, thick furs, etc.
 - name: heavy armour
   value: 1024
   bulk: 4
@@ -27,15 +24,20 @@ clothing:
 - name: clothes
   value: 16
   bulk: 1
-  descr: All you need to cover yourself! Include belts, pouches, bags, and other containers to hold reasonably sized items.
+  descr: >
+    All you need to cover yourself!
+    Include belts, pouches, bags, and other containers to hold items of bulk 2 or less.
 - name: warm clothes
   value: 16
   bulk: 2
-  descr: Cold damage is impaired, heat damage is enhanced.
+  descr: >
+    Work like _clothes_, however cold damage is impaired and heat damage is enhanced.
 - name: disguise kit
   value: 16
   bulk: 2
-  descr: Includes makeup, wigs, fake beards, hats, eyepatches, clothing, etc. All you need to hide your appearance! You normally can't look like another specific person, and your voice and mannerism might give your disguise away. Close examination will immediately reveal a disguise.
+  descr: >
+    All you need to disguise your appearance!
+    Includes makeup, wigs, fake beards, hats, eyepatches, clothing, etc.
 
 artillery:
 - name: ballista
@@ -49,8 +51,8 @@ artillery:
     - Blast
     - Reload
   - !Health
-    - 12
-    - 4
+    - 8
+    - 2
 - name: catapult
   value: 256
   bulk: 32
@@ -58,12 +60,14 @@ artillery:
   - !Weapon
     damage: D8
     properties:
-    - !IndirectRange 32
+    - !RangeWithMin
+      - 16
+      - 32
     - Blast
     - Reload
   - !Health
-    - 12
-    - 4
+    - 8
+    - 2
 - name: cannon
   value: 1024
   bulk: 32
@@ -75,8 +79,8 @@ artillery:
     - Blast
     - Reload
   - !Health
-    - 12
-    - 4
+    - 8
+    - 2
 - name: mortar
   value: 1024
   bulk: 32
@@ -84,12 +88,14 @@ artillery:
   - !Weapon
     damage: D10
     properties:
-    - !IndirectRange 32
+    - !RangeWithMin
+      - 16
+      - 32
     - Blast
     - Reload
   - !Health
-    - 12
-    - 4
+    - 8
+    - 2
 
 light sources:
 - name: candle
@@ -132,13 +138,15 @@ survival gear:
   bulk: 0
   properties:
   - Consumable
-  descr: Enough food for a day rest.
+  descr: >
+    Enough food for a daily rest.
 - name: water
   value: 1
   bulk: 0
   properties:
   - Consumable
-  descr: Enough for a day rest.
+  descr: >
+    Enough for a daily rest.
 - name: alcoholic drink
   value: 4
   bulk: 0
@@ -150,23 +158,31 @@ survival gear:
 - name: camping kit
   value: 16
   bulk: 2
-  descr: Includes a bedroll, blankets, and tent space for one person. Necessary to sleep in the wilderness.
+  descr: >
+    Includes a bedroll, blankets, and tent space for one person.
+    Necessary to sleep in the wilderness.
 - name: field kitchen
   value: 16
   bulk: 2
-  descr: Includes pots, pans, kitchen utensils, etc. Food you gather by foraging is doubled and doesn't go bad.
+  descr: >
+    Includes pots, pans, kitchen utensils, etc.
+    Food you gather by foraging is doubled and doesn't go bad.
 - name: fishing tools
   value: 16
   bulk: 2
-  descr: Obtain a _ration_ on a _fish_ result while foraging.
+  descr: >
+    Obtain a _ration_ on a _fish_ result while foraging.
 - name: trapping tools
   value: 26
   bulk: 2
-  descr: Obtain a _ration_ on a _small game_ result while foraging.
+  descr: >
+    Obtain a _ration_ on a _small game_ result while foraging.
 - name: navigation tools
   value: 16
   bulk: 2
-  descr: "Include maps, compass, etc. You can use them to efficiently navigate the wilderness: you only halve your movement speed instead of reducing it to ¼."
+  descr: >
+    Include maps, compass, etc.
+    You can efficiently navigate the wilderness: you only halve your movement speed instead of reducing it to ¼.
 
 healing:
 - name: medicine box
@@ -174,37 +190,45 @@ healing:
   bulk: 1
   properties:
   - Consumable
-  descr: 'Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.'
+  descr: >
+    Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.'
 - name: healing draught
   value: 64
   bulk: 0
   properties:
   - Consumable
-  descr: Recover health equal to half STR.
+  descr: >
+    Recover health equal to half STR.
 - name: antidote
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Stops the effects of poison. 1:4 chance it doesn't work.
-- name: cure-all
+  descr: >
+    Stops the effects of poison.
+    1:4 chance it doesn't work.
+- name: cure
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Take it before a recovery roll to pass. 1:4 chance it doesn't work.
+  descr: >
+    Take it before a recovery roll to pass.
+    1:4 chance it doesn't work.
 - name: medicinal herbs
   value: 16
   bulk: 0
   properties:
   - Consumable
   descr: >
-    If you have the _apothecary_ skill, consume to craft a _medicine box_, _antidote_, or _cure-all_ in a single round using _apothecary tools_ by passing a WIT save.
+    If you have the _apothecary_ skill, consume to craft a _medicine box_, _antidote_, or _cure_ in a single round using _apothecary tools_ by passing a WIT save.
     On a fail, the _medicinal herbs_ are wasted.
 - name: apothecary tools
   value: 16
   bulk: 2
-  descr: Includes mortar, pestle, scales, glassware, etc. Used in combination with the _craft medicine_ and _craft poison_ skills.
+  descr: >
+    Includes mortar, pestle, scales, glassware, etc.
+    Used in combination with the _craft medicine_ and _craft poison_ skills.
 - name: surgical tools
   value: 16
   bulk: 2
@@ -219,55 +243,64 @@ poison:
   bulk: 0
   properties:
   - Consumable
-  descr: Bloodstream paralysing poison (_incapacitated_ until the end of the stretch).
+  descr: >
+    Bloodstream paralysing poison (_incapacitated_ until the end of the stretch).
 - name: candlestick root
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Ingested paralysing poison (_incapacitated_ until the end of the stretch).
+  descr: >
+    Ingested paralysing poison (_incapacitated_ until the end of the stretch).
 - name: butterfly sting
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Bloodstream soporific poison (_incapacitated_ until the end of the watch or until damaged).
+  descr: >
+    Bloodstream soporific poison (_incapacitated_ until the end of the watch or until damaged).
 - name: dream sand
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Ingested soporific poison (_incapacitated_ until the end of the watch or until damaged).
+  descr: >
+    Ingested soporific poison (_incapacitated_ until the end of the watch or until damaged).
 - name: beastman blood
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Ingested corrupting poison (4 corruption at the end of the stretch).
+  descr: >
+    Ingested corrupting poison (4 corruption at the end of the stretch).
 - name: black adder venom
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Bloodstream damaging poison (d12 direct damage at the end of the stretch).
+  descr: >
+    Bloodstream damaging poison (d12 direct damage at the end of the stretch).
 - name: reaper's spice
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Ingested damaging poison (d12 direct damage at the end of the stretch).
+  descr: >
+    Ingested damaging poison (d12 direct damage at the end of the stretch).
 - name: chimera spit
   value: 64
   bulk: 0
   properties:
   - Consumable
-  descr: Bloodstream lethal poison (death at the end of the stretch).
+  descr: >
+    Bloodstream lethal poison (death at the end of the stretch).
 - name: dark lotus
   value: 64
   bulk: 0
   properties:
   - Consumable
-  descr: Ingested lethal poison (death at the end of the stretch).
+  descr: >
+    Ingested lethal poison (death at the end of the stretch).
 - name: disease vial
   value: 64
   bulk: 0
@@ -282,7 +315,7 @@ drugs:
   properties:
   - Consumable
   descr: >
-    You are numb to pain until the end of the watch: you can't be _incapacitated_ by critical damage.
+    You are numb to pain until the end of the watch: you aren't be _incapacitated_ by critical damage.
     You must pass a WIT save or become _addicted_.
 - name: crimson weed
   value: 16
@@ -298,7 +331,7 @@ drugs:
   properties:
   - Consumable
   descr: >
-    You recover health equal to half your STR unless you are _dying_, but become _groggy_ until the end of the watch.
+    Recover health equal to half your STR unless you are _dying_, but you become _groggy_ until the end of the watch.
     You must pass a WIT save or become _addicted_.
 - name: madcap mushroom
   value: 16
@@ -308,10 +341,18 @@ drugs:
   descr: >
     You become _frenzied_ until the end of the stretch.
     You must pass a WIT save or become _addicted_.
+- name: pipe & tobacco
+  value: 4
+  bulk: 0
+  properties:
+  - Consumable
+  descr: >
+    After failing a save in a situation requiring thinking, smoke it to repeat the save once.
+    Then pass a WIT save or become _addicted_.
 
 valuables:
 - name: silver jewel
-  value: 4
+  value: 16
   bulk: 0
   descr: Shiny and valuable.
 - name: gold jewel
@@ -319,7 +360,7 @@ valuables:
   bulk: 0
   descr: Very shiny and valuable.
 - name: gemstone
-  value: 1024
+  value: 256
   bulk: 0
   descr: Extremely shiny and valuable.
 
@@ -327,153 +368,214 @@ combat gear:
 - name: bear trap
   value: 16
   bulk: 2
-  descr: Placing it or picking it up is a main action, concealing it takes a stretch. Characters stepping on it suffer d6 damage and are _entangled_.
+  descr: >
+    Placing it or picking it up takes a round, concealing it takes a stretch.
+    Characters stepping on it suffer d6 damage and are _entangled_.
 - name: caltrops
   value: 16
   bulk: 1
-  descr: As a main action, can be spread in a nearby zone, which counts as difficult ground. Picking them up takes a stretch.
+  descr: >
+    Can be spread in a nearby zone in a round, which then counts as difficult ground.
+    Picking them up takes a stretch.
 - name: net
   value: 16
   bulk: 1
-  descr: 'Throw it on an enemy: they are _entangled_.'
+  descr: >
+    Target a nearby enemy: they are _entangled_.
 - name: smoke bomb
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: Throw it at range 2. All zones within range 1 of the targeted one are covered in thick smoke, blocking visibility until the end of the stretch.
+  descr: >
+    Throw it at range 2.
+    All zones within range 1 are covered in thick smoke, blocking visibility until the end of the stretch.
 
 exploration gear:
 - name: chain
   value: 4
   bulk: 1
-  descr: 2 metre.
+  descr: >
+    2 metre.
 - name: rope
   value: 4
   bulk: 1
-  descr: 4 metre.
+  descr: >
+    4 metre.
 - name: rope ladder
   value: 4
   bulk: 2
-  descr: 2 metre. Trivial to climb.
+  descr: >
+    2 metre.
+    Trivial to climb.
 - name: grappling hook
   value: 4
   bulk: 1
-  descr: Use it to throw ropes and such.
+  descr: >
+    Use it to throw and fix ropes.
 - name: climbing gear
   value: 16
   bulk: 2
-  descr: Includes pitons, nails, climbing pickaxes, etc. Can be used to scale sheer surfaces, but an AGI save is usually required.
+  descr: >
+    Includes pitons, nails, climbing pickaxes, etc.
+    Can be used to scale sheer surfaces, but an AGI save is usually required.
 - name: crowbar
   value: 16
   bulk: 1
-  descr: Spend a stretch and pass a STR save to open a door, chest, etc. Noisy. Can be used as a _simple hand weapon_.
-- name: lock picks
+  descr: >
+    Spend a stretch and pass a STR save to open a door, chest, etc.
+    Noisy.
+    an be used as a _simple hand weapon_.
+- name: lockpicks
   value: 16
   bulk: 1
-  descr: Spend a stretch and pass a WIT save to open a lock.
+  descr: >
+    Spend a stretch and pass a WIT save to open a lock.
 
 games:
 - name: cards
   value: 4
   bulk: 0
-  descr: WIT contest to win.
+  descr: >
+    WIT contest to win.
 - name: chess set
   value: 16
   bulk: 1
-  descr: WIT contest to win.
+  descr: >
+    WIT contest to win.
 - name: dice
   value: 4
   bulk: 0
-  descr: Luck-based game.
+  descr: >
+    Luck-based game.
 - name: marbles
   value: 4
   bulk: 0
-  descr: A bunch of tiny glass beads. AGI contest to win games.
+  descr: >
+    AGI contest to win games.
 
 academic gear:
 - name: scroll
   value: 1
   bulk: 0
-  descr: The price is for a blank scroll.
-- name: power scroll
-  value: 64
-  bulk: 0
-  descr: A scroll recording a sacred or profane power. The knowledge of how to create them has been lost.
+  descr: >
+    The price is for a blank scroll.
 - name: book
   value: 16
   bulk: 1
-  descr: The price is for a blank book.
+  descr: >
+    The price is for a blank book.
+    Written books can cost 64ʂ or even more.
+- name: power scroll
+  value: 64
+  bulk: 0
+  descr: >
+    A scroll recording a sacred or profane power.
+    The knowledge of how to write them has been lost.
 - name: grimoire
   value: 16
   bulk: 1
-  descr: Can hold up to 4 _power scrolls_, removing the need to swamp them out to invoke their power.
+  descr: >
+    Can hold up to 4 _power scrolls_, removing the need to swamp them out to invoke their power.
 - name: quill & ink
   value: 4
   bulk: 0
-  descr: Used to write on scrolls and books.
+  descr: >
+    Used to write on scrolls and books.
+- name: Sacred relic
+  value: 1024
+  bulk: 1
+  descr: >
+    The remains of a dead saint.
+    Priests holding it can re-roll the d12 when checking if invoking a sacred power is successful.
+- name: vim
+  value: 64
+  bulk: 0
+  properties:
+  - Consumable
+  descr: >
+    Pure, concentrated magical essence.
+    Sorcerers can consume it to invoke a profane power without spending mana _or_ with an additional EP.
+    Bringing more than 2 doses of vim within the same zone can cause them to explode: the chance is x-in-8, where x is the number of doses.
+    If the explode, everyone in the zone suffers corruption equal to the amount of doses.
+    If they didn't explode, re-roll at the start of the next stretch.
 
 miscellanea:
 - name: animal skin
-  value: 4
-  bulk: 1
-  descr: Skin of a small animal. Multiply cost by 4 and bulk by 2 for each size above small.
-- name: cage
   value: 16
   bulk: 2
-  descr: Can contain a small character.
+  descr: >
+    Skin of a medium animal.
+    Divide the cost by 4 and the bulk by 2 for each side below medium.
+    Multiply the cost by 4 and the bulk by 2 for each size above medium.
+- name: cage
+  value: 256
+  bulk: 8
+  descr: >
+    Can hold a medium character.
+    Divide the cost and bulk by 4 for each side below medium.
+    Multiply the cost and bulk by 4 for each size above medium.
 - name: crutch
   value: 4
   bulk: 1
-  descr: _Hobbled_ characters can use it to walk.
+  descr: >
+    _Hobbled_ characters can use it to walk.
 - name: divination tools
   value: 16
   bulk: 2
-  descr: Include a crystal ball, tarot cards, divination bones, etc. Used in combination with the _divination_ skill.
+  descr: >
+    Include a crystal ball, tarot cards, divination bones, etc.
+    Used in combination with the _divination_ skill.
 - name: junk
   value: 1
   bulk: 1
-  descr: skull, bag of dirt or dung, dirty pillow, chalk...
+  descr: >
+    Skull, bag of dirt or dung, dirty pillow, chalk, etc.
 - name: ladder
   value: 4
   bulk: 4
-  descr: Climbing it is trivial.
+  descr: >
+    Climbing it is trivial.
 - name: lockbox & key
   value: 4
   bulk: 1
-  descr: Can contain a total bulk of 1.
+  descr: >
+    Can hold items for a total bulk of 1.
 - name: looking glass
   value: 16
   bulk: 1
-  descr: See distant details.
+  descr: >
+    See distant details.
 - name: lucky charm
   value: 16
   bulk: 0
-  descr: When you spend an omen, there is 1:4 chance it isn't actually spent. If combined with the _lucky_ skill, You have in total a 1:2 chance of not losing the omen.
+  properties:
+  - Consumable
+  descr: >
+    You can use it instead of spending an omen.
+    It then loses its power and turns into _junk_.
 - name: manacles & key
   value: 4
   bulk: 1
-  descr: Used to bind someone's hands.
+  descr: >
+    Bind someone's hands.
 - name: mirror
   value: 16
   bulk: 1
-  descr: A simple hand mirror.
+  descr: >
+    A simple hand mirror.
 - name: music instrument
   value: 16
   bulk: 1
-  descr: Drums, fiddle, flute, lyre, lute, etc.
+  descr: >
+    Drums, fiddle, flute, lyre, lute, etc.
 - name: perfume
   value: 16
   bulk: 0
   properties:
   - Consumable
-  descr: An exquisite perfume.
-- name: pipe & tobacco
-  value: 4
-  bulk: 0
-  properties:
-  - Consumable
-  descr: Smoke it after failing a save in a situation requiring thinking to repeat the save once. Then pass a WIT save or become _addicted_ to it.
+  descr: >
+    An exquisite perfume.
 - name: prosthesis
   value: 16
   bulk: 1
@@ -483,25 +585,33 @@ miscellanea:
 - name: saddle
   value: 16
   bulk: 2
-  descr: Required to ride a mount. Includes saddlebags.
+  descr: >
+    Required to ride a mount.
+    Includes saddlebags.
 - name: sealing wax
   value: 4
   bulk: 0
   properties:
   - Consumable
-  descr: Used to seal letters in combination with a _signet ring_.
+  descr: >
+    Used to seal and sign letters in combination with a _signet ring_.
 - name: signet ring
   value: 16
   bulk: 0
-  descr: Proof of identity, used to stamp _sealing wax_.
+  descr: >
+    Proof of identity, used to stamp _sealing wax_.
 - name: toolbox
   value: 16
   bulk: 2
-  descr: Includes hammer, saws, nails, etc. Spend a watch and pass a WIT save to repair a damaged item, but on a fail it is destroyed. If the item has the _health_ property, repair or inflict 2 damage instead on a pass or fail.
+  descr: >
+    Includes hammer, saws, nails, etc.
+    Spend a watch and pass a STR or WIT save to repair a damaged item, but on a fail the item is destroyed.
+    If the item has the _health_ property, repair or inflict 2 damage instead on a pass or fail.
 - name: wooden pole
   value: 4
   bulk: 2
-  descr: 2 metre long.
+  descr: >
+    2 metre long.
 
 vehicles:
 - name: cart
@@ -509,8 +619,8 @@ vehicles:
   bulk: 32
   properties:
   - !Health
-    - 12
-    - 4
+    - 8
+    - 2
   - !Vehicle 4
 - name: coach
   value: 1024
@@ -520,16 +630,24 @@ vehicles:
     - 16
     - 4
   - !Vehicle 8
+- name: chariot
+  value: 256
+  bulk: 16
+  properties:
+  - !Health
+    - 8
+    - 2
+  - !Vehicle 2
 - name: rowing boat
   value: 256
   bulk: 32
   properties:
   - !Health
-    - 12
-    - 4
+    - 8
+    - 2
   - !Vehicle 4
-  descr: Must be rowed. Moves by 1 area per time unit per rowing character, maximum 4.
-- name: sailing boat
+  descr: Must be rowed by 4 characters.
+- name: large rowing boat
   value: 1024
   bulk: 64
   properties:
@@ -537,7 +655,25 @@ vehicles:
     - 16
     - 4
   - !Vehicle 8
-  descr: Must be operated by a character with the _river lore_ skill or rowed. Moves between 1 and 6 areas per time unit with the wind, or by half an area per time unit per rowing character if rowed, maximum 4.
+  descr: Must be rowed by 8 characters.
+- name: sailing boat
+  value: 1024
+  bulk: 32
+  properties:
+  - !Health
+    - 8
+    - 2
+  - !Vehicle 4
+  descr: Must be rowed by 4 characters, or sailed by a character with the _river lore_ skill.
+- name: large sailing boat
+  value: 2048
+  bulk: 64
+  properties:
+  - !Health
+    - 16
+    - 4
+  - !Vehicle 8
+  descr: Must be rowed by 8 characters, or sailed by 2 characters with the _river lore_ skill.
 
 weapons:
 - name: simple hand weapon
@@ -546,28 +682,36 @@ weapons:
   properties:
   - !Weapon
     damage: D4
-  descr: 'Short blades, blunt objects, and one-handed sharp or heavy tools: bullwhip, cleaver, club, cudgel, dagger, knife, knuckledusters, hammer, hatchet, long knife, parrying dagger, scalpel, sickle, sturdy stick, etc.'
+  descr: >
+    Short blades, blunt objects, and one-handed sharp or heavy tools:
+    bullwhip, cleaver, club, cudgel, dagger, knife, knuckledusters, hammer, hatchet, long knife, parrying dagger, scalpel, sickle, sturdy stick, etc.
 - name: simple great weapon
   value: 8
   bulk: 2
   properties:
   - !Weapon
     damage: D6
-  descr: 'Two-handed sharp or heavy tools: big stick, boat hook, hoe, large club, linstock, pickaxe, pitchfork, quarterstaff, scythe, sledgehammer, shovel, spade, staff, woodcutting axe, etc.'
+  descr: >
+    Two-handed sharp or heavy tools:
+    big stick, boat hook, hoe, large club, linstock, pickaxe, pitchfork, quarterstaff, scythe, sledgehammer, shovel, spade, staff, woodcutting axe, etc.
 - name: martial hand weapon
   value: 16
   bulk: 1
   properties:
   - !Weapon
     damage: D6
-  descr: 'One-handed military grade melee weapons: arming sword, battleaxe, flail, mace, morningstar, spear, thrusting sword, warhammer, etc.'
+  descr: >
+    One-handed military grade melee weapons:
+    arming sword, battleaxe, flail, mace, morningstar, spear, thrusting sword, warhammer, etc.
 - name: martial great weapon
   value: 32
   bulk: 2
   properties:
   - !Weapon
     damage: D8
-  descr: 'Two-handed military grade melee weapons: glaive, halberd, heavy battleaxe, heavy flail, lucerne hammer, pike, voulge, zweihänder, etc.'
+  descr: >
+    Two-handed military grade melee weapons:
+    glaive, halberd, heavy battleaxe, heavy flail, lucerne hammer, pike, voulge, zweihänder, etc.
 - name: missile hand weapon
   value: 16
   bulk: 1
@@ -576,7 +720,9 @@ weapons:
     damage: D4
     properties:
     - !Range 8
-  descr: 'One-handed primitive ranged or throwing weapons: blowgun, darts, hand crossbow, harpoons, javelins, sling, throwing knives, throwing stars, etc.'
+  descr: >
+    One-handed primitive ranged or throwing weapons:
+    blowgun, darts, hand crossbow, harpoons, javelins, sling, throwing knives, throwing stars, etc.
 - name: missile great weapon
   value: 32
   bulk: 2
@@ -585,7 +731,8 @@ weapons:
     damage: D6
     properties:
     - !Range 8
-  descr: 'Two-handed primitive ranged weapons: bow, crossbow, etc.'
+  descr:  >
+    Two-handed primitive ranged weapons: bow, crossbow, etc.
 - name: handgun
   value: 32
   bulk: 1
@@ -595,7 +742,9 @@ weapons:
     properties:
     - !Range 8
     - Reload
-  descr: 'One-handed gunpowder weapon: matchlock pistol, dragon, etc.'
+  descr: >
+    One-handed gunpowder weapons:
+    matchlock pistol, dragon, etc.
 - name: long gun
   value: 64
   bulk: 2
@@ -605,7 +754,9 @@ weapons:
     properties:
     - !Range 8
     - Reload
-  descr: 'Two-handed gunpowder weapon: matchlock arquebus, blunderbuss, etc.'
+  descr: >
+    Two-handed gunpowder weapons:
+    matchlock arquebus, blunderbuss, etc.
 - name: garrotte
   value: 16
   bulk: 1
@@ -614,14 +765,18 @@ weapons:
     damage: D8
     properties:
     - DirectDamage
-  descr: Can only target characters who are unaware of the attack or whom you are currently grabbing.
+    - Grab
+  descr: >
+    Can only target characters who are unaware of the attack or whom you are already grabbing.
 - name: lance
   value: 16
   bulk: 2
   properties:
   - !Weapon
     damage: D8
-  descr: Can only be used while riding, and only if the mount moved this round. Can be used with one hand despite its bulk.
+  descr: >
+    Can only be used while riding, and only if the mount moved this round.
+    Can be used with only one hand despite its bulk.
 - name: mancatcher
   value: 16
   bulk: 2

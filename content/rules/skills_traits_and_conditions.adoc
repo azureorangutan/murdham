@@ -1,0 +1,13 @@
+---
+title: Skills, Traits, & Conditions
+weight: 50
+prev: /rules/careers
+next: /rules/items_followers_and_services
+---
+:toc:
+
+include::gen/ref_skills.adoc[]
+
+include::gen/ref_traits.adoc[]
+
+include::gen/ref_conditions.adoc[]

@@ -1,8 +1,8 @@
 ---
 title: Careers
-weight: 20
-prev: /rules/abilities
-next: /rules/skills
+weight: 40
+prev: /rules/player_characters
+next: /rules/skills_traits_and_conditions
 ---
 :toc:
 

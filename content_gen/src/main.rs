@@ -45,9 +45,9 @@ enum AttackProperty {
     FireDamage,
     Grab,
     HolyDamage,
-    IndirectRange(i8),
     Poison(String),
     Range(i8),
+    RangeWithMin(i8, i8),
     Reload,
     Stun,
     UsageLimit(String),
@@ -134,14 +134,6 @@ struct Career {
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
-enum CharacterKind {
-    Construct,
-    Creature,
-    Demon,
-    Undead,
-}
-
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 enum CharacterSize {
     Tiny,
     Small,
@@ -149,14 +141,6 @@ enum CharacterSize {
     Large,
     Massive,
 }
-
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
-enum CharacterIntelligence {
-    HumanIntelligence,
-    AnimalIntelligence,
-    Mindless,
-}
-
 #[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
 struct Trait {
     name: String,
@@ -181,9 +165,7 @@ struct Character {
     cost: Option<i32>,
     #[serde(default)]
     descr: String,
-    kind: CharacterKind,
     size: CharacterSize,
-    intelligence: CharacterIntelligence,
     str: i8,
     agi: i8,
     wit: i8,
@@ -225,7 +207,7 @@ impl ToAsciiDoc for AttackProperty {
     fn to_asciidoc(&self) -> String {
         match self {
             Self::Range(x) => format!("range {x}"),
-            Self::IndirectRange(x) => format!("range {x}"),
+            Self::RangeWithMin(x, y) => format!("range {x}--{y}"),
             Self::Poison(x) => format!("poison ({x})"),
             Self::UsageLimit(x) => format!("usage limit: {x}"),
             _ => format!("{:?}", self).to_case(Case::Lower),
@@ -383,19 +365,7 @@ impl ToAsciiDoc for Career {
     }
 }
 
-impl ToAsciiDoc for CharacterKind {
-    fn to_asciidoc(&self) -> String {
-        format!("{:?}", self).to_case(Case::Lower)
-    }
-}
-
 impl ToAsciiDoc for CharacterSize {
-    fn to_asciidoc(&self) -> String {
-        format!("{:?}", self).to_case(Case::Lower)
-    }
-}
-
-impl ToAsciiDoc for CharacterIntelligence {
     fn to_asciidoc(&self) -> String {
         format!("{:?}", self).to_case(Case::Lower)
     }
@@ -419,20 +389,18 @@ impl ToAsciiDoc for Character {
         }
 
         let mana_str = if self.mana > 0 {
-            format!(", Mana {}", self.mana)
+            format!(", *Mana* {}", self.mana)
+        } else {
+            String::new()
+        };
+        let size_str = if self.size != CharacterSize::Medium {
+            format!(", *Size* {}", self.size.to_asciidoc())
         } else {
             String::new()
         };
         comps.push(format!(
-            "*STR* {}, *AGI* {}, *WIT* {}{}",
-            self.str, self.agi, self.wit, mana_str,
-        ));
-
-        comps.push(format!(
-            "_{} {}_, _{}_.",
-            capitalise(self.size.to_asciidoc()),
-            self.kind.to_asciidoc(),
-            self.intelligence.to_asciidoc()
+            "*STR* {}, *AGI* {}, *WIT* {}{}{}",
+            self.str, self.agi, self.wit, mana_str, size_str
         ));
 
         let money_str = if self.money > 0 {
@@ -611,7 +579,7 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
         let skills: BTreeMap<String, String> =
             serde_yaml::from_reader(File::open("../game_data/skills.yml")?)?;
         let mut f = File::create(base_path.join("ref_skills.adoc"))?;
-        writeln!(f, "== Skill list\n")?;
+        writeln!(f, "== Skills\n")?;
         for (name, descr) in skills {
             writeln!(f, "* *{}*.\n{}\n", capitalise(name), descr)?;
         }
@@ -621,7 +589,7 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
         let traits: BTreeMap<String, String> =
             serde_yaml::from_reader(File::open("../game_data/traits.yml")?)?;
         let mut f = File::create(base_path.join("ref_traits.adoc"))?;
-        writeln!(f, "== Trait list\n")?;
+        writeln!(f, "== Traits\n")?;
         for (name, descr) in traits {
             writeln!(f, "* *{}*.\n{}\n", capitalise(name), descr)?;
         }
@@ -631,7 +599,7 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
         let conditions: BTreeMap<String, String> =
             serde_yaml::from_reader(File::open("../game_data/conditions.yml")?)?;
         let mut f = File::create(base_path.join("ref_conditions.adoc"))?;
-        writeln!(f, "== Condition list\n")?;
+        writeln!(f, "== Conditions\n")?;
         for (name, descr) in conditions {
             writeln!(f, "* *{}*.\n{}\n", capitalise(name), descr)?;
         }

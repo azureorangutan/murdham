@@ -1,16 +1,27 @@
 == Vehicles
 
 * *Cart* (256ʂ, bulk 32).
-_Health 12/4_, _vehicle 4_
+_Health 8/2_, _vehicle 4_
 
 * *Coach* (1024ʂ, bulk 64).
 _Health 16/4_, _vehicle 8_
 
-* *Rowing boat* (256ʂ, bulk 32).
-_Health 12/4_, _vehicle 4_.
-Must be rowed. Moves by 1 area per time unit per rowing character, maximum 4.
+* *Chariot* (256ʂ, bulk 16).
+_Health 8/2_, _vehicle 2_
 
-* *Sailing boat* (1024ʂ, bulk 64).
+* *Rowing boat* (256ʂ, bulk 32).
+_Health 8/2_, _vehicle 4_.
+Must be rowed by 4 characters.
+
+* *Large rowing boat* (1024ʂ, bulk 64).
 _Health 16/4_, _vehicle 8_.
-Must be operated by a character with the _river lore_ skill or rowed. Moves between 1 and 6 areas per time unit with the wind, or by half an area per time unit per rowing character if rowed, maximum 4.
+Must be rowed by 8 characters.
+
+* *Sailing boat* (1024ʂ, bulk 32).
+_Health 8/2_, _vehicle 4_.
+Must be rowed by 4 characters, or sailed by a character with the _river lore_ skill.
+
+* *Large sailing boat* (2048ʂ, bulk 64).
+_Health 16/4_, _vehicle 8_.
+Must be rowed by 8 characters, or sailed by 2 characters with the _river lore_ skill.
 
