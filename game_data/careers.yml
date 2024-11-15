@@ -6,6 +6,8 @@
   items:
   - name: clothes
     descr: comfortable and colourful leotard
+  - name: missile hand weapon
+    descr: throwing daggers
   - name: rope
     descr: made of silk
   - name: wooden pole
@@ -18,10 +20,12 @@
   items:
   - name: clothes
     descr: working class attire
-  - name: alchemist's fire
+  - name: simple hand weapon
+    descr: club
+  - name: fire bomb
   - name: scroll
     descr: "pamphlet denouncing the Emperor, or at least they told you so: you can't read after all"
-  descr: "You know how to incite the people with fervent speeches, and how to quickly run away from city guard patrols. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money."
+  descr: "You know how to incite the people with fervent speeches, and how to quickly run away from city guard patrols. You were partly responsible for the bloody riots of 1461."
 - male_name: apothecary
   female_name: apothecary
   skills:
@@ -30,9 +34,10 @@
   items:
   - name: clothes
     descr: spotless white apron and bags to carry ingredients
+  - name: simple hand weapon
+    descr: sickle
   - name: apothecary tools
   - name: medicinal herbs
-  - name: dream sand
   descr: "You are a master at mixing miraculous ointments and potent poisons."
 - male_name: artisan
   female_name: artisan
@@ -42,6 +47,8 @@
   items:
   - name: clothes
     descr: thick leather apron
+  - name: simple hand weapon
+    descr: hammer
   - name: toolbox
   descr: "You know how to keep equipment in good order: nothing is more dangerous than a blunt sword or a cracked shield."
 - male_name: assassin
@@ -64,6 +71,8 @@
   items:
   - name: clothes
     descr: bloodstained apron
+  - name: simple hand weapon
+    descr: razor
   - name: surgical tools
   descr: "A sharp razor and a steady hand are required for both a clean shave and delicate surgeries."
 - male_name: beast tamer
@@ -77,8 +86,8 @@
   - name: simple hand weapon
     descr: bullwhip
   followers:
-  - name: wolf
-    descr: Lucius, tamed, bites anyone else approaching too close
+  - name: boar
+    descr: Lucius, tamed, short-tempered
   descr: "There is no beast you can't break and train to obedience."
 - male_name: beggar
   female_name: beggar
@@ -88,8 +97,11 @@
   items:
   - name: clothes
     descr: dirty, stinky rags
+  - name: simple hand weapon
+    descr: sturdy stick
   - name: crutch
     descr: sometime it pays to pretend you are lame
+  - name: alcoholic drink
   - name: alcoholic drink
   descr: "You used to spend your days sitting in the corner of busy roads, hoping to receive a few shillings from generous passers-by."
 - male_name: berserker
@@ -111,6 +123,8 @@
   items:
   - name: clothes
     descr: wet and mouldy
+  - name: simple great weapon
+    descr: boat hook
   - name: fishing tools
   descr: "You have ferried passengers and smuggled goods along the many rivers flowing across the Kingdom."
 - male_name: bodyguard
@@ -121,6 +135,8 @@
   items:
   - name: clothes
     descr: marked with the insignia of your last employer
+  - name: martial hand weapon
+    descr: arming sword
   - name: shield
   descr: "You worked for the rich and powerful, protecting them from robbers and other scum."
 - male_name: bone picker
@@ -130,12 +146,18 @@
   - quick draw
   items:
   - name: clothes
-    descr: mismatched, scavenged from various dumpsites
+    descr: mismatched rags, scavenged from various dumpsites
   - name: simple hand weapon
     descr: femur, _fragile_
+  - name: wheelbarrow
   - name: junk
     descr: bag of dung
-  - name: crutch
+  - name: junk
+    descr: dirty wig
+  - name: junk
+    descr: assorted bones
+  - name: junk
+    descr: broken boots
   descr: "One person's rubbish is another person's treasure: you scour the roads, graves, and gutters looking for something valuable to sell for a few pennies."
 - male_name: bounty hunter
   female_name: bounty huntress
@@ -145,6 +167,7 @@
   items:
   - name: clothes
     descr: large coat and wide-brimmed hat
+  - name: mancatcher
   - name: net
   - name: manacles & key
   descr: "You used to roam the cities and the countryside, capturing wanted criminals and fugitive outlaws to collect the bounty on their head."
@@ -156,7 +179,7 @@
   items:
   - name: clothes
     descr: hand wraps to protect your knuckles
-  - name: alcoholic drink
+  - name: corpse mandrake
   - name: chain
   descr: "Your fists are deadly weapons: nobody is stronger than you!"
 - male_name: burglar
@@ -167,20 +190,20 @@
   items:
   - name: clothes
     descr: comfortable and with generous pockets
+  - name: crowbar
   - name: lockpicks
   descr: "There is no lock you can't open and no safe you can't crack."
 - male_name: charlatan
   female_name: charlatan
   skills:
-  - blather
+  - acting
   - charm
   items:
   - name: clothes
     descr: fake city watch uniform, won't stand scrutiny
-  - name: scroll
-    descr: filled with scribbled nonsense
-  - name: silver jewel
-    descr: fake necklace
+  - name: disguise kit
+  - name: signet ring
+    descr: stolen from a wealthy noble
   descr: "You are a cunning liar, fooling people to steal their money."
 - male_name: coach driver
   female_name: coach driver
@@ -202,7 +225,7 @@
   - name: clothes
     descr: hood covering your face
   - name: gold jewel
-    descr: gold necklace with a noble family emblem, stolen
+    descr: necklace with a noble family emblem, stolen
   descr: "Some are born with too much: those wealthy nobles aren't going to notice if they are a few shillings short."
 - male_name: duellist
   female_name: duellist
@@ -225,8 +248,11 @@
   items:
   - name: clothes
     descr: bare chested, lest your shirt catches fire
+  - name: missile hand weapon
+    descr: throwing daggers
   - name: alcoholic drink
   - name: alcoholic drink
+  - name: torch
   - name: torch
   - name: flint & tinder
   descr: "You were a performer at a travelling carnival, executing a vast array of exciting tricks with fire."
@@ -250,6 +276,8 @@
   items:
   - name: clothes
     descr: large, comfortable sleeves
+  - name: missile hand weapon
+    descr: darts
   - name: cards
     descr: marked
   - name: dice
@@ -263,8 +291,9 @@
   items:
   - name: clothes
     descr: decorated with trophies from your preys
-  - name: missile great weapon
-    descr: crossbow
+  - name: martial hand weapon
+    descr: spear
+  - name: bear trap
   descr: "When you hunt in the dark forests of the Kingdom, you sometimes wonder if you really are the hunter or rather the prey."
 - male_name: jester
   female_name: jester
@@ -286,10 +315,9 @@
   items:
   - name: clothes
     descr: colourful livery
+  - name: martial hand weapon
+    descr: warhammer
   - name: saddle
-  followers:
-  - name: light horse
-    descr: "Bartadan, trained as a mount and for combat, old and lame: permanent _hobbled_ condition"
   descr: "With your honour lost and no coin left to your name, you wander on your steed, selling your sword for money."
 - male_name: labourer
   female_name: labourer
@@ -299,6 +327,8 @@
   items:
   - name: clothes
     descr: drenched in sweat
+  - name: simple great weapon
+    descr: sledgehammer
   - name: simple great weapon
     descr: shovel
   - name: ration
@@ -312,6 +342,8 @@
   items:
   - name: clothes
     descr: court attire
+  - name: simple hand weapon
+    descr: heavy gavel
   - name: book
     descr: Laws of the Kingdom
   - name: ration
@@ -327,6 +359,8 @@
   items:
   - name: clothes
     descr: dusty and sweaty
+  - name: missile hand weapon
+    descr: sling
   - name: scroll
     descr: sealed letter, no addressee
   - name: lockbox & key
@@ -341,8 +375,9 @@
     descr: sweaty and dusty
   - name: simple great weapon
     descr: pickaxe
-  - name: cage
-    descr: containing a canary
+  - name: oil lamp
+  - name: lantern
+  - name: flint & tinder
   descr: "Crawling through dark, cramped tunnels, breaking rocks and breathing dust, wasn't the life you deserve."
 - male_name: noble
   female_name: noble
@@ -352,8 +387,8 @@
   items:
   - name: clothes
     descr: ostentatious fripperies, old and full of holes
-  - name: alcoholic drink
-    descr: good wine, expensive
+  - name: martial hand weapon
+    descr: dented sword, family heirloom
   - name: signet ring
     descr: proof of your identity
   descr: "Your house has fallen, and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!"
@@ -365,6 +400,8 @@
   items:
   - name: clothes
     descr: stinking of manure
+  - name: simple great weapon
+    descr: hoe
   followers:
   - name: chicken
     descr: Bertha, dumb and brave
@@ -379,8 +416,8 @@
   items:
   - name: clothes
     descr: excessive amounts of cheap fake jewellery
-  - name: darkroot
-  - name: perfume
+  - name: simple hand weapon
+    descr: dagger
   - name: clothes
     descr: expensive, made of silk
   descr: "You made a small fortune transporting and trading exotic goods, but you lost everything because of a bad business decision."
@@ -392,6 +429,8 @@
   items:
   - name: clothes
     descr: spotless black coat
+  - name: simple hand weapon
+    descr: scalpel
   - name: cure
   - name: medicine box
   descr: "You are an erudite doctor, knowledgeable about poison, disease, surgery, and healing."
@@ -404,9 +443,8 @@
   - name: clothes
     descr: torn, dusty, and covered in old blood
   - name: martial hand weapon
-    descr: Spear
-  - name: missile hand weapon
-    descr: javelins
+    descr: morningstar
+  - name: shield
   descr: "You have fought for money in illegal arenas and as a judicial champion for hire."
 - male_name: priest
   female_name: priestess
@@ -416,10 +454,10 @@
   items:
   - name: clothes
     descr: priestly robes and religious paraphernalia
+  - name: simple great weapon
+    descr: staff
   - name: power scroll
     descr: sacred
-  - name: book
-    descr: Holy Scriptures
   descr: "Yours is the burden to teach and guide people so that they don't succumb to the lure of darkness."
 - male_name: raconteur
   female_name: raconteur
@@ -429,8 +467,10 @@
   items:
   - name: clothes
     descr: flamboyant and fashionable
+  - name: simple hand weapon
+    descr: knife
   - name: music instrument
-    descr: fiddle
+    descr: fiddle, lute, flute, or drums
   descr: "You have travelled far and wide across the kingdom, singing songs and acting out enthralling stories."
 - male_name: rat catcher
   female_name: rat catcher
@@ -440,10 +480,12 @@
   items:
   - name: clothes
     descr: partly made of rat fur
+  - name: simple hand weapon
+    descr: pointy stick
   - name: trapping tools
   followers:
   - name: small dog
-    descr: Brutus, trained to hunt, especially rats, small but vicious
+    descr: Brutus, trained to hunt rats, small but vicious
   descr: "Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting larger and nastier by the day."
 - male_name: scholar
   female_name: scholar
@@ -453,6 +495,8 @@
   items:
   - name: clothes
     descr: night gown and comfortable shoes
+  - name: simple hand weapon
+    descr: cane
   - name: quill & ink
   - name: book
     descr: blank, you can't wait to fill it with your learnings
@@ -478,7 +522,7 @@
   - name: clothes
     descr: thick hardened leather, cut, burnet, scratched, and torn
   - name: martial great weapon
-    descr: huge battleaxe
+    descr: pike
   descr: "There is good pay for slaying giant monsters: it's a dangerous job, but you are brave and foolish enough to do it."
 - male_name: soldier
   female_name: soldier
@@ -499,7 +543,11 @@
   items:
   - name: clothes
     descr: hooded robes
+  - name: simple hand weapon
+    descr: cleaver
   - name: divination tools
+  - name: lucky charm
+    descr: rabbit foot
   descr: "You are cursed with the ability to see what others can't, and have witnessed the end of the world."
 - male_name: thug
   female_name: thug
@@ -509,7 +557,8 @@
   items:
   - name: clothes
     descr: covering your face
-  - name: alcoholic drink
+  - name: simple hand weapon
+    descr: spiked club
   - name: crimson weed
   descr: "A sturdy club is the best way to send a strong message, as you like to say."
 - male_name: tomb robber
@@ -520,8 +569,12 @@
   items:
   - name: clothes
     descr: capacious rucksack to store the loot
+  - name: simple great weapon
+    descr: spade
   - name: crowbar
+  - name: flint & tinder
   - name: rope
+  - name: torch
   descr: "Precious treasures are buried in ancient crypts and old tombs: their previous owners aren't going to miss them."
 - male_name: witch hunter
   female_name: witch huntress
@@ -531,7 +584,8 @@
   items:
   - name: clothes
     descr: wide brimmed hat, pitch black clothes
-  - name: alchemist's fire
+  - name: handgun
+    descr: pistol
   - name: blessed water
   - name: blessed water
   descr: "Warlocks, witches, and sorcerers are a threat to mankind: they are destined to meet their end in the flames of a pyre."
@@ -543,8 +597,8 @@
   items:
   - name: clothes
     descr: comfortable robes
-  - name: power scroll
-    descr: profane
+  - name: simple hand weapon
+    descr: dagger
   - name: power scroll
     descr: profane
   descr: "You are a secretive scholar of the esoteric arts: many fear you, and with good reason."
@@ -558,6 +612,7 @@
     descr: greenish cloak
   - name: simple great weapon
     descr: woodcutting axe
+  - name: camping kit
   descr: "You used to live in the forest, felling trees for timber."
 - male_name: zealot
   female_name: zealot
@@ -567,7 +622,8 @@
   items:
   - name: clothes
     descr: bloodstained monastic habit
-  - name: crimson weed
+  - name: martial hand weapon
+    descr: flail
   - name: book
     descr: Holy Scriptures
   descr: "You have a dark past and many sins to atone for: you are going to save your soul by purging the heretic!"

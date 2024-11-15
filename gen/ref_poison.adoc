@@ -20,6 +20,11 @@ _Consumable_.
 Ingested soporific poison (_incapacitated_ until the end of the watch or until damaged).
 
 
+* *Powdered heavenstone* (16ʂ, bulk ½).
+_Consumable_.
+Bloodstream corrupting poison (4 corruption at the end of the stretch).
+
+
 * *Beastman blood* (16ʂ, bulk ½).
 _Consumable_.
 Ingested corrupting poison (4 corruption at the end of the stretch).

@@ -5,11 +5,11 @@ Proficient at balancing (you can attempt on very difficult ground, or to sprint 
 
 
 * *Acting*.
-Proficient at disguising yourself (you can't be unmasked passively, you can attempt to look like someone else). You can convincingly fake emotions, disguise your voice, imitate accents, and change your mannerism.
+Proficient at disguising yourself (you can't be unmasked passively, you can attempt to look like someone else). Proficient at distracting by acting out plays. You can convincingly fake emotions, disguise your voice, imitate accents, and change your mannerism.
 
 
 * *Alchemy*.
-You are literate. You can speak Classic. You can craft alchemical substances, such as _acid vials_, _alchemist's fire_, _flash powder_, and _smoke bombs_, in a suitably equipped workshop. Knowledgeable about alchemical concepts, tools, raw ingredients, etc.
+You are literate. You can speak Classic. You can craft alchemical substances, such as _acid vials_, _fire bomb_, _flash powder_, and _smoke bombs_, in a suitably equipped workshop. Knowledgeable about alchemical concepts, tools, raw ingredients, etc.
 
 
 * *Ambidextrous*.
@@ -33,7 +33,7 @@ You can become _frenzied_ by spending a round inciting yourself into a frothing 
 
 
 * *Blather*.
-You know how to attract attention, confuse, and offend with words. Proficient at distracting and taunting.
+You know how to attract attention, confuse, and offend with words. Proficient at taunting and distracting.
 
 
 * *Bravery*.
@@ -53,7 +53,7 @@ Proficient at finding drinking water and shelter in the wilderness. You can effi
 
 
 * *Charm*.
-You understand how to make people like you, and how to persuade them, and if they are open to bribes. Proficient at befriending and persuading.
+You understand how to make people like you, and how to persuade them. Proficient at befriending and persuading.
 
 
 * *Cleave*.
@@ -101,7 +101,7 @@ Proficient at driving land vehicles such as carts, coaches, chariots, sledges, e
 
 
 * *Erudition*.
-You are literate. You can speak Classic. Knowledgeable in all fields of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy, etc.
+You are literate. You can speak Classic. Knowledgeable in all fields of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy, etc. Once per daily rest, you can ask the GM for a tip about the current situation, representing your intuition about the current circumstances. The GM can choose how to answer and how much information to give out, but it's reliable.
 
 
 * *Faith*.
@@ -181,7 +181,7 @@ You double damage inflicted against targets of larger size category, offsetting 
 
 
 * *Music*.
-Proficient at singing and playing music. During a daily rest, you can play an inspiring song for the company, letting a single companion recover a spent omen. Knowledgeable about music theory, instruments, famous musicians, etc.
+Proficient at singing and playing music. Proficient at distracting by staging a musical performance. During a daily rest, you can play an inspiring song for the company, letting a single companion recover a spent omen. Knowledgeable about music theory, instruments, famous musicians, etc.
 
 
 * *Pack rat*.
@@ -205,7 +205,7 @@ Proficient at identifying poison in food and drinks. You can craft all kinds of 
 
 
 * *Politics*.
-You are literate. You can speak Classic. Knowledgeable in all fields of civil and political lore, such as laws, structures of power, bureaucracy, processes, etc.
+You are literate. You can speak Classic. Knowledgeable in all fields of civil and political lore, such as laws, structures of power, bureaucracy, processes, etc. You know whom to bribe, what to offer, and how to go about it: when you spend a few minutes talking with someone, you can ask the GM to reveal if they are bribable, and if so what that would require.
 
 
 * *Protect*.

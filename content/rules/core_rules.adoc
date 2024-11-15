@@ -814,7 +814,7 @@ The glass just shatters, no durability roll required.
 
 == Followers
 
-Players control their followers as their own character, assuming they are giving them orders.
+Players characters can be accompanied by up to 4 followers, whom they control as their own character, assuming they are giving them orders.
 However, the GM ultimately decides if and how they do what they are asked, as they act in their own best interest.
 In situations where their loyalty is put into question, the character who is leading them must pass a WIT save to keep their allegiance.
 

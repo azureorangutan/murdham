@@ -628,7 +628,7 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
                     comps.join(", ")
                 })
                 .collect::<Vec<String>>();
-            gen_double_die_table(&base_path, &capitalise(category), &entries, 2)?;
+            gen_double_die_table(&base_path, &capitalise(category), &entries, 3)?;
         }
     }
 

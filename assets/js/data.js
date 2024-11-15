@@ -10,6 +10,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (comfortable and colourful leotard)",
+      "missile hand weapon (throwing daggers)",
       "rope (made of silk)",
       "wooden pole",
     ],
@@ -22,7 +23,7 @@ export const careers = [
   {
     masculine_name: "Agitator",
     feminine_name: "Agitator",
-    description: "You know how to incite the people with fervent speeches, and how to quickly run away from city guard patrols. You were partly responsible for the bloody riots of 1461: you swear you did it for your ideals, not money.",
+    description: "You know how to incite the people with fervent speeches, and how to quickly run away from city guard patrols. You were partly responsible for the bloody riots of 1461.",
     skills: [
       "fleet footed",
       "leadership",
@@ -30,7 +31,8 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (working class attire)",
-      "alchemist's fire",
+      "simple hand weapon (club)",
+      "fire bomb",
       "scroll (pamphlet denouncing the Emperor, or at least they told you so: you can't read after all)",
     ],
     followers: [
@@ -50,9 +52,9 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (spotless white apron and bags to carry ingredients)",
+      "simple hand weapon (sickle)",
       "apothecary tools",
       "medicinal herbs",
-      "dream sand",
     ],
     followers: [
     ],
@@ -71,6 +73,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (thick leather apron)",
+      "simple hand weapon (hammer)",
       "toolbox",
     ],
     followers: [
@@ -110,6 +113,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (bloodstained apron)",
+      "simple hand weapon (razor)",
       "surgical tools",
     ],
     followers: [
@@ -132,7 +136,7 @@ export const careers = [
       "simple hand weapon (bullwhip)",
     ],
     followers: [
-      "wolf (Lucius, tamed, bites anyone else approaching too close)",
+      "boar (Lucius, tamed, short-tempered)",
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
@@ -149,7 +153,9 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (dirty, stinky rags)",
+      "simple hand weapon (sturdy stick)",
       "crutch (sometime it pays to pretend you are lame)",
+      "alcoholic drink",
       "alcoholic drink",
     ],
     followers: [
@@ -188,6 +194,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (wet and mouldy)",
+      "simple great weapon (boat hook)",
       "fishing tools",
     ],
     followers: [
@@ -207,6 +214,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (marked with the insignia of your last employer)",
+      "martial hand weapon (arming sword)",
       "shield",
     ],
     followers: [
@@ -225,10 +233,13 @@ export const careers = [
     ],
     mana: 0,
     items: [
-      "clothes (mismatched, scavenged from various dumpsites)",
+      "clothes (mismatched rags, scavenged from various dumpsites)",
       "simple hand weapon (femur, <i>fragile</i>)",
+      "wheelbarrow",
       "junk (bag of dung)",
-      "crutch",
+      "junk (dirty wig)",
+      "junk (assorted bones)",
+      "junk (broken boots)",
     ],
     followers: [
     ],
@@ -247,6 +258,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (large coat and wide-brimmed hat)",
+      "mancatcher",
       "net",
       "manacles & key",
     ],
@@ -267,7 +279,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (hand wraps to protect your knuckles)",
-      "alcoholic drink",
+      "corpse mandrake",
       "chain",
     ],
     followers: [
@@ -287,6 +299,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (comfortable and with generous pockets)",
+      "crowbar",
       "lockpicks",
     ],
     followers: [
@@ -300,14 +313,14 @@ export const careers = [
     feminine_name: "Charlatan",
     description: "You are a cunning liar, fooling people to steal their money.",
     skills: [
-      "blather",
+      "acting",
       "charm",
     ],
     mana: 0,
     items: [
       "clothes (fake city watch uniform, won't stand scrutiny)",
-      "scroll (filled with scribbled nonsense)",
-      "silver jewel (fake necklace)",
+      "disguise kit",
+      "signet ring (stolen from a wealthy noble)",
     ],
     followers: [
     ],
@@ -345,7 +358,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (hood covering your face)",
-      "gold jewel (gold necklace with a noble family emblem, stolen)",
+      "gold jewel (necklace with a noble family emblem, stolen)",
     ],
     followers: [
     ],
@@ -384,8 +397,10 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (bare chested, lest your shirt catches fire)",
+      "missile hand weapon (throwing daggers)",
       "alcoholic drink",
       "alcoholic drink",
+      "torch",
       "torch",
       "flint & tinder",
     ],
@@ -426,6 +441,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (large, comfortable sleeves)",
+      "missile hand weapon (darts)",
       "cards (marked)",
       "dice (loaded)",
     ],
@@ -446,7 +462,8 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (decorated with trophies from your preys)",
-      "missile great weapon (crossbow)",
+      "martial hand weapon (spear)",
+      "bear trap",
     ],
     followers: [
     ],
@@ -485,10 +502,10 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (colourful livery)",
+      "martial hand weapon (warhammer)",
       "saddle",
     ],
     followers: [
-      "light horse (Bartadan, trained as a mount and for combat, old and lame: permanent <i>hobbled</i> condition)",
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
@@ -505,6 +522,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (drenched in sweat)",
+      "simple great weapon (sledgehammer)",
       "simple great weapon (shovel)",
       "ration (packed lunch)",
     ],
@@ -525,6 +543,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (court attire)",
+      "simple hand weapon (heavy gavel)",
       "book (Laws of the Kingdom)",
       "ration (cooked capon, payment received from a customer)",
       "ration (cooked capon, payment received from a customer)",
@@ -546,6 +565,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (dusty and sweaty)",
+      "missile hand weapon (sling)",
       "scroll (sealed letter, no addressee)",
       "lockbox & key",
     ],
@@ -567,7 +587,9 @@ export const careers = [
     items: [
       "clothes (sweaty and dusty)",
       "simple great weapon (pickaxe)",
-      "cage (containing a canary)",
+      "oil lamp",
+      "lantern",
+      "flint & tinder",
     ],
     followers: [
     ],
@@ -586,7 +608,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (ostentatious fripperies, old and full of holes)",
-      "alcoholic drink (good wine, expensive)",
+      "martial hand weapon (dented sword, family heirloom)",
       "signet ring (proof of your identity)",
     ],
     followers: [
@@ -606,6 +628,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (stinking of manure)",
+      "simple great weapon (hoe)",
     ],
     followers: [
       "chicken (Bertha, dumb and brave)",
@@ -626,8 +649,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (excessive amounts of cheap fake jewellery)",
-      "darkroot",
-      "perfume",
+      "simple hand weapon (dagger)",
       "clothes (expensive, made of silk)",
     ],
     followers: [
@@ -647,6 +669,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (spotless black coat)",
+      "simple hand weapon (scalpel)",
       "cure",
       "medicine box",
     ],
@@ -667,8 +690,8 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (torn, dusty, and covered in old blood)",
-      "martial hand weapon (Spear)",
-      "missile hand weapon (javelins)",
+      "martial hand weapon (morningstar)",
+      "shield",
     ],
     followers: [
     ],
@@ -687,7 +710,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (priestly robes and religious paraphernalia)",
-      "book (Holy Scriptures)",
+      "simple great weapon (staff)",
     ],
     followers: [
     ],
@@ -706,7 +729,8 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (flamboyant and fashionable)",
-      "music instrument (fiddle)",
+      "simple hand weapon (knife)",
+      "music instrument (fiddle, lute, flute, or drums)",
     ],
     followers: [
     ],
@@ -725,10 +749,11 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (partly made of rat fur)",
+      "simple hand weapon (pointy stick)",
       "trapping tools",
     ],
     followers: [
-      "small dog (Brutus, trained to hunt, especially rats, small but vicious)",
+      "small dog (Brutus, trained to hunt rats, small but vicious)",
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
@@ -745,6 +770,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (night gown and comfortable shoes)",
+      "simple hand weapon (cane)",
       "quill & ink",
       "book (blank, you can't wait to fill it with your learnings)",
       "looking glass",
@@ -785,7 +811,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (thick hardened leather, cut, burnet, scratched, and torn)",
-      "martial great weapon (huge battleaxe)",
+      "martial great weapon (pike)",
     ],
     followers: [
     ],
@@ -823,7 +849,9 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (hooded robes)",
+      "simple hand weapon (cleaver)",
       "divination tools",
+      "lucky charm (rabbit foot)",
     ],
     followers: [
     ],
@@ -842,7 +870,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (covering your face)",
-      "alcoholic drink",
+      "simple hand weapon (spiked club)",
       "crimson weed",
     ],
     followers: [
@@ -862,8 +890,11 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (capacious rucksack to store the loot)",
+      "simple great weapon (spade)",
       "crowbar",
+      "flint & tinder",
       "rope",
+      "torch",
     ],
     followers: [
     ],
@@ -882,7 +913,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (wide brimmed hat, pitch black clothes)",
-      "alchemist's fire",
+      "handgun (pistol)",
       "blessed water",
       "blessed water",
     ],
@@ -903,11 +934,12 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (comfortable robes)",
+      "simple hand weapon (dagger)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
-    profane_scrolls: 2,
+    profane_scrolls: 1,
     money: 0,
   },
   {
@@ -922,6 +954,7 @@ export const careers = [
     items: [
       "clothes (greenish cloak)",
       "simple great weapon (woodcutting axe)",
+      "camping kit",
     ],
     followers: [
     ],
@@ -940,7 +973,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (bloodstained monastic habit)",
-      "crimson weed",
+      "martial hand weapon (flail)",
       "book (Holy Scriptures)",
     ],
     followers: [
@@ -952,57 +985,36 @@ export const careers = [
 ];
 
 export const starting_items = [
+  ["warm clothes", 0],
+  ["field kitchen", 0],
+  ["navigation tools", 0],
+  ["medicine box", 0],
+  ["antidote", 0],
+  ["cure", 0],
+  ["scorpion oil", 0],
+  ["dream sand", 0],
+  ["reaper's spice", 0],
+  ["beastman blood", 0],
+  ["darkroot", 0],
+  ["madcap mushrooms", 0],
+  ["pipe & tobacco", 6],
+  ["caltrops", 0],
+  ["smoke bomb", 0],
+  ["grappling hook", 6],
+  ["rope ladder", 6],
+  ["climbing gear", 0],
+  ["chess set", 0],
+  ["marbles", 6],
+  ["animal skin (wolf pelt)", 0],
+  ["lucky charm (cornicello)", 0],
+  ["mirror", 0],
+  ["perfume", 0],
   ["acid vial", 6],
   ["flash powder", 0],
-  ["smoke bomb", 0],
-  ["bear trap", 0],
-  ["caltrops", 0],
-  ["alchemist's fire", 0],
-  ["warm clothes (comfortable fur cloak)", 0],
-  ["beastman blood", 0],
-  ["butterfly sting", 0],
-  ["corpse mandrake", 0],
-  ["madcap mushroom", 0],
-  ["lantern (containing a candle)", 6],
-  ["oil lamp", 6],
-  ["chess set", 0],
-  ["climbing gear", 0],
-  ["disguise kit", 0],
-  ["field kitchen", 0],
-  ["grappling hook", 6],
-  ["lucky charm (cornicello)", 0],
-  ["signet ring (stolen)", 0],
-  ["music instrument (flute)", 0],
-  ["navigation tools", 0],
-  ["pipe & tobacco", 6],
-  ["rope ladder", 6],
-];
-
-export const starting_weapons = [
-  ["simple hand weapon (cleaver)", 6],
-  ["simple hand weapon (club)", 6],
-  ["simple hand weapon (dagger)", 6],
-  ["simple hand weapon (hammer)", 6],
-  ["simple hand weapon (hatchet)", 6],
-  ["simple hand weapon (knife)", 6],
-  ["simple hand weapon (sickle)", 6],
-  ["simple hand weapon (knuckledusters)", 6],
-  ["simple great weapon (boat hook)", 4],
-  ["simple great weapon (scythe)", 4],
-  ["simple great weapon (pitchfork)", 4],
-  ["simple great weapon (sledgehammer)", 4],
-  ["simple great weapon (staff)", 4],
-  ["simple great weapon (woodcutting axe)", 4],
-  ["martial hand weapon (morningstar)", 0],
-  ["martial hand weapon (spear)", 0],
-  ["martial hand weapon (warhammer)", 0],
   ["martial great weapon (rusty zweihänder, <i>fragile</i>)", 0],
-  ["mancatcher", 0],
-  ["missile hand weapon (blowgun)", 0],
-  ["missile hand weapon (darts)", 0],
-  ["missile hand weapon (sling)", 0],
+  ["missile hand weapon (javelins)", 0],
   ["missile great weapon (makeshift bow, <i>fragile</i>)", 0],
-  ["handgun (old pistol, <i>fragile</i>)", 0],
+  ["long gun (old musket, <i>fragile</i>)", 0],
 ];
 
 export const profane_powers = [

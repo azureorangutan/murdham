@@ -75,6 +75,10 @@ Proof of identity, used to stamp _sealing wax_.
 Includes hammer, saws, nails, etc. Spend a watch and pass a STR or WIT save to repair a damaged item, but on a fail the item is destroyed. If the item has the _health_ property, repair or inflict 2 damage instead on a pass or fail.
 
 
+* *Wheelbarrow* (64ʂ, bulk 8).
+Can carry a total bulk of 8, without counting towards encumbrance.
+
+
 * *Wooden pole* (4ʂ, bulk 2).
 2 metre long.
 

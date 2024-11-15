@@ -1,6 +1,6 @@
 armour:
 - name: shield
-  value: 64
+  value: 32
   bulk: 2
   properties:
   - Shield
@@ -106,13 +106,13 @@ light sources:
   descr: >
     Illuminates a zone until the end of the watch.
 - name: torch
-  value: 1
+  value: 2
   bulk: 1
   properties:
   - Consumable
   descr: >
     Illuminates all zones within range 1 until the end of the watch.
-    Can be used to attack, inflicting d4 fire damage, but follows the improvised weapon rules.
+    Can be used to attack, inflicting d4 fire damage, but counts as _fragile_.
 - name: oil lamp
   value: 4
   bulk: 0
@@ -130,7 +130,7 @@ light sources:
   bulk: 1
   descr: >
     Holds a _candle_ or an _oil lamp_, protecting it from wind and water.
-    Can screen the light to conceal it.
+    Can be hung from a belt, and can screen the light to conceal it.
 
 survival gear:
 - name: ration
@@ -266,6 +266,13 @@ poison:
   - Consumable
   descr: >
     Ingested soporific poison (_incapacitated_ until the end of the watch or until damaged).
+- name: powdered heavenstone
+  value: 16
+  bulk: 0
+  properties:
+  - Consumable
+  descr: >
+    Bloodstream corrupting poison (4 corruption at the end of the stretch).
 - name: beastman blood
   value: 16
   bulk: 0
@@ -333,7 +340,7 @@ drugs:
   descr: >
     Recover health equal to half your STR unless you are _dying_, but you become _groggy_ until the end of the watch.
     You must pass a WIT save or become _addicted_.
-- name: madcap mushroom
+- name: madcap mushrooms
   value: 16
   bulk: 0
   properties:
@@ -482,7 +489,7 @@ academic gear:
   bulk: 0
   descr: >
     Used to write on scrolls and books.
-- name: Sacred relic
+- name: sacred relic
   value: 1024
   bulk: 1
   descr: >
@@ -607,6 +614,11 @@ miscellanea:
     Includes hammer, saws, nails, etc.
     Spend a watch and pass a STR or WIT save to repair a damaged item, but on a fail the item is destroyed.
     If the item has the _health_ property, repair or inflict 2 damage instead on a pass or fail.
+- name: wheelbarrow
+  value: 64
+  bulk: 8
+  descr: >
+    Can carry a total bulk of 8, without counting towards encumbrance.
 - name: wooden pole
   value: 4
   bulk: 2
@@ -734,7 +746,7 @@ weapons:
   descr:  >
     Two-handed primitive ranged weapons: bow, crossbow, etc.
 - name: handgun
-  value: 32
+  value: 16
   bulk: 1
   properties:
   - !Weapon
@@ -746,7 +758,7 @@ weapons:
     One-handed gunpowder weapons:
     matchlock pistol, dragon, etc.
 - name: long gun
-  value: 64
+  value: 32
   bulk: 2
   properties:
   - !Weapon
@@ -794,7 +806,7 @@ weapons:
     damage: D8
     properties:
     - !Range 2
-- name: alchemist's fire
+- name: fire bomb
   value: 16
   bulk: 0
   properties:
