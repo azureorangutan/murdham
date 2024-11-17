@@ -4,7 +4,7 @@
 *Traits*: _beast_, _fast_, _sturdy_.
 
 *Cat* (16ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8, *Size* small +
+*STR* 4, *AGI* 12, *WIT* 8, *Size:* small +
 *Natural weapon*: bite & claws (d6). +
 *Traits*: _beast_, _fast_.
 
@@ -14,17 +14,17 @@
 *Traits*: _beast_, _sturdy_.
 
 *Chicken* (4ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8, *Size* small +
+*STR* 4, *AGI* 8, *WIT* 8, *Size:* small +
 *Natural weapon*: beak (d4). +
 *Traits*: _beast_, _fast_.
 
 *Small dog* (8ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8, *Size* small +
+*STR* 4, *AGI* 8, *WIT* 8, *Size:* small +
 *Natural weapon*: bite (d6). +
 *Traits*: _beast_, _fast_.
 
 *Medium dog* (32ʂ) +
-*STR* 8, *AGI* 8, *WIT* 8, *Size* small +
+*STR* 8, *AGI* 8, *WIT* 8, *Size:* small +
 *Natural weapon*: bite (d6). +
 *Traits*: _beast_, _fast_.
 
@@ -39,7 +39,7 @@
 *Traits*: _beast_, _sturdy_.
 
 *Duck* (8ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8, *Size* small +
+*STR* 4, *AGI* 8, *WIT* 8, *Size:* small +
 *Natural weapon*: beak (d4). +
 *Traits*: _beast_, _fast_, _flyer (swooping)_.
 
@@ -63,7 +63,7 @@
 *Natural weapon*: bite (d4).
 
 *Pigeon* (4ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8, *Size* tiny +
+*STR* 4, *AGI* 8, *WIT* 8, *Size:* tiny +
 *Natural weapon*: beak (d4). +
 *Traits*: _beast_, _fast_, _flyer (swooping)_.
 
@@ -73,7 +73,7 @@
 *Traits*: _beast_, _fast_, _sturdy_.
 
 *Rabbit* (4ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8, *Size* small +
+*STR* 4, *AGI* 8, *WIT* 8, *Size:* small +
 *Natural weapon*: bite (d4). +
 *Traits*: _beast_, _fast_.
 

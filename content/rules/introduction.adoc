@@ -98,3 +98,12 @@ The GM is not an opponent but is trying to run the game fairly and in an engagin
 
 Above all else, remember that your goal while playing the game is to have fun.
 If everyone is enjoying the game, you are playing in the right way!
+
+
+== Reading this book
+
+If you are the GM, you should read the whole rulebook and get familiar with the rules, as you will be running the game.
+If you are a Player, you should familiarise yourself with the content of the link:../core_rules[Core Rules] and link:../player_characters[Player Characters] chapters.
+You should also check the entries relevant for you in the link:../careers[Careers], link:../skills_traits_and_conditions[Skills, Traits, & Conditions], and link:../items_followers_and_services[Items, Followers, & Services] chapters, but you don't need to read them back to back or memorise them.
+Finally, if you have time, you can read the link:../adventuring_rules[Adventuring Rules], link:../combat_rules[Combat Rules], and link:../magic_rules[Magic Rules] chapters to learn more advanced rules, but these can be introduced by the GM during play.
+The remaining chapters are for the GM and you don't need to read them.

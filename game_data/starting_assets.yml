@@ -1,5 +1,5 @@
 starting items:
-- - name: warm clothes
+- - name: camping kit
   - 0
 - - name: field kitchen
   - 0
@@ -53,6 +53,20 @@ starting items:
   - 6
 - - name: flash powder
   - 0
+- - name: oil lamp
+  - 6
+- - name: silver jewel
+    descr: family heirloom
+  - 0
+- - name: simple hand weapon
+    descr: hatchet
+  - 0
+- - name: simple great weapon
+    descr: scythe
+  - 0
+- - name: martial hand weapon
+    descr: battle axe
+  - 0
 - - name: martial great weapon
     descr: "rusty zweihänder, _fragile_"
   - 0
@@ -62,6 +76,9 @@ starting items:
 - - name: missile great weapon
     descr: "makeshift bow, _fragile_"
   - 0
+- - name: handgun
+    descr: pistol
+  - 0
 - - name: long gun
-    descr: "old musket, _fragile_"
+    descr: "old blunderbuss, _fragile_"
   - 0

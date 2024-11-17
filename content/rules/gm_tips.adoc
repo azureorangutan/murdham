@@ -5,6 +5,60 @@ prev: /rules/bestiary
 ---
 :toc:
 
+
+== Site exploration
+
+Sites are usually mapped using zones, or sectors if particularly large.
+Each sector can be punctuated by important sub-sites using zone-based maps.
+
+When the Players explore a site you should typically keep track of time using stretches.
+The Players take turn performing actions, until they have all done something taking a stretch.
+Quicker actions can be performed at will, within reason: you as the GM should decide when several actions have consumed enough time for the stretch.
+You should also decide what your own characters in the site do during the stretch.
+
+At the end of a stretch, you can decide if any event occurs, and if the Players encounter a group of your characters.
+
+Typical actions consuming a whole stretch are:
+
+* Moving across sectors.
+
+* Searching a zone.
+
+* Opening a locked door or chest.
+
+* Resolving an encounter.
+
+Typical quick actions which don't take the whole stretch are:
+
+* Moving across zones.
+
+* Examining a specific object.
+
+* Fast interactions, such as opening a door or pulling a lever.
+
+
+== Overland travel
+
+In campaigns and larger scenarios, the Players might have to travel long distances to reach different sites.
+In this case you would need a region-based overland map.
+
+When the Players travel and spend time in the wilderness, you should keep track of time using watches.
+Just like for site exploration, the Players take turns declaring what they intend to do, until they have all done something taking a watch.
+Quicker actions can be performed freely, within reason.
+
+At the end of a watch, you can decide if any event occurs, and if the Players encounter a group of your characters.
+
+Typical actions consuming a watch are:
+
+* Travelling across regions.
+
+* Searching a region or a sector.
+
+* Foraging, looking for water or shelter.
+
+* Taking a daily rest.
+
+
 == Creating characters
 
 Here are a few tips to create GM characters.
@@ -18,6 +72,7 @@ Simply decide their ability scores, abilities, and equipment.
 You can also assign 1 or 2 omens to very important characters.
 
 * *Monsters and other creatures*.
+You can use the following process, but don't feel constrained by it.
 
 .. Pick the size: tiny (mouse-sized), small (dog-sized), medium (human-sized), large (elephant-sized), massive (whale-sized).
 
@@ -40,11 +95,11 @@ Particularly common trait are: _sturdy_ (for quadrupeds), _fast_ (for fast-movin
 == Grids
 
 You can use a square grid instead of zones to keep track of where the characters are in combat or when exploring a site.
-A square represents a distance of 2 metres and can be occupied by a single medium-sized character.
+A square represents an area of 2 metres by 2 metres and can be occupied by a single medium-sized character.
 Large characters occupy 2×2 squares, massive characters occupy 4×4 squares, and small and tiny characters occupy a fraction of a square.
 
-To convert ranges in zones to ranges in squares, multiply by 4.
-For example, a range of 2 zones would correspond to a range of 8 squares.
+Multiply by 2 to convert distances and ranges from zones to squares.
+For example, a range of 2 zones would correspond to 4 squares.
 Anything affecting a whole zone, such as blast attacks, affects a 3 squares by 3 squares area instead.
 
 

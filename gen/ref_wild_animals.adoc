@@ -4,7 +4,7 @@
 *Natural weapon*: bite (d8).
 
 *Bat* (8ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8, *Size* tiny +
+*STR* 4, *AGI* 12, *WIT* 8, *Size:* tiny +
 *Natural weapon*: bite (d4). +
 *Traits*: _beast_, _fast_, _flyer (swooping)_.
 
@@ -24,18 +24,18 @@
 *Traits*: _beast_, _fast_.
 
 *Eagle* (128ʂ) +
-*STR* 8, *AGI* 12, *WIT* 8, *Size* small +
+*STR* 8, *AGI* 12, *WIT* 8, *Size:* small +
 *Natural weapon*: beak & talons (d6). +
 *Traits*: _beast_, _fast_, _flyer (swooping)_.
 
 *Elephant* (512ʂ) +
-*STR* 12, *AGI* 4, *WIT* 8, *Size* large +
+*STR* 12, *AGI* 4, *WIT* 8, *Size:* large +
 *Natural armour*: thick hide (1). +
 *Natural weapon*: tusks (d6). +
 *Traits*: _beast_, _sturdy_.
 
 *Hawk* (32ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8, *Size* small +
+*STR* 4, *AGI* 12, *WIT* 8, *Size:* small +
 *Natural weapon*: beak & talons (d6). +
 *Traits*: _beast_, _fast_, _flyer (swooping)_.
 
@@ -45,27 +45,27 @@
 *Traits*: _beast_, _fast_, _sturdy_.
 
 *Lynx* (64ʂ) +
-*STR* 8, *AGI* 12, *WIT* 8, *Size* small +
+*STR* 8, *AGI* 12, *WIT* 8, *Size:* small +
 *Natural weapon*: bite & claws (d6). +
 *Traits*: _beast_, _fast_.
 
 *Mouse* (4ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8, *Size* tiny +
+*STR* 4, *AGI* 12, *WIT* 8, *Size:* tiny +
 *Natural weapon*: bite (d4). +
 *Traits*: _beast_, _fast_.
 
 *Owl* (32ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8, *Size* small +
+*STR* 4, *AGI* 12, *WIT* 8, *Size:* small +
 *Natural weapon*: beak & talons (d6). +
 *Traits*: _beast_, _fast_, _flyer (swooping)_.
 
 *Rat* (8ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8, *Size* small +
+*STR* 4, *AGI* 8, *WIT* 8, *Size:* small +
 *Natural weapon*: bite (d6). +
 *Traits*: _beast_, _fast_.
 
 *Raven* (32ʂ) +
-*STR* 4, *AGI* 12, *WIT* 8, *Size* small +
+*STR* 4, *AGI* 12, *WIT* 8, *Size:* small +
 *Natural weapon*: beak & talons (d6). +
 *Traits*: _beast_, _fast_, _flyer (swooping)_.
 
@@ -75,7 +75,7 @@
 *Traits*: _beast_, _fast_.
 
 *Viper* (2ʂ) +
-*STR* 4, *AGI* 8, *WIT* 8, *Size* tiny +
+*STR* 4, *AGI* 8, *WIT* 8, *Size:* tiny +
 *Natural weapon*: bite (d4, poison (damaging)).
 
 *Wolf* (64ʂ) +
