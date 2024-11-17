@@ -1,6 +1,6 @@
 *Bone raven* +
 A dead raven, empty-eyed, bones carrying rotting flesh. +
-*STR* 4, *AGI* 6, *WIT* 2, *Size* small +
+*STR* 4, *AGI* 6, *WIT* 2, *Size:* small +
 *Natural weapon*: beak & talons (d6). +
 *Traits*: _fast_, _frightening_, _immunity (corruption, disease, poison)_, _mindless_, _flyer (swooping)_, _undead_.
 

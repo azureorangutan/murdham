@@ -96,7 +96,7 @@ Characters can't read, write, or perform anything but very simple calculations (
 
 == Encounters
 
-When the company encounters a group of GM characters they can interact with, you must first determine if they are aware of each other.
+When the company encounters a group of GM characters they can interact with, you should first set up the scene with an appropriate zone-based map, and then determine if the two groups are aware of each other.
 Each side makes a group WIT save, and notices the other side on a pass.
 
 Groups which are being reckless (making noise, talking loudly, carrying a light in the dark, etc.) are automatically detected and can't detect the other group unless they are being reckless as well.

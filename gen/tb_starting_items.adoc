@@ -3,10 +3,10 @@
 [options='header, unbreakable', cols="^1h,^4,^4,^4"]
 |===
 h|  3+h|D3
-h|D10
+h|D12
  h|1 h|2 h|3
 |1
-|Warm clothes
+|Camping kit
 |Field kitchen
 |Navigation tools
 |2
@@ -40,9 +40,17 @@ h|D10
 |9
 |Acid vial, 6ʂ
 |Flash powder
-|Martial great weapon (rusty zweihänder, _fragile_)
+|Oil lamp, 6ʂ
 |10
+|Silver jewel (family heirloom)
+|Simple hand weapon (hatchet)
+|Simple great weapon (scythe)
+|11
+|Martial hand weapon (battle axe)
+|Martial great weapon (rusty zweihänder, _fragile_)
 |Missile hand weapon (javelins)
+|12
 |Missile great weapon (makeshift bow, _fragile_)
-|Long gun (old musket, _fragile_)
+|Handgun (pistol)
+|Long gun (old blunderbuss, _fragile_)
 |===

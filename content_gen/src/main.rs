@@ -126,7 +126,6 @@ struct Career {
     items: Vec<AssetWithDescr>,
     #[serde(default)]
     followers: Vec<AssetWithDescr>,
-    #[serde(default)]
     money: i32,
     #[serde(default)]
     mana: i8,
@@ -328,7 +327,7 @@ impl ToAsciiDoc for Career {
         ));
 
         let money_str = if self.money > 0 {
-            format!("{}ʂ", self.money)
+            format!(", {}ʂ", self.money)
         } else {
             String::new()
         };
@@ -394,7 +393,7 @@ impl ToAsciiDoc for Character {
             String::new()
         };
         let size_str = if self.size != CharacterSize::Medium {
-            format!(", *Size* {}", self.size.to_asciidoc())
+            format!(", *Size:* {}", self.size.to_asciidoc())
         } else {
             String::new()
         };

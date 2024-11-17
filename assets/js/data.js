@@ -18,12 +18,12 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 8,
   },
   {
     masculine_name: "Agitator",
     feminine_name: "Agitator",
-    description: "You know how to incite the people with fervent speeches, and how to quickly run away from city guard patrols. You were partly responsible for the bloody riots of 1461.",
+    description: "You know how to incite people with fervent speeches, and how to quickly run away from city guard patrols.",
     skills: [
       "fleet footed",
       "leadership",
@@ -39,7 +39,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 8,
   },
   {
     masculine_name: "Apothecary",
@@ -60,12 +60,12 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Artisan",
     feminine_name: "Artisan",
-    description: "You know how to keep equipment in good order: nothing is more dangerous than a blunt sword or a cracked shield.",
+    description: "You are an experience craftsman, taking pride in the excellence of your creations.",
     skills: [
       "crafting",
       "piercing strike",
@@ -80,7 +80,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 10,
   },
   {
     masculine_name: "Assassin",
@@ -100,7 +100,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Barber Surgeon",
@@ -120,7 +120,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 10,
   },
   {
     masculine_name: "Beast Tamer",
@@ -140,7 +140,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Beggar",
@@ -157,12 +157,13 @@ export const careers = [
       "crutch (sometime it pays to pretend you are lame)",
       "alcoholic drink",
       "alcoholic drink",
+      "ration (mouldy bread)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 10,
   },
   {
     masculine_name: "Berserker",
@@ -181,7 +182,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Boatman",
@@ -201,7 +202,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 8,
   },
   {
     masculine_name: "Bodyguard",
@@ -235,11 +236,10 @@ export const careers = [
     items: [
       "clothes (mismatched rags, scavenged from various dumpsites)",
       "simple hand weapon (femur, <i>fragile</i>)",
-      "wheelbarrow",
       "junk (bag of dung)",
       "junk (dirty wig)",
-      "junk (assorted bones)",
       "junk (broken boots)",
+      "wheelbarrow (damaged)",
     ],
     followers: [
     ],
@@ -259,14 +259,14 @@ export const careers = [
     items: [
       "clothes (large coat and wide-brimmed hat)",
       "mancatcher",
-      "net",
       "manacles & key",
+      "rope",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 8,
   },
   {
     masculine_name: "Brawler",
@@ -280,13 +280,13 @@ export const careers = [
     items: [
       "clothes (hand wraps to protect your knuckles)",
       "corpse mandrake",
-      "chain",
+      "lucky charm (lucky belt)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Burglar",
@@ -299,19 +299,21 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (comfortable and with generous pockets)",
-      "crowbar",
+      "simple hand weapon (cudgel)",
       "lockpicks",
+      "rope",
+      "grappling hook",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 6,
   },
   {
     masculine_name: "Charlatan",
     feminine_name: "Charlatan",
-    description: "You are a cunning liar, fooling people to steal their money.",
+    description: "You are a cunning liar, fooling people to appropriate their money.",
     skills: [
       "acting",
       "charm",
@@ -319,6 +321,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (fake city watch uniform, won't stand scrutiny)",
+      "simple hand weapon (dagger)",
       "disguise kit",
       "signet ring (stolen from a wealthy noble)",
     ],
@@ -326,7 +329,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Coach Driver",
@@ -345,7 +348,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Cutpurse",
@@ -358,13 +361,14 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (hood covering your face)",
+      "simple hand weapon (knife)",
       "gold jewel (necklace with a noble family emblem, stolen)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Duellist",
@@ -384,7 +388,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 10,
   },
   {
     masculine_name: "Fire Eater",
@@ -408,7 +412,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Footpad",
@@ -428,7 +432,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 10,
   },
   {
     masculine_name: "Gambler",
@@ -449,7 +453,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 8,
   },
   {
     masculine_name: "Hunter",
@@ -469,7 +473,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Jester",
@@ -494,7 +498,7 @@ export const careers = [
   {
     masculine_name: "Knight",
     feminine_name: "Knight",
-    description: "With your honour lost and no coin left to your name, you wander on your steed, selling your sword for money.",
+    description: "With your honour lost and no coin left to your name, you wander the lands selling your sword for money.",
     skills: [
       "ride",
       "skilled blow",
@@ -509,7 +513,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Labourer",
@@ -530,7 +534,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 10,
   },
   {
     masculine_name: "Lawyer",
@@ -545,14 +549,12 @@ export const careers = [
       "clothes (court attire)",
       "simple hand weapon (heavy gavel)",
       "book (Laws of the Kingdom)",
-      "ration (cooked capon, payment received from a customer)",
-      "ration (cooked capon, payment received from a customer)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Messenger",
@@ -573,7 +575,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 8,
   },
   {
     masculine_name: "Miner",
@@ -595,12 +597,12 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 10,
   },
   {
     masculine_name: "Noble",
     feminine_name: "Noble",
-    description: "Your house has fallen, and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!",
+    description: "Your house has fallen and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!",
     skills: [
       "consume alcohol",
       "poison resistance",
@@ -615,7 +617,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Peasant",
@@ -629,14 +631,16 @@ export const careers = [
     items: [
       "clothes (stinking of manure)",
       "simple great weapon (hoe)",
+      "simple great weapon (pitchfork)",
     ],
     followers: [
       "chicken (Bertha, dumb and brave)",
+      "duck (Jonathan, noisy and loud)",
       "pig (Hans, picky about food)",
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Pedlar",
@@ -677,7 +681,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Pit Fighter",
@@ -691,13 +695,13 @@ export const careers = [
     items: [
       "clothes (torn, dusty, and covered in old blood)",
       "martial hand weapon (morningstar)",
-      "shield",
+      "net",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Priest",
@@ -736,7 +740,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 10,
   },
   {
     masculine_name: "Rat Catcher",
@@ -757,7 +761,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Scholar",
@@ -798,7 +802,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Slayer",
@@ -817,7 +821,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Soldier",
@@ -836,12 +840,12 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Soothsayer",
     feminine_name: "Soothsayer",
-    description: "You are cursed with the ability to see what others can't, and have witnessed the end of the world.",
+    description: "You are blessed, or maybe cursed, with the ability to see what others can't.",
     skills: [
       "divination",
       "lucky",
@@ -857,7 +861,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Thug",
@@ -877,7 +881,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 10,
   },
   {
     masculine_name: "Tomb Robber",
@@ -900,12 +904,12 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 7,
   },
   {
     masculine_name: "Witch Hunter",
     feminine_name: "Witch Huntress",
-    description: "Warlocks, witches, and sorcerers are a threat to mankind: they are destined to meet their end in the flames of a pyre.",
+    description: "Warlocks, witches, and sorcerers are a threat to mankind: they are destined to meet their end engulfed in the flames of a pyre.",
     skills: [
       "magic sense",
       "magic shield",
@@ -921,7 +925,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 8,
   },
   {
     masculine_name: "Wizard",
@@ -945,7 +949,7 @@ export const careers = [
   {
     masculine_name: "Woodsman",
     feminine_name: "Woodswoman",
-    description: "You used to live in the forest, felling trees for timber.",
+    description: "You used to fell trees for timber in the cold and dreary forests of the Kingdom.",
     skills: [
       "bushcraft",
       "tough",
@@ -954,13 +958,13 @@ export const careers = [
     items: [
       "clothes (greenish cloak)",
       "simple great weapon (woodcutting axe)",
-      "camping kit",
+      "warm clothes (bear furs)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 4,
   },
   {
     masculine_name: "Zealot",
@@ -985,7 +989,7 @@ export const careers = [
 ];
 
 export const starting_items = [
-  ["warm clothes", 0],
+  ["camping kit", 0],
   ["field kitchen", 0],
   ["navigation tools", 0],
   ["medicine box", 0],
@@ -1011,10 +1015,16 @@ export const starting_items = [
   ["perfume", 0],
   ["acid vial", 6],
   ["flash powder", 0],
+  ["oil lamp", 6],
+  ["silver jewel (family heirloom)", 0],
+  ["simple hand weapon (hatchet)", 0],
+  ["simple great weapon (scythe)", 0],
+  ["martial hand weapon (battle axe)", 0],
   ["martial great weapon (rusty zweihänder, <i>fragile</i>)", 0],
   ["missile hand weapon (javelins)", 0],
   ["missile great weapon (makeshift bow, <i>fragile</i>)", 0],
-  ["long gun (old musket, <i>fragile</i>)", 0],
+  ["handgun (pistol)", 0],
+  ["long gun (old blunderbuss, <i>fragile</i>)", 0],
 ];
 
 export const profane_powers = [

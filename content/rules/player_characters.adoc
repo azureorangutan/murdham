@@ -29,7 +29,7 @@ Re-roll if you get the same career as another Player.
 Check their description in the link:../skills_traits_and_conditions[Skills, Traits, & Conditions] chapter.
 
 . *Assets*.
-You start with d8ʂ, the items and followers granted by your career, and the items and shillings you get by rolling on the <<tb_starting_items>> table.
+You start with 4ʂ, plus the items, money, and followers granted by your career, plus the items and money you get by rolling on the <<tb_starting_items>> table.
 If you start with sacred or profane _power scrolls_, roll on the <<tb_sacred_powers>> or <<tb_profane_powers>> tables respectively to determine what power they contain.
 Re-roll if you get the same result as another Player on any table.
 
@@ -61,13 +61,11 @@ His character's starting abilities are therefore: **STR** 6, **AGI** 11, **WIT**
 
 4. He starts with the following assets:
 
-    * He rolls 1 on a d8 for starting money: 1ʂ.
+    * His career provides _clothes_ and a _martial great weapon_.
 
-    * His career provides _clothes_ and a _halberd_.
+    * He rolls 2 on a d3 and 9 on a d12 for his starting item: one dose of _flash powder_.
 
-    * He rolls 1 on a d2 and 5 on a d12 for his starting weapon: a _boat hook_ plus 4ʂ.
-
-    * He rolls 2 on a d2 and 1 on a d12 for his starting item: one dose of _flash powder_.
+    * He has a total of 8ʂ (base of 4ʂ, plus 4ʂ for the career, and no extra money from the starting item roll).
 
 5. He notes down his secondary properties: health is 6 (equal to STR), corruption is 0, omens are 2, mana is 0, and armour value is 0.
 

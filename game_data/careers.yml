@@ -3,6 +3,7 @@
   skills:
   - acrobatics
   - climb
+  money: 8
   items:
   - name: clothes
     descr: comfortable and colourful leotard
@@ -17,6 +18,7 @@
   skills:
   - fleet footed
   - leadership
+  money: 8
   items:
   - name: clothes
     descr: working class attire
@@ -25,12 +27,13 @@
   - name: fire bomb
   - name: scroll
     descr: "pamphlet denouncing the Emperor, or at least they told you so: you can't read after all"
-  descr: "You know how to incite the people with fervent speeches, and how to quickly run away from city guard patrols. You were partly responsible for the bloody riots of 1461."
+  descr: "You know how to incite people with fervent speeches, and how to quickly run away from city guard patrols."
 - male_name: apothecary
   female_name: apothecary
   skills:
   - apothecary
   - poisons
+  money: 2
   items:
   - name: clothes
     descr: spotless white apron and bags to carry ingredients
@@ -44,18 +47,20 @@
   skills:
   - crafting
   - piercing strike
+  money: 10
   items:
   - name: clothes
     descr: thick leather apron
   - name: simple hand weapon
     descr: hammer
   - name: toolbox
-  descr: "You know how to keep equipment in good order: nothing is more dangerous than a blunt sword or a cracked shield."
+  descr: "You are an experience craftsman, taking pride in the excellence of your creations."
 - male_name: assassin
   female_name: assassin
   skills:
   - sneak attack
   - stealth
+  money: 4
   items:
   - name: clothes
     descr: dark cloak
@@ -68,6 +73,7 @@
   skills:
   - heal
   - strike to injure
+  money: 10
   items:
   - name: clothes
     descr: bloodstained apron
@@ -80,6 +86,7 @@
   skills:
   - animal handling
   - dodge blows
+  money: 2
   items:
   - name: clothes
     descr: numerous claw marks
@@ -94,6 +101,7 @@
   skills:
   - disease resistance
   - frugal
+  money: 10
   items:
   - name: clothes
     descr: dirty, stinky rags
@@ -103,12 +111,15 @@
     descr: sometime it pays to pretend you are lame
   - name: alcoholic drink
   - name: alcoholic drink
+  - name: ration
+    descr: mouldy bread
   descr: "You used to spend your days sitting in the corner of busy roads, hoping to receive a few shillings from generous passers-by."
 - male_name: berserker
   female_name: berserker
   skills:
   - battle frenzy
   - cleave
+  money: 4
   items:
   - name: clothes
     descr: blood-splattered hides and furs decorated with the skulls of your foes
@@ -120,6 +131,7 @@
   skills:
   - river lore
   - swim
+  money: 8
   items:
   - name: clothes
     descr: wet and mouldy
@@ -132,6 +144,7 @@
   skills:
   - protect
   - shield mastery
+  money: 0
   items:
   - name: clothes
     descr: marked with the insignia of your last employer
@@ -144,72 +157,83 @@
   skills:
   - frugal
   - quick draw
+  money: 0
   items:
   - name: clothes
     descr: mismatched rags, scavenged from various dumpsites
   - name: simple hand weapon
     descr: femur, _fragile_
-  - name: wheelbarrow
   - name: junk
     descr: bag of dung
   - name: junk
     descr: dirty wig
   - name: junk
-    descr: assorted bones
-  - name: junk
     descr: broken boots
+  - name: wheelbarrow
+    descr: damaged
   descr: "One person's rubbish is another person's treasure: you scour the roads, graves, and gutters looking for something valuable to sell for a few pennies."
 - male_name: bounty hunter
   female_name: bounty huntress
   skills:
   - disarm
   - strike to stun
+  money: 8
   items:
   - name: clothes
     descr: large coat and wide-brimmed hat
   - name: mancatcher
-  - name: net
   - name: manacles & key
+  - name: rope
   descr: "You used to roam the cities and the countryside, capturing wanted criminals and fugitive outlaws to collect the bounty on their head."
 - male_name: brawler
   female_name: brawler
   skills:
   - brawling
   - wrestling
+  money: 4
   items:
   - name: clothes
     descr: hand wraps to protect your knuckles
   - name: corpse mandrake
-  - name: chain
+  - name: lucky charm
+    descr: lucky belt
   descr: "Your fists are deadly weapons: nobody is stronger than you!"
 - male_name: burglar
   female_name: burglar
   skills:
   - burglary
   - pack rat
+  money: 6
   items:
   - name: clothes
     descr: comfortable and with generous pockets
-  - name: crowbar
+  - name: simple hand weapon
+    descr: cudgel
   - name: lockpicks
+  - name: rope
+  - name: grappling hook
   descr: "There is no lock you can't open and no safe you can't crack."
 - male_name: charlatan
   female_name: charlatan
   skills:
   - acting
   - charm
+  money: 2
   items:
   - name: clothes
     descr: fake city watch uniform, won't stand scrutiny
+  - name: simple hand weapon
+    descr: dagger
   - name: disguise kit
   - name: signet ring
     descr: stolen from a wealthy noble
-  descr: "You are a cunning liar, fooling people to steal their money."
+  descr: "You are a cunning liar, fooling people to appropriate their money."
 - male_name: coach driver
   female_name: coach driver
   skills:
   - drive carts
   - steady aim
+  money: 4
   items:
   - name: clothes
     descr: coat and wide brimmed hat, for the rain
@@ -221,9 +245,12 @@
   skills:
   - steal
   - stealth
+  money: 2
   items:
   - name: clothes
     descr: hood covering your face
+  - name: simple hand weapon
+    descr: knife
   - name: gold jewel
     descr: necklace with a noble family emblem, stolen
   descr: "Some are born with too much: those wealthy nobles aren't going to notice if they are a few shillings short."
@@ -232,6 +259,7 @@
   skills:
   - ambidextrous
   - fast strike
+  money: 10
   items:
   - name: clothes
     descr: a few stitched up cuts
@@ -245,6 +273,7 @@
   skills:
   - contortionist
   - fire eating
+  money: 2
   items:
   - name: clothes
     descr: bare chested, lest your shirt catches fire
@@ -261,6 +290,7 @@
   skills:
   - sneak attack
   - strike to stun
+  money: 10
   items:
   - name: clothes
     descr: scarf to cover your face
@@ -273,6 +303,7 @@
   skills:
   - lucky
   - play games
+  money: 8
   items:
   - name: clothes
     descr: large, comfortable sleeves
@@ -288,6 +319,7 @@
   skills:
   - bushcraft
   - hunt
+  money: 4
   items:
   - name: clothes
     descr: decorated with trophies from your preys
@@ -300,6 +332,7 @@
   skills:
   - acrobatics
   - blather
+  money: 0
   items:
   - name: clothes
     descr: colourful, with a bell hat
@@ -312,18 +345,20 @@
   skills:
   - ride
   - skilled blow
+  money: 4
   items:
   - name: clothes
     descr: colourful livery
   - name: martial hand weapon
     descr: warhammer
   - name: saddle
-  descr: "With your honour lost and no coin left to your name, you wander on your steed, selling your sword for money."
+  descr: "With your honour lost and no coin left to your name, you wander the lands selling your sword for money."
 - male_name: labourer
   female_name: labourer
   skills:
   - pack rat
   - tough
+  money: 10
   items:
   - name: clothes
     descr: drenched in sweat
@@ -339,6 +374,7 @@
   skills:
   - charm
   - politics
+  money: 2
   items:
   - name: clothes
     descr: court attire
@@ -346,16 +382,13 @@
     descr: heavy gavel
   - name: book
     descr: Laws of the Kingdom
-  - name: ration
-    descr: cooked capon, payment received from a customer
-  - name: ration
-    descr: cooked capon, payment received from a customer
   descr: "Nobody is above the law, but you can help those with enough money wiggle through its many loopholes."
 - male_name: messenger
   female_name: messenger
   skills:
   - fleet footed
   - languages
+  money: 8
   items:
   - name: clothes
     descr: dusty and sweaty
@@ -370,6 +403,7 @@
   skills:
   - dark vision
   - piercing strike
+  money: 10
   items:
   - name: clothes
     descr: sweaty and dusty
@@ -384,6 +418,7 @@
   skills:
   - consume alcohol
   - poison resistance
+  money: 4
   items:
   - name: clothes
     descr: ostentatious fripperies, old and full of holes
@@ -391,20 +426,25 @@
     descr: dented sword, family heirloom
   - name: signet ring
     descr: proof of your identity
-  descr: "Your house has fallen, and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!"
+  descr: "Your house has fallen and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!"
 - male_name: peasant
   female_name: peasant
   skills:
   - farming
   - gossip
+  money: 4
   items:
   - name: clothes
     descr: stinking of manure
   - name: simple great weapon
     descr: hoe
+  - name: simple great weapon
+    descr: pitchfork
   followers:
   - name: chicken
     descr: Bertha, dumb and brave
+  - name: duck
+    descr: Jonathan, noisy and loud
   - name: pig
     descr: Hans, picky about food
   descr: "Your life was simple: growing crops and tending to livestock, trying to put enough food on the table to survive another winter."
@@ -413,6 +453,7 @@
   skills:
   - bargain
   - languages
+  money: 0
   items:
   - name: clothes
     descr: excessive amounts of cheap fake jewellery
@@ -426,6 +467,7 @@
   skills:
   - heal
   - medicine
+  money: 2
   items:
   - name: clothes
     descr: spotless black coat
@@ -439,18 +481,20 @@
   skills:
   - fast strike
   - wrestling
+  money: 4
   items:
   - name: clothes
     descr: torn, dusty, and covered in old blood
   - name: martial hand weapon
     descr: morningstar
-  - name: shield
+  - name: net
   descr: "You have fought for money in illegal arenas and as a judicial champion for hire."
 - male_name: priest
   female_name: priestess
   skills:
   - faith
   - incorruptible
+  money: 0
   items:
   - name: clothes
     descr: priestly robes and religious paraphernalia
@@ -464,6 +508,7 @@
   skills:
   - acting
   - music
+  money: 10
   items:
   - name: clothes
     descr: flamboyant and fashionable
@@ -477,6 +522,7 @@
   skills:
   - disease resistance
   - poison resistance
+  money: 2
   items:
   - name: clothes
     descr: partly made of rat fur
@@ -492,6 +538,7 @@
   skills:
   - alchemy
   - erudition
+  money: 0
   items:
   - name: clothes
     descr: night gown and comfortable shoes
@@ -507,6 +554,7 @@
   skills:
   - steady aim
   - skilled shot
+  money: 4
   items:
   - name: clothes
     descr: wide brimmed hat to shade your eyes
@@ -518,6 +566,7 @@
   skills:
   - dodge blows
   - monster slaying
+  money: 4
   items:
   - name: clothes
     descr: thick hardened leather, cut, burnet, scratched, and torn
@@ -529,6 +578,7 @@
   skills:
   - skilled blow
   - skilled shot
+  money: 4
   items:
   - name: clothes
     descr: uniform from your regiment, has seen better days
@@ -540,6 +590,7 @@
   skills:
   - divination
   - lucky
+  money: 2
   items:
   - name: clothes
     descr: hooded robes
@@ -548,12 +599,13 @@
   - name: divination tools
   - name: lucky charm
     descr: rabbit foot
-  descr: "You are cursed with the ability to see what others can't, and have witnessed the end of the world."
+  descr: "You are blessed, or maybe cursed, with the ability to see what others can't."
 - male_name: thug
   female_name: thug
   skills:
   - brawling
   - intimidate
+  money: 10
   items:
   - name: clothes
     descr: covering your face
@@ -566,6 +618,7 @@
   skills:
   - burglary
   - climb
+  money: 7
   items:
   - name: clothes
     descr: capacious rucksack to store the loot
@@ -581,6 +634,7 @@
   skills:
   - magic sense
   - magic shield
+  money: 8
   items:
   - name: clothes
     descr: wide brimmed hat, pitch black clothes
@@ -588,12 +642,13 @@
     descr: pistol
   - name: blessed water
   - name: blessed water
-  descr: "Warlocks, witches, and sorcerers are a threat to mankind: they are destined to meet their end in the flames of a pyre."
+  descr: "Warlocks, witches, and sorcerers are a threat to mankind: they are destined to meet their end engulfed in the flames of a pyre."
 - male_name: wizard
   female_name: witch
   skills:
   - meditation
   - sorcery
+  money: 0
   items:
   - name: clothes
     descr: comfortable robes
@@ -607,18 +662,21 @@
   skills:
   - bushcraft
   - tough
+  money: 4
   items:
   - name: clothes
     descr: greenish cloak
   - name: simple great weapon
     descr: woodcutting axe
-  - name: camping kit
-  descr: "You used to live in the forest, felling trees for timber."
+  - name: warm clothes
+    descr: bear furs
+  descr: "You used to fell trees for timber in the cold and dreary forests of the Kingdom."
 - male_name: zealot
   female_name: zealot
   skills:
   - battle frenzy
   - bravery
+  money: 0
   items:
   - name: clothes
     descr: bloodstained monastic habit
