@@ -30,12 +30,12 @@ _Weapon (d6, range 8)_.
 Two-handed primitive ranged weapons: bow, crossbow, etc.
 
 
-* *Handgun* (32ʂ).
+* *Handgun* (16ʂ).
 _Weapon (d6, range 8, reload)_.
 One-handed gunpowder weapons: matchlock pistol, dragon, etc.
 
 
-* *Long gun* (64ʂ, bulk 2).
+* *Long gun* (32ʂ, bulk 2).
 _Weapon (d8, range 8, reload)_.
 Two-handed gunpowder weapons: matchlock arquebus, blunderbuss, etc.
 
@@ -56,7 +56,7 @@ _Weapon (d4, grab)_
 * *Acid vial* (4ʂ, bulk ½).
 _Consumable_, _weapon (d8, range 2)_
 
-* *Alchemist's fire* (16ʂ, bulk ½).
+* *Fire bomb* (16ʂ, bulk ½).
 _Consumable_, _weapon (d6, range 2, blast, fire damage)_
 
 * *Blessed water* (4ʂ, bulk ½).

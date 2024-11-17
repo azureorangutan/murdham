@@ -1,126 +1,67 @@
 starting items:
+- - name: warm clothes
+  - 0
+- - name: field kitchen
+  - 0
+- - name: navigation tools
+  - 0
+- - name: medicine box
+  - 0
+- - name: antidote
+  - 0
+- - name: cure
+  - 0
+- - name: scorpion oil
+  - 0
+- - name: dream sand
+  - 0
+- - name: reaper's spice
+  - 0
+- - name: beastman blood
+  - 0
+- - name: darkroot
+  - 0
+- - name: madcap mushrooms
+  - 0
+- - name: pipe & tobacco
+  - 6
+- - name: caltrops
+  - 0
+- - name: smoke bomb
+  - 0
+- - name: grappling hook
+  - 6
+- - name: rope ladder
+  - 6
+- - name: climbing gear
+  - 0
+- - name: chess set
+  - 0
+- - name: marbles
+  - 6
+- - name: animal skin
+    descr: wolf pelt
+  - 0
+- - name: lucky charm
+    descr: cornicello
+  - 0
+- - name: mirror
+  - 0
+- - name: perfume
+  - 0
 - - name: acid vial
   - 6
 - - name: flash powder
   - 0
-- - name: smoke bomb
-  - 0
-- - name: bear trap
-  - 0
-- - name: caltrops
-  - 0
-- - name: alchemist's fire
-  - 0
-- - name: warm clothes
-    descr: comfortable fur cloak
-  - 0
-- - name: beastman blood
-  - 0
-- - name: butterfly sting
-  - 0
-- - name: corpse mandrake
-  - 0
-- - name: madcap mushroom
-  - 0
-- - name: lantern
-    descr: containing a candle
-  - 6
-- - name: oil lamp
-  - 6
-- - name: chess set
-  - 0
-- - name: climbing gear
-  - 0
-- - name: disguise kit
-  - 0
-- - name: field kitchen
-  - 0
-- - name: grappling hook
-  - 6
-- - name: lucky charm
-    descr: cornicello
-  - 0
-- - name: signet ring
-    descr: stolen
-  - 0
-- - name: music instrument
-    descr: flute
-  - 0
-- - name: navigation tools
-  - 0
-- - name: pipe & tobacco
-  - 6
-- - name: rope ladder
-  - 6
-starting weapons:
-- - name: simple hand weapon
-    descr: cleaver
-  - 6
-- - name: simple hand weapon
-    descr: club
-  - 6
-- - name: simple hand weapon
-    descr: dagger
-  - 6
-- - name: simple hand weapon
-    descr: hammer
-  - 6
-- - name: simple hand weapon
-    descr: hatchet
-  - 6
-- - name: simple hand weapon
-    descr: knife
-  - 6
-- - name: simple hand weapon
-    descr: sickle
-  - 6
-- - name: simple hand weapon
-    descr: knuckledusters
-  - 6
-- - name: simple great weapon
-    descr: boat hook
-  - 4
-- - name: simple great weapon
-    descr: scythe
-  - 4
-- - name: simple great weapon
-    descr: pitchfork
-  - 4
-- - name: simple great weapon
-    descr: sledgehammer
-  - 4
-- - name: simple great weapon
-    descr: staff
-  - 4
-- - name: simple great weapon
-    descr: woodcutting axe
-  - 4
-- - name: martial hand weapon
-    descr: morningstar
-  - 0
-- - name: martial hand weapon
-    descr: spear
-  - 0
-- - name: martial hand weapon
-    descr: warhammer
-  - 0
 - - name: martial great weapon
     descr: "rusty zweihänder, _fragile_"
   - 0
-- - name: mancatcher
-  - 0
 - - name: missile hand weapon
-    descr: blowgun
-  - 0
-- - name: missile hand weapon
-    descr: darts
-  - 0
-- - name: missile hand weapon
-    descr: sling
+    descr: javelins
   - 0
 - - name: missile great weapon
     descr: "makeshift bow, _fragile_"
   - 0
-- - name: handgun
-    descr: "old pistol, _fragile_"
+- - name: long gun
+    descr: "old musket, _fragile_"
   - 0

@@ -37,9 +37,8 @@ function random_age() {
 function generate_character() {
     let [str, agi, wit] = random_abilities();
     let career = random_array_element(Data.careers);
-    let [weapon, money1] = random_array_element(Data.starting_weapons);
-    let [item, money2] = random_array_element(Data.starting_items);
-    let money3 = random_money();
+    let [item, money1] = random_array_element(Data.starting_items);
+    let money2 = random_money();
 
     let age = random_age();
     let gender = random_array_element(Data.genders);
@@ -59,10 +58,11 @@ function generate_character() {
     }
     let last_name = random_array_element(Data.last_names);
 
-    let items = [weapon, item];
+    let items = [];
     for (let i = 0; i < career.items.length; i++) {
         items.push(career.items[i]);
     }
+    items.push(item)
     for (let i = 0; i < career.profane_scrolls; i++) {
         while (true) {
             let new_scroll = "power scroll (" + random_array_element(Data.profane_powers) + ")";
@@ -100,7 +100,7 @@ function generate_character() {
         items_str += item + ", ";
     }
 
-    let money = money1 + money2 + money3 + career.money;
+    let money = money1 + money2 + career.money;
 
     document.getElementById("name").innerHTML = first_name + " " + last_name + " the " + career_name;
     document.getElementById("description").innerHTML =

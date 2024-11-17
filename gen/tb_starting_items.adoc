@@ -1,44 +1,48 @@
 .Starting items
 [[tb_starting_items]]
-[options='header, unbreakable', cols="^1h,^7,^7"]
+[options='header, unbreakable', cols="^1h,^4,^4,^4"]
 |===
-h|  2+h|D2
-h|D12
- h|1 h|2
+h|  3+h|D3
+h|D10
+ h|1 h|2 h|3
 |1
+|Warm clothes
+|Field kitchen
+|Navigation tools
+|2
+|Medicine box
+|Antidote
+|Cure
+|3
+|Scorpion oil
+|Dream sand
+|Reaper's spice
+|4
+|Beastman blood
+|Darkroot
+|Madcap mushrooms
+|5
+|Pipe & tobacco, 6ʂ
+|Caltrops
+|Smoke bomb
+|6
+|Grappling hook, 6ʂ
+|Rope ladder, 6ʂ
+|Climbing gear
+|7
+|Chess set
+|Marbles, 6ʂ
+|Animal skin (wolf pelt)
+|8
+|Lucky charm (cornicello)
+|Mirror
+|Perfume
+|9
 |Acid vial, 6ʂ
 |Flash powder
-|2
-|Smoke bomb
-|Bear trap
-|3
-|Caltrops
-|Alchemist's fire
-|4
-|Warm clothes (comfortable fur cloak)
-|Beastman blood
-|5
-|Butterfly sting
-|Corpse mandrake
-|6
-|Madcap mushroom
-|Lantern (containing a candle), 6ʂ
-|7
-|Oil lamp, 6ʂ
-|Chess set
-|8
-|Climbing gear
-|Disguise kit
-|9
-|Field kitchen
-|Grappling hook, 6ʂ
+|Martial great weapon (rusty zweihänder, _fragile_)
 |10
-|Lucky charm (cornicello)
-|Signet ring (stolen)
-|11
-|Music instrument (flute)
-|Navigation tools
-|12
-|Pipe & tobacco, 6ʂ
-|Rope ladder, 6ʂ
+|Missile hand weapon (javelins)
+|Missile great weapon (makeshift bow, _fragile_)
+|Long gun (old musket, _fragile_)
 |===

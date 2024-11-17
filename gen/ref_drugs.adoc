@@ -15,7 +15,7 @@ _Consumable_.
 Recover health equal to half your STR unless you are _dying_, but you become _groggy_ until the end of the watch. You must pass a WIT save or become _addicted_.
 
 
-* *Madcap mushroom* (16ʂ, bulk ½).
+* *Madcap mushrooms* (16ʂ, bulk ½).
 _Consumable_.
 You become _frenzied_ until the end of the stretch. You must pass a WIT save or become _addicted_.
 

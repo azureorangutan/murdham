@@ -29,8 +29,8 @@ Re-roll if you get the same career as another Player.
 Check their description in the link:../skills_traits_and_conditions[Skills, Traits, & Conditions] chapter.
 
 . *Assets*.
-You start with d8ʂ, the items and followers granted by your career, and the items and shillings you get by rolling once on each of the <<tb_starting_weapons>> and <<tb_starting_items>> tables.
-If you start with one or more sacred or profane _power scrolls_, roll on the <<tb_sacred_powers>> or <<tb_profane_powers>> tables respectively to determine what power they contain.
+You start with d8ʂ, the items and followers granted by your career, and the items and shillings you get by rolling on the <<tb_starting_items>> table.
+If you start with sacred or profane _power scrolls_, roll on the <<tb_sacred_powers>> or <<tb_profane_powers>> tables respectively to determine what power they contain.
 Re-roll if you get the same result as another Player on any table.
 
 . *Secondary properties*.
@@ -115,8 +115,6 @@ Mana can't exceed 6.
 |===
 
 include::gen/tb_careers.adoc[]
-
-include::gen/tb_starting_weapons.adoc[]
 
 include::gen/tb_starting_items.adoc[]
 
