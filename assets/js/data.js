@@ -11,14 +11,14 @@ export const careers = [
     items: [
       "clothes (comfortable and colourful leotard)",
       "missile hand weapon (throwing daggers)",
-      "rope (made of silk)",
+      "rope (made of silk, <i>expensive</i>)",
       "wooden pole",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 8,
+    money: 2,
   },
   {
     masculine_name: "Agitator",
@@ -31,15 +31,17 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (working class attire)",
-      "simple hand weapon (club)",
+      "simple hand weapon (hammer)",
+      "fire bomb",
       "fire bomb",
       "scroll (pamphlet denouncing the Emperor, or at least they told you so: you can't read after all)",
+      "junk (nails, to hang your pamphlets)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 8,
+    money: 1,
   },
   {
     masculine_name: "Apothecary",
@@ -73,7 +75,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (thick leather apron)",
-      "simple hand weapon (hammer)",
+      "simple hand weapon (your main tool of the trade, such as a hammer, a pair of scissors, etc.)",
       "toolbox",
     ],
     followers: [
@@ -93,6 +95,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (dark cloak)",
+      "simple hand weapon (dagger)",
       "missile hand weapon (hand crossbow)",
       "black adder venom",
     ],
@@ -100,7 +103,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 4,
+    money: 2,
   },
   {
     masculine_name: "Barber Surgeon",
@@ -114,13 +117,14 @@ export const careers = [
     items: [
       "clothes (bloodstained apron)",
       "simple hand weapon (razor)",
+      "medicine box",
       "surgical tools",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 10,
+    money: 2,
   },
   {
     masculine_name: "Beast Tamer",
@@ -158,12 +162,13 @@ export const careers = [
       "alcoholic drink",
       "alcoholic drink",
       "ration (mouldy bread)",
+      "camping kit",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 10,
+    money: 2,
   },
   {
     masculine_name: "Berserker",
@@ -215,14 +220,14 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (marked with the insignia of your last employer)",
-      "martial hand weapon (arming sword)",
+      "simple hand weapon (baton)",
       "shield",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Bone Picker",
@@ -245,7 +250,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Bounty Hunter",
@@ -259,14 +264,14 @@ export const careers = [
     items: [
       "clothes (large coat and wide-brimmed hat)",
       "mancatcher",
+      "dream sand",
       "manacles & key",
-      "rope",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 8,
+    money: 2,
   },
   {
     masculine_name: "Brawler",
@@ -382,13 +387,13 @@ export const careers = [
     items: [
       "clothes (a few stitched up cuts)",
       "martial hand weapon (thrusting sword)",
-      "simple hand weapon (parrying dagger)",
+      "martial hand weapon (long parrying dagger)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 10,
+    money: 4,
   },
   {
     masculine_name: "Fire Eater",
@@ -427,12 +432,13 @@ export const careers = [
       "clothes (scarf to cover your face)",
       "simple hand weapon (cudgel, ideal to knock people out)",
       "garrotte",
+      "silver jewel (stolen bracelet)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 10,
+    money: 6,
   },
   {
     masculine_name: "Gambler",
@@ -487,13 +493,14 @@ export const careers = [
     items: [
       "clothes (colourful, with a bell hat)",
       "simple hand weapon (stick with bells, jingles cheerfully when it strikes)",
-      "dark lotus",
+      "reaper's spice",
+      "reaper's spice",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 0,
+    money: 2,
   },
   {
     masculine_name: "Knight",
@@ -529,12 +536,13 @@ export const careers = [
       "simple great weapon (sledgehammer)",
       "simple great weapon (shovel)",
       "ration (packed lunch)",
+      "ration (packed lunch)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 10,
+    money: 8,
   },
   {
     masculine_name: "Lawyer",
@@ -590,6 +598,7 @@ export const careers = [
       "clothes (sweaty and dusty)",
       "simple great weapon (pickaxe)",
       "oil lamp",
+      "oil lamp",
       "lantern",
       "flint & tinder",
     ],
@@ -597,7 +606,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 10,
+    money: 8,
   },
   {
     masculine_name: "Noble",
@@ -654,7 +663,7 @@ export const careers = [
     items: [
       "clothes (excessive amounts of cheap fake jewellery)",
       "simple hand weapon (dagger)",
-      "clothes (expensive, made of silk)",
+      "clothes (made of silk, <i>expensive</i>)",
     ],
     followers: [
     ],
@@ -735,12 +744,13 @@ export const careers = [
       "clothes (flamboyant and fashionable)",
       "simple hand weapon (knife)",
       "music instrument (fiddle, lute, flute, or drums)",
+      "book (filled with music sheet)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 10,
+    money: 2,
   },
   {
     masculine_name: "Rat Catcher",
@@ -876,12 +886,13 @@ export const careers = [
       "clothes (covering your face)",
       "simple hand weapon (spiked club)",
       "crimson weed",
+      "crimson weed",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 10,
+    money: 2,
   },
   {
     masculine_name: "Tomb Robber",
@@ -989,14 +1000,14 @@ export const careers = [
 ];
 
 export const starting_items = [
-  ["camping kit", 0],
+  ["alcoholic drink (good wine, <i>expensive</i>)", 0],
   ["field kitchen", 0],
   ["navigation tools", 0],
   ["medicine box", 0],
   ["antidote", 0],
   ["cure", 0],
   ["scorpion oil", 0],
-  ["dream sand", 0],
+  ["butterfly sting", 0],
   ["reaper's spice", 0],
   ["beastman blood", 0],
   ["darkroot", 0],

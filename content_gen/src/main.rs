@@ -21,10 +21,16 @@ fn capitalise(mut s: String) -> String {
     }
 }
 
-fn count_map(assets: &[AssetWithDescr]) -> BTreeMap<AssetWithDescr, i32> {
-    let mut ans = BTreeMap::new();
-    for asset in assets.iter() {
-        *ans.entry(asset.clone()).or_default() += 1;
+fn count_map(assets: &[AssetWithDescr]) -> Vec<(AssetWithDescr, i32)> {
+    let mut ans: Vec<(AssetWithDescr, i32)> = Vec::new();
+    let mut j = 0;
+    for i in 0..assets.len() {
+        if j > 0 && ans[j - 1].0 == assets[i] {
+            ans[j - 1].1 += 1;
+        } else {
+            ans.push((assets[i].clone(), 1));
+            j += 1;
+        }
     }
     ans
 }

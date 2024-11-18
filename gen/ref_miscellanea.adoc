@@ -8,8 +8,16 @@ Skin of a medium animal. Divide the cost by 4 and the bulk by 2 for each side be
 Can hold a medium character. Divide the cost and bulk by 4 for each side below medium. Multiply the cost and bulk by 4 for each size above medium.
 
 
+* *Clothes* (16ʂ).
+All you need to cover yourself! Include belts, pouches, bags, and other containers to hold items of bulk 2 or less.
+
+
 * *Crutch* (4ʂ).
 _Hobbled_ characters can use it to walk.
+
+
+* *Disguise kit* (16ʂ, bulk 2).
+All you need to disguise your appearance! Includes makeup, wigs, fake beards, hats, eyepatches, clothing, etc.
 
 
 * *Divination tools* (16ʂ, bulk 2).
@@ -51,7 +59,7 @@ Drums, fiddle, flute, lyre, lute, etc.
 
 * *Perfume* (16ʂ, bulk ½).
 _Consumable_.
-An exquisite perfume.
+An exquisite scent.
 
 
 * *Prosthesis* (16ʂ).

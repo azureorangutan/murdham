@@ -35,3 +35,7 @@ Obtain a _ration_ on a _small game_ result while foraging.
 Include maps, compass, etc. You can efficiently navigate the wilderness: you only halve your movement speed instead of reducing it to ¼.
 
 
+* *Warm clothes* (16ʂ, bulk 2).
+Work like _clothes_, however cold damage is impaired and heat damage is enhanced.
+
+

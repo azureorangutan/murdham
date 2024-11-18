@@ -19,7 +19,7 @@ h|D12
 |Berserker
 |Boatman
 |Bodyguard
-|Bone picker
+|Bone-picker
 |4
 |Bounty hunter
 |Brawler

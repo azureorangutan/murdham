@@ -114,12 +114,6 @@ include::gen/ref_armour.adoc[]
 
 include::gen/ref_combat_gear.adoc[]
 
-include::gen/ref_artillery.adoc[]
-
-include::gen/ref_vehicles.adoc[]
-
-include::gen/ref_clothing.adoc[]
-
 include::gen/ref_healing.adoc[]
 
 include::gen/ref_poison.adoc[]
@@ -128,17 +122,22 @@ include::gen/ref_drugs.adoc[]
 
 include::gen/ref_light_sources.adoc[]
 
-include::gen/ref_academic_gear.adoc[]
-
 include::gen/ref_exploration_gear.adoc[]
 
 include::gen/ref_survival_gear.adoc[]
+
+include::gen/ref_academic_gear.adoc[]
 
 include::gen/ref_games.adoc[]
 
 include::gen/ref_valuables.adoc[]
 
 include::gen/ref_miscellanea.adoc[]
+
+include::gen/ref_artillery.adoc[]
+
+include::gen/ref_vehicles.adoc[]
+
 
 
 == Followers
