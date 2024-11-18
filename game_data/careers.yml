@@ -3,14 +3,14 @@
   skills:
   - acrobatics
   - climb
-  money: 8
+  money: 2
   items:
   - name: clothes
     descr: comfortable and colourful leotard
   - name: missile hand weapon
     descr: throwing daggers
   - name: rope
-    descr: made of silk
+    descr: made of silk, _expensive_
   - name: wooden pole
   descr: "You used to earn your fare by performing spectacular and dangerous acrobatic feats."
 - male_name: agitator
@@ -18,15 +18,18 @@
   skills:
   - fleet footed
   - leadership
-  money: 8
+  money: 1
   items:
   - name: clothes
     descr: working class attire
   - name: simple hand weapon
-    descr: club
+    descr: hammer
+  - name: fire bomb
   - name: fire bomb
   - name: scroll
     descr: "pamphlet denouncing the Emperor, or at least they told you so: you can't read after all"
+  - name: junk
+    descr: nails, to hang your pamphlets
   descr: "You know how to incite people with fervent speeches, and how to quickly run away from city guard patrols."
 - male_name: apothecary
   female_name: apothecary
@@ -52,7 +55,7 @@
   - name: clothes
     descr: thick leather apron
   - name: simple hand weapon
-    descr: hammer
+    descr: your main tool of the trade, such as a hammer, a pair of scissors, etc.
   - name: toolbox
   descr: "You are an experience craftsman, taking pride in the excellence of your creations."
 - male_name: assassin
@@ -60,10 +63,12 @@
   skills:
   - sneak attack
   - stealth
-  money: 4
+  money: 2
   items:
   - name: clothes
     descr: dark cloak
+  - name: simple hand weapon
+    descr: dagger
   - name: missile hand weapon
     descr: hand crossbow
   - name: black adder venom
@@ -73,12 +78,13 @@
   skills:
   - heal
   - strike to injure
-  money: 10
+  money: 2
   items:
   - name: clothes
     descr: bloodstained apron
   - name: simple hand weapon
     descr: razor
+  - name: medicine box
   - name: surgical tools
   descr: "A sharp razor and a steady hand are required for both a clean shave and delicate surgeries."
 - male_name: beast tamer
@@ -101,7 +107,7 @@
   skills:
   - disease resistance
   - frugal
-  money: 10
+  money: 2
   items:
   - name: clothes
     descr: dirty, stinky rags
@@ -113,6 +119,7 @@
   - name: alcoholic drink
   - name: ration
     descr: mouldy bread
+  - name: camping kit
   descr: "You used to spend your days sitting in the corner of busy roads, hoping to receive a few shillings from generous passers-by."
 - male_name: berserker
   female_name: berserker
@@ -144,20 +151,20 @@
   skills:
   - protect
   - shield mastery
-  money: 0
+  money: 2
   items:
   - name: clothes
     descr: marked with the insignia of your last employer
-  - name: martial hand weapon
-    descr: arming sword
+  - name: simple hand weapon
+    descr: baton
   - name: shield
   descr: "You worked for the rich and powerful, protecting them from robbers and other scum."
-- male_name: bone picker
-  female_name: bone picker
+- male_name: bone-picker
+  female_name: bone-picker
   skills:
   - frugal
   - quick draw
-  money: 0
+  money: 2
   items:
   - name: clothes
     descr: mismatched rags, scavenged from various dumpsites
@@ -177,13 +184,13 @@
   skills:
   - disarm
   - strike to stun
-  money: 8
+  money: 2
   items:
   - name: clothes
     descr: large coat and wide-brimmed hat
   - name: mancatcher
+  - name: dream sand
   - name: manacles & key
-  - name: rope
   descr: "You used to roam the cities and the countryside, capturing wanted criminals and fugitive outlaws to collect the bounty on their head."
 - male_name: brawler
   female_name: brawler
@@ -259,14 +266,14 @@
   skills:
   - ambidextrous
   - fast strike
-  money: 10
+  money: 4
   items:
   - name: clothes
     descr: a few stitched up cuts
   - name: martial hand weapon
     descr: thrusting sword
-  - name: simple hand weapon
-    descr: parrying dagger
+  - name: martial hand weapon
+    descr: long parrying dagger
   descr: "You are a skilled duellist, constantly looking for a worthy opponent to hone your skills."
 - male_name: fire eater
   female_name: fire eater
@@ -290,13 +297,15 @@
   skills:
   - sneak attack
   - strike to stun
-  money: 10
+  money: 6
   items:
   - name: clothes
     descr: scarf to cover your face
   - name: simple hand weapon
     descr: cudgel, ideal to knock people out
   - name: garrotte
+  - name: silver jewel
+    descr: stolen bracelet
   descr: "You have spent years mugging unaware victims in shady alleys and dark forest roads, and occasionally killing for money."
 - male_name: gambler
   female_name: gambler
@@ -332,13 +341,14 @@
   skills:
   - acrobatics
   - blather
-  money: 0
+  money: 2
   items:
   - name: clothes
     descr: colourful, with a bell hat
   - name: simple hand weapon
     descr: stick with bells, jingles cheerfully when it strikes
-  - name: dark lotus
+  - name: reaper's spice
+  - name: reaper's spice
   descr: "You have spent your life making a fool of yourself to entertain the nobles, but you will have the last laugh!"
 - male_name: knight
   female_name: knight
@@ -358,7 +368,7 @@
   skills:
   - pack rat
   - tough
-  money: 10
+  money: 8
   items:
   - name: clothes
     descr: drenched in sweat
@@ -366,6 +376,8 @@
     descr: sledgehammer
   - name: simple great weapon
     descr: shovel
+  - name: ration
+    descr: packed lunch
   - name: ration
     descr: packed lunch
   descr: "Your bones and muscles have been hardened by years of toiling under sun and rain."
@@ -403,12 +415,13 @@
   skills:
   - dark vision
   - piercing strike
-  money: 10
+  money: 8
   items:
   - name: clothes
     descr: sweaty and dusty
   - name: simple great weapon
     descr: pickaxe
+  - name: oil lamp
   - name: oil lamp
   - name: lantern
   - name: flint & tinder
@@ -460,7 +473,7 @@
   - name: simple hand weapon
     descr: dagger
   - name: clothes
-    descr: expensive, made of silk
+    descr: made of silk, _expensive_
   descr: "You made a small fortune transporting and trading exotic goods, but you lost everything because of a bad business decision."
 - male_name: physician
   female_name: physician
@@ -508,7 +521,7 @@
   skills:
   - acting
   - music
-  money: 10
+  money: 2
   items:
   - name: clothes
     descr: flamboyant and fashionable
@@ -516,6 +529,8 @@
     descr: knife
   - name: music instrument
     descr: fiddle, lute, flute, or drums
+  - name: book
+    descr: filled with music sheet
   descr: "You have travelled far and wide across the kingdom, singing songs and acting out enthralling stories."
 - male_name: rat catcher
   female_name: rat catcher
@@ -605,12 +620,13 @@
   skills:
   - brawling
   - intimidate
-  money: 10
+  money: 2
   items:
   - name: clothes
     descr: covering your face
   - name: simple hand weapon
     descr: spiked club
+  - name: crimson weed
   - name: crimson weed
   descr: "A sturdy club is the best way to send a strong message, as you like to say."
 - male_name: tomb robber

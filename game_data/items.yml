@@ -20,25 +20,6 @@ armour:
   - !Armour 2
   descr: Full plate, chain hauberk, etc.
 
-clothing:
-- name: clothes
-  value: 16
-  bulk: 1
-  descr: >
-    All you need to cover yourself!
-    Include belts, pouches, bags, and other containers to hold items of bulk 2 or less.
-- name: warm clothes
-  value: 16
-  bulk: 2
-  descr: >
-    Work like _clothes_, however cold damage is impaired and heat damage is enhanced.
-- name: disguise kit
-  value: 16
-  bulk: 2
-  descr: >
-    All you need to disguise your appearance!
-    Includes makeup, wigs, fake beards, hats, eyepatches, clothing, etc.
-
 artillery:
 - name: ballista
   value: 256
@@ -183,6 +164,11 @@ survival gear:
   descr: >
     Include maps, compass, etc.
     You can efficiently navigate the wilderness: you only halve your movement speed instead of reducing it to ¼.
+- name: warm clothes
+  value: 16
+  bulk: 2
+  descr: >
+    Work like _clothes_, however cold damage is impaired and heat damage is enhanced.
 
 healing:
 - name: medicine box
@@ -522,11 +508,23 @@ miscellanea:
     Can hold a medium character.
     Divide the cost and bulk by 4 for each side below medium.
     Multiply the cost and bulk by 4 for each size above medium.
+- name: clothes
+  value: 16
+  bulk: 1
+  descr: >
+    All you need to cover yourself!
+    Include belts, pouches, bags, and other containers to hold items of bulk 2 or less.
 - name: crutch
   value: 4
   bulk: 1
   descr: >
     _Hobbled_ characters can use it to walk.
+- name: disguise kit
+  value: 16
+  bulk: 2
+  descr: >
+    All you need to disguise your appearance!
+    Includes makeup, wigs, fake beards, hats, eyepatches, clothing, etc.
 - name: divination tools
   value: 16
   bulk: 2
@@ -582,7 +580,7 @@ miscellanea:
   properties:
   - Consumable
   descr: >
-    An exquisite perfume.
+    An exquisite scent.
 - name: prosthesis
   value: 16
   bulk: 1

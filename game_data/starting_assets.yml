@@ -1,5 +1,6 @@
 starting items:
-- - name: camping kit
+- - name: alcoholic drink
+    descr: good wine, _expensive_
   - 0
 - - name: field kitchen
   - 0
@@ -13,7 +14,7 @@ starting items:
   - 0
 - - name: scorpion oil
   - 0
-- - name: dream sand
+- - name: butterfly sting
   - 0
 - - name: reaper's spice
   - 0
