@@ -41,7 +41,7 @@ Two-handed gunpowder weapons: matchlock arquebus, blunderbuss, etc.
 
 
 * *Garrotte* (16ʂ).
-_Weapon (d8, direct damage, grab)_.
+_Weapon (d6, direct damage, grab)_.
 Can only target characters who are unaware of the attack or whom you are already grabbing.
 
 

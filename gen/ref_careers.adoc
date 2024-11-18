@@ -117,13 +117,13 @@ You are a skilled duellist, constantly looking for a worthy opponent to hone you
 
 You were a performer at a travelling carnival, executing a vast array of exciting tricks with fire. +
 *Skills*: _contortionist_, _fire eating_. +
-*Items*: clothes (bare chested, lest your shirt catches fire), missile hand weapon (throwing daggers), 2× alcoholic drink, 2× torch, flint & tinder, 2ʂ.
+*Items*: clothes (covered in soot), missile hand weapon (throwing daggers), 2× alcoholic drink, 2× torch, flint & tinder, 2ʂ.
 
 == Footpad
 
 You have spent years mugging unaware victims in shady alleys and dark forest roads, and occasionally killing for money. +
 *Skills*: _sneak attack_, _strike to stun_. +
-*Items*: clothes (scarf to cover your face), simple hand weapon (cudgel, ideal to knock people out), garrotte, silver jewel (stolen bracelet), 6ʂ.
+*Items*: clothes (scarf to cover your face), simple hand weapon (cudgel), garrotte, silver jewel (stolen bracelet), 6ʂ.
 
 == Gambler
 
@@ -135,7 +135,7 @@ Luck come and goes at the gaming table, but it has never abandoned you, not with
 
 When you hunt in the dark forests of the Kingdom, you sometimes wonder if you really are the hunter or rather the prey. +
 *Skills*: _bushcraft_, _hunt_. +
-*Items*: clothes (decorated with trophies from your preys), martial hand weapon (spear), bear trap, 4ʂ.
+*Items*: clothes (decorated with trophies from your preys), missile great weapon (bow), 4ʂ.
 
 == Jester
 
@@ -145,7 +145,7 @@ You have spent your life making a fool of yourself to entertain the nobles, but 
 
 == Knight
 
-With your honour lost and no coin left to your name, you wander the lands selling your sword for money. +
+With your honour lost and no coin left to your name, you wander the lands selling your fighting skills for money. +
 *Skills*: _ride_, _skilled blow_. +
 *Items*: clothes (colourful livery), martial hand weapon (warhammer), saddle, 4ʂ.
 
@@ -165,7 +165,7 @@ Nobody is above the law, but you can help those with enough money wiggle through
 
 Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner. +
 *Skills*: _fleet footed_, _languages_. +
-*Items*: clothes (dusty and sweaty), missile hand weapon (sling), scroll (sealed letter, no addressee), lockbox & key, 8ʂ.
+*Items*: clothes (dusty and sweaty), missile hand weapon (sling), scroll (blank), quill & ink, lockbox & key, 8ʂ.
 
 == Miner
 

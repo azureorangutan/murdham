@@ -30,7 +30,7 @@ Check their description in the link:../skills_traits_and_conditions[Skills, Trai
 
 . *Assets*.
 You start with 4ʂ, plus the items, money, and followers granted by your career, plus the items and money you get by rolling on the <<tb_starting_items>> table.
-If you start with sacred or profane _power scrolls_, roll on the <<tb_sacred_powers>> or <<tb_profane_powers>> tables respectively to determine what power they contain.
+If you start with sacred or profane _power scrolls_, roll on the <<tb_sacred_powers>> or <<tb_profane_powers>> tables respectively to determine what power it holds.
 Re-roll if you get the same result as another Player on any table.
 
 . *Secondary properties*.
@@ -55,9 +55,9 @@ He rolls a d3 to assign the highest score (11) and gets a 2 (AGI).
 Furthermore, he rolls a d2 to assign the middle score (7) and gets a 2 again (WIT in this case, skipping over AGI).
 His character's starting abilities are therefore: **STR** 6, **AGI** 11, **WIT** 7.
 
-2. He rolls a 4 on a d4 and a 10 on a d12 for the career: _soldier_.
+2. He rolls a 1 on a d4 and an 11 on a d12 for the career: _soldier_.
 
-3. His career grants him the _cleave_ and _skilled blow_ skills.
+3. His career grants him the _skilled blow_ and _skilled shot_ skills.
 
 4. He starts with the following assets:
 

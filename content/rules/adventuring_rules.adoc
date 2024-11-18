@@ -25,7 +25,7 @@ Then, a new stretch or watch begins.
 == Perception
 
 The GM describes what the Player characters can see, hear, smell, and feel when they enter a new area.
-They should make sure to provide all necessary information for the Players to proceed through the scenario and make informed decisions: if in doubt, err on the side of providing too much information, rather than too little!
+They should make sure to provide all necessary information for the Players to proceed through the scenario and make informed decisions: if in doubt, they should err on the side of providing too much information, rather than too little!
 The Players should also ask clarifying questions to help the GM provide all necessary information.
 
 
@@ -63,7 +63,7 @@ Characters who voluntarily trigger a detected trap can react to it when it makes
 Skills and careers may grant knowledge in relevant fields.
 For example, a character with the _medicine_ skill would be able to recognize the symptoms of a disease and know how it will develop, while a character with the _rat-catcher_ career would surely know a lot about those pesky rodents.
 The GM should take this into account and provide additional information when appropriate.
-The Players should also help the GM by reminding them when they think one of their skills or their career might apply to the current situation.
+The Players should also help the GM by reminding them when they think one of their skills or their career might grant them knowledge about the current situation.
 
 
 == Languages
@@ -97,10 +97,10 @@ Characters can't read, write, or perform anything but very simple calculations (
 == Encounters
 
 When the company encounters a group of GM characters they can interact with, you should first set up the scene with an appropriate zone-based map, and then determine if the two groups are aware of each other.
-Each side makes a group WIT save, and notices the other side on a pass.
+Each side makes a group WIT save, and notices the other side if anyone in the group passes.
 
 Groups which are being reckless (making noise, talking loudly, carrying a light in the dark, etc.) are automatically detected and can't detect the other group unless they are being reckless as well.
-Groups which are well hidden and silent (for example laying in ambush in a thick forest) can't be detected passively, and automatically detect even cautious groups.
+Groups which are well hidden and silent (for example laying in ambush in a thick forest) can't be detected with a WIT save, only with an active search, and automatically detect even cautious groups.
 
 If only one group detects the other, they can choose how to approach the situation: parley, launch a surprise attack, go away, etc.
 Otherwise, the Players declare what they want to do, while the GM secretly chooses for for the other group.
@@ -110,27 +110,26 @@ Conversely, a parley is only possible if both sides want to speak.
 Dialogues are resolved with the GM and the Players describing (or, if you prefer, acting out) what their character say.
 Saves might be triggered when the reaction of the GM characters to something the Players say is uncertain (see <<_diplomacy>> and <<_manipulation>>).
 Fights are resolved as described in the link:../combat_rules[Combat Rules] chapter.
-
-You can usually assume that resolving an encounter including a dialogue or fight takes a full stretch, or no significant time if nothing significant happened.
+You can usually assume that resolving an encounter including a dialogue or a fight consumes a full stretch.
 
 
 == Attitude
 
-The GM can use the levels described in the <<tb_attitude>> table to express how other characters behave towards the Player characters.
+The GM can use the levels described in the <<tb_attitude>> table to express how other characters feel and behave towards the Player characters.
 The GM can pick a suitable attitude, or roll to determine it randomly.
-Roll 2d6 and keep the lower for aggressive beasts.
-Roll 1d6 for docile beasts and aggressive humanoids.
-Roll 2d6 and keep the highest for peaceful humanoids.
+If the characters are particularly aggressive, roll 2d6 and keep the lower roll;
+if they are peaceful, roll 2d6 and keep the higher roll;
+otherwise, simply roll a d6.
 
 .Attitude
 [[tb_attitude]]
 [options='header, unbreakable', cols="^2,<14"]
 |===
 |D6    |Attitude
-|1     | *Hostile*: actively tries to harm.
-|2-3   | *Unfriendly*: refuses to cooperate.
-|4-5   | *Neutral*: open to mutually beneficial deals.
-|6     | *Friendly*: open to help for little or nothing, but won't be taken advantage of.
+|1     | *Hostile*. Actively tries to harm.
+|2-3   | *Unfriendly*. Refuses to cooperate.
+|4-5   | *Neutral*. Open to mutually beneficial deals.
+|6     | *Friendly*. Open to help for little or nothing, but won't be taken advantage of.
 |===
 
 
@@ -177,20 +176,23 @@ Taunting someone in combat takes a round, and if successful, the target can only
 Torturing an imprisoned character takes a stretch of time and inflicts d6 direct damage.
 The target, if still alive and conscious, must pass a WIT save or give up and talk.
 
+It is important to stress that, even in combat, characters who wish to manipulate an enemy must describe their attempt, and the GM must evaluate if it's good enough to be effective and warrant a save.
+Just shouting at someone won't intimidate them, but making a gruesome display of a fallen enemy might.
+
 
 == Disguise
 
 You can try to use clothes, makeup, and other method to disguise your appearance.
 A _disguise kit_ contains all that's necessary.
-You can only attempt to look different from your usual self.
-Other characters can passively notice something off about you by passing a WIT save, and close examination will always reveal the disguise.
+You can only attempt to look different from your usual self, not to look like another specific person, unless you already look quite similar.
+Other characters can passively notice that something is off about you by passing a WIT save, and close examination will always reveal the disguise.
 
 
 == Skills in dialogues
 
-Some skills (_blather_, _charm_, _intimidate_, _leadership_) grant proficiency at using certain approaches during dialogues.
+Some skills (_blather_, _charm_, _intimidate_, _leadership_) grant proficiency when using certain diplomatic or manipulation approaches.
 However, other skills can also provide an advantage when it makes sense.
-For example, the _erudition_ skill might be useful when trying to persuade someone about an academic topic, while the _music_ skill might give a proficiency bonus when attempting to distract someone with a performance.
+For example, the _erudition_ skill might be useful when trying to persuade someone about historical events, while the _music_ skill might come in handy when attempting to distract someone with a musical performance.
 
 
 == Stealing
@@ -240,40 +242,40 @@ It is impossible to sprint on very rough terrain (very slippery, rocky and uneve
 
 *Sneak*.
 Move silently and behind cover.
-You remain undetected if you pass an AGI save.
+The character stays undetected if they pass an AGI save.
 Trivial in loud and dark places, impossible on very noisy surfaces and in plain view.
 
 *Balance*.
-When moving on difficult ground (slippery, uneven, narrow, etc.), you must pass an AGI save or trip.
-When you trip, you suffer d4 direct damage and can't move further until the next round.
+When moving on difficult ground (slippery, uneven, narrow, etc.), characters must pass an AGI save or trip.
+Characters who trip suffer d4 direct damage and can't move further until the next round.
 Impossible on very difficult ground (for example slippery _and_ narrow).
 Attacks made while balancing are impaired.
 
 *Leap*.
-Pass an AGI save to leap across a significant obstacle or gap (4 metres with a running start, 2 metres that otherwise).
-Trivial for tiny gaps (2 metres or less with a running start, 1 metre otherwise), impossible for very large gaps..
+Pass an AGI save to leap across a significant obstacle or gap (4 metres with a running start, 2 metres otherwise).
+Trivial for tiny gaps (2 metres or less with a running start, 1 metre otherwise), impossible for very large gaps.
 Attacks made while leaping are impaired.
 
 *Climb*.
-When climbing a challenging surface you must pass an AGI save or fall.
-You must make the save when you start climbing and at the start of each round.
+When climbing a challenging surface, characters must pass an AGI save or fall.
+They must make the save when they start climbing and at the start of each round.
 Trivial on easy surfaces (such as ladders), impossible on smooth surfaces (such as walls).
 Attacks made while climbing are impaired, and at least one hand must be used to keep hold of the surface.
 
 *Swim*.
-When swimming in turbulent waters or while carrying a total bulk greater than 2, you must pass an AGI save or become _incapacitated_.
-You must make the save when you enter the waters, and at the start of each round.
-If you are _incapacitated_ while in deep waters, you might suffocate (see <<_suffocating>>).
+When swimming in turbulent waters or while carrying a total bulk greater than 2, characters must pass an AGI save or start drowning.
+They must make the save when they enter the waters, and at the start of each round.
+While drowning, they can't do anything and might suffocate (see <<_suffocating>>).
 Attacks made while in water are impaired.
 
-You can't make special movements for more than a stretch consecutively.
+Characters can't make special movements for more than a stretch consecutively.
 It isn't possible to combine special movements unless the character is proficient in one of them.
-For example, you can't sprint while climbing, or sneak while swimming.
+For example, characters can't sprint while climbing, or sneak while swimming.
 
 
 == Navigating the wilderness
 
-Moving across sectors or regions without following a clear path (a road, a river, etc.) bears the risk of getting lost and wasting time finding your way again.
+Moving across sectors or regions without following a clear path (a road, a river, etc.) bears the risk of getting lost, wasting time to find the right way again.
 To represent this in a simple way, movement speed is reduced to ¼ in such a situation, meaning that the typical movement speed is half a sector or region per stretch or watch.
 
 
@@ -288,12 +290,13 @@ It is also impossible to take a daily rest in the wilderness, unless proper shel
 Locked doors and chests can be opened using _lockpicks_ or a _crowbar_.
 This takes a watch and requires passing a WIT or STR save respectively.
 Locked or blocked old doors can also be bashed open without tools by passing a STR save.
-Doors can also be destroyed by attacking them with suitable weapons. A typical wooden door has 8 health and 2 armour.
+Finally, doors can be destroyed by attacking them with suitable weapons.
+A typical wooden door has 8 health and 1 armour and takes impaired damage, unless a weapon or tool which would particularly effective is used.
 
 
 == Falling
 
-Characters who fall by 2 metres or more suffer d4 direct damage for each full 2 metres they have traversed.
+Characters who fall by 2 metres or more suffer d4 direct damage for each full 2 metres they traverse.
 They can attempt to cushion the fall and land gracefully by passing an AGI save, in which case the effective falling distance is reduced by 2 metres.
 
 
@@ -472,7 +475,7 @@ Befriending a wild animal is impossible unless the character is proficient.
 == Mounts
 
 Characters can ride a trained mount with a _saddle_.
-Riding in quiet situations is trivial and requires no save, but the rider must make an AGI save when the mount sprints, leaps, is scared, and other dangerous situations.
+Riding in quiet situations is trivial, but the rider must make an AGI save when the mount sprints, leaps, dodges an attack, is scared, and in other dangerous situations (as a general guideline, every time the mount makes an AGI save).
 If they fail, they fall from the mount and suffer d4 direct damage.
 
 

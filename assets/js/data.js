@@ -405,7 +405,7 @@ export const careers = [
     ],
     mana: 0,
     items: [
-      "clothes (bare chested, lest your shirt catches fire)",
+      "clothes (covered in soot)",
       "missile hand weapon (throwing daggers)",
       "alcoholic drink",
       "alcoholic drink",
@@ -430,7 +430,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (scarf to cover your face)",
-      "simple hand weapon (cudgel, ideal to knock people out)",
+      "simple hand weapon (cudgel)",
       "garrotte",
       "silver jewel (stolen bracelet)",
     ],
@@ -472,8 +472,7 @@ export const careers = [
     mana: 0,
     items: [
       "clothes (decorated with trophies from your preys)",
-      "martial hand weapon (spear)",
-      "bear trap",
+      "missile great weapon (bow)",
     ],
     followers: [
     ],
@@ -505,7 +504,7 @@ export const careers = [
   {
     masculine_name: "Knight",
     feminine_name: "Knight",
-    description: "With your honour lost and no coin left to your name, you wander the lands selling your sword for money.",
+    description: "With your honour lost and no coin left to your name, you wander the lands selling your fighting skills for money.",
     skills: [
       "ride",
       "skilled blow",
@@ -576,7 +575,8 @@ export const careers = [
     items: [
       "clothes (dusty and sweaty)",
       "missile hand weapon (sling)",
-      "scroll (sealed letter, no addressee)",
+      "scroll (blank)",
+      "quill & ink",
       "lockbox & key",
     ],
     followers: [
@@ -1000,7 +1000,6 @@ export const careers = [
 ];
 
 export const starting_items = [
-  ["alcoholic drink (good wine, <i>expensive</i>)", 0],
   ["field kitchen", 0],
   ["navigation tools", 0],
   ["medicine box", 0],
@@ -1013,6 +1012,7 @@ export const starting_items = [
   ["darkroot", 0],
   ["madcap mushrooms", 0],
   ["pipe & tobacco", 6],
+  ["bear trap", 0],
   ["caltrops", 0],
   ["smoke bomb", 0],
   ["grappling hook", 6],
@@ -1020,7 +1020,7 @@ export const starting_items = [
   ["climbing gear", 0],
   ["chess set", 0],
   ["marbles", 6],
-  ["animal skin (wolf pelt)", 0],
+  ["animal trophy (wolf pelt)", 0],
   ["lucky charm (cornicello)", 0],
   ["mirror", 0],
   ["perfume", 0],

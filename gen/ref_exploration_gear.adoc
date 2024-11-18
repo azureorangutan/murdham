@@ -1,15 +1,19 @@
 == Exploration gear
 
 * *Chain* (4ʂ).
-2 metre.
+2 metre long.
 
 
 * *Rope* (4ʂ).
-4 metre.
+4 metre long.
 
 
 * *Rope ladder* (4ʂ, bulk 2).
-2 metre. Trivial to climb.
+2 metre long.
+
+
+* *Ladder* (4ʂ, bulk 4).
+2 metre long.
 
 
 * *Grappling hook* (4ʂ).

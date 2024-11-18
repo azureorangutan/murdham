@@ -283,7 +283,7 @@
   money: 2
   items:
   - name: clothes
-    descr: bare chested, lest your shirt catches fire
+    descr: covered in soot
   - name: missile hand weapon
     descr: throwing daggers
   - name: alcoholic drink
@@ -302,7 +302,7 @@
   - name: clothes
     descr: scarf to cover your face
   - name: simple hand weapon
-    descr: cudgel, ideal to knock people out
+    descr: cudgel
   - name: garrotte
   - name: silver jewel
     descr: stolen bracelet
@@ -332,9 +332,8 @@
   items:
   - name: clothes
     descr: decorated with trophies from your preys
-  - name: martial hand weapon
-    descr: spear
-  - name: bear trap
+  - name: missile great weapon
+    descr: bow
   descr: "When you hunt in the dark forests of the Kingdom, you sometimes wonder if you really are the hunter or rather the prey."
 - male_name: jester
   female_name: jester
@@ -362,7 +361,7 @@
   - name: martial hand weapon
     descr: warhammer
   - name: saddle
-  descr: "With your honour lost and no coin left to your name, you wander the lands selling your sword for money."
+  descr: "With your honour lost and no coin left to your name, you wander the lands selling your fighting skills for money."
 - male_name: labourer
   female_name: labourer
   skills:
@@ -407,7 +406,8 @@
   - name: missile hand weapon
     descr: sling
   - name: scroll
-    descr: sealed letter, no addressee
+    descr: blank
+  - name: quill & ink
   - name: lockbox & key
   descr: "Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner."
 - male_name: miner

@@ -9,7 +9,7 @@ A large horned man brandishing a giant sword, his skin constantly exuding fresh 
 Takes the form of the most attractive creature which the observer can possibly imagine. Wants to corrupt the pure. +
 *STR* 8, *AGI* 8, *WIT* 16 +
 *Natural weapon*: barbed tongue-whip (d4, grab). +
-*Skills*: _charm_. +
+*Skills*: _charm_, _music_. +
 *Traits*: _demon_, _immunity (corruption, disease, poison)_, _power (bewitch -- 4 EP)_.
 
 *The Horror* +
@@ -17,7 +17,7 @@ A mess of flesh and bones, shifting in shape and bright colours. Sees mortals as
 *STR* 8, *AGI* 16, *WIT* 8 +
 *Natural weapon*: claws (d6). +
 *Natural weapon*: eldritch fire (d6, range 8). +
-*Skills*: _dodge blows_. +
+*Skills*: _dodge blows_, _erudition_. +
 *Traits*: _corrupting (2)_, _demon_, _frightening_, _immunity (corruption, disease, poison)_, _split_.
 
 *The Plague Brewer* +

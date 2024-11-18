@@ -22,7 +22,7 @@ Discarded after use.
 * *Health X/Y*.
 This item has health equal to X and armour value equal to Y, and suffers damage like characters instead of using durability rolls.
 On critical damage, it is _damaged_ and can't be used until it recovers at least 1 health.
-Items can't heal like characters, but can be repaired.
+Items can't heal like characters, but can be repaired using a _toolbox_.
 Sources of damage which can't realistically damage the items are completely ineffective (such as a sword against a metal door).
 
 * *Fragile*.
@@ -38,7 +38,7 @@ If you hold two shields at once, you still only increase armour value by 1, but 
 * *Vehicle X*.
 Can carry X medium-sized characters and their gear.
 A character can be replaced by items for a total bulk of 16.
-The bulk of what's on the vehicle doesn't count towards the encumbrance of characters or operating it.
+The bulk of what's on a vehicle doesn't count towards the encumbrance of the characters pulling it.
 
 * *Weapon*.
 Can be used to perform an attack while held, with the indicated damage and properties.
@@ -176,6 +176,12 @@ If debts aren't repaid in a timely fashion, new loans might be refused and the c
 
 * *Healing* (16ʂ).
 Recover health equal to half STR.
+
+* *Surgeon* (64ʂ).
+Perform a surgery.
+
+* *Doctor* (64ʂ).
+Diagnose a poison or disease.
 
 * *Lodging, daily rest* (4ʂ).
 Provides a place to sleep, food, and water during a daily rest.

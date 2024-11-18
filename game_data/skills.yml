@@ -48,7 +48,7 @@ burglary: >
 bushcraft: >
   Proficient at finding drinking water and shelter in the wilderness.
   You can efficiently navigate the wilderness: you only halve your movement speed instead of reducing it to ¼, and you move at full speed if you also have _navigation tools_.
-  When you forage, you roll twice on the foraging table and apply both results.
+  When you forage, you roll twice on the foraging table and choose the result you prefer.
   Knowledgeable about orientation in the wilderness, common plants, survival, etc.
 charm: >
   You understand how to make people like you, and how to persuade them.
@@ -61,13 +61,15 @@ climb: >
 consume alcohol: >
   You are used to drink large amount of ale, wine, and spirits, and can drink most other people under the table.
   You can consume an _alcoholic drink_ per stretch without risking to become _groggy_.
+  You can instantly recognise if something is wrong with a drink, for example if they have been poisoned.
 contortionist: >
   Your joints are extremely flexible and you can bend your body in absurd shapes.
   You can squeeze through small openings and easily escape bonds.
   There is a 1:4 chance that your flexibility lets you avoid an injury.
 crafting: >
-  You can craft a number of different non-consumable items equal to half your WIT, and you are proficient at repairing them with a _toolbox_.
+  You can craft a number of different items equal to half your WIT, and you are proficient at repairing them with a _toolbox_.
   You don't have to choose immediately what you can craft: as long as you still have free '`slots`', you can decide at any time.
+  However, you can't pick items which can be crafted via the _alchemy_, _apothecary_, or _poisons_ skills.
   Knowledgeable about tools, processes, and raw materials relating to what you can craft.
 dark vision: >
   You can see better than most under dim lighting, and you are used to rely on senses other than sight (hearing, smell, touch).
@@ -120,8 +122,9 @@ frugal: >
   You pay only ¼ for lodging as you don't need any particular comforts or luxuries.
 gossip: >
   Proficient at gathering information and finding contacts in settlements, for example for trading specific or illegal goods.
-  Whenever you take a daily rest or full rest in a settlement, you hear interesting rumours.
-  The GM decides what you hear, and it isn't necessarily true.
+  You can gather rumours while performing another action taking a watch in a settlement, rather than having to spend time specifically for that.
+  Furthermore, you have a certain intuition about whether the rumours are true or false.
+  There is a 1:4 chance that your intuition is wrong, rolled secretly by the GM.
 heal: >
   Proficient at performing surgeries (you can attempt without tools).
   You can use a _medicine box_ more effectively than others: heal half STR in a stretch, or d8 damage (up to half STR) in a round.
@@ -161,8 +164,7 @@ medicine: >
   After diagnosing, you can instruct someone with the _apothecary_ skill to create a bespoke _antidote_ or _cure_ which is guaranteed to work.
   Knowledgeable about human anatomy and physiology, illnesses, and ailments.
 meditation: >
-  You heal 1 corruption on a daily rest if you satisfy all needs.
-  You heal all corruption on a full rest.
+  You remove all corruption on a full rest.
 monster slaying: >
   You double damage inflicted against targets of larger size category, offsetting the typical penalties.
   For example, you inflict unmodified damage (instead of half) against targets one size larger, and half damage (instead of a quarter) against targets two sizes larger.
@@ -192,7 +194,8 @@ politics: >
   You are literate.
   You can speak Classic.
   Knowledgeable in all fields of civil and political lore, such as laws, structures of power, bureaucracy, processes, etc.
-  You know whom to bribe, what to offer, and how to go about it: when you spend a few minutes talking with someone, you can ask the GM to reveal if they are bribable, and if so what that would require.
+  You know how to forge documents and letters: they probably won't pass extensive controls, but they might fool a routine check.
+  You know whom to bribe, what to offer, and how to go about it: after talking with someone, you can ask the GM to reveal if they are bribable and what they might want.
 protect: >
   You can guard without spending your turn any number of times.
 quick draw: >

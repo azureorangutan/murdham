@@ -2,7 +2,7 @@
 
 * *Medicine box* (16ʂ).
 _Consumable_.
-Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.'
+Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.
 
 
 * *Healing draught* (64ʂ, bulk ½).

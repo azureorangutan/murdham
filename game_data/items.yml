@@ -7,14 +7,14 @@ armour:
   - !Weapon
     damage: D4
 - name: light armour
-  value: 256
+  value: 64
   bulk: 2
   properties:
   - !Armour 1
   descr: >
     Banded mail, chain mail, gambeson, hardened leather, thick furs, etc.
 - name: heavy armour
-  value: 1024
+  value: 256
   bulk: 4
   properties:
   - !Armour 2
@@ -33,7 +33,7 @@ artillery:
     - Reload
   - !Health
     - 8
-    - 2
+    - 1
 - name: catapult
   value: 256
   bulk: 32
@@ -48,7 +48,7 @@ artillery:
     - Reload
   - !Health
     - 8
-    - 2
+    - 1
 - name: cannon
   value: 1024
   bulk: 32
@@ -61,7 +61,7 @@ artillery:
     - Reload
   - !Health
     - 8
-    - 2
+    - 1
 - name: mortar
   value: 1024
   bulk: 32
@@ -76,7 +76,7 @@ artillery:
     - Reload
   - !Health
     - 8
-    - 2
+    - 1
 
 light sources:
 - name: candle
@@ -177,7 +177,7 @@ healing:
   properties:
   - Consumable
   descr: >
-    Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.'
+    Target a nearby character: heal d8 health (up to half STR) in a stretch, or 1 health in a round.
 - name: healing draught
   value: 64
   bulk: 0
@@ -389,18 +389,22 @@ exploration gear:
   value: 4
   bulk: 1
   descr: >
-    2 metre.
+    2 metre long.
 - name: rope
   value: 4
   bulk: 1
   descr: >
-    4 metre.
+    4 metre long.
 - name: rope ladder
   value: 4
   bulk: 2
   descr: >
-    2 metre.
-    Trivial to climb.
+    2 metre long.
+- name: ladder
+  value: 4
+  bulk: 4
+  descr: >
+    2 metre long.
 - name: grappling hook
   value: 4
   bulk: 1
@@ -481,24 +485,22 @@ academic gear:
   descr: >
     The remains of a dead saint.
     Priests holding it can re-roll the d12 when checking if invoking a sacred power is successful.
-- name: vim
+- name: dark essence
   value: 64
   bulk: 0
   properties:
   - Consumable
   descr: >
     Pure, concentrated magical essence.
-    Sorcerers can consume it to invoke a profane power without spending mana _or_ with an additional EP.
-    Bringing more than 2 doses of vim within the same zone can cause them to explode: the chance is x-in-8, where x is the number of doses.
-    If the explode, everyone in the zone suffers corruption equal to the amount of doses.
-    If they didn't explode, re-roll at the start of the next stretch.
+    Sorcerers can consume it to invoke a profane power with an additional EP.
+    It isn't possible to consume multiple doses at once.
 
 miscellanea:
-- name: animal skin
+- name: animal trophy
   value: 16
   bulk: 2
   descr: >
-    Skin of a medium animal.
+    Skin, feathers, bones, or other body parts of a medium animal.
     Divide the cost by 4 and the bulk by 2 for each side below medium.
     Multiply the cost by 4 and the bulk by 2 for each size above medium.
 - name: cage
@@ -536,11 +538,6 @@ miscellanea:
   bulk: 1
   descr: >
     Skull, bag of dirt or dung, dirty pillow, chalk, etc.
-- name: ladder
-  value: 4
-  bulk: 4
-  descr: >
-    Climbing it is trivial.
 - name: lockbox & key
   value: 4
   bulk: 1
@@ -630,7 +627,7 @@ vehicles:
   properties:
   - !Health
     - 8
-    - 2
+    - 1
   - !Vehicle 4
 - name: coach
   value: 1024
@@ -638,7 +635,7 @@ vehicles:
   properties:
   - !Health
     - 16
-    - 4
+    - 2
   - !Vehicle 8
 - name: chariot
   value: 256
@@ -646,7 +643,7 @@ vehicles:
   properties:
   - !Health
     - 8
-    - 2
+    - 1
   - !Vehicle 2
 - name: rowing boat
   value: 256
@@ -654,7 +651,7 @@ vehicles:
   properties:
   - !Health
     - 8
-    - 2
+    - 1
   - !Vehicle 4
   descr: Must be rowed by 4 characters.
 - name: large rowing boat
@@ -663,7 +660,7 @@ vehicles:
   properties:
   - !Health
     - 16
-    - 4
+    - 2
   - !Vehicle 8
   descr: Must be rowed by 8 characters.
 - name: sailing boat
@@ -672,7 +669,7 @@ vehicles:
   properties:
   - !Health
     - 8
-    - 2
+    - 1
   - !Vehicle 4
   descr: Must be rowed by 4 characters, or sailed by a character with the _river lore_ skill.
 - name: large sailing boat
@@ -681,7 +678,7 @@ vehicles:
   properties:
   - !Health
     - 16
-    - 4
+    - 2
   - !Vehicle 8
   descr: Must be rowed by 8 characters, or sailed by 2 characters with the _river lore_ skill.
 
@@ -772,7 +769,7 @@ weapons:
   bulk: 1
   properties:
   - !Weapon
-    damage: D8
+    damage: D6
     properties:
     - DirectDamage
     - Grab
