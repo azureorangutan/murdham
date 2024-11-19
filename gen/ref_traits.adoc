@@ -41,7 +41,7 @@ The character has no actual intelligence, such as an automaton or a flesh puppet
 
 
 * *Mutation*.
-The character has the mutations listed after the trait. See the Corruption chapter for more information.
+The character has the mutations listed after the trait.
 
 
 * *Permanent condition*.

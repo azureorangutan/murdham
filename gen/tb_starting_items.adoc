@@ -6,23 +6,23 @@ h|  3+h|D3
 h|D12
  h|1 h|2 h|3
 |1
-|Alcoholic drink (good wine, _expensive_)
 |Field kitchen
 |Navigation tools
-|2
 |Medicine box
+|2
 |Antidote
 |Cure
-|3
 |Scorpion oil
+|3
 |Butterfly sting
 |Reaper's spice
-|4
 |Beastman blood
+|4
 |Darkroot
 |Madcap mushrooms
-|5
 |Pipe & tobacco, 6ʂ
+|5
+|Bear trap
 |Caltrops
 |Smoke bomb
 |6
@@ -32,7 +32,7 @@ h|D12
 |7
 |Chess set
 |Marbles, 6ʂ
-|Animal skin (wolf pelt)
+|Animal trophy (wolf pelt)
 |8
 |Lucky charm (cornicello)
 |Mirror

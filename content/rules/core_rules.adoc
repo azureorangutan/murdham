@@ -321,7 +321,7 @@ Theobald has STR 9 and his current health is 6.
 His STR is temporarily reduced to 7, and his health remains at 6 since it's still lower.
 Later, his STR is further reduced down to 3.
 Now, his health must also be reduced to 3.
-Even though he has lost more than half his health at once, he doesn't suffer critical damage it was due to STR loss rather than damage.
+Even though he has lost more than half his health at once, he doesn't suffer critical damage since it was caused by STR loss rather than damage.
 
 {{% /details %}}
 ++++
@@ -408,11 +408,11 @@ D6: 1) rodents; 2) salt water; 3) religious paraphernalia; 4) a particular c
 h|15-16 <|
 *Irrational hatred*.
 You must pass a WIT save to keep yourself from act aggressively against the target of your hatred.
-D6: 1) a specific group of people; 2) users of profane powers; 3) users of sacred powers; 4) demons; 5) undead; 6) animals.
+D6: 1) a specific group of people; 2) wizards; 3) priests; 4) demons; 5) undead; 6) animals.
 
 h|17-18 <|
 *Uncontrollable bloodlust*.
-When blood is spilt nearby you, you must pass a WIT save or become _frenzied_ until the end of the stretch.
+When blood is spilt nearby, you must pass a WIT save or become _frenzied_ until the end of the stretch.
 If you pass you are immune to this effect until the end of the stretch.
 
 h|19-20 <|
@@ -542,7 +542,7 @@ h|5 <|
 *Foul secretion*.
 You secrete a foul, smelly substance.
 Everyone you touch is exposed to a disease.
-D6: 1) influence; 2) flux; 3) plague; 4) black gangrene; 5) bloodburn; 6) weeping sores.
+D6: 1) influence; 2) bloody influence; 3) plague; 4) black gangrene; 5) bloodburn; 6) weeping sores.
 
 h|6 <|
 *Skull face*.
@@ -551,12 +551,12 @@ You cause fear within range 4.
 
 h|7 <|
 *Darksight*.
-You can see in darkness, but in normal light you can see at most up to range 1.
+You can see in darkness, but in daily light you can see at most up to range 1.
 
 h|8 <|
 *Corrosive vomit*.
 Once per daily rest, you can vomit a large amount of corrosive liquid.
-This is an attack inflicting d6 damage and destroying the equipment of your target.
+This is an attack inflicting d6 damage and damaging the equipment of your target.
 
 h|9 <|
 *Fire breath*.
@@ -579,7 +579,7 @@ Your sight isn't affected.
 h|12 <|
 *Eye of the prophet*.
 One of your eyes turn milky white like a pearl.
-Your maximum omens increase by 1 and you immediately gain 1 omen.
+Your maximum omens increase by 1.
 Your sight isn't affected.
 
 h|13 <|
@@ -589,13 +589,13 @@ Your STR and AGI are both permanently reduced by d4, but you are able to bend yo
 
 h|14 <|
 *Skeleton*.
-Your skin and muscles leave your body, leaving you as a bloody skeleton surrounding your internal organs.
-Your become _undead_ and you cause fear within range 4, but your STR and AGI are permanently reduced by d4.
+Your skin and muscles turn into dust, leaving you as a bloody skeleton surrounding your internal organs.
+Your gain the _undead_ trait, and you cause fear within range 4, but your STR and AGI are permanently reduced by d4.
 
 h|15 <|
 *Flying head*.
 Your head detaches from your body, and from now on you must live as a bodiless flying head.
-You gain the _flying (hoverer)_ trait and your STR is permanently halved, besides any other obvious effects such as being unable to hold stuff.
+You gain the _flying (hoverer)_ trait and your STR is permanently halved, besides any other obvious effects.
 
 h|16 <|
 *Mouth of truth*.
@@ -617,7 +617,7 @@ A lump detaches from your body and grows into an identical twin, who is however 
 h|19 <|
 *Demonic nature*.
 You feel that something is different, as if you didn't belong to this world any more.
-You become a _demon_.
+You gain the _demon_ trait.
 
 h|20 <|
 *Uncanny resemblance*.
@@ -635,7 +635,7 @@ Player characters start with 2 omens, the maximum they can accumulate.
 Most GM characters have no omens, but particularly important ones might have 1 or 2.
 Omens can be spent in the following ways:
 
-* Re-roll, keeping the most favourable results: a failed save, a lost contest, damage rolls, soulblight checks, chance rolls (x:y chances), rolls on a table.
+* Re-roll a die, keeping the most favourable results: a failed save, a lost contest, damage rolls, soulblight checks, chance rolls (x:y chances), rolls on a table.
 It is possible to spend multiple omens on the same roll.
 
 * Save from death, either due to health loss or instant-death effects.
@@ -654,7 +654,6 @@ Balthasar rolls an 8, Sybilla a 19, and Theobald a 2.
 The ranking is: Theobald (6−2 = 4), Balthasar (10 - 8 = 2), Sybilla (10 - 19 = -9).
 Sybilla decides to spend an omen and rolls 7, for a new total of 10 - 7 = 3.
 She is now second after Theobald.
-Balthasar could now choose to spend an omen, followed by Sybilla again.
 
 Sybilla suffers d4 damage.
 She rolls 4 (the maximum), then 2, for a total of 5 damage.
@@ -681,7 +680,7 @@ If all Player characters are _incapacitated_ at the same time, the GM decides wh
 If all Player characters die at the same time, the Players lose the game and must create a brand-new company.
 
 When a Player character dies, the other members of the company must pay for a funeral at the latest until their next full rest.
-It costs 512ʂ, halved if the dead character's body is returned.
+It costs 512ʂ, halved if the dead character's remains are returned and given proper rest.
 Failing to pay for a funeral brings bad luck: all other Player characters permanently reduce their maximum omens by 1.
 If they already have 0 omens, they suffer no additional penalties.
 
@@ -738,7 +737,7 @@ You find a _ration_ unless you are in a desolate environment.
 
 |2 |*Dubious fruits and vegetables*.
 You find a _ration_ unless you are in a desolate environment, but you aren't sure if it's edible.
-If consumed there is a 1:4 chance that it exposes you to a disease chosen by the GM.
+If consumed there is a 1:4 chance that it exposes you to a disease, poison, drug, or other effect chosen by the GM.
 
 |3-4 |*Fish*.
 You find a _ration_ if you have a _fishing kit_ and there is a nearby body of water in your region.
@@ -825,7 +824,7 @@ They pretty much behave like Player characters, but might refuse to perform task
 *Animal followers*.
 Animal followers behave according to their nature and instincts.
 If trained, they might be able to obey simple orders and perform specific tasks, such as carrying a rider, pulling carts, following trails, performing tricks, etc.
-Animals will avoid combat and other dangerous situations unless they are natural predators or have been trained to fight.
+Animals will avoid combat and other dangers unless they are natural predators or have been trained to fight.
 
 
 == Maps

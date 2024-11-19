@@ -1,7 +1,7 @@
 == Miscellanea
 
-* *Animal skin* (16ʂ, bulk 2).
-Skin of a medium animal. Divide the cost by 4 and the bulk by 2 for each side below medium. Multiply the cost by 4 and the bulk by 2 for each size above medium.
+* *Animal trophy* (16ʂ, bulk 2).
+Skin, feathers, bones, or other body parts of a medium animal. Divide the cost by 4 and the bulk by 2 for each side below medium. Multiply the cost by 4 and the bulk by 2 for each size above medium.
 
 
 * *Cage* (256ʂ, bulk 8).
@@ -26,10 +26,6 @@ Include a crystal ball, tarot cards, divination bones, etc. Used in combination 
 
 * *Junk* (1ʂ).
 Skull, bag of dirt or dung, dirty pillow, chalk, etc.
-
-
-* *Ladder* (4ʂ, bulk 4).
-Climbing it is trivial.
 
 
 * *Lockbox & key* (4ʂ).

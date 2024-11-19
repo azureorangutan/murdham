@@ -99,8 +99,7 @@ struct AssetWithDescr {
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 enum PowerRange {
-    Personal,
-    Near,
+    Touch,
     Sight,
     Connection,
 }
@@ -614,7 +613,12 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
         let description: BTreeMap<String, Vec<String>> =
             serde_yaml::from_reader(File::open("../game_data/description.yml")?)?;
         for (category, entries) in description {
-            gen_double_die_table(&base_path, &capitalise(category), &entries, 2)?;
+            let columns = if entries.len() == 20 || entries.len() == 40 {
+                2
+            } else {
+                4
+            };
+            gen_double_die_table(&base_path, &capitalise(category), &entries, columns)?;
         }
     }
 

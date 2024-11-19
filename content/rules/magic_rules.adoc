@@ -78,20 +78,24 @@ She decides against it, therefore casting the power in its basic form.
 
 == Power range
 
-* *Personal*.
-The power exclusively affects the invoker.
-
-* *Near*.
-Targets must be nearby the invoker.
+* *Touch*.
+Targets must be nearby and be physically touched.
+The power is considered a melee attack for all intents and purposes, typically a non-lethal one unless it deals damage.
+It can be invoked to react to attacks, and can be reacted to in any way.
 
 * *Sight*.
-Targets must be visible and within range 8 of the invoker.
+Targets must be visible and within range 8.
+Unless otherwise specified, the power is _not_ considered a ranged attack, therefore relevant skills and rules don't apply.
+In particular, the power always hits, no matter the distance to the target or whether the invoker moved.
+However, the power can still be invoked to react to attacks, and can be reacted to, albeit only by countering.
 
 * *Connection*.
 Targets can be anywhere as long as the invoker has an arcane connection to them.
-An arcane connection is formed through an object which is closely related to the target (a lock of hair, a personal possession, etc.), which is destroyed after invoking the power.
+An arcane connection is formed through an object which is closely related to the target (a lock of hair, a personal possession, etc.), which is destroyed upon invoking the power.
+The power is _not_ considered an attack, but can be used to react or reacted to, albeit only by countering.
 
-Powers can always be cast at a worse range: for example, a power with _connection_ range can be cast with _sight_ range, and all powers can be cast with _personal_ range.
+Powers can always be cast at a worse range: for example, a power with _connection_ range can be cast with _sight_ or _touch_ range.
+Furthermore, invokers can always target themselves, no matter the range.
 
 
 == Power duration
@@ -111,16 +115,6 @@ Upon casting, the invoker may also choose a trigger which can end the power prem
 Ongoing profane powers can additionally be dispelled by casting the exact same power on the same target.
 By default, it's only possible to dispel a power with _stretch_ duration in this way.
 By spending 2 EP or 4 EP, it is possible to dispel a _watch_ or _lingering_ power respectively.
-
-
-== Reacting to powers
-
-The target of a profane power can react by countering the invoker as if it were an attack.
-Conversely, profane powers can be invoked as a counter to an attack.
-The power is handled as a non-lethal attack if it doesn't inflict damage, otherwise it is handled as a normal attack.
-It isn't possible to dodge a power unless otherwise specified.
-
-Sacred powers take a full stretch to invoke, so they can't be used to react or reacted to.
 
 
 == Magic corruption and miscasts

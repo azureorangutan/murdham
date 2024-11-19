@@ -1,7 +1,4 @@
 starting items:
-- - name: alcoholic drink
-    descr: good wine, _expensive_
-  - 0
 - - name: field kitchen
   - 0
 - - name: navigation tools
@@ -26,6 +23,8 @@ starting items:
   - 0
 - - name: pipe & tobacco
   - 6
+- - name: bear trap
+  - 0
 - - name: caltrops
   - 0
 - - name: smoke bomb
@@ -40,7 +39,7 @@ starting items:
   - 0
 - - name: marbles
   - 6
-- - name: animal skin
+- - name: animal trophy
     descr: wolf pelt
   - 0
 - - name: lucky charm

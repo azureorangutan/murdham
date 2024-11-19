@@ -26,6 +26,7 @@ demons:
   wit: 16
   skills:
   - charm
+  - music
   traits:
   - name: demon
   - name: immunity
@@ -45,6 +46,7 @@ demons:
   wit: 8
   skills:
   - dodge blows
+  - erudition
   traits:
   - name: corrupting
     descr: 2
