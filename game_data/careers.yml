@@ -530,7 +530,7 @@
   - name: music instrument
     descr: fiddle, lute, flute, or drums
   - name: book
-    descr: filled with music sheet
+    descr: music sheets
   descr: "You have travelled far and wide across the kingdom, singing songs and acting out enthralling stories."
 - male_name: rat catcher
   female_name: rat catcher

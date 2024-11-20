@@ -744,7 +744,7 @@ export const careers = [
       "clothes (flamboyant and fashionable)",
       "simple hand weapon (knife)",
       "music instrument (fiddle, lute, flute, or drums)",
-      "book (filled with music sheet)",
+      "book (music sheets)",
     ],
     followers: [
     ],

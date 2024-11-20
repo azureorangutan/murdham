@@ -76,7 +76,7 @@ menu:
       weight: 20
       url: https://www.azureorangutan.com
       params:
-        icon: newspaper
+        icon: orangutan
     - name: Discord
       weight: 25
       url: https://discord.gg/58Kbfb2YwX
