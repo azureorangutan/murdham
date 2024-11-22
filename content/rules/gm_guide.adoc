@@ -1,5 +1,5 @@
 ---
-title: GM Tips
+title: GM Guide
 weight: 140
 prev: /rules/bestiary
 ---
