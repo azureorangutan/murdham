@@ -387,13 +387,14 @@ export const careers = [
     items: [
       "clothes (a few stitched up cuts)",
       "martial hand weapon (thrusting sword)",
-      "martial hand weapon (long parrying dagger)",
+      "simple hand weapon (parrying dagger)",
+      "handgun (pistol)",
     ],
     followers: [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 4,
+    money: 2,
   },
   {
     masculine_name: "Fire Eater",
