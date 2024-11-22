@@ -266,14 +266,16 @@
   skills:
   - ambidextrous
   - fast strike
-  money: 4
+  money: 2
   items:
   - name: clothes
     descr: a few stitched up cuts
   - name: martial hand weapon
     descr: thrusting sword
-  - name: martial hand weapon
-    descr: long parrying dagger
+  - name: simple hand weapon
+    descr: parrying dagger
+  - name: handgun
+    descr: pistol
   descr: "You are a skilled duellist, constantly looking for a worthy opponent to hone your skills."
 - male_name: fire eater
   female_name: fire eater

@@ -857,7 +857,9 @@ Sectors and regions don't have occupancy limits, since they represent a much lar
 
 Characters can move by two areas per time unit: two zones in a round, two sectors in a stretch, or two regions in a watch.
 Moving to or from the border between two areas counts as moving by half an area.
-Characters can't move into or through a zone or zone border which is already full.
+
+Characters can move through a full zone or zone border which is mostly occupied by allies, but can't end the movement on it.
+They can't move through a full zone or zone border which is mostly occupied by enemies.
 
 
 == Range

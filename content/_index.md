@@ -4,11 +4,10 @@ layout: hextra-home
 ---
 
 {{< hextra/hero-container
-  image="pics/knight_death_devil.jpg"
+  image="pics/murdham_memento_mori.png"
   imageClass="hx-block hx-overflow-hidden hx-rounded-3xl"
-  imageWidth="600" imageHeight="400"
-  imageTitle="Knight, Death, and the Devil"
-  imageLink="https://en.wikipedia.org/wiki/Knight,_Death_and_the_Devil"
+  imageWidth="400" imageHeight="600"
+  imageTitle="Memento Mori"
 >}}
 
 <div class="hx-mt-6 hx-mb-6">

@@ -101,6 +101,7 @@ He rolls a 20 on the d20, a miss, so the bandit takes no damage.
 Targets of an attack may attempt to dodge, counter, or hide behind a nearby character as a reaction.
 The choice must be made before rolling for damage but after the WIT save to hit, if required.
 Targets who are unaware of their attacker can't react.
+Some skills grant the ability to react multiple times in a round, however it is never possible to react more than once against a single attack.
 
 *Dodge*.
 Make an AGI save: on a pass the attack misses.

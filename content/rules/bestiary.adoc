@@ -2,7 +2,7 @@
 title: Bestiary
 weight: 130
 prev: /rules/magic_rules
-next: /rules/gm_tips
+next: /rules/gm_guide
 ---
 :toc:
 
