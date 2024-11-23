@@ -43,7 +43,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Exhaustive rules"
-    subtitle="The game provides guidelines on how to handle common situations found in a fantasy adventure game: exploration, travel, social interactions, stealth, combat, magic, vehicles, and more! Ideal for inexperienced Game Masters." >}}
+    subtitle="The game provides guidelines on how to handle common situations found in a fantasy adventure game: exploration, travel, social interactions, stealth, combat, magic, vehicles, and more!" >}}
 
   {{< hextra/feature-card
     title="Deadly adventures"
@@ -51,7 +51,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Simple yet deep combat"
-    subtitle="Combat rules are streamlined yet deep. Turns move quickly and fights are over soon, but every turn is full of nail-biting decisions. An alternating activation system and a reaction mechanic make sure that every Player is always involved."
+    subtitle="Combat rules are streamlined yet deep. Turns move quickly and fights are over soon, but every moment is full of nail-biting decisions. An alternating activation system and a reaction mechanic make sure that every Player is always involved."
   >}}
   {{< hextra/feature-card
     title="Vile sorcery and holy rites"
@@ -63,7 +63,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Lightweight skill system"
-    subtitle="Skills are keywords: a character either has them or they don't. They provide significant advantages, such as the ability to invoke magic powers or to pass certain actions without rolling."
+    subtitle="Skills are keywords: a character either has them or not. They provide significant advantages, such as the ability to invoke magic powers or to pass certain actions without rolling."
   >}}
   {{< hextra/feature-card
     title="Streamlined gear system"
