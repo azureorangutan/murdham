@@ -2,3 +2,4 @@ _site
 out
 public
 resources
+.DS_Store
