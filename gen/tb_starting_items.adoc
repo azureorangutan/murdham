@@ -18,9 +18,9 @@ h|D12
 |Reaper's spice
 |Beastman blood
 |4
-|Darkroot
-|Madcap mushrooms
-|Pipe & tobacco, 6ʂ
+|Darkroot, 4ʂ
+|Madcap mushrooms, 4ʂ
+|Pipe & pipe-weed, 7ʂ
 |5
 |Bear trap
 |Caltrops

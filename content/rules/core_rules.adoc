@@ -378,7 +378,7 @@ D6: 1) irascible; 2) apathetic; 3) sad; 4) proud; 5) mean; 6) pessimistic.
 h|3-4 <|
 *Addiction*.
 You gain the _addicted_ trait.
-Roll a d6 for what you are addicted to: 1) _alcoholic drink_; 2) _darkroot_; 3) _pipe & tobacco_; 4) _madcap mushrooms_; 5) _crimson weed_; 6) _corpse mandrake_.
+Roll a d6 for what you are addicted to: 1) _alcoholic drink_; 2) _darkroot_; 3) _pipe & pipe-weed_; 4) _madcap mushrooms_; 5) _crimson weed_; 6) _corpse mandrake_.
 
 h|5-6 <|
 *Unnatural appetite*.
@@ -730,25 +730,25 @@ Animal followers don't need a _camping kit_ to sleep, and they don't need a _rat
 [[tb_foraging]]
 [options='header, unbreakable', cols="^2,<14"]
 |===
-|D8 |Foraging result
+|D6 |Foraging result
 
-|1 |*Fruits and vegetables*.
-You find a _ration_ unless you are in a desolate environment.
+|1 |*Choice*.
+Pick any one of the following entries.
 
-|2 |*Dubious fruits and vegetables*.
-You find a _ration_ unless you are in a desolate environment, but you aren't sure if it's edible.
-If consumed there is a 1:4 chance that it exposes you to a disease, poison, drug, or other effect chosen by the GM.
+|2 |*Fruits and vegetables*.
+You find a _ration_ unless you are in an environment devoid of vegetation.
+If consumed, there is a 1:8 chance that it exposes you to a disease, poison, drug, or other effect chosen by the GM.
 
-|3-4 |*Fish*.
-You find a _ration_ if you have a _fishing kit_ and there is a nearby body of water in your region.
+|3 |*Fish*.
+You find a _ration_ if you have a _fishing kit_ and there is a body of water in your region.
 
-|5-6 |*Small game*.
-You find a _ration_ if you have a _trapping kit_, and you aren't in a desolate environment.
+|4 |*Small game*.
+You find a _ration_ if you have a _trapping kit_ and you are in an environment where small game can be found.
 
-|7 |*Big game*.
-Unless you are in a desolate environment, you find 4 _rations_ if you pass a WIT save to track a prey and then roll 4 or more damage with a ranged attack to kill it.
+|5 |*Big game*.
+If you are in an environment where large game can be found, you find 4 _rations_ if you pass a WIT save to track a prey and then roll 4 or more damage with a ranged attack to kill it.
 
-|8 |*Nothing*.
+|6 |*Nothing*.
 You come back empty-handed.
 
 |===

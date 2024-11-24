@@ -202,6 +202,7 @@
   - name: clothes
     descr: hand wraps to protect your knuckles
   - name: corpse mandrake
+  - name: corpse mandrake
   - name: lucky charm
     descr: lucky belt
   descr: "Your fists are deadly weapons: nobody is stronger than you!"
@@ -622,7 +623,7 @@
   skills:
   - brawling
   - intimidate
-  money: 2
+  money: 10
   items:
   - name: clothes
     descr: covering your face

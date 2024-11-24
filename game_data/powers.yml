@@ -100,6 +100,10 @@ profane powers:
     While you aren't concentrating, the illusion remains frozen in the state you left it, and only disappears when the power ends.
   range: Touch
   duration: Stretch
+  enhancements:
+  - - 1
+    - You make the illusion animate in a loop until the end of its duration.
+      Creating the loop takes as much time as the loop itself.
 - name: joyous appearance
   descr: >
     Target a creature.
