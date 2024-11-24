@@ -334,7 +334,8 @@ Two such effects can stack together to let characters ignore terror as well.
 
 == Poison
 
-Characters exposed to poison must pass a STR save or suffer its effect.
+Characters can resist the first dose of poison they are exposed to each stretch by passing a STR save.
+If exposed to any poison again during the same stretch, the effect is automatic.
 Every type of poison has a delivery method and an effect.
 
 *Delivery methods*:
@@ -368,6 +369,14 @@ The effect ends earlier if they take an _antidote_.
 Victims are _incapacitated_ until the end of the watch.
 The effect ends earlier if they suffer damage or take an _antidote_.
 
+
+== Drugs
+
+Drugs count as poison and their effect can be resisted in the same way.
+Additionally, if the drug has effect, the character must pass a WIT save or become _addicted_ to it.
+
+Addicted characters must consume the drug each time they take a daily rest or temporarily reduce WIT by 1.
+After a full rest, they must consume 8 units of the drug or temporarily reduce WIT by 1 for each missing unit.
 
 
 == Disease

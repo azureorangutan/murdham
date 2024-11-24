@@ -61,6 +61,7 @@ Target a creature of human intelligence and name a topic. The target is physical
 _Touch_, _stretch_.
 Target a small zone. You can create an illusion within its boundaries, which can affect sight, hearing, and smell, but not touch. While you are within range, you can concentrate on the illusion to change it or animate it. While you aren't concentrating, the illusion remains frozen in the state you left it, and only disappears when the power ends.
 
+** 1 EP -- You make the illusion animate in a loop until the end of its duration. Creating the loop takes as much time as the loop itself.
 
 * *Joyous appearance*.
 _Touch_, _stretch_.

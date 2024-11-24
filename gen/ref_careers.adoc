@@ -81,7 +81,7 @@ You used to roam the cities and the countryside, capturing wanted criminals and 
 
 Your fists are deadly weapons: nobody is stronger than you! +
 *Skills*: _brawling_, _wrestling_. +
-*Items*: clothes (hand wraps to protect your knuckles), corpse mandrake, lucky charm (lucky belt), 4ʂ.
+*Items*: clothes (hand wraps to protect your knuckles), 2× corpse mandrake, lucky charm (lucky belt), 4ʂ.
 
 == Burglar
 
@@ -257,7 +257,7 @@ You are blessed, or maybe cursed, with the ability to see what others can't. +
 
 A sturdy club is the best way to send a strong message, as you like to say. +
 *Skills*: _brawling_, _intimidate_. +
-*Items*: clothes (covering your face), simple hand weapon (spiked club), 2× crimson weed, 2ʂ.
+*Items*: clothes (covering your face), simple hand weapon (spiked club), 2× crimson weed, 10ʂ.
 
 == Tomb robber
 

@@ -285,6 +285,7 @@ export const careers = [
     items: [
       "clothes (hand wraps to protect your knuckles)",
       "corpse mandrake",
+      "corpse mandrake",
       "lucky charm (lucky belt)",
     ],
     followers: [
@@ -893,7 +894,7 @@ export const careers = [
     ],
     sacred_scrolls: 0,
     profane_scrolls: 0,
-    money: 2,
+    money: 10,
   },
   {
     masculine_name: "Tomb Robber",
@@ -1010,9 +1011,9 @@ export const starting_items = [
   ["butterfly sting", 0],
   ["reaper's spice", 0],
   ["beastman blood", 0],
-  ["darkroot", 0],
-  ["madcap mushrooms", 0],
-  ["pipe & tobacco", 6],
+  ["darkroot", 4],
+  ["madcap mushrooms", 4],
+  ["pipe & pipe-weed", 7],
   ["bear trap", 0],
   ["caltrops", 0],
   ["smoke bomb", 0],

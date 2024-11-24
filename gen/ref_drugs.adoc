@@ -1,27 +1,27 @@
 == Drugs
 
-* *Corpse mandrake* (16ʂ, bulk ½).
+* *Corpse mandrake* (8ʂ, bulk ½).
 _Consumable_.
-You are numb to pain until the end of the watch: you aren't be _incapacitated_ by critical damage. You must pass a WIT save or become _addicted_.
+Drug: you are numb to pain until the end of the watch, and you aren't be _incapacitated_ by critical damage.
 
 
-* *Crimson weed* (16ʂ, bulk ½).
+* *Crimson weed* (8ʂ, bulk ½).
 _Consumable_.
-You temporarily increase all abilities by 2, then, at the end of the watch, you temporarily reduce all abilities by 4. You must pass a WIT save or become _addicted_.
+Drug: you temporarily increase all abilities by 2, then, at the end of the watch, you temporarily reduce all abilities by 4.
 
 
-* *Darkroot* (16ʂ, bulk ½).
+* *Darkroot* (8ʂ, bulk ½).
 _Consumable_.
-Recover health equal to half your STR unless you are _dying_, but you become _groggy_ until the end of the watch. You must pass a WIT save or become _addicted_.
+Drug: Recover health equal to half your STR unless you are _dying_, but you become _groggy_ until the end of the watch.
 
 
-* *Madcap mushrooms* (16ʂ, bulk ½).
+* *Madcap mushrooms* (8ʂ, bulk ½).
 _Consumable_.
-You become _frenzied_ until the end of the stretch. You must pass a WIT save or become _addicted_.
+Drug: You become _frenzied_ until the end of the stretch.
 
 
-* *Pipe & tobacco* (4ʂ, bulk ½).
+* *Pipe & pipe-weed* (2ʂ, bulk ½).
 _Consumable_.
-After failing a save in a situation requiring thinking, smoke it to repeat the save once. Then pass a WIT save or become _addicted_.
+Drug: after failing a save in a situation requiring thinking, smoke it to repeat the save once.
 
 

@@ -1,9 +1,9 @@
 acrobatics: >
   Proficient at balancing (you can attempt on very difficult ground, or to sprint or sneak on difficult ground).
   Proficient at leaping (you can attempt to leap up to twice usual distances).
-  Proficient at cushioning falls.
   Your attacks aren't impaired while balancing and leaping.
   You can perform a number of acrobatic performance acts, such as trampoline, trapeze, aerial silk, etc.
+  When you attempt to cushion a fall, you always reduce the falling distance by 2 metres, and you reduce it by a total of 4 metres if you pass an AGI save.
 acting: >
   Proficient at disguising yourself (you can't be unmasked passively, you can attempt to look like someone else).
   Proficient at distracting by acting out plays.
@@ -105,7 +105,8 @@ faith: >
   You can invoke sacred powers.
   Knowledgeable about religion, theology, sacred texts, etc.
 farming: >
-  When you forage, you find an additional _ration_ on a _(dubious) fruits and vegetables_ result.
+  When you forage, you find an additional _ration_ on a _fruits and vegetables_ result.
+  You are also able to recognise if what you have found is safe to eat or might expose to a negative effect.
   Knowledgeable about agriculture, animal husbandry, etc.
 fast strike: >
   When you counter an attack or your attack is countered, you always hit first unless your opponent also has this skill.
@@ -185,7 +186,8 @@ play games: >
   People might still get suspicious if you win too much.
 poison resistance: >
   You have grown resistant to toxins through repeated exposition.
-  You automatically resist the first dose of poison you take within a stretch.
+  You automatically resist the first dose of poison or drugs you take within a stretch, and you resist the second if you pass a STR save.
+  Subsequent doses have effect automatically.
 poisons: >
   Proficient at identifying poison in food and drinks.
   You can craft all kinds of poisons using _apothecary tools_.
