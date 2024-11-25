@@ -27,8 +27,8 @@ apothecary: >
 bargain: >
   You purchase items at half price unless the seller also has this skill.
   Conversely, you sell at full price even if the seller has this skill.
-  In general, you know how to balance a trade in your favour.
   You are able to accurately estimate the value of most items by taking a quick look.
+  You are proficient at persuasion attempts pertaining getting a better deal for something.
 battle frenzy: >
   You can become _frenzied_ by spending a round inciting yourself into a frothing rage, or immediately when you suffer damage.
   The condition lasts until all enemies have been defeated or you spend a round trying to calm yourself and pass a WIT save.
@@ -251,7 +251,7 @@ swim: >
   Your attacks aren't impaired while swimming.
   You can hold your breath for twice as long (8 rounds instead of 4).
 tough: >
-  Your maximum health, as well as the threshold for instant death, are increased by 2 (equal to STR+2).
+  Your maximum health, as well as the threshold for instant death, are increased by 3 (equal to STR+3).
 true grit: >
   When _dying_, you survive until the end of the stretch, rather than until the end of the next round.
   You aren't instantly killed when you suffer damage matching your STR at once.

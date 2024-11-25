@@ -304,6 +304,7 @@ folks:
   str: 8
   agi: 10
   wit: 10
+  mana: 1
 - name: dwarf
   descr: >
     Short and stocky, clumsy but strong.
@@ -328,6 +329,9 @@ folks:
   str: 12
   agi: 6
   wit: 6
+  traits:
+  - name: dim-witted
+  - name: sturdy
 monsters:
 - name: troll
   descr: A large, brutish, humanoid monster, capable of quick regeneration. Lives in swamps and feasts on rotten meat.

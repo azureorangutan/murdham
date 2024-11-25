@@ -16,6 +16,10 @@ Anyone touched by this character suffers the indicated amount of corruption. Thi
 The character is a dark being of pure chaos manifested in the material world. It isn't _incapacitated_ by critical damage, but is vanquished if reduced to 0 health. It's spirit isn't destroyed, but returns to where it came from.
 
 
+* *Dim-witted*.
+The character is unable to learn complex intellectual skills, such as _erudition_, _medicine_, _sorcery_, etc. The GM evaluates which skills aren't allowed.
+
+
 * *Fast*.
 The character moves at double speed.
 
@@ -65,7 +69,7 @@ After suffering critical damage, the character splits into two copies, each one 
 
 
 * *Sturdy*.
-The character doubles carry limit and bulk.
+The character doubles carry limit and bulk. It also consumes twice the usual amount of food and water.
 
 
 * *Terrifying*.
