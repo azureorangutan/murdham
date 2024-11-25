@@ -305,6 +305,7 @@ Its fire breath attack has the _blast_ property, therefore it always inflicts d6
 
 A human attacking a wyrm with a sword (d6 damage) would halve damage: for example, a roll of 3 would only inflict 2 damage.
 A human attacking with a bow (d6 damage, range 8) would halve damage, but would also double the range to 16.
+A human throwing a _fire bomb_ (d6 damage, range 2, blast) would inflict full damage against the wyrm, thanks to the _blast_ property.
 
 {{% /details %}}
 ++++

@@ -120,6 +120,9 @@ include::gen/tb_sacred_powers.adoc[]
 
 include::gen/tb_profane_powers.adoc[]
 
+
+== Description tables
+
 include::gen/tb_appearance.adoc[]
 
 include::gen/tb_personality.adoc[]

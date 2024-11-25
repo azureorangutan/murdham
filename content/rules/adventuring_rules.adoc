@@ -145,12 +145,16 @@ In case a big favour is made, the save is not required.
 Appeal to someone's emotions and pass a WIT save to convince them to do something.
 If the inspiration attempt is particularly effective or the incentives are very generous, the save is not required.
 
+*Encourage*.
+Spend a round to encourage an ally and pass a WIT save to clear their _frightened_ condition.
+
 *Persuade*.
 Provide convincing arguments and pass a WIT save to persuade a character of something they aren't inclined to believe, no matter if the truth or a lie.
 If the arguments are particularly solid and supported by evidence, the save is not required.
 
-*Encourage*.
-Spend a round to encourage an ally and pass a WIT save to clear their _frightened_ condition.
+*Bargain*.
+Attempt to gain a better deal or some additional advantage.
+If the proposed deal is unreasonable, the attempt always fails.
 
 
 == Manipulation
