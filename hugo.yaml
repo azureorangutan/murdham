@@ -68,10 +68,10 @@ menu:
     - name: Resources
       weight: 4
       pageRef: /game_resources
-    - name: Search
-      weight: 10
-      params:
-        type: search
+    # - name: Search
+    #   weight: 10
+    #   params:
+    #     type: search
     - name: Blog
       weight: 20
       url: https://www.azureorangutan.com
@@ -127,12 +127,12 @@ params:
   dateFormat: "January 2, 2006"
 
   search:
-    enable: true
-    type: flexsearch
-    flexsearch:
-      # index page by: content | summary | heading | title
-      index: content
-      tokenize: forward
+    enable: false
+    # type: flexsearch
+    # flexsearch:
+    #   # index page by: content | summary | heading | title
+    #   index: content
+    #   tokenize: strict
 
   editURL:
     enable: false

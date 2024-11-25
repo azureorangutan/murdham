@@ -25,10 +25,10 @@ apothecary: >
   You can craft drugs and medicinal substances, such as _antidotes_, _cures_, _healing draughts_, and _medicine boxes_, using _apothecary tools_.
   Knowledgeable about medicinal ingredients, herbalism, etc.
 bargain: >
+  Proficient at bargaining.
   You purchase items at half price unless the seller also has this skill.
   Conversely, you sell at full price even if the seller has this skill.
   You are able to accurately estimate the value of most items by taking a quick look.
-  You are proficient at persuasion attempts pertaining getting a better deal for something.
 battle frenzy: >
   You can become _frenzied_ by spending a round inciting yourself into a frothing rage, or immediately when you suffer damage.
   The condition lasts until all enemies have been defeated or you spend a round trying to calm yourself and pass a WIT save.
