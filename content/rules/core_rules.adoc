@@ -704,6 +704,7 @@ This can be any activity explicitly described as such, or any activity taking a 
 Characters can pay for lodging to rest in a settlement.
 The cost is 4ʂ for a daily rest, or 64ʂ for a full rest.
 The price includes food, water, a place to sleep, and, in the case of a full rest, medical care and entertainment.
+The cost is halved if characters have their own food and water, or their own place to sleep.
 
 
 == Camping

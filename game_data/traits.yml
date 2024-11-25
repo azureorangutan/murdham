@@ -16,6 +16,9 @@ demon: >
   The character is a dark being of pure chaos manifested in the material world.
   It isn't _incapacitated_ by critical damage, but is vanquished if reduced to 0 health.
   It's spirit isn't destroyed, but returns to where it came from.
+dim-witted: >
+  The character is unable to learn complex intellectual skills, such as _erudition_, _medicine_, _sorcery_, etc.
+  The GM evaluates which skills aren't allowed.
 fast: >
   The character moves at double speed.
 flyer: >
@@ -58,6 +61,7 @@ split: >
   each one with health equal to the remaining amount and STR to match.
 sturdy: >
   The character doubles carry limit and bulk.
+  It also consumes twice the usual amount of food and water.
 terrifying: >
   The character causes terror within range 4.
   They are immune to _frightening_ and _terrifying_ characters.

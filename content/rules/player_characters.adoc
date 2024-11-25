@@ -34,7 +34,7 @@ If you start with sacred or profane _power scrolls_, roll on the <<tb_sacred_pow
 Re-roll if you get the same result as another Player on any table.
 
 . *Secondary properties*.
-You start with health equal to your STR (plus 2 if you have the _tough_ skill), 0 corruption, 0 mana, and 2 omens.
+You start with health equal to your STR (plus 3 if you have the _tough_ skill), 0 corruption, 0 mana, and 2 omens.
 Your armour value depends on your starting items.
 
 . *Name and description*.
