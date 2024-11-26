@@ -6,6 +6,17 @@ next: /rules/gm_guide
 ---
 :toc:
 
+== Profile format
+
+The profile of characters and monsters is provided in the following format:
+
+include::gen/ref_dummy.adoc[]
+
+Size is omitted if medium.
+Health is omitted if equal to STR.
+Mana and omens are omitted if equal to 0.
+
+
 == Folks
 
 All humanoid kins who inhabit the world, besides humans.
@@ -28,7 +39,7 @@ You can build the profile of a reanimated corpse starting from any creature usin
 
 * Lose all skills.
 
-* Acquire the _frightening_ (_terrifying_ if already _frightening_), _immunity (corruption, disease, poison)_, _mindless_, and _undead_ traits.
+* Acquire the _frightening_ (_terrifying_ if already _frightening_), _mindless_, and _undead_ traits.
 
 include::gen/ref_reanimated_corpses.adoc[]
 
@@ -52,7 +63,6 @@ include::gen/ref_monsters.adoc[]
 == Domesticated animals
 
 Animals which have been bred and selected to work with humans.
-They are typically docile and obedient, even though individual animals which have received no training might still be aggressive or distrustful.
 
 include::gen/ref_domesticated_animals.adoc[]
 
@@ -60,6 +70,6 @@ include::gen/ref_domesticated_animals.adoc[]
 == Wild animals
 
 Animals found in the wild.
-They can only act as followers if first tamed by someone with the right skill set.
+They can only act as followers and be trained if first tamed.
 
 include::gen/ref_wild_animals.adoc[]

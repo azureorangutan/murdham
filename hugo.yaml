@@ -126,13 +126,13 @@ params:
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
 
-  search:
-    enable: false
-    # type: flexsearch
-    # flexsearch:
-    #   # index page by: content | summary | heading | title
-    #   index: content
-    #   tokenize: strict
+  # search:
+  #   enable: true
+  #   type: flexsearch
+  #   flexsearch:
+  #     # index page by: content | summary | heading | title
+  #     index: content
+  #     tokenize: strict
 
   editURL:
     enable: false

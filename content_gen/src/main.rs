@@ -176,6 +176,8 @@ struct Character {
     #[serde(default)]
     mana: i8,
     #[serde(default)]
+    omens: i8,
+    #[serde(default)]
     skills: Vec<String>,
     #[serde(default)]
     traits: Vec<Trait>,
@@ -265,7 +267,7 @@ impl ToAsciiDoc for Item {
                     .collect::<Vec<String>>()
                     .join(", "),
             );
-            comps.push(properties);
+            comps.push(format!("{properties}."));
         }
 
         if !self.descr.is_empty() {
@@ -273,7 +275,7 @@ impl ToAsciiDoc for Item {
             comps.push(descr);
         }
 
-        comps.join(".\n")
+        comps.join("\n")
     }
 }
 
@@ -379,34 +381,108 @@ impl ToAsciiDoc for Character {
     fn to_asciidoc(&self) -> String {
         let mut comps = Vec::new();
 
+        // Name and cost.
         let cost_string = match self.cost {
             Some(cost) => format!(" ({}ʂ)", cost),
             None => String::new(),
         };
         comps.push(format!(
-            "*{}*{}",
+            "*{}*{} +\n",
             capitalise(self.name.clone()),
             cost_string
         ));
+
+        // Description.
         if !self.descr.is_empty() {
-            comps.push(self.descr.clone());
+            comps.push(format!("{} +\n", self.descr));
         }
 
-        let mana_str = if self.mana > 0 {
-            format!(", *Mana* {}", self.mana)
-        } else {
-            String::new()
-        };
-        let size_str = if self.size != CharacterSize::Medium {
-            format!(", *Size:* {}", self.size.to_asciidoc())
-        } else {
-            String::new()
-        };
+        // Abilities.
         comps.push(format!(
-            "*STR* {}, *AGI* {}, *WIT* {}{}{}",
-            self.str, self.agi, self.wit, mana_str, size_str
+            "*STR:* {}, *AGI:* {}, *WIT:* {}.",
+            self.str, self.agi, self.wit
         ));
 
+        // Secondary properties.
+        if self.size != CharacterSize::Medium {
+            comps.push(format!("*Size:* {}.", self.size.to_asciidoc()));
+        }
+
+        if let Some(_) = self.skills.iter().find(|x| *x == "tough") {
+            comps.push(format!("*Health:* {}.", self.str + 3));
+        }
+
+        if self.mana > 0 {
+            comps.push(format!("*Mana:* {}.", self.mana));
+        }
+
+        if self.omens > 0 {
+            comps.push(format!("*Omens:* {}.", self.omens));
+        }
+
+        // // Armour value.
+        // let mut armour = 0;
+        // if let Some((_, nat_armour)) = self.natural_armour {
+        //     armour = armour.max(nat_armour);
+        // }
+        // for item in self.items.iter() {
+        //     if item.name == "heavy armour" {
+        //         armour = armour.max(2);
+        //         break;
+        //     }
+        //     if item.name == "light armour" {
+        //         armour = armour.max(1);
+        //         break;
+        //     }
+        // }
+
+        // let shield_str = if self.items.iter().find(|x| x.name == "shield").is_some()
+        // {     format!(" +shield")
+        // } else {
+        //     String::new()
+        // };
+
+        // if armour > 0 || !shield_str.is_empty() {
+        //     comps.push(format!("*Armour:* {}{}.", armour, shield_str));
+        // }
+
+        // Skills and traits.
+        let mut traits = self.traits.clone();
+        if let Some((nat_arm_descr, nat_arm)) = &self.natural_armour {
+            traits.push(Trait {
+                name: String::from("armour"),
+                descr: format!("{nat_arm_descr}, {nat_arm}"),
+            });
+        }
+        for (nat_weapon, stats) in self.natural_weapons.iter() {
+            traits.push(Trait {
+                name: String::from("weapon"),
+                descr: format!("{}, {}", nat_weapon, stats.to_asciidoc()),
+            });
+        }
+        if !traits.is_empty() {
+            comps.push(format!(
+                "*Traits:* {}.",
+                traits
+                    .iter()
+                    .map(|x| { x.to_asciidoc() })
+                    .collect::<Vec<String>>()
+                    .join(", ")
+            ));
+        }
+
+        if !self.skills.is_empty() {
+            comps.push(format!(
+                "*Skills:* {}.",
+                self.skills
+                    .iter()
+                    .map(|x| format!("_{x}_"))
+                    .collect::<Vec<String>>()
+                    .join(", ")
+            ));
+        }
+
+        // Items.
         let money_str = if self.money > 0 {
             format!(", {}ʂ", self.money)
         } else {
@@ -414,7 +490,7 @@ impl ToAsciiDoc for Character {
         };
         if !self.items.is_empty() {
             comps.push(format!(
-                "*Items*: {}{}.",
+                "*Items:* {}{}.",
                 self.items
                     .iter()
                     .map(|x| x.to_asciidoc())
@@ -424,45 +500,12 @@ impl ToAsciiDoc for Character {
             ));
         }
 
-        if let Some((n, av)) = self.natural_armour.clone() {
-            comps.push(format!("*Natural armour*: {n} ({av})."))
-        }
-
-        for (nat_weapon, stats) in self.natural_weapons.iter() {
-            comps.push(format!(
-                "*Natural weapon*: {} ({}).",
-                nat_weapon,
-                stats.to_asciidoc()
-            ))
-        }
-
-        if !self.skills.is_empty() {
-            comps.push(format!(
-                "*Skills*: {}.",
-                self.skills
-                    .iter()
-                    .map(|x| format!("_{x}_"))
-                    .collect::<Vec<String>>()
-                    .join(", ")
-            ));
-        }
-
-        if !self.traits.is_empty() {
-            comps.push(format!(
-                "*Traits*: {}.",
-                self.traits
-                    .iter()
-                    .map(|x| { x.to_asciidoc() })
-                    .collect::<Vec<String>>()
-                    .join(", ")
-            ));
-        }
-
+        // Special rules
         for (n, d) in self.special_traits.iter() {
-            comps.push(format!("*{}*: {}", capitalise(n.to_string()), d));
+            comps.push(format!("+\n*{}*: {}\n", capitalise(n.to_string()), d));
         }
 
-        comps.join(" +\n")
+        comps.join(" ")
     }
 }
 

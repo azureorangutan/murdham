@@ -198,7 +198,7 @@ Price to rent a workshop for a day, for example, to make use of the _alchemy_ or
 
 * *Courier* (*).
 Delivers a message to a recipient.
-The cost is 1ʂ plus 1ʂ per region of distance.
+The cost is 1ʂ per region of distance.
 The cost might be higher through dangerous areas.
 
 * *Funeral* (512ʂ).
@@ -207,5 +207,6 @@ Costs half if the body was recovered.
 
 * *Transportation* (*).
 Transportation via stagecoach, boat, or ship, to a specific destination for a person.
-It costs 4ʂ plus 4ʂ per region of distance.
+It costs is 2ʂ per region of distance.
+This includes a place to sleep, but food must be purchased on top of that (4ʂ per person per day).
 The cost might be higher through dangerous areas.

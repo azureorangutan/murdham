@@ -42,8 +42,6 @@ profane powers:
   descr: >
     Target a character or an item.
     The target is hit by a force blast which works as an attack inflicting d10 damage.
-    If range is enhanced to _sight_, the power behaves as a ranged attack rather than as a typical power with _sight_ range.
-    It can be dodged, and all skills and rules related to ranged attacks apply.
   range: Touch
   duration: Instant
   enhancements:

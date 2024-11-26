@@ -547,7 +547,7 @@ D6: 1) influence; 2) bloody influence; 3) plague; 4) black gangrene; 5) bloodbur
 h|6 <|
 *Skull face*.
 Your face turns into a skull.
-You cause fear within range 4.
+You gain the _frightening_ trait.
 
 h|7 <|
 *Darksight*.
@@ -590,7 +590,7 @@ Your STR and AGI are both permanently reduced by d4, but you are able to bend yo
 h|14 <|
 *Skeleton*.
 Your skin and muscles turn into dust, leaving you as a bloody skeleton surrounding your internal organs.
-Your gain the _undead_ trait, and you cause fear within range 4, but your STR and AGI are permanently reduced by d4.
+You gain the _undead_ and _frightening_ traits, but your STR and AGI are permanently reduced by d4.
 
 h|15 <|
 *Flying head*.

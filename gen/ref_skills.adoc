@@ -65,7 +65,7 @@ Proficient at climbing (you can attempt to climb sheer surfaces, or to sprint or
 
 
 * *Consume alcohol*.
-You are used to drink large amount of ale, wine, and spirits, and can drink most other people under the table. You can consume an _alcoholic drink_ per stretch without risking to become _groggy_. You can instantly recognise if something is wrong with a drink, for example if they have been poisoned.
+You are used to drink large amount of ale, wine, and spirits, and can drink most other people under the table. You can consume an _alcoholic drink_ per stretch without risking to become _groggy_, and you recover 2 health instead of 1 when you do. You can instantly recognise if something is wrong with a drink, for example if they have been poisoned.
 
 
 * *Contortionist*.
@@ -85,7 +85,7 @@ Targets of your disarm attacks can't resist with a STR save unless they also hav
 
 
 * *Disease resistance*.
-After encountering a new disease, you develop an immunity to it. The first time you must still make a STR save to check if you get sick, but afterwards you are completely immune.
+When you become _sick_, immediately make a STR save: on a pass you recover immediately. If you fail, you must make recovery rolls at the end of each day, as per the normal rules.
 
 
 * *Divination*.
