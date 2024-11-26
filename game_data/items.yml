@@ -127,7 +127,7 @@ survival gear:
   properties:
   - Consumable
   descr: >
-    Enough for a daily rest.
+    Enough to drink for a daily rest.
 - name: alcoholic drink
   value: 4
   bulk: 0
@@ -199,7 +199,7 @@ healing:
   properties:
   - Consumable
   descr: >
-    Take it before a recovery roll to pass.
+    Take it while _sick_ to automatically pass a recovery roll.
     1:4 chance it doesn't work.
 - name: medicinal herbs
   value: 16
@@ -207,8 +207,8 @@ healing:
   properties:
   - Consumable
   descr: >
-    If you have the _apothecary_ skill, consume to craft a _medicine box_, _antidote_, or _cure_ in a single round using _apothecary tools_ by passing a WIT save.
-    On a fail, the _medicinal herbs_ are wasted.
+    If you have the _craft medicine_ skill, you can consume them to craft a _medicine box_, _antidote_, or _cure_ in a single round using _apothecary tools_.
+    You must pass a WIT save to succeed, or the _medicinal herbs_ are wasted.
 - name: apothecary tools
   value: 16
   bulk: 2

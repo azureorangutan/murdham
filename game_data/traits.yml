@@ -2,6 +2,10 @@ addicted: >
   The character is addicted to a specific substance.
   On a daily rest, they must consume it or temporarily reduce WIT by 1.
   On a full rest, they must consume 4 units of it or temporarily reduce WIT by 1 for each missing unit after the rest.
+armour: >
+  The character is protected by some form of natural armour, such as thick hide, scales, a shell, etc.
+  This provides the indicated armour value.
+  However, it doesn't stack with worn armour: only use the higher value.
 beast: >
   The character has animal-level intelligence and mostly behaves according to instinct.
 # construct: >
@@ -16,6 +20,7 @@ demon: >
   The character is a dark being of pure chaos manifested in the material world.
   It isn't _incapacitated_ by critical damage, but is vanquished if reduced to 0 health.
   It's spirit isn't destroyed, but returns to where it came from.
+  Demons are immune to corruption, disease, and poison.
 dim-witted: >
   The character is unable to learn complex intellectual skills, such as _erudition_, _medicine_, _sorcery_, etc.
   The GM evaluates which skills aren't allowed.
@@ -69,3 +74,6 @@ undead: >
   The character is neither alive nor dead.
   It doesn't need to eat, drink, sleep, breathe, or rest.
   It isn't _incapacitated_ by critical damage, but is destroyed if reduced to 0 health.
+  The undead are immune to corruption, disease, and poison.
+weapon: >
+  The character has a deadly natural weapon which can be used to attack, such as claws, fangs, fire-breath, etc.

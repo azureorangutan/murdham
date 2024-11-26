@@ -1,0 +1,22 @@
+= Changelog
+
+== 2024.11.06
+
+* _Consume alcohol_ skill: it now lets you recover 2 health from an _alcoholic drink_.
+
+* Removed a reference to the _apothecary_ skill in the _medicinal herbs_ description.
+
+* Reduced the suggested cost for the transportation service.
+
+* Simplified disease rules, and updated the _disease resistance_ skill to match.
+
+* Slight tweak to magic rules: _sight_ powers are now always handled as ranged attacks.
+This removes a few fiddly rules and corner cases.
+
+* Reduced the space taken by entries in the bestiary.
+
+* Included immunities into the _demon_ and _undead_ traits.
+
+* Added the _weapon_ and _armour_ traits.
+
+* General text and formatting improvements.

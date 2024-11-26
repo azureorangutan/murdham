@@ -1,3 +1,26 @@
+dummy:
+- name: Name
+  descr: Description.
+  size: Small
+  str: 6
+  agi: 8
+  wit: 10
+  mana: 1
+  omens: 1
+  skills:
+  - skilled blow
+  - tough
+  traits:
+  - name: undead
+  - name: flyer
+    descr: swooping
+  items:
+  - name: simple hand weapon
+    descr: dagger
+  - name: shield
+  special_traits:
+    special trait: details.
+
 demons:
 - name: The Bloodletter
   descr: A large horned man brandishing a giant sword, his skin constantly exuding fresh blood. Collects the skulls of slain mortals.
@@ -11,8 +34,6 @@ demons:
   traits:
   - name: demon
   - name: frightening
-  - name: immunity
-    descr: corruption, disease, poison
   - name: permanent condition
     descr: frenzied
   items:
@@ -29,8 +50,6 @@ demons:
   - music
   traits:
   - name: demon
-  - name: immunity
-    descr: corruption, disease, poison
   - name: power
     descr: bewitch -- 4 EP
   natural_weapons:
@@ -52,8 +71,6 @@ demons:
     descr: 2
   - name: demon
   - name: frightening
-  - name: immunity
-    descr: corruption, disease, poison
   - name: split
   natural_weapons:
   - - claws
@@ -74,11 +91,9 @@ demons:
   traits:
   - name: demon
   - name: frightening
-  - name: immunity
-    descr: corruption, disease, poison
   natural_armour:
   - bloated flesh
-  - 2
+  - 1
   items:
   - name: clothes
     descr: filthy hooded cloak
@@ -244,6 +259,8 @@ domesticated animals:
   str: 4
   agi: 4
   wit: 8
+  traits:
+  - name: beast
   natural_weapons:
   - - bite
     - damage: D4
@@ -292,6 +309,8 @@ domesticated animals:
   str: 4
   agi: 4
   wit: 8
+  traits:
+  - name: beast
   natural_weapons:
   - - hooves
     - damage: D4
@@ -340,6 +359,7 @@ monsters:
   agi: 4
   wit: 4
   traits:
+  - name: dim-witted
   - name: frightening
   - name: regeneration
   natural_armour:
@@ -382,8 +402,6 @@ reanimated corpses:
   traits:
   - name: fast
   - name: frightening
-  - name: immunity
-    descr: corruption, disease, poison
   - name: mindless
   - name: flyer
     descr: swooping
@@ -399,8 +417,6 @@ reanimated corpses:
   wit: 2
   traits:
   - name: frightening
-  - name: immunity
-    descr: corruption, disease, poison
   - name: mindless
   - name: undead
 - name: skeletal warrior
@@ -411,8 +427,6 @@ reanimated corpses:
   wit: 2
   traits:
   - name: frightening
-  - name: immunity
-    descr: corruption, disease, poison
   - name: mindless
   - name: undead
   items:
@@ -426,6 +440,8 @@ wild animals:
   str: 12
   agi: 4
   wit: 8
+  traits:
+  - name: beast
   natural_armour:
   - thick scales
   - 1
@@ -620,6 +636,8 @@ wild animals:
   str: 4
   agi: 8
   wit: 8
+  traits:
+  - name: beast
   natural_weapons:
   - - bite
     - damage: D4

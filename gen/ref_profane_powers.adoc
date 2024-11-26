@@ -25,7 +25,7 @@ Target a creature of human intelligence. Name a person they know and remind them
 
 * *Eldritch blast*.
 _Touch_, _instant_.
-Target a character or an item. The target is hit by a force blast which works as an attack inflicting d10 damage. If range is enhanced to _sight_, the power behaves as a ranged attack rather than as a typical power with _sight_ range. It can be dodged, and all skills and rules related to ranged attacks apply.
+Target a character or an item. The target is hit by a force blast which works as an attack inflicting d10 damage.
 
 ** 1 EP -- The power inflicts fire, lightning, cold, or heat damage.
 ** 1 EP -- The attack gains the _blast_ property.

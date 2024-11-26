@@ -60,7 +60,7 @@ climb: >
   Your attacks aren't impaired while climbing.
 consume alcohol: >
   You are used to drink large amount of ale, wine, and spirits, and can drink most other people under the table.
-  You can consume an _alcoholic drink_ per stretch without risking to become _groggy_.
+  You can consume an _alcoholic drink_ per stretch without risking to become _groggy_, and you recover 2 health instead of 1 when you do.
   You can instantly recognise if something is wrong with a drink, for example if they have been poisoned.
 contortionist: >
   Your joints are extremely flexible and you can bend your body in absurd shapes.
@@ -81,8 +81,8 @@ disarm: >
   Targets of your disarm attacks can't resist with a STR save unless they also have this skill.
   You can only be disarmed by characters with this skill.
 disease resistance: >
-  After encountering a new disease, you develop an immunity to it.
-  The first time you must still make a STR save to check if you get sick, but afterwards you are completely immune.
+  When you become _sick_, immediately make a STR save: on a pass you recover immediately.
+  If you fail, you must make recovery rolls at the end of each day, as per the normal rules.
 divination: >
   If you have _divination tools_, you can spend an omen and a stretch of time to ask a question pertaining your current situation.
   The GM describes a vision giving you a cryptic answer.
