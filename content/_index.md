@@ -18,7 +18,7 @@ layout: hextra-home
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-  An adventure game of perilous adventures in a fantasy world,&nbsp;<br class="sm:hx-block hx-hidden" /> combining the atmosphere of old school British tabletop games&nbsp;<br class="sm:hx-block hx-hidden" /> with light and streamlined rules.
+  Agame of perilous adventures in a fantasy world,&nbsp;<br class="sm:hx-block hx-hidden" /> combining the atmosphere of old school British tabletop games&nbsp;<br class="sm:hx-block hx-hidden" /> with light and streamlined rules.
 {{< /hextra/hero-subtitle >}}
 </div>
 
