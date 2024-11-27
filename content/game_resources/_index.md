@@ -1,5 +1,5 @@
 ---
-title: Murdham Resources
+title: Game Resources
 ---
 
 {{< hextra/feature-grid >}}

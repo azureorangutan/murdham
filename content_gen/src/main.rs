@@ -1,7 +1,13 @@
 use convert_case::{Case, Casing};
 use regex::Regex;
 use serde::{Deserialize, Serialize};
-use std::{collections::BTreeMap, error::Error, fs::File, io::Write, path::Path};
+use std::{
+    collections::BTreeMap,
+    error::Error,
+    fs::{read_to_string, File},
+    io::Write,
+    path::Path,
+};
 
 fn capitalise_second(mut s: String) -> String {
     if let Some(r) = s.get_mut(1..2) {
@@ -152,8 +158,8 @@ struct Trait {
     descr: String,
 }
 
-impl ToAsciiDoc for Trait {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for Trait {
+    fn markdownify(&self) -> String {
         if self.descr.is_empty() {
             format!("_{}_", self.name)
         } else {
@@ -193,12 +199,12 @@ struct Character {
     money: i32,
 }
 
-trait ToAsciiDoc {
-    fn to_asciidoc(&self) -> String;
+trait Markdownify {
+    fn markdownify(&self) -> String;
 }
 
-impl ToAsciiDoc for Die {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for Die {
+    fn markdownify(&self) -> String {
         match self {
             Self::D4 => "d4".to_string(),
             Self::D6 => "d6".to_string(),
@@ -209,8 +215,8 @@ impl ToAsciiDoc for Die {
     }
 }
 
-impl ToAsciiDoc for AttackProperty {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for AttackProperty {
+    fn markdownify(&self) -> String {
         match self {
             Self::Range(x) => format!("range {x}"),
             Self::RangeWithMin(x, y) => format!("range {x}--{y}"),
@@ -221,33 +227,33 @@ impl ToAsciiDoc for AttackProperty {
     }
 }
 
-impl ToAsciiDoc for Weapon {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for Weapon {
+    fn markdownify(&self) -> String {
         let mut comps = Vec::new();
         if let Some(die) = self.damage {
-            comps.push(die.to_asciidoc());
+            comps.push(die.markdownify());
         }
         for property in self.properties.iter() {
-            comps.push(property.to_asciidoc())
+            comps.push(property.markdownify())
         }
         comps.join(", ")
     }
 }
 
-impl ToAsciiDoc for ItemProperty {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for ItemProperty {
+    fn markdownify(&self) -> String {
         match self {
             Self::Armour(x) => format!("armour {x}"),
             Self::Health(x, y) => format!("health {x}/{y}"),
             Self::Vehicle(x) => format!("vehicle {x}"),
-            Self::Weapon(x) => format!("weapon ({})", x.to_asciidoc()),
+            Self::Weapon(x) => format!("weapon ({})", x.markdownify()),
             _ => format!("{:?}", self).to_case(Case::Lower),
         }
     }
 }
 
-impl ToAsciiDoc for Item {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for Item {
+    fn markdownify(&self) -> String {
         let mut comps = Vec::new();
 
         let name = capitalise(self.name.clone());
@@ -257,13 +263,13 @@ impl ToAsciiDoc for Item {
             x => format!(", bulk {x}"),
         };
         let cost_and_bulk = format!("{}ʂ{}", self.value, bulk);
-        comps.push(format!("*{name}* ({cost_and_bulk})"));
+        comps.push(format!("**{name}** ({cost_and_bulk})."));
 
         if !self.properties.is_empty() {
             let properties = capitalise(
                 self.properties
                     .iter()
-                    .map(|x| format!("_{}_", x.to_asciidoc()))
+                    .map(|x| format!("_{}_", x.markdownify()))
                     .collect::<Vec<String>>()
                     .join(", "),
             );
@@ -279,8 +285,8 @@ impl ToAsciiDoc for Item {
     }
 }
 
-impl ToAsciiDoc for AssetWithDescr {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for AssetWithDescr {
+    fn markdownify(&self) -> String {
         let mut ans = self.name.clone();
         if !self.descr.is_empty() {
             ans += &format!(" ({})", self.descr);
@@ -289,43 +295,43 @@ impl ToAsciiDoc for AssetWithDescr {
     }
 }
 
-impl ToAsciiDoc for PowerDuration {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for PowerDuration {
+    fn markdownify(&self) -> String {
         format!("{:?}", self).to_case(Case::Lower)
     }
 }
 
-impl ToAsciiDoc for PowerRange {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for PowerRange {
+    fn markdownify(&self) -> String {
         format!("{:?}", self).to_case(Case::Lower)
     }
 }
 
-impl ToAsciiDoc for Power {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for Power {
+    fn markdownify(&self) -> String {
         let mut comps = Vec::new();
-        comps.push(format!("*{}*.", capitalise(self.name.clone())));
+        comps.push(format!("**{}**.", capitalise(self.name.clone())));
         comps.push(format!(
             "_{}_, _{}_.",
-            capitalise(self.range.to_asciidoc()),
-            self.duration.to_asciidoc()
+            capitalise(self.range.markdownify()),
+            self.duration.markdownify()
         ));
         comps.push(self.descr.clone());
         for enhancement in self.enhancements.iter() {
-            comps.push(format!("** {} EP -- {}", enhancement.0, enhancement.1));
+            comps.push(format!("    * {} EP -- {}", enhancement.0, enhancement.1));
         }
         comps.join("\n")
     }
 }
 
-impl ToAsciiDoc for Career {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for Career {
+    fn markdownify(&self) -> String {
         let mut comps = Vec::new();
 
         comps.push(format!("{}", self.descr));
 
         comps.push(format!(
-            "*Skills*: {}.",
+            "**Skills**: {}.",
             self.skills
                 .iter()
                 .map(|x| format!("_{x}_"))
@@ -341,14 +347,14 @@ impl ToAsciiDoc for Career {
 
         let item_map = count_map(&self.items);
         comps.push(format!(
-            "*Items*: {}{}.",
+            "**Items**: {}{}.",
             item_map
                 .iter()
                 .map(|(x, c)| {
                     if *c > 1 {
-                        format!("{}× {}", c, x.to_asciidoc())
+                        format!("{}× {}", c, x.markdownify())
                     } else {
-                        x.to_asciidoc()
+                        x.markdownify()
                     }
                 })
                 .collect::<Vec<String>>()
@@ -358,27 +364,27 @@ impl ToAsciiDoc for Career {
 
         if !self.followers.is_empty() {
             comps.push(format!(
-                "*Followers*: {}.",
+                "**Followers**: {}.",
                 self.followers
                     .iter()
-                    .map(|x| x.to_asciidoc())
+                    .map(|x| x.markdownify())
                     .collect::<Vec<String>>()
                     .join(", ")
             ));
         }
 
-        comps.join(" +\n")
+        comps.join("\\\n")
     }
 }
 
-impl ToAsciiDoc for CharacterSize {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for CharacterSize {
+    fn markdownify(&self) -> String {
         format!("{:?}", self).to_case(Case::Lower)
     }
 }
 
-impl ToAsciiDoc for Character {
-    fn to_asciidoc(&self) -> String {
+impl Markdownify for Character {
+    fn markdownify(&self) -> String {
         let mut comps = Vec::new();
 
         // Name and cost.
@@ -387,37 +393,32 @@ impl ToAsciiDoc for Character {
             None => String::new(),
         };
         comps.push(format!(
-            "*{}*{} +\n",
+            "**{}**{}.",
             capitalise(self.name.clone()),
             cost_string
         ));
 
-        // Description.
-        if !self.descr.is_empty() {
-            comps.push(format!("{} +\n", self.descr));
-        }
-
         // Abilities.
         comps.push(format!(
-            "*STR:* {}, *AGI:* {}, *WIT:* {}.",
+            "**STR:** {}, **AGI:** {}, **WIT:** {}.",
             self.str, self.agi, self.wit
         ));
 
         // Secondary properties.
         if self.size != CharacterSize::Medium {
-            comps.push(format!("*Size:* {}.", self.size.to_asciidoc()));
+            comps.push(format!("**Size:** {}.", self.size.markdownify()));
         }
 
         if let Some(_) = self.skills.iter().find(|x| *x == "tough") {
-            comps.push(format!("*Health:* {}.", self.str + 3));
+            comps.push(format!("**Health:** {}.", self.str + 3));
         }
 
         if self.mana > 0 {
-            comps.push(format!("*Mana:* {}.", self.mana));
+            comps.push(format!("**Mana:** {}.", self.mana));
         }
 
         if self.omens > 0 {
-            comps.push(format!("*Omens:* {}.", self.omens));
+            comps.push(format!("**Omens:** {}.", self.omens));
         }
 
         // // Armour value.
@@ -457,15 +458,15 @@ impl ToAsciiDoc for Character {
         for (nat_weapon, stats) in self.natural_weapons.iter() {
             traits.push(Trait {
                 name: String::from("weapon"),
-                descr: format!("{}, {}", nat_weapon, stats.to_asciidoc()),
+                descr: format!("{}, {}", nat_weapon, stats.markdownify()),
             });
         }
         if !traits.is_empty() {
             comps.push(format!(
-                "*Traits:* {}.",
+                "**Traits:** {}.",
                 traits
                     .iter()
-                    .map(|x| { x.to_asciidoc() })
+                    .map(|x| { x.markdownify() })
                     .collect::<Vec<String>>()
                     .join(", ")
             ));
@@ -473,7 +474,7 @@ impl ToAsciiDoc for Character {
 
         if !self.skills.is_empty() {
             comps.push(format!(
-                "*Skills:* {}.",
+                "**Skills:** {}.",
                 self.skills
                     .iter()
                     .map(|x| format!("_{x}_"))
@@ -490,10 +491,10 @@ impl ToAsciiDoc for Character {
         };
         if !self.items.is_empty() {
             comps.push(format!(
-                "*Items:* {}{}.",
+                "**Items:** {}{}.",
                 self.items
                     .iter()
-                    .map(|x| x.to_asciidoc())
+                    .map(|x| x.markdownify())
                     .collect::<Vec<String>>()
                     .join(", "),
                 money_str
@@ -502,7 +503,14 @@ impl ToAsciiDoc for Character {
 
         // Special rules
         for (n, d) in self.special_traits.iter() {
-            comps.push(format!("+\n*{}*: {}\n", capitalise(n.to_string()), d));
+            comps.push(format!("\\\n**{}:** {}", capitalise(n.to_string()), d));
+        }
+
+        // Description.
+        if !self.descr.is_empty() {
+            let descr = self.descr.clone().replace("\n", " ");
+            let descr = descr.trim();
+            comps.push(format!("\\\n_{}_\n", descr));
         }
 
         comps.join(" ")
@@ -517,34 +525,30 @@ fn gen_double_die_table(
 ) -> std::io::Result<()> {
     assert!(columns > 1);
     let tag = format!("tb_{}", title.to_case(Case::Snake));
-    let mut file = File::create(dir.join(format!("{tag}.adoc")))?;
+    let mut file = File::create(dir.join(format!("{tag}.md")))?;
 
     let die_size = items.len() / columns;
-    let column_size = 14 / columns;
 
-    writeln!(&mut file, ".{title}")?;
-    writeln!(&mut file, "[[{tag}]]")?;
-    writeln!(
-        &mut file,
-        r#"[options='header, unbreakable', cols="^1h,{}"]"#,
-        vec![format!("^{column_size}"); columns].join(",")
-    )?;
-    writeln!(&mut file, "|===")?;
-
-    writeln!(&mut file, "h|  {columns}+h|D{columns}")?;
-    writeln!(&mut file, "h|D{die_size}")?;
+    write!(&mut file, "|D{die_size}\\D{columns}|")?;
     for i in 1..=columns {
-        write!(&mut file, " h|{i}")?;
+        write!(&mut file, "{i}|")?;
     }
     write!(&mut file, "\n")?;
 
+    for _ in 1..=(columns + 1) {
+        write!(&mut file, "|:-:")?;
+    }
+    write!(&mut file, "|\n")?;
+
     for (i, x) in items.iter().enumerate() {
         if i % columns == 0 {
-            writeln!(&mut file, "|{}", i / columns + 1)?;
+            write!(&mut file, "|{}", i / columns + 1)?;
         }
-        writeln!(&mut file, "|{}", capitalise(x.clone()))?;
+        write!(&mut file, "|{}", capitalise(x.clone()))?;
+        if i % columns == (columns - 1) {
+            write!(&mut file, "|\n")?;
+        }
     }
-    writeln!(&mut file, "|===")?;
     Ok(())
 }
 
@@ -555,12 +559,10 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
         let items: BTreeMap<String, Vec<Item>> =
             serde_yaml::from_reader(File::open("../game_data/items.yml")?)?;
         for (category, items) in items {
-            let filename = format!("ref_{}.adoc", category.to_case(Case::Snake));
+            let filename = format!("ref_{}.md", category.to_case(Case::Snake));
             let mut f = File::create(base_path.join(filename))?;
-            let header = capitalise(category);
-            writeln!(f, "== {header}\n")?;
             for item in items {
-                writeln!(f, "* {}\n", item.to_asciidoc())?;
+                writeln!(f, "* {}\n", item.markdownify())?;
             }
         }
     }
@@ -569,10 +571,10 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
         let characters: BTreeMap<String, Vec<Character>> =
             serde_yaml::from_reader(File::open("../game_data/characters.yml")?)?;
         for (category, characters) in characters {
-            let filename = format!("ref_{}.adoc", category.to_case(Case::Snake));
+            let filename = format!("ref_{}.md", category.to_case(Case::Snake));
             let mut f = File::create(base_path.join(filename))?;
             for character in characters {
-                writeln!(f, "{}\n", character.to_asciidoc())?;
+                writeln!(f, "{}\n", character.markdownify())?;
             }
         }
     }
@@ -586,17 +588,17 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
             .map(|x| x.male_name.clone())
             .collect::<Vec<String>>();
 
-        let mut f = File::create(base_path.join("ref_careers.adoc"))?;
+        let mut f = File::create(base_path.join("ref_careers.md"))?;
         for career in careers {
             writeln!(
                 f,
-                "== {}\n\n{}\n",
+                "## {}\n\n{}\n",
                 capitalise(career.male_name.clone()),
-                career.to_asciidoc()
+                career.markdownify()
             )?;
         }
 
-        gen_double_die_table(&base_path, "careers", &career_names, 4)?;
+        gen_double_die_table(&base_path, "Careers", &career_names, 4)?;
     }
 
     {
@@ -611,44 +613,40 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
                 .map(|x| x.name.clone())
                 .collect::<Vec<String>>();
 
-            let filename = format!("ref_{}.adoc", category.to_case(Case::Snake));
+            let filename = format!("ref_{}.md", category.to_case(Case::Snake));
             let mut f = File::create(base_path.join(filename))?;
-            writeln!(f, "== {header}\n")?;
             for power in powers {
-                writeln!(f, "* {}\n", power.to_asciidoc())?;
+                writeln!(f, "* {}\n", power.markdownify())?;
             }
 
-            gen_double_die_table(&base_path, &header, &power_names, 2)?;
+            gen_double_die_table(&base_path, &header, &power_names, power_names.len() / 6)?;
         }
     }
 
     {
         let skills: BTreeMap<String, String> =
             serde_yaml::from_reader(File::open("../game_data/skills.yml")?)?;
-        let mut f = File::create(base_path.join("ref_skills.adoc"))?;
-        writeln!(f, "== Skills\n")?;
+        let mut f = File::create(base_path.join("ref_skills.md"))?;
         for (name, descr) in skills {
-            writeln!(f, "* *{}*.\n{}\n", capitalise(name), descr)?;
+            writeln!(f, "* **{}**.\n{}\n", capitalise(name), descr)?;
         }
     }
 
     {
         let traits: BTreeMap<String, String> =
             serde_yaml::from_reader(File::open("../game_data/traits.yml")?)?;
-        let mut f = File::create(base_path.join("ref_traits.adoc"))?;
-        writeln!(f, "== Traits\n")?;
+        let mut f = File::create(base_path.join("ref_traits.md"))?;
         for (name, descr) in traits {
-            writeln!(f, "* *{}*.\n{}\n", capitalise(name), descr)?;
+            writeln!(f, "* **{}**.\n{}\n", capitalise(name), descr)?;
         }
     }
 
     {
         let conditions: BTreeMap<String, String> =
             serde_yaml::from_reader(File::open("../game_data/conditions.yml")?)?;
-        let mut f = File::create(base_path.join("ref_conditions.adoc"))?;
-        writeln!(f, "== Conditions\n")?;
+        let mut f = File::create(base_path.join("ref_conditions.md"))?;
         for (name, descr) in conditions {
-            writeln!(f, "* *{}*.\n{}\n", capitalise(name), descr)?;
+            writeln!(f, "* **{}**.\n{}\n", capitalise(name), descr)?;
         }
     }
 
@@ -673,7 +671,7 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
                 .iter()
                 .map(|x| {
                     let mut comps = Vec::new();
-                    comps.push(x.0.to_asciidoc());
+                    comps.push(x.0.markdownify());
                     if x.1 > 0 {
                         comps.push(format!("{}ʂ", x.1));
                     }
@@ -689,10 +687,7 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
 
 fn process_keywords_for_js(mut s: String) -> String {
     let re = Regex::new(r"_(?<s>[^_]*)_").unwrap();
-    re.replace_all(&mut s, r"<i>${s}</i>")
-        .to_string()
-        .replace("'`", "'")
-        .replace("`'", "'")
+    re.replace_all(&mut s, r"<i>${s}</i>").to_string()
 }
 
 pub fn generate_javascript() -> Result<(), Box<dyn Error>> {
@@ -724,12 +719,12 @@ pub fn generate_javascript() -> Result<(), Box<dyn Error>> {
                         panic!("Unsupported scroll type");
                     }
                 } else {
-                    items.push(item.to_asciidoc())
+                    items.push(item.markdownify())
                 }
             }
 
             for follower in career.followers {
-                followers.push(follower.to_asciidoc())
+                followers.push(follower.markdownify())
             }
 
             writeln!(f, "  {{")?;
@@ -787,7 +782,7 @@ pub fn generate_javascript() -> Result<(), Box<dyn Error>> {
                 writeln!(
                     f,
                     "  [\"{}\", {}],",
-                    process_keywords_for_js(item.to_asciidoc()),
+                    process_keywords_for_js(item.markdownify()),
                     money
                 )?;
             }
@@ -837,6 +832,23 @@ pub fn generate_javascript() -> Result<(), Box<dyn Error>> {
 fn main() -> Result<(), Box<dyn Error>> {
     generate_rules()?;
     generate_javascript()?;
+
+    // The following hack is necessary to correctly generate the search index in the
+    // careers chapter.
+    let content_path = Path::new("../content/rules/careers.md");
+    let mut content_file = File::create(content_path)?;
+    writeln!(&content_file, "---")?;
+    writeln!(&content_file, "title: Careers")?;
+    writeln!(&content_file, "weight: 40")?;
+    writeln!(&content_file, "prev: /rules/player_characters")?;
+    writeln!(&content_file, "next: /rules/skills_traits_and_conditions")?;
+    writeln!(&content_file, "---")?;
+    writeln!(&content_file, "")?;
+
+    let gen_path = Path::new("../gen/ref_careers.md");
+    let gen_content = read_to_string(gen_path)?;
+    content_file.write_all(gen_content.as_bytes())?;
+
     Ok(())
 }
 
