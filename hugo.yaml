@@ -14,7 +14,6 @@ security:
     - ^go$
     - ^npx$
     - ^postcss$
-    - ^asciidoctor$
     osEnv:
     - (?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$
   funcs:
@@ -34,18 +33,6 @@ markup:
       unsafe: true
   highlight:
     noClasses: false
-  asciidocExt:
-    attributes: {}
-    backend: html5
-    extensions: []
-    failureLevel: fatal
-    noHeaderOrFooter: true
-    preserveTOC: false
-    safeMode: unsafe
-    sectionNumbers: false
-    trace: false
-    verbose: false
-    workingFolderCurrent: false
 
 module:
   imports:
@@ -68,27 +55,27 @@ menu:
     - name: Resources
       weight: 4
       pageRef: /game_resources
-    # - name: Search
-    #   weight: 10
-    #   params:
-    #     type: search
+    - name: Search
+      weight: 10
+      params:
+        type: search
     - name: Blog
-      weight: 20
+      weight: 50
       url: https://www.azureorangutan.com
       params:
         icon: orangutan
     - name: Discord
-      weight: 25
+      weight: 40
       url: https://discord.gg/58Kbfb2YwX
       params:
         icon: discord
     - name: GitHub
-      weight: 30
+      weight: 20
       url: https://github.com/azureorangutan/murdham
       params:
         icon: github
     - name: Itch.io
-      weight: 35
+      weight: 30
       url: https://azureorangutan.itch.io/murdham
       params:
         icon: itch
@@ -96,22 +83,21 @@ menu:
 
 params:
   description: >
-    A role-playing game of perilous adventures in a fantasy world,
-    combining the atmosphere of old school British role-playing games with light and streamlined rules.
+    An adventure game of perilous adventures in a fantasy world,
+    combining the atmosphere of old school British tabletop games with light and streamlined rules.
 
   theme:
     default: dark
     displayToggle: true
 
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
       path: favicon.svg
       dark: favicon-dark.svg
       width: 20
       height: 20
-      # link: /
     width: wide
 
   page:
@@ -120,19 +106,19 @@ params:
   footer:
     enable: true
     displayCopyright: true
-    displayPoweredBy: true
+    displayPoweredBy: false
     width: normal
 
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
 
-  # search:
-  #   enable: true
-  #   type: flexsearch
-  #   flexsearch:
-  #     # index page by: content | summary | heading | title
-  #     index: content
-  #     tokenize: strict
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      tokenize: forward
 
   editURL:
     enable: false

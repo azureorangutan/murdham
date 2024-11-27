@@ -47,7 +47,7 @@ immunity: >
 #   Thy can walk through thin barriers, such as doors.
 mindless: >
   The character has no actual intelligence, such as an automaton or a flesh puppet.
-  Behaves in a very restricted way, following some sort of '`programming`'.
+  Behaves in a very restricted way, following some sort of programming.
   Is immune to mind control, fear, terror, and other mental effects.
 mutation: >
   The character has the mutations listed after the trait.

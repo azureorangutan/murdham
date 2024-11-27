@@ -1,6 +1,0 @@
-= Murdham
-:nofooter:
-
-A role-playing game of perilous adventures in a fantasy world, combining the atmosphere of old school British role-playing games with light and streamlined rules.
-
-link:https://murdham.azureorangutan.com[Link to the website]

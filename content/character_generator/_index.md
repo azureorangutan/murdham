@@ -1,5 +1,5 @@
 ---
-title: Murdham Character Generator
+title: Character Generator
 ---
 
 {{< chargen >}}

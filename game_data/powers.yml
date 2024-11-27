@@ -93,7 +93,7 @@ profane powers:
   duration: Stretch
 - name: illusion
   descr: >
-    Target a small zone.
+    Target a zone.
     You can create an illusion within its boundaries, which can affect sight, hearing, and smell, but not touch.
     While you are within range, you can concentrate on the illusion to change it or animate it.
     While you aren't concentrating, the illusion remains frozen in the state you left it, and only disappears when the power ends.
@@ -125,7 +125,7 @@ profane powers:
     - Improve to _flyer (hoverer)_.
 - name: miasma of chaos
   descr: >
-    Target a small zone.
+    Target a zone.
     The zone is filled with red mist flowing from the ground.
     Characters entering or starting their turn in the affected area suffer 1 corruption.
     The mist blocks visibility.
@@ -301,7 +301,7 @@ sacred powers:
   duration: Instant
 - name: rite of warding
   descr: >
-    Target a small zone.
+    Target a zone.
     The targeted zone and all those within range 1 are enveloped in an anti-magic field.
     Within the area, profane powers have no effect and demons and undead suffer d4 direct damage per round.
   range: Touch

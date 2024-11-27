@@ -252,7 +252,7 @@ poison:
   - Consumable
   descr: >
     Ingested soporific poison (_incapacitated_ until the end of the watch or until damaged).
-- name: powdered heavenstone
+- name: powdered skystone
   value: 16
   bulk: 0
   properties:

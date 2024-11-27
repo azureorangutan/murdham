@@ -1,9 +1,0 @@
----
-title: Careers
-weight: 40
-prev: /rules/player_characters
-next: /rules/skills_traits_and_conditions
----
-:toc:
-
-include::gen/ref_careers.adoc[]

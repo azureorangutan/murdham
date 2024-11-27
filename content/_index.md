@@ -18,7 +18,7 @@ layout: hextra-home
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-  A role-playing game of perilous adventures in a fantasy world,&nbsp;<br class="sm:hx-block hx-hidden" /> combining the atmosphere of old school British role-playing games&nbsp;<br class="sm:hx-block hx-hidden" /> with light and streamlined rules.
+  An adventure game of perilous adventures in a fantasy world,&nbsp;<br class="sm:hx-block hx-hidden" /> combining the atmosphere of old school British tabletop games&nbsp;<br class="sm:hx-block hx-hidden" /> with light and streamlined rules.
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -34,7 +34,7 @@ layout: hextra-home
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Old-School Roleplay"
+    title="Old-School Adventures"
     subtitle="The game relies on the Game Master to adjudicate the outcome of the Players' actions, using the rules as a toolbox. The Players must use their ingenuity and take advantage of their skills and gear to overcome the challenges they meet."
   >}}
   {{< hextra/feature-card
@@ -59,11 +59,11 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Fast action resolution"
-    subtitle="Just roll a d20 under an ability score. No modifiers, target numbers, or dice pools. Difficulty just comes in three steps: trivial (no roll, you just do it), challenging (roll to succeed), impossible (you just can’t do it)."
+    subtitle="Just roll a d20 under an ability score. No modifiers, target numbers, or dice pools. Difficulty just comes in three steps: trivial (no roll, you just do it), challenging (roll to determine the outcome), impossible (you just can’t do it)."
   >}}
   {{< hextra/feature-card
     title="Lightweight skill system"
-    subtitle="Skills are keywords: a character either has them or not. They provide significant advantages, such as the ability to invoke magic powers or to pass certain actions without rolling."
+    subtitle="Skills are keywords: a character either has them or not. They provide significant advantages, such as the ability to invoke magic powers or to perform certain actions successfully without rolling."
   >}}
   {{< hextra/feature-card
     title="Streamlined gear system"
