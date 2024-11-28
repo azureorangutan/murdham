@@ -55,6 +55,9 @@ menu:
     - name: Resources
       weight: 4
       pageRef: /game_resources
+    - name: Scenarios
+      weight: 5
+      pageRef: /scenarios
     - name: Search
       weight: 10
       params:

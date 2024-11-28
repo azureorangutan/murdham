@@ -23,9 +23,10 @@ layout: hextra-home
 </div>
 
   {{< cards >}}
-    {{< card link="rules" title="Rules" icon="document-duplicate" >}}
+    {{< card link="rules" title="Rules" icon="book-open" >}}
     {{< card link="character_generator" title="Character generator" icon="user-group" >}}
     {{< card link="game_resources" title="Resources" icon="cloud-download" >}}
+    {{< card link="scenarios" title="Scenarios" icon="bookmark-alt" >}}
   {{< /cards >}}
 
 {{< /hextra/hero-container >}}
