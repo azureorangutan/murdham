@@ -1,0 +1,68 @@
+- name: martial hand weapon
+- name: missile hand weapon
+- name: handgun
+- name: mancatcher
+- name: net
+- name: acid vial
+- name: blessed water
+- name: fire bomb
+- name: flash powder
+- name: oil flask
+- name: smoke bomb
+
+- name: warm clothes
+- name: shield
+- name: light armour
+  descr: rusty chainmail, *fragile*
+
+- name: demon blood
+- name: arcane scroll
+- name: sacred scroll
+
+- name: healing kit
+- name: healing draught
+- name: antidote
+  descr: generic
+- name: cure
+  descr: generic
+
+- name: corpse mandrake
+- name: crimson weed
+- name: darkroot
+- name: mad mushroom
+- name: pipeweed
+
+- name: corrupting poison
+  descr: >-
+    d3: 1) bloodstream; 2) ingested; 3) inhaled.
+- name: deadly poison
+  descr: >-
+    d3: 1) bloodstream; 2) ingested; 3) inhaled.
+- name: lethal poison
+  descr: >-
+    d3: 1) bloodstream; 2) ingested; 3) inhaled.
+- name: paralysing poison
+  descr: >-
+    d3: 1) bloodstream; 2) ingested; 3) inhaled.
+- name: soporific poison
+  descr: >-
+    d3: 1) bloodstream; 2) ingested; 3) inhaled.
+
+- name: apothecary kit
+- name: burglary kit
+- name: camping kit
+- name: climbing kit
+- name: cooking kit
+- name: disguise kit
+- name: divination kit
+- name: fishing kit
+- name: navigation kit
+- name: repair kit
+- name: surgery kit
+- name: torture kit
+- name: trapping kit
+- name: writing kit
+
+- name: bear trap
+- name: caltrops
+- name: lucky charm

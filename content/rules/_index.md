@@ -1,30 +1,18 @@
 ---
-title: Rules
-next: /rules/introduction
+title: Murdham
+next: rules/game_overview
 ---
 
 A game of perilous adventures in a fantasy world, combining the atmosphere of old school British tabletop games with light and streamlined rules.
 
-<!--more-->
-
-## Credits
-
-Design, writing, and art by Galileo Alighieri.
+Game design, writing, and art by Azure Orangutan.
 
 Inspired by:
-
-* _Into the Odd_ and _Electric Bastionland_, by Chris McDowall.
-
-* _Cairn_, by Yochai Gal.
-
-* _Knave_, by Ben Milton.
-
-* _Mausritter_, by Isaac Williams.
-
-* _Mörk Borg_, by Pelle Nilsson and Johan Nohr.
-
-* _Ten Dead Rats_, by Paul Siegel.
-
-* _Warlock!_, by Greg Saunders.
-
+* *Into the Odd* and *Electric Bastionland*, by Chris McDowall.
+* *Cairn*, by Yochai Gal.
+* *Knave*, by Ben Milton.
+* *Mausritter*, by Isaac Williams.
+* *Mörk Borg*, by Pelle Nilsson and Johan Nohr.
+* *Ten Dead Rats*, by Paul Siegel.
+* *Warlock!*, by Greg Saunders.
 * Old school British tabletop games.

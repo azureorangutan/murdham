@@ -82,9 +82,7 @@ menu:
 
 
 params:
-  description: >
-    A game of perilous adventures in a fantasy world,
-    combining the atmosphere of old school British tabletop games with light and streamlined rules.
+  description: A game of perilous adventures in a grim fantasy world.
 
   theme:
     default: dark

@@ -1,34 +1,31 @@
-**Camel** (128ʂ). **STR:** 12, **AGI:** 8, **WIT:** 8. **Traits:** _beast_, _fast_, _sturdy_, _weapon (kick, d4)_.
+**Light horse** (128ʂ)\
+**STR:** 12, **AGI:** 8, **WIT:** 8. **Carry limit:** 32. **Attacks:** hooves (d6). **Traits:** beast, fast, sturdy.
 
-**Cat** (16ʂ). **STR:** 4, **AGI:** 12, **WIT:** 8. **Size:** small. **Traits:** _beast_, _fast_, _weapon (bite & claws, d6)_.
+**Heavy horse** (256ʂ)\
+**STR:** 16, **AGI:** 8, **WIT:** 8. **Carry limit:** 32. **Attacks:** hooves (d6). **Traits:** beast, fast, sturdy.
 
-**Cattle** (128ʂ). **STR:** 16, **AGI:** 4, **WIT:** 8. **Traits:** _beast_, _sturdy_, _weapon (hooves & horns, d6)_.
+**Mule** (64ʂ)\
+**STR:** 12, **AGI:** 8, **WIT:** 8. **Carry limit:** 32. **Attacks:** hooves (d6). **Traits:** beast, sturdy.
 
-**Chicken** (4ʂ). **STR:** 4, **AGI:** 8, **WIT:** 8. **Size:** small. **Traits:** _beast_, _fast_, _weapon (beak, d4)_.
+**Cattle** (128ʂ)\
+**STR:** 16, **AGI:** 8, **WIT:** 8. **Carry limit:** 32. **Attacks:** hooves (d6). **Traits:** beast, sturdy.
 
-**Small dog** (8ʂ). **STR:** 4, **AGI:** 8, **WIT:** 8. **Size:** small. **Traits:** _beast_, _fast_, _weapon (bite, d6)_.
+**Farm animal** (4ʂ)\
+*Pigs, sheep, goats, etc.*\
+**STR:** 4, **AGI:** 4, **WIT:** 8. **Attacks:** hooves or bite (d4). **Traits:** beast.
 
-**Medium dog** (32ʂ). **STR:** 8, **AGI:** 8, **WIT:** 8. **Size:** small. **Traits:** _beast_, _fast_, _weapon (bite, d6)_.
+**Small dog** (8ʂ)\
+**STR:** 4, **AGI:** 8, **WIT:** 8. **Attacks:** bite (d4). **Traits:** beast, fast.
 
-**Large dog** (64ʂ). **STR:** 8, **AGI:** 8, **WIT:** 8. **Traits:** _beast_, _fast_, _weapon (bite, d6)_.
+**Large dog** (32ʂ)\
+**STR:** 8, **AGI:** 8, **WIT:** 8. **Attacks:** bite (d6). **Traits:** beast, fast.
 
-**Donkey** (32ʂ). **STR:** 8, **AGI:** 4, **WIT:** 8. **Traits:** _beast_, _sturdy_, _weapon (hooves, d6)_.
+**Cat** (8ʂ)\
+**STR:** 12, **AGI:** 12, **WIT:** 8. **Size:** tiny. **Carry limit:** 2. **Attacks:** bite & claws (d6). **Traits:** beast, fast.
 
-**Duck** (8ʂ). **STR:** 4, **AGI:** 8, **WIT:** 8. **Size:** small. **Traits:** _beast_, _fast_, _flyer (swooping)_, _weapon (beak, d4)_.
+**Chicken** (2ʂ)\
+**STR:** 8, **AGI:** 8, **WIT:** 8. **Size:** tiny. **Carry limit:** 2. **Attacks:** beak (d4). **Traits:** beast.
 
-**Light horse** (256ʂ). **STR:** 12, **AGI:** 8, **WIT:** 8. **Traits:** _beast_, _fast_, _sturdy_, _weapon (hooves, d6)_.
-
-**Heavy horse** (512ʂ). **STR:** 16, **AGI:** 8, **WIT:** 8. **Traits:** _beast_, _fast_, _sturdy_, _weapon (hooves, d6)_.
-
-**Mule** (64ʂ). **STR:** 12, **AGI:** 4, **WIT:** 8. **Traits:** _beast_, _sturdy_, _weapon (hooves, d6)_.
-
-**Pig** (4ʂ). **STR:** 4, **AGI:** 4, **WIT:** 8. **Traits:** _beast_, _weapon (bite, d4)_.
-
-**Pigeon** (4ʂ). **STR:** 4, **AGI:** 8, **WIT:** 8. **Size:** tiny. **Traits:** _beast_, _fast_, _flyer (swooping)_, _weapon (beak, d4)_.
-
-**Pony horse** (128ʂ). **STR:** 8, **AGI:** 8, **WIT:** 8. **Traits:** _beast_, _fast_, _sturdy_, _weapon (hooves, d6)_.
-
-**Rabbit** (4ʂ). **STR:** 4, **AGI:** 8, **WIT:** 8. **Size:** small. **Traits:** _beast_, _fast_, _weapon (bite, d4)_.
-
-**Sheep** (4ʂ). **STR:** 4, **AGI:** 4, **WIT:** 8. **Traits:** _beast_, _weapon (hooves, d4)_.
+**Duck** (2ʂ)\
+**STR:** 8, **AGI:** 8, **WIT:** 8. **Size:** tiny. **Carry limit:** 2. **Attacks:** beak (d4). **Traits:** beast, flying.
 

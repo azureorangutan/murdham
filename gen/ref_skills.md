@@ -1,280 +1,146 @@
 * **Acrobatics**.
-Proficient at balancing (you can attempt on very difficult ground, or to sprint or sneak on difficult ground). Proficient at leaping (you can attempt to leap up to twice usual distances). Your attacks aren't impaired while balancing and leaping. You can perform a number of acrobatic performance acts, such as trampoline, trapeze, aerial silk, etc.
-
-
+You can balance on rough surfaces without an AGI roll, and on very rough surfaces with an AGI roll. You can leap normal distances without an AGI roll, and twice that with an AGI roll. You can perform a number of acrobatic performance acts, such as trampoline, trapeze, aerial silk, etc.
 * **Acting**.
-Proficient at disguising yourself (you can't be unmasked passively, you can attempt to look like someone else). Proficient at distracting by acting out plays. You can convincingly fake emotions, disguise your voice, imitate accents, and change your mannerism.
-
-
-* **Alchemy**.
-You are literate. You can speak Classic. You can craft alchemical substances, such as _acid vials_, _fire bomb_, _flash powder_, and _smoke bombs_, in a suitably equipped workshop. Knowledgeable about alchemical concepts, tools, raw ingredients, etc.
-
-
+When you use a *disguise kit*, others can't notice passively with a WIT roll. You can accurately imitate the voice, accent, and mannerism of others. You can convincingly act like you belong to a certain role or social class (a guard, a priest, a noble, etc.), but you must pass a WIT roll if you don't look the part.
+* **Alert**.
+You can react to traps and attackers you aren't aware of.
 * **Ambidextrous**.
-You can use both hands equally well. Damage isn't impaired when you attack with a weapon in your non-dominant hand. You can attack the same target with two weapons at once, rolling damage for both but only considering the higher roll.
-
-
+You can use both hands equally well. Weapons held with the secondary hand inflict full damage. You can attack the same target with two weapons at once, rolling for damage with both but only taking the higher roll.
 * **Animal handling**.
-Proficient at training and befriending animals (you can attempt targeting wild animals). In combination with the _medicine_ skill, you can diagnose poison and disease afflicting animals. Knowledgeable about animal care: feeding, grooming, training, taming, understanding needs, etc.
-
-
+You can have 2 additional animal followers. You can befriend an animal by offering some food or care and passing a WIT roll. It acts as your follower until the next watch or you leave its territory. Once per downtime, you can tame a wild animal or train an animal follower at something (work, fight, hunt, tricks, etc.).
 * **Apothecary**.
-You can craft drugs and medicinal substances, such as _antidotes_, _cures_, _healing draughts_, and _medicine boxes_, using _apothecary tools_. Knowledgeable about medicinal ingredients, herbalism, etc.
-
-
-* **Bargain**.
-Proficient at bargaining. You purchase items at half price unless the seller also has this skill. Conversely, you sell at full price even if the seller has this skill. You are able to accurately estimate the value of most items by taking a quick look.
-
-
+As a round action, you can craft a medicinal item, poison or drug, which spoils if not used by the end of the stretch. You can't do it again until you rest. If you carry an *apothecary kit*, you can use this skill twice between rests.
+* **Bargaining**.
+When you *visit a market* as a watch action, you may buy a single item at half price. You pay half for meals, lodging, and downtime. You can accurately estimate the value of something by looking at it.
 * **Battle frenzy**.
-You can become _frenzied_ by spending a round inciting yourself into a frothing rage, or immediately when you suffer damage. The condition lasts until all enemies have been defeated or you spend a round trying to calm yourself and pass a WIT save. While _frenzied_, you recover 1 health for each enemy you kill.
-
-
+You may become *frenzied* when you suffer damage or by spending a round action inciting yourself into a frothing rage. You may also attempt to calm yourself and clear the *frenzied* affliction at the end of your activation by passing a WIT roll. While *frenzied*, you are immune to fear and morale, you aren't *incapacitated* by critical damage, and you recover 1 health each time you *incapacitate* or kill someone.
 * **Blather**.
-You know how to attract attention, confuse, and offend with words. Proficient at taunting and distracting.
-
-
-* **Bravery**.
-You are immune to fear and treat terror as fear.
-
-
+You can speak endless strings of nonsense, leaving others dumbfounded. When you talk, you may automatically distract someone. On following rounds, they lose interest if they pass a WIT roll.
+* **Boating**.
+You can safely drive a boat in most challenging circumstances without a WIT roll. You are able to operate sailing boats.
+* **Brave**.
+You are immune to fear and morale.
 * **Brawling**.
-Your unarmed attacks aren't impaired and inflict d6 damage. When you wear no armour, you have an innate armour value of 1 against unarmed attacks.
-
-
+Your unarmed attacks inflict d6 damage. You have an innate armour value of 1 against unarmed attacks, which doesn't stack with worn armour.
 * **Burglary**.
-Proficient at opening locks with _lockpicks_ and _crowbars_ (you can attempt without tools, or in just one round). You have fast reflexes and can react to all traps you trigger, even those you aren't aware of. Knowledgeable about typical security measures, safes, hiding spots for valuables, etc.
-
-
+You can pick locks with *lockpicks* without a WIT roll. You can also attempt to pick common locks without *lockpicks*, or very advanced locks, with a WIT roll. You can automatically detect traps which aren't well concealed without a WIT roll.
 * **Bushcraft**.
-Proficient at finding drinking water and shelter in the wilderness. You can efficiently navigate the wilderness: you only halve your movement speed instead of reducing it to ¼, and you move at full speed if you also have _navigation tools_. When you forage, you roll twice on the foraging table and choose the result you prefer. Knowledgeable about orientation in the wilderness, common plants, survival, etc.
-
-
+You can't get lost when pathfinding. When you forage, you roll twice and keep both results. You can easily find or build shelter: your company can always sleep well even under precipitation or in cold weather.
 * **Charm**.
-You understand how to make people like you, and how to persuade them. Proficient at befriending and persuading.
-
-
+You can attempt to improve the attitude of someone you talk with by passing a WIT roll. You may only attempt once per character.
 * **Cleave**.
-One per round, when you inflict critical damage or kill a target with a melee attack, you can immediately attack another target with the same weapon.
-
-
-* **Climb**.
-Proficient at climbing (you can attempt to climb sheer surfaces, or to sprint or sneak while climbing). Your attacks aren't impaired while climbing. When you attempt to cushion a fall, you always reduce the falling distance by 2 metres, and you reduce it by a total of 4 metres if you pass an AGI save.
-
-
+Once per round, when you inflict critical damage with a melee attack, you may immediately attack another target with the same weapon.
+* **Climbing**.
+You can climb challenging surfaces without an AGI roll, and almost impossible ones with an AGI roll. You always reduce falling distances by an additional zone.
 * **Consume alcohol**.
-You are used to drink large amount of ale, wine, and spirits, and can drink most other people under the table. You can consume an _alcoholic drink_ per stretch without risking to become _groggy_, and you recover 2 health instead of 1 when you do. You can instantly recognise if something is wrong with a drink, for example if they have been poisoned.
-
-
+You don't become *groggy* by consuming alcohol. You can instantly recognise if something is wrong with a drink, for example if it has been poisoned.
 * **Contortionist**.
-Your joints are extremely flexible and you can bend your body in absurd shapes. You can squeeze through small openings and easily escape bonds. There is a 1:4 chance that your flexibility lets you avoid an injury.
-
-
+Your joints are extremely flexible and you can bend your body in absurd shapes. You can squeeze through small openings and easily escape bonds. When you would get the *disabled arm* or *disabled leg* affliction from an injury, there is a 1:4 chance you don't get it.
 * **Crafting**.
-You can craft a number of different items equal to half your WIT, and you are proficient at repairing them with a _toolbox_. You don't have to choose immediately what you can craft: as long as you still have free slots, you can decide at any time. However, you can't pick items which can be crafted via the _alchemy_, _apothecary_, or _poisons_ skills. Knowledgeable about tools, processes, and raw materials relating to what you can craft.
-
-
-* **Dark vision**.
-You can see better than most under dim lighting, and you are used to rely on senses other than sight (hearing, smell, touch). You can see one zone further in areas illuminated by a dim light source such as a candle or a torch. Your melee attacks always hit even if you can't see the target, as long as you can hear them or detect them otherwise. In general, the GM might let you ignore penalties related to darkness or dim lighting when deemed appropriate. This is no supernatural power: you still can't see in total darkness!
-
-
+You are able to craft 4 types of items. You don't have to choose immediately; you can pick them at any moment. Crafting an item is a watch action, requires access to a *workshop*, and costs ¼ the item's value in raw materials. If it's a consumable item, you can craft a batch of 4 at once. You can use a *repair kit* without a STR roll on items you can craft. You can also attempt repairs without a kit with a STR roll.
+* **Darksight**.
+You can see one zone further in areas illuminated by a dim light source, such as a *candle*, *oil lamp*, or *torch*. Your melee attacks hit automatically even when you can't see your target. In general, the GM might let you ignore penalties related to darkness or dim lighting when deemed appropriate.
 * **Disarm**.
-Targets of your disarm attacks can't resist with a STR save unless they also have this skill. You can only be disarmed by characters with this skill.
-
-
+Targets of your disarm attacks can't resist with a STR roll unless they also have this skill. You can only be disarmed by characters with this skill.
 * **Disease resistance**.
-When you become _sick_, immediately make a STR save: on a pass you recover immediately. If you fail, you must make recovery rolls at the end of each day, as per the normal rules.
-
-
+You only need half the normal amount of successive STR roll successes to recover from disease (typically only 1).
 * **Divination**.
-If you have _divination tools_, you can spend an omen and a stretch of time to ask a question pertaining your current situation. The GM describes a vision giving you a cryptic answer. There is a 1:4 chance that the vision is wrong or misleading, rolled secretly by the GM. Knowledgeable about astrology, fortune telling, tarots, etc.
-
-
+You can spend a stretch and an omen to ritually sacrifice an animal and interpret its entrails. Ask a question about the past, present, or future. The GM describes a vision giving you a cryptic answer. There is a 1:8 chance that it is false or misleading, rolled secretly by the GM. If you have a *divination kit*, you can use this skill without sacrificing an animal.
 * **Dodge blows**.
 You can dodge an attack without spending your turn once per round.
-
-
 * **Drive carts**.
-Proficient at driving land vehicles such as carts, coaches, chariots, sledges, etc. Your attacks aren't impaired when riding land vehicles, and can attack even when your vehicle moves at full speed.
-
-
-* **Erudition**.
-You are literate. You can speak Classic. Knowledgeable in all fields of academic lore: history, geography, beasts, plants, philosophy, mathematics, astronomy, etc. Once per daily rest, you can ask the GM for a tip about the current situation, representing your intuition about the current circumstances. The GM can choose how to answer and how much information to give out, but it's reliable.
-
-
-* **Faith**.
-You are literate. You can speak Classic. You can invoke sacred powers. Your maximum omens are increased by 1. Knowledgeable about religion, theology, sacred texts, etc.
-
-
+You can safely drive a cart in most challenging circumstances without a WIT roll.
+* **Dueling**.
+You always hit first in a duel unless your opponent also has this skill.
+* **Erudite**.
+You are an expert in all forms of academic lore: history, geography, beasts, law, plants, philosophy, mathematics, astronomy, theology, sorcery, etc. You may ask the GM for further information concerning such topics.
+* **Faithful**.
+Your deity looks kindly upon you. When you attempt to cast a sacred power, you roll a d20 instead of a d12 to determine if you are successful. However, you must rigidly obey your deity's commandments or lose this advantage.
 * **Farming**.
-When you forage, you find an additional _ration_ on a _fruits and vegetables_ result. You are also able to recognise if what you have found is safe to eat or might expose to a negative effect. Knowledgeable about agriculture, animal husbandry, etc.
-
-
-* **Fast strike**.
-When you counter an attack or your attack is countered, you always hit first unless your opponent also has this skill.
-
-
-* **Fire eating**.
-You are able to perform tricks using burning sticks, such as extinguishing them with your tongue, juggling them, etc. You can spit an _alcoholic drink_ through an open flame, such as a lit _torch_, to make a melee blast attack inflicting d4 fire damage. You reduce incoming fire damage by 1.
-
-
-* **Fleet footed**.
-When you sprint, you can move by an additional zone. You can freely dodge attacks of opportunity while moving, without needing to spend your turn.
-
-
+When you forage, you find an additional *perishable ration* on a *fruits and vegetables* result. You can milk animals for a *perishable ration* during a rest. When you butcher an animal, you get twice the normal amounts of rations.
+* **Fire-eating**.
+You reduce fire damage by 1. You can spit an *alcoholic drink* through an open flame, such as a lit *torch*, to make a melee attack targeting up to 2 enemies and inflicting d6 fire damage. You are able to perform tricks using burning sticks, such as extinguishing them with your tongue, juggling them, etc.
+* **Fishing**.
+When you forage, on a *fish* result you get 2 additional *perishable rations*.
+* **Fleet-footed**.
+When you take a rush action, you move 2 additional zones instead of 1. You can't be pinned.
 * **Frugal**.
-You can get by with very little. On a daily rest, you recover health and mana even if you don't satisfy all daily needs, but your abilities are still reduced if you don't. You pay only ¼ for lodging as you don't need any particular comforts or luxuries.
-
-
+When you rest, you recover health, mana, and 1 point in an ability score even if you don't satisfy all daily needs. However, you still reduce ability scores if you don't.
+* **Gambling**.
+You know how to cheat at games. If you describe a reasonable way to cheat, you can automatically win or lose. Others might still get suspicious if you are too successful. The GM should roll secretly for their characters when playing games, to avoid showing if they are cheating.
 * **Gossip**.
-Proficient at gathering information and finding contacts in settlements, for example for trading specific or illegal goods. You can gather rumours while performing another action taking a watch in a settlement, rather than having to spend time specifically for that. Furthermore, you have a certain intuition about whether the rumours are true or false. There is a 1:4 chance that your intuition is wrong, rolled secretly by the GM.
-
-
+Every time you perform an action in town, be it visiting a market, resting, or anything else, you hear some interesting rumour from the GM. It might not be true.
 * **Heal**.
-Proficient at performing surgeries (you can attempt without tools). You can use a _medicine box_ more effectively than others: heal half STR in a stretch, or d8 damage (up to half STR) in a round. Knowledgeable about all kinds of wounds and injuries and ways to treat them.
-
-
+You can use a surgery kit without a WIT roll. You can also attempt surgeries without a kit, or almost impossible surgeries, with a WIT roll. You can use *healing kits* more effectively: you restore d8 health (up to half the maximum) as a round action, or half the maximum health as a stretch action.
 * **Hunt**.
-Proficient at following trails. When you forage, on a _small game_ result you gain an additional _ration_, even if you don't have _trapping tools_. Knowledgeable about local fauna, hunting methods, identifying beasts from their tracks, etc.
-
-
+You can follow trails without a WIT roll, and almost invisible trails with a WIT roll. When you forage, on a *critters* result you gain an additional *perishable ration*. When you butcher an animal, you also gain a *trophy*.
 * **Incorruptible**.
-You halve the amount of corruption you suffer, but not when you suffer it by invoking profane powers.
-
-
+You halve any amount of corruption you suffer, except from casting arcane powers.
 * **Intimidate**.
-You know how to scare people and inflict pain. Proficient at intimidating and torturing.
-
-
+Characters can't resist your intimidations with a WIT roll. The first time you kill someone in a fight, you trigger a morale check for enemies within close range. This is in addition to the usual morale check.
 * **Languages**.
-You are literate. You can speak a number of additional languages equal to half your WIT. You don't have to pick what languages you can speak immediately: you can choose at any moment, as long as you still have slots available.
-
-
+You can speak 4 additional languages. You don't have to pick immediately, you can choose them at any moment.
 * **Leadership**.
-You understand what can drive someone and how to encourage people. Proficient at inspiring, and keeping the loyalty of followers, and rallying (you can attempt to rally a _terrified_ ally, or all allies within range 1 at once).
-
-
+You can be accompanied by 2 additional human followers. Before your faction makes a morale check, you make a WIT roll. If you pass, they skip the morale check. However, if you are later *incapacitated* or killed during the fight, your faction must then make the morale check you prevented.
+* **Literate**.
+You can read and write any language you can speak, as well as perform calculations more complex than what you can count on your fingers.
 * **Lucky**.
-Your maximum omens are increased by 1. When you use an omen, there is a 1:4 chance it isn't actually spent. When choosing the target of an indiscriminate effect, such as a trap or a monster ambush, the GM might prioritise other characters over you.
-
-
+You have 1 additional omen. You recover 1 omen when you rest. You can spend advances to increase your omens by 1 (maximum 6).
 * **Magic sense**.
-You can spend a stretch in meditation to sense the presence of magic phenomena (ongoing powers, demons, magical creatures, etc.) in your zone or in your sector (your choice). You can only detect if any magic phenomena is present in the area, but can't count them, locate them, or determine their nature.
-
-
+You can meditate to detect the presence of magic (ongoing spells, demons, magical creatures, relics, etc.) in the vicinity. As a round action, you can detect if magic is present in your zone. As a stretch action, you can detect if magic is present in the site. You can only detect if magic is present, you can't locate its source or determine its nature.
 * **Magic shield**.
-You can use an ancient technique to erect a magic shield around you. Activating or deactivating it takes a stretch spent in meditation, and it deactivates automatically if you are _incapacitated_, fall asleep, or die. Profane powers have a 1:2 chance of not working on you, no matter if harmful or beneficial. However, sorcerers can spend 1 enhancement point to ignore the shield.
-
-
+You can use an ancient technique to erect a magic shield around you. Activating or deactivating it is a stretch action, and it is removed automatically if you are *incapacitated* or killed. Arcane powers have a 1:2 chance of not working on you, no matter if harmful or beneficial. Other targets are unaffected. The caster can enhance the spell to ignore the effect of a magic shield
 * **Medicine**.
-You are literate. You can speak Classic. You can diagnose poison and disease by spending a round examining a patient. After diagnosing, you can instruct someone with the _apothecary_ skill to create a bespoke _antidote_ or _cure_ which is guaranteed to work. Knowledgeable about human anatomy and physiology, illnesses, and ailments.
-
-
-* **Meditation**.
-You remove all corruption on a full rest.
-
-
+As a round action, you may accurately diagnose a disease, poison, or drug. This can help choose a suitable cure or antidote, and can provide information about possible future effects.
 * **Monster slaying**.
-You double damage inflicted against targets of larger size category, offsetting the typical penalties. For example, you inflict unmodified damage (instead of half) against targets one size larger, and half damage (instead of a quarter) against targets two sizes larger.
-
-
-* **Music**.
-Proficient at singing and playing music. Proficient at distracting by staging a musical performance. During a daily rest, you can play an inspiring song for the company, letting a single companion recover a spent omen. Knowledgeable about music theory, instruments, famous musicians, etc.
-
-
+You inflict half damage, rather than a quarter damage, to huge characters.
 * **Pack rat**.
-Your carry limit is increased by 2 (you can carry up to 10 bulk unencumbered, and up to 20 bulk encumbered). Your own bulk doesn't change.
-
-
+You are only encumbered when you carry over 12 bulk (instead of 8).
 * **Piercing strike**.
-If you roll damage higher than your target's armour value, you completely ignore armour and inflict the full amount of damage. This skill doesn't work in situations where you are required to pass a WIT save to hit, as it requires full precision.
-
-
+Your attacks with weapons gain the *piercing* property: if you roll higher than armour, the attack inflicts full damage. If you roll lower, damage is still reduced to 0. This skill doesn't work with unarmed attacks, blast attacks, and when you must pass a WIT roll to hit, as it requires full precision.
 * **Play games**.
-You always win at games which aren't based on luck against people without this skill. Your cheating attempts are always successful unless your opponents are paying close attention to you. People might still get suspicious if you win too much.
-
-
+After playing a game once, you become extremely good at it. Others can't beat you unless they also have this skill. This skill, however, doesn't apply to games based on pure luck.
 * **Poison resistance**.
-You have grown resistant to toxins through repeated exposition. You automatically resist the first dose of poison or drugs you take within a stretch, and you resist the second if you pass a STR save. Subsequent doses have effect automatically.
-
-
-* **Poisons**.
-Proficient at identifying poison in food and drinks. You can craft all kinds of poisons using _apothecary tools_. Knowledgeable about different types of poisons, their effect and symptoms, etc.
-
-
-* **Politics**.
-You are literate. You can speak Classic. Knowledgeable in all fields of civil and political lore, such as laws, structures of power, bureaucracy, processes, etc. You know how to forge documents and letters: they probably won't pass extensive controls, but they might fool a routine check. You know whom to bribe, what to offer, and how to go about it: after talking with someone, you can ask the GM to reveal if they are bribable and what they might want.
-
-
+You ignore the first dose of poison you take each stretch.
 * **Protect**.
 You can guard without spending your turn any number of times.
-
-
-* **Quick draw**.
-You can equip and unequip any number of items held in hand as a single bonus action.
-
-
 * **Ride**.
-Proficient at riding animals (you can attempt to ride untrained animals, or without a saddle). Your attacks aren't impaired while riding. You can attack when your mount moves at full speed.
-
-
-* **River lore**.
-Proficient at driving boats, rafts, and other waterborne vehicles. You count as two people when rowing a boat and you can handle a sailing boat. Your attacks aren't impaired when on such a vehicle. When you forage, on a _fish_ result you gain an additional _ration_, even if you don't have _fishing tools_.
-
-
+You automatically pass AGI rolls to avoid falling from your mount, and your attacks aren't impaired while mounted. You can ride an untrained animal or without a *saddle*, but then you lose the benefits of this skill.
+* **Saint**.
+You can cast a specific sacred power without a scroll and with one free enhancement. All other spell casting rules apply as usual. You can get this skill multiple times, each time for a new power.
 * **Shield mastery**.
-When you hold a shield, your armour value is increased by 1 against all attacks, not just if you react or are countered.
-
-
+When you hold a *shield*, your armour value is increased by 1 against all attacks, not just if you react or duel.
 * **Skilled blow**.
-You improve the damage die of melee attacks (excluding unarmed attacks): d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. In case of blast attacks, only one target takes increased damage.
-
-
+You improve the damage die of melee attacks (excluding unarmed attacks): d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. If the attack has multiple targets, only one takes increased damage.
 * **Skilled shot**.
-You improve the damage die of ranged attacks: d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. In case of blast attacks, only one target takes increased damage.
-
-
+You improve the damage die of ranged attacks: d4 to d6, d6 to d8, d8 to d10, d10 to d12. You can't improve a d12. If the attack has multiple targets, only one takes increased damage.
 * **Sneak attack**.
-You always inflict d12 damage when you attack unaware targets, no matter what weapon you are using, and even if you are making an unarmed attack (but unarmed attacks are still impaired).
-
-
+When you attack an unaware enemy, roll an additional d12 damage die and keep the higher roll.
 * **Sorcery**.
-You are literate. You can speak Magick. You can invoke profane powers. When you advance, you can increase your maximum mana by 1 instead of learning a new skill or improving your abilities, up to 6 at most. Knowledgeable about magic, demonology, esoteric lore, etc.
-
-
+You have a pool of mana, which you can use to cast unclean powers more effectively as described in the Magic section. You start with 1 mana. You can spend advances to increase your mana by 1 (maximum 6).
 * **Steady aim**.
-You double the effective range of ranged attacks, and you can shoot while moving without having to pass a WIT save to hit.
-
-
-* **Steal**.
-Proficient at stealing items (you can attempt to steal two items of bulk ½ or an item of bulk 1). You can quickly pocket small items (bulk ½), making them almost instantly disappear in your clothes.
-
-
+You can make a ranged attack after moving. If you are stationary, you automatically hit even at far range.
+* **Stealing**.
+You can steal without alerting your victim without an AGI roll.
 * **Stealth**.
-Proficient at sneaking. When your group is detected by other characters, make an AGI save. If you pass, you manage to stay hidden even though your companions are detected.
-
-
+You can move silently without an AGI roll in challenging situations. You can also attempt to sneak in extremely hard situations with an AGI roll.
+* **Storytelling**.
+When you stage a music performance or tell a tale, others must pass a WIT roll or be captivated and distracted by you. On a rest, you can perform for your companions. Each one has a 1:4 chance of recovering a spent omen. If you use a *music instrument*, the chance increases to 1:2.
 * **Strike to injure**.
-When you inflict critical damage, you may choose to injure or kill the target. You choose what injury to apply instead of rolling on the table (it must still make somewhat sense), and you may choose that it is permanent rather than temporary.
-
-
+When you inflict critical damage, you may choose to injure or kill the target. You choose what injury to apply instead of rolling on the table (it must still make somewhat sense), and if it is permanent or temporary.
 * **Strike to stun**.
-When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock, etc.) you may attempt to knock out your target instead of wounding them. Roll the damage die as usual: you inflict no damage, instead you compare the result with the target's current health. The target is _incapacitated_ until the end of the stretch if the rolled damage matches or exceeds half their current health. If the damage matches or exceeds their total current health, they are _incapacitated_ until the end of the watch instead.
-
-
-* **Swim**.
-Proficient at swimming (you can attempt to swim while carrying up to bulk 4, or while sprinting). Your attacks aren't impaired while swimming. You can hold your breath for twice as long (8 rounds instead of 4).
-
-
+When you attack with a blunt weapon (a cudgel, the pommel of a sword, a rock, etc.) you may choose to reduce damage by any amount, for example to avoid killing your target.
+* **Swimming**.
+You can swim in challenging circumstances without an AGI roll, and in almost impossible circumstances with an AGI roll. You can safely hold your breath for twice as long (8 rounds).
+* **Taunt**.
+You know how to pull the right strings to make others mad at you. As a round action, you may taunt someone. They must pass a WIT roll or be forced to act aggressively towards you. In a fight, they must try to attack you, ignoring everyone else.
 * **Tough**.
-Your maximum health, as well as the threshold for instant death, are increased by 3 (equal to STR+3).
-
-
+Your maximum health is increased by 3 (it equals STR+3).
 * **True grit**.
-When _dying_, you survive until the end of the stretch, rather than until the end of the next round. You aren't instantly killed when you suffer damage matching your STR at once.
-
-
+When you are reduced to 0 health, you can survive until the end of the stretch rather than until the end of your next activation.
+* **Use poison**.
+You don't risk accidentally poisoning yourself when using poison.
+* **Witchcraft**.
+You can cast a specific arcane power without a scroll and with one free enhancement. All other spell casting rules apply as usual. You can get this skill multiple times, each time for a new power.
 * **Wrestling**.
-Targets of your shove and grapple attacks can't resist with a STR save unless they also have this skill. You can only be shoved or grappled by characters with this skill.
-
-
+Targets of your shove and grapple attacks can't resist with a STR roll unless they also have this skill. You can only be shoved or grappled by characters with this skill.

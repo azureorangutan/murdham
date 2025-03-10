@@ -1,79 +1,55 @@
-addicted: >
-  The character is addicted to a specific substance.
-  On a daily rest, they must consume it or temporarily reduce WIT by 1.
-  On a full rest, they must consume 4 units of it or temporarily reduce WIT by 1 for each missing unit after the rest.
-armour: >
-  The character is protected by some form of natural armour, such as thick hide, scales, a shell, etc.
-  This provides the indicated armour value.
-  However, it doesn't stack with worn armour: only use the higher value.
-beast: >
-  The character has animal-level intelligence and mostly behaves according to instinct.
-# construct: >
-#   The character is an artificial being animated by magic or technology.
-#   It doesn't need to eat, drink, sleep, breathe, or rest.
-#   It can't heal naturally by resting, but must be repaired like an item with the _health_ property.
-#   It isn't _incapacitated_ by critical damage, but is destroyed if reduced to 0 health.
-corrupting: >
-  Anyone touched by this character suffers the indicated amount of corruption.
-  This includes targets of melee attacks, unless they successfully dodge.
-demon: >
+addicted: >-
+  The character must consume a certain substance when resting or lose 1 WIT.
+  After downtime, they must consume 4 doses or lose 1 WIT per missing dose.
+beast: >-
+  The character has animal-level intelligence and behaves according to instinct.
+blind: >-
+  Unable to see.
+corrupting: >-
+  Anyone touched by this character, including targets hit by melee attacks, suffers the indicated amount of corruption.
+deaf: >-
+  Unable to hear.
+demon: >-
   The character is a dark being of pure chaos manifested in the material world.
-  It isn't _incapacitated_ by critical damage, but is vanquished if reduced to 0 health.
-  It's spirit isn't destroyed, but returns to where it came from.
-  Demons are immune to corruption, disease, and poison.
-dim-witted: >
-  The character is unable to learn complex intellectual skills, such as _erudition_, _medicine_, _sorcery_, etc.
-  The GM evaluates which skills aren't allowed.
-fast: >
-  The character moves at double speed.
-flyer: >
-  The character can fly.
-  There are three categories of flyers:
-  landers can't attack and stay still while flying;
-  swoopers can attack but can't stay still;
-  hoverers can attack and stay still.
-frail: >
-  The character halves carry limit and bulk.
-frightening: >
-  The character causes fear within range 4.
-  They are immune to _frightening_ characters and treats _terrifying_ characters as _frightening_.
-# immobile: >
-#   The character can't move.
-immunity: >
-  The character is completely immune to the listed hazards (such as poison, disease, fire, corruption, etc.).
-# incorporeal: >
-#   The character has no STR and AGI score.
-#   They can't interact with the material world but is still bound by its laws.
-#   Thy can walk through thin barriers, such as doors.
-mindless: >
-  The character has no actual intelligence, such as an automaton or a flesh puppet.
-  Behaves in a very restricted way, following some sort of programming.
-  Is immune to mind control, fear, terror, and other mental effects.
-mutation: >
-  The character has the mutations listed after the trait.
-permanent condition: >
-  The character permanently applies the effects of the listed conditions.
-power: >
-  The character can invoke the listed power once per watch, with the listed amount of EP.
-  The power always works and doesn't inflict corruption.
-regeneration: >
-  The character recovers half the amount of lost health each round, at the start of their turn.
-  Fire damage stops regeneration for a watch.
-slow: >
-  The character moves at half speed.
-split: >
-  After suffering critical damage, the character splits into two copies,
-  each one with health equal to the remaining amount and STR to match.
-sturdy: >
-  The character doubles carry limit and bulk.
-  It also consumes twice the usual amount of food and water.
-terrifying: >
-  The character causes terror within range 4.
-  They are immune to _frightening_ and _terrifying_ characters.
-undead: >
+  Immune to hunger, thirst, sleep, corruption, disease, poison, and drugs.
+disabled arm: >-
+  The character can't use it.
+  1:2 chance it affects the primary arm.
+disabled eye: >-
+  The character is *blinded* if both are disabled.
+disabled leg: >-
+  The character is always encumbered and halves the carry limit.
+  If both legs are disabled, the character can only crawl one zone per round as a round action.
+fast: >-
+  The character moves 2 zones, plus 2 zones with a rush action.
+  It moves 4 regions in the open with a travel action.
+flying: >-
+  The character can fly, if unencumbered.
+frenzied: >-
+  The character can't do anything but try to hurt and kill someone.
+  They can target foes first, but if none is present their rage will turn to the innocent and allies.
+frightening: >-
+  The character causes fear, except on others with this same trait.
+immobile: >-
+  The character can't move.
+mindless: >-
+  The character has no thoughts.
+  It is immune to fear, morale, frenzy, and other psychological effects.
+  It can follow very simple instructions, like some kind of automaton.
+nightcrawler: >-
+  The character can see in the dark, but is blinded by daylight.
+pain resistance: >-
+  The character isn't *incapacitated* by critical damage.
+possessed: >-
+  The character has become the host of a demonic entity.
+  At the start of each day, the GM secretly rolls a d12: if it exceeds the character's corruption, the demon can take control of their body for a scene during the day.
+  If a character is possessed a second time, the demon takes over their body permanently.
+regeneration: >-
+  The character can't be killed and recovers all health and heals all injuries at the end of the stretch unless harmed by fire.
+slow: >-
+  The character can't take a rush action and only moves 1 region with a travel action.
+sturdy: >-
+  The character's carry limit and bulk are doubled.
+undead: >-
   The character is neither alive nor dead.
-  It doesn't need to eat, drink, sleep, breathe, or rest.
-  It isn't _incapacitated_ by critical damage, but is destroyed if reduced to 0 health.
-  The undead are immune to corruption, disease, and poison.
-weapon: >
-  The character has a deadly natural weapon which can be used to attack, such as claws, fangs, fire-breath, etc.
+  Immune to hunger, thirst, sleep, corruption, disease, poison, and drugs.

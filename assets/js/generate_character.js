@@ -6,13 +6,14 @@ function random_array_element(array) {
 }
 
 function ability_arrays() {
+    let sum = 22;
     let min = 5;
-    let max = 14;
+    let max = 12;
     let values = []
     for (let a = min; a <= max; ++a) {
-        for (let b = min; b <= max; ++b) {
-            for (let c = min; c <= max; ++c) {
-                if (a + b + c == 24) {
+        for (let b = a; b <= max; ++b) {
+            for (let c = b; c <= max; ++c) {
+                if (a + b + c == sum) {
                     values.push([a, b, c]);
                 }
             }
@@ -21,9 +22,25 @@ function ability_arrays() {
     return values;
 }
 
+function shuffle(arr) {
+    let i = arr.length;
+    while (--i > 0) {
+        let j = Math.floor(Math.random() * (i + 1));
+        let temp = arr[j];
+        arr[j] = arr[i];
+        arr[i] = temp;
+    }
+}
+
 function random_abilities() {
     const arrays = ability_arrays();
-    return random_array_element(arrays);
+    let array = random_array_element(arrays);
+    shuffle(array);
+    return array;
+}
+
+function random_career() {
+    return random_array_element(Data.careers)
 }
 
 function random_age() {
@@ -31,99 +48,186 @@ function random_age() {
 }
 
 function generate_character() {
+    // Abilities
     let [str, agi, wit] = random_abilities();
-    let career = random_array_element(Data.careers);
-    let [item, extra_money] = random_array_element(Data.starting_items);
 
+    // Career
+    let career = random_career();
+
+    // Career advancements
+    str += career.str;
+    agi += career.agi;
+    wit += career.wit;
+    let skills = [...career.skills];
+    let trappings = [...career.trappings];
+
+    // Advancement
+    switch (1 + Math.floor(Math.random() * 4)) {
+        case 1:
+            str += 1;
+            agi += 1;
+            break;
+        case 2:
+            str += 1;
+            wit += 1;
+            break;
+        case 3:
+            agi += 1;
+            wit += 1;
+            break;
+        case 4:
+            let new_skill = random_array_element(Data.starting_skills);
+            while (skills.includes(new_skill)) {
+                new_skill = random_array_element(Data.starting_skills);
+            }
+            skills.push(new_skill);
+            break;
+    }
+
+    // Extra item.
+    let extra_item = random_array_element(Data.extra_items);
+    if (extra_item.includes("poison")) {
+        let poison_type = "";
+        switch (1 + Math.floor(Math.random() * 3)) {
+            case 1:
+                poison_type = "bloodstream";
+                break;
+            case 2:
+                poison_type = "inhaled";
+                break;
+            case 3:
+                poison_type = "ingested";
+                break;
+        }
+        extra_item += " (" + poison_type + ")";
+    }
+    let money = trappings[trappings.length - 1]
+    trappings[trappings.length - 1] = extra_item;
+    trappings.push(money);
+
+    // Spells
+    let used_spells = [];
+    for (let i = 0; i < trappings.length; ++i) {
+        if (trappings[i] == "arcane scroll") {
+            while (true) {
+                let spell = random_array_element(Data.arcane_spells);
+                if (!used_spells.includes(spell)) {
+                    trappings[i] = "arcane scroll (" + spell + ")";
+                    used_spells.push(spell);
+                    break;
+                }
+            }
+        }
+        if (trappings[i] == "sacred scroll") {
+            while (true) {
+                let spell = random_array_element(Data.sacred_spells);
+                if (!used_spells.includes(spell)) {
+                    trappings[i] = "sacred scroll (" + spell + ")";
+                    used_spells.push(spell);
+                    break;
+                }
+            }
+        }
+    }
+    for (let i = 0; i < skills.length; ++i) {
+        if (skills[i] == "witchcraft") {
+            while (true) {
+                let spell = random_array_element(Data.arcane_spells);
+                if (!used_spells.includes(spell)) {
+                    skills[i] = "witchcraft (" + spell + ")";
+                    used_spells.push(spell);
+                    break;
+                }
+            }
+        }
+        if (skills[i] == "saint") {
+            while (true) {
+                let spell = random_array_element(Data.sacred_spells);
+                if (!used_spells.includes(spell)) {
+                    skills[i] = "saint (" + spell + ")";
+                    used_spells.push(spell);
+                    break;
+                }
+            }
+        }
+    }
+
+    // Description
     let age = random_age();
     let gender = random_array_element(Data.genders);
-    let reasons_to_adventure = random_array_element(Data.reasons_to_adventure);
+    let goal = random_array_element(Data.goal);
     let appearance = random_array_element(Data.appearance);
     let personality = random_array_element(Data.personality)
 
     let first_name = undefined;
-    let career_name = undefined;
     if (gender == "Male") {
         first_name = random_array_element(Data.masculine_first_names);
-        career_name = career.masculine_name;
     }
     else {
         first_name = random_array_element(Data.feminine_first_names);
-        career_name = career.feminine_name;
     }
     let last_name = random_array_element(Data.last_names);
 
-    let items = [];
-    for (let i = 0; i < career.items.length; i++) {
-        items.push(career.items[i]);
-    }
-    items.push(item)
-    for (let i = 0; i < career.profane_scrolls; i++) {
-        while (true) {
-            let new_scroll = "power scroll (" + random_array_element(Data.profane_powers) + ")";
-            if (!items.includes(new_scroll)) {
-                items.push(new_scroll);
-                break;
-            }
-        }
-    }
-    for (let i = 0; i < career.sacred_scrolls; i++) {
-        while (true) {
-            let new_scroll = "power scroll (" + random_array_element(Data.sacred_powers) + ")";
-            if (!items.includes(new_scroll)) {
-                items.push(new_scroll);
-                break;
-            }
-        }
-    }
-
-    let items_map = {};
-    for (item of items) {
-        if (item in items_map) {
-            items_map[item]++;
+    // Derived stuff
+    let trappings_map = {};
+    let trappings_map_len = 0;
+    for (trapping of trappings) {
+        if (trapping in trappings_map) {
+            trappings_map[trapping]++;
         }
         else {
-            items_map[item] = 1;
+            trappings_map[trapping] = 1;
+            trappings_map_len++;
         }
     }
 
-    let items_str = "";
-    for (const [item, count] of Object.entries(items_map)) {
+    let trappings_str = "";
+    let counter = 0;
+    for (const [trapping, count] of Object.entries(trappings_map)) {
         if (count > 1) {
-            items_str += count + "× ";
+            trappings_str += count + "× ";
         }
-        items_str += item + ", ";
+        trappings_str += trapping;
+        counter++;
+        if (counter < trappings_map_len) {
+            trappings_str += ", ";
+        }
     }
 
-    let money = 4 + extra_money + career.money;
+    let health = str;
+    if (skills.includes("tough")) {
+        health += 3;
+    }
 
+    let omens = 2;
+    if (skills.includes("lucky")) {
+        omens += 1;
+    }
+
+    let mana = 0;
+    if (skills.includes("sorcery")) {
+        mana += 1;
+    }
+
+    let career_name = gender == "Male" ? career.male_name : career.female_name;
     document.getElementById("name").innerHTML = first_name + " " + last_name + " the " + career_name;
     document.getElementById("description").innerHTML =
-        gender + ", " + age + " years old. " +
-        career.description +
-        " You have abandoned your previous life because " + reasons_to_adventure +
+        "<i>" +
+        gender + ", " + age + " years old." +
+        " " + career.description +
+        " " + goal +
         " " + appearance +
-        " " + personality;
+        " " + personality +
+        "</i>";
     document.getElementById("str").innerHTML = str
     document.getElementById("agi").innerHTML = agi
     document.getElementById("wit").innerHTML = wit
-    document.getElementById("mana").innerHTML = career.mana;
-    if (career.mana == 0) {
-        document.getElementById("mana-display").style.display = 'none';
-    }
-    else {
-        document.getElementById("mana-display").style.display = 'inline';
-    }
+    document.getElementById("health").innerHTML = health;
+    document.getElementById("omens").innerHTML = omens;
+    document.getElementById("mana").innerHTML = mana;
 
-    document.getElementById("skills").innerHTML = career.skills.join(", ");
-    document.getElementById("items").innerHTML = items_str + money + "ʂ";
-    if (career.followers.length > 0) {
-        document.getElementById("followers_container").style.display = "block"
-        document.getElementById("followers").innerHTML = career.followers.join(", ");
-    }
-    else {
-        document.getElementById("followers_container").style.display = "none"
-    }
+    document.getElementById("skills").innerHTML = skills.join(", ");
+    document.getElementById("trappings").innerHTML = trappings_str;
 }
 
 document.getElementById("chargen_button").onclick = generate_character;

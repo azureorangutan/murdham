@@ -43,11 +43,11 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Exhaustive rules"
-    subtitle="The game provides guidelines on how to handle common situations found in a fantasy adventure game: exploration, travel, social interactions, stealth, combat, magic, vehicles, and more!" >}}
+    subtitle="The game provides guidelines on how to handle common situations found in a fantasy adventure game: exploration, travel, social interactions, stealth, combat, magic, and more!" >}}
 
   {{< hextra/feature-card
     title="Deadly adventures"
-    subtitle="Death is always behind the corner. The Player characters are common folks and every fight or challenge they face could be their last. Characters become more skilful as they gain experience but don't turn into invincible heroes."
+    subtitle="Death is always behind the corner. The Player characters are common folks and every fight or challenge they face could be their last. They become more skilful as they gain experience but don't turn into invincible heroes."
   >}}
   {{< hextra/feature-card
     title="Simple yet deep combat"
@@ -55,15 +55,15 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Vile sorcery and holy rites"
-    subtitle="Two types of magic: profane and sacred. Sorcerers have a pool of mana they can spend to invoke profane powers safely, but can push themselves beyond that at the cost of corruption, risking miscasts and mutation. Sacred powers are safe, but can be used scarcely and might fail if the caster is corrupted."
+    subtitle="Two types of magic: arcane and sacred. Arcane magic is corrupting and dangerous. Sacred magic is safe, but can be used scarcely and might fail if the caster is corrupted."
   >}}
   {{< hextra/feature-card
     title="Fast action resolution"
     subtitle="Just roll a d20 under an ability score. No modifiers, target numbers, or dice pools. Difficulty just comes in three steps: trivial (no roll, you just do it), challenging (roll to determine the outcome), impossible (you just can’t do it)."
   >}}
   {{< hextra/feature-card
-    title="Lightweight skill system"
-    subtitle="Skills are keywords: a character either has them or not. They provide significant advantages, such as the ability to invoke magic powers or to perform certain actions successfully without rolling."
+    title="Lightweight trait system"
+    subtitle="Trait are keywords: a character either has them or not. They changes the rules in significant ways, such as the ability to cast arcane magic safely or to perform certain actions successfully without rolling."
   >}}
   {{< hextra/feature-card
     title="Streamlined gear system"

@@ -1,291 +1,324 @@
 ## Acrobat
 
-You used to earn your fare by performing spectacular and dangerous acrobatic feats.\
-**Skills**: _acrobatics_, _climb_.\
-**Items**: clothes (comfortable and colourful leotard), missile hand weapon (throwing daggers), rope (made of silk, _expensive_), wooden pole, 2ʂ.
+*You move with unbelievable grace and agility. Your acrobatic feats leave others stunned with amazement.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: acrobatics, climbing.\
+**Trappings**: clothes (colourful leotard), missile hand weapon (throwing daggers), rope (made of silk, *expensive*), wooden pole, 2ʂ.
 
 ## Agitator
 
-You know how to incite people with fervent speeches, and how to quickly run away from city guard patrols.\
-**Skills**: _fleet footed_, _leadership_.\
-**Items**: clothes (working class attire), simple hand weapon (hammer), 2× fire bomb, scroll (pamphlet denouncing the Emperor, or at least they told you so: you can't read after all), junk (nails, to hang your pamphlets), 1ʂ.
+*You can incite rebellious hearts with fervent speeches. You have also learnt how to quickly run from city patrols!*\
+**Skills**: fleet-footed, leadership, literate.\
+**Trappings**: clothes (commoner's attire, a cloth to hide your face), simple hand weapon (hammer, used to nail your pamphlets to walls), 2× fire bomb, trinket (pamphlet denouncing the King and calling for a revolution), 1ʂ.
 
 ## Apothecary
 
-You are a master at mixing miraculous ointments and potent poisons.\
-**Skills**: _apothecary_, _poisons_.\
-**Items**: clothes (spotless white apron and bags to carry ingredients), simple hand weapon (sickle), apothecary tools, medicinal herbs, 2ʂ.
+*You are constantly scrounging for herbs, mushrooms, and other reagents to mix wondrous ointments and concoctions. It's a thin line between a remedy and a poison...*\
+**Skills**: apothecary, literate, use poison.\
+**Trappings**: clothes (scholarly clothes, spotless white apron), simple hand weapon (sickle), apothecary kit, 10ʂ.
 
 ## Artisan
 
-You are an experience craftsman, taking pride in the excellence of your creations.\
-**Skills**: _crafting_, _piercing strike_.\
-**Items**: clothes (thick leather apron), simple hand weapon (your main tool of the trade, such as a hammer, a pair of scissors, etc.), toolbox, 10ʂ.
+*You are a master craftsman. You take pride and joy in the beauty of your creations.*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: crafting, piercing strike.\
+**Trappings**: clothes (commoner's attire, thick leather apron), simple hand weapon (a tool of your trade: hammer, scissors, saw, etc.), repair kit, 10ʂ.
 
 ## Assassin
 
-For the right amount of coins, you can discreetly get rid of anyone.\
-**Skills**: _sneak attack_, _stealth_.\
-**Items**: clothes (dark cloak), simple hand weapon (dagger), missile hand weapon (hand crossbow), black adder venom, 2ʂ.
+*A firm grip and a sharp knife are the tools of your trade. Countless souls have disappeared in dark alleys by your hand.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: stealth, use poison.\
+**Trappings**: clothes (dark hooded cloak), simple hand weapon (dagger), missile hand weapon (hand crossbow), lethal poison (bloodstream), 2ʂ.
+
+## Barbarian
+
+*You crave the rush of a deadly fight. You can abandon yourself to visceral, uncontrolled rage, and are reinvigorated by the smell of your enemy's blood.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: battle frenzy, cleave.\
+**Trappings**: clothes (hides and furs, ornated with skulls and bones), martial great weapon (glaive), 4ʂ.
 
 ## Barber-surgeon
 
-A sharp razor and a steady hand are required for both a clean shave and delicate surgeries.\
-**Skills**: _heal_, _strike to injure_.\
-**Items**: clothes (bloodstained apron), simple hand weapon (razor), medicine box, surgical tools, 2ʂ.
+*Fixing bloody wounds, broken bones, and decaying limbs with stitches, razors, and hacksaws is a messy business. You have learnt to ignore your patients' screams of agony.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: heal, strike to injure.\
+**Trappings**: clothes (commoner's attire, bloodstained apron), simple hand weapon (razor), healing kit, surgery kit, 2ʂ.
 
 ## Beast tamer
 
-There is no beast you can't break and train to obedience.\
-**Skills**: _animal handling_, _dodge blows_.\
-**Items**: clothes (numerous claw marks), simple hand weapon (bullwhip), 2ʂ.\
-**Followers**: boar (Lucius, tamed, short-tempered).
+*If one thing is certain, it is that you can trust animals more than your fellow humans. There is no beast you can't break and train to obedience.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: animal handling, dodge blows.\
+**Trappings**: clothes (commoner's attire, claw marked), simple hand weapon (bullwhip), boar (*tamed*, short-tempered), 2ʂ.
 
 ## Beggar
 
-You used to spend your days sitting in the corner of busy roads, hoping to receive a few shillings from generous passers-by.\
-**Skills**: _disease resistance_, _frugal_.\
-**Items**: clothes (dirty, stinky rags), simple hand weapon (sturdy stick), crutch (sometime it pays to pretend you are lame), 2× alcoholic drink, ration (mouldy bread), camping kit, 2ʂ.
-
-## Berserker
-
-You are a savage, bloodthirsty warrior, barely able to control your bloodlust.\
-**Skills**: _battle frenzy_, _cleave_.\
-**Items**: clothes (blood-splattered hides and furs decorated with the skulls of your foes), martial great weapon (glaive), 4ʂ.
+*You have spent countless days sitting in the corners of busy roads, hoping for a few shillings from generous passers-by. Sometimes, you have witnessed events you weren't supposed to.*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: disease resistance, frugal.\
+**Trappings**: clothes (dirty, stinky rags), simple hand weapon (sturdy stick), trinket (crutch), 2× alcoholic drink, ration (mouldy bread), camping kit, 3ʂ.
 
 ## Boatman
 
-You have ferried passengers and smuggled goods along the many rivers flowing across the Kingdom.\
-**Skills**: _river lore_, _swim_.\
-**Items**: clothes (wet and mouldy), simple great weapon (boat hook), fishing tools, 8ʂ.
+*You have ferried passengers and goods along the rivers and canals flowing across the Kingdom. Rumours have it you were also involved in smuggling.*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: boating, swimming.\
+**Trappings**: clothes (wet, mouldy cloak), simple great weapon (boat hook), fishing kit, 8ʂ.
 
 ## Bodyguard
 
-You worked for the rich and powerful, protecting them from robbers and other scum.\
-**Skills**: _protect_, _shield mastery_.\
-**Items**: clothes (marked with the insignia of your last employer), simple hand weapon (baton), shield, 2ʂ.
+*You worked for the rich and powerful, protecting them from robbers and other scum. Your last employer died and you were blamed for it, unjustly by your own account.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: protect, shield mastery.\
+**Trappings**: clothes (military uniform, with your previous employer's insignia), martial hand weapon (arming sword), shield, 4ʂ.
 
 ## Bone-picker
 
-One person's rubbish is another person's treasure: you scour the roads, graves, and gutters looking for something valuable to sell for a few pennies.\
-**Skills**: _frugal_, _quick draw_.\
-**Items**: clothes (mismatched rags, scavenged from various dumpsites), simple hand weapon (femur, _fragile_), junk (bag of dung), junk (dirty wig), junk (broken boots), wheelbarrow (damaged), 2ʂ.
+*One person's rubbish is another person's treasure. You scour the roads, graves, and gutters looking for junk to sell for a few pennies.*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: alert, frugal.\
+**Trappings**: clothes (mismatched rags, scavenged from various dumpsites), simple hand weapon (femur, *fragile*), trinket (bag of dung), trinket (dirty wig), trinket (broken boots), wheelbarrow, 10ʂ.
 
 ## Bounty hunter
 
-You used to roam the cities and the countryside, capturing wanted criminals and fugitive outlaws to collect the bounty on their head.\
-**Skills**: _disarm_, _strike to stun_.\
-**Items**: clothes (large coat and wide-brimmed hat), mancatcher, dream sand, manacles & key, 2ʂ.
+*You are the terror of criminals and outlaws. You relentlessly pursue the bounty on their heads.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: disarm, strike to stun.\
+**Trappings**: clothes (large coat and wide-brimmed hat), mancatcher, soporific poison (inhaled), manacles, 2ʂ.
 
 ## Brawler
 
-Your fists are deadly weapons: nobody is stronger than you!\
-**Skills**: _brawling_, _wrestling_.\
-**Items**: clothes (hand wraps to protect your knuckles), 2× corpse mandrake, lucky charm (lucky belt), 4ʂ.
+*Your fists are deadly weapons. The bones in your hands were made hard and callous by years of bare-knuckle fighting.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: brawling, wrestling.\
+**Trappings**: clothes (hand wraps to protect your knuckles), 2× corpse mandrake, lucky charm (lucky belt), 8ʂ.
 
 ## Burglar
 
-There is no lock you can't open and no safe you can't crack.\
-**Skills**: _burglary_, _pack rat_.\
-**Items**: clothes (comfortable and with generous pockets), simple hand weapon (cudgel), lockpicks, rope, grappling hook, 6ʂ.
+*Fools think that a rusty old lock is enough to safeguard their belongings. It takes much more than that to stop you.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: burglary, pack rat.\
+**Trappings**: clothes (comfortable, with generous pockets), simple hand weapon (cudgel), burglary kit, rope, grappling hook, 6ʂ.
 
 ## Charlatan
 
-You are a cunning liar, fooling people to appropriate their money.\
-**Skills**: _acting_, _charm_.\
-**Items**: clothes (fake city watch uniform, won't stand scrutiny), simple hand weapon (dagger), disguise kit, signet ring (stolen from a wealthy noble), 2ʂ.
+*Pretending to be someone else comes to you naturally. You have no qualms about using your talents to cheat clueless folks.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: acting, charm.\
+**Trappings**: clothes (fake city watch uniform, won't stand scrutiny), simple hand weapon (dagger), disguise kit, signet ring (stolen), 8ʂ.
 
 ## Coach driver
 
-You worked for a coaching company, driving stagecoaches through the dangerous roads of the Kingdom and protecting them with your trusty blunderbuss.\
-**Skills**: _drive carts_, _steady aim_.\
-**Items**: clothes (coat and wide brimmed hat, for the rain), long gun (blunderbuss), 4ʂ.
+*You worked for a coaching company, driving and protecting stagecoaches across the dangerous roads of the Kingdom. Your trustworthy blunderbuss is always by your side.*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: drive carts, steady aim.\
+**Trappings**: clothes (coat and wide-brimmed hat, for the rain), long gun (blunderbuss), 4ʂ.
 
 ## Cutpurse
 
-Some are born with too much: those wealthy nobles aren't going to notice if they are a few shillings short.\
-**Skills**: _steal_, _stealth_.\
-**Items**: clothes (hood covering your face), simple hand weapon (knife), gold jewel (necklace with a noble family emblem, stolen), 2ʂ.
+*Your sneaky little fingers move quickly and lightly. They get into pockets with ease.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: stealing, stealth.\
+**Trappings**: clothes (hood covering your face), simple hand weapon (knife), gold jewel (necklace with a noble family emblem, stolen), 10ʂ.
 
 ## Duellist
 
-You are a skilled duellist, constantly looking for a worthy opponent to hone your skills.\
-**Skills**: _ambidextrous_, _fast strike_.\
-**Items**: clothes (a few stitched up cuts), martial hand weapon (thrusting sword), simple hand weapon (parrying dagger), handgun (pistol), 2ʂ.
+*A thrust of the blade, a pull of the trigger, and everything is over. Nobody can surpass your speed and skill in one-to-one combat.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: ambidextrous, dueling.\
+**Trappings**: clothes (a few stitched-up cuts), martial hand weapon (thrusting sword), simple hand weapon (parrying dagger), handgun (pistol), 2ʂ.
 
 ## Fire eater
 
-You were a performer at a travelling carnival, executing a vast array of exciting tricks with fire.\
-**Skills**: _contortionist_, _fire eating_.\
-**Items**: clothes (covered in soot), missile hand weapon (throwing daggers), 2× alcoholic drink, 2× torch, flint & tinder, 2ʂ.
+*You were a performer at a travelling carnival. You can juggle burning sticks, extinguish them with your mouth, and even breathe fire!*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: contortionist, fire-eating.\
+**Trappings**: clothes (covered in soot), missile hand weapon (throwing daggers), 2× alcoholic drink, 2× torch, flint & tinder, 5ʂ.
+
+## Fisherman
+
+*You were once swallowed by a whale, escaped, and spent months as a guest of the mermaids. It's all true!*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: fishing, swimming.\
+**Trappings**: clothes (damp, smelling like fish), missile hand weapon (harpoons), fishing kit, 4ʂ.
 
 ## Footpad
 
-You have spent years mugging unaware victims in shady alleys and dark forest roads, and occasionally killing for money.\
-**Skills**: _sneak attack_, _strike to stun_.\
-**Items**: clothes (scarf to cover your face), simple hand weapon (cudgel), garrotte, silver jewel (stolen bracelet), 6ʂ.
+*You stalk dark alleys and remote paths to rob unfortunate passers-by. You aren't above taking someone's life if there is something to be earned.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: sneak attack, stealth.\
+**Trappings**: clothes (scarf to cover your face), simple hand weapon (cudgel), silver piece (stolen bracelet), 16ʂ.
 
 ## Gambler
 
-Luck come and goes at the gaming table, but it has never abandoned you, not with the help of a few clever tricks.\
-**Skills**: _lucky_, _play games_.\
-**Items**: clothes (large, comfortable sleeves), missile hand weapon (darts), cards (marked), dice (loaded), 8ʂ.
+*Luck comes and goes at the gaming table, but it has never abandoned you. You make your own, after all.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: gambling, play games.\
+**Trappings**: clothes (large, comfortable sleeves), missile hand weapon (darts), cards (marked), dice (loaded), 8ʂ.
+
+## Guard
+
+*A life spent fighting crime has made you paranoid. Everything wants to kill you, and danger lies behind every corner.*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: alert, strike to stun.\
+**Trappings**: clothes (city watch uniform), martial hand weapon (spear), manacles, 10ʂ.
 
 ## Hunter
 
-When you hunt in the dark forests of the Kingdom, you sometimes wonder if you really are the hunter or rather the prey.\
-**Skills**: _bushcraft_, _hunt_.\
-**Items**: clothes (decorated with trophies from your preys), missile great weapon (bow), 4ʂ.
+*The dark forests of the kingdom are home to monstrous beasts. Sometimes, you wonder if you really are the hunter or rather the prey.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: bushcraft, hunt.\
+**Trappings**: clothes (decorated with trophies from your prey), missile great weapon (bow), 4ʂ.
 
 ## Jester
 
-You have spent your life making a fool of yourself to entertain the nobles, but you will have the last laugh!\
-**Skills**: _acrobatics_, _blather_.\
-**Items**: clothes (colourful, with a bell hat), simple hand weapon (stick with bells, jingles cheerfully when it strikes), 2× reaper's spice, 2ʂ.
+*You have spent your life making a fool of yourself to entertain spoiled aristocrats. You will show everyone your worth, and you will have the last laugh!*\
+**Skills**: blather, taunt.\
+**Trappings**: clothes (colourful, with a bell hat), simple hand weapon (stick with bells, jingles cheerfully when it strikes), 2× deadly poison (ingested), 2ʂ.
 
 ## Knight
 
-With your honour lost and no coin left to your name, you wander the lands selling your fighting skills for money.\
-**Skills**: _ride_, _skilled blow_.\
-**Items**: clothes (colourful livery), martial hand weapon (warhammer), saddle, 4ʂ.
+*With your honour lost and no coin left to your name, you wander the lands selling your sword. Everyone needs to eat.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: ride, skilled blow.\
+**Trappings**: clothes (colourful livery), martial hand weapon (warhammer), saddle, 4ʂ.
 
 ## Labourer
 
-Your bones and muscles have been hardened by years of toiling under sun and rain.\
-**Skills**: _pack rat_, _tough_.\
-**Items**: clothes (drenched in sweat), simple great weapon (sledgehammer), simple great weapon (shovel), 2× ration (packed lunch), 8ʂ.
-
-## Lawyer
-
-Nobody is above the law, but you can help those with enough money wiggle through its many loopholes.\
-**Skills**: _charm_, _politics_.\
-**Items**: clothes (court attire), simple hand weapon (heavy gavel), book (Laws of the Kingdom), 2ʂ.
+*You are stronger than an ox. Your bones and muscles have been hardened by years of toiling under sun and rain.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: pack rat, tough.\
+**Trappings**: clothes (drenched in sweat), simple great weapon (sledgehammer), simple great weapon (shovel), 2× ration (packed lunch), 8ʂ.
 
 ## Messenger
 
-Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner.\
-**Skills**: _fleet footed_, _languages_.\
-**Items**: clothes (dusty and sweaty), missile hand weapon (sling), scroll (blank), quill & ink, lockbox & key, 8ʂ.
+*Time is of the essence when carrying messages across the Kingdom, and you sure are a fast runner. Your quick feet have saved your skin on many occasions.*\
+**Skills**: fleet-footed, languages, literate.\
+**Trappings**: clothes (dusty and sweaty), missile hand weapon (sling), writing kit, lockbox, 2ʂ.
 
 ## Miner
 
-Crawling through dark, cramped tunnels, breaking rocks and breathing dust, wasn't the life you deserve.\
-**Skills**: _dark vision_, _piercing strike_.\
-**Items**: clothes (sweaty and dusty), simple great weapon (pickaxe), 2× oil lamp, lantern, flint & tinder, 8ʂ.
+*You have crawled for far too long in dark tunnels and dusty mines. You got used to orienting yourself using your hearing, touch, and smell.*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: darksight, piercing strike.\
+**Trappings**: clothes (sweaty and dusty), simple great weapon (pickaxe), 2× oil lamp, lantern, flint & tinder, 8ʂ.
 
 ## Noble
 
-Your house has fallen and you must now mingle with the lowly scum, but the day will come when you can reclaim what's yours by birthright!\
-**Skills**: _consume alcohol_, _poison resistance_.\
-**Items**: clothes (ostentatious fripperies, old and full of holes), martial hand weapon (dented sword, family heirloom), signet ring (proof of your identity), 4ʂ.
+*Your house has fallen and you must now mingle with the lowly scum. The day will come when you can reclaim what's yours by birthright!*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: consume alcohol, poison resistance.\
+**Trappings**: clothes (ostentatious fripperies, old and full of holes), martial hand weapon (dented sword, family heirloom), signet ring (proof of your identity), 4ʂ.
 
 ## Peasant
 
-Your life was simple: growing crops and tending to livestock, trying to put enough food on the table to survive another winter.\
-**Skills**: _farming_, _gossip_.\
-**Items**: clothes (stinking of manure), simple great weapon (hoe), simple great weapon (pitchfork), 4ʂ.\
-**Followers**: chicken (Bertha, dumb and brave), duck (Jonathan, noisy and loud), pig (Hans, picky about food).
+*Your life was simple: growing crops and tending to livestock, trying to put enough food on the table to survive another winter. With ignorant and stubborn optimism, you have now embarked on a life of adventure.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: farming, gossip.\
+**Trappings**: clothes (stinking of manure), simple great weapon (hoe), simple great weapon (pitchfork), chicken (dumb and brave), duck (noisy and loud), farm animal (pig, picky about food), 8ʂ.
 
 ## Pedlar
 
-You made a small fortune transporting and trading exotic goods, but you lost everything because of a bad business decision.\
-**Skills**: _bargain_, _languages_.\
-**Items**: clothes (excessive amounts of cheap fake jewellery), simple hand weapon (dagger), clothes (made of silk, _expensive_).
+*You immediately notice a good deal when you see one. Haggling is your second nature, and you won't settle without a good bargain.*\
+**Skills**: bargaining, languages, literate.\
+**Trappings**: clothes (excessive amounts of cheap fake jewellery), simple hand weapon (dagger), clothes (made of silk, *expensive*), 10ʂ.
 
 ## Physician
 
-You are an erudite doctor, knowledgeable about poison, disease, surgery, and healing.\
-**Skills**: _heal_, _medicine_.\
-**Items**: clothes (spotless black coat), simple hand weapon (scalpel), cure, medicine box, 2ʂ.
-
-## Pit fighter
-
-You have fought for money in illegal arenas and as a judicial champion for hire.\
-**Skills**: _fast strike_, _wrestling_.\
-**Items**: clothes (torn, dusty, and covered in old blood), martial hand weapon (morningstar), net, 4ʂ.
+*You know everything about the human body and its ailments. Your services used to be quite expensive.*\
+**Skills**: heal, literate, medicine.\
+**Trappings**: clothes (spotless black coat), simple hand weapon (scalpel), cure (generic), healing kit, 2ʂ.
 
 ## Priest
 
-Yours is the burden to teach and guide people so that they don't succumb to the lure of darkness.\
-**Skills**: _faith_, _incorruptible_.\
-**Items**: clothes (priestly robes and religious paraphernalia), simple great weapon (staff), power scroll (sacred).
-
-## Raconteur
-
-You have travelled far and wide across the kingdom, singing songs and acting out enthralling stories.\
-**Skills**: _acting_, _music_.\
-**Items**: clothes (flamboyant and fashionable), simple hand weapon (knife), music instrument (fiddle, lute, flute, or drums), book (music sheets), 2ʂ.
+*You face the perils of the world with blind, stubborn faith and optimism. The gods smile over your destiny!*\
+**Skills**: faithful, literate, lucky.\
+**Trappings**: clothes (priestly robes and religious paraphernalia), simple hand weapon (ritual knife), sacred scroll.
 
 ## Rat catcher
 
-Rats are everywhere and nobody likes them. You make a living getting rid of them, but you swear they are getting larger and nastier by the day.\
-**Skills**: _disease resistance_, _poison resistance_.\
-**Items**: clothes (partly made of rat fur), simple hand weapon (pointy stick), trapping tools, 2ʂ.\
-**Followers**: small dog (Brutus, trained to hunt rats, small but vicious).
+*Rats are everywhere and nobody likes them. You make a living getting rid of the pests, but you swear they are getting larger and nastier by the day.*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: disease resistance, poison resistance.\
+**Trappings**: clothes (partly made of rat fur), simple hand weapon (pointy stick), trapping kit, small dog (small but vicious, trained to hunt), 6ʂ.
 
 ## Scholar
 
-Hunched over dusty ancient tomes, you have accumulated vast amounts of knowledge: time to put it into practice!\
-**Skills**: _alchemy_, _erudition_.\
-**Items**: clothes (night gown and comfortable shoes), simple hand weapon (cane), quill & ink, book (blank, you can't wait to fill it with your learnings), looking glass.
+*Hunched over dusty old tomes, you have accumulated vast amounts of knowledge. Time to put it into practice!*\
+**Skills**: blather, erudite, literate.\
+**Trappings**: clothes (night gown and comfortable shoes), simple hand weapon (cane), writing kit, book (a subject of your choice: history, philosophy, astronomy, etc.), 2ʂ.
 
 ## Sharpshooter
 
-Your skill with a bow or a gun has no equals: you can shoot a moving squirrel from half a mile away.\
-**Skills**: _steady aim_, _skilled shot_.\
-**Items**: clothes (wide brimmed hat to shade your eyes), long gun (arquebus), 4ʂ.
+*A single shot can mean the difference between life and death. You have trained for years to make sure you never miss.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: steady aim, skilled shot.\
+**Trappings**: clothes (wide-brimmed hat to shade your eyes), long gun (arquebus), 4ʂ.
 
 ## Slayer
 
-There is good pay for slaying giant monsters: it's a dangerous job, but you are brave and foolish enough to do it.\
-**Skills**: _dodge blows_, _monster slaying_.\
-**Items**: clothes (thick hardened leather, cut, burnet, scratched, and torn), martial great weapon (pike), 4ʂ.
+*Terrible monsters roam the wilderness and threaten travellers and country folk. There is good pay for slaying them.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: dodge blows, monster slaying.\
+**Trappings**: clothes (thick hardened leather, cut, burnet, scratched, and torn), martial great weapon (pike), 4ʂ.
 
 ## Soldier
 
-You have fought for the Kingdom and seen the horrors of war, the nightmares will never stop.\
-**Skills**: _skilled blow_, _skilled shot_.\
-**Items**: clothes (uniform from your regiment, has seen better days), martial great weapon (halberd), 4ʂ.
+*You have fought many battles and slain countless foes. You have survived, but the nightmares will never stop.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: skilled blow, skilled shot.\
+**Trappings**: clothes (uniform from your regiment, has seen better days), martial great weapon (halberd), 4ʂ.
 
 ## Soothsayer
 
-You are blessed, or maybe cursed, with the ability to see what others can't.\
-**Skills**: _divination_, _lucky_.\
-**Items**: clothes (hooded robes), simple hand weapon (cleaver), divination tools, lucky charm (rabbit foot), 2ʂ.
+*You are blessed, or maybe cursed, with the ability to see what others can't. You have witnessed the end of the world, and that vision is etched into your memory.*\
+**Abilities**: +1 AGI, +1 WIT.\
+**Skills**: divination, lucky.\
+**Trappings**: clothes (hooded robes), simple hand weapon (cleaver), divination kit, lucky charm (rabbit foot), 2ʂ.
+
+## Sorcerer
+
+*You are a secretive scholar of the esoteric arts, and have learnt to wield and control dark powers. Many fear you, and with good reason.*\
+**Skills**: erudite, literate, sorcery.\
+**Trappings**: clothes (comfortable robes), simple hand weapon (dagger), arcane scroll.
+
+## Storyteller
+
+*Even at the end of the world, humans feel the need for art. Your tales and songs bring a smile in the bleakest times.*\
+**Skills**: acting, literate, storytelling.\
+**Trappings**: clothes (flamboyant and fashionable), simple hand weapon (knife), music instrument (fiddle, lute, flute, or drums), book (music sheets), 2ʂ.
 
 ## Thug
 
-A sturdy club is the best way to send a strong message, as you like to say.\
-**Skills**: _brawling_, _intimidate_.\
-**Items**: clothes (covering your face), simple hand weapon (spiked club), 2× crimson weed, 10ʂ.
+*You like to let your fists do the talking. They are extremely persuasive.*\
+**Abilities**: +1 STR, +1 AGI.\
+**Skills**: brawling, intimidate.\
+**Trappings**: clothes (covering your face), simple hand weapon (spiked club), 2× crimson weed, 2× mad mushrooms, 10ʂ.
 
 ## Tomb robber
 
-Precious treasures are buried in ancient crypts and old tombs: their previous owners aren't going to miss them.\
-**Skills**: _burglary_, _climb_.\
-**Items**: clothes (capacious rucksack to store the loot), simple great weapon (spade), crowbar, flint & tinder, rope, torch, 7ʂ.
+*Unimaginable treasures are buried in ancient crypts and old tombs. Their previous owners aren't going to miss them.*\
+**Skills**: burglary, climbing.\
+**Trappings**: clothes (capacious rucksack to store the loot), simple great weapon (spade), simple hand weapon (crowbar), flint & tinder, rope, torch, 9ʂ.
 
 ## Witch hunter
 
-Warlocks, witches, and sorcerers are a threat to mankind: they are destined to meet their end engulfed in the flames of a pyre.\
-**Skills**: _magic sense_, _magic shield_.\
-**Items**: clothes (wide brimmed hat, pitch black clothes), handgun (pistol), 2× blessed water, 8ʂ.
-
-## Wizard
-
-You are a secretive scholar of the esoteric arts: many fear you, and with good reason.\
-**Skills**: _meditation_, _sorcery_.\
-**Items**: clothes (comfortable robes), simple hand weapon (dagger), power scroll (profane).
+*Warlocks, witches, and sorcerers are a threat to mankind. They are destined to meet their end engulfed in the flames of a pyre.*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: magic sense, magic shield.\
+**Trappings**: clothes (capotain and pitch-black clothes), handgun (pistol), 2× blessed water, 8ʂ.
 
 ## Woodsman
 
-You used to fell trees for timber in the cold and dreary forests of the Kingdom.\
-**Skills**: _bushcraft_, _tough_.\
-**Items**: clothes (greenish cloak), simple great weapon (woodcutting axe), warm clothes (bear furs), 4ʂ.
+*You have spent most of your life in the untamed wilderness. You know how to survive and thrive even when far from civilisation.*\
+**Skills**: bushcraft, tough.\
+**Trappings**: clothes (greenish cloak), simple great weapon (woodcutting axe), warm clothes (bear furs), 8ʂ.
 
 ## Zealot
 
-You have a dark past and many sins to atone for: you are going to save your soul by purging the heretic!\
-**Skills**: _battle frenzy_, _bravery_.\
-**Items**: clothes (bloodstained monastic habit), martial hand weapon (flail), book (Holy Scriptures).
+*You have a dark past and many sins to atone for. You are going to save your soul by purging the heretic!*\
+**Abilities**: +1 STR, +1 WIT.\
+**Skills**: battle frenzy, brave.\
+**Trappings**: clothes (bloodstained monastic habit), martial hand weapon (flail), book (Holy Scriptures), 4ʂ.
 

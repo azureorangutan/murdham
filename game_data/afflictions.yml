@@ -1,0 +1,17 @@
+addicted: >-
+  The character must consume a certain substance when resting or lose 1 WIT.
+  After downtime, they must consume 4 doses or lose 1 WIT per missing dose.
+blind: >-
+  Unable to see.
+deaf: >-
+  Unable to hear.
+disabled arm: >-
+  The character can't use it.
+  1:2 chance it affects the primary arm.
+disabled eye: >-
+  The character is *blinded* if both are disabled.
+disabled leg: >-
+  The character is always encumbered and halves the carry limit.
+  If both legs are disabled, the character can only **crawl** one zone per round as a round action.
+entangled: >-
+  The character can't do anything.

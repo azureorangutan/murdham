@@ -7,12 +7,10 @@ appearance:
 - Good looking, hopelessly vain.
 - Filthy, your stench fills the room.
 - Very clean, you try to wash yourself every day.
-- Rotten teeth, bad breath.
+- Decaying teeth, bad breath.
 - Beautiful teeth, constantly smiling.
 - Plain features, your face is hard to remember.
 - Exotic features, your ancestors hail from a distant land.
-- Conventional clothing, you feel the need to conform.
-- Unorthodox clothing, in a foreign fashion.
 - Bad posture, slouching and hunching.
 - Perfect posture, straight and proud.
 - Glabrous, not a single hair grows on your body or face.
@@ -23,8 +21,8 @@ appearance:
 - Oily skin, punctuated with boils and pustules.
 - Perfect skin, smooth as silk.
 - Large birthmark, surely proof of noble ancestry.
-- Large tattoo, representing something important to you.
-- Numerous piercings, your face looks like a jewellery store.
+- Noticeable tattoo, representing something important to you.
+- Many piercings, your face looks like a jewellery store.
 - Bald, either by choice or by necessity.
 - Long and luscious hair, your pride and joy.
 - Dyed hair, in a flashy colour.
@@ -39,6 +37,10 @@ appearance:
 - Missing toe, you walk with a slight limp.
 - Missing ear, a punishment for a past deed.
 - Missing tooth, lost in a brawl.
+- Staring, with a manic gaze.
+- Red nose, swollen and itchy.
+
+
 feminine first names:
 - Ada
 - Adallinda
@@ -120,6 +122,8 @@ feminine first names:
 - Susanna
 - Sybilla
 - Theodelinda
+
+
 last names:
 - Albon
 - Alder
@@ -201,6 +205,8 @@ last names:
 - Waghorn
 - Wanless
 - Woods
+
+
 masculine first names:
 - Adalbert
 - Allwin
@@ -282,6 +288,8 @@ masculine first names:
 - William
 - Wilmarc
 - Ymbert
+
+
 personality:
 - Arrogant, you think you are always right.
 - Humble, you don't give yourself enough credit.
@@ -292,10 +300,10 @@ personality:
 - Decadent, you can't resist wordly pleasures.
 - Stoic, you refuse any form of luxury.
 - Misanthrope, you have no qualms hurting fellow humans.
-- Altruist, you can't help but look after others.
+- Altruist, always looking out for others.
 - Solitary, you only feel at ease by yourself.
 - Sociable, you definitely speak too much.
-- Deceitful, you lie even when unnecessary.
+- Deceitful, you lie almost instinctively.
 - Honest, or at least more honest than most.
 - Lazy, hard work is for losers.
 - Energetic, you can't stay still.
@@ -306,62 +314,66 @@ personality:
 - Submissive, it's easier to just follow others.
 - Bossy, you constantly order people around.
 - Superstitious, you hoard useless trinkets.
-- Sceptical, it's hard to persuade you.
+- Sceptical, it's hard to change your mind.
 - Naive, you are convinced there is good in everyone.
 - Experienced, you have learnt from past misadventures.
 - Wicked, nothing is wrong as long as it benefits you.
 - Righteous, you can't stand to see a wrong go unpunished.
 - Irreverent, constantly badmouthing the authorities.
 - Pious, frequently muttering prayers.
-- Sarcastic, you laugh at your own jokes.
-- Stern, nobody remembers seeing you smiling.
+- Sarcastic, borderline offensive.
+- Stern, nobody has seen you smile.
 - Reserved, the less people know about you, the better.
 - Braggart, always talking loudly about your exploits.
 - Tactful, sometimes almost too subtle.
-- Blunt, you just say what you think.
+- Blunt, like a flail to the face.
 - Silent, you only say what's essential.
-- Chatty, you can talk for hours without interruption.
+- Chatty, you can talk for hours without pause.
 - Pragmatic, the end result is all that matters.
 - Idealistic, you have principles and stand by them.
-reasons to adventure:
-- you couldn't stand your tedious and repetitive existence.
-- you want to learn more about the world.
-- being on the road will keep you away from your past.
-- you answered the calling of the Church.
-- you want to make the world a better place.
-- you want minstrels to tell your tale for centuries to come.
-- you seek redemption from your sins.
-- you want money, a lot of money.
-- you were awful at your past occupation.
-- you seek vengeance on someone who ruined your existence.
-- you want to follow in the footsteps of one of your relatives.
-- you think you would make a decent adventurer.
-- you seek the thrill of adventure.
-- you want to improve yourself.
-- you want to prove you can handle yourself.
-- you have a duty to uphold.
-- you seek a honourable death.
-- you have lost everything and want to start over.
-- you want to save the Kingdom.
-- events out of your control forced you to.
+
+
+goal:
+- You seek excitement, you couldn't stand your tedious and repetitive existence.
+- You crave knowledge, you want to learn more about the world.
+- You want to forget your terrible past, being on the road will keep you distracted.
+- Your only desire is to serve your god, reward will come in the afterlife.
+- You wish to improve the world, to hell with the doomsayers!
+- You seek fame, minstrels shall tell your tale for centuries to come!
+- You seek redemption, your past is marred by a terrible stain.
+- You want money, a lot of money.
+- You were tired and sick of your pathetic life, you seek new thrills and challenges.
+- You seek vengeance, someone close to you was murdered.
+- You are running away, someone is hunting you for a past crime.
+- You want to better yourself, your past life didn't challenge you enough.
+- You want to prove you can handle yourself.
+- You have a duty to uphold, you are honour-bound to it.
+- You seek a honourable death, you'd rather not die a craven old man.
+- You want to save the Kingdom, and maybe this whole dying world.
+- You have set out to find your long lost uncle, but have no idea where to start.
+- You just want to fight, kill, and spill blood.
+- A beautiful visitor appeared in your dreams, asking you to find them.
+- You just live by the day, you are glad as long as there is food on the table.
+
 relationships:
 - met in prison, spent a few years there together.
 - fought a war together, they share terrible memories.
 - met in a tavern, became friends after a few drinks.
-- served the same person in the past.
-- have been travelling together for safety.
+- used to serve the same master.
+- have been travelling together for safety for a while.
 - are childhood friends and grew up together. Good memories.
 - are relatives, they can't stand each other but they still care.
 - have a common acquaintance who introduced them to each other.
 - studied under the same mentor.
-- are the sole survivors of a previous company.
-- are the sole survivors of a ravaged village.
-- were accomplices in crime, were never caught.
+- are the sole survivors of a previous adventuring company.
+- are the only ones who were spared from a ravaged village.
+- were accomplices in crime. They were never caught.
 - are mentor and pupil.
 - are master and servant.
 - just met the other day, but get along surprisingly well.
 - come from the same village, but barely talked before.
-- worked together in the past, they have stories to share.
+- worked together in the past, they share many memories.
 - come from two families with close ties.
-- have both witnessed something weird, nobody else believes them.
+- are the only witnesses of something weird and terrible, nobody else believes them.
 - share a common secret, they don't talk about it.
+
