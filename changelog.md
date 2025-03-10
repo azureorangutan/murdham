@@ -1,7 +1,10 @@
 # Changelog
 
-## 2024.11.27
+## 2025.03.10
+* New major version 2.0, including, an almost complete rewrite of the game.
 
+
+## 2024.11.27
 * Converted content from asciidoc to markdown (better performance and support, even though less flexible).
 * Fixed a bug in the search functionality.
 * Reduced the cost of a full rest to 32 shillings, plus extra cost if recovery from injuries is needed.
@@ -14,7 +17,6 @@
 
 
 ## 2024.11.26
-
 * _Consume alcohol_ skill: it now lets you recover 2 health from an _alcoholic drink_.
 * Removed a reference to the _apothecary_ skill in the _medicinal herbs_ description.
 * Reduced the suggested cost for the transportation service.

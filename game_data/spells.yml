@@ -1,0 +1,381 @@
+arcane spells:
+- name: Astro's Magnificent Lock
+  descr: >-
+    Target an item which can be opened and closed (a door, a box, etc.).
+    The target is locked and can only be opened by a trigger of your choice (a special key, a password, a gesture, etc.).
+    It can still be broken.
+    The nature of this spell is unknown,
+    but some posit that it conjures an invisible demon holding the object closed.
+  enhancements:
+  - The target emits a loud scream if someone attempts to open or break it.
+- name: Awaken the Eternal Servant
+  descr: >-
+    Target the corpse of a tiny or medium creature.
+    It is raised as an undead.
+    It keeps its STR, halves AGI and WIT, loses all skills, and gains the *undead* and *frenzied* traits.
+    The corpse is only driven by the desire to destroy the living, but won't turn against you.
+    It is impossible to raise the same corpse again after it has been destroyed.
+  enhancements:
+  - You can target the corpse of a huge creature.
+  - The corpse retains the intelligence it had in life.
+    It maintains its WIT score and skills, and doesn't acquire *frenzied*.
+    It still can't harm you, but might not like its current condition...
+- name: Bestial Metamorphosis
+  descr: >-
+    Target a person.
+    The target's bones and flesh are painfully rearranged, turning them into an animal at the end of their next activation.
+    Until then, they are unable to act.
+    They retain their intelligence, but can't speak, and their gear falls to the ground.
+    Every individual always turns into the same beast, their spirit animal.
+    The GM picks one or rolls a d12:
+    1) cat;
+    2) small dog;
+    3) light horse;
+    4) mule;
+    5) sheep;
+    6) bat;
+    7) rat;
+    8) wolf;
+    9) boar;
+    10) deer;
+    11) hawk;
+    12) viper.
+  enhancements:
+  - The target retains the ability to speak.
+  - If you carry an *animal trophy*, you can turn the target into that specific animal instead of their spirit animal.
+    The trophy merges with the target for the duration of the spell.
+- name: Bewitch
+  descr: >-
+    Target a creature.
+    The target becomes infatuated with you.
+    They are extremely friendly, but also rather obsessive.
+    They keep their free will and won't be easily convinced to do something harmful or against their morals.
+    The spell ends prematurely if you hurt them or take advantage of them.
+  enhancements:
+  - The target is compelled to obey, without question, one single request coming from you,
+    triggered by a sentence pattern of your choice.
+    However, this will break the spell after their next activation.
+- name: Blessing of the Deep One
+  descr: >-
+    Target a creature.
+    Gills and fins appear on the target's body, and their hands and feet become palmate.
+    They can breathe underwater and swim as naturally as they can walk.
+  enhancements:
+  - The target also gains the ability to communicate with water creatures.
+- name: Burning Fire of Vengeance
+  descr: >-
+    Target a person, name someone who wronged or offended them, even slightly, and remind them how.
+    The target's blood boils with anger,
+    and they become obsessed with an irrational desire to take revenge by killing the named person.
+    If they are in their presence, they will do what they can to harm them.
+  enhancements:
+  - The target becomes so obsessed that they will hunt and seek the named person, no matter where they are.
+- name: Chaotic Miasma of Change
+  descr: >-
+    Target a zone.
+    A twirling, multi-coloured mist raises from the ground within it.
+    It blocks visibility, and characters who exit or end their activation in the mist suffer 2 corruption.
+    Plants and even inanimate objects also change in weird ways.
+  enhancements:
+  - Double the amount of corruption.
+  - The mist covers all zones within range 1 of the targeted one.
+    Enhance multiple times to double the range.
+- name: Damnable Conjuration of Morkarr
+  descr: >-
+    Target a zone.
+    You open a dark portal to the Netherworld within it, just long enough for a demon to step through it.
+    The demon isn't under your control and behaves according to its own desires.
+    It will be banished back when the spell ends, or whenever it wishes to return itself.
+    You can summon a specific demon by calling its name; otherwise, the GM chooses.
+  enhancements:
+  - Draw a circle on the ground.
+    The summoned demon is bound within its boundaries until it accepts a bargain with you.
+    The demon might refuse or try to negotiate.
+- name: Deathly Curse of Tramar
+  descr: >-
+    Instantaneous.
+    The range of this spell can't be enhanced; it is always centred on the caster.
+    All living, tiny creatures within close range and who can hear the curse must pass a group STR roll or die.
+    The caster, demons, and undead are unaffected.
+  enhancements:
+  - The spell works one zone further.
+  - The spell also affects medium-sized creatures.
+    Enhance a second time to also affect huge creatures.
+  - The targets automatically die without a STR roll.
+- name: Deceitful Demise
+  descr: >-
+    Target a creature.
+    The target is paralysed and falls to the ground like a stringless puppet.
+    They are *incapacitated* and appear dead even upon close examination,
+    but must still breathe and will suffer from hunger and thirst.
+    The spell ends if the target is hurt.
+  enhancements:
+  - The target doesn't have to eat or drink while under the influence of this spell.
+  - The target is able to perceive what happens around them while under the influence of this spell.
+- name: Doom Covenant
+  descr: >-
+    Target a person with whom you want to seal a bargain.
+    You summon a demon to bear witness and act as a guarantor:
+    it will punish whoever breaks the deal while under the influence of this spell.
+    The nature of the punishment is decided by the demon: it might be death, possession, one's soul, etc.
+    You can summon a specific demon by calling its name; otherwise, the GM chooses.
+  enhancements:
+  - You can't be punished even if you break the bargain.
+    However, there is a 1:4 chance that the demon will find a loophole and will still be able to.
+- name: Dreadful Leech
+  descr: >-
+    Instantaneous.
+    Target a creature.
+    A leech-like tentacle projects from your mouth, biting the target and sucking their blood.
+    The target suffers d6 damage and you recover an equal amount.
+    This spell can be evaded and guarded against also at *sight* range.
+  enhancements:
+  - Your attack gains the *grab* property.
+    If you do grab the target, you can pull them towards you, and you can keep inflicting damage with this spell while you keep hold as your round action.
+- name: Flawed Resurrection of Görst
+  descr: >-
+    Instantaneous.
+    Target the lifeless heart of a creature who died during the current stretch.
+    A new body slowly forms around it by the end of the stretch, and the target's spirit is called back to inhabit it, effectively resurrecting them.
+    The new body, however, is different from the original in appearance and capabilities.
+    Reassign STR, AGI, and WIT randomly, as done during character creation.
+    Skills, memories, and personality don't change, but physical traits such as permanent injuries or mutations are lost.
+  enhancements:
+  - You can target someone who died on this day.
+    Further enhancements add another day.
+- name: Mindworm
+  descr: >-
+    Target a creature.
+    You are able to perceive what they perceive.
+    However, you are unaware of what happens around your own body, which appears to be locked in deep meditation.
+    You can voluntarily go back to your body, but only if you are within the range at which you cast the spell.
+  enhancements:
+  - You can also telepathically communicate with the target.
+- name: Mirtello's Most Excellent Illusion
+  descr: >-
+    Target a zone.
+    You create an illusion within its boundaries, which can affect one sense (sight, hearing, or smell, but not touch).
+    While you are within range, you can concentrate on the illusion to change or animate it.
+    When you stop, the illusion remains frozen in the state you left it.
+  enhancements:
+  - You can make the illusion animate in a loop by itself.
+  - The illusion can affect another sense.
+- name: Occult Consultation
+  descr: >-
+    Instantaneous.
+    Target the remains of a person who died during the current scene, whose spirit is still lingering in the area.
+    You may ask the spirit one question, but they aren't forced to answer truthfully, if at all.
+    If you enhance the spell's range to *connection*, you may contact the spirit of a long-dead person.
+    In this case, they can only answer by knocking on the door to the underworld:
+    the answer can be yes-or-no (knock once or twice) or a number.
+  enhancements:
+  - The target can't lie, but they can still choose not to answer.
+  - Double the number of questions you may ask.
+- name: Pankratius's Blast of Vengeance
+  descr: >-
+    Instantaneous.
+    Make an attack inflicting d10 damage.
+    It can be evaded and guarded against also at *sight* range.
+  enhancements:
+  - The attack inflicts fire, lightning, cold, or heat damage.
+  - The attack gains the *blast* property.
+- name: Plaguebearer's Gift
+  descr: >-
+    Instantaneous.
+    Target a creature.
+    The Rot God blesses the target, who immediately contracts an infectious disease, even if they are immune to it.
+    You can choose any disease you have previously encountered and know about.
+  enhancements:
+  - >-
+    You empower the disease with the blessing of the Rot God.
+    *Cures* don't work against it, only natural recovery or magic.
+- name: Shroud of Quietness
+  descr: >-
+    Target a zone.
+    No sound can be produced or heard within it.
+  enhancements:
+  - The spell also affects other zones within range 1.
+    Enhance multiple times to double the range.
+- name: Sorcerer's Tongue
+  descr: >-
+    Target a creature.
+    The target gains the ability to speak a language of your choice.
+  enhancements:
+  - You can target a beast, who also gains a burst of intelligence to be able to converse.
+    By applying this enhancement a second time, you may even target plants.
+    A third time lets you target inanimate objects.
+- name: Swift Chariot of the Winds
+  descr: >-
+    Target a creature.
+    The target is raised by the wind, gaining the *flying* trait.
+    The winds are too turbulent and the target is unable to do anything requiring finesse, including attacking, while flying.
+    The spell ends immediately once the target touches the ground again.
+  enhancements:
+  - The target is able to act while flying.
+  - The target also gets the *fast* trait while flying.
+- name: Taste of Fire
+  descr: >-
+    Instantaneous.
+    Target up to 4 portions of food or alcohol.
+    Food becomes extremely spicy, and alcohol incredibly strong.
+    Those eating the food must pass a STR roll or succumb to sudden acute diarrhoea.
+    Drinking one unit of alcohol counts as drinking two.
+    Characters with the *fire-eating* skill are unaffected.
+  enhancements:
+  - The food and alcohol actually burn the innards of those who consume them, inflicting d6 fire damage.
+    Enhance again to improve the damage die to d10.
+- name: Unbind the Chains of the Soul
+  descr: >-
+    Target a creature.
+    The target's spirit is separated from the body, which appears deep asleep.
+    The spirit is ethereal and can fly and cross solid barriers.
+    It can return to the body to end the spell prematurely.
+  enhancements:
+  - The target can read the superficial thoughts of other by touching their brain while in spiritual form.
+- name: Way of the Ten Thousand Steps
+  descr: >-
+    You must prepare this spell by drawing or carving a matching sigil on two doors.
+    You can target either door to open a portal connecting them.
+  enhancements:
+  - upon casting, specify a key which is required to use the portal.
+    This could be an actual key, an item, a password, a gesture, etc.
+    Those who attempt to cross the portal without the key are stopped by a solid barrier.
+
+
+sacred spells:
+- name: Aegis of Faith
+  descr: >-
+    Target a creature.
+    The target appears surrounded by a blurry barrier and gains armour 1.
+    It doesn't stack with equipped armour.
+    The spell ends prematurely if the target is *incapacitated*, killed, or suffers corruption.
+  enhancements:
+  - Increase armour to 2.
+    You can only apply this enhancement once.
+- name: Bless Water
+  descr: >-
+    Instantaneous.
+    Target up to 2 bottles filled with clean water, which turn into *blessed water*.
+  enhancements:
+  - You can target dirty water, no matter how filthy.
+    It is cleansed and purified, turning pure and crystalline.
+- name: Call to Judgement
+  descr: >-
+    Instantaneous.
+    Target a person and accuse them of a grave injustice they have allegedly committed.
+    The target is engulfed by flames: they suffer d10 fire damage if guilty, but are unharmed if innocent.
+    This spell doesn't work with minor accusations of little significance.
+  enhancements:
+  - The flames burn the guilty into ashes, killing them on the spot.
+- name: Chant of Banishment
+  descr: >-
+    Instantaneous.
+    Target a demon and pronounce its name.
+    The target is instantly banished.
+- name: Chant of Unbroken Bravery
+  descr: >-
+    Target a creature.
+    The target is immune to fear and morale.
+    The spell ends prematurely if the target is *incapacitated*, killed, or suffers corruption.
+  enhancements:
+  - The target emanates an intangible aura of bravery.
+    Everyone else, friends or foe, in the same zone is also immune to fear and morale.
+    Enhance again to double the range.
+- name: Prayer of Absolution
+  descr: >-
+    Instantaneous.
+    Target a creature.
+    The target heals 1 corruption.
+  enhancements:
+  - Double the amount of healed corruption.
+- name: Saint Austeria's Miracle of Healing
+  descr: >-
+    Instantaneous.
+    Target a creature.
+    The target recovers d8 health (at most half the maximum).
+  enhancements:
+  - Restore half the maximum health.
+    Enhance again to restore health to the maximum.
+- name: Sanctuary of Purity
+  descr: >-
+    Target a zone.
+    It is enveloped in a barely visible, translucent dome.
+    Within it, arcane spells and magic items don't work,
+    and demons, undead, and creatures born out of arcane magic suffer d4 direct damage at the end of each activation.
+  enhancements:
+  - All zones within range 1 are also covered by the dome.
+    Enhance again to double the range.
+- name: Sigil of the Exorcist
+  descr: >-
+    Target an item.
+    The burning sigil of the two-headed serpent appears on it,
+    making it impossible for demons, undead, and creatures born out of arcane magic to voluntarily touch it.
+  enhancements:
+  - A holy sigil burns incandescent on the item and is clearly visible.
+    Demons and undead are frightened by it.
+- name: The Martyr's Burden
+  descr: >-
+    Target two creatures.
+    When either of them suffers damage or ability loss, half is transferred to the other.
+  enhancements:
+  - As long as one of the targets lives, the other does as well, no matter how terrible their wounds are.
+    However, if they were supposed to die while under the effect of the spell, they succumb once it ends.
+- name: Watch Over the Final Repose
+  descr: >-
+    Target a corpse.
+    It will not decay and can't be targeted by arcane spells.
+  enhancements:
+  - The body acts as a conduit to the spirit of the demised.
+    People can pray in front of the corpse and ask a question.
+    The spirit might sporadically grant an answer.
+- name: White Flame of Sarush
+  descr: >-
+    Instantaneous.
+    Target an unlit light source, such as a *candle*, an *oil lamp*, a *torch*, or a bonfire.
+    It is instantly lit with a bright white flame.
+    The flame grants protection from poison, venom, and disease to those under its light,
+    but doesn't cure already afflicted people.
+  enhancements:
+  - The flame is particularly intense, and the light radius is doubled.
+    If this enhancement is applied more than once, the light becomes so bright that it blinds anyone looking directly at it.
+
+# - name: plague vessel
+#   descr: >-
+#     Target a creature afflicted by a contagious disease.
+#     You absorb the disease from the target, who is instantly healed, but become sick yourself.
+#     Even if you are immune to the disease, you will still be able to spread if for the next watch.
+#   enhancements:
+#   - Target another creature, who replaces you as the carrier of the disease.
+# - name: radiant honesty
+#   descr: >-
+#     Target a creature of human intelligence.
+#     The target is unable to lie, but also exudes trustworthiness and automatically succeed at reasonable manipulation attempts.
+# - name: wood shape
+#   descr: >-
+#     Target a creature.
+#     The target turns into a tree.
+#     They are still able to perceive their surroundings.
+# - name: star sign
+#   descr: >-
+#     Target a celestial body (the Sun, the Moon, a planet, a star, etc.) at any range.
+#     You can subtly alter its appearance (make it slightly larger, smaller, brighter, darker, etc.).
+#     You can keep altering appearance as long as you concentrate, otherwise it remains as you left it until the spell is over.
+#     Characters with the *erudite* skill can tell something is different, even if subtle.
+#   enhancements:
+#   - You can alter target's appearance in a rather evident way, so that pretty much everyone can see the difference.
+# - name: restoration
+#   descr: >-
+#     Target a venom, poison, drug, or disease afflicting a creature.
+#     Venom, poison, or drugs are immediately neutralised.
+#     The next STR roll against the targeted disease automatically passes.
+# - name: hold secret
+#   descr: >-
+#     Target a creature and name a topic.
+#     The target is physically unable to talk about the topic, and will compulsively lie if forced to.
+# - name: Face of Joy and Health
+#   descr: >-
+#     Target a creature.
+#     The target's appearance becomes perfect and free of any blemish:
+#     signs of disease, injury, affliction, old age, and mutation completely disappear.
+#     The appearance might in fact be too perfect, almost uncanny (the skin is too smooth, the cheeks are too rosy, etc.).
+#     The change is real, not an illusion, but any underlying affliction isn't cured.

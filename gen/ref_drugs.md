@@ -1,25 +1,15 @@
-* **Corpse mandrake** (8ʂ, bulk ½).
-_Consumable_.
-Drug: you are numb to pain until the end of the watch, and you aren't be _incapacitated_ by critical damage.
-
-
-* **Crimson weed** (8ʂ, bulk ½).
-_Consumable_.
-Drug: you temporarily increase all abilities by 2, then, at the end of the watch, you temporarily reduce all abilities by 4.
-
-
-* **Darkroot** (8ʂ, bulk ½).
-_Consumable_.
-Drug: Recover health equal to half your STR unless you are _dying_, but you become _groggy_ until the end of the watch.
-
-
-* **Madcap mushrooms** (8ʂ, bulk ½).
-_Consumable_.
-Drug: You become _frenzied_ until the end of the stretch.
-
-
-* **Pipe & pipe-weed** (2ʂ, bulk ½).
-_Consumable_.
-Drug: after failing a save in a situation requiring thinking, smoke it to repeat the save once.
-
-
+* **Corpse mandrake** (4ʂ).
+  Consumable, addictive.
+  Chew it to become numb to pain until the next stretch: you lose 2 AGI but can't be *incapacitated* by damage.
+* **Crimson weed** (4ʂ).
+  Consumable, addictive.
+  Smoke it to increase all abilities by 2. However, you reduce all abilities by 3 at the end of the stretch.
+* **Darkroot** (4ʂ).
+  Consumable, addictive.
+  Eat it to recover d8 health (at most half the maximum). However, you lose 2 WIT.
+* **Mad mushrooms** (4ʂ).
+  Consumable, addictive.
+  Eat it to become *frenzied* until the next stretch and gain 2 STR. At the end of the stretch, lose 2 STR.
+* **Pipeweed** (4ʂ).
+  Consumable, addictive.
+  Smoke it to feel a boost of energy and focus, clearing the *groggy* condition.

@@ -1,23 +1,13 @@
-* **Candle** (1ʂ, bulk ½).
-_Consumable_.
-Illuminates a zone until the end of the watch.
-
-
-* **Torch** (2ʂ).
-_Consumable_.
-Illuminates all zones within range 1 until the end of the watch. Can be used to attack, inflicting d4 fire damage, but counts as _fragile_.
-
-
-* **Oil lamp** (4ʂ, bulk ½).
-_Consumable_.
-Illuminates all zones within range 1 until the end of the watch.
-
-
-* **Flint & tinder** (4ʂ, bulk ½).
-Can be used to start a fire.
-
-
+* **Candle** (1ʂ).
+  Consumable.
+  Illuminates a zone. Burns until the next watch.
+* **Oil lamp** (4ʂ).
+  Consumable.
+  Illuminates all zones within close range. Burns until the next watch.
 * **Lantern** (4ʂ).
-Holds a _candle_ or an _oil lamp_, protecting it from wind and water. Can be hung from a belt, and can screen the light to conceal it.
-
-
+  Can hold a *candle* or an *oil lamp*. Shields the light source from wind and water and can conceal it. You can hang it from a belt, keeping your hands free.
+* **Torch** (1ʂ, bulk 2).
+  Consumable.
+  Illuminates all zones within close range. Burns until the next watch. You can use it to make a melee attack inflicting d4 fire damage, but is then destroyed.
+* **Flint & tinder** (4ʂ).
+  You can use them to start a fire.

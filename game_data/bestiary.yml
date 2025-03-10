@@ -1,0 +1,439 @@
+dummy:
+- name: Name
+  descr: Description.
+  str: 6
+  agi: 8
+  wit: 10
+  mana: 1
+  omens: 1
+  size: Tiny
+  armour: 1
+  attacks:
+  - - dagger
+    - damage: D4
+  traits:
+  - name: undead
+  - name: flying
+  - name: skilled blow
+  - name: true grit
+  special_traits:
+    special trait 1: details.
+    special trait 2: details.
+
+
+monsters:
+- name: Beastman
+  descr: >-
+    A brutish savage with hairy skin and bestial face and features.
+    They fill their ranks by forcing captives into a terrible blood ritual.
+  size: Medium
+  str: 10
+  agi: 8
+  wit: 8
+  attacks:
+  - - martial great weapon
+    - damage: D8
+  - - horns
+    - damage: D4
+- name: Bloodspiller
+  descr: >-
+    A terrifying demon which looks like a large horned man brandishing a giant sword, its skin constantly exuding fresh blood.
+    It collects the skulls of slain mortals.
+  size: Medium
+  str: 16
+  agi: 8
+  wit: 8
+  attacks:
+  - - demonic greatsword
+    - damage: D10
+  traits:
+  - name: demon
+  - name: frenzied
+  - name: frightening
+- name: Cerulean Horror
+  descr: >-
+    A mess of brightly coloured flesh and bones, constantly shifting shape.
+    It sees mortals as clay to be mould.
+  size: Medium
+  str: 8
+  agi: 16
+  wit: 8
+  skills:
+  - dodge blows
+  - erudite
+  - literate
+  traits:
+  - name: demon
+  - name: corrupting
+    descr: 2
+  - name: frightening
+  special_traits:
+    split: >-
+      Each time it takes damage, it splits into two copies of itself, each with half the original STR and health.
+  attacks:
+  - - bite
+    - damage: D6
+  - - eldritch fire
+    - damage: D6
+      properties:
+      - !Range 8
+- name: Corrupter
+  descr: >-
+    A shapeshifting demon taking attractive and seductive forms.
+    It wants to corrupt the pure.
+  size: Medium
+  str: 8
+  agi: 8
+  wit: 16
+  mana: 4
+  traits:
+  - name: demon
+  - name: witchcraft
+    descr: bewitch
+  special_traits:
+    shapeshifting: Can change appearance at will, but it is only an illusion and doesn't change its capabilities.
+  attacks:
+  - - barbed tongue-whip
+    - damage: D4
+      properties:
+      - Grab
+- name: Gargoyle
+  descr: >-
+    A horrifying creature with skin made of stone.
+    It craves human flesh.
+  size: Medium
+  str: 12
+  agi: 4
+  wit: 8
+  traits:
+  - name: flying
+  - name: frightening
+  attacks:
+  - - stone fists
+    - damage: D6
+  armour: 3
+  special_traits:
+    concealment: >-
+      Can stand perfectly still, poising as a statue.
+      It's impossible to tell the difference.
+- name: Ghoul
+  descr: >-
+    A sinful wretch, cursed to live in darkness and eat human flesh.
+  str: 10
+  agi: 10
+  wit: 8
+  traits:
+  - name: undead
+  - name: nightcrawler
+  attacks:
+  - - bite
+    - damage: D6
+  special_traits:
+    curse: >-
+      anyone wounded by a ghoul contracts a disease known as the ghoul's curse.
+      If they are killed by this sickness, they come back to life as a ghoul.
+- name: Goblin
+  descr: >-
+    Tiny green-skinned pests.
+    They are driven by an instinct to fight, kill, and cheat.
+    They emit spores which grow into cocoons gestating new goblins.
+  size: Medium
+  str: 6
+  agi: 10
+  wit: 8
+  attacks:
+  - - light weapon
+    - damage: D4
+- name: Ogre
+  descr: >-
+    Giant mountains of muscle.
+    Not the brightest nor the most agile, but their brute strength serves them well on many occasions.
+  size: Medium
+  str: 12
+  agi: 6
+  wit: 6
+  attacks:
+  - - simple great weapon
+    - damage: D6
+  traits:
+  - name: sturdy
+- name: Plague Brewer
+  descr: >-
+    A skull-faced man with horribly bloated skin, covered in pustules and boils.
+    Creates new diseases and experiments on humans.
+  size: Medium
+  str: 12
+  agi: 4
+  wit: 12
+  mana: 4
+  attacks:
+  - - rusty dagger
+    - damage: D4
+  traits:
+  - name: demon
+  - name: frightening
+  - name: witchcraft
+    descr: Plaguebearer's Gift
+  armour: 1
+- name: Shambling Corpse
+  descr: A rotting corpse reanimated by dark magic.
+  size: Medium
+  str: 8
+  agi: 4
+  wit: 4
+  attacks:
+  - - simple hand weapon
+    - damage: D4
+  traits:
+  - name: undead
+  - name: frenzied
+- name: Troll
+  descr: >-
+    A stinky, horrifying giant.
+    It lives in swamps and feasts on rotten meat.
+  size: Huge
+  str: 12
+  agi: 4
+  wit: 4
+  attacks:
+  - - huge club
+    - damage: D6
+  - - claws
+    - damage: D4
+  traits:
+  - name: frightening
+  - name: regeneration
+- name: Wyrm
+  descr: >-
+    A gigantic winged lizard, capable of breathing scorching fire.
+  size: Huge
+  str: 16
+  agi: 4
+  wit: 8
+  traits:
+  - name: beast
+  - name: frightening
+  - name: flying
+  armour: 1
+  attacks:
+  - - bite & tail
+    - damage: D8
+  - - fire breath
+    - damage: D8
+      damage_descr: fire
+      properties:
+      - !Range 2
+      - Blast
+      - OneShot
+
+domesticated animals:
+- name: light horse
+  cost: 128
+  str: 12
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  - name: sturdy
+  attacks:
+  - - hooves
+    - damage: D6
+- name: heavy horse
+  cost: 256
+  str: 16
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  - name: sturdy
+  attacks:
+  - - hooves
+    - damage: D6
+- name: mule
+  cost: 64
+  str: 12
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: sturdy
+  attacks:
+  - - hooves
+    - damage: D6
+- name: cattle
+  cost: 128
+  str: 16
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: sturdy
+  attacks:
+  - - hooves
+    - damage: D6
+- name: farm animal
+  cost: 4
+  str: 4
+  agi: 4
+  wit: 8
+  traits:
+  - name: beast
+  attacks:
+  - - hooves or bite
+    - damage: D4
+  descr: Pigs, sheep, goats, etc.
+- name: small dog
+  cost: 8
+  str: 4
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  attacks:
+  - - bite
+    - damage: D4
+- name: large dog
+  cost: 32
+  str: 8
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  attacks:
+  - - bite
+    - damage: D6
+- name: cat
+  cost: 8
+  size: Tiny
+  str: 12
+  agi: 12
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  attacks:
+  - - bite & claws
+    - damage: D6
+- name: chicken
+  cost: 2
+  size: Tiny
+  str: 8
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  attacks:
+  - - beak
+    - damage: D4
+- name: duck
+  cost: 2
+  size: Tiny
+  str: 8
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: flying
+  attacks:
+  - - beak
+    - damage: D4
+
+wild animals:
+- name: bat
+  cost: 2
+  size: Tiny
+  str: 4
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  - name: flying
+  attacks:
+  - - bite
+    - damage: D4
+- name: bear
+  cost: 128
+  str: 16
+  agi: 4
+  wit: 8
+  traits:
+  - name: beast
+  - name: sturdy
+  attacks:
+  - - bite & claws
+    - damage: D6
+- name: boar
+  cost: 16
+  str: 8
+  agi: 4
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  attacks:
+  - - tusks
+    - damage: D6
+- name: deer
+  cost: 16
+  str: 8
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  attacks:
+  - - antlers
+    - damage: D4
+- name: hawk
+  cost: 16
+  size: Tiny
+  str: 12
+  agi: 12
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  - name: flying
+  attacks:
+  - - beak & talons
+    - damage: D6
+- name: rat
+  cost: 2
+  size: Tiny
+  str: 8
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  attacks:
+  - - bite
+    - damage: D4
+- name: wolf
+  cost: 32
+  str: 8
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  - name: fast
+  attacks:
+  - - bite
+    - damage: D6
+- name: viper
+  cost: 2
+  size: Tiny
+  str: 4
+  agi: 8
+  wit: 8
+  traits:
+  - name: beast
+  attacks:
+  - - bite
+    - damage: D4
+      damage_descr: black adder venom

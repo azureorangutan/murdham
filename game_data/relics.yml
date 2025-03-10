@@ -1,0 +1,60 @@
+- name: Blade of Chaos
+  bulk: 4
+  properties:
+  - !Weapon
+    damage: D10
+  descr: >-
+    When this sword inflicts at least 10 damage, it casts the *Deathly Curse of Tramar* spell.
+    The wielder is unaffected.
+- name: Book of Sins
+  bulk: 1
+  descr: >-
+    This heavy tome records the sins committed by everyone.
+    Searching for someone's entry takes a stretch.
+- name: Chainmail of Valor
+  bulk: 1
+  descr: >-
+    Armour 1.
+    This chainmail is extremely light, and so thin it can be easily concealed below normal clothes.
+- name: Cheater's Coin
+  bulk: 1
+  descr: >-
+    When you flip this coin, it always lands on the face you think of.
+- name: Cursed Shield of Tarkaz
+  bulk: 2
+  descr: >-
+    Anyone looking at this ancient shield must pass a WIT roll or be compelled to attack the wielder.
+- name: Daredevil's Compass
+  bulk: 1
+  descr: >-
+    Its needle points to the direction of the closest danger.
+- name: Elfbone Bow
+  bulk: 4
+  properties:
+  - !Weapon
+    damage: D8
+    properties:
+    - !Range extreme
+  descr: >-
+    This bow always hits, no matter how hard the shot is.
+- name: Ring of annihilation
+  bulk: 1
+  descr: >-
+    Anything going through this plain finger-ring is annihilated.
+- name: Teeth of the Interrogator
+  bulk: 1
+  descr: >-
+    A tiny box containing a few teeth, which rattle loudly if a lie is told nearby.
+- name: Tongue of Truth
+  bulk: 1
+  descr: >-
+    When this tongue is placed inside a skull, it will scream its last words.
+- name: Torch of Immortality
+  bulk: 2
+  descr: >-
+    While holding this burning torch you can't be *incapacitated* or die.
+    However, if you were supposed to die while under this effect, you succumb as soon as the torch is lost or extinguished.
+- name: Twin Horns of Serlek
+  bulk: 1
+  descr: >-
+    When one horn is blown it remains silent, but sound comes out of the other one.

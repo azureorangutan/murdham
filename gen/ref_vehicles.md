@@ -1,25 +1,9 @@
-* **Cart** (256ʂ, bulk 32).
-_Health 8/1_, _vehicle 4_.
-
-* **Coach** (1024ʂ, bulk 64).
-_Health 16/2_, _vehicle 8_.
-
-* **Chariot** (256ʂ, bulk 16).
-_Health 8/1_, _vehicle 2_.
-
-* **Rowing boat** (256ʂ, bulk 32).
-_Health 8/1_, _vehicle 4_.
-Must be rowed by 4 characters.
-
-* **Large rowing boat** (1024ʂ, bulk 64).
-_Health 16/2_, _vehicle 8_.
-Must be rowed by 8 characters.
-
-* **Sailing boat** (1024ʂ, bulk 32).
-_Health 8/1_, _vehicle 4_.
-Must be rowed by 4 characters, or sailed by a character with the _river lore_ skill.
-
-* **Large sailing boat** (2048ʂ, bulk 64).
-_Health 16/2_, _vehicle 8_.
-Must be rowed by 8 characters, or sailed by 2 characters with the _river lore_ skill.
-
+* **Small vehicle** (64ʂ, bulk 16).
+  Structure 8, armour 1.
+  Chariot, canoe. Carries 2 people and their gear (you can replace one person with 32 bulk).
+* **Medium vehicle** (256ʂ, bulk 32).
+  Structure 16, armour 1.
+  Cart, boat. Carries 4 people and their gear (you can replace one person with 32 bulk).
+* **Large vehicle** (1024ʂ, bulk 64).
+  Structure 32, armour 1.
+  Stagecoach, barge. Carries 8 people and their gear (you can replace one person with 32 bulk).

@@ -1,4 +1,4 @@
-module hugo_site
+module the_end_times
 
 go 1.22.3
 
