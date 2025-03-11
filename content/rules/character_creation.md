@@ -47,8 +47,8 @@ Roll a d4 on the advancement table below and either acquire a skill or increase 
 
 {{% include "../gen/tb_starting_skills.md" %}}
 
-## 4. Additional item
-Roll a d12 and a d4 for an additional starting item on the table below.
+## 4. Additional items
+In addition to what is provided by your career, you start with a *waterskin* and another additional item rolled wht a d10 and a d6 on the table below.
 
 {{% include "../gen/tb_extra_items.md" %}}
 

@@ -148,7 +148,7 @@
 *You stalk dark alleys and remote paths to rob unfortunate passers-by. You aren't above taking someone's life if there is something to be earned.*\
 **Abilities**: +1 AGI, +1 WIT.\
 **Skills**: sneak attack, stealth.\
-**Trappings**: clothes (scarf to cover your face), simple hand weapon (cudgel), silver piece (stolen bracelet), 16ʂ.
+**Trappings**: clothes (scarf to cover your face), simple hand weapon (cudgel), silver jewel (stolen bracelet), 16ʂ.
 
 ## Gambler
 

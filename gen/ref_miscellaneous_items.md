@@ -12,6 +12,8 @@
   WIT contest to win a game.
 * **Chain** (4ʂ).
   2 metres. Adjust cost and bulk proportionally for shorter/longer chains.
+* **Chess set** (16ʂ, bulk 2).
+  WIT contest to win a game.
 * **Dice** (4ʂ).
   Randomly determine the winner.
 * **Gold jewel** (64ʂ).
@@ -32,7 +34,7 @@
   Bulk 0 while worn by a mount. Required to ride. Includes saddlebags to store any number of items of bulk 8 or less.
 * **Signet ring** (16ʂ).
   Used to leave a signature on sealing wax.
-* **Silver piece** (16ʂ).
+* **Silver jewel** (16ʂ).
   An ingot, ring, necklace, bracelet, etc., made of silver.
 * **Trinket** (1ʂ).
   Useless and mostly worthless. Skull, bag of dirt or dung, dirty pillow, chalk, etc.
