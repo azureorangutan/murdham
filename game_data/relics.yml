@@ -4,7 +4,7 @@
   - !Weapon
     damage: D10
   descr: >-
-    When this sword inflicts at least 10 damage, it casts the *Deathly Curse of Tramar* spell.
+    When this sword inflicts at least 10 damage, it casts the *Deathly Curse of Tramar* spell, enhanced to affect medium characters.
     The wielder is unaffected.
 - name: Book of Sins
   bulk: 1

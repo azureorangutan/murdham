@@ -392,6 +392,11 @@ miscellaneous items:
   descr: >-
     2 metres.
     Adjust cost and bulk proportionally for shorter/longer chains.
+- name: chess set
+  value: 16
+  bulk: 2
+  descr: >-
+    WIT contest to win a game.
 - name: dice
   value: 4
   bulk: 1
@@ -446,7 +451,7 @@ miscellaneous items:
   bulk: 1
   descr: >-
     Used to leave a signature on sealing wax.
-- name: silver piece
+- name: silver jewel
   value: 16
   bulk: 1
   descr: An ingot, ring, necklace, bracelet, etc., made of silver.

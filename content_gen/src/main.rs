@@ -760,7 +760,7 @@ fn generate_rules() -> Result<(), Box<dyn Error>> {
             .iter()
             .map(|x| x.markdownify())
             .collect::<Vec<String>>();
-        gen_table(&base_path, "Extra items", &items, 4)?;
+        gen_table(&base_path, "Extra items", &items, 6)?;
     }
 
     Ok(())
@@ -787,15 +787,11 @@ pub fn generate_javascript() -> Result<(), Box<dyn Error>> {
         writeln!(f, "export const careers = [\n")?;
         for career in careers {
             writeln!(f, "  {{")?;
-            writeln!(
-                f,
-                "    male_name: \"{}\",",
-                career.male_name.to_case(Case::Title)
-            )?;
+            writeln!(f, "    male_name: \"{}\",", capitalise(career.male_name))?;
             writeln!(
                 f,
                 "    female_name: \"{}\",",
-                career.female_name.to_case(Case::Title)
+                capitalise(career.female_name)
             )?;
             writeln!(
                 f,

@@ -1,6 +1,6 @@
 1. **Blade of Chaos** (bulk 4).
   Weapon (d10).
-  When this sword inflicts at least 10 damage, it casts the *Deathly Curse of Tramar* spell. The wielder is unaffected.
+  When this sword inflicts at least 10 damage, it casts the *Deathly Curse of Tramar* spell, enhanced to affect medium characters. The wielder is unaffected.
 1. **Book of Sins**.
   This heavy tome records the sins committed by everyone. Searching for someone's entry takes a stretch.
 1. **Chainmail of Valor**.

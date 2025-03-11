@@ -114,8 +114,8 @@ export const careers = [
     ],
   },
   {
-    male_name: "Barber Surgeon",
-    female_name: "Barber Surgeon",
+    male_name: "Barber-surgeon",
+    female_name: "Barber-surgeon",
     description: "Fixing bloody wounds, broken bones, and decaying limbs with stitches, razors, and hacksaws is a messy business. You have learnt to ignore your patients' screams of agony.",
     str: 0,
     agi: 1,
@@ -133,8 +133,8 @@ export const careers = [
     ],
   },
   {
-    male_name: "Beast Tamer",
-    female_name: "Beast Tamer",
+    male_name: "Beast tamer",
+    female_name: "Beast tamer",
     description: "If one thing is certain, it is that you can trust animals more than your fellow humans. There is no beast you can't break and train to obedience.",
     str: 1,
     agi: 1,
@@ -209,8 +209,8 @@ export const careers = [
     ],
   },
   {
-    male_name: "Bone Picker",
-    female_name: "Bone Picker",
+    male_name: "Bone-picker",
+    female_name: "Bone-picker",
     description: "One person's rubbish is another person's treasure. You scour the roads, graves, and gutters looking for junk to sell for a few pennies.",
     str: 1,
     agi: 0,
@@ -230,8 +230,8 @@ export const careers = [
     ],
   },
   {
-    male_name: "Bounty Hunter",
-    female_name: "Bounty Huntress",
+    male_name: "Bounty hunter",
+    female_name: "Bounty huntress",
     description: "You are the terror of criminals and outlaws. You relentlessly pursue the bounty on their heads.",
     str: 0,
     agi: 1,
@@ -307,8 +307,8 @@ export const careers = [
     ],
   },
   {
-    male_name: "Coach Driver",
-    female_name: "Coach Driver",
+    male_name: "Coach driver",
+    female_name: "Coach driver",
     description: "You worked for a coaching company, driving and protecting stagecoaches across the dangerous roads of the Kingdom. Your trustworthy blunderbuss is always by your side.",
     str: 1,
     agi: 0,
@@ -361,8 +361,8 @@ export const careers = [
     ],
   },
   {
-    male_name: "Fire Eater",
-    female_name: "Fire Eater",
+    male_name: "Fire eater",
+    female_name: "Fire eater",
     description: "You were a performer at a travelling carnival. You can juggle burning sticks, extinguish them with your mouth, and even breathe fire!",
     str: 1,
     agi: 1,
@@ -414,7 +414,7 @@ export const careers = [
     trappings: [
       "clothes (scarf to cover your face)",
       "simple hand weapon (cudgel)",
-      "silver piece (stolen bracelet)",
+      "silver jewel (stolen bracelet)",
       "16ʂ",
     ],
   },
@@ -667,8 +667,8 @@ export const careers = [
     ],
   },
   {
-    male_name: "Rat Catcher",
-    female_name: "Rat Catcher",
+    male_name: "Rat catcher",
+    female_name: "Rat catcher",
     description: "Rats are everywhere and nobody likes them. You make a living getting rid of the pests, but you swear they are getting larger and nastier by the day.",
     str: 1,
     agi: 0,
@@ -835,8 +835,8 @@ export const careers = [
     ],
   },
   {
-    male_name: "Tomb Robber",
-    female_name: "Tomb Robber",
+    male_name: "Tomb robber",
+    female_name: "Tomb robber",
     description: "Unimaginable treasures are buried in ancient crypts and old tombs. Their previous owners aren't going to miss them.",
     str: 0,
     agi: 0,
@@ -856,8 +856,8 @@ export const careers = [
     ],
   },
   {
-    male_name: "Witch Hunter",
-    female_name: "Witch Huntress",
+    male_name: "Witch hunter",
+    female_name: "Witch huntress",
     description: "Warlocks, witches, and sorcerers are a threat to mankind. They are destined to meet their end engulfed in the flames of a pyre.",
     str: 1,
     agi: 0,
@@ -1072,9 +1072,15 @@ export const starting_skills = [
 ];
 
 export const extra_items = [
+  "light weapon",
+  "simple hand weapon",
+  "simple great weapon",
   "martial hand weapon",
+  "martial great weapon",
   "missile hand weapon",
+  "missile great weapon",
   "handgun",
+  "long gun",
   "mancatcher",
   "net",
   "acid vial",
@@ -1117,9 +1123,15 @@ export const extra_items = [
   "torture kit",
   "trapping kit",
   "writing kit",
+  "animal trophy (wolf pelt, medium size)",
   "bear trap",
   "caltrops",
+  "chess set",
+  "lockbox",
   "lucky charm",
+  "music instrument (flute)",
+  "oil lamp",
+  "rope",
 ];
 
 export const arcane_spells = [

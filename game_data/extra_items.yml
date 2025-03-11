@@ -1,6 +1,13 @@
+- name: light weapon
+- name: simple hand weapon
+- name: simple great weapon
 - name: martial hand weapon
+- name: martial great weapon
 - name: missile hand weapon
+- name: missile great weapon
 - name: handgun
+- name: long gun
+
 - name: mancatcher
 - name: net
 - name: acid vial
@@ -63,6 +70,14 @@
 - name: trapping kit
 - name: writing kit
 
+- name: animal trophy
+  descr: wolf pelt, medium size
 - name: bear trap
 - name: caltrops
+- name: chess set
+- name: lockbox
 - name: lucky charm
+- name: music instrument
+  descr: flute
+- name: oil lamp
+- name: rope

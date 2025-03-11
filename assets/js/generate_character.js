@@ -1,5 +1,84 @@
 import * as Data from "./data.js"
 
+const light_weapons = [
+    "cudgel",
+    "dagger",
+    "knife",
+    "knuckledusters",
+    "garrotte",
+    "parrying dagger",
+];
+
+const simple_hand_weapons = [
+    "bullwhip",
+    "cleaver",
+    "club",
+    "hammer",
+    "hatchet",
+    "sickle",
+];
+
+const simple_great_weapons = [
+    "boat hook",
+    "hoe",
+    "large club",
+    "pickaxe",
+    "pitchfork",
+    "quarterstaff",
+    "sledgehammer",
+    "shovel",
+    "spade",
+    "woodcutting axe",
+];
+
+const martial_hand_weapons = [
+    "arming sword",
+    "battleaxe",
+    "flail",
+    "mace",
+    "morningstar",
+    "spear",
+    "thrusting sword",
+    "warhammer",
+];
+
+const martial_great_weapons = [
+    "glaive",
+    "halberd",
+    "heavy battleaxe",
+    "heavy flail",
+    "lucerne hammer",
+    "pike",
+    "voulge",
+    "zweihänder",
+];
+
+const missile_hand_weapons = [
+    "blowgun",
+    "darts",
+    "hand crossbow",
+    "harpoons",
+    "javelins",
+    "sling",
+    "throwing knives",
+    "throwing stars",
+];
+
+const missile_great_weapons = [
+    "bow",
+    "crossbow",
+];
+
+const handguns = [
+    "dragon",
+    "pistol",
+];
+
+const long_guns = [
+    "arquebus",
+    "blunderbuss",
+];
+
 function random_array_element(array) {
     let idx = Math.floor(Math.random() * array.length);
     return array[idx];
@@ -101,8 +180,45 @@ function generate_character() {
         }
         extra_item += " (" + poison_type + ")";
     }
+    else if (extra_item == "light weapon") {
+        let weapon = random_array_element(light_weapons);
+        extra_item += " (" + weapon + ")";
+    }
+    else if (extra_item == "simple hand weapon") {
+        let weapon = random_array_element(simple_hand_weapons);
+        extra_item += " (" + weapon + ")";
+    }
+    else if (extra_item == "simple great weapon") {
+        let weapon = random_array_element(simple_great_weapons);
+        extra_item += " (" + weapon + ")";
+    }
+    else if (extra_item == "martial hand weapon") {
+        let weapon = random_array_element(martial_hand_weapons);
+        extra_item += " (" + weapon + ")";
+    }
+    else if (extra_item == "martial great weapon") {
+        let weapon = random_array_element(martial_great_weapons);
+        extra_item += " (" + weapon + ")";
+    }
+    else if (extra_item == "missile hand weapon") {
+        let weapon = random_array_element(missile_hand_weapons);
+        extra_item += " (" + weapon + ")";
+    }
+    else if (extra_item == "missile great weapon") {
+        let weapon = random_array_element(missile_great_weapons);
+        extra_item += " (" + weapon + ")";
+    }
+    else if (extra_item == "handgun") {
+        let weapon = random_array_element(handguns);
+        extra_item += " (" + weapon + ")";
+    }
+    else if (extra_item == "long gun") {
+        let weapon = random_array_element(long_guns);
+        extra_item += " (" + weapon + ")";
+    }
     let money = trappings[trappings.length - 1]
     trappings[trappings.length - 1] = extra_item;
+    trappings.push("waterskin");
     trappings.push(money);
 
     // Spells
